@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "blocked": [
+    "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_aligned_model_20261111\\scored_cases.json",
+    "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\modern_school_gap_reference_20261114\\released_plans.json",
+    "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\modern_complete_reference_20261114\\released_support.json",
+    "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\modern_complete_reference_20261114\\weights\\unused.pt"
+  ],
+  "query_labels_unknown": true
+}

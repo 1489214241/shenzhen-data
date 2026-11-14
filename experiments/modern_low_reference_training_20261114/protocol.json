@@ -1,0 +1,68 @@
+{
+  "date": "2026-11-14",
+  "arms": [
+    "global_full",
+    "global_sparse",
+    "local_full",
+    "local_sparse"
+  ],
+  "seeds": [
+    20261231,
+    20261232,
+    20261233
+  ],
+  "sources": [
+    "天心区",
+    "芙蓉区",
+    "雨花区",
+    "开福区",
+    "拱墅区",
+    "萧山区",
+    "富阳区",
+    "临安区"
+  ],
+  "targets": [
+    "龙华区",
+    "龙岗区"
+  ],
+  "lr": 0.001,
+  "reg": 0.001,
+  "steps": 320,
+  "checkpoints": [
+    40,
+    80,
+    160,
+    320
+  ],
+  "batch": 32,
+  "dim": 32,
+  "clip": 5.0,
+  "episodes": 8,
+  "episode_seed": 20261114,
+  "primary": "global_sparse_policy minus global_full_policy",
+  "secondary": [
+    "local_sparse_policy minus local_full_policy",
+    "local_full_policy minus global_full_policy",
+    "local_sparse_policy minus global_sparse_policy"
+  ],
+  "hypothesis": "Training on scarce reference relations improves open-set school combination prediction without new target labels.",
+  "initialization": "Fresh identical random initializations for paired arms; no target-adapted or pretrained weights.",
+  "source_support": "Original independent policy references restricted to source training-fold groups. Full keeps all; sparse selects one relation per represented school, uniformly by project then coordinate. Zero-support schools remain candidates.",
+  "source_episodes": "Eight fixed sparse source views, cycled at training steps. Same query minibatches across arms; no target support resampling. Query own project excluded; it can therefore have zero remaining references for its school.",
+  "feature_rebuild": "Recompute learned boundaries from visible ORIGINAL singleton observations, group multiplicities, membership, known-row name suppression, all six context features. Static policy/road/community observations remain independent input.",
+  "scope": "Sparse SOURCE relation masking is not strict one-acquisition-per-school deployment. Target keeps all original weak refs, verified partial positives and fixed84 K1 complete supports.",
+  "labels": "Same source complete/partial labels and target old/verified partial positives plus K1 complete supports in all arms. Unknown is -1, not a negative. Complete support overrides partial estimate at same coordinate.",
+  "validation": "Same1246 source spatial holdout rows. Source support excludes ALL validation-fold groups. One separate fixed sparse view shared across arms. Source balanced single/multi exact selects checkpoint and global threshold, then fewer FP, then earlier step. Three-seed source ensemble recalibrates threshold. No Shenzhen validation or query labels used.",
+  "model": "Independent sigmoid masked BCE for all arms; local changes only global mean query into per-school prototype+anchor query, identical parameter count.",
+  "weights": "Equal property weighting with source complete single/multi mass balanced50/50; identical weights and training row draws across arms.",
+  "policy": "Identical existing native policy and reviewed supplements; university zones base only. Raw outputs also reported.",
+  "scoring": "Fixed common1095 queries; district/single/multi, unseen-combination diagnostics after freeze, corrected/harmed; paired district-stratified1km block bootstrap2000.",
+  "limitations": [
+    "Repeatedly explored development geography; no independent confirmation.",
+    "Fixed learning rate and320step cap; no exhaustive optimization or claim of convergence.",
+    "Old46.94percent uses different initialization/training/validation; report as contextual benchmark only.",
+    "School-aware K1 acquisition is an existing Gold simulation, not fresh official verification."
+  ],
+  "adopted": false,
+  "independent_validation": false
+}

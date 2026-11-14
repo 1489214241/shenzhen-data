@@ -1,0 +1,69 @@
+{
+  "passed": true,
+  "districts": {
+    "天心区": {
+      "training_rows": 732,
+      "visible_relations": 42,
+      "max_feature_error": 1.9073486345888568e-07,
+      "boundary_rebuilt": true,
+      "context_independently_recomputed": true,
+      "source_validation_groups_excluded": true
+    },
+    "芙蓉区": {
+      "training_rows": 534,
+      "visible_relations": 34,
+      "max_feature_error": 1.1994444104601598e-07,
+      "boundary_rebuilt": true,
+      "context_independently_recomputed": true,
+      "source_validation_groups_excluded": true
+    },
+    "雨花区": {
+      "training_rows": 1063,
+      "visible_relations": 70,
+      "max_feature_error": 1.9073486345888568e-07,
+      "boundary_rebuilt": true,
+      "context_independently_recomputed": true,
+      "source_validation_groups_excluded": true
+    },
+    "开福区": {
+      "training_rows": 732,
+      "visible_relations": 37,
+      "max_feature_error": 2.4105393142681564e-07,
+      "boundary_rebuilt": true,
+      "context_independently_recomputed": true,
+      "source_validation_groups_excluded": true
+    },
+    "拱墅区": {
+      "training_rows": 746,
+      "visible_relations": 36,
+      "max_feature_error": 1.9073486345888568e-07,
+      "boundary_rebuilt": true,
+      "context_independently_recomputed": true,
+      "source_validation_groups_excluded": true
+    },
+    "萧山区": {
+      "training_rows": 548,
+      "visible_relations": 58,
+      "max_feature_error": 2.3597248643980606e-07,
+      "boundary_rebuilt": true,
+      "context_independently_recomputed": true,
+      "source_validation_groups_excluded": true
+    },
+    "富阳区": {
+      "training_rows": 295,
+      "visible_relations": 6,
+      "max_feature_error": 3.0425637803643824e-07,
+      "boundary_rebuilt": true,
+      "context_independently_recomputed": true,
+      "source_validation_groups_excluded": true
+    },
+    "临安区": {
+      "training_rows": 303,
+      "visible_relations": 12,
+      "max_feature_error": 5.405138688296951e-07,
+      "boundary_rebuilt": true,
+      "context_independently_recomputed": true,
+      "source_validation_groups_excluded": true
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "scripts\\experiment_low_reference_training.py": "35d41a825249ccd2940fcde228cce969968b8c3b9aac6d195d16a99cfcb45d35",
+  "zoning\\low_reference_training.py": "3d002db33b2308a20daa1ee230407d7b0ad053a068222f188671e47b6bcecd97",
+  "tests\\test_low_reference_training.py": "56427b0a43b321674b9dfebec8ee8773c1ada929a56dc8b4c71bc7bf53356c8e",
+  "scripts\\experiment_school_gap_reference.py": "0bc60d0b7887f51f9fbe3ab14860d0cb10756667556e80a5ead3f5f6671d3708",
+  "scripts\\experiment_modern_complete_reference.py": "68308fb0f1379fb6a9e6835d608e05e66a88535fbd4b7af7a3e0ebeae2fda03f",
+  "scripts\\experiment_modernnca_shenzhen_multilabel.py": "5ada885c40d05ea040d7e50bbfdafc01750724b01693e027d3d38deef919f244",
+  "scripts\\shenzhen_exact_calibration.py": "aa034d072c13cf900d9fbc6d9a35a53343dc3210a0beb08a953dd4f3e81886b7",
+  "scripts\\shenzhen_balanced_ranking.py": "a0ba9e7732cfc39c330bac982794c1ba6bd090419ff0f9a4417fb455174cb307",
+  "zoning\\modernnca_multilabel.py": "8812204f35d151ac5e1276869a8ce227804d3b65f64d2c2b0a10103bf123e6ad",
+  "zoning\\modernnca_normalization.py": "90e7e1524596b7e029600574f9cea4b71685d5c68d6f21801f64e433660ce8df",
+  "zoning\\full_evidence.py": "597d501635b019d4b1999d2f2654f93b456b0eb0cd316a1fb565407016100f7a",
+  "zoning\\model.py": "75321b511e539c07daf9147d066873e3ef33546a5b08037bd3c5b434c22a8f34",
+  "zoning\\evidence.py": "e6569e216e516c807188d69d2fd7c152550ac7eab9977f101f92c2ec3dc6f058",
+  "scripts\\shenzhen_partial_model.py": "d81fe7146d59fd8778170828b3e81a8d445c7021120cde13c3a815f1817f62a2",
+  "scripts\\shenzhen_reviewed_supplements.py": "71080ab60da559fbbe8c5a638dc86448befb25354bc582a045fd6a3a7f524b69",
+  "scripts\\shenzhen_current_supplements.py": "d3ba58831b4183249c42a182b5eb276ed137dec9bdeaa969204a1d3aaed69d65",
+  "scripts\\shenzhen_scope_implication.py": "d0224bf21fac7085a0e297ffd8681d42debf7956fc0d13e0c37e26e32757f96b",
+  "third_party\\TALENT\\model\\models\\modernNCA.py": "02fce6a107998ab7212774507998e77535f630fbf4ee328acf8519ad7c10632f"
+}

@@ -1,0 +1,105 @@
+{
+  "passed": true,
+  "models": 12,
+  "district_model_replays": 24,
+  "replayed_query_predictions": 13140,
+  "target_gold_read": false,
+  "details": {
+    "龙华区/global_full/20261231": {
+      "rows": 460,
+      "max_difference": 0.0
+    },
+    "龙华区/global_full/20261232": {
+      "rows": 460,
+      "max_difference": 0.0
+    },
+    "龙华区/global_full/20261233": {
+      "rows": 460,
+      "max_difference": 0.0
+    },
+    "龙华区/global_sparse/20261231": {
+      "rows": 460,
+      "max_difference": 0.0
+    },
+    "龙华区/global_sparse/20261232": {
+      "rows": 460,
+      "max_difference": 0.0
+    },
+    "龙华区/global_sparse/20261233": {
+      "rows": 460,
+      "max_difference": 0.0
+    },
+    "龙华区/local_full/20261231": {
+      "rows": 460,
+      "max_difference": 0.0
+    },
+    "龙华区/local_full/20261232": {
+      "rows": 460,
+      "max_difference": 0.0
+    },
+    "龙华区/local_full/20261233": {
+      "rows": 460,
+      "max_difference": 0.0
+    },
+    "龙华区/local_sparse/20261231": {
+      "rows": 460,
+      "max_difference": 0.0
+    },
+    "龙华区/local_sparse/20261232": {
+      "rows": 460,
+      "max_difference": 0.0
+    },
+    "龙华区/local_sparse/20261233": {
+      "rows": 460,
+      "max_difference": 0.0
+    },
+    "龙岗区/global_full/20261231": {
+      "rows": 635,
+      "max_difference": 0.0
+    },
+    "龙岗区/global_full/20261232": {
+      "rows": 635,
+      "max_difference": 0.0
+    },
+    "龙岗区/global_full/20261233": {
+      "rows": 635,
+      "max_difference": 0.0
+    },
+    "龙岗区/global_sparse/20261231": {
+      "rows": 635,
+      "max_difference": 0.0
+    },
+    "龙岗区/global_sparse/20261232": {
+      "rows": 635,
+      "max_difference": 0.0
+    },
+    "龙岗区/global_sparse/20261233": {
+      "rows": 635,
+      "max_difference": 0.0
+    },
+    "龙岗区/local_full/20261231": {
+      "rows": 635,
+      "max_difference": 0.0
+    },
+    "龙岗区/local_full/20261232": {
+      "rows": 635,
+      "max_difference": 0.0
+    },
+    "龙岗区/local_full/20261233": {
+      "rows": 635,
+      "max_difference": 0.0
+    },
+    "龙岗区/local_sparse/20261231": {
+      "rows": 635,
+      "max_difference": 0.0
+    },
+    "龙岗区/local_sparse/20261232": {
+      "rows": 635,
+      "max_difference": 0.0
+    },
+    "龙岗区/local_sparse/20261233": {
+      "rows": 635,
+      "max_difference": 0.0
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "predictions\\龙华区.json": "e58b5c7bebcdf9e75b33aa60dc583368aa227cb40116c99f5a86a3628bc21d02",
+  "predictions\\龙岗区.json": "5ac7535fdb3b8a7564add26191e0794d8b52b6bd8371fbf2b57d0e57b6d82d05",
+  "target_probabilities\\龙华区_global_full.npz": "020c2a65a061c2159cb1dc9d9e6736508a13e75388491411dd881f884eded776",
+  "target_probabilities\\龙华区_global_sparse.npz": "c172f9a348c640a18087926306da10f761a668a77d867c199d1bb496278cdd2b",
+  "target_probabilities\\龙华区_local_full.npz": "ab3aa0c743d6c764d1e04a09b8e3b7b0ef77895aee9c21e6e32e04a0bebd965f",
+  "target_probabilities\\龙华区_local_sparse.npz": "ea97ee7fa920a4ae71ade91837bc0344cdc09d6740f87530d9ba658411d05db7",
+  "target_probabilities\\龙岗区_global_full.npz": "0ab1e67fafed43fa6876a83e0c3b41543984f946360c0cf4b26926ce7071f86d",
+  "target_probabilities\\龙岗区_global_sparse.npz": "0371b39e0327928ad167f904c0fd96f8840658de5e48ee60c99d7fc2a42932d7",
+  "target_probabilities\\龙岗区_local_full.npz": "ef00ee7b900ef6242fb0b3c0d13afa42dfac350a2c7bda2d8002021442c141da",
+  "target_probabilities\\龙岗区_local_sparse.npz": "a0b3ea1e5378cb45ab9bf2e77cbea45b539dd6c7109e55bad780d6285c6ccedb"
+}

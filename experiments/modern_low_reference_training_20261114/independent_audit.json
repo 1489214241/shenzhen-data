@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "metrics_recounted": true,
+  "raw_and_policy_replayed": 4380,
+  "target_new_labels": 84,
+  "query_count": 1095,
+  "reference_query_disjoint": true,
+  "prediction_and_selection_hashes_verified": true
+}

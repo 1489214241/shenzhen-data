@@ -9,14 +9,14 @@
     },
     {
       "path": "README.md",
-      "bytes": 4649,
-      "sha256": "82227e37a11c6a3811476628c4f158715363c48cb7c5e36222c94336a981f77a",
+      "bytes": 6476,
+      "sha256": "2a6a6511956a5a12928fb3a798994743ca640e51fd481a5f376ba70c9574b36e",
       "source": "publication_generated"
     },
     {
       "path": "experiments/README.md",
-      "bytes": 2841,
-      "sha256": "93728618de310d9460313c3c6a1979e7937b93355664dd68da2715c3f049585a",
+      "bytes": 3103,
+      "sha256": "0a0d72896dae6a5c5f6c2363f1b7ed3c2b4b9dfa16eedc8893e901d56fa76d7b",
       "source": "publication_generated"
     },
     {
@@ -24,6 +24,12 @@
       "bytes": 2051,
       "sha256": "2cb928a7f7c7a74be2f974a7a0952525c2219403ce13ba9dbe4233bb0334001c",
       "source": "publication_generated"
+    },
+    {
+      "path": "experiments/evaluate_low_reference_training.py",
+      "source": "publication_generated",
+      "bytes": 3369,
+      "sha256": "f82227f21a229da5b040c20f1dc4ba1a7aef59d0b809e6da4a01bf0dfb9af9a4"
     },
     {
       "path": "experiments/evaluate_reference_trials.py",
@@ -426,6 +432,246 @@
       "bytes": 1542,
       "sha256": "34dc1e9708c60f73bafb02aa27c2dc594910a64e6fe042d5de0ab2dda4f68bd5",
       "source": "学区归属模型_代码库/outputs/modern_conditional_admission_hybrid_20261113/source_calibration.json"
+    },
+    {
+      "path": "experiments/modern_low_reference_training_20261114/code_hashes.json",
+      "source": "学区归属模型_代码库/outputs/modern_low_reference_training_20261114/code_hashes.json",
+      "bytes": 2013,
+      "sha256": "569dd765da3747ae05e6a816c3a7b9dd13b246f6fd3628de845f41b5f6749e83"
+    },
+    {
+      "path": "experiments/modern_low_reference_training_20261114/feature_reconstruction_audit.json",
+      "source": "学区归属模型_代码库/outputs/modern_low_reference_training_20261114/feature_reconstruction_audit.json",
+      "bytes": 2222,
+      "sha256": "fffe092c348d52849eda2d56f5d24e163748ca2215e122708bddf270e8756def"
+    },
+    {
+      "path": "experiments/modern_low_reference_training_20261114/freeze.json",
+      "source": "学区归属模型_代码库/outputs/modern_low_reference_training_20261114/freeze.json",
+      "bytes": 11460,
+      "sha256": "7f22cf4d60495b0556aaa2f19bbf3675b46ff2e470e4d28e369c327c6d053701"
+    },
+    {
+      "path": "experiments/modern_low_reference_training_20261114/guard_audit.json",
+      "source": "学区归属模型_代码库/outputs/modern_low_reference_training_20261114/guard_audit.json",
+      "bytes": 584,
+      "sha256": "3e6e1410d3570b90785ca2e380377befa8695c83156a7ab80ee0efa267def7a6"
+    },
+    {
+      "path": "experiments/modern_low_reference_training_20261114/independent_audit.json",
+      "source": "学区归属模型_代码库/outputs/modern_low_reference_training_20261114/independent_audit.json",
+      "bytes": 232,
+      "sha256": "70aeb05f8d08ffef7821b8414e8caa0072891c2ca6c5fda057f3895a401e9b07"
+    },
+    {
+      "path": "experiments/modern_low_reference_training_20261114/input_audit.json",
+      "source": "学区归属模型_代码库/outputs/modern_low_reference_training_20261114/input_audit.json",
+      "bytes": 92924,
+      "sha256": "f45d4a95f1b310f043960f3781493308a25e9478be8a31cbd97a799897b22d44"
+    },
+    {
+      "path": "experiments/modern_low_reference_training_20261114/input_hashes.json",
+      "source": "学区归属模型_代码库/outputs/modern_low_reference_training_20261114/input_hashes.json",
+      "bytes": 18484,
+      "sha256": "e65503449d3904f4cd2a883d69a1cafc9e1d59f4bd61611b6ddae40745f51f04"
+    },
+    {
+      "path": "experiments/modern_low_reference_training_20261114/k1_release.json",
+      "source": "学区归属模型_代码库/outputs/modern_low_reference_training_20261114/k1_release.json",
+      "bytes": 540949,
+      "sha256": "4c45119e462c2759b7f5bf14d1cc367a082b3bdcdff851d75b6894a5351380e1"
+    },
+    {
+      "path": "experiments/modern_low_reference_training_20261114/prediction_freeze.json",
+      "source": "学区归属模型_代码库/outputs/modern_low_reference_training_20261114/prediction_freeze.json",
+      "bytes": 1189,
+      "sha256": "42f9a15f08da1ba0913e93288461b9aadb199d78c8a9ecc3f30b39b428979dc2"
+    },
+    {
+      "path": "experiments/modern_low_reference_training_20261114/protocol.json",
+      "source": "学区归属模型_代码库/outputs/modern_low_reference_training_20261114/protocol.json",
+      "bytes": 3758,
+      "sha256": "7cff6c94d65c4e80851c388b4f34b9395ca89078832510eee4da912a7a60b531"
+    },
+    {
+      "path": "experiments/modern_low_reference_training_20261114/release_receipt.json",
+      "source": "学区归属模型_代码库/outputs/modern_low_reference_training_20261114/release_receipt.json",
+      "bytes": 202,
+      "sha256": "d3fac9c7a5a25e2c7e68ac7ea0236d014049cd6dcffbdb9267ab9cb8db02ef38"
+    },
+    {
+      "path": "experiments/modern_low_reference_training_20261114/results.json",
+      "source": "学区归属模型_代码库/outputs/modern_low_reference_training_20261114/results.json",
+      "bytes": 19704,
+      "sha256": "2d7ead6118f728a8a9f51f4a5ba6b5df2c00e0211f6ff7bf8727066933975c5d"
+    },
+    {
+      "path": "experiments/modern_low_reference_training_20261114/scored_rows/archived_modern_frozen_policy.json",
+      "source": "学区归属模型_代码库/outputs/modern_low_reference_training_20261114/scored_rows/archived_modern_frozen_policy.json",
+      "bytes": 566796,
+      "sha256": "7467a60101b16d31ac33a99885dac52a80047d96851e579e2645435b8091839f"
+    },
+    {
+      "path": "experiments/modern_low_reference_training_20261114/scored_rows/archived_modern_tuned_policy.json",
+      "source": "学区归属模型_代码库/outputs/modern_low_reference_training_20261114/scored_rows/archived_modern_tuned_policy.json",
+      "bytes": 565895,
+      "sha256": "f86a22d8162dd4eecf60d8f476e55402803215361ceac2cd47aa9e4db2c65e40"
+    },
+    {
+      "path": "experiments/modern_low_reference_training_20261114/scored_rows/global_full_policy.json",
+      "source": "学区归属模型_代码库/outputs/modern_low_reference_training_20261114/scored_rows/global_full_policy.json",
+      "bytes": 640214,
+      "sha256": "c44c4d78a5a32e0a7d777384236eed175bcd0e5c3cb3f1fb5d1849d6214e35ad"
+    },
+    {
+      "path": "experiments/modern_low_reference_training_20261114/scored_rows/global_full_raw.json",
+      "source": "学区归属模型_代码库/outputs/modern_low_reference_training_20261114/scored_rows/global_full_raw.json",
+      "bytes": 615933,
+      "sha256": "1dd74894fe6b6ea90f10d6f490b8b5f5979d0ff4cc9862c8bb1f840a134c7315"
+    },
+    {
+      "path": "experiments/modern_low_reference_training_20261114/scored_rows/global_sparse_policy.json",
+      "source": "学区归属模型_代码库/outputs/modern_low_reference_training_20261114/scored_rows/global_sparse_policy.json",
+      "bytes": 682750,
+      "sha256": "97db60cc72b4f9d0369fe28412f6b87977d2929a45648795e7280bbf9db3eeaa"
+    },
+    {
+      "path": "experiments/modern_low_reference_training_20261114/scored_rows/global_sparse_raw.json",
+      "source": "学区归属模型_代码库/outputs/modern_low_reference_training_20261114/scored_rows/global_sparse_raw.json",
+      "bytes": 658920,
+      "sha256": "4eb351373be83743ebb6cf2d776c64bbacfe1e8b6e784e88f60ed5f5d9e5916e"
+    },
+    {
+      "path": "experiments/modern_low_reference_training_20261114/scored_rows/local_full_policy.json",
+      "source": "学区归属模型_代码库/outputs/modern_low_reference_training_20261114/scored_rows/local_full_policy.json",
+      "bytes": 567912,
+      "sha256": "eaa4ea17903b52610ef752dd0a41b25d4364db0ef5b723bce071efa94e14f47f"
+    },
+    {
+      "path": "experiments/modern_low_reference_training_20261114/scored_rows/local_full_raw.json",
+      "source": "学区归属模型_代码库/outputs/modern_low_reference_training_20261114/scored_rows/local_full_raw.json",
+      "bytes": 533404,
+      "sha256": "e97b4d8f6f6762ea207792b81a767cd169ccbed5fb80866d4df956716dc5e71b"
+    },
+    {
+      "path": "experiments/modern_low_reference_training_20261114/scored_rows/local_sparse_policy.json",
+      "source": "学区归属模型_代码库/outputs/modern_low_reference_training_20261114/scored_rows/local_sparse_policy.json",
+      "bytes": 654209,
+      "sha256": "5b39991535fa751ab8d0f6fd7e69e3e59dc910611222ea5a1800634bef0c1e5f"
+    },
+    {
+      "path": "experiments/modern_low_reference_training_20261114/scored_rows/local_sparse_raw.json",
+      "source": "学区归属模型_代码库/outputs/modern_low_reference_training_20261114/scored_rows/local_sparse_raw.json",
+      "bytes": 627490,
+      "sha256": "cce660fe4c119e02e1f1ba5fa75190ed865a38f56bc32393f6c8bde09b5f535d"
+    },
+    {
+      "path": "experiments/modern_low_reference_training_20261114/seed_metrics.json",
+      "source": "学区归属模型_代码库/outputs/modern_low_reference_training_20261114/seed_metrics.json",
+      "bytes": 4961,
+      "sha256": "8f3a666f495d71f09ccfbfe3f559a12aaf0cc2cefa33e14ddb85ac71457a9b1b"
+    },
+    {
+      "path": "experiments/modern_low_reference_training_20261114/selection/global_full/20261231.json",
+      "source": "学区归属模型_代码库/outputs/modern_low_reference_training_20261114/selection/global_full/20261231.json",
+      "bytes": 1736,
+      "sha256": "190bdd4006180165120e8db394ae2eda6a6bcf8fac5566fc742b749dc6aa9e98"
+    },
+    {
+      "path": "experiments/modern_low_reference_training_20261114/selection/global_full/20261232.json",
+      "source": "学区归属模型_代码库/outputs/modern_low_reference_training_20261114/selection/global_full/20261232.json",
+      "bytes": 1745,
+      "sha256": "1475af4a7c5229d522e8ef0d2db213f9e0795a1613857c2fc1478c4616454f91"
+    },
+    {
+      "path": "experiments/modern_low_reference_training_20261114/selection/global_full/20261233.json",
+      "source": "学区归属模型_代码库/outputs/modern_low_reference_training_20261114/selection/global_full/20261233.json",
+      "bytes": 1748,
+      "sha256": "ce0eea2508107c0d03d42b6a6f87b78e9913c5303680dc6a64ed217ba3d729f7"
+    },
+    {
+      "path": "experiments/modern_low_reference_training_20261114/selection/global_sparse/20261231.json",
+      "source": "学区归属模型_代码库/outputs/modern_low_reference_training_20261114/selection/global_sparse/20261231.json",
+      "bytes": 1721,
+      "sha256": "a580cc95a6c78394ed6ff900eb447d7b247f1c8d3e43d5b07e577eb603111439"
+    },
+    {
+      "path": "experiments/modern_low_reference_training_20261114/selection/global_sparse/20261232.json",
+      "source": "学区归属模型_代码库/outputs/modern_low_reference_training_20261114/selection/global_sparse/20261232.json",
+      "bytes": 1736,
+      "sha256": "d355cbeff3f30c979dac151d7574a316ea60464a218c2d769d36ca850219ad34"
+    },
+    {
+      "path": "experiments/modern_low_reference_training_20261114/selection/global_sparse/20261233.json",
+      "source": "学区归属模型_代码库/outputs/modern_low_reference_training_20261114/selection/global_sparse/20261233.json",
+      "bytes": 1733,
+      "sha256": "36dbbc00bd61ba598c70907ec8985d9bd497105b55019b66107461218e1744d6"
+    },
+    {
+      "path": "experiments/modern_low_reference_training_20261114/selection/local_full/20261231.json",
+      "source": "学区归属模型_代码库/outputs/modern_low_reference_training_20261114/selection/local_full/20261231.json",
+      "bytes": 1700,
+      "sha256": "6037d9fded3cc3b21104f327c772bd3de4cecc8ced4065a3bf086764e791fb1b"
+    },
+    {
+      "path": "experiments/modern_low_reference_training_20261114/selection/local_full/20261232.json",
+      "source": "学区归属模型_代码库/outputs/modern_low_reference_training_20261114/selection/local_full/20261232.json",
+      "bytes": 1701,
+      "sha256": "4c02b85dc3b880ef6d56d6c0808e5ec207a50bfc7f00d293eba77f00713e1747"
+    },
+    {
+      "path": "experiments/modern_low_reference_training_20261114/selection/local_full/20261233.json",
+      "source": "学区归属模型_代码库/outputs/modern_low_reference_training_20261114/selection/local_full/20261233.json",
+      "bytes": 1700,
+      "sha256": "70e9cb26db283ba8ca04d78fd5152ac0cc6c2eb6c46e61cdb3c60a4e6d13bada"
+    },
+    {
+      "path": "experiments/modern_low_reference_training_20261114/selection/local_sparse/20261231.json",
+      "source": "学区归属模型_代码库/outputs/modern_low_reference_training_20261114/selection/local_sparse/20261231.json",
+      "bytes": 1726,
+      "sha256": "b5034d979472ccec177c36664bafbbe91c51706ddd38289deba5b514adbdc40b"
+    },
+    {
+      "path": "experiments/modern_low_reference_training_20261114/selection/local_sparse/20261232.json",
+      "source": "学区归属模型_代码库/outputs/modern_low_reference_training_20261114/selection/local_sparse/20261232.json",
+      "bytes": 1705,
+      "sha256": "9174c59624103f8f5459bbfb2fb84d7180e18956bf96f35f3da7f4942f78234d"
+    },
+    {
+      "path": "experiments/modern_low_reference_training_20261114/selection/local_sparse/20261233.json",
+      "source": "学区归属模型_代码库/outputs/modern_low_reference_training_20261114/selection/local_sparse/20261233.json",
+      "bytes": 1718,
+      "sha256": "d1e34445303cd14f114b7a929edcc13160d5a92d4a761bac54295b94710ce542"
+    },
+    {
+      "path": "experiments/modern_low_reference_training_20261114/selection_freeze.json",
+      "source": "学区归属模型_代码库/outputs/modern_low_reference_training_20261114/selection_freeze.json",
+      "bytes": 4217,
+      "sha256": "4f31739c2bb78261ef5701ded7ca431426fc542ae51ecc830fc1fe27280d9ce0"
+    },
+    {
+      "path": "experiments/modern_low_reference_training_20261114/thresholds.json",
+      "source": "学区归属模型_代码库/outputs/modern_low_reference_training_20261114/thresholds.json",
+      "bytes": 884,
+      "sha256": "ec25a241270e841f3b970ac4be16309b09bda871d75422c05db6c14886d413f1"
+    },
+    {
+      "path": "experiments/modern_low_reference_training_20261114/training_selection.json",
+      "source": "学区归属模型_代码库/outputs/modern_low_reference_training_20261114/training_selection.json",
+      "bytes": 22684,
+      "sha256": "0847ab57d6820101efeb5b6f2e8f40bcc9c31f456c2f9b981f4f970b68e9515e"
+    },
+    {
+      "path": "experiments/modern_low_reference_training_20261114/weight_replay_audit.json",
+      "source": "学区归属模型_代码库/outputs/modern_low_reference_training_20261114/weight_replay_audit.json",
+      "bytes": 2529,
+      "sha256": "c41cb0fde8a33bb85334eed9fab03c2e0e04a459cdfa6c9d465438dd6e8eb199"
+    },
+    {
+      "path": "experiments/modern_low_reference_training_20261114/实验结论.txt",
+      "source": "学区归属模型_代码库/outputs/modern_low_reference_training_20261114/实验结论.txt",
+      "bytes": 5964,
+      "sha256": "0570041e2a0992a14b946a12ed7e8e98f631162505f43385e048372a7f97d696"
     },
     {
       "path": "experiments/modern_school_gap_reference_20261114/README.md",
@@ -3050,6 +3296,12 @@
       "source": "学区归属模型_代码库/scripts/audit_hangzhou_community_methods.py"
     },
     {
+      "path": "models/school-zone/scripts/audit_low_reference_inputs.py",
+      "source": "学区归属模型_代码库/scripts/audit_low_reference_inputs.py",
+      "bytes": 2603,
+      "sha256": "ca8596511339a9080d19cec02ca303745e7cfa0768b19115d0e761fc85135967"
+    },
+    {
       "path": "models/school-zone/scripts/audit_modern_complete_reference.py",
       "source": "学区归属模型_代码库/scripts/audit_modern_complete_reference.py",
       "bytes": 2658,
@@ -3854,6 +4106,12 @@
       "source": "学区归属模型_代码库/scripts/experiment_hangzhou_community_methods.py"
     },
     {
+      "path": "models/school-zone/scripts/experiment_low_reference_training.py",
+      "source": "学区归属模型_代码库/scripts/experiment_low_reference_training.py",
+      "bytes": 23462,
+      "sha256": "35d41a825249ccd2940fcde228cce969968b8c3b9aac6d195d16a99cfcb45d35"
+    },
+    {
       "path": "models/school-zone/scripts/experiment_modern_complete_reference.py",
       "source": "学区归属模型_代码库/scripts/experiment_modern_complete_reference.py",
       "bytes": 25561,
@@ -4304,6 +4562,12 @@
       "source": "学区归属模型_代码库/scripts/replay_changsha_sets.py"
     },
     {
+      "path": "models/school-zone/scripts/replay_low_reference_training.py",
+      "source": "学区归属模型_代码库/scripts/replay_low_reference_training.py",
+      "bytes": 1298,
+      "sha256": "394628bb09e5af5d0940783d6cce509f057098104bb2c355d798b309c7fac698"
+    },
+    {
       "path": "models/school-zone/scripts/replay_modern_complete_reference.py",
       "source": "学区归属模型_代码库/scripts/replay_modern_complete_reference.py",
       "bytes": 5494,
@@ -4320,6 +4584,12 @@
       "bytes": 5131,
       "sha256": "70997bc57a63fb86ef5aade717c372fec427aeb7853a4949e63eb8f6ad28f235",
       "source": "学区归属模型_代码库/scripts/report_full_evidence.py"
+    },
+    {
+      "path": "models/school-zone/scripts/report_low_reference_training.py",
+      "source": "学区归属模型_代码库/scripts/report_low_reference_training.py",
+      "bytes": 6298,
+      "sha256": "2c8f64ccec943f60c2f54a568857be1fb8367dca292f817b0802e336dc55f254"
     },
     {
       "path": "models/school-zone/scripts/report_modernnca_conditional_sets.py",
@@ -4566,6 +4836,12 @@
       "bytes": 13473,
       "sha256": "bcd65475d0f415b00f24fcf1e7d4f74b819293366d25bc9a0273c00c2c077e9a",
       "source": "学区归属模型_代码库/scripts/run_tabular.py"
+    },
+    {
+      "path": "models/school-zone/scripts/score_low_reference_seeds.py",
+      "source": "学区归属模型_代码库/scripts/score_low_reference_seeds.py",
+      "bytes": 1532,
+      "sha256": "2c719c48327437aef9dda32ce2aa4a298b282ff17e097c0cf9bcee2d50fc3030"
     },
     {
       "path": "models/school-zone/scripts/score_modernnca_overall.py",
@@ -4944,6 +5220,12 @@
       "bytes": 1914,
       "sha256": "ceea19a5cfbe42a23f84064f162d8699d8e5190effff85ce05cb1af421574954",
       "source": "学区归属模型_代码库/tests/test_hangzhou_community_methods.py"
+    },
+    {
+      "path": "models/school-zone/tests/test_low_reference_training.py",
+      "source": "学区归属模型_代码库/tests/test_low_reference_training.py",
+      "bytes": 4408,
+      "sha256": "56427b0a43b321674b9dfebec8ee8773c1ada929a56dc8b4c71bc7bf53356c8e"
     },
     {
       "path": "models/school-zone/tests/test_modernnca_calibration.py",
@@ -5448,6 +5730,12 @@
       "bytes": 12093,
       "sha256": "2835381adb091e1494d99967a9f9d1bb470c98f3554175a74ffe18d71fe20d14",
       "source": "学区归属模型_代码库/zoning/graphany.py"
+    },
+    {
+      "path": "models/school-zone/zoning/low_reference_training.py",
+      "source": "学区归属模型_代码库/zoning/low_reference_training.py",
+      "bytes": 4259,
+      "sha256": "3d002db33b2308a20daa1ee230407d7b0ad053a068222f188671e47b6bcecd97"
     },
     {
       "path": "models/school-zone/zoning/matching.py",
@@ -6104,6 +6392,12 @@
       "source": "学区归属模型_代码库/data/深圳市/福田区/逐校文字.txt"
     },
     {
+      "path": "数据清单/低参照实验成绩复核.json",
+      "source": "publication_generated",
+      "bytes": 1420,
+      "sha256": "dae7361353a3c6e06ae42d4fa51935d3b564136374ec4341108750f8fe54cfec"
+    },
+    {
       "path": "数据清单/参照实验成绩复核.json",
       "source": "publication_generated",
       "bytes": 10984,
@@ -6570,5 +6864,12 @@
     ],
     "scope": "Code, full simulated support plans, scored predictions, summaries and dependency-free rescoring; no model weights or feature caches.",
     "label_boundary": "Gold simulation is explicit; existing partial proofs are not made complete for free."
+  },
+  "low_reference_update": {
+    "family": "modern_low_reference_training_20261114",
+    "added_verifications": 0,
+    "existing_k1": 84,
+    "queries": 1095,
+    "default_model_changed": false
   }
 }

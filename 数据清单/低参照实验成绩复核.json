@@ -1,0 +1,58 @@
+{
+  "passed": true,
+  "scope": "Gold-based scoring, subgroup counts, paired corrected/harmed and project exclusion; not neural retraining or independent geographic validation",
+  "existing_k1_verifications": 84,
+  "additional_verifications_this_trial": 0,
+  "results": {
+    "global_full_raw": {
+      "n": 1095,
+      "correct": 305,
+      "exact": 27.85388127853881
+    },
+    "global_full_policy": {
+      "n": 1095,
+      "correct": 396,
+      "exact": 36.16438356164384
+    },
+    "global_sparse_raw": {
+      "n": 1095,
+      "correct": 236,
+      "exact": 21.552511415525114
+    },
+    "global_sparse_policy": {
+      "n": 1095,
+      "correct": 293,
+      "exact": 26.75799086757991
+    },
+    "local_full_raw": {
+      "n": 1095,
+      "correct": 307,
+      "exact": 28.036529680365298
+    },
+    "local_full_policy": {
+      "n": 1095,
+      "correct": 479,
+      "exact": 43.74429223744292
+    },
+    "local_sparse_raw": {
+      "n": 1095,
+      "correct": 281,
+      "exact": 25.662100456621005
+    },
+    "local_sparse_policy": {
+      "n": 1095,
+      "correct": 348,
+      "exact": 31.78082191780822
+    },
+    "archived_modern_tuned_policy": {
+      "n": 1095,
+      "correct": 514,
+      "exact": 46.94063926940639
+    },
+    "archived_modern_frozen_policy": {
+      "n": 1095,
+      "correct": 533,
+      "exact": 48.67579908675799
+    }
+  }
+}

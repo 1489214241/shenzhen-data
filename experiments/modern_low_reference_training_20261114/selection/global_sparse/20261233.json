@@ -1,0 +1,71 @@
+{
+  "best": {
+    "threshold": 0.4390268325805664,
+    "n": 1246,
+    "correct": 864,
+    "fp": 361,
+    "fn": 319,
+    "single_correct": 855,
+    "multi_correct": 9,
+    "balanced": 0.43545531197301857,
+    "step": 320,
+    "loss": 19.81862850813195,
+    "gradient_norm": 32.156734466552734
+  },
+  "history": [
+    {
+      "threshold": 0.34794026613235474,
+      "n": 1246,
+      "correct": 748,
+      "fp": 613,
+      "fn": 281,
+      "single_correct": 739,
+      "multi_correct": 9,
+      "balanced": 0.3865514333895447,
+      "step": 40,
+      "loss": 38.008047986077145,
+      "gradient_norm": 86.55860900878906
+    },
+    {
+      "threshold": 1.0,
+      "n": 1246,
+      "correct": 882,
+      "fp": 335,
+      "fn": 395,
+      "single_correct": 882,
+      "multi_correct": 0,
+      "balanced": 0.3718381112984823,
+      "step": 80,
+      "loss": 23.39551212848164,
+      "gradient_norm": 52.652557373046875
+    },
+    {
+      "threshold": 0.4656805992126465,
+      "n": 1246,
+      "correct": 836,
+      "fp": 397,
+      "fn": 308,
+      "single_correct": 826,
+      "multi_correct": 10,
+      "balanced": 0.4315626756604834,
+      "step": 160,
+      "loss": 22.72720266971737,
+      "gradient_norm": 75.92655944824219
+    },
+    {
+      "threshold": 0.4390268325805664,
+      "n": 1246,
+      "correct": 864,
+      "fp": 361,
+      "fn": 319,
+      "single_correct": 855,
+      "multi_correct": 9,
+      "balanced": 0.43545531197301857,
+      "step": 320,
+      "loss": 19.81862850813195,
+      "gradient_norm": 32.156734466552734
+    }
+  ],
+  "weight_sha256": "44097c392f5f9178346b16ce0001497c9f33b1ff76623f22981473492246fa8b",
+  "at_step_limit": true
+}
