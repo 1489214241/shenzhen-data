@@ -1,0 +1,34 @@
+name: K1 latest experiment audit
+on:
+  push:
+    branches: ['chatgpt/k1-audit-646c170']
+    paths: ['.github/workflows/k1-latest-audit.yml']
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: 87fc8c0a6fcf6c1350e68b88b896c138634ee43b
+          persist-credentials: false
+      - name: Rescore published experiments (not retraining)
+        run: |
+          set -o pipefail
+          mkdir -p audit-output
+          git rev-parse HEAD > audit-output/source_commit.txt
+          python3 experiments/evaluate_low_reference_training.py 2>&1 | tee audit-output/evaluate_low_reference_training.log
+          python3 experiments/evaluate_reference_trials.py 2>&1 | tee audit-output/evaluate_reference_trials.log
+      - name: Archive exact public source
+        if: always()
+        run: |
+          git archive --format=zip --output=audit-output/source_87fc8c0.zip HEAD
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: k1-latest-audit-87fc8c0
+          path: audit-output/
+          retention-days: 3
+          if-no-files-found: error
