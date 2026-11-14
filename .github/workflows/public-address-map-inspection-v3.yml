@@ -1,0 +1,48 @@
+name: Public address map inspection v3
+on:
+  push:
+    branches: ['chatgpt/k1-scope-experiment-v3']
+    paths: ['.github/workflows/public-address-map-inspection-v3.yml']
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 7
+    steps:
+      - name: Read public page and bounded linked assets only
+        run: |
+          mkdir evidence
+          python3 - <<'PY'
+          import urllib.request,urllib.parse,json,re,pathlib,hashlib,datetime
+          out=pathlib.Path('evidence');receipts=[];links=[]
+          urls=['https://www.szzlb.gov.cn/govmap','http://www.szzlb.gov.cn/govmap','https://www.szlhq.gov.cn/lhq/fwztgb/jyfwgb/jyfw5/fwxshjz92/xqjy15/mdml4353/content/post_12735553.html']
+          for i,url in enumerate(urls):
+            rec={'url':url}
+            try:
+              req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0 (academic geographic-data inspection)'})
+              with urllib.request.urlopen(req,timeout=25) as res:raw=res.read(3000000);final=res.url;rec.update(status=res.status,final_url=final,content_type=res.headers.get('Content-Type'))
+              text=raw.decode('utf-8',errors='replace');name=f'page_{i}.html';(out/name).write_bytes(raw);rec.update(file=name,bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest())
+              if 'szzlb.gov.cn' in urllib.parse.urlparse(final).hostname:
+                for src in re.findall(r'<script[^>]+src=[\"\']([^\"\']+)',text,re.I):
+                  u=urllib.parse.urljoin(final,src)
+                  if urllib.parse.urlparse(u).hostname==urllib.parse.urlparse(final).hostname and not re.search('jquery|bootstrap|echarts|vue|react|moment|leaflet|openlayers',u,re.I):links.append(u)
+            except Exception as e:rec['error']=str(e)
+            receipts.append(rec)
+          for i,u in enumerate(dict.fromkeys(links)):
+            if i>=12:break
+            rec={'url':u}
+            try:
+              with urllib.request.urlopen(urllib.request.Request(u,headers={'User-Agent':'Mozilla/5.0'}),timeout=20) as res:raw=res.read(3000000)
+              name=f'linked_{i}.js';(out/name).write_bytes(raw);rec.update(file=name,bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest())
+            except Exception as e:rec['error']=str(e)
+            receipts.append(rec)
+          (out/'receipt.json').write_text(json.dumps({'purpose':'Public geographic layers only; no login, bypass, scanning or personal records','created':datetime.datetime.now(datetime.timezone.utc).isoformat(),'requests':receipts,'linked_scripts':links},ensure_ascii=False,indent=2));print(json.dumps(receipts,ensure_ascii=False,indent=2))
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: public-address-map-inspection-v3
+          path: evidence/
+          retention-days: 7
+          if-no-files-found: error
