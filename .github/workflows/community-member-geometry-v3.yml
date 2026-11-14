@@ -1,0 +1,37 @@
+name: Community member geometry v3
+on:
+  push:
+    branches: ['chatgpt/k1-scope-experiment-v3']
+    paths: ['.github/workflows/community-member-geometry-v3.yml']
+permissions:
+  contents: read
+jobs:
+  acquire:
+    runs-on: ubuntu-latest
+    timeout-minutes: 7
+    steps:
+      - name: Fetch full geometry of selected administrative relations
+        run: |
+          mkdir evidence
+          python3 - <<'PY'
+          import urllib.request,urllib.parse,json,hashlib,datetime,pathlib
+          out=pathlib.Path('evidence');ids=[15820502,15820503,16006496,16006497,17351287,17351291,17351356,17736780,17863409,17863410,17863411,19787678,19386119,19391486]
+          query='[out:json][timeout:55];relation(id:'+','.join(map(str,ids))+');out body geom;'
+          receipt={'purpose':'Full geometry of administrative community relations already listed in public OSM; no school catchments','ids':ids,'query':query,'acquired':datetime.datetime.now(datetime.timezone.utc).isoformat(),'attempts':[],'success':False}
+          for endpoint in ['https://overpass-api.de/api/interpreter','https://overpass.private.coffee/api/interpreter','https://overpass.kumi.systems/api/interpreter']:
+            try:
+              req=urllib.request.Request(endpoint+'?'+urllib.parse.urlencode({'data':query}),headers={'User-Agent':'SchoolCatchmentResearch/1.0'})
+              with urllib.request.urlopen(req,timeout=75) as r:raw=r.read()
+              data=json.loads(raw)
+              if data.get('remark') or 'elements'not in data:raise ValueError(str(data.get('remark','invalid response')))
+              (out/'community_members.json').write_bytes(raw);receipt.update(success=True,elements=len(data['elements']),sha256=hashlib.sha256(raw).hexdigest());break
+            except Exception as e:receipt['attempts'].append({'endpoint':endpoint,'error':str(e)[:500]})
+          (out/'receipt.json').write_text(json.dumps(receipt,ensure_ascii=False,indent=2));print(json.dumps(receipt,ensure_ascii=False,indent=2))
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: community-member-geometry-v3
+          path: evidence/
+          retention-days: 7
+          if-no-files-found: error
