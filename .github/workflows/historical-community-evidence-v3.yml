@@ -1,0 +1,59 @@
+name: Historical community evidence v3
+on:
+  push:
+    branches: ['chatgpt/k1-scope-experiment-v3']
+    paths: ['.github/workflows/historical-community-evidence-v3.yml']
+permissions:
+  contents: read
+jobs:
+  acquire:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Install geometry reader
+        run: python3 -m pip install pyshp
+      - name: Download pinned third-party province archive and extract Shenzhen region
+        run: |
+          mkdir evidence
+          python3 - <<'PY'
+          import urllib.request, json, hashlib, datetime, pathlib, zipfile, shapefile
+          out=pathlib.Path('evidence')
+          url='https://github.com/thedavidweng/china-village-boundaries/releases/download/v2026.06/village-boundaries-guangdong.zip'
+          expected='70d0204d8a129743eb2ae5a942fa8bb87dbd0205f179165ff50738446c544f11'
+          receipt={'url':url,'expected_sha256':expected,'source':'thedavidweng/china-village-boundaries v2026.06','limitations':['Third-party collection; original provenance uncertain','Mostly historical circa2016, NOT confirmed2026 boundaries','NOT official verified administrative evidence','No school catchment geometries or school labels are acquired'],'bbox':[113.75,22.40,114.65,22.95],'started_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'success':False}
+          try:
+            req=urllib.request.Request(url,headers={'User-Agent':'SchoolCatchmentResearch/1.0'})
+            with urllib.request.urlopen(req,timeout=180) as response,open('province.zip','wb') as f:
+              h=hashlib.sha256()
+              while True:
+                b=response.read(4*1024*1024)
+                if not b:break
+                f.write(b);h.update(b)
+            receipt['sha256']=h.hexdigest();assert receipt['sha256']==expected
+            with zipfile.ZipFile('province.zip') as z:z.extractall('province')
+            features=[];datasets=[]
+            for p in pathlib.Path('province').rglob('*.shp'):
+              rr=shapefile.Reader(str(p),encoding='utf-8',encodingErrors='replace');fields=[f[0] for f in rr.fields[1:]];count=0
+              for sr in rr.iterShapeRecords(bbox=receipt['bbox']):
+                b=sr.shape.bbox
+                if b[2]<113.75 or b[0]>114.65 or b[3]<22.40 or b[1]>22.95:continue
+                vals=list(sr.record);props={str(i)+':'+k:v for i,(k,v) in enumerate(zip(fields,vals))};props['_source_file']=str(p);props['_record_id']=sr.record.oid
+                features.append({'type':'Feature','properties':props,'geometry':sr.shape.__geo_interface__});count+=1
+              datasets.append({'path':str(p),'fields':fields,'records':len(rr),'regional_records':count,'prj':p.with_suffix('.prj').read_text(errors='replace') if p.with_suffix('.prj').exists() else None})
+              rr.close()
+            (out/'historical_communities.geojson').write_text(json.dumps({'type':'FeatureCollection','features':features},ensure_ascii=False))
+            receipt.update(success=True,features=len(features),datasets=datasets,extraction_filter='Bounding box only, no school/target evaluation labels')
+            for name in ['README.md','SCHEMA_MAPPING.md','CHANGELOG.md']:
+              try:
+                with urllib.request.urlopen('https://raw.githubusercontent.com/thedavidweng/china-village-boundaries/main/'+name,timeout=20) as response:(out/name).write_bytes(response.read())
+              except Exception:pass
+          except Exception as e:receipt['error']=repr(e)
+          (out/'receipt.json').write_text(json.dumps(receipt,ensure_ascii=False,indent=2));print(json.dumps(receipt,ensure_ascii=False,indent=2))
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: historical-community-evidence-v3
+          path: evidence/
+          retention-days: 7
+          if-no-files-found: error
