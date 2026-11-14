@@ -1,0 +1,49 @@
+name: Open TabICL checkpoint v3
+on:
+  push:
+    branches: ['chatgpt/k1-scope-experiment-v3']
+    paths: ['.github/workflows/tabicl-open-checkpoint-v3.yml']
+permissions:
+  contents: read
+jobs:
+  acquire:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: soda-inria/tabicl
+          persist-credentials: false
+      - name: Download official public checkpoint and record exact source
+        run: |
+          mkdir evidence
+          git rev-parse HEAD > evidence/code_commit.txt
+          git archive --format=zip --output=evidence/tabicl_source.zip HEAD
+          python3 - <<'PY'
+          import urllib.request,json,pathlib,hashlib,datetime
+          out=pathlib.Path('evidence');filename='tabicl-classifier-v2-20260212.ckpt'
+          receipt={'repo':'jingang/TabICL','filename':filename,'success':False,'purpose':'Pretrained public tabular model. No user data transmitted to model host. No training/evaluation labels sent.','created':datetime.datetime.now(datetime.timezone.utc).isoformat()}
+          try:
+            with urllib.request.urlopen('https://huggingface.co/api/models/jingang/TabICL',timeout=25) as f:meta=json.load(f)
+            revision=meta['sha'];receipt['revision']=revision;receipt['license']=meta.get('cardData',{}).get('license');url=f'https://huggingface.co/jingang/TabICL/resolve/{revision}/{filename}';receipt['url']=url
+            with urllib.request.urlopen(url,timeout=150) as f,open(out/filename,'wb') as target:
+              h=hashlib.sha256();size=0
+              while True:
+                b=f.read(4*1024*1024)
+                if not b:break
+                target.write(b);h.update(b);size+=len(b)
+            receipt.update(success=True,sha256=h.hexdigest(),bytes=size)
+            try:
+              with urllib.request.urlopen(f'https://huggingface.co/jingang/TabICL/raw/{revision}/README.md',timeout=20) as f:(out/'MODEL_CARD.md').write_bytes(f.read())
+            except Exception:pass
+          except Exception as e:receipt['error']=repr(e)
+          (out/'receipt.json').write_text(json.dumps(receipt,ensure_ascii=False,indent=2));print(json.dumps(receipt,ensure_ascii=False,indent=2))
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: tabicl-open-checkpoint-v3
+          path: evidence/
+          retention-days: 7
+          compression-level: 0
+          if-no-files-found: error
