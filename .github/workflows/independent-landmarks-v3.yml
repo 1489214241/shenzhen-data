@@ -1,0 +1,37 @@
+name: Independent landmark geometry v3
+on:
+  push:
+    branches: ['chatgpt/k1-scope-experiment-v3']
+    paths: ['.github/workflows/independent-landmarks-v3.yml']
+permissions:
+  contents: read
+jobs:
+  acquire:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Fetch school and residential named landmarks only
+        run: |
+          mkdir evidence
+          python3 - <<'PY'
+          import urllib.request,urllib.parse,json,hashlib,datetime,pathlib
+          out=pathlib.Path('evidence');receipt={'purpose':'Independent geographic coordinate audit and campus points, NOT school catchment boundaries or enrollment labels','source':'OpenStreetMap contributors','acquired':datetime.datetime.now(datetime.timezone.utc).isoformat(),'attempts':[],'success':False}
+          query='[out:json][timeout:55];(nwr["amenity"="school"]["name"](22.53,113.93,22.91,114.48);nwr["landuse"="residential"]["name"](22.53,113.93,22.91,114.48);nwr["name"~"金地上塘道|旭日轩|伟业大厦|龙源大厦"](22.53,113.93,22.91,114.48););out tags center;'
+          receipt['query']=query
+          for endpoint in ['https://overpass-api.de/api/interpreter','https://overpass.private.coffee/api/interpreter','https://overpass.kumi.systems/api/interpreter']:
+            try:
+              req=urllib.request.Request(endpoint+'?'+urllib.parse.urlencode({'data':query}),headers={'User-Agent':'SchoolCatchmentResearch/1.0'})
+              with urllib.request.urlopen(req,timeout=80) as r:raw=r.read()
+              data=json.loads(raw)
+              if data.get('remark') or 'elements'not in data:raise ValueError(str(data.get('remark','invalid response')))
+              (out/'landmarks.json').write_bytes(raw);receipt.update(success=True,elements=len(data['elements']),sha256=hashlib.sha256(raw).hexdigest());break
+            except Exception as e:receipt['attempts'].append({'endpoint':endpoint,'error':str(e)[:500]})
+          (out/'receipt.json').write_text(json.dumps(receipt,ensure_ascii=False,indent=2));print(json.dumps(receipt,ensure_ascii=False,indent=2))
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: independent-landmarks-v3
+          path: evidence/
+          retention-days: 7
+          if-no-files-found: error
