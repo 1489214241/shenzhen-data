@@ -1,0 +1,35 @@
+name: K1 isolated reproducibility audit
+on:
+  push:
+    branches: ['chatgpt/k1-audit-646c170']
+    paths: ['.github/workflows/k1-audit.yml']
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: 646c170db0a1a738833062efb90cf8b40e0e44f2
+          persist-credentials: false
+      - name: Verify archived predictions (not model retraining)
+        run: |
+          set -o pipefail
+          mkdir -p audit-output
+          git rev-parse HEAD > audit-output/source_commit.txt
+          python3 experiments/evaluate_reference_trials.py 2>&1 | tee audit-output/evaluate_reference_trials.log
+          python3 experiments/evaluate.py 2>&1 | tee audit-output/evaluate.log
+      - name: Package public snapshot for local code and input audit
+        if: always()
+        run: |
+          git archive --format=zip --output=audit-output/source_646c170.zip HEAD
+          find models/school-zone -type f | sort > audit-output/source_files.txt
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: k1-audit-646c170
+          path: audit-output/
+          retention-days: 3
+          if-no-files-found: error
