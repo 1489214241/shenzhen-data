@@ -1,0 +1,38 @@
+name: Named rail small v3
+on:
+  push:
+    branches: ['chatgpt/k1-scope-experiment-v3']
+    paths: ['.github/workflows/named-rail-small-v3.yml']
+permissions:
+  contents: read
+jobs:
+  acquire:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - name: Fetch named rail ways without large route relations
+        run: |
+          mkdir evidence
+          python3 - <<'PY'
+          import urllib.request, urllib.parse, json, hashlib, datetime, pathlib
+          out=pathlib.Path('evidence')
+          query='[out:json][timeout:45];way["railway"="rail"]["name"](22.53,113.93,22.91,114.48);out tags geom;'
+          receipt={'query':query,'school_labels_read':False,'school_polygons_read':False,'source':'OpenStreetMap contributors / Overpass API','acquired_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'attempts':[],'success':False}
+          for endpoint in ['https://overpass-api.de/api/interpreter','https://overpass.kumi.systems/api/interpreter']:
+            try:
+              request=urllib.request.Request(endpoint+'?'+urllib.parse.urlencode({'data':query}),headers={'User-Agent':'SchoolCatchmentResearch/1.0'})
+              with urllib.request.urlopen(request,timeout=65) as response:raw=response.read()
+              data=json.loads(raw)
+              if 'elements' not in data or data.get('remark'):raise ValueError(str(data.get('remark','missing elements')))
+              (out/'rail_osm.json').write_bytes(raw)
+              receipt.update(success=True,endpoint=endpoint,elements=len(data['elements']),osm3s=data.get('osm3s'),sha256=hashlib.sha256(raw).hexdigest());receipt['attempts'].append({'endpoint':endpoint,'success':True});break
+            except Exception as e:receipt['attempts'].append({'endpoint':endpoint,'error':str(e)[:500]})
+          (out/'receipt.json').write_text(json.dumps(receipt,ensure_ascii=False,indent=2));print(json.dumps(receipt,ensure_ascii=False,indent=2))
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: named-rail-small-v3
+          path: evidence/
+          retention-days: 7
+          if-no-files-found: error
