@@ -1,0 +1,548 @@
+[
+  {
+    "school_id": "sz:futian:school:496FFFE16E395558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E395558E053BC09A8C0A5ED",
+    "school_name": "福田区荔园小学（通新岭）",
+    "map_school_name": "福田区荔园小学（通新岭）",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E1B5558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E1B5558E053BC09A8C0A5ED",
+    "school_name": "福田区园岭教育集团园岭小学",
+    "map_school_name": "福田区园岭教育集团园岭小学",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E3A5558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E3A5558E053BC09A8C0A5ED",
+    "school_name": "福田区新洲小学",
+    "map_school_name": "福田区新洲小学",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E375558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E375558E053BC09A8C0A5ED",
+    "school_name": "福田区园岭教育集团园岭实验小学",
+    "map_school_name": "福田区园岭教育集团园岭实验小学",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E315558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E315558E053BC09A8C0A5ED",
+    "school_name": "福田区园岭教育集团园岭外国语学校（小学部）",
+    "map_school_name": "福田区园岭教育集团园岭外国语学校（小学部）",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E185558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E185558E053BC09A8C0A5ED",
+    "school_name": "福田区上步小学",
+    "map_school_name": "福田区上步小学",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E335558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E335558E053BC09A8C0A5ED",
+    "school_name": "福田区南园小学",
+    "map_school_name": "福田区南园小学",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E175558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E175558E053BC09A8C0A5ED",
+    "school_name": "福田区南华小学",
+    "map_school_name": "福田区南华小学",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E355558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E355558E053BC09A8C0A5ED",
+    "school_name": "福田区文天祥小学（岗厦）",
+    "map_school_name": "福田区文天祥小学（岗厦）",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E365558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E365558E053BC09A8C0A5ED",
+    "school_name": "福田区皇岗小学",
+    "map_school_name": "福田区皇岗小学",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E385558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E385558E053BC09A8C0A5ED",
+    "school_name": "福田区荔园外国语小学（水围）",
+    "map_school_name": "福田区荔园外国语小学（水围）",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E3B5558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E3B5558E053BC09A8C0A5ED",
+    "school_name": "福田区荔园小学（众孚）",
+    "map_school_name": "福田区荔园小学（众孚）",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E3C5558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E3C5558E053BC09A8C0A5ED",
+    "school_name": "福田区新沙小学",
+    "map_school_name": "福田区新沙小学",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E3D5558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E3D5558E053BC09A8C0A5ED",
+    "school_name": "西交利物浦大学基础教育集团外国语学校（下沙明远）小学部",
+    "map_school_name": "西交利物浦大学基础教育集团外国语学校（下沙明远）小学部",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:2ea8f73c686a4beaa88410a90916e59b",
+    "source_school_id": "2ea8f73c686a4beaa88410a90916e59b",
+    "school_name": "福田区荔园外国语小学（天骄）",
+    "map_school_name": "福田区荔园外国语小学（天骄）",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E405558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E405558E053BC09A8C0A5ED",
+    "school_name": "福田区梅林小学",
+    "map_school_name": "福田区梅林小学",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E3F5558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E3F5558E053BC09A8C0A5ED",
+    "school_name": "福田区东海实验小学（竹园）",
+    "map_school_name": "福田区东海实验小学（竹园）",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E415558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E415558E053BC09A8C0A5ED",
+    "school_name": "福田区外国语小学（竹林）",
+    "map_school_name": "福田区外国语小学（竹林）",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E425558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E425558E053BC09A8C0A5ED",
+    "school_name": "福田区园岭教育集团百花小学",
+    "map_school_name": "福田区园岭教育集团百花小学",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E435558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E435558E053BC09A8C0A5ED",
+    "school_name": "福田区红岭教育集团华富实验学校（小学部）",
+    "map_school_name": "福田区红岭教育集团华富实验学校（小学部）",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E445558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E445558E053BC09A8C0A5ED",
+    "school_name": "福田区莲花小学",
+    "map_school_name": "福田区莲花小学",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E455558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E455558E053BC09A8C0A5ED",
+    "school_name": "福田区景鹏小学",
+    "map_school_name": "福田区景鹏小学",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:e45111150df349b7b99b40b029771a0f",
+    "source_school_id": "e45111150df349b7b99b40b029771a0f",
+    "school_name": "福田区荔园外国语小学（景田）",
+    "map_school_name": "福田区荔园外国语小学（景田）",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E4D5558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E4D5558E053BC09A8C0A5ED",
+    "school_name": "福田区福华小学",
+    "map_school_name": "福田区福华小学",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:e3cdd8eb7adb400abba22c2808650516",
+    "source_school_id": "e3cdd8eb7adb400abba22c2808650516",
+    "school_name": "福田区荔园外国语小学（海滨）",
+    "map_school_name": "福田区荔园外国语小学（海滨）",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:02b71857c30e4c3abc42fcfb8e08697f",
+    "source_school_id": "02b71857c30e4c3abc42fcfb8e08697f",
+    "school_name": "福田中学教育集团皇御苑实验学校（小学部）",
+    "map_school_name": "福田中学教育集团皇御苑实验学校（小学部）",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:864eec1097e74b31b632772806c116dc",
+    "source_school_id": "864eec1097e74b31b632772806c116dc",
+    "school_name": "福田区皇岗创新实验学校（小学部）",
+    "map_school_name": "福田区皇岗创新实验学校（小学部）",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E485558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E485558E053BC09A8C0A5ED",
+    "school_name": "福田区福民小学",
+    "map_school_name": "福田区福民小学",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E475558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E475558E053BC09A8C0A5ED",
+    "school_name": "福田区华新小学",
+    "map_school_name": "福田区华新小学",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E465558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E465558E053BC09A8C0A5ED",
+    "school_name": "福田区美莲小学",
+    "map_school_name": "福田区美莲小学",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E4B5558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E4B5558E053BC09A8C0A5ED",
+    "school_name": "福田区新莲小学",
+    "map_school_name": "福田区新莲小学",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:30b32321534b4c20bff1917d6566e98e",
+    "source_school_id": "30b32321534b4c20bff1917d6566e98e",
+    "school_name": "深圳莲花山学校",
+    "map_school_name": "深圳莲花山学校",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E4A5558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E4A5558E053BC09A8C0A5ED",
+    "school_name": "西交利物浦大学基础教育集团外国语学校（景龙）小学部",
+    "map_school_name": "西交利物浦大学基础教育集团外国语学校（景龙）小学部",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E4C5558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E4C5558E053BC09A8C0A5ED",
+    "school_name": "福田区景莲小学",
+    "map_school_name": "福田区景莲小学",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E565558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E565558E053BC09A8C0A5ED",
+    "school_name": "福田区益田小学",
+    "map_school_name": "福田区益田小学",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E4E5558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E4E5558E053BC09A8C0A5ED",
+    "school_name": "福田区梅丽小学",
+    "map_school_name": "福田区梅丽小学",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E4F5558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E4F5558E053BC09A8C0A5ED",
+    "school_name": "福田区梅园小学",
+    "map_school_name": "福田区梅园小学",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E515558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E515558E053BC09A8C0A5ED",
+    "school_name": "福田区梅山小学",
+    "map_school_name": "福田区梅山小学",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E505558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E505558E053BC09A8C0A5ED",
+    "school_name": "福田区外国语小学（景秀）",
+    "map_school_name": "福田区外国语小学（景秀）",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E535558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E535558E053BC09A8C0A5ED",
+    "school_name": "福田区红岭实验学校（上沙）小学部",
+    "map_school_name": "福田区红岭实验学校（上沙）小学部",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E545558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E545558E053BC09A8C0A5ED",
+    "school_name": "福田区绿洲小学",
+    "map_school_name": "福田区绿洲小学",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E1E5558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E1E5558E053BC09A8C0A5ED",
+    "school_name": "福田区荔园小学（百花）",
+    "map_school_name": "福田区荔园小学（百花）",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E525558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E525558E053BC09A8C0A5ED",
+    "school_name": "福田区石厦学校（小学部）",
+    "map_school_name": "福田区石厦学校（小学部）",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:326b3e20cb7f47af9ddd5f94ab5cf878",
+    "source_school_id": "326b3e20cb7f47af9ddd5f94ab5cf878",
+    "school_name": "深圳明德实验学校（集团）福田五洲小学",
+    "map_school_name": "深圳明德实验学校（集团）福田五洲小学",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:dfc94f0fd01a474e82b707ae40d13dd1",
+    "source_school_id": "dfc94f0fd01a474e82b707ae40d13dd1",
+    "school_name": "深圳外国语小学",
+    "map_school_name": "深圳外国语小学",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E555558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E555558E053BC09A8C0A5ED",
+    "school_name": "福田区福强小学",
+    "map_school_name": "福田区福强小学",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E575558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E575558E053BC09A8C0A5ED",
+    "school_name": "西交利物浦大学基础教育集团外国语学校（全海）小学部",
+    "map_school_name": "西交利物浦大学基础教育集团外国语学校（全海）小学部",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:b6d1db1ce1ba4d1ab4f6e2723ee5af72",
+    "source_school_id": "b6d1db1ce1ba4d1ab4f6e2723ee5af72",
+    "school_name": "福田区红树林实验学校小学部",
+    "map_school_name": "福田区红树林实验学校小学部",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E5F5558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E5F5558E053BC09A8C0A5ED",
+    "school_name": "香港中文大学（深圳）附属彩田学校（小学部）",
+    "map_school_name": "香港中文大学（深圳）附属彩田学校（小学部）",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E5D5558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E5D5558E053BC09A8C0A5ED",
+    "school_name": "北京大学附属中学深圳学校（集团）黄埔学校（小学部）",
+    "map_school_name": "北京大学附属中学深圳学校（集团）黄埔学校（小学部）",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E495558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E495558E053BC09A8C0A5ED",
+    "school_name": "福田区梅华小学",
+    "map_school_name": "福田区梅华小学",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E585558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E585558E053BC09A8C0A5ED",
+    "school_name": "福田区外国语小学",
+    "map_school_name": "福田区外国语小学",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E195558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E195558E053BC09A8C0A5ED",
+    "school_name": "福田区荔园外国语小学（香蜜湖）",
+    "map_school_name": "福田区荔园外国语小学（香蜜湖）",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E595558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E595558E053BC09A8C0A5ED",
+    "school_name": "香港中文大学（深圳）附属天健小学",
+    "map_school_name": "香港中文大学（深圳）附属天健小学",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E5A5558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E5A5558E053BC09A8C0A5ED",
+    "school_name": "福田区东海实验小学",
+    "map_school_name": "福田区东海实验小学",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E1D5558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E1D5558E053BC09A8C0A5ED",
+    "school_name": "福田区实验教育集团侨香学校（南校）小学部",
+    "map_school_name": "福田区实验教育集团侨香学校（南校）小学部",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E615558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E615558E053BC09A8C0A5ED",
+    "school_name": "福田区益强小学",
+    "map_school_name": "福田区益强小学",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E5E5558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E5E5558E053BC09A8C0A5ED",
+    "school_name": "福田区荔园外国语小学",
+    "map_school_name": "福田区荔园外国语小学",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E5B5558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E5B5558E053BC09A8C0A5ED",
+    "school_name": "深圳明德实验学校（集团）碧海校区小学部",
+    "map_school_name": "深圳明德实验学校（集团）碧海校区小学部",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E605558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E605558E053BC09A8C0A5ED",
+    "school_name": "福田区实验教育集团翰林学校（小学部）",
+    "map_school_name": "福田区实验教育集团翰林学校（小学部）",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E5C5558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E5C5558E053BC09A8C0A5ED",
+    "school_name": "福田区福新小学",
+    "map_school_name": "福田区福新小学",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E625558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E625558E053BC09A8C0A5ED",
+    "school_name": "深圳明德实验学校（集团）香蜜校区小学部",
+    "map_school_name": "深圳明德实验学校（集团）香蜜校区小学部",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E6A5558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E6A5558E053BC09A8C0A5ED",
+    "school_name": "福田区荔园小学（玮鹏）",
+    "map_school_name": "福田区荔园小学（玮鹏）",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:92f6461fa6ba4f679c69afd8c4093834",
+    "source_school_id": "92f6461fa6ba4f679c69afd8c4093834",
+    "school_name": "福田区外国语学校（福苑）小学部",
+    "map_school_name": "福田区外国语学校（福苑）小学部",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:1e873e7609754306915e197427d5fde9",
+    "source_school_id": "1e873e7609754306915e197427d5fde9",
+    "school_name": "福田区外国语学校（福保）小学部",
+    "map_school_name": "福田区外国语学校（福保）小学部",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:9be177e2a1e04caaa5b4a41d581f4dff",
+    "source_school_id": "9be177e2a1e04caaa5b4a41d581f4dff",
+    "school_name": "福田区文天祥小学",
+    "map_school_name": "福田区文天祥小学",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:a24645880e734a80b52f729a4b42b166",
+    "source_school_id": "a24645880e734a80b52f729a4b42b166",
+    "school_name": "福田区红岭实验小学",
+    "map_school_name": "福田区红岭实验小学",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:6f43d9c8ed204a7791477f3a7b094aa1",
+    "source_school_id": "6f43d9c8ed204a7791477f3a7b094aa1",
+    "school_name": "福田区红岭教育集团深康学校（小学部）",
+    "map_school_name": "福田区红岭教育集团深康学校（小学部）",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:9c0cb9995d974c86a163058e12cb6a01",
+    "source_school_id": "9c0cb9995d974c86a163058e12cb6a01",
+    "school_name": "福田区荔园小学（八卦岭）",
+    "map_school_name": "福田区荔园小学（八卦岭）",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:839499bb0577439eb7edf3593cbd29c6",
+    "source_school_id": "839499bb0577439eb7edf3593cbd29c6",
+    "school_name": "福田区实验教育集团侨香学校（北校）小学部",
+    "map_school_name": "福田区实验教育集团侨香学校（北校）小学部",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E1C5558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E1C5558E053BC09A8C0A5ED",
+    "school_name": "深圳实验学校小学部",
+    "map_school_name": "深圳实验学校小学部",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E3E5558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E3E5558E053BC09A8C0A5ED",
+    "school_name": "福田区荔园外国语小学（狮岭）",
+    "map_school_name": "福田区荔园外国语小学（狮岭）",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:6e2617eee765494790b619cbf875e02d",
+    "source_school_id": "6e2617eee765494790b619cbf875e02d",
+    "school_name": "福田区深圳中学梅香学校（小学部）",
+    "map_school_name": "福田区深圳中学梅香学校（小学部）",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:7e22bc5b03a94c43b41c10bfbdff133d",
+    "source_school_id": "7e22bc5b03a94c43b41c10bfbdff133d",
+    "school_name": "福田区外国语学校（梅红）小学部",
+    "map_school_name": "福田区外国语学校（梅红）小学部",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E165558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E165558E053BC09A8C0A5ED",
+    "school_name": "福田中学教育集团第二实验学校（小学部）",
+    "map_school_name": "福田中学教育集团第二实验学校（小学部）",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E325558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E325558E053BC09A8C0A5ED",
+    "school_name": "福田中学教育集团福田小学",
+    "map_school_name": "福田中学教育集团福田小学",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:b56e1500ee754a3eb0fa4604c767ceaf",
+    "source_school_id": "b56e1500ee754a3eb0fa4604c767ceaf",
+    "school_name": "福田区外国语学校（香蜜）",
+    "map_school_name": "福田区外国语学校（香蜜）",
+    "district": "福田区"
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E345558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E345558E053BC09A8C0A5ED",
+    "school_name": "福田中学教育集团福南小学",
+    "map_school_name": "福田中学教育集团福南小学",
+    "district": "福田区"
+  }
+]

@@ -1,0 +1,54 @@
+{
+  "districts": {
+    "龙华区": {
+      "sites": 628,
+      "schools": 71,
+      "current_training_rows": 61,
+      "current_positive_cells": 124,
+      "current_negative_cells": 0,
+      "current_schools_with_positive": 29,
+      "cumulative_source_pairs": 76,
+      "missing_positive_labels": 7,
+      "missing_textual_positive_labels": 6,
+      "missing_geographic_positive_labels": 1,
+      "new_training_rows_if_all_added": 2,
+      "new_training_rows_if_textual_added": 2,
+      "missing_reference_pairs": 7,
+      "negative_conflicts": 0
+    },
+    "龙岗区": {
+      "sites": 1174,
+      "schools": 131,
+      "current_training_rows": 341,
+      "current_positive_cells": 503,
+      "current_negative_cells": 7,
+      "current_schools_with_positive": 73,
+      "cumulative_source_pairs": 147,
+      "missing_positive_labels": 20,
+      "missing_textual_positive_labels": 9,
+      "missing_geographic_positive_labels": 11,
+      "new_training_rows_if_all_added": 9,
+      "new_training_rows_if_textual_added": 3,
+      "missing_reference_pairs": 20,
+      "negative_conflicts": 0
+    }
+  },
+  "totals": {
+    "missing_positive_labels": 27,
+    "missing_textual_positive_labels": 15,
+    "missing_geographic_positive_labels": 12,
+    "new_training_rows_if_all_added": 11,
+    "new_training_rows_if_textual_added": 5,
+    "missing_reference_pairs": 27,
+    "negative_conflicts": 0
+  },
+  "limitation": "These facts already affect final outputs. Training/reference integration is an untested intervention, not a guaranteed accuracy gain.",
+  "policy": "Do not turn unmatched schools into negatives; retain the evidence type, all original conditions, temporal receipts and same-property masking.",
+  "next_test": "Separate textual-label supervision from reference-bank expansion and geographic estimates; preserve original weights and use matched controls. No source-gate or target-score claim.",
+  "target_gold_read": false,
+  "target_polygon_read": false,
+  "labels_modified": false,
+  "references_modified": false,
+  "training_performed": false,
+  "adopted": false
+}

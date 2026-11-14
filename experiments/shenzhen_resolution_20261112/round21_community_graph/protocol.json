@@ -1,0 +1,72 @@
+{
+  "round": 21,
+  "primary": "lgc",
+  "comparators": [
+    "harmonic",
+    "nearest"
+  ],
+  "districts": [
+    "龙华区",
+    "龙岗区"
+  ],
+  "seed": 20261131,
+  "spatial_block_m": 1000,
+  "anchor_buffer_m": 100,
+  "split_buckets": {
+    "train": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "calibration": [
+      6,
+      7
+    ],
+    "confirmation": [
+      8,
+      9
+    ]
+  },
+  "graph_k": 10,
+  "max_edge_m": 1500,
+  "alpha": 0.99,
+  "confidence_thresholds": [
+    0,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.85,
+    0.9,
+    0.95,
+    0.975,
+    0.99
+  ],
+  "calibration_gate": {
+    "min_accepted": 15,
+    "min_accuracy": 0.95,
+    "min_wilson_lower": 0.8
+  },
+  "confirmation_gate": {
+    "min_accepted": 20,
+    "min_accuracy": 0.95,
+    "min_wilson_lower": 0.85,
+    "min_blocks": 5,
+    "min_spatial_lower": 0.85,
+    "min_per_district": 5
+  },
+  "confidence": "Normalized top-class mass for graph methods; distance margin to nearest differently labelled anchor for1NN. Not calibrated probabilities.",
+  "selection": "Largest calibration acceptance count meeting gate; tie higher threshold. Primary fixed, no comparator fallback.",
+  "comparison_gate": "Primary at least as many correct as1NN on exactly the primary accepted confirmation points.",
+  "zero_support": "Graph components without anchors unknown; no school-location fallback; never omit unseen-community holdout rows.",
+  "graph_inputs": "Coordinates only, independent official community anchors only; no school labels or polygons or model predictions.",
+  "class_mass_prior": false,
+  "school_predictions_generated": false,
+  "target_gold_read": false,
+  "independent_validation": false,
+  "adopted": false,
+  "validation_boundary": "New module holdout of existing legal community facts. Not untouched overall city data or independently confirmed school accuracy."
+}

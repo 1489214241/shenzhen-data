@@ -1,0 +1,250 @@
+{
+  "masked_bce": {
+    "threshold": 0.9,
+    "source_validation_table": [
+      {
+        "threshold": 0.1,
+        "n": 1246,
+        "correct": 469,
+        "fp": 1156,
+        "fn": 146
+      },
+      {
+        "threshold": 0.15,
+        "n": 1246,
+        "correct": 561,
+        "fp": 918,
+        "fn": 178
+      },
+      {
+        "threshold": 0.2,
+        "n": 1246,
+        "correct": 615,
+        "fp": 783,
+        "fn": 203
+      },
+      {
+        "threshold": 0.25,
+        "n": 1246,
+        "correct": 666,
+        "fp": 681,
+        "fn": 214
+      },
+      {
+        "threshold": 0.3,
+        "n": 1246,
+        "correct": 703,
+        "fp": 602,
+        "fn": 226
+      },
+      {
+        "threshold": 0.35,
+        "n": 1246,
+        "correct": 737,
+        "fp": 549,
+        "fn": 240
+      },
+      {
+        "threshold": 0.4,
+        "n": 1246,
+        "correct": 774,
+        "fp": 496,
+        "fn": 246
+      },
+      {
+        "threshold": 0.45,
+        "n": 1246,
+        "correct": 800,
+        "fp": 452,
+        "fn": 254
+      },
+      {
+        "threshold": 0.5,
+        "n": 1246,
+        "correct": 816,
+        "fp": 423,
+        "fn": 264
+      },
+      {
+        "threshold": 0.55,
+        "n": 1246,
+        "correct": 832,
+        "fp": 398,
+        "fn": 269
+      },
+      {
+        "threshold": 0.6,
+        "n": 1246,
+        "correct": 847,
+        "fp": 375,
+        "fn": 278
+      },
+      {
+        "threshold": 0.65,
+        "n": 1246,
+        "correct": 868,
+        "fp": 351,
+        "fn": 291
+      },
+      {
+        "threshold": 0.7,
+        "n": 1246,
+        "correct": 890,
+        "fp": 325,
+        "fn": 298
+      },
+      {
+        "threshold": 0.75,
+        "n": 1246,
+        "correct": 908,
+        "fp": 305,
+        "fn": 304
+      },
+      {
+        "threshold": 0.8,
+        "n": 1246,
+        "correct": 923,
+        "fp": 287,
+        "fn": 305
+      },
+      {
+        "threshold": 0.85,
+        "n": 1246,
+        "correct": 932,
+        "fp": 274,
+        "fn": 309
+      },
+      {
+        "threshold": 0.9,
+        "n": 1246,
+        "correct": 941,
+        "fp": 264,
+        "fn": 312
+      }
+    ]
+  },
+  "assume_negative": {
+    "threshold": 0.9,
+    "source_validation_table": [
+      {
+        "threshold": 0.1,
+        "n": 1246,
+        "correct": 494,
+        "fp": 1089,
+        "fn": 150
+      },
+      {
+        "threshold": 0.15,
+        "n": 1246,
+        "correct": 578,
+        "fp": 872,
+        "fn": 191
+      },
+      {
+        "threshold": 0.2,
+        "n": 1246,
+        "correct": 622,
+        "fp": 764,
+        "fn": 209
+      },
+      {
+        "threshold": 0.25,
+        "n": 1246,
+        "correct": 667,
+        "fp": 665,
+        "fn": 216
+      },
+      {
+        "threshold": 0.3,
+        "n": 1246,
+        "correct": 711,
+        "fp": 584,
+        "fn": 230
+      },
+      {
+        "threshold": 0.35,
+        "n": 1246,
+        "correct": 749,
+        "fp": 531,
+        "fn": 244
+      },
+      {
+        "threshold": 0.4,
+        "n": 1246,
+        "correct": 779,
+        "fp": 479,
+        "fn": 251
+      },
+      {
+        "threshold": 0.45,
+        "n": 1246,
+        "correct": 802,
+        "fp": 446,
+        "fn": 259
+      },
+      {
+        "threshold": 0.5,
+        "n": 1246,
+        "correct": 825,
+        "fp": 408,
+        "fn": 264
+      },
+      {
+        "threshold": 0.55,
+        "n": 1246,
+        "correct": 834,
+        "fp": 389,
+        "fn": 275
+      },
+      {
+        "threshold": 0.6,
+        "n": 1246,
+        "correct": 856,
+        "fp": 363,
+        "fn": 284
+      },
+      {
+        "threshold": 0.65,
+        "n": 1246,
+        "correct": 869,
+        "fp": 346,
+        "fn": 291
+      },
+      {
+        "threshold": 0.7,
+        "n": 1246,
+        "correct": 895,
+        "fp": 318,
+        "fn": 299
+      },
+      {
+        "threshold": 0.75,
+        "n": 1246,
+        "correct": 913,
+        "fp": 298,
+        "fn": 306
+      },
+      {
+        "threshold": 0.8,
+        "n": 1246,
+        "correct": 921,
+        "fp": 286,
+        "fn": 307
+      },
+      {
+        "threshold": 0.85,
+        "n": 1246,
+        "correct": 932,
+        "fp": 273,
+        "fn": 310
+      },
+      {
+        "threshold": 0.9,
+        "n": 1246,
+        "correct": 939,
+        "fp": 265,
+        "fn": 312
+      }
+    ]
+  }
+}

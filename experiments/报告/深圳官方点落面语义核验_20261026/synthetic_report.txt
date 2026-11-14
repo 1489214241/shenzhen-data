@@ -1,0 +1,19 @@
+仅合成数据的 GeoUtils 验证结果
+
+结论：原下载函数在声明的最小 BMap 适配器下可以对自交 bow-tie 返回布尔结果；OGC 自交不等于该函数自动拒绝计算。但测试并非全部通过，发现重复顶点改变水平边界判定的反例，不能声称普遍包含边界或与 Shapely covers 等价。
+
+执行前已冻结 synthetic_plan.txt、synthetic_harness.js、原始库和 receipt 的 SHA；先写 synthetic_freeze.json，随后运行 node synthetic_harness.js。原库未修改，Node v22.16.0。过程退出码1，按原计划保留断言失败，不修改预期、不重跑。
+
+共120次查询：112个预设断言、8个未设预期的探针。108个断言通过、4个失败；0个异常；所测顺序反转/显式闭合变体之间0个输出差异。
+
+自交 bow-tie 原顶点 [(0,0),(4,4),(0,4),(4,0)] 的两条非相邻对角边在 (2,2) 真交叉。四种表示下的24次查询均返回预期布尔：上下叶片为true、左右间隙为false、交点和指定顶点为true。该结果只说明这一合成构型的算法输出，不建立任何真实学校语义。
+
+四个失败均来自连续重复顶点的方形 [(0,0),(4,0),(4,0),(4,4),(0,4)]：底边点 (2,0) 原预期true，实际false。原顺序、反转、显式闭合、闭合反转皆如此。正常方形的同一点返回true。所有失败原样保存。
+
+双重描边方形中心按奇偶返回false；上下水平边8个探针也全部false。这些探针没有预设通过标准，不能把它们计成通过断言。它们进一步说明函数的边界分支不能被简化成“所有边界点都包含”。
+
+适配器声明：Point.equals采用精确坐标相等，Polygon原样保留有序path，Bounds采用坐标极值；未验证实际百度构造器、getPath/getBounds或历史浏览器运行。原库URL相同不证明2026-10-26字节与2026-10-23快照当时相同。
+
+没有读取真实MAPDATA/FDC/Gold，没有目标PIP、模型加载、训练、预测、评分或网络请求。没有给6校赋known/negative，没有修面、生成Gold或改变任何目标准入。实验60/61及语义合同既有文件均未修改。
+
+文件：synthetic_plan.txt；synthetic_harness.js；synthetic_freeze.json；synthetic_result.json；synthetic_completion.json。

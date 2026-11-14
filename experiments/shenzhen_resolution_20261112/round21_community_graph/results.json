@@ -1,0 +1,141 @@
+{
+  "reports": {
+    "lgc": {
+      "all": {
+        "n": 35,
+        "correct": 3,
+        "accuracy": 0.08571428571428572,
+        "wilson_lower": 0.02958236826696983,
+        "blocks": 17,
+        "unseen_community": 19
+      },
+      "accepted": {
+        "n": 0,
+        "correct": 0,
+        "accuracy": null,
+        "wilson_lower": 0.0,
+        "blocks": 0,
+        "unseen_community": 0
+      },
+      "spatial95": [
+        0.0,
+        1.0
+      ],
+      "per_district": {
+        "龙华区": {
+          "n": 0,
+          "correct": 0,
+          "accuracy": null,
+          "wilson_lower": 0.0,
+          "blocks": 0,
+          "unseen_community": 0
+        },
+        "龙岗区": {
+          "n": 0,
+          "correct": 0,
+          "accuracy": null,
+          "wilson_lower": 0.0,
+          "blocks": 0,
+          "unseen_community": 0
+        }
+      },
+      "threshold": null,
+      "gate_passed": false
+    },
+    "harmonic": {
+      "all": {
+        "n": 35,
+        "correct": 6,
+        "accuracy": 0.17142857142857143,
+        "wilson_lower": 0.08102640053701589,
+        "blocks": 17,
+        "unseen_community": 19
+      },
+      "accepted": {
+        "n": 0,
+        "correct": 0,
+        "accuracy": null,
+        "wilson_lower": 0.0,
+        "blocks": 0,
+        "unseen_community": 0
+      },
+      "spatial95": [
+        0.0,
+        1.0
+      ],
+      "per_district": {
+        "龙华区": {
+          "n": 0,
+          "correct": 0,
+          "accuracy": null,
+          "wilson_lower": 0.0,
+          "blocks": 0,
+          "unseen_community": 0
+        },
+        "龙岗区": {
+          "n": 0,
+          "correct": 0,
+          "accuracy": null,
+          "wilson_lower": 0.0,
+          "blocks": 0,
+          "unseen_community": 0
+        }
+      },
+      "threshold": null,
+      "gate_passed": false
+    },
+    "nearest": {
+      "all": {
+        "n": 35,
+        "correct": 7,
+        "accuracy": 0.2,
+        "wilson_lower": 0.10042446473798625,
+        "blocks": 17,
+        "unseen_community": 19
+      },
+      "accepted": {
+        "n": 0,
+        "correct": 0,
+        "accuracy": null,
+        "wilson_lower": 0.0,
+        "blocks": 0,
+        "unseen_community": 0
+      },
+      "spatial95": [
+        0.0,
+        1.0
+      ],
+      "per_district": {
+        "龙华区": {
+          "n": 0,
+          "correct": 0,
+          "accuracy": null,
+          "wilson_lower": 0.0,
+          "blocks": 0,
+          "unseen_community": 0
+        },
+        "龙岗区": {
+          "n": 0,
+          "correct": 0,
+          "accuracy": null,
+          "wilson_lower": 0.0,
+          "blocks": 0,
+          "unseen_community": 0
+        }
+      },
+      "threshold": null,
+      "gate_passed": false
+    }
+  },
+  "paired_nearest_on_primary_accepted": {
+    "n": 0,
+    "corrected": 0,
+    "harmed": 0,
+    "net_correct": 0
+  },
+  "eligible_for_school_experiment": false,
+  "target_gold_read": false,
+  "school_predictions_generated": false,
+  "independent_validation": false,
+  "adopted": false
+}

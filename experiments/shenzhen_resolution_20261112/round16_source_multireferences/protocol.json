@@ -1,0 +1,59 @@
+{
+  "sources": [
+    "天心区",
+    "芙蓉区",
+    "雨花区",
+    "开福区",
+    "拱墅区",
+    "萧山区",
+    "富阳区",
+    "临安区"
+  ],
+  "targets": [
+    "龙华区",
+    "龙岗区"
+  ],
+  "seeds": [
+    20261131,
+    20261132,
+    20261133,
+    20261134,
+    20261135,
+    20261136,
+    20261137,
+    20261138,
+    20261139,
+    20261140
+  ],
+  "arms": [
+    "control",
+    "complete_existing",
+    "all_multi_training"
+  ],
+  "steps": 40,
+  "lr": 0.003,
+  "reg": 0.01,
+  "width": 32,
+  "chunk": 64,
+  "ranking_coefficient": 1.0,
+  "source_gate": {
+    "min_multi_correct": 8,
+    "min_single_correct": 901,
+    "min_attainable_multi": 18,
+    "objective": "balanced_exact",
+    "purpose": "Only determines whether to proceed to a separately frozen target test."
+  },
+  "parent": "Same round06 balanced_rank checkpoint per seed; fresh Adam; same regularization anchor.",
+  "intervention": "Source reference bank only: unchanged control, co-label completion at existing sites, all eligible complete multi training sites.",
+  "fixed": "Identical training and validation labels, district weights, optimization budget, target partial labels and repaired target features.",
+  "source_metric": "Exact complete set; balanced_exact primary, micro_exact secondary. Original1246source validation rows,60multi.",
+  "target_inference": "None during this experiment. Requires source gate AND primary balanced_exact no worse than matched control; separately frozen target test only.",
+  "next_test": "Select all_multi_training if it passes; otherwise complete_existing if it passes. No target-dependent selection.",
+  "no_target_gold": true,
+  "no_target_polygon": true,
+  "no_target_cardinality": true,
+  "partial_unknown_not_negative": true,
+  "source_holdout_reused": true,
+  "independent_validation": false,
+  "adopted": false
+}

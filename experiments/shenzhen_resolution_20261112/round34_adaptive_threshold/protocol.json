@@ -1,0 +1,60 @@
+{
+  "sources": [
+    "天心区",
+    "芙蓉区",
+    "雨花区",
+    "开福区",
+    "拱墅区",
+    "萧山区",
+    "富阳区",
+    "临安区"
+  ],
+  "targets": [
+    "龙华区",
+    "龙岗区"
+  ],
+  "seeds": [
+    20261131,
+    20261132,
+    20261133,
+    20261134,
+    20261135,
+    20261136,
+    20261137,
+    20261138,
+    20261139,
+    20261140
+  ],
+  "steps": 40,
+  "lr": 0.003,
+  "reg": 0.01,
+  "width": 32,
+  "chunk": 64,
+  "source_gate": {
+    "min_multi_correct": 8,
+    "min_single_correct": 901,
+    "min_attainable_multi": 18,
+    "objective": "balanced_exact",
+    "purpose": "Only determines whether to proceed to a separately frozen target test."
+  },
+  "arms": [
+    "constant_head",
+    "adaptive_head"
+  ],
+  "base": "round32/features_labels frozen scorer, no continued scorer training",
+  "training": "Complete source training rows only; retain original weights; no partial labels used to learn stopping boundary.",
+  "input": "35d: softmax-weighted33d anchor/context, normalized entropy, top2 logit gap. Train-only weighted mean/std.",
+  "initializer": "TH=max(school_logits)-1 for both heads; adaptive residual initially zero.",
+  "loss": "ATLOP virtual threshold two categorical terms, all observed positive/negative classes, fixed school logits.",
+  "primary": "adaptive_head: mean per-seed school logit minus mean learned TH >0; no validation threshold fitting; empty falls back to argmax.",
+  "controls": "Same-budget constant TH offset head and original round32 features_labels relative probability decoder.",
+  "source_gate_rule": "Original single/multi/attainable gate AND balanced_exact >= both controls AND each stress exact >= both controls; only adaptive_head may advance.",
+  "checkpoint": "40 steps, no early stopping or seed selection, Adam lr0.003, reg0.01, gradient clip5.",
+  "complete_population": "Original1246source development validation; no target inference before pass. Later target trial must include all cumulative facts identically for controls.",
+  "target_gold_read": false,
+  "target_polygon_read": false,
+  "target_cardinality_used": false,
+  "target_predictions_generated": false,
+  "independent_validation": false,
+  "adopted": false
+}

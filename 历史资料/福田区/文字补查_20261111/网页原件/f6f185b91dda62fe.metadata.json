@@ -1,0 +1,20 @@
+{
+  "url": "https://ftjl.szftedu.cn/",
+  "fetched_on": "2026-11-11",
+  "status_code": 200,
+  "final_url": "https://ftjl.szftedu.cn/",
+  "content_type": "text/html",
+  "local_file": "网页原件/f6f185b91dda62fe.html",
+  "sha256": "fc932d2aaa3f5f0eeaaa80042681811ca0f05418da3fec42632da54419c9f713",
+  "title": "深圳市福田区景龙小学",
+  "admission_links": [
+    {
+      "title": "福田区2024年义务教育阶段公办学校招生问答",
+      "url": "https://mp.weixin.qq.com/s/x9oGhUVxuKdyxdk9GPBaIg"
+    },
+    {
+      "title": "景龙小学2023年新生入学指南",
+      "url": "https://mp.weixin.qq.com/s/1JJnbpP5VR9TSY12c2fuEw"
+    }
+  ]
+}

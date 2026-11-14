@@ -1,0 +1,25 @@
+独立社区行政边界线索核查，2026-11-12
+目标是行政社区/居民小组范围，不是学校学区polygon，不作为目标Gold。
+
+1. https://www.selectdataset.com/dataset/941fbbe9d587263038b11153a00f8ab7
+已实际下载catalog.html并阅读全文。目录名称“深圳市社区层级行政区划边界数据”，更新2024-07-11，提供机构写为深圳市前海数据服务有限公司。
+目录称数据为Excel、GCJ02，基于统计区划和政府网站信息人工绘制；这一描述是聚合目录的总结，未由原始数据文件验证。
+指向登记页：https://sjdj.sist.org.cn/cqdjCms/detail/certdetail.html?id=1808679381141319681
+该页本次返回403，响应保留为registration.forbidden.html。没有取得数据文件，没有购买、联系任何第三方或使用账户。不把目录当官方矢量数据。
+
+2. https://opendata.sz.gov.cn/
+网页工具及curl客户端访问失败；requests直连标准TLS成功返回200，首页保留portal_direct_response.html，哈希见portal_direct_receipt.json。
+已读取公开search.js及搜索页面。页面源码给出的数据目录查询方式是POST /data/dataSet/findPageBySearch，字段包括keyword、pageNo、pageSize等。
+本次对“社区”“边界”“行政区划”发出的公开目录查询均返回403“因权限问题或行为非法，您的访问被拒绝”。原响应按*.forbidden.html保留，不能当JSON数据。
+未伪造授权信息、绕过登录或取得任何受限内容；仍可继续检查正式公开目录页面和搜索引擎能索引的具体数据详情页。
+首页公开入口：/data/catalog/toDataCatalog、/data/dataSet/toDataSet、/data/dataSet/toDataSet/dept/38（龙岗）、/data/dataSet/toDataSet/dept/47（龙华）、/data/dataSet/toDataSet/dept/8（民政）、/data/dataSet/toDataSet/dept/3（规划自然资源）。
+
+3. 搜索发现的原始政府线索，尚未成功阅读全文或取得成果文件
+民政局社区界线矢量图服务采购：
+https://mzj.sz.gov.cn/szmz/pc/zwgk/jcxxgk/zbcg/content/post_10002680.html
+搜索摘要描述全市社区界线矢量图绘制项目；项目存在不等于成果已经公开下载。
+政府互动答复街道边界获取：
+https://www.sz.gov.cn/hdjlpt/detail?pid=3265588
+搜索摘要指向 https://guangdong.tianditu.gov.cn/shenzhen/bzmap 。需要检查实际层级、年份和数据类型，不能把街道图自动当社区面。
+
+本轮未新增可准入的独立社区面。以上只是可继续核查的线索，不是官方没有数据的证据。

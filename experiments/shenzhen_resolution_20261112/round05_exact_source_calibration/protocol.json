@@ -1,0 +1,67 @@
+{
+  "round": 5,
+  "date": "2026-11-12",
+  "arms": [
+    "masked_bce",
+    "assume_negative"
+  ],
+  "objectives": [
+    "micro_exact",
+    "balanced_exact"
+  ],
+  "seeds": [
+    20261131,
+    20261132,
+    20261133,
+    20261134,
+    20261135,
+    20261136,
+    20261137,
+    20261138,
+    20261139,
+    20261140
+  ],
+  "labels": [
+    "ensemble",
+    "20261131",
+    "20261132",
+    "20261133",
+    "20261134",
+    "20261135",
+    "20261136",
+    "20261137",
+    "20261138",
+    "20261139",
+    "20261140"
+  ],
+  "sources": [
+    "天心区",
+    "芙蓉区",
+    "雨花区",
+    "开福区",
+    "拱墅区",
+    "萧山区",
+    "富阳区",
+    "临安区"
+  ],
+  "targets": [
+    "龙华区",
+    "龙岗区"
+  ],
+  "previous": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round03_partial_labels",
+  "hypothesis": "Round03 calibration optimum hit0.90grid ceiling; exact full-range calibration tests whether that ceiling or singleton-dominated calibration explains failures.",
+  "search": "All exact-set prediction intervals over threshold[0,1], top1fallback; threshold comparison in float64 to preserve strict endpoints.",
+  "objectives_definition": {
+    "micro_exact": "maximize source complete exact sets",
+    "balanced_exact": "maximize mean of singleton and multi-label source exact accuracies with equal0.5weights; no target cardinality or priors"
+  },
+  "tie_break": "minimumFPthenhighestthreshold; FP is nonincreasing under threshold+top1fallback",
+  "unchanged": "All20models, probabilities, source validation rows, target inputs, policy decoding and partial positive lower bounds unchanged.",
+  "no_retraining": true,
+  "target_gold_read": false,
+  "target_cardinality_used": false,
+  "independent_validation": false,
+  "adopted": false,
+  "metrics": "Same1761map-hit rows, both districts, single/multi,FP/FN,corrected/harmed,3000spatialpairedbootstrap; all10seeds retained.",
+  "comparison": "Each threshold against same round03 model arm. Round04 geographical augmentation not combined. Both objectives reported without Shenzhen-based selection."
+}

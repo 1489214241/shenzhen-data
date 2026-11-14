@@ -1,0 +1,28 @@
+{
+  "url": "https://lyxx.szftedu.cn/",
+  "fetched_on": "2026-11-11",
+  "status_code": 200,
+  "final_url": "https://lyxx.szftedu.cn/",
+  "content_type": "text/html",
+  "local_file": "网页原件/84ecab353b946798.html",
+  "sha256": "ec4195bd08533f4b89f4a919a8e00bb04baa6114043e8d10ac60dd8d39b074d3",
+  "title": "荔园小学（荔园教育集团）",
+  "admission_links": [
+    {
+      "title": "学校简介",
+      "url": "https://lyxx.szftedu.cn/xxgk_395/xxjj_4929/"
+    },
+    {
+      "title": "26 2025-08 荔园 · 新生 | 欢迎你，小同学！2025级小一新生入学指南",
+      "url": "https://mp.weixin.qq.com/s/pcBUkMOhZbkP00PySJ-7TA"
+    },
+    {
+      "title": "深圳市福田区荔园小学（荔园教育集团）2021年小一新生招生计划",
+      "url": "https://lyxx.szftedu.cn/hdpt/202105/t20210526_133297.html"
+    },
+    {
+      "title": "深圳市福田区荔园教育集团百花校区附属幼儿园 2020年秋季学期招生简章",
+      "url": "https://lyxx.szftedu.cn/hdpt/202006/t20200610_123655.html"
+    }
+  ]
+}

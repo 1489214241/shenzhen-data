@@ -1,0 +1,2206 @@
+{
+  "schema": "shenzhen_policy_rules_v1",
+  "version": "20261111_base_scope_rules_v1",
+  "district": "龙华区",
+  "year": 2026,
+  "stage": "小学",
+  "target": "base_catchment_prediction",
+  "school_ids": [
+    "sz:longhua:school:126b5238994546a89ec7c673bc1d3b44",
+    "sz:longhua:school:14c13f11622f4d8ca604cf9b6b722d01",
+    "sz:longhua:school:1dd894e9511144dc856000fda2fd9fb3",
+    "sz:longhua:school:496FFFE16B405558E053BC09A8C0A5ED",
+    "sz:longhua:school:496FFFE16B465558E053BC09A8C0A5ED",
+    "sz:longhua:school:496FFFE16B4B5558E053BC09A8C0A5ED",
+    "sz:longhua:school:b5d42e6c807e47b1b53f2f24323cc6aa",
+    "sz:longhua:school:c649047304de4edaa878ae435599b2dd",
+    "sz:longhua:school:496FFFE16B955558E053BC09A8C0A5ED",
+    "sz:longhua:school:7628da1534ad4b82b083fb5baed4b0b4",
+    "sz:longhua:school:8e0c89bd31ed415788147cd66bffa09b",
+    "sz:longhua:school:9ee001ac0a054274a07983d4506a0274",
+    "sz:longhua:school:ba2444f9c7514892b3d64263c55c09f5",
+    "sz:longhua:school:e3a272c8c0df4aabbf2a6f428245dba1",
+    "sz:longhua:school:1f276b80093840b9a1af7dac99af256f",
+    "sz:longhua:school:23ba0810988d4e3fb4fa75f80c080db8",
+    "sz:longhua:school:42392d26506d455da3eab13483999166",
+    "sz:longhua:school:496FFFE16B3C5558E053BC09A8C0A5ED",
+    "sz:longhua:school:496FFFE16B415558E053BC09A8C0A5ED",
+    "sz:longhua:school:496FFFE16B445558E053BC09A8C0A5ED",
+    "sz:longhua:school:94aed576e2854236bfd117b281031afa",
+    "sz:longhua:school:a30b9ed45d5e4734b2d70feceb561c96",
+    "sz:longhua:school:496FFFE16B735558E053BC09A8C0A5ED",
+    "sz:longhua:school:dd655370e05640259a918bdfb9146830",
+    "sz:longhua:school:f29dbee4b70c47d393ce050ba7813032",
+    "sz:longhua:school:496FFFE16B6C5558E053BC09A8C0A5ED",
+    "sz:longhua:school:3925e3411b3a41db92a8fbc9cc41c4b6",
+    "sz:longhua:school:496FFFE16B4A5558E053BC09A8C0A5ED",
+    "sz:longhua:school:496FFFE16B4C5558E053BC09A8C0A5ED",
+    "sz:longhua:school:496FFFE16B4F5558E053BC09A8C0A5ED",
+    "sz:longhua:school:4c3a8df2652947908d8864574a4ecc46",
+    "sz:longhua:school:496FFFE16B755558E053BC09A8C0A5ED",
+    "sz:longhua:school:0243cbf5c9f44a73b8cf266871d50ffe",
+    "sz:longhua:school:26607511230d404689ae8f55465df792",
+    "sz:longhua:school:38ce5ec6b658423491f976dbddbb13c3",
+    "sz:longhua:school:496FFFE16B485558E053BC09A8C0A5ED",
+    "sz:longhua:school:496FFFE16B4D5558E053BC09A8C0A5ED",
+    "sz:longhua:school:496FFFE16B935558E053BC09A8C0A5ED:guanhu",
+    "sz:longhua:school:496FFFE16B935558E053BC09A8C0A5ED:gaoxin",
+    "sz:longhua:school:496FFFE16B945558E053BC09A8C0A5ED",
+    "sz:longhua:school:7d4cace1dbac4f02bb47112ea549f2f7",
+    "sz:longhua:school:92b2600af53243cd8652d9576d56df41",
+    "sz:longhua:school:b3f88a4b9de8403cbbbf9614e5156fd2",
+    "sz:longhua:school:496FFFE16B7A5558E053BC09A8C0A5ED",
+    "sz:longhua:school:d713de18b1b043afb8e90469d78f13c9",
+    "sz:longhua:school:ebe9113be2924ea68014727f80792b78",
+    "sz:longhua:school:496FFFE16B425558E053BC09A8C0A5ED",
+    "sz:longhua:school:496FFFE16B455558E053BC09A8C0A5ED",
+    "sz:longhua:school:496FFFE16B475558E053BC09A8C0A5ED",
+    "sz:longhua:school:496FFFE16B495558E053BC09A8C0A5ED",
+    "sz:longhua:school:57e88fc8ebe3404891cd5d07f1e506bc",
+    "sz:longhua:school:496FFFE16B6F5558E053BC09A8C0A5ED",
+    "sz:longhua:school:270930b511e946c38951ecf46a65476a",
+    "sz:longhua:school:449225a8ccc34107b689c883a1b6caa2",
+    "sz:longhua:school:496FFFE16B3E5558E053BC09A8C0A5ED",
+    "sz:longhua:school:496FFFE16B3F5558E053BC09A8C0A5ED",
+    "sz:longhua:school:496FFFE16B435558E053BC09A8C0A5ED",
+    "sz:longhua:school:58917a95bb2b4a0e89216e9b870ae6dc",
+    "sz:longhua:school:c6a72391361d4221817db0289a292060:huaren",
+    "sz:longhua:school:e158b5b70ec34bbaae1323e42fee6a06",
+    "sz:longhua:school:496FFFE16B715558E053BC09A8C0A5ED",
+    "sz:longhua:school:345bd8c3128a491c83ea353a4218b0c8",
+    "sz:longhua:school:496FFFE16B3B5558E053BC09A8C0A5ED",
+    "sz:longhua:school:496FFFE16B3D5558E053BC09A8C0A5ED",
+    "sz:longhua:school:496FFFE16B4E5558E053BC09A8C0A5ED",
+    "sz:longhua:school:85fbf4152f374f80a015cdabb34c4ff5",
+    "sz:longhua:school:a863a2a0d9434c7c8370f9af437bae6e",
+    "sz:longhua:school:b31451d47108423e9503bf0382ce5192",
+    "sz:longhua:school:da8402fbef554a27b5ac54f83c6a1682",
+    "sz:longhua:school:ef3f3d903cc94a3981284a92f19b23f1",
+    "sz:longhua:school:f9aa4dcc77234f738633dc9c37638464"
+  ],
+  "input_hashes": {
+    "texts.json": "967fa0e6c75a3d12a1298674721fb135cf8854fc9f35f917cc815003a0bf9dee",
+    "schools.json": "c286707a63b914acd4a86e0a5bec41a3edd6ba06e8ed336fa8d4578482a9237d",
+    "小区数据/坐标组.json": "23b91ae9e00532d7a19eeae4b6cb15c7e9dcc6562fd4c924518e91fbc8c01a4f",
+    "../原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx": "7820dfe2bef568ba908597fb3e3bbe4ecdd79bc4b99138153d6b134f8c598820",
+    "政策规则/官方附件/longhua_2026_notice_1739845_12826915.txt": "be5c41c1df9ec710b10343f146d3b2182def80dc499b4e0259e7a77db9414e02",
+    "政策规则/官方附件/longhua_2026_notice_1739845_12826915.docx": "9f884b29e15dbc9b298de6e8190f110a922e2180113f60050c31f6da954559b4",
+    "政策规则/官方附件/longhua_2026_notice_1720517_12826915.txt": "bf80bbe21663b5f9459203767a7e08259c7b979dc07026a9a913235ab45908d0",
+    "政策规则/官方附件/longhua_2026_notice_1720517_12826915.docx": "2389dc63b71bb537217fc2b14d55ee14302953b9c73fe58c0295dd7e8aa0d0a7"
+  },
+  "relations": [
+    {
+      "rule_id": "EQ-a2a9963a12",
+      "kind": "shared",
+      "school_ids": [
+        "sz:longhua:school:496FFFE16B735558E053BC09A8C0A5ED",
+        "sz:longhua:school:4c3a8df2652947908d8864574a4ecc46"
+      ],
+      "trigger_school_ids": [
+        "sz:longhua:school:496FFFE16B735558E053BC09A8C0A5ED",
+        "sz:longhua:school:4c3a8df2652947908d8864574a4ecc46"
+      ],
+      "exact_site_names": [],
+      "reason": "官方年度表完整基础范围一致；只表达范围集合，不表示自由择校或录取保证",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:496FFFE16B735558E053BC09A8C0A5ED",
+          "school_name": "龙华区同胜学校（小学部）",
+          "scope_text": "上横朗社区居委会、同胜社区居委会、水围社区居委会（华旺路以北部分）。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第75行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        },
+        {
+          "school_id": "sz:longhua:school:4c3a8df2652947908d8864574a4ecc46",
+          "school_name": "龙华区博雅实验学校（小学部）",
+          "scope_text": "上横朗社区居委会、同胜社区居委会、水围社区居委会（华旺路以北部分）。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第76行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "rule_id": "EQ-ae35cdc87e",
+      "kind": "shared",
+      "school_ids": [
+        "sz:longhua:school:0243cbf5c9f44a73b8cf266871d50ffe",
+        "sz:longhua:school:496FFFE16B455558E053BC09A8C0A5ED",
+        "sz:longhua:school:58917a95bb2b4a0e89216e9b870ae6dc"
+      ],
+      "trigger_school_ids": [
+        "sz:longhua:school:0243cbf5c9f44a73b8cf266871d50ffe",
+        "sz:longhua:school:496FFFE16B455558E053BC09A8C0A5ED",
+        "sz:longhua:school:58917a95bb2b4a0e89216e9b870ae6dc"
+      ],
+      "exact_site_names": [],
+      "reason": "官方年度表完整基础范围一致；只表达范围集合，不表示自由择校或录取保证",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:0243cbf5c9f44a73b8cf266871d50ffe",
+          "school_name": "龙华区外国语学校教育集团新和校区（小学部）",
+          "scope_text": "丹湖社区丹湖居委会，新和社区，四和社区。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第94行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        },
+        {
+          "school_id": "sz:longhua:school:496FFFE16B455558E053BC09A8C0A5ED",
+          "school_name": "龙华区观澜第二中学教育集团观澜第二小学",
+          "scope_text": "丹湖社区丹湖居委会，新和社区，四和社区。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第95行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        },
+        {
+          "school_id": "sz:longhua:school:58917a95bb2b4a0e89216e9b870ae6dc",
+          "school_name": "龙华区外国语学校教育集团福城校区（小学部）",
+          "scope_text": "丹湖社区丹湖居委会，新和社区，四和社区。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第93行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "rule_id": "EQ-d1b2b8e2bd",
+      "kind": "shared",
+      "school_ids": [
+        "sz:longhua:school:126b5238994546a89ec7c673bc1d3b44",
+        "sz:longhua:school:ef3f3d903cc94a3981284a92f19b23f1"
+      ],
+      "trigger_school_ids": [
+        "sz:longhua:school:126b5238994546a89ec7c673bc1d3b44",
+        "sz:longhua:school:ef3f3d903cc94a3981284a92f19b23f1"
+      ],
+      "exact_site_names": [],
+      "reason": "官方年度表完整基础范围一致；只表达范围集合，不表示自由择校或录取保证",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:126b5238994546a89ec7c673bc1d3b44",
+          "school_name": "龙华区虔贞学校（小学部）",
+          "scope_text": "华昌路以东、华旺路以南、大浪南路以东、石清大道以南、龙澜大道以北范围。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第81行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        },
+        {
+          "school_id": "sz:longhua:school:ef3f3d903cc94a3981284a92f19b23f1",
+          "school_name": "龙华区华盛学校（小学部）",
+          "scope_text": "华昌路以东、华旺路以南、大浪南路以东、石清大道以南、龙澜大道以北范围。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第82行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "rule_id": "EQ-b18a76926f",
+      "kind": "shared",
+      "school_ids": [
+        "sz:longhua:school:496FFFE16B935558E053BC09A8C0A5ED:gaoxin",
+        "sz:longhua:school:496FFFE16B935558E053BC09A8C0A5ED:guanhu",
+        "sz:longhua:school:e158b5b70ec34bbaae1323e42fee6a06"
+      ],
+      "trigger_school_ids": [
+        "sz:longhua:school:496FFFE16B935558E053BC09A8C0A5ED:gaoxin",
+        "sz:longhua:school:496FFFE16B935558E053BC09A8C0A5ED:guanhu",
+        "sz:longhua:school:e158b5b70ec34bbaae1323e42fee6a06"
+      ],
+      "exact_site_names": [],
+      "reason": "官方年度表完整基础范围一致；只表达范围集合，不表示自由择校或录取保证",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:496FFFE16B935558E053BC09A8C0A5ED:guanhu",
+          "school_name": "龙华区外国语学校教育集团观湖校区（小学部）",
+          "scope_text": "大和社区，润城社区，鹭湖社区。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第8行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        },
+        {
+          "school_id": "sz:longhua:school:496FFFE16B935558E053BC09A8C0A5ED:gaoxin",
+          "school_name": "龙华区外国语学校教育集团高新校区（小学部）",
+          "scope_text": "大和社区，润城社区，鹭湖社区。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第10行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        },
+        {
+          "school_id": "sz:longhua:school:e158b5b70ec34bbaae1323e42fee6a06",
+          "school_name": "龙华区鹭湖外国语小学",
+          "scope_text": "大和社区，润城社区，鹭湖社区。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第16行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "rule_id": "EQ-00e98b73fa",
+      "kind": "shared",
+      "school_ids": [
+        "sz:longhua:school:496FFFE16B4E5558E053BC09A8C0A5ED",
+        "sz:longhua:school:e3a272c8c0df4aabbf2a6f428245dba1"
+      ],
+      "trigger_school_ids": [
+        "sz:longhua:school:496FFFE16B4E5558E053BC09A8C0A5ED",
+        "sz:longhua:school:e3a272c8c0df4aabbf2a6f428245dba1"
+      ],
+      "exact_site_names": [],
+      "reason": "官方年度表完整基础范围一致；只表达范围集合，不表示自由择校或录取保证",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:e3a272c8c0df4aabbf2a6f428245dba1",
+          "school_name": "龙华区龙华第三小学",
+          "scope_text": "大浪南路以西、东环一路以西、和平路以北范围。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第69行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        },
+        {
+          "school_id": "sz:longhua:school:496FFFE16B4E5558E053BC09A8C0A5ED",
+          "school_name": "龙华区龙华中心小学",
+          "scope_text": "大浪南路以西、东环一路以西、和平路以北范围。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第66行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "rule_id": "EQ-de08e3ca47",
+      "kind": "shared",
+      "school_ids": [
+        "sz:longhua:school:496FFFE16B3E5558E053BC09A8C0A5ED",
+        "sz:longhua:school:dd655370e05640259a918bdfb9146830"
+      ],
+      "trigger_school_ids": [
+        "sz:longhua:school:496FFFE16B3E5558E053BC09A8C0A5ED",
+        "sz:longhua:school:dd655370e05640259a918bdfb9146830"
+      ],
+      "exact_site_names": [],
+      "reason": "官方年度表完整基础范围一致；只表达范围集合，不表示自由择校或录取保证",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:dd655370e05640259a918bdfb9146830",
+          "school_name": "深圳中学龙华学校（小学部）",
+          "scope_text": "单校划片学区：工业路以南、油松路以西、布龙路以北、人民路以东范围。\n多校联动学区：民治街道（除单校划片学区外）和龙华街道东环一路以南、民清路以西、工业路以北、人民路以东、建设路以东范围。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第27行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        },
+        {
+          "school_id": "sz:longhua:school:496FFFE16B3E5558E053BC09A8C0A5ED",
+          "school_name": "龙华区行知小学",
+          "scope_text": "工业路以南、油松路以西、布龙路以北、人民路以东范围。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第46行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "rule_id": "EQ-b1311a53d7",
+      "kind": "shared",
+      "school_ids": [
+        "sz:longhua:school:23ba0810988d4e3fb4fa75f80c080db8",
+        "sz:longhua:school:496FFFE16B715558E053BC09A8C0A5ED"
+      ],
+      "trigger_school_ids": [
+        "sz:longhua:school:23ba0810988d4e3fb4fa75f80c080db8",
+        "sz:longhua:school:496FFFE16B715558E053BC09A8C0A5ED"
+      ],
+      "exact_site_names": [],
+      "reason": "官方年度表完整基础范围一致；只表达范围集合，不表示自由择校或录取保证",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:23ba0810988d4e3fb4fa75f80c080db8",
+          "school_name": "深圳外国语学校龙华学校（小学部）",
+          "scope_text": "平南铁路以南、龙华大道以西、玉龙路以北、新区大道以西、白龙路以北、金龙路以西的范围。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第33行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        },
+        {
+          "school_id": "sz:longhua:school:496FFFE16B715558E053BC09A8C0A5ED",
+          "school_name": "龙华区玉龙学校（小学部）",
+          "scope_text": "平南铁路以南、龙华大道以西、玉龙路以北、新区大道以西、白龙路以北、金龙路以西的范围。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第31行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "rule_id": "EQ-3c9285206c",
+      "kind": "shared",
+      "school_ids": [
+        "sz:longhua:school:496FFFE16B495558E053BC09A8C0A5ED",
+        "sz:longhua:school:7d4cace1dbac4f02bb47112ea549f2f7"
+      ],
+      "trigger_school_ids": [
+        "sz:longhua:school:496FFFE16B495558E053BC09A8C0A5ED",
+        "sz:longhua:school:7d4cace1dbac4f02bb47112ea549f2f7"
+      ],
+      "exact_site_names": [],
+      "reason": "官方年度表完整基础范围一致；只表达范围集合，不表示自由择校或录取保证",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:7d4cace1dbac4f02bb47112ea549f2f7",
+          "school_name": "龙华区行知外国语学校（小学部）（原行知中学）",
+          "scope_text": "库坑社区，大富社区，黎光社区。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第98行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        },
+        {
+          "school_id": "sz:longhua:school:496FFFE16B495558E053BC09A8C0A5ED",
+          "school_name": "龙华区碧澜外国语小学",
+          "scope_text": "库坑社区，大富社区，黎光社区。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第104行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "rule_id": "EQ-4a62f856a7",
+      "kind": "shared",
+      "school_ids": [
+        "sz:longhua:school:92b2600af53243cd8652d9576d56df41",
+        "sz:longhua:school:c6a72391361d4221817db0289a292060:huaren"
+      ],
+      "trigger_school_ids": [
+        "sz:longhua:school:92b2600af53243cd8652d9576d56df41",
+        "sz:longhua:school:c6a72391361d4221817db0289a292060:huaren"
+      ],
+      "exact_site_names": [],
+      "reason": "官方年度表完整基础范围一致；只表达范围集合，不表示自由择校或录取保证",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:92b2600af53243cd8652d9576d56df41",
+          "school_name": "龙华区第二实验学校教育集团华美校区（小学部）",
+          "scope_text": "建设西路以东、侨龙路以西、鸿尚路以南、东环一路以南、龙华大道以西、工业路以北范围。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第59行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        },
+        {
+          "school_id": "sz:longhua:school:c6a72391361d4221817db0289a292060:huaren",
+          "school_name": "龙华区第二实验学校教育集团华仁校区（小学部）",
+          "scope_text": "建设西路以东、侨龙路以西、鸿尚路以南、东环一路以南、龙华大道以西、工业路以北范围。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第58行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "rule_id": "EQ-ff402d05b5",
+      "kind": "shared",
+      "school_ids": [
+        "sz:longhua:school:14c13f11622f4d8ca604cf9b6b722d01",
+        "sz:longhua:school:496FFFE16B415558E053BC09A8C0A5ED"
+      ],
+      "trigger_school_ids": [
+        "sz:longhua:school:14c13f11622f4d8ca604cf9b6b722d01",
+        "sz:longhua:school:496FFFE16B415558E053BC09A8C0A5ED"
+      ],
+      "exact_site_names": [],
+      "reason": "官方年度表完整基础范围一致；只表达范围集合，不表示自由择校或录取保证",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:14c13f11622f4d8ca604cf9b6b722d01",
+          "school_name": "龙华区教育科学研究院附属外国语学校（小学部）",
+          "scope_text": "民清路以东、东环一路以北、龙华大道以东、清秀路以南范围。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第63行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        },
+        {
+          "school_id": "sz:longhua:school:496FFFE16B415558E053BC09A8C0A5ED",
+          "school_name": "龙华区松和学校（小学部）",
+          "scope_text": "民清路以东、东环一路以北、龙华大道以东、清秀路以南范围。\n（借址新围学校，项目名）",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第57行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "rule_id": "EQ-3e0c359aac",
+      "kind": "shared",
+      "school_ids": [
+        "sz:longhua:school:496FFFE16B6C5558E053BC09A8C0A5ED",
+        "sz:longhua:school:ba2444f9c7514892b3d64263c55c09f5"
+      ],
+      "trigger_school_ids": [
+        "sz:longhua:school:496FFFE16B6C5558E053BC09A8C0A5ED",
+        "sz:longhua:school:ba2444f9c7514892b3d64263c55c09f5"
+      ],
+      "exact_site_names": [],
+      "reason": "官方年度表完整基础范围一致；只表达范围集合，不表示自由择校或录取保证",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:ba2444f9c7514892b3d64263c55c09f5",
+          "school_name": "龙华区第二外国语学校（小学部）",
+          "scope_text": "赖屋山社区居委会、华荣社区谭罗居委会、华荣社区三合居委会、浪口社区居委会（华昌路以西部分）、高峰社区鹊山居委会（龙观大道以东部分）、高峰社区下早居委会（龙观大道以东部分）。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第79行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        },
+        {
+          "school_id": "sz:longhua:school:496FFFE16B6C5558E053BC09A8C0A5ED",
+          "school_name": "龙华高级中学教育集团大浪校区（小学部）",
+          "scope_text": "赖屋山社区居委会、华荣社区谭罗居委会、华荣社区三合居委会、浪口社区居委会（华昌路以西部分）、高峰社区鹊山居委会（龙观大道以东部分）、高峰社区下早居委会（龙观大道以东部分）。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第80行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "rule_id": "EQ-b38a0fdd9d",
+      "kind": "shared",
+      "school_ids": [
+        "sz:longhua:school:b5d42e6c807e47b1b53f2f24323cc6aa",
+        "sz:longhua:school:ebe9113be2924ea68014727f80792b78"
+      ],
+      "trigger_school_ids": [
+        "sz:longhua:school:b5d42e6c807e47b1b53f2f24323cc6aa",
+        "sz:longhua:school:ebe9113be2924ea68014727f80792b78"
+      ],
+      "exact_site_names": [],
+      "reason": "官方年度表完整基础范围一致；只表达范围集合，不表示自由择校或录取保证",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:b5d42e6c807e47b1b53f2f24323cc6aa",
+          "school_name": "龙华区龙腾学校（小学部）",
+          "scope_text": "金龙路以北、民治大道以西、民乐路以南、龙华大道以西、玉龙路以南范围。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第37行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        },
+        {
+          "school_id": "sz:longhua:school:ebe9113be2924ea68014727f80792b78",
+          "school_name": "格致中学民治校区（小学部）",
+          "scope_text": "金龙路以北、民治大道以西、民乐路以南、龙华大道以西、玉龙路以南范围。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第22行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "rule_id": "EQ-a37e0f2ae3",
+      "kind": "shared",
+      "school_ids": [
+        "sz:longhua:school:3925e3411b3a41db92a8fbc9cc41c4b6",
+        "sz:longhua:school:496FFFE16B485558E053BC09A8C0A5ED"
+      ],
+      "trigger_school_ids": [
+        "sz:longhua:school:3925e3411b3a41db92a8fbc9cc41c4b6",
+        "sz:longhua:school:496FFFE16B485558E053BC09A8C0A5ED"
+      ],
+      "exact_site_names": [],
+      "reason": "官方年度表完整基础范围一致；只表达范围集合，不表示自由择校或录取保证",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:3925e3411b3a41db92a8fbc9cc41c4b6",
+          "school_name": "龙华区龙华中学弘毅校区（小学部）",
+          "scope_text": "高峰社区鹊山居委会（龙观大道以西部分）、高峰社区下早居委会（龙观大道以西部分）、高峰社区上早居委会、高峰社区赤岭头居委会、陶元社区居委会、龙胜社区居委会。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第74行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        },
+        {
+          "school_id": "sz:longhua:school:496FFFE16B485558E053BC09A8C0A5ED",
+          "school_name": "龙华区高峰学校（小学部）",
+          "scope_text": "高峰社区鹊山居委会（龙观大道以西部分）、高峰社区下早居委会（龙观大道以西部分）、高峰社区上早居委会、高峰社区赤岭头居委会、陶元社区居委会、龙胜社区居委会。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第72行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "rule_id": "EQ-dec2e6a9ea",
+      "kind": "shared",
+      "school_ids": [
+        "sz:longhua:school:26607511230d404689ae8f55465df792",
+        "sz:longhua:school:85fbf4152f374f80a015cdabb34c4ff5"
+      ],
+      "trigger_school_ids": [
+        "sz:longhua:school:26607511230d404689ae8f55465df792",
+        "sz:longhua:school:85fbf4152f374f80a015cdabb34c4ff5"
+      ],
+      "exact_site_names": [],
+      "reason": "官方年度表完整基础范围一致；只表达范围集合，不表示自由择校或录取保证",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:26607511230d404689ae8f55465df792",
+          "school_name": "龙华区和平实验小学",
+          "scope_text": "龙平社区。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第85行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        },
+        {
+          "school_id": "sz:longhua:school:85fbf4152f374f80a015cdabb34c4ff5",
+          "school_name": "龙华区龙胜实验学校（小学部）",
+          "scope_text": "龙平社区。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第84行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "rule_id": "LH-UNIVERSITY",
+      "kind": "university",
+      "school_ids": [
+        "sz:longhua:school:42392d26506d455da3eab13483999166",
+        "sz:longhua:school:496FFFE16B755558E053BC09A8C0A5ED",
+        "sz:longhua:school:496FFFE16B945558E053BC09A8C0A5ED",
+        "sz:longhua:school:496FFFE16B955558E053BC09A8C0A5ED",
+        "sz:longhua:school:a863a2a0d9434c7c8370f9af437bae6e"
+      ],
+      "trigger_school_ids": [],
+      "exact_site_names": [],
+      "reason": "大学区保留原地段单校，不按五校成员扩展；教科院附实仅世纪春城参加",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:496FFFE16B955558E053BC09A8C0A5ED",
+          "school_name": "深圳高级中学（集团）北校区（小学部）",
+          "scope_text": "中梅路以南、民塘路以西、民兴街以南、龙华大道以西、平南铁路以北、福龙大道以东、人民路以东、新区大道以西范围。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第26行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        },
+        {
+          "school_id": "sz:longhua:school:42392d26506d455da3eab13483999166",
+          "school_name": "龙华区民治中学教育集团民新学校（小学部）",
+          "scope_text": "龙华大道以东、布龙路以南、民治大道以西、通菜路以北范围。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第19行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        },
+        {
+          "school_id": "sz:longhua:school:496FFFE16B755558E053BC09A8C0A5ED",
+          "school_name": "龙华区民治中学教育集团小学部",
+          "scope_text": "人民路以东、布龙路以南、龙华大道以西、民兴街以北、民塘路以东范围。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第20行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        },
+        {
+          "school_id": "sz:longhua:school:496FFFE16B945558E053BC09A8C0A5ED",
+          "school_name": "龙华区实验学校教育集团（小学部）",
+          "scope_text": "福龙路以东、向荣路以南、佳民路以东、布龙路以南、人民路以西、民塘路以西、中梅路以北、新区大道以东范围。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第25行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        },
+        {
+          "school_id": "sz:longhua:school:a863a2a0d9434c7c8370f9af437bae6e",
+          "school_name": "龙华区教育科学研究院附属实验学校（小学部）",
+          "scope_text": "龙华大道以东、民兴街以南、民福路以西、民旺路以北范围，含世纪春城小区。世纪春城小区属于大学区范围。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第43行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ],
+      "official_scheme": "https://www.szlhq.gov.cn/attachment/1/1739/1739845/12826915.docx",
+      "participation_limits": {
+        "sz:longhua:school:a863a2a0d9434c7c8370f9af437bae6e": "仅世纪春城小区；不同分期身份须核实"
+      },
+      "scheme_quotes": [
+        "为落实国家、省、市有关法律和法规，切实保障符合在我区就读条件的适龄儿童、少年接受义务教育的合法权益，促进我区义务教育均衡优质发展，根据《中华人民共和国义务教育法》《深圳市人民政府关于进一步加强和完善人口服务管理的若干意见》《深圳市非深户籍人员子女接受义务教育管理办法》《广东省教育厅关于进一步规范普通中小学招生入学工作的指导意见》等文件精神，结合我区实际，在民治街道小一选取5所学校、初一选取6所学校采用大学区方式招生，现制定方案如下：",
+        "在民治街道小一选取民治中学教育集团小学部、民治中学教育集团民新学校、龙华区教科院附属实验学校(世纪春城小区范围)、龙华区实验学校教育集团至真校区、深圳高级中学（集团）北校区5所学校，初一选取民治中学教育集团初中部、民治中学教育集团民新学校、龙华区教科院附属实验学校、龙华区实验学校教育集团至美校区、深圳高级中学（集团）北校区、深圳市艺术高中民治校区6所学校。大学区学校招生及单校划片范围详见《深圳市龙华区2026年秋季义务教育阶段大学区学校招生范围一览表》（附件1）。",
+        "两个公办学校志愿均未选择本单校划片范围内学校的学生，视为不参与本单校划片范围学校的排序录取，未被志愿学校录取的学生，由教育主管部门按学位类型统筹安排其学位。",
+        "一、大学区学校单校划片范围",
+        "单校划片范围"
+      ],
+      "scheme_text_path": "政策规则/官方附件/longhua_2026_notice_1739845_12826915.txt"
+    },
+    {
+      "rule_id": "LH-EAST-BASE",
+      "kind": "base_scope",
+      "school_ids": [
+        "sz:longhua:school:94aed576e2854236bfd117b281031afa"
+      ],
+      "trigger_school_ids": [],
+      "exact_site_names": [],
+      "reason": "原图含电脑派位范围；只有单片四至成立才确认基础归属",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:94aed576e2854236bfd117b281031afa",
+          "school_name": "华东师范大学附属深圳龙华学校教育集团（小学部）",
+          "scope_text": "单片学区：洁玉街以北、民塘路以西、腾龙路以东、建设东路以南的范围。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第39行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        },
+        {
+          "school_id": "sz:longhua:school:94aed576e2854236bfd117b281031afa",
+          "school_name": "华东师范大学附属深圳龙华学校教育集团（小学部）",
+          "scope_text": "电脑随机派位学区：由未来小学学区、龙华区实验学校小学部学区、和平实验小学学区3所学校学区范围组成。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第40行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ],
+      "complete_base_scope": true,
+      "scope_text": "洁玉街以北、民塘路以西、腾龙路以东、建设东路以南的范围。"
+    },
+    {
+      "rule_id": "LH-LINK-BASE",
+      "kind": "base_scope",
+      "school_ids": [
+        "sz:longhua:school:dd655370e05640259a918bdfb9146830"
+      ],
+      "trigger_school_ids": [],
+      "exact_site_names": [],
+      "reason": "区分单校划片与多校联动；只执行单校划片范围",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:dd655370e05640259a918bdfb9146830",
+          "school_name": "深圳中学龙华学校（小学部）",
+          "scope_text": "单校划片学区：工业路以南、油松路以西、布龙路以北、人民路以东范围。\n多校联动学区：民治街道（除单校划片学区外）和龙华街道东环一路以南、民清路以西、工业路以北、人民路以东、建设路以东范围。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第27行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ],
+      "complete_base_scope": true,
+      "scope_text": "工业路以南、油松路以西、布龙路以北、人民路以东范围。"
+    },
+    {
+      "rule_id": "LH-LOTTERY",
+      "kind": "eligibility",
+      "school_ids": [
+        "sz:longhua:school:94aed576e2854236bfd117b281031afa"
+      ],
+      "trigger_school_ids": [],
+      "exact_site_names": [],
+      "reason": "电脑随机派位资格不扩大基础归属；不得整校删除，也不得保留为已核准的基础面",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:94aed576e2854236bfd117b281031afa",
+          "school_name": "华东师范大学附属深圳龙华学校教育集团（小学部）",
+          "scope_text": "单片学区：洁玉街以北、民塘路以西、腾龙路以东、建设东路以南的范围。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第39行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        },
+        {
+          "school_id": "sz:longhua:school:94aed576e2854236bfd117b281031afa",
+          "school_name": "华东师范大学附属深圳龙华学校教育集团（小学部）",
+          "scope_text": "电脑随机派位学区：由未来小学学区、龙华区实验学校小学部学区、和平实验小学学区3所学校学区范围组成。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第40行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ],
+      "official_scheme": "https://www.szlhq.gov.cn/attachment/1/1720/1720517/12826915.docx",
+      "scheme_quotes": [
+        "1.小学部、初中部单片学区：洁玉街以北、民塘路以西、腾龙路以东、建设东路以南范围。",
+        "2.小学部、初中部电脑随机派位学区：由未来小学学区、龙华区实验学校小学部学区、和平实验小学学区范围组成。",
+        "1.单片学区：深圳户籍、非深户籍的适龄儿童少年且父母（或法定监护人）自购住宅类商品房。",
+        "2.电脑随机派位学区：深圳户籍、非深户籍的适龄儿童少年且父母（或法定监护人）自购住宅类商品房（含保障性安居房）；深圳户籍的适龄儿童少年且父母（或法定监护人）租房（含居住在单片学区租房）。",
+        "2.符合电脑随机派位学区招生对象的适龄儿童、少年报名时选择所属原学区范围学校志愿，并可根据自身情况自愿选择是否参与华东师范大学附属深圳龙华学校电脑随机派位。",
+        "4.居住在单片学区、电脑随机派位学区范围的非深户籍适龄儿童、少年且父母（或法定监护人）租房，报名时选择所属原学区范围学校志愿，不参与电脑随机派位。"
+      ],
+      "scheme_text_path": "政策规则/官方附件/longhua_2026_notice_1720517_12826915.txt"
+    },
+    {
+      "rule_id": "LH-LINK",
+      "kind": "eligibility",
+      "school_ids": [
+        "sz:longhua:school:dd655370e05640259a918bdfb9146830"
+      ],
+      "trigger_school_ids": [],
+      "exact_site_names": [],
+      "reason": "多校联动条款单列，不能当作基础范围",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:dd655370e05640259a918bdfb9146830",
+          "school_name": "深圳中学龙华学校（小学部）",
+          "scope_text": "单校划片学区：工业路以南、油松路以西、布龙路以北、人民路以东范围。\n多校联动学区：民治街道（除单校划片学区外）和龙华街道东环一路以南、民清路以西、工业路以北、人民路以东、建设路以东范围。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第27行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "rule_id": "PENDING-sz:longhua:school:a30b9ed45d5e4734b2d70feceb561c96",
+      "kind": "pending",
+      "school_ids": [
+        "sz:longhua:school:a30b9ed45d5e4734b2d70feceb561c96"
+      ],
+      "trigger_school_ids": [],
+      "exact_site_names": [],
+      "reason": "broad_scope_pending；须核实适用条件，不自动多校化或单校化",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:a30b9ed45d5e4734b2d70feceb561c96",
+          "school_name": "龙华区鹭湖实验学校（小学部）",
+          "scope_text": "面向观湖街道招生。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第13行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "rule_id": "PENDING-sz:longhua:school:f29dbee4b70c47d393ce050ba7813032",
+      "kind": "pending",
+      "school_ids": [
+        "sz:longhua:school:f29dbee4b70c47d393ce050ba7813032"
+      ],
+      "trigger_school_ids": [],
+      "exact_site_names": [],
+      "reason": "broad_scope_pending；须核实适用条件，不自动多校化或单校化",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:f29dbee4b70c47d393ce050ba7813032",
+          "school_name": "龙华区观湖外国语学校（小学部）",
+          "scope_text": "面向观湖街道招生。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第14行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    }
+  ],
+  "school_scope_inventory": [
+    {
+      "school_id": "sz:longhua:school:126b5238994546a89ec7c673bc1d3b44",
+      "school_name": "龙华区虔贞学校（小学部）",
+      "base_scope_text": "华昌路以东、华旺路以南、大浪南路以东、石清大道以南、龙澜大道以北范围。",
+      "original_scope_text": "华昌路以东、华旺路以南、大浪南路以东、石清大道以南、龙澜大道以北范围。",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:126b5238994546a89ec7c673bc1d3b44",
+          "school_name": "龙华区虔贞学校（小学部）",
+          "scope_text": "华昌路以东、华旺路以南、大浪南路以东、石清大道以南、龙澜大道以北范围。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第81行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:14c13f11622f4d8ca604cf9b6b722d01",
+      "school_name": "龙华区教育科学研究院附属外国语学校（小学部）",
+      "base_scope_text": "民清路以东、东环一路以北、龙华大道以东、清秀路以南范围。",
+      "original_scope_text": "民清路以东、东环一路以北、龙华大道以东、清秀路以南范围。",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:14c13f11622f4d8ca604cf9b6b722d01",
+          "school_name": "龙华区教育科学研究院附属外国语学校（小学部）",
+          "scope_text": "民清路以东、东环一路以北、龙华大道以东、清秀路以南范围。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第63行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:1dd894e9511144dc856000fda2fd9fb3",
+      "school_name": "龙华区行知学校（小学部）",
+      "base_scope_text": "茜坑社区，福民社区，丹湖社区福安居委会，九龙山社区，桔塘社区。",
+      "original_scope_text": "茜坑社区，福民社区，丹湖社区福安居委会，九龙山社区，桔塘社区。",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:1dd894e9511144dc856000fda2fd9fb3",
+          "school_name": "龙华区行知学校（小学部）",
+          "scope_text": "茜坑社区，福民社区，丹湖社区福安居委会，九龙山社区，桔塘社区。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第88行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:496FFFE16B405558E053BC09A8C0A5ED",
+      "school_name": "龙华区清湖小学",
+      "base_scope_text": "大浪南路以东，龙观路、清龙路、龙华大道、清秀路以北范围。",
+      "original_scope_text": "大浪南路以东，龙观路、清龙路、龙华大道、清秀路以北范围。",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:496FFFE16B405558E053BC09A8C0A5ED",
+          "school_name": "龙华区清湖小学",
+          "scope_text": "大浪南路以东，龙观路、清龙路、龙华大道、清秀路以北范围。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第67行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:496FFFE16B465558E053BC09A8C0A5ED",
+      "school_name": "华东师范大学附属深圳龙华学校教育集团未来小学",
+      "base_scope_text": "福龙大道以东，向荣路以西、民塘路以东、佳民路以西、布龙路以东、人民路以西范围。",
+      "original_scope_text": "福龙大道以东，向荣路以西、民塘路以东、佳民路以西、布龙路以东、人民路以西范围。",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:496FFFE16B465558E053BC09A8C0A5ED",
+          "school_name": "华东师范大学附属深圳龙华学校教育集团未来小学",
+          "scope_text": "福龙大道以东，向荣路以西、民塘路以东、佳民路以西、布龙路以东、人民路以西范围。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第41行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:496FFFE16B4B5558E053BC09A8C0A5ED",
+      "school_name": "龙华区广培小学",
+      "base_scope_text": "牛湖社区，广培社区，大水田社区。",
+      "original_scope_text": "牛湖社区，广培社区，大水田社区。",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:496FFFE16B4B5558E053BC09A8C0A5ED",
+          "school_name": "龙华区广培小学",
+          "scope_text": "牛湖社区，广培社区，大水田社区。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第105行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:b5d42e6c807e47b1b53f2f24323cc6aa",
+      "school_name": "龙华区龙腾学校（小学部）",
+      "base_scope_text": "金龙路以北、民治大道以西、民乐路以南、龙华大道以西、玉龙路以南范围。",
+      "original_scope_text": "金龙路以北、民治大道以西、民乐路以南、龙华大道以西、玉龙路以南范围。",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:b5d42e6c807e47b1b53f2f24323cc6aa",
+          "school_name": "龙华区龙腾学校（小学部）",
+          "scope_text": "金龙路以北、民治大道以西、民乐路以南、龙华大道以西、玉龙路以南范围。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第37行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:c649047304de4edaa878ae435599b2dd",
+      "school_name": "龙华区第二实验学校教育集团华育小学",
+      "base_scope_text": "范围一：龙华大道以东、东环一路以南、民清路以西、工业路以北范围。\n范围二：建设西路以东、侨龙路以西、鸿尚路以南、东环一路以南、龙华大道以西、工业路以北范围。",
+      "original_scope_text": "范围一：龙华大道以东、东环一路以南、民清路以西、工业路以北范围。\n范围二：建设西路以东、侨龙路以西、鸿尚路以南、东环一路以南、龙华大道以西、工业路以北范围。",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:c649047304de4edaa878ae435599b2dd",
+          "school_name": "龙华区第二实验学校教育集团华育小学",
+          "scope_text": "范围一：龙华大道以东、东环一路以南、民清路以西、工业路以北范围。\n范围二：建设西路以东、侨龙路以西、鸿尚路以南、东环一路以南、龙华大道以西、工业路以北范围。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第60行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:496FFFE16B955558E053BC09A8C0A5ED",
+      "school_name": "深圳高级中学（集团）北校区（小学部）",
+      "base_scope_text": "中梅路以南、民塘路以西、民兴街以南、龙华大道以西、平南铁路以北、福龙大道以东、人民路以东、新区大道以西范围。",
+      "original_scope_text": "中梅路以南、民塘路以西、民兴街以南、龙华大道以西、平南铁路以北、福龙大道以东、人民路以东、新区大道以西范围。",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:496FFFE16B955558E053BC09A8C0A5ED",
+          "school_name": "深圳高级中学（集团）北校区（小学部）",
+          "scope_text": "中梅路以南、民塘路以西、民兴街以南、龙华大道以西、平南铁路以北、福龙大道以东、人民路以东、新区大道以西范围。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第26行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:7628da1534ad4b82b083fb5baed4b0b4",
+      "school_name": "龙华高级中学教育集团龙华区第三实验学校（小学部）",
+      "base_scope_text": "新石社区新围居委会、新石社区石凹居委会（新岭路以西、永乐路以北、大浪北路以西、沈海高速以北范围）。",
+      "original_scope_text": "新石社区新围居委会、新石社区石凹居委会（新岭路以西、永乐路以北、大浪北路以西、沈海高速以北范围）。",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:7628da1534ad4b82b083fb5baed4b0b4",
+          "school_name": "龙华高级中学教育集团龙华区第三实验学校（小学部）",
+          "scope_text": "新石社区新围居委会、新石社区石凹居委会（新岭路以西、永乐路以北、大浪北路以西、沈海高速以北范围）。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第78行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:8e0c89bd31ed415788147cd66bffa09b",
+      "school_name": "龙华区第三外国语学校（小学部）",
+      "base_scope_text": "丹湖社区，新和社区，四和社区，福民社区悦兴围居委会，珑门。",
+      "original_scope_text": "丹湖社区，新和社区，四和社区，福民社区悦兴围居委会，珑门。",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:8e0c89bd31ed415788147cd66bffa09b",
+          "school_name": "龙华区第三外国语学校（小学部）",
+          "scope_text": "丹湖社区，新和社区，四和社区，福民社区悦兴围居委会，珑门。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第89行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:9ee001ac0a054274a07983d4506a0274",
+      "school_name": "龙华区创新实验学校（小学部）",
+      "base_scope_text": "和平路以东、东环一路以南、鸿尚路以北、侨龙路以东、建设西路以北范围。",
+      "original_scope_text": "和平路以东、东环一路以南、鸿尚路以北、侨龙路以东、建设西路以北范围。",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:9ee001ac0a054274a07983d4506a0274",
+          "school_name": "龙华区创新实验学校（小学部）",
+          "scope_text": "和平路以东、东环一路以南、鸿尚路以北、侨龙路以东、建设西路以北范围。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第61行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:ba2444f9c7514892b3d64263c55c09f5",
+      "school_name": "龙华区第二外国语学校（小学部）",
+      "base_scope_text": "赖屋山社区居委会、华荣社区谭罗居委会、华荣社区三合居委会、浪口社区居委会（华昌路以西部分）、高峰社区鹊山居委会（龙观大道以东部分）、高峰社区下早居委会（龙观大道以东部分）。",
+      "original_scope_text": "赖屋山社区居委会、华荣社区谭罗居委会、华荣社区三合居委会、浪口社区居委会（华昌路以西部分）、高峰社区鹊山居委会（龙观大道以东部分）、高峰社区下早居委会（龙观大道以东部分）。",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:ba2444f9c7514892b3d64263c55c09f5",
+          "school_name": "龙华区第二外国语学校（小学部）",
+          "scope_text": "赖屋山社区居委会、华荣社区谭罗居委会、华荣社区三合居委会、浪口社区居委会（华昌路以西部分）、高峰社区鹊山居委会（龙观大道以东部分）、高峰社区下早居委会（龙观大道以东部分）。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第79行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:e3a272c8c0df4aabbf2a6f428245dba1",
+      "school_name": "龙华区龙华第三小学",
+      "base_scope_text": "大浪南路以西、东环一路以西、和平路以北范围。",
+      "original_scope_text": "大浪南路以西、东环一路以西、和平路以北范围。",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:e3a272c8c0df4aabbf2a6f428245dba1",
+          "school_name": "龙华区龙华第三小学",
+          "scope_text": "大浪南路以西、东环一路以西、和平路以北范围。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第69行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:1f276b80093840b9a1af7dac99af256f",
+      "school_name": "艺术高中民治学校（小学部）",
+      "base_scope_text": "福龙大道以东、向荣路以西、民塘路以东、佳民路以西、布龙路以东、人民路以西、工业路以南、建设路以南范围。",
+      "original_scope_text": "福龙大道以东、向荣路以西、民塘路以东、佳民路以西、布龙路以东、人民路以西、工业路以南、建设路以南范围。",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:1f276b80093840b9a1af7dac99af256f",
+          "school_name": "艺术高中民治学校（小学部）",
+          "scope_text": "福龙大道以东、向荣路以西、民塘路以东、佳民路以西、布龙路以东、人民路以西、工业路以南、建设路以南范围。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第45行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:23ba0810988d4e3fb4fa75f80c080db8",
+      "school_name": "深圳外国语学校龙华学校（小学部）",
+      "base_scope_text": "平南铁路以南、龙华大道以西、玉龙路以北、新区大道以西、白龙路以北、金龙路以西的范围。",
+      "original_scope_text": "平南铁路以南、龙华大道以西、玉龙路以北、新区大道以西、白龙路以北、金龙路以西的范围。",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:23ba0810988d4e3fb4fa75f80c080db8",
+          "school_name": "深圳外国语学校龙华学校（小学部）",
+          "scope_text": "平南铁路以南、龙华大道以西、玉龙路以北、新区大道以西、白龙路以北、金龙路以西的范围。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第33行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:42392d26506d455da3eab13483999166",
+      "school_name": "龙华区民治中学教育集团民新学校（小学部）",
+      "base_scope_text": "龙华大道以东、布龙路以南、民治大道以西、通菜路以北范围。",
+      "original_scope_text": "龙华大道以东、布龙路以南、民治大道以西、通菜路以北范围。",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:42392d26506d455da3eab13483999166",
+          "school_name": "龙华区民治中学教育集团民新学校（小学部）",
+          "scope_text": "龙华大道以东、布龙路以南、民治大道以西、通菜路以北范围。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第19行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:496FFFE16B3C5558E053BC09A8C0A5ED",
+      "school_name": "龙华区振能学校（小学部）",
+      "base_scope_text": "松元厦社区，松轩社区。",
+      "original_scope_text": "松元厦社区，松轩社区。",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:496FFFE16B3C5558E053BC09A8C0A5ED",
+          "school_name": "龙华区振能学校（小学部）",
+          "scope_text": "松元厦社区，松轩社区。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第6行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:496FFFE16B415558E053BC09A8C0A5ED",
+      "school_name": "龙华区松和学校（小学部）",
+      "base_scope_text": "民清路以东、东环一路以北、龙华大道以东、清秀路以南范围。",
+      "original_scope_text": "民清路以东、东环一路以北、龙华大道以东、清秀路以南范围。\n（借址新围学校，项目名）",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:496FFFE16B415558E053BC09A8C0A5ED",
+          "school_name": "龙华区松和学校（小学部）",
+          "scope_text": "民清路以东、东环一路以北、龙华大道以东、清秀路以南范围。\n（借址新围学校，项目名）",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第57行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:496FFFE16B445558E053BC09A8C0A5ED",
+      "school_name": "龙华区教育科学研究院附属小学",
+      "base_scope_text": "新田社区，新源社区，樟坑径社区，樟溪社区。",
+      "original_scope_text": "新田社区，新源社区，樟坑径社区，樟溪社区。",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:496FFFE16B445558E053BC09A8C0A5ED",
+          "school_name": "龙华区教育科学研究院附属小学",
+          "scope_text": "新田社区，新源社区，樟坑径社区，樟溪社区。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第15行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:94aed576e2854236bfd117b281031afa",
+      "school_name": "华东师范大学附属深圳龙华学校教育集团（小学部）",
+      "base_scope_text": "洁玉街以北、民塘路以西、腾龙路以东、建设东路以南的范围。",
+      "original_scope_text": "单片学区：洁玉街以北、民塘路以西、腾龙路以东、建设东路以南的范围。",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:94aed576e2854236bfd117b281031afa",
+          "school_name": "华东师范大学附属深圳龙华学校教育集团（小学部）",
+          "scope_text": "单片学区：洁玉街以北、民塘路以西、腾龙路以东、建设东路以南的范围。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第39行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        },
+        {
+          "school_id": "sz:longhua:school:94aed576e2854236bfd117b281031afa",
+          "school_name": "华东师范大学附属深圳龙华学校教育集团（小学部）",
+          "scope_text": "电脑随机派位学区：由未来小学学区、龙华区实验学校小学部学区、和平实验小学学区3所学校学区范围组成。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第40行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:a30b9ed45d5e4734b2d70feceb561c96",
+      "school_name": "龙华区鹭湖实验学校（小学部）",
+      "base_scope_text": "面向观湖街道招生。",
+      "original_scope_text": "面向观湖街道招生。",
+      "extra_clauses": [],
+      "status": "broad_scope_pending",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:a30b9ed45d5e4734b2d70feceb561c96",
+          "school_name": "龙华区鹭湖实验学校（小学部）",
+          "scope_text": "面向观湖街道招生。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第13行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:496FFFE16B735558E053BC09A8C0A5ED",
+      "school_name": "龙华区同胜学校（小学部）",
+      "base_scope_text": "上横朗社区居委会、同胜社区居委会、水围社区居委会（华旺路以北部分）。",
+      "original_scope_text": "上横朗社区居委会、同胜社区居委会、水围社区居委会（华旺路以北部分）。",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:496FFFE16B735558E053BC09A8C0A5ED",
+          "school_name": "龙华区同胜学校（小学部）",
+          "scope_text": "上横朗社区居委会、同胜社区居委会、水围社区居委会（华旺路以北部分）。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第75行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:dd655370e05640259a918bdfb9146830",
+      "school_name": "深圳中学龙华学校（小学部）",
+      "base_scope_text": "工业路以南、油松路以西、布龙路以北、人民路以东范围。",
+      "original_scope_text": "单校划片学区：工业路以南、油松路以西、布龙路以北、人民路以东范围。\n多校联动学区：民治街道（除单校划片学区外）和龙华街道东环一路以南、民清路以西、工业路以北、人民路以东、建设路以东范围。",
+      "extra_clauses": [
+        {
+          "kind": "linked_application",
+          "quote": "多校联动学区：民治街道（除单校划片学区外）和龙华街道东环一路以南、民清路以西、工业路以北、人民路以东、建设路以东范围。"
+        }
+      ],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:dd655370e05640259a918bdfb9146830",
+          "school_name": "深圳中学龙华学校（小学部）",
+          "scope_text": "单校划片学区：工业路以南、油松路以西、布龙路以北、人民路以东范围。\n多校联动学区：民治街道（除单校划片学区外）和龙华街道东环一路以南、民清路以西、工业路以北、人民路以东、建设路以东范围。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第27行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:f29dbee4b70c47d393ce050ba7813032",
+      "school_name": "龙华区观湖外国语学校（小学部）",
+      "base_scope_text": "面向观湖街道招生。",
+      "original_scope_text": "面向观湖街道招生。",
+      "extra_clauses": [],
+      "status": "broad_scope_pending",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:f29dbee4b70c47d393ce050ba7813032",
+          "school_name": "龙华区观湖外国语学校（小学部）",
+          "scope_text": "面向观湖街道招生。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第14行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:496FFFE16B6C5558E053BC09A8C0A5ED",
+      "school_name": "龙华高级中学教育集团大浪校区（小学部）",
+      "base_scope_text": "赖屋山社区居委会、华荣社区谭罗居委会、华荣社区三合居委会、浪口社区居委会（华昌路以西部分）、高峰社区鹊山居委会（龙观大道以东部分）、高峰社区下早居委会（龙观大道以东部分）。",
+      "original_scope_text": "赖屋山社区居委会、华荣社区谭罗居委会、华荣社区三合居委会、浪口社区居委会（华昌路以西部分）、高峰社区鹊山居委会（龙观大道以东部分）、高峰社区下早居委会（龙观大道以东部分）。",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:496FFFE16B6C5558E053BC09A8C0A5ED",
+          "school_name": "龙华高级中学教育集团大浪校区（小学部）",
+          "scope_text": "赖屋山社区居委会、华荣社区谭罗居委会、华荣社区三合居委会、浪口社区居委会（华昌路以西部分）、高峰社区鹊山居委会（龙观大道以东部分）、高峰社区下早居委会（龙观大道以东部分）。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第80行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:3925e3411b3a41db92a8fbc9cc41c4b6",
+      "school_name": "龙华区龙华中学弘毅校区（小学部）",
+      "base_scope_text": "高峰社区鹊山居委会（龙观大道以西部分）、高峰社区下早居委会（龙观大道以西部分）、高峰社区上早居委会、高峰社区赤岭头居委会、陶元社区居委会、龙胜社区居委会。",
+      "original_scope_text": "高峰社区鹊山居委会（龙观大道以西部分）、高峰社区下早居委会（龙观大道以西部分）、高峰社区上早居委会、高峰社区赤岭头居委会、陶元社区居委会、龙胜社区居委会。",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:3925e3411b3a41db92a8fbc9cc41c4b6",
+          "school_name": "龙华区龙华中学弘毅校区（小学部）",
+          "scope_text": "高峰社区鹊山居委会（龙观大道以西部分）、高峰社区下早居委会（龙观大道以西部分）、高峰社区上早居委会、高峰社区赤岭头居委会、陶元社区居委会、龙胜社区居委会。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第74行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:496FFFE16B4A5558E053BC09A8C0A5ED",
+      "school_name": "龙华区桂花学校",
+      "base_scope_text": "桂花社区，桂香社区。",
+      "original_scope_text": "桂花社区，桂香社区。",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:496FFFE16B4A5558E053BC09A8C0A5ED",
+          "school_name": "龙华区桂花学校",
+          "scope_text": "桂花社区，桂香社区。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第107行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:496FFFE16B4C5558E053BC09A8C0A5ED",
+      "school_name": "龙华区丹堤实验学校（小学部）",
+      "base_scope_text": "梅观高速以东、民乐路以南的范围。",
+      "original_scope_text": "梅观高速以东、民乐路以南的范围。",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:496FFFE16B4C5558E053BC09A8C0A5ED",
+          "school_name": "龙华区丹堤实验学校（小学部）",
+          "scope_text": "梅观高速以东、民乐路以南的范围。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第34行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:496FFFE16B4F5558E053BC09A8C0A5ED",
+      "school_name": "龙华区书香小学",
+      "base_scope_text": "金龙路以东、新区大道以东、白石龙路以南、民治大道、梅观高速以西的范围。",
+      "original_scope_text": "金龙路以东、新区大道以东、白石龙路以南、民治大道、梅观高速以西的范围。",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:496FFFE16B4F5558E053BC09A8C0A5ED",
+          "school_name": "龙华区书香小学",
+          "scope_text": "金龙路以东、新区大道以东、白石龙路以南、民治大道、梅观高速以西的范围。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第49行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:4c3a8df2652947908d8864574a4ecc46",
+      "school_name": "龙华区博雅实验学校（小学部）",
+      "base_scope_text": "上横朗社区居委会、同胜社区居委会、水围社区居委会（华旺路以北部分）。",
+      "original_scope_text": "上横朗社区居委会、同胜社区居委会、水围社区居委会（华旺路以北部分）。",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:4c3a8df2652947908d8864574a4ecc46",
+          "school_name": "龙华区博雅实验学校（小学部）",
+          "scope_text": "上横朗社区居委会、同胜社区居委会、水围社区居委会（华旺路以北部分）。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第76行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:496FFFE16B755558E053BC09A8C0A5ED",
+      "school_name": "龙华区民治中学教育集团小学部",
+      "base_scope_text": "人民路以东、布龙路以南、龙华大道以西、民兴街以北、民塘路以东范围。",
+      "original_scope_text": "人民路以东、布龙路以南、龙华大道以西、民兴街以北、民塘路以东范围。",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:496FFFE16B755558E053BC09A8C0A5ED",
+          "school_name": "龙华区民治中学教育集团小学部",
+          "scope_text": "人民路以东、布龙路以南、龙华大道以西、民兴街以北、民塘路以东范围。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第20行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:0243cbf5c9f44a73b8cf266871d50ffe",
+      "school_name": "龙华区外国语学校教育集团新和校区（小学部）",
+      "base_scope_text": "丹湖社区丹湖居委会，新和社区，四和社区。",
+      "original_scope_text": "丹湖社区丹湖居委会，新和社区，四和社区。",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:0243cbf5c9f44a73b8cf266871d50ffe",
+          "school_name": "龙华区外国语学校教育集团新和校区（小学部）",
+          "scope_text": "丹湖社区丹湖居委会，新和社区，四和社区。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第94行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:26607511230d404689ae8f55465df792",
+      "school_name": "龙华区和平实验小学",
+      "base_scope_text": "龙平社区。",
+      "original_scope_text": "龙平社区。",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:26607511230d404689ae8f55465df792",
+          "school_name": "龙华区和平实验小学",
+          "scope_text": "龙平社区。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第85行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:38ce5ec6b658423491f976dbddbb13c3",
+      "school_name": "龙华区新华中学教育集团龙为小学",
+      "base_scope_text": "范围一：东环二路以东，龙观路、清泉路以南，和平路以西范围。\n范围二：东环一路以东，龙观路、东环二路以南，建设东路以北范围。",
+      "original_scope_text": "范围一：东环二路以东，龙观路、清泉路以南，和平路以西范围。\n范围二：东环一路以东，龙观路、东环二路以南，建设东路以北范围。",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:38ce5ec6b658423491f976dbddbb13c3",
+          "school_name": "龙华区新华中学教育集团龙为小学",
+          "scope_text": "范围一：东环二路以东，龙观路、清泉路以南，和平路以西范围。\n范围二：东环一路以东，龙观路、东环二路以南，建设东路以北范围。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第55行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:496FFFE16B485558E053BC09A8C0A5ED",
+      "school_name": "龙华区高峰学校（小学部）",
+      "base_scope_text": "高峰社区鹊山居委会（龙观大道以西部分）、高峰社区下早居委会（龙观大道以西部分）、高峰社区上早居委会、高峰社区赤岭头居委会、陶元社区居委会、龙胜社区居委会。",
+      "original_scope_text": "高峰社区鹊山居委会（龙观大道以西部分）、高峰社区下早居委会（龙观大道以西部分）、高峰社区上早居委会、高峰社区赤岭头居委会、陶元社区居委会、龙胜社区居委会。",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:496FFFE16B485558E053BC09A8C0A5ED",
+          "school_name": "龙华区高峰学校（小学部）",
+          "scope_text": "高峰社区鹊山居委会（龙观大道以西部分）、高峰社区下早居委会（龙观大道以西部分）、高峰社区上早居委会、高峰社区赤岭头居委会、陶元社区居委会、龙胜社区居委会。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第72行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:496FFFE16B4D5558E053BC09A8C0A5ED",
+      "school_name": "龙华区潜龙学校（小学部）",
+      "base_scope_text": "龙华大道以东、平南铁路以南、民治大道以西、民乐路以北的范围。",
+      "original_scope_text": "龙华大道以东、平南铁路以南、民治大道以西、民乐路以北的范围。",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:496FFFE16B4D5558E053BC09A8C0A5ED",
+          "school_name": "龙华区潜龙学校（小学部）",
+          "scope_text": "龙华大道以东、平南铁路以南、民治大道以西、民乐路以北的范围。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第29行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:496FFFE16B935558E053BC09A8C0A5ED:guanhu",
+      "school_name": "龙华区外国语学校教育集团观湖校区（小学部）",
+      "base_scope_text": "大和社区，润城社区，鹭湖社区。",
+      "original_scope_text": "大和社区，润城社区，鹭湖社区。",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:496FFFE16B935558E053BC09A8C0A5ED:guanhu",
+          "school_name": "龙华区外国语学校教育集团观湖校区（小学部）",
+          "scope_text": "大和社区，润城社区，鹭湖社区。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第8行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:496FFFE16B935558E053BC09A8C0A5ED:gaoxin",
+      "school_name": "龙华区外国语学校教育集团高新校区（小学部）",
+      "base_scope_text": "大和社区，润城社区，鹭湖社区。",
+      "original_scope_text": "大和社区，润城社区，鹭湖社区。",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:496FFFE16B935558E053BC09A8C0A5ED:gaoxin",
+          "school_name": "龙华区外国语学校教育集团高新校区（小学部）",
+          "scope_text": "大和社区，润城社区，鹭湖社区。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第10行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:496FFFE16B945558E053BC09A8C0A5ED",
+      "school_name": "龙华区实验学校教育集团（小学部）",
+      "base_scope_text": "福龙路以东、向荣路以南、佳民路以东、布龙路以南、人民路以西、民塘路以西、中梅路以北、新区大道以东范围。",
+      "original_scope_text": "福龙路以东、向荣路以南、佳民路以东、布龙路以南、人民路以西、民塘路以西、中梅路以北、新区大道以东范围。",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:496FFFE16B945558E053BC09A8C0A5ED",
+          "school_name": "龙华区实验学校教育集团（小学部）",
+          "scope_text": "福龙路以东、向荣路以南、佳民路以东、布龙路以南、人民路以西、民塘路以西、中梅路以北、新区大道以东范围。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第25行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:7d4cace1dbac4f02bb47112ea549f2f7",
+      "school_name": "龙华区行知外国语学校（小学部）（原行知中学）",
+      "base_scope_text": "库坑社区，大富社区，黎光社区。",
+      "original_scope_text": "库坑社区，大富社区，黎光社区。",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:7d4cace1dbac4f02bb47112ea549f2f7",
+          "school_name": "龙华区行知外国语学校（小学部）（原行知中学）",
+          "scope_text": "库坑社区，大富社区，黎光社区。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第98行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:92b2600af53243cd8652d9576d56df41",
+      "school_name": "龙华区第二实验学校教育集团华美校区（小学部）",
+      "base_scope_text": "建设西路以东、侨龙路以西、鸿尚路以南、东环一路以南、龙华大道以西、工业路以北范围。",
+      "original_scope_text": "建设西路以东、侨龙路以西、鸿尚路以南、东环一路以南、龙华大道以西、工业路以北范围。",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:92b2600af53243cd8652d9576d56df41",
+          "school_name": "龙华区第二实验学校教育集团华美校区（小学部）",
+          "scope_text": "建设西路以东、侨龙路以西、鸿尚路以南、东环一路以南、龙华大道以西、工业路以北范围。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第59行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:b3f88a4b9de8403cbbbf9614e5156fd2",
+      "school_name": "龙华区新华中学教育集团（小学部）",
+      "base_scope_text": "范围一：东环二路以南、龙华大道以西、东环一路以北、建设路以东范围。\n范围二：和平路以东、东环一路以南、鸿尚路以北、侨龙路以东、建设西路以北范围。",
+      "original_scope_text": "范围一：东环二路以南、龙华大道以西、东环一路以北、建设路以东范围。\n范围二：和平路以东、东环一路以南、鸿尚路以北、侨龙路以东、建设西路以北范围。\n（暂在初中部办学）",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:b3f88a4b9de8403cbbbf9614e5156fd2",
+          "school_name": "龙华区新华中学教育集团（小学部）",
+          "scope_text": "范围一：东环二路以南、龙华大道以西、东环一路以北、建设路以东范围。\n范围二：和平路以东、东环一路以南、鸿尚路以北、侨龙路以东、建设西路以北范围。\n（暂在初中部办学）",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第54行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:496FFFE16B7A5558E053BC09A8C0A5ED",
+      "school_name": "龙华区行知实验小学",
+      "base_scope_text": "民治大道以东、平南铁路以南、梅观高速以西、岭南路以北的范围。",
+      "original_scope_text": "民治大道以东、平南铁路以南、梅观高速以西、岭南路以北的范围。",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:496FFFE16B7A5558E053BC09A8C0A5ED",
+          "school_name": "龙华区行知实验小学",
+          "scope_text": "民治大道以东、平南铁路以南、梅观高速以西、岭南路以北的范围。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第48行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:d713de18b1b043afb8e90469d78f13c9",
+      "school_name": "龙华区华南实验学校（小学部）",
+      "base_scope_text": "平南铁路以南、梅观高速以东、民乐路以北的范围。",
+      "original_scope_text": "平南铁路以南、梅观高速以东、民乐路以北的范围。",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:d713de18b1b043afb8e90469d78f13c9",
+          "school_name": "龙华区华南实验学校（小学部）",
+          "scope_text": "平南铁路以南、梅观高速以东、民乐路以北的范围。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第35行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:ebe9113be2924ea68014727f80792b78",
+      "school_name": "格致中学民治校区（小学部）",
+      "base_scope_text": "金龙路以北、民治大道以西、民乐路以南、龙华大道以西、玉龙路以南范围。",
+      "original_scope_text": "金龙路以北、民治大道以西、民乐路以南、龙华大道以西、玉龙路以南范围。",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:ebe9113be2924ea68014727f80792b78",
+          "school_name": "格致中学民治校区（小学部）",
+          "scope_text": "金龙路以北、民治大道以西、民乐路以南、龙华大道以西、玉龙路以南范围。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第22行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:496FFFE16B425558E053BC09A8C0A5ED",
+      "school_name": "龙华区大浪实验学校（小学部）",
+      "base_scope_text": "大浪社区下岭排居委会居委会、大浪社区上岭排居委会、大浪社区黄麻埔居委会、大浪社区罗屋围居委会（石清大道以北部分）、浪口社区居委会（石清大道以北部分）。",
+      "original_scope_text": "大浪社区下岭排居委会居委会、大浪社区上岭排居委会、大浪社区黄麻埔居委会、大浪社区罗屋围居委会（石清大道以北部分）、浪口社区居委会（石清大道以北部分）。",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:496FFFE16B425558E053BC09A8C0A5ED",
+          "school_name": "龙华区大浪实验学校（小学部）",
+          "scope_text": "大浪社区下岭排居委会居委会、大浪社区上岭排居委会、大浪社区黄麻埔居委会、大浪社区罗屋围居委会（石清大道以北部分）、浪口社区居委会（石清大道以北部分）。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第77行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:496FFFE16B455558E053BC09A8C0A5ED",
+      "school_name": "龙华区观澜第二中学教育集团观澜第二小学",
+      "base_scope_text": "丹湖社区丹湖居委会，新和社区，四和社区。",
+      "original_scope_text": "丹湖社区丹湖居委会，新和社区，四和社区。",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:496FFFE16B455558E053BC09A8C0A5ED",
+          "school_name": "龙华区观澜第二中学教育集团观澜第二小学",
+          "scope_text": "丹湖社区丹湖居委会，新和社区，四和社区。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第95行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:496FFFE16B475558E053BC09A8C0A5ED",
+      "school_name": "龙华区民治小学",
+      "base_scope_text": "平南铁路以北、龙华大道以东、民旺路以南、民福路以东、通菜街以东、民安路以南、民治大道以东、布龙路以南的范围。",
+      "original_scope_text": "平南铁路以北、龙华大道以东、民旺路以南、民福路以东、通菜街以东、民安路以南、民治大道以东、布龙路以南的范围。",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:496FFFE16B475558E053BC09A8C0A5ED",
+          "school_name": "龙华区民治小学",
+          "scope_text": "平南铁路以北、龙华大道以东、民旺路以南、民福路以东、通菜街以东、民安路以南、民治大道以东、布龙路以南的范围。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第47行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:496FFFE16B495558E053BC09A8C0A5ED",
+      "school_name": "龙华区碧澜外国语小学",
+      "base_scope_text": "库坑社区，大富社区，黎光社区。",
+      "original_scope_text": "库坑社区，大富社区，黎光社区。",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:496FFFE16B495558E053BC09A8C0A5ED",
+          "school_name": "龙华区碧澜外国语小学",
+          "scope_text": "库坑社区，大富社区，黎光社区。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第104行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:57e88fc8ebe3404891cd5d07f1e506bc",
+      "school_name": "龙华区福城实验学校（小学部）",
+      "base_scope_text": "茜坑社区，福民社区，丹湖社区福安居委会，桔塘社区，九龙山社区。",
+      "original_scope_text": "茜坑社区，福民社区，丹湖社区福安居委会，桔塘社区，九龙山社区。",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:57e88fc8ebe3404891cd5d07f1e506bc",
+          "school_name": "龙华区福城实验学校（小学部）",
+          "scope_text": "茜坑社区，福民社区，丹湖社区福安居委会，桔塘社区，九龙山社区。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第91行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:496FFFE16B6F5558E053BC09A8C0A5ED",
+      "school_name": "龙华区教育科学研究院附属学校（小学部）",
+      "base_scope_text": "丹湖社区福安居委会，福民社区悦兴围居委会，珑门",
+      "original_scope_text": "丹湖社区福安居委会，福民社区悦兴围居委会，珑门",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:496FFFE16B6F5558E053BC09A8C0A5ED",
+          "school_name": "龙华区教育科学研究院附属学校（小学部）",
+          "scope_text": "丹湖社区福安居委会，福民社区悦兴围居委会，珑门",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第86行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:270930b511e946c38951ecf46a65476a",
+      "school_name": "红山中学民治校区（小学部）",
+      "base_scope_text": "平南铁路以南、梅观大道（现珠三角环线高速）以东。",
+      "original_scope_text": "平南铁路以南、梅观大道（现珠三角环线高速）以东。\n（初中部2026 年仍面向全民治街道进行招生，2027 年起按照划定范围招收新生。）",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:270930b511e946c38951ecf46a65476a",
+          "school_name": "红山中学民治校区（小学部）",
+          "scope_text": "平南铁路以南、梅观大道（现珠三角环线高速）以东。\n（初中部2026 年仍面向全民治街道进行招生，2027 年起按照划定范围招收新生。）",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第23行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:449225a8ccc34107b689c883a1b6caa2",
+      "school_name": "龙华区观湖实验学校（小学部）",
+      "base_scope_text": "大和社区，润城社区，鹭湖社区，樟坑径社区，樟溪社区环观南路以南部分。",
+      "original_scope_text": "大和社区，润城社区，鹭湖社区，樟坑径社区，樟溪社区环观南路以南部分。",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:449225a8ccc34107b689c883a1b6caa2",
+          "school_name": "龙华区观湖实验学校（小学部）",
+          "scope_text": "大和社区，润城社区，鹭湖社区，樟坑径社区，樟溪社区环观南路以南部分。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第12行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:496FFFE16B3E5558E053BC09A8C0A5ED",
+      "school_name": "龙华区行知小学",
+      "base_scope_text": "工业路以南、油松路以西、布龙路以北、人民路以东范围。",
+      "original_scope_text": "工业路以南、油松路以西、布龙路以北、人民路以东范围。",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:496FFFE16B3E5558E053BC09A8C0A5ED",
+          "school_name": "龙华区行知小学",
+          "scope_text": "工业路以南、油松路以西、布龙路以北、人民路以东范围。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第46行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:496FFFE16B3F5558E053BC09A8C0A5ED",
+      "school_name": "龙华区龙华第二小学",
+      "base_scope_text": "东环一路以东，龙观路、东环二路以南，建设东路以北范围。",
+      "original_scope_text": "东环一路以东，龙观路、东环二路以南，建设东路以北范围。",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:496FFFE16B3F5558E053BC09A8C0A5ED",
+          "school_name": "龙华区龙华第二小学",
+          "scope_text": "东环一路以东，龙观路、东环二路以南，建设东路以北范围。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第68行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:496FFFE16B435558E053BC09A8C0A5ED",
+      "school_name": "龙华区观澜第二中学教育集团龙澜学校（小学部）",
+      "base_scope_text": "章阁社区，大水坑社区，桔塘社区，兴富社区、九龙山社区。",
+      "original_scope_text": "章阁社区，大水坑社区，桔塘社区，兴富社区、九龙山社区。",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:496FFFE16B435558E053BC09A8C0A5ED",
+          "school_name": "龙华区观澜第二中学教育集团龙澜学校（小学部）",
+          "scope_text": "章阁社区，大水坑社区，桔塘社区，兴富社区、九龙山社区。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第92行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:58917a95bb2b4a0e89216e9b870ae6dc",
+      "school_name": "龙华区外国语学校教育集团福城校区（小学部）",
+      "base_scope_text": "丹湖社区丹湖居委会，新和社区，四和社区。",
+      "original_scope_text": "丹湖社区丹湖居委会，新和社区，四和社区。",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:58917a95bb2b4a0e89216e9b870ae6dc",
+          "school_name": "龙华区外国语学校教育集团福城校区（小学部）",
+          "scope_text": "丹湖社区丹湖居委会，新和社区，四和社区。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第93行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:c6a72391361d4221817db0289a292060:huaren",
+      "school_name": "龙华区第二实验学校教育集团华仁校区（小学部）",
+      "base_scope_text": "建设西路以东、侨龙路以西、鸿尚路以南、东环一路以南、龙华大道以西、工业路以北范围。",
+      "original_scope_text": "建设西路以东、侨龙路以西、鸿尚路以南、东环一路以南、龙华大道以西、工业路以北范围。",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:c6a72391361d4221817db0289a292060:huaren",
+          "school_name": "龙华区第二实验学校教育集团华仁校区（小学部）",
+          "scope_text": "建设西路以东、侨龙路以西、鸿尚路以南、东环一路以南、龙华大道以西、工业路以北范围。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第58行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:e158b5b70ec34bbaae1323e42fee6a06",
+      "school_name": "龙华区鹭湖外国语小学",
+      "base_scope_text": "大和社区，润城社区，鹭湖社区。",
+      "original_scope_text": "大和社区，润城社区，鹭湖社区。",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:e158b5b70ec34bbaae1323e42fee6a06",
+          "school_name": "龙华区鹭湖外国语小学",
+          "scope_text": "大和社区，润城社区，鹭湖社区。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第16行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:496FFFE16B715558E053BC09A8C0A5ED",
+      "school_name": "龙华区玉龙学校（小学部）",
+      "base_scope_text": "平南铁路以南、龙华大道以西、玉龙路以北、新区大道以西、白龙路以北、金龙路以西的范围。",
+      "original_scope_text": "平南铁路以南、龙华大道以西、玉龙路以北、新区大道以西、白龙路以北、金龙路以西的范围。",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:496FFFE16B715558E053BC09A8C0A5ED",
+          "school_name": "龙华区玉龙学校（小学部）",
+          "scope_text": "平南铁路以南、龙华大道以西、玉龙路以北、新区大道以西、白龙路以北、金龙路以西的范围。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第31行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:345bd8c3128a491c83ea353a4218b0c8",
+      "school_name": "龙华区观澜实验学校（小学部）",
+      "base_scope_text": "君子布社区，新田社区，新源社区，樟坑径社区，樟溪社区。",
+      "original_scope_text": "君子布社区，新田社区，新源社区，樟坑径社区，樟溪社区。",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:345bd8c3128a491c83ea353a4218b0c8",
+          "school_name": "龙华区观澜实验学校（小学部）",
+          "scope_text": "君子布社区，新田社区，新源社区，樟坑径社区，樟溪社区。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第102行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:496FFFE16B3B5558E053BC09A8C0A5ED",
+      "school_name": "龙华区德风小学",
+      "base_scope_text": "君子布社区。",
+      "original_scope_text": "君子布社区。",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:496FFFE16B3B5558E053BC09A8C0A5ED",
+          "school_name": "龙华区德风小学",
+          "scope_text": "君子布社区。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第106行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:496FFFE16B3D5558E053BC09A8C0A5ED",
+      "school_name": "龙华区观澜中心学校（小学部）",
+      "base_scope_text": "新澜社区，观城社区。",
+      "original_scope_text": "新澜社区，观城社区。（小一借址原观澜党校）",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:496FFFE16B3D5558E053BC09A8C0A5ED",
+          "school_name": "龙华区观澜中心学校（小学部）",
+          "scope_text": "新澜社区，观城社区。（小一借址原观澜党校）",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第103行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:496FFFE16B4E5558E053BC09A8C0A5ED",
+      "school_name": "龙华区龙华中心小学",
+      "base_scope_text": "大浪南路以西、东环一路以西、和平路以北范围。",
+      "original_scope_text": "大浪南路以西、东环一路以西、和平路以北范围。",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:496FFFE16B4E5558E053BC09A8C0A5ED",
+          "school_name": "龙华区龙华中心小学",
+          "scope_text": "大浪南路以西、东环一路以西、和平路以北范围。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第66行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:85fbf4152f374f80a015cdabb34c4ff5",
+      "school_name": "龙华区龙胜实验学校（小学部）",
+      "base_scope_text": "龙平社区。",
+      "original_scope_text": "龙平社区。",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:85fbf4152f374f80a015cdabb34c4ff5",
+          "school_name": "龙华区龙胜实验学校（小学部）",
+          "scope_text": "龙平社区。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第84行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:a863a2a0d9434c7c8370f9af437bae6e",
+      "school_name": "龙华区教育科学研究院附属实验学校（小学部）",
+      "base_scope_text": "龙华大道以东、民兴街以南、民福路以西、民旺路以北范围，含世纪春城小区。",
+      "original_scope_text": "龙华大道以东、民兴街以南、民福路以西、民旺路以北范围，含世纪春城小区。世纪春城小区属于大学区范围。",
+      "extra_clauses": [
+        {
+          "kind": "university_application",
+          "quote": "世纪春城小区属于大学区范围。"
+        }
+      ],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:a863a2a0d9434c7c8370f9af437bae6e",
+          "school_name": "龙华区教育科学研究院附属实验学校（小学部）",
+          "scope_text": "龙华大道以东、民兴街以南、民福路以西、民旺路以北范围，含世纪春城小区。世纪春城小区属于大学区范围。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第43行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:b31451d47108423e9503bf0382ce5192",
+      "school_name": "龙华区龙飞小学",
+      "base_scope_text": "岭南路以南、民治大道以东、梅观高速以西的范围。",
+      "original_scope_text": "岭南路以南、民治大道以东、梅观高速以西的范围。",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:b31451d47108423e9503bf0382ce5192",
+          "school_name": "龙华区龙飞小学",
+          "scope_text": "岭南路以南、民治大道以东、梅观高速以西的范围。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第50行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:da8402fbef554a27b5ac54f83c6a1682",
+      "school_name": "龙华区清泉外国语学校（小学部）",
+      "base_scope_text": "清泉路以东，龙观路、清龙路以南，龙华大道以西，东环二路以东，和平路以南范围。",
+      "original_scope_text": "清泉路以东，龙观路、清龙路以南，龙华大道以西，东环二路以东，和平路以南范围。",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:da8402fbef554a27b5ac54f83c6a1682",
+          "school_name": "龙华区清泉外国语学校（小学部）",
+          "scope_text": "清泉路以东，龙观路、清龙路以南，龙华大道以西，东环二路以东，和平路以南范围。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第65行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:ef3f3d903cc94a3981284a92f19b23f1",
+      "school_name": "龙华区华盛学校（小学部）",
+      "base_scope_text": "华昌路以东、华旺路以南、大浪南路以东、石清大道以南、龙澜大道以北范围。",
+      "original_scope_text": "华昌路以东、华旺路以南、大浪南路以东、石清大道以南、龙澜大道以北范围。",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:ef3f3d903cc94a3981284a92f19b23f1",
+          "school_name": "龙华区华盛学校（小学部）",
+          "scope_text": "华昌路以东、华旺路以南、大浪南路以东、石清大道以南、龙澜大道以北范围。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第82行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    },
+    {
+      "school_id": "sz:longhua:school:f9aa4dcc77234f738633dc9c37638464",
+      "school_name": "龙华区教育科学研究院第二附属学校（小学部）",
+      "base_scope_text": "君子布社区、新田社区、新源社区、樟溪社区环观南路以北部分。",
+      "original_scope_text": "君子布社区、新田社区、新源社区、樟溪社区环观南路以北部分。",
+      "extra_clauses": [],
+      "status": "individual_scope_requires_site_applicability",
+      "evidence": [
+        {
+          "school_id": "sz:longhua:school:f9aa4dcc77234f738633dc9c37638464",
+          "school_name": "龙华区教育科学研究院第二附属学校（小学部）",
+          "scope_text": "君子布社区、新田社区、新源社区、樟溪社区环观南路以北部分。",
+          "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+          "source_position": "Sheet1 第100行",
+          "year": 2026,
+          "document_local_path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+        }
+      ]
+    }
+  ],
+  "contract": {
+    "university_expansion": false,
+    "shared_requires_scope": true,
+    "transitive_closure": false,
+    "fuzzy_site_matching": false,
+    "predictions_are_training_facts": false,
+    "reads_gold": false,
+    "reads_school_polygons": false,
+    "unresolved_is_negative": false
+  },
+  "build_code_sha256": {
+    "scripts\\build_shenzhen_policy_rules.py": "6a16205a4a36e4cbe4faa56f7eea49e821e24266e2b5c6ecd8967a81af7046a1",
+    "zoning\\shenzhen_policy.py": "42cd247448e111597586aeb7a4e8f6ce3bd595606315bbea9d6d158fe4b66d41"
+  }
+}

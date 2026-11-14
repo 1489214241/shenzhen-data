@@ -1,0 +1,97 @@
+{
+  "passed": true,
+  "scope": "Frozen prediction scoring, not retraining",
+  "results": {
+    "baseline_current": {
+      "n": 1761,
+      "correct": 912,
+      "exact_percent": 51.78875638841567,
+      "龙华区": 322,
+      "龙岗区": 590
+    },
+    "local_balanced_legacy": {
+      "n": 1761,
+      "correct": 695,
+      "exact_percent": 39.466212379329924,
+      "龙华区": 273,
+      "龙岗区": 422
+    },
+    "local_balanced_raw": {
+      "n": 1761,
+      "correct": 601,
+      "exact_percent": 34.12833617262919,
+      "龙华区": 192,
+      "龙岗区": 409
+    },
+    "local_balanced_verified": {
+      "n": 1761,
+      "correct": 601,
+      "exact_percent": 34.12833617262919,
+      "龙华区": 192,
+      "龙岗区": 409
+    },
+    "local_protected_legacy": {
+      "n": 1761,
+      "correct": 856,
+      "exact_percent": 48.60874503123225,
+      "龙华区": 312,
+      "龙岗区": 544
+    },
+    "local_protected_raw": {
+      "n": 1761,
+      "correct": 667,
+      "exact_percent": 37.876206700738216,
+      "龙华区": 186,
+      "龙岗区": 481
+    },
+    "local_protected_verified": {
+      "n": 1761,
+      "correct": 670,
+      "exact_percent": 38.0465644520159,
+      "龙华区": 186,
+      "龙岗区": 484
+    },
+    "mean_balanced_legacy": {
+      "n": 1761,
+      "correct": 728,
+      "exact_percent": 41.34014764338444,
+      "龙华区": 293,
+      "龙岗区": 435
+    },
+    "mean_balanced_raw": {
+      "n": 1761,
+      "correct": 617,
+      "exact_percent": 35.03691084611017,
+      "龙华区": 196,
+      "龙岗区": 421
+    },
+    "mean_balanced_verified": {
+      "n": 1761,
+      "correct": 617,
+      "exact_percent": 35.03691084611017,
+      "龙华区": 196,
+      "龙岗区": 421
+    },
+    "mean_protected_legacy": {
+      "n": 1761,
+      "correct": 870,
+      "exact_percent": 49.40374787052811,
+      "龙华区": 317,
+      "龙岗区": 553
+    },
+    "mean_protected_raw": {
+      "n": 1761,
+      "correct": 658,
+      "exact_percent": 37.36513344690517,
+      "龙华区": 173,
+      "龙岗区": 485
+    },
+    "mean_protected_verified": {
+      "n": 1761,
+      "correct": 664,
+      "exact_percent": 37.70584894946053,
+      "龙华区": 174,
+      "龙岗区": 490
+    }
+  }
+}

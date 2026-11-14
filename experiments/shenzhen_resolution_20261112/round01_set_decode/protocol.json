@@ -1,0 +1,39 @@
+{
+  "round": 1,
+  "date": "2026-11-12",
+  "hypothesis": "Identical policy sets split posterior mass across schools; set MAP may repair decoding without retraining.",
+  "baseline": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_aligned_model_20261111",
+  "candidate": "sum frozen school probabilities ONLY over roots with identical complete policy-expanded sets; MAP; ties keep baseline",
+  "labels": [
+    "ensemble",
+    "20261131",
+    "20261132",
+    "20261133",
+    "20261134",
+    "20261135",
+    "20261136",
+    "20261137",
+    "20261138",
+    "20261139",
+    "20261140"
+  ],
+  "hyperparameters": [],
+  "retraining": false,
+  "protected": "all existing rule-known outputs; unchanged population, coordinates, original map Gold and policy rules",
+  "limitations": "Pushforward assumes existing single-school-root policy mappings can represent the answer. It is not calibrated multilabel probability or eligibility truth. Candidate coverage audit is diagnostic only.",
+  "target_gold_used_to_build": false,
+  "independent_validation": false,
+  "adoption_gate": "no automatic adoption; inspect exact-set improvement, both districts, FP/FN, corrected/harmed and 1km paired intervals; independent confirmation still required",
+  "research_basis": [
+    {
+      "title": "Estimating Multi-label Accuracy using Labelset Distributions",
+      "url": "https://arxiv.org/abs/2209.04163",
+      "use": "joint mode corresponds to exact match; our pushforward is an application hypothesis, not reproduction"
+    },
+    {
+      "title": "Bayes Optimal Multilabel Classification via Probabilistic Classifier Chains",
+      "url": "https://icml.cc/Conferences/2010/papers/589.pdf",
+      "use": "loss-sensitive joint-label inference; no PCC training claim"
+    }
+  ]
+}

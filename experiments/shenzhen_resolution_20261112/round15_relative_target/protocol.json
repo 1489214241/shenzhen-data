@@ -1,0 +1,31 @@
+{
+  "arms": [
+    "absolute_control",
+    "relative_candidate"
+  ],
+  "objectives": [
+    "micro_exact",
+    "balanced_exact"
+  ],
+  "source_gate_passed": true,
+  "scorer": "Frozen round11 pooled_relations, seed20261131, no retraining",
+  "target_inputs": "F:\\学区划片描述\\学区归属模型_代码库\\data\\深圳市\\边界合取修复模型输入_20261112",
+  "absolute_control": "Diagnostic matched decoder control, not a gate-passing candidate.",
+  "relative_candidate": "Only candidate passing unchanged round11 source gate; no Shenzhen outcome selected its threshold.",
+  "policy": "Same original-area university restriction, direct partial positives, scope implications and round07 community facts.",
+  "corridor": "Same11independent road positive estimates for both arms and existing round13 comparators; no transitive expansion.",
+  "comparators": [
+    "matched_absolute",
+    "native_latest_round13_round12",
+    "best_development_round13_round07"
+  ],
+  "comparison_limit": "Only relative versus absolute isolates decoding. Tree versus native changes architecture and training objective; one tree seed versus10seed native ensemble.",
+  "primary": "balanced_exact",
+  "target_gold_read": false,
+  "target_polygon_read": false,
+  "target_cardinality_used": false,
+  "independent_validation": false,
+  "adopted": false,
+  "scored_sites": 1761,
+  "unscored_sites": 41
+}

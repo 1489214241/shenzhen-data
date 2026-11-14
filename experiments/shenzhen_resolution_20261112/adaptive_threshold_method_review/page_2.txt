@@ -1,0 +1,65 @@
+sentences contain irrelevant information to this entity pair.          model significantly outperforms the state-of-the-art methods.
+    To tackle the multi-entity problem, most current ap-               The contributions of our work are summarized as follows:
+proaches construct a document graph with dependency struc-             • We propose adaptive-thresholding loss, which enables the
+tures, heuristics, or structured attention (Peng et al. 2017;            learning of an adaptive threshold that is dependent on entity
+Liu and Lapata 2018; Christopoulou, Miwa, and Ananiadou                  pairs and reduces the decision errors caused by using a
+2019; Nan et al. 2020), and then perform inference with graph            global threshold.
+neural models (Liang et al. 2016; Guo, Zhang, and Lu 2019).
+The constructed graphs bridge entities that spread far apart in        • We propose localized context pooling, which transfers pre-
+the document and thus alleviate the deficiency of RNN-based              trained attention to grab related context for entity pairs to
+encoders (Hochreiter and Schmidhuber 1997; Chung et al.                  get better entity representations.
+2014) in capturing long-distance information (Khandelwal               • We conduct experiments on three public document-level
+et al. 2018). However, as transformer-based models (Vaswani              relation extraction datasets. Experimental results demon-
+et al. 2017) can implicitly model long-distance dependen-                strate the effectiveness of our ATLOP model that achieves
+cies (Clark et al. 2019; Tenney, Das, and Pavlick 2019), it              state-of-the-art performance on three benchmark datasets.
+is unclear whether graph structures still help on top of pre-
+trained language models such as BERT (Devlin et al. 2019).                               Problem Formulation
+There have also been approaches to directly apply pre-trained          Given a document d and a set of entities {ei }ni=1 , the task
+language models without introducing graph structures (Wang             of document-level relation extraction is to predict a sub-
+et al. 2019a; Tang et al. 2020a). They simply average the em-          set of relations from R ∪ {NA} between the entity pairs
+bedding of entity tokens to obtain the entity embeddings and           (es , eo )s, o=1...n; s6=o , where R is a pre-defined set of rela-
+feed them into the classifier to get relation labels. However,         tions of interest, es , eo are identified as subject and object
+each entity has the same representation in different entity            entities, respectively. An entity ei can occur multiple times in
+pairs, which can bring noise from irrelevant context.                                                                Ne
+                                                                       the document by entity mentions {mij }j=1i . A relation exists
+    In this paper, instead of introducing graph structures, we
+propose a localized context pooling technique. This technique          between entities (es , eo ) if it is expressed by any pair of their
+solves the problem of using the same entity embedding for all          mentions. The entity pairs that do not express any relation are
+entity pairs. It enhances the entity embedding with additional         labeled NA. At the test time, the model needs to predict the
+context that is relevant to the current entity pair. Instead           labels of all entity pairs (es , eo )s, o=1...n; s6=o in document d.
+of training a new context attention layer from scratch, we
+directly transfer the attention heads from pre-trained language                       Enhanced BERT Baseline
+models to get entity-level attention. Then, for two entities in        In this section, we present our base model for document-level
+a pair, we merge their attentions by multiplication to find the        relation extraction. We build our model based on existing
+context that is important to both of them.                             BERT baselines (Yao et al. 2019; Wang et al. 2019a) and in-
+    For the multi-label problem, existing approaches reduce            tegrate other techniques to further improve the performance.
+it to a binary classification problem. After training, a global
+threshold is applied to the class probabilities to get relation        Encoder
+labels. This method involves heuristic threshold tuning and            Given a document d = [xt ]lt=1 , we mark the position of
+introduces decision errors when the tuned threshold from               entity mentions by inserting a special symbol “*” at the start
+development data may not be optimal for all instances.                 and end of mentions. It is adapted from the entity marker
+    In this paper, we propose the adaptive thresholding tech-          technique (Zhang et al. 2017; Shi and Lin 2019; Soares et al.
+nique, which replaces the global threshold with a learn-               2019). We then feed the document into a pre-trained language
+able threshold class. The threshold class is learned with              model to obtain the contextual embeddings:
+our adaptive-threshold loss, which is a rank-based loss that                  H = [h1 , h2 , ..., hl ] = BERT([x1 , x2 , ..., xl ]).   (1)
+pushes the logits of positive classes above the threshold and
+pulls the logits of negative classes below in model training.          Following previous work (Verga, Strubell, and McCallum
+At the test time, we return classes that have higher logits than       2018; Wang et al. 2019b), the document is encoded once by
+the threshold class as the predicted labels or return NA if such       the encoder, and the classification of all entity pairs is based
+class does not exist. This technique eliminates the need for           on the same contextual embedding. We take the embedding
+threshold tuning, and also makes the threshold adjustable to           of “*” at the start of mentions as the mention embeddings. For
+                                                                                                            Ne
+different entity pairs, which leads to much better results.            an entity ei with mentions {mij }j=1i , we apply logsumexp
+    By combining the proposed two techniques, we propose a             pooling (Jia, Wong, and Poon 2019), a smooth version of
+simple yet effective relation extraction model, named ATLOP            max pooling, to get the entity embedding hei .
+(Adaptive Thresholding and Localized cOntext Pooling), to                                            Nei
+fully utilize the power of pre-trained language models (De-                                          X            
+vlin et al. 2019; Liu et al. 2019). This model tackles the                               hei = log         exp hmij .                  (2)
+                                                                                                     j=1
+multi-label and multi-entity problems in document-level RE.
+Experiments on three document-level relation extraction                This pooling accumulates signals from mentions in the docu-
+datasets, DocRED (Yao et al. 2019), CDR (Li et al. 2016),              ment. It shows better performance compared to mean pooling
+and GDA (Wu et al. 2019b), demonstrate that our ATLOP                  in experiments.
+
+
+                                                               14613

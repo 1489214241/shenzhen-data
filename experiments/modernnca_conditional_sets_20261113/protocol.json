@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-13",
+  "backbone": "Frozen three-seed ModernNCA-LN categorical control from previous multi-label experiment",
+  "seeds": [
+    20261231,
+    20261232,
+    20261233
+  ],
+  "sources": [
+    "天心区",
+    "芙蓉区",
+    "雨花区",
+    "开福区",
+    "拱墅区",
+    "萧山区",
+    "富阳区",
+    "临安区"
+  ],
+  "targets": [
+    "龙华区",
+    "龙岗区"
+  ],
+  "arms": [
+    "categorical_policy",
+    "set_same_evidence",
+    "set_plus_named_evidence",
+    "categorical_plus_named_evidence"
+  ],
+  "training_steps": 0,
+  "weights_and_features_and_reference_pool_unchanged": true,
+  "primary": "set_same_evidence minus categorical_policy",
+  "evidence_intervention": "set_plus_named_evidence minus set_same_evidence; categorical_plus_named_evidence is a separate fixed-baseline factual supplementation control",
+  "candidates": "Single base hypotheses, official shared clauses, directly implied root sets from existing frozen graphs; no transitive closure. Same-scope distinct campuses stay distinct. Known input positives unioned as lower bounds; no partial set is a complete label.",
+  "applicability": "exact named identity -> satisfied; explicit exclusion -> not_satisfied; otherwise unknown. Unknown candidates may be model estimates but never verified eligibility. Points are not administrative membership proof.",
+  "university": "No university or eligibility-member expansion. Existing positive conflicts retained and flagged for review.",
+  "score": "mean(log frozen school probability in set) + beta*log(set size). Geometric mean support with source-calibrated cardinality correction.",
+  "beta_grid": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "selection": "Source-only validation mean(single exact,multi exact), then overall correct, fewer FP, smaller beta. One ensemble beta reused for all three seeds and both evidence arms; no Shenzhen tuning.",
+  "source_candidate_boundary": "All singletons and complete training-label sets only, excluding validation project groups. Source candidate formation differs from target official-policy candidates; transfer is a limitation.",
+  "evidence": "Separate new exact-name applicability derived only from sufficient named OR leaves in existing reviewed official ASTs. No dropping AND, exclusions, household conditions, unknown branches. This is newly encoded source evidence, not newly acquired documents.",
+  "scoring": "All original1802 outputs;1761map-hit scoring;41outside-map remain output.242semantic-pending rows retained separately. Full-set exact, FP/FN, corrected/harmed,1km district-stratified bootstrap3000.",
+  "coverage": "After freeze only: Gold exact candidate presence and absent-versus-ranking decomposition. Never use target candidate coverage for tuning or new candidates in this run.",
+  "adoption": "Development only; no default changes, no independent validation, no adoption based on this run.",
+  "target_gold_read": false,
+  "target_polygons_read": false,
+  "adopted": false,
+  "independent_validation": false
+}

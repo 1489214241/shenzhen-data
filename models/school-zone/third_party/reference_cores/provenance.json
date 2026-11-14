@@ -1,0 +1,17 @@
+{
+  "egnn": {
+    "source": "tmp\\baseline_unrestricted_20261111\\root\\EGNN_official_model.py",
+    "source_sha256": "6480afa1e8fb97278137e9322507b22ab596150d32e4c22b851b97076220cfc5",
+    "extracted_sha256": "47cc0a69348a8cbb1917692c947484adb238a02ca5d46cbdb35c89440cc6bd17"
+  },
+  "cnaps": {
+    "source": "tmp\\baseline_unrestricted_20261111\\relation\\cnaps_official_adaptation.py",
+    "source_sha256": "3f3b98163e9b7825a42537e5aa1b950eb0996b024d44de601295ecdc793f2678",
+    "extracted_sha256": "3f3b98163e9b7825a42537e5aa1b950eb0996b024d44de601295ecdc793f2678"
+  },
+  "feat": {
+    "source": "tmp\\reference_broad_20261111\\code\\FEAT\\model__models__feat.py",
+    "source_sha256": "e58aea78e31deb12259ec3825854f017f4641e4a83353ee18bff55d32c01e238",
+    "extracted_sha256": "6243464dbb72d0964c2ab6ca7e2f261f876864f767f7a0f9cf322b921cc2f7b8"
+  }
+}

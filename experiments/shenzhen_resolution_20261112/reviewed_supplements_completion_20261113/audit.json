@@ -1,0 +1,452 @@
+{
+  "prediction_files": 88,
+  "checked_rows": 79288,
+  "reviewed_relations": 4,
+  "changed_rows": 0,
+  "historical_other_fields_unchanged": true,
+  "no_new_graph_expansion": true,
+  "target_gold_read": false,
+  "target_predictions_generated": false,
+  "reports": [
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round07\\balanced_exact\\20261131\\龙华区.json",
+      "rows": 628,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round07\\balanced_exact\\20261132\\龙华区.json",
+      "rows": 628,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round07\\balanced_exact\\20261133\\龙华区.json",
+      "rows": 628,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round07\\balanced_exact\\20261134\\龙华区.json",
+      "rows": 628,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round07\\balanced_exact\\20261135\\龙华区.json",
+      "rows": 628,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round07\\balanced_exact\\20261136\\龙华区.json",
+      "rows": 628,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round07\\balanced_exact\\20261137\\龙华区.json",
+      "rows": 628,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round07\\balanced_exact\\20261138\\龙华区.json",
+      "rows": 628,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round07\\balanced_exact\\20261139\\龙华区.json",
+      "rows": 628,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round07\\balanced_exact\\20261140\\龙华区.json",
+      "rows": 628,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round07\\balanced_exact\\ensemble\\龙华区.json",
+      "rows": 628,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round07\\micro_exact\\20261131\\龙华区.json",
+      "rows": 628,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round07\\micro_exact\\20261132\\龙华区.json",
+      "rows": 628,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round07\\micro_exact\\20261133\\龙华区.json",
+      "rows": 628,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round07\\micro_exact\\20261134\\龙华区.json",
+      "rows": 628,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round07\\micro_exact\\20261135\\龙华区.json",
+      "rows": 628,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round07\\micro_exact\\20261136\\龙华区.json",
+      "rows": 628,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round07\\micro_exact\\20261137\\龙华区.json",
+      "rows": 628,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round07\\micro_exact\\20261138\\龙华区.json",
+      "rows": 628,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round07\\micro_exact\\20261139\\龙华区.json",
+      "rows": 628,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round07\\micro_exact\\20261140\\龙华区.json",
+      "rows": 628,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round07\\micro_exact\\ensemble\\龙华区.json",
+      "rows": 628,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round12\\balanced_exact\\20261131\\龙华区.json",
+      "rows": 628,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round12\\balanced_exact\\20261132\\龙华区.json",
+      "rows": 628,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round12\\balanced_exact\\20261133\\龙华区.json",
+      "rows": 628,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round12\\balanced_exact\\20261134\\龙华区.json",
+      "rows": 628,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round12\\balanced_exact\\20261135\\龙华区.json",
+      "rows": 628,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round12\\balanced_exact\\20261136\\龙华区.json",
+      "rows": 628,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round12\\balanced_exact\\20261137\\龙华区.json",
+      "rows": 628,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round12\\balanced_exact\\20261138\\龙华区.json",
+      "rows": 628,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round12\\balanced_exact\\20261139\\龙华区.json",
+      "rows": 628,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round12\\balanced_exact\\20261140\\龙华区.json",
+      "rows": 628,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round12\\balanced_exact\\ensemble\\龙华区.json",
+      "rows": 628,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round12\\micro_exact\\20261131\\龙华区.json",
+      "rows": 628,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round12\\micro_exact\\20261132\\龙华区.json",
+      "rows": 628,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round12\\micro_exact\\20261133\\龙华区.json",
+      "rows": 628,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round12\\micro_exact\\20261134\\龙华区.json",
+      "rows": 628,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round12\\micro_exact\\20261135\\龙华区.json",
+      "rows": 628,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round12\\micro_exact\\20261136\\龙华区.json",
+      "rows": 628,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round12\\micro_exact\\20261137\\龙华区.json",
+      "rows": 628,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round12\\micro_exact\\20261138\\龙华区.json",
+      "rows": 628,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round12\\micro_exact\\20261139\\龙华区.json",
+      "rows": 628,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round12\\micro_exact\\20261140\\龙华区.json",
+      "rows": 628,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round12\\micro_exact\\ensemble\\龙华区.json",
+      "rows": 628,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round07\\balanced_exact\\20261131\\龙岗区.json",
+      "rows": 1174,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round07\\balanced_exact\\20261132\\龙岗区.json",
+      "rows": 1174,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round07\\balanced_exact\\20261133\\龙岗区.json",
+      "rows": 1174,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round07\\balanced_exact\\20261134\\龙岗区.json",
+      "rows": 1174,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round07\\balanced_exact\\20261135\\龙岗区.json",
+      "rows": 1174,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round07\\balanced_exact\\20261136\\龙岗区.json",
+      "rows": 1174,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round07\\balanced_exact\\20261137\\龙岗区.json",
+      "rows": 1174,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round07\\balanced_exact\\20261138\\龙岗区.json",
+      "rows": 1174,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round07\\balanced_exact\\20261139\\龙岗区.json",
+      "rows": 1174,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round07\\balanced_exact\\20261140\\龙岗区.json",
+      "rows": 1174,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round07\\balanced_exact\\ensemble\\龙岗区.json",
+      "rows": 1174,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round07\\micro_exact\\20261131\\龙岗区.json",
+      "rows": 1174,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round07\\micro_exact\\20261132\\龙岗区.json",
+      "rows": 1174,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round07\\micro_exact\\20261133\\龙岗区.json",
+      "rows": 1174,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round07\\micro_exact\\20261134\\龙岗区.json",
+      "rows": 1174,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round07\\micro_exact\\20261135\\龙岗区.json",
+      "rows": 1174,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round07\\micro_exact\\20261136\\龙岗区.json",
+      "rows": 1174,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round07\\micro_exact\\20261137\\龙岗区.json",
+      "rows": 1174,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round07\\micro_exact\\20261138\\龙岗区.json",
+      "rows": 1174,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round07\\micro_exact\\20261139\\龙岗区.json",
+      "rows": 1174,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round07\\micro_exact\\20261140\\龙岗区.json",
+      "rows": 1174,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round07\\micro_exact\\ensemble\\龙岗区.json",
+      "rows": 1174,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round12\\balanced_exact\\20261131\\龙岗区.json",
+      "rows": 1174,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round12\\balanced_exact\\20261132\\龙岗区.json",
+      "rows": 1174,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round12\\balanced_exact\\20261133\\龙岗区.json",
+      "rows": 1174,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round12\\balanced_exact\\20261134\\龙岗区.json",
+      "rows": 1174,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round12\\balanced_exact\\20261135\\龙岗区.json",
+      "rows": 1174,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round12\\balanced_exact\\20261136\\龙岗区.json",
+      "rows": 1174,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round12\\balanced_exact\\20261137\\龙岗区.json",
+      "rows": 1174,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round12\\balanced_exact\\20261138\\龙岗区.json",
+      "rows": 1174,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round12\\balanced_exact\\20261139\\龙岗区.json",
+      "rows": 1174,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round12\\balanced_exact\\20261140\\龙岗区.json",
+      "rows": 1174,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round12\\balanced_exact\\ensemble\\龙岗区.json",
+      "rows": 1174,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round12\\micro_exact\\20261131\\龙岗区.json",
+      "rows": 1174,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round12\\micro_exact\\20261132\\龙岗区.json",
+      "rows": 1174,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round12\\micro_exact\\20261133\\龙岗区.json",
+      "rows": 1174,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round12\\micro_exact\\20261134\\龙岗区.json",
+      "rows": 1174,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round12\\micro_exact\\20261135\\龙岗区.json",
+      "rows": 1174,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round12\\micro_exact\\20261136\\龙岗区.json",
+      "rows": 1174,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round12\\micro_exact\\20261137\\龙岗区.json",
+      "rows": 1174,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round12\\micro_exact\\20261138\\龙岗区.json",
+      "rows": 1174,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round12\\micro_exact\\20261139\\龙岗区.json",
+      "rows": 1174,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round12\\micro_exact\\20261140\\龙岗区.json",
+      "rows": 1174,
+      "changed_rows": []
+    },
+    {
+      "source": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round31_explicit_scope\\combined\\predictions\\round12\\micro_exact\\ensemble\\龙岗区.json",
+      "rows": 1174,
+      "changed_rows": []
+    }
+  ]
+}

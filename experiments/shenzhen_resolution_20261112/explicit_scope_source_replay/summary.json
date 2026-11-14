@@ -1,0 +1,30 @@
+{
+  "districts": {
+    "龙华区": {
+      "schools": 71,
+      "exclusion_schools": 0,
+      "parser_changed_schools": 0,
+      "positive_repairs": 0,
+      "negative_relations": 0,
+      "negative_positive_conflicts": 0,
+      "pending_local_exclusions": 0
+    },
+    "龙岗区": {
+      "schools": 131,
+      "exclusion_schools": 27,
+      "parser_changed_schools": 1,
+      "positive_repairs": 3,
+      "negative_relations": 7,
+      "negative_positive_conflicts": 0,
+      "pending_local_exclusions": 10
+    }
+  },
+  "target_gold_read": false,
+  "target_polygon_read": false,
+  "model_predictions_read": false,
+  "unmatched_names_are_unknown": true,
+  "negative_labels_not_integrated": true,
+  "geometry_used": false,
+  "official_page10_visually_reviewed": true,
+  "adopted": false
+}

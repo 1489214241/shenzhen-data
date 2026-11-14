@@ -1,0 +1,42 @@
+{
+  "round": 20,
+  "arms": [
+    "round07",
+    "round12"
+  ],
+  "objectives": [
+    "micro_exact",
+    "balanced_exact"
+  ],
+  "labels": [
+    "ensemble",
+    "20261131",
+    "20261132",
+    "20261133",
+    "20261134",
+    "20261135",
+    "20261136",
+    "20261137",
+    "20261138",
+    "20261139",
+    "20261140"
+  ],
+  "hypothesis": "New exact residential-community identities fill missing community-conditioned scope facts.",
+  "intervention": "Union only explicit community-witness relations; pure street-wide recruitment retained as pending eligibility, not original catchment.",
+  "inputs": "14 new dated memberships from two official residential notices; exact entity names only.",
+  "training_steps": 0,
+  "changed_model_probabilities": false,
+  "changed_model_references": false,
+  "thresholds_unchanged": true,
+  "target_gold_read": false,
+  "target_polygons_read": false,
+  "temporal_cutoff": "2026-06-01",
+  "source_age_limitation": true,
+  "complete_school_set": false,
+  "enrollment_eligibility": false,
+  "unobserved_relations_are_negative": false,
+  "primary_comparator": "round07+round13 road supplement, prior best development candidate; fixed before scoring.",
+  "secondary_comparator": "round12+round13 cumulative parser/road repair; fixed before scoring.",
+  "independent_validation": false,
+  "adopted": false
+}

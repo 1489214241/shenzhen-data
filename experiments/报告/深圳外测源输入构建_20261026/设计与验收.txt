@@ -1,0 +1,40 @@
+60：深圳外测完整源输入包，阶段 A（2026-10-26）
+
+本阶段目标
+将福田、南山已有独立小区点源、官方小学服务页学校属性、原始共享结构整理为可审计的完整源包。本阶段不生成小区—学校正负关系、不选择参照、不解析政策名字、不构建模型数组；它为后续独立冻结的阶段 B 提供输入。阶段 A 不能证明环境关系有用，也不产生新的模型成绩。
+
+源人口和稳定身份
+只读原始 ARCHIVE/legacy_root_20260920/fdc-data.secondhand_buildings.json，全文件 SHA256 固定在 common.py。原文件 211866 行，其中 city_name 精确等于“深圳”7370 行。按原字段 area_name 精确为“福田区”“南山区”选择全部 1211/1269 行，合计 2480；绝不使用学区面命中、Gold、评价子集或 73/75 学校准入名单筛选。
+每条 source_id 为 fdc:<原始完整文件SHA>:row:<原文件从0起全局行号>，保留完整原始行、原序、源文件及 JSON pointer。building_name 不作为身份。按原始 BD09 数值坐标精确相等分组，1210/1265 组合计 2475；先分组再转换，不四舍五入、不按名字合并。组 ID 绑定源 SHA 和坐标 float.hex，组序为首次出现顺序，保留所有源成员。跨区同坐标若出现则保留冲突并停止验收，不删样本。
+
+学校源范围和字段
+仅访问两个 public_map_data.json 的 /school_data 数组，完整保留福田78、南山80条，以(源区代码,ORG_ID)为学校键；不用学校名合并，不按几何有无过滤。字段只投影 ORG_ID/MC/XQ/DZ/POINTX/POINTY/APP_ID/XH/GXSJ/XZSJ，保留原始类型、源序、指针、源 SHA；XQ 另保留完整解码字符串的字符范围和原文，3条空 XQ 照常保留。GXSJ/XZSJ 仅系统元数据，不能当政策年份。
+学校 POINTX/POINTY 原字符串必须保留。数值转换后统一称 official_map_marker；location_observable 表示源中可读标记存在，campus_identity_verified 固定 false。全部校区身份为未独立验证。第二实验学校小学部 ORG_ID 496FFFE16E165558E053BC09A8C0A5ED 的一个源 ID、两个地址和一个标记点显式 unresolved_multiple_addresses_one_marker，不拆虚拟学校，不将同一点复制为两个已核实校区。
+时间/学段依据是“2026指南选定服务的2026-10-23快照”和小学服务入口，非每条数据存在独立政策年度/学段证据。
+
+共享结构与政策语义边界
+两个源包 groups 仅保存 XXID/DXQ_ID/DXQ_MC 三项非几何属性和 XXID 原序逗号 token；不丢不在当前小学名册中的 ID，不因名称“初中大学区”丢整行。即使输入额外有 geometry/MAPDATA，也绝不投影。南山 live HTML 只对 xxGxFwdzJson 和 xxGxFwdzNotXqList 两个指定严格 JSON 字面量解码，保留原字面文本、字符范围、行号、源 SHA、方向和顺序，不 eval JavaScript。
+保留 fn_xqdt_getxxGxFwdzJson 的非几何优先级证据：已有 groups 列表优先，仅在 undefined 时使用定向共享列表。阶段 A 不执行该优先级、不求传递闭包、不构建有效归属集合；popup 文本来源映射也仅作来源结构。
+XQ 可包含共享招生、户籍/住宅资格、栋范围/排除、地址、几何定位等，不能一概称基础地段。本阶段原文逐字保存。阶段 B 必须另行审定条件分流、完整名字精确匹配和别名证据；不得删括注、自动生成“员工宿舍”等通用别名、去“小区”后缀、母盘包含各期、由未匹配制造负例、由共享图无条件闭包。
+
+坐标合同与数值精度
+复用 天心区归属推断/2_规则输入/coordinates.py 的 bd_to_wgs，SHA 4b031eeedb890d66decac365528f876aef97475a40c1c49a1b4e1fb8a02ee820。该模块也被既有29实验引用，选择依据为已用代码和纯函数依赖，不读目标 Gold 选择实现。固定 BD09->GCJ02近似解析反变换->8次逆迭代WGS84->pyproj EPSG:4326 至 EPSG:32650，always_xy=True。坐标分组与 source_id 不受转换影响。
+FDC 的 BD09 依据是同原文件既有用户声明合同；学校标记依据是官方页面将 POINTX/POINTY 传给 BMap.Point。二者都不构成独立实测精度证明。保存代码 SHA、Python/NumPy/pyproj/PROJ 版本、投影定义和轴序；采用双精度计算，不声明米级地理误差界。投影往返检查只验证数值/轴序一致性，不证明校门、楼体、具体校区或政策边界位置。
+
+访问隔离与产物
+common.py 固定12个源/证据/坐标代码路径及 SHA。运行时 workspace open 白名单只允许这些依赖、本实验代码/计划/审核/回执；禁止读取 Gold、MAPDATA 衍生评价数据、admitted IDs、现有模型预测、长沙正式模型/规则及状态指针。JSON 外容器可以解码，但不访问或解释 MAPDATA 字符串、borderpoints、actual_boundary_overrides 等几何字段。不访问网络。仅在本新目录 v1 新建文件，拒绝覆盖。源哈希在提取前后复核。
+产物为 fdc_records.json、coordinate_groups.json、schools.json、shared_sources.json、package_contract.json；以及 synthetic_selftest/prebuild_review/source_freeze/build_receipt/verification 回执。不创建 known_sets、references、正负标签、Gold、训练数组、学校候选排名；不修改既有59、正式模型、正式规则、Gold或成绩。
+
+执行顺序
+1. 先完成本计划与全部代码，运行 selftest.py，仅合成源和既有纯坐标代码可读。
+2. 独立审查员静审，写 v1/prebuild_review.json；approved=true、scope=60_phase_a_source_package、files 精确绑定5个 .py、本计划和合成回执。存在阻断项先修，再重新合成验收与审核。
+3. root 执行 build.py freeze，只核哈希/运行版本，不读取真实源行作提取，写 source_freeze.json。
+4. root 执行 build.py build，完整提取真实源包；任何源计数、ID、坐标、空值或版本不一致立即停止，不自动修复/删样本。
+5. root 执行 verify.py，冻结依赖复核、完整重放以及独立的原始行号筛选、原数值坐标分组、字段逐项保留、共享字面量范围和投影数值往返验证。独立审查结果与回执均通过后方称源包已建成。
+
+合成验收范围
+用合成城市/区字段验证精确筛选和全局行号；同名异点不合并、异名同点不拆、极近浮点不取整、跨区同点保持可见；含额外几何键的陷阱字典验证只读取属性；空/空字符串/条件括注/范围/混合定位/破损括号/CRLF及制表符/双逗号/中英文括号/尾随空格/楼栋续写等原文逐字保留；一个ID多地址不虚构校区；共享外部ID、重复token、原序、非对称列表保持不变；严格JSON转义正确且非JSON JavaScript拒绝；转换代码SHA和投影轴序/数值往返一致。
+以上仅阶段 A 源完整性验收。任何名字匹配、安全正关系、条件作用域、监督三值关系或共享展开的合成验收属于未启动的阶段 B。
+
+本轮初始交付状态
+计划/实现和合成检查准备完成后送审；未经独立审核及源冻结不执行真实提取。阶段 B 与外测效果均未运行。

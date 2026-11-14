@@ -1,0 +1,1522 @@
+[
+  {
+    "coordinate_group_id": "bd09:0a2163d7407d9a4d3b204db1",
+    "representative_point_bd09": [
+      114.216133,
+      22.656457
+    ],
+    "representative_point_wgs84": [
+      114.2047538100322,
+      22.653281636151192
+    ],
+    "building_id": "fdc:sz:3597",
+    "building_name": "荣德国际ECC",
+    "coordinate_group_building_ids": [
+      "fdc:sz:3597"
+    ],
+    "coordinate_group_building_names": [
+      "荣德国际ECC"
+    ],
+    "gold_record_id": "point:bd09:0a2163d7407d9a4d3b204db1",
+    "source_map_partition": "龙岗区",
+    "label_kind": "official_map_point_membership",
+    "label_status": "outside_selected_map",
+    "predicate": "captured_official_BMapLib.GeoUtils.isPointInPolygon_offline_replay",
+    "point_school_ids": [],
+    "point_school_names": [],
+    "point_school_count": 0,
+    "point_zone_ids": [],
+    "gold_school_id": null,
+    "gold_school_name": null,
+    "on_boundary_zone_ids": [],
+    "invalid_geometry_hit_zone_ids": [],
+    "unknown_school_ids": [],
+    "complete_within_selected_roster": true,
+    "complete_within_all_official_schools": false,
+    "extra_policy_application_expanded": false,
+    "individual_enrollment_eligibility": false,
+    "base_scope_policy_review": "未完成全量基础范围空间核验；本标签仅为所选原始地图命中"
+  },
+  {
+    "coordinate_group_id": "bd09:305265297095a41de25fb951",
+    "representative_point_bd09": [
+      114.211326,
+      22.727496
+    ],
+    "representative_point_wgs84": [
+      114.19987821333496,
+      22.7243736211122
+    ],
+    "building_id": "fdc:sz:3655",
+    "building_name": "大运城邦曦城",
+    "coordinate_group_building_ids": [
+      "fdc:sz:3655"
+    ],
+    "coordinate_group_building_names": [
+      "大运城邦曦城"
+    ],
+    "gold_record_id": "point:bd09:305265297095a41de25fb951",
+    "source_map_partition": "龙岗区",
+    "label_kind": "official_map_point_membership",
+    "label_status": "outside_selected_map",
+    "predicate": "captured_official_BMapLib.GeoUtils.isPointInPolygon_offline_replay",
+    "point_school_ids": [],
+    "point_school_names": [],
+    "point_school_count": 0,
+    "point_zone_ids": [],
+    "gold_school_id": null,
+    "gold_school_name": null,
+    "on_boundary_zone_ids": [],
+    "invalid_geometry_hit_zone_ids": [],
+    "unknown_school_ids": [],
+    "complete_within_selected_roster": true,
+    "complete_within_all_official_schools": false,
+    "extra_policy_application_expanded": false,
+    "individual_enrollment_eligibility": false,
+    "base_scope_policy_review": "未完成全量基础范围空间核验；本标签仅为所选原始地图命中"
+  },
+  {
+    "coordinate_group_id": "bd09:3a697c57c89126ecd841d62f",
+    "representative_point_bd09": [
+      114.215067,
+      22.702981
+    ],
+    "representative_point_wgs84": [
+      114.20364366394018,
+      22.69980532882537
+    ],
+    "building_id": "fdc:sz:3671",
+    "building_name": "启迪协信科技园",
+    "coordinate_group_building_ids": [
+      "fdc:sz:3671"
+    ],
+    "coordinate_group_building_names": [
+      "启迪协信科技园"
+    ],
+    "gold_record_id": "point:bd09:3a697c57c89126ecd841d62f",
+    "source_map_partition": "龙岗区",
+    "label_kind": "official_map_point_membership",
+    "label_status": "outside_selected_map",
+    "predicate": "captured_official_BMapLib.GeoUtils.isPointInPolygon_offline_replay",
+    "point_school_ids": [],
+    "point_school_names": [],
+    "point_school_count": 0,
+    "point_zone_ids": [],
+    "gold_school_id": null,
+    "gold_school_name": null,
+    "on_boundary_zone_ids": [],
+    "invalid_geometry_hit_zone_ids": [],
+    "unknown_school_ids": [],
+    "complete_within_selected_roster": true,
+    "complete_within_all_official_schools": false,
+    "extra_policy_application_expanded": false,
+    "individual_enrollment_eligibility": false,
+    "base_scope_policy_review": "未完成全量基础范围空间核验；本标签仅为所选原始地图命中"
+  },
+  {
+    "coordinate_group_id": "bd09:fa56c0c09baf7b3bd7f5aeca",
+    "representative_point_bd09": [
+      114.210778,
+      22.726321
+    ],
+    "representative_point_wgs84": [
+      114.19932644176085,
+      22.723207369486392
+    ],
+    "building_id": "fdc:sz:3675",
+    "building_name": "大运城邦卫城",
+    "coordinate_group_building_ids": [
+      "fdc:sz:3675"
+    ],
+    "coordinate_group_building_names": [
+      "大运城邦卫城"
+    ],
+    "gold_record_id": "point:bd09:fa56c0c09baf7b3bd7f5aeca",
+    "source_map_partition": "龙岗区",
+    "label_kind": "official_map_point_membership",
+    "label_status": "outside_selected_map",
+    "predicate": "captured_official_BMapLib.GeoUtils.isPointInPolygon_offline_replay",
+    "point_school_ids": [],
+    "point_school_names": [],
+    "point_school_count": 0,
+    "point_zone_ids": [],
+    "gold_school_id": null,
+    "gold_school_name": null,
+    "on_boundary_zone_ids": [],
+    "invalid_geometry_hit_zone_ids": [],
+    "unknown_school_ids": [],
+    "complete_within_selected_roster": true,
+    "complete_within_all_official_schools": false,
+    "extra_policy_application_expanded": false,
+    "individual_enrollment_eligibility": false,
+    "base_scope_policy_review": "未完成全量基础范围空间核验；本标签仅为所选原始地图命中"
+  },
+  {
+    "coordinate_group_id": "bd09:29f8d1d0812ff98e41ce11dc",
+    "representative_point_bd09": [
+      114.215761,
+      22.657071
+    ],
+    "representative_point_wgs84": [
+      114.20437957374608,
+      22.653901614655826
+    ],
+    "building_id": "fdc:sz:3757",
+    "building_name": "荣德SPACE",
+    "coordinate_group_building_ids": [
+      "fdc:sz:3757"
+    ],
+    "coordinate_group_building_names": [
+      "荣德SPACE"
+    ],
+    "gold_record_id": "point:bd09:29f8d1d0812ff98e41ce11dc",
+    "source_map_partition": "龙岗区",
+    "label_kind": "official_map_point_membership",
+    "label_status": "outside_selected_map",
+    "predicate": "captured_official_BMapLib.GeoUtils.isPointInPolygon_offline_replay",
+    "point_school_ids": [],
+    "point_school_names": [],
+    "point_school_count": 0,
+    "point_zone_ids": [],
+    "gold_school_id": null,
+    "gold_school_name": null,
+    "on_boundary_zone_ids": [],
+    "invalid_geometry_hit_zone_ids": [],
+    "unknown_school_ids": [],
+    "complete_within_selected_roster": true,
+    "complete_within_all_official_schools": false,
+    "extra_policy_application_expanded": false,
+    "individual_enrollment_eligibility": false,
+    "base_scope_policy_review": "未完成全量基础范围空间核验；本标签仅为所选原始地图命中"
+  },
+  {
+    "coordinate_group_id": "bd09:a95cdd51bcad9430756f1df1",
+    "representative_point_bd09": [
+      114.202987,
+      22.652603
+    ],
+    "representative_point_wgs84": [
+      114.19153295598552,
+      22.64962289379543
+    ],
+    "building_id": "fdc:sz:3760",
+    "building_name": "锦冠华城",
+    "coordinate_group_building_ids": [
+      "fdc:sz:3760"
+    ],
+    "coordinate_group_building_names": [
+      "锦冠华城"
+    ],
+    "gold_record_id": "point:bd09:a95cdd51bcad9430756f1df1",
+    "source_map_partition": "龙岗区",
+    "label_kind": "official_map_point_membership",
+    "label_status": "outside_selected_map",
+    "predicate": "captured_official_BMapLib.GeoUtils.isPointInPolygon_offline_replay",
+    "point_school_ids": [],
+    "point_school_names": [],
+    "point_school_count": 0,
+    "point_zone_ids": [],
+    "gold_school_id": null,
+    "gold_school_name": null,
+    "on_boundary_zone_ids": [],
+    "invalid_geometry_hit_zone_ids": [],
+    "unknown_school_ids": [],
+    "complete_within_selected_roster": true,
+    "complete_within_all_official_schools": false,
+    "extra_policy_application_expanded": false,
+    "individual_enrollment_eligibility": false,
+    "base_scope_policy_review": "未完成全量基础范围空间核验；本标签仅为所选原始地图命中"
+  },
+  {
+    "coordinate_group_id": "bd09:adcb2b77c2f531c86eca54a2",
+    "representative_point_bd09": [
+      114.334347,
+      22.814018
+    ],
+    "representative_point_wgs84": [
+      114.32294225947106,
+      22.810774708104237
+    ],
+    "building_id": "fdc:sz:3769",
+    "building_name": "牧云溪谷",
+    "coordinate_group_building_ids": [
+      "fdc:sz:3769"
+    ],
+    "coordinate_group_building_names": [
+      "牧云溪谷"
+    ],
+    "gold_record_id": "point:bd09:adcb2b77c2f531c86eca54a2",
+    "source_map_partition": "龙岗区",
+    "label_kind": "official_map_point_membership",
+    "label_status": "outside_selected_map",
+    "predicate": "captured_official_BMapLib.GeoUtils.isPointInPolygon_offline_replay",
+    "point_school_ids": [],
+    "point_school_names": [],
+    "point_school_count": 0,
+    "point_zone_ids": [],
+    "gold_school_id": null,
+    "gold_school_name": null,
+    "on_boundary_zone_ids": [],
+    "invalid_geometry_hit_zone_ids": [],
+    "unknown_school_ids": [],
+    "complete_within_selected_roster": true,
+    "complete_within_all_official_schools": false,
+    "extra_policy_application_expanded": false,
+    "individual_enrollment_eligibility": false,
+    "base_scope_policy_review": "未完成全量基础范围空间核验；本标签仅为所选原始地图命中"
+  },
+  {
+    "coordinate_group_id": "bd09:f061fba667edf3fe4304e3f7",
+    "representative_point_bd09": [
+      114.135949,
+      22.665026
+    ],
+    "representative_point_wgs84": [
+      114.12442904281222,
+      22.661406651930182
+    ],
+    "building_id": "fdc:sz:3818",
+    "building_name": "康利城",
+    "coordinate_group_building_ids": [
+      "fdc:sz:3818"
+    ],
+    "coordinate_group_building_names": [
+      "康利城"
+    ],
+    "gold_record_id": "point:bd09:f061fba667edf3fe4304e3f7",
+    "source_map_partition": "龙岗区",
+    "label_kind": "official_map_point_membership",
+    "label_status": "outside_selected_map",
+    "predicate": "captured_official_BMapLib.GeoUtils.isPointInPolygon_offline_replay",
+    "point_school_ids": [],
+    "point_school_names": [],
+    "point_school_count": 0,
+    "point_zone_ids": [],
+    "gold_school_id": null,
+    "gold_school_name": null,
+    "on_boundary_zone_ids": [],
+    "invalid_geometry_hit_zone_ids": [],
+    "unknown_school_ids": [],
+    "complete_within_selected_roster": true,
+    "complete_within_all_official_schools": false,
+    "extra_policy_application_expanded": false,
+    "individual_enrollment_eligibility": false,
+    "base_scope_policy_review": "未完成全量基础范围空间核验；本标签仅为所选原始地图命中"
+  },
+  {
+    "coordinate_group_id": "bd09:2b48578300cd62fcd3675eab",
+    "representative_point_bd09": [
+      114.216127,
+      22.65633
+    ],
+    "representative_point_wgs84": [
+      114.20474778586538,
+      22.65315476146868
+    ],
+    "building_id": "fdc:sz:3914",
+    "building_name": "荣德业广场铺",
+    "coordinate_group_building_ids": [
+      "fdc:sz:3914"
+    ],
+    "coordinate_group_building_names": [
+      "荣德业广场铺"
+    ],
+    "gold_record_id": "point:bd09:2b48578300cd62fcd3675eab",
+    "source_map_partition": "龙岗区",
+    "label_kind": "official_map_point_membership",
+    "label_status": "outside_selected_map",
+    "predicate": "captured_official_BMapLib.GeoUtils.isPointInPolygon_offline_replay",
+    "point_school_ids": [],
+    "point_school_names": [],
+    "point_school_count": 0,
+    "point_zone_ids": [],
+    "gold_school_id": null,
+    "gold_school_name": null,
+    "on_boundary_zone_ids": [],
+    "invalid_geometry_hit_zone_ids": [],
+    "unknown_school_ids": [],
+    "complete_within_selected_roster": true,
+    "complete_within_all_official_schools": false,
+    "extra_policy_application_expanded": false,
+    "individual_enrollment_eligibility": false,
+    "base_scope_policy_review": "未完成全量基础范围空间核验；本标签仅为所选原始地图命中"
+  },
+  {
+    "coordinate_group_id": "bd09:f07b026283f88dd95787ee84",
+    "representative_point_bd09": [
+      114.213994,
+      22.72603
+    ],
+    "representative_point_wgs84": [
+      114.20256113797284,
+      22.72286523934348
+    ],
+    "building_id": "fdc:sz:3928",
+    "building_name": "大运城邦悦城四期",
+    "coordinate_group_building_ids": [
+      "fdc:sz:3928"
+    ],
+    "coordinate_group_building_names": [
+      "大运城邦悦城四期"
+    ],
+    "gold_record_id": "point:bd09:f07b026283f88dd95787ee84",
+    "source_map_partition": "龙岗区",
+    "label_kind": "official_map_point_membership",
+    "label_status": "outside_selected_map",
+    "predicate": "captured_official_BMapLib.GeoUtils.isPointInPolygon_offline_replay",
+    "point_school_ids": [],
+    "point_school_names": [],
+    "point_school_count": 0,
+    "point_zone_ids": [],
+    "gold_school_id": null,
+    "gold_school_name": null,
+    "on_boundary_zone_ids": [],
+    "invalid_geometry_hit_zone_ids": [],
+    "unknown_school_ids": [],
+    "complete_within_selected_roster": true,
+    "complete_within_all_official_schools": false,
+    "extra_policy_application_expanded": false,
+    "individual_enrollment_eligibility": false,
+    "base_scope_policy_review": "未完成全量基础范围空间核验；本标签仅为所选原始地图命中"
+  },
+  {
+    "coordinate_group_id": "bd09:194955cf8eaf176a8497cd43",
+    "representative_point_bd09": [
+      114.219307,
+      22.708626
+    ],
+    "representative_point_wgs84": [
+      114.20790497132636,
+      22.705378670128567
+    ],
+    "building_id": "fdc:sz:3931",
+    "building_name": "世茂深港国际中心",
+    "coordinate_group_building_ids": [
+      "fdc:sz:3931"
+    ],
+    "coordinate_group_building_names": [
+      "世茂深港国际中心"
+    ],
+    "gold_record_id": "point:bd09:194955cf8eaf176a8497cd43",
+    "source_map_partition": "龙岗区",
+    "label_kind": "official_map_point_membership",
+    "label_status": "outside_selected_map",
+    "predicate": "captured_official_BMapLib.GeoUtils.isPointInPolygon_offline_replay",
+    "point_school_ids": [],
+    "point_school_names": [],
+    "point_school_count": 0,
+    "point_zone_ids": [],
+    "gold_school_id": null,
+    "gold_school_name": null,
+    "on_boundary_zone_ids": [],
+    "invalid_geometry_hit_zone_ids": [],
+    "unknown_school_ids": [],
+    "complete_within_selected_roster": true,
+    "complete_within_all_official_schools": false,
+    "extra_policy_application_expanded": false,
+    "individual_enrollment_eligibility": false,
+    "base_scope_policy_review": "未完成全量基础范围空间核验；本标签仅为所选原始地图命中"
+  },
+  {
+    "coordinate_group_id": "bd09:757a7170273f3b5fb7ccba53",
+    "representative_point_bd09": [
+      114.213589,
+      22.702499
+    ],
+    "representative_point_wgs84": [
+      114.20215734252132,
+      22.69934756864192
+    ],
+    "building_id": "fdc:sz:3975",
+    "building_name": "U空间",
+    "coordinate_group_building_ids": [
+      "fdc:sz:3975"
+    ],
+    "coordinate_group_building_names": [
+      "U空间"
+    ],
+    "gold_record_id": "point:bd09:757a7170273f3b5fb7ccba53",
+    "source_map_partition": "龙岗区",
+    "label_kind": "official_map_point_membership",
+    "label_status": "outside_selected_map",
+    "predicate": "captured_official_BMapLib.GeoUtils.isPointInPolygon_offline_replay",
+    "point_school_ids": [],
+    "point_school_names": [],
+    "point_school_count": 0,
+    "point_zone_ids": [],
+    "gold_school_id": null,
+    "gold_school_name": null,
+    "on_boundary_zone_ids": [],
+    "invalid_geometry_hit_zone_ids": [],
+    "unknown_school_ids": [],
+    "complete_within_selected_roster": true,
+    "complete_within_all_official_schools": false,
+    "extra_policy_application_expanded": false,
+    "individual_enrollment_eligibility": false,
+    "base_scope_policy_review": "未完成全量基础范围空间核验；本标签仅为所选原始地图命中"
+  },
+  {
+    "coordinate_group_id": "bd09:9757873be4a3ab3a548eba88",
+    "representative_point_bd09": [
+      114.238452,
+      22.724887
+    ],
+    "representative_point_wgs84": [
+      114.2271378160565,
+      22.7213947550666
+    ],
+    "building_id": "fdc:sz:3995",
+    "building_name": "中国海关",
+    "coordinate_group_building_ids": [
+      "fdc:sz:3995"
+    ],
+    "coordinate_group_building_names": [
+      "中国海关"
+    ],
+    "gold_record_id": "point:bd09:9757873be4a3ab3a548eba88",
+    "source_map_partition": "龙岗区",
+    "label_kind": "official_map_point_membership",
+    "label_status": "outside_selected_map",
+    "predicate": "captured_official_BMapLib.GeoUtils.isPointInPolygon_offline_replay",
+    "point_school_ids": [],
+    "point_school_names": [],
+    "point_school_count": 0,
+    "point_zone_ids": [],
+    "gold_school_id": null,
+    "gold_school_name": null,
+    "on_boundary_zone_ids": [],
+    "invalid_geometry_hit_zone_ids": [],
+    "unknown_school_ids": [],
+    "complete_within_selected_roster": true,
+    "complete_within_all_official_schools": false,
+    "extra_policy_application_expanded": false,
+    "individual_enrollment_eligibility": false,
+    "base_scope_policy_review": "未完成全量基础范围空间核验；本标签仅为所选原始地图命中"
+  },
+  {
+    "coordinate_group_id": "bd09:0b431d2b230ee382fcfb4e64",
+    "representative_point_bd09": [
+      114.215755,
+      22.726343
+    ],
+    "representative_point_wgs84": [
+      114.20433261160089,
+      22.72314941842827
+    ],
+    "building_id": "fdc:sz:4005",
+    "building_name": "大运城邦米兰公寓",
+    "coordinate_group_building_ids": [
+      "fdc:sz:4005"
+    ],
+    "coordinate_group_building_names": [
+      "大运城邦米兰公寓"
+    ],
+    "gold_record_id": "point:bd09:0b431d2b230ee382fcfb4e64",
+    "source_map_partition": "龙岗区",
+    "label_kind": "official_map_point_membership",
+    "label_status": "outside_selected_map",
+    "predicate": "captured_official_BMapLib.GeoUtils.isPointInPolygon_offline_replay",
+    "point_school_ids": [],
+    "point_school_names": [],
+    "point_school_count": 0,
+    "point_zone_ids": [],
+    "gold_school_id": null,
+    "gold_school_name": null,
+    "on_boundary_zone_ids": [],
+    "invalid_geometry_hit_zone_ids": [],
+    "unknown_school_ids": [],
+    "complete_within_selected_roster": true,
+    "complete_within_all_official_schools": false,
+    "extra_policy_application_expanded": false,
+    "individual_enrollment_eligibility": false,
+    "base_scope_policy_review": "未完成全量基础范围空间核验；本标签仅为所选原始地图命中"
+  },
+  {
+    "coordinate_group_id": "bd09:1b39e10bd15c680a01399fc7",
+    "representative_point_bd09": [
+      114.280493,
+      22.735651
+    ],
+    "representative_point_wgs84": [
+      114.26913801244064,
+      22.73254349236255
+    ],
+    "building_id": "fdc:sz:4166",
+    "building_name": "富德中心",
+    "coordinate_group_building_ids": [
+      "fdc:sz:4166"
+    ],
+    "coordinate_group_building_names": [
+      "富德中心"
+    ],
+    "gold_record_id": "point:bd09:1b39e10bd15c680a01399fc7",
+    "source_map_partition": "龙岗区",
+    "label_kind": "official_map_point_membership",
+    "label_status": "outside_selected_map",
+    "predicate": "captured_official_BMapLib.GeoUtils.isPointInPolygon_offline_replay",
+    "point_school_ids": [],
+    "point_school_names": [],
+    "point_school_count": 0,
+    "point_zone_ids": [],
+    "gold_school_id": null,
+    "gold_school_name": null,
+    "on_boundary_zone_ids": [],
+    "invalid_geometry_hit_zone_ids": [],
+    "unknown_school_ids": [],
+    "complete_within_selected_roster": true,
+    "complete_within_all_official_schools": false,
+    "extra_policy_application_expanded": false,
+    "individual_enrollment_eligibility": false,
+    "base_scope_policy_review": "未完成全量基础范围空间核验；本标签仅为所选原始地图命中"
+  },
+  {
+    "coordinate_group_id": "bd09:a50e6a6ed7c6259ce811a7a9",
+    "representative_point_bd09": [
+      114.282253,
+      22.72833
+    ],
+    "representative_point_wgs84": [
+      114.27088649141591,
+      22.725252741061187
+    ],
+    "building_id": "fdc:sz:4238",
+    "building_name": "恒裕珑城",
+    "coordinate_group_building_ids": [
+      "fdc:sz:4238"
+    ],
+    "coordinate_group_building_names": [
+      "恒裕珑城"
+    ],
+    "gold_record_id": "point:bd09:a50e6a6ed7c6259ce811a7a9",
+    "source_map_partition": "龙岗区",
+    "label_kind": "official_map_point_membership",
+    "label_status": "outside_selected_map",
+    "predicate": "captured_official_BMapLib.GeoUtils.isPointInPolygon_offline_replay",
+    "point_school_ids": [],
+    "point_school_names": [],
+    "point_school_count": 0,
+    "point_zone_ids": [],
+    "gold_school_id": null,
+    "gold_school_name": null,
+    "on_boundary_zone_ids": [],
+    "invalid_geometry_hit_zone_ids": [],
+    "unknown_school_ids": [],
+    "complete_within_selected_roster": true,
+    "complete_within_all_official_schools": false,
+    "extra_policy_application_expanded": false,
+    "individual_enrollment_eligibility": false,
+    "base_scope_policy_review": "未完成全量基础范围空间核验；本标签仅为所选原始地图命中"
+  },
+  {
+    "coordinate_group_id": "bd09:ef23e434794efa355459d1fb",
+    "representative_point_bd09": [
+      114.117088,
+      22.595327
+    ],
+    "representative_point_wgs84": [
+      114.10550781954413,
+      22.59169904989953
+    ],
+    "building_id": "fdc:sz:4608",
+    "building_name": "龙园龙凤雅居",
+    "coordinate_group_building_ids": [
+      "fdc:sz:4608"
+    ],
+    "coordinate_group_building_names": [
+      "龙园龙凤雅居"
+    ],
+    "gold_record_id": "point:bd09:ef23e434794efa355459d1fb",
+    "source_map_partition": "龙岗区",
+    "label_kind": "official_map_point_membership",
+    "label_status": "outside_selected_map",
+    "predicate": "captured_official_BMapLib.GeoUtils.isPointInPolygon_offline_replay",
+    "point_school_ids": [],
+    "point_school_names": [],
+    "point_school_count": 0,
+    "point_zone_ids": [],
+    "gold_school_id": null,
+    "gold_school_name": null,
+    "on_boundary_zone_ids": [],
+    "invalid_geometry_hit_zone_ids": [],
+    "unknown_school_ids": [],
+    "complete_within_selected_roster": true,
+    "complete_within_all_official_schools": false,
+    "extra_policy_application_expanded": false,
+    "individual_enrollment_eligibility": false,
+    "base_scope_policy_review": "未完成全量基础范围空间核验；本标签仅为所选原始地图命中"
+  },
+  {
+    "coordinate_group_id": "bd09:02205c96bc46816624fca0ef",
+    "representative_point_bd09": [
+      114.150346,
+      22.615439
+    ],
+    "representative_point_wgs84": [
+      114.13879284473335,
+      22.612034441029607
+    ],
+    "building_id": "fdc:sz:4618",
+    "building_name": "黄金苑南岭医院职工住宅楼",
+    "coordinate_group_building_ids": [
+      "fdc:sz:4618"
+    ],
+    "coordinate_group_building_names": [
+      "黄金苑南岭医院职工住宅楼"
+    ],
+    "gold_record_id": "point:bd09:02205c96bc46816624fca0ef",
+    "source_map_partition": "龙岗区",
+    "label_kind": "official_map_point_membership",
+    "label_status": "outside_selected_map",
+    "predicate": "captured_official_BMapLib.GeoUtils.isPointInPolygon_offline_replay",
+    "point_school_ids": [],
+    "point_school_names": [],
+    "point_school_count": 0,
+    "point_zone_ids": [],
+    "gold_school_id": null,
+    "gold_school_name": null,
+    "on_boundary_zone_ids": [],
+    "invalid_geometry_hit_zone_ids": [],
+    "unknown_school_ids": [],
+    "complete_within_selected_roster": true,
+    "complete_within_all_official_schools": false,
+    "extra_policy_application_expanded": false,
+    "individual_enrollment_eligibility": false,
+    "base_scope_policy_review": "未完成全量基础范围空间核验；本标签仅为所选原始地图命中"
+  },
+  {
+    "coordinate_group_id": "bd09:fb551f0a3d532bb31f3c1b1f",
+    "representative_point_bd09": [
+      114.1507,
+      22.618008
+    ],
+    "representative_point_wgs84": [
+      114.13914862930234,
+      22.614610058186102
+    ],
+    "building_id": "fdc:sz:4621",
+    "building_name": "黄金豪庭",
+    "coordinate_group_building_ids": [
+      "fdc:sz:4621"
+    ],
+    "coordinate_group_building_names": [
+      "黄金豪庭"
+    ],
+    "gold_record_id": "point:bd09:fb551f0a3d532bb31f3c1b1f",
+    "source_map_partition": "龙岗区",
+    "label_kind": "official_map_point_membership",
+    "label_status": "outside_selected_map",
+    "predicate": "captured_official_BMapLib.GeoUtils.isPointInPolygon_offline_replay",
+    "point_school_ids": [],
+    "point_school_names": [],
+    "point_school_count": 0,
+    "point_zone_ids": [],
+    "gold_school_id": null,
+    "gold_school_name": null,
+    "on_boundary_zone_ids": [],
+    "invalid_geometry_hit_zone_ids": [],
+    "unknown_school_ids": [],
+    "complete_within_selected_roster": true,
+    "complete_within_all_official_schools": false,
+    "extra_policy_application_expanded": false,
+    "individual_enrollment_eligibility": false,
+    "base_scope_policy_review": "未完成全量基础范围空间核验；本标签仅为所选原始地图命中"
+  },
+  {
+    "coordinate_group_id": "bd09:9c45c024167392bcc0f56760",
+    "representative_point_bd09": [
+      114.150662,
+      22.615793
+    ],
+    "representative_point_wgs84": [
+      114.13910878785214,
+      22.61239430026698
+    ],
+    "building_id": "fdc:sz:4628",
+    "building_name": "黄金富苑B区",
+    "coordinate_group_building_ids": [
+      "fdc:sz:4628"
+    ],
+    "coordinate_group_building_names": [
+      "黄金富苑B区"
+    ],
+    "gold_record_id": "point:bd09:9c45c024167392bcc0f56760",
+    "source_map_partition": "龙岗区",
+    "label_kind": "official_map_point_membership",
+    "label_status": "outside_selected_map",
+    "predicate": "captured_official_BMapLib.GeoUtils.isPointInPolygon_offline_replay",
+    "point_school_ids": [],
+    "point_school_names": [],
+    "point_school_count": 0,
+    "point_zone_ids": [],
+    "gold_school_id": null,
+    "gold_school_name": null,
+    "on_boundary_zone_ids": [],
+    "invalid_geometry_hit_zone_ids": [],
+    "unknown_school_ids": [],
+    "complete_within_selected_roster": true,
+    "complete_within_all_official_schools": false,
+    "extra_policy_application_expanded": false,
+    "individual_enrollment_eligibility": false,
+    "base_scope_policy_review": "未完成全量基础范围空间核验；本标签仅为所选原始地图命中"
+  },
+  {
+    "coordinate_group_id": "bd09:22d816a30e6541d198846933",
+    "representative_point_bd09": [
+      114.061013,
+      22.626823
+    ],
+    "representative_point_wgs84": [
+      114.04934101267297,
+      22.623875254187567
+    ],
+    "building_id": "fdc:sz:4634",
+    "building_name": "春华四季园一期",
+    "coordinate_group_building_ids": [
+      "fdc:sz:4634"
+    ],
+    "coordinate_group_building_names": [
+      "春华四季园一期"
+    ],
+    "gold_record_id": "point:bd09:22d816a30e6541d198846933",
+    "source_map_partition": "龙岗区",
+    "label_kind": "official_map_point_membership",
+    "label_status": "outside_selected_map",
+    "predicate": "captured_official_BMapLib.GeoUtils.isPointInPolygon_offline_replay",
+    "point_school_ids": [],
+    "point_school_names": [],
+    "point_school_count": 0,
+    "point_zone_ids": [],
+    "gold_school_id": null,
+    "gold_school_name": null,
+    "on_boundary_zone_ids": [],
+    "invalid_geometry_hit_zone_ids": [],
+    "unknown_school_ids": [],
+    "complete_within_selected_roster": true,
+    "complete_within_all_official_schools": false,
+    "extra_policy_application_expanded": false,
+    "individual_enrollment_eligibility": false,
+    "base_scope_policy_review": "未完成全量基础范围空间核验；本标签仅为所选原始地图命中"
+  },
+  {
+    "coordinate_group_id": "bd09:923c0f23246f9fb224e76470",
+    "representative_point_bd09": [
+      114.065601,
+      22.609981
+    ],
+    "representative_point_wgs84": [
+      114.05390550760985,
+      22.60703742646545
+    ],
+    "building_id": "fdc:sz:4685",
+    "building_name": "星河WORLD",
+    "coordinate_group_building_ids": [
+      "fdc:sz:4685"
+    ],
+    "coordinate_group_building_names": [
+      "星河WORLD"
+    ],
+    "gold_record_id": "point:bd09:923c0f23246f9fb224e76470",
+    "source_map_partition": "龙岗区",
+    "label_kind": "official_map_point_membership",
+    "label_status": "outside_selected_map",
+    "predicate": "captured_official_BMapLib.GeoUtils.isPointInPolygon_offline_replay",
+    "point_school_ids": [],
+    "point_school_names": [],
+    "point_school_count": 0,
+    "point_zone_ids": [],
+    "gold_school_id": null,
+    "gold_school_name": null,
+    "on_boundary_zone_ids": [],
+    "invalid_geometry_hit_zone_ids": [],
+    "unknown_school_ids": [],
+    "complete_within_selected_roster": true,
+    "complete_within_all_official_schools": false,
+    "extra_policy_application_expanded": false,
+    "individual_enrollment_eligibility": false,
+    "base_scope_policy_review": "未完成全量基础范围空间核验；本标签仅为所选原始地图命中"
+  },
+  {
+    "coordinate_group_id": "bd09:528735b618e14bd6482e3c3f",
+    "representative_point_bd09": [
+      114.210835,
+      22.704639
+    ],
+    "representative_point_wgs84": [
+      114.19938576066461,
+      22.701530484682912
+    ],
+    "building_id": "fdc:sz:5236",
+    "building_name": "宝德云谷大厦",
+    "coordinate_group_building_ids": [
+      "fdc:sz:5236"
+    ],
+    "coordinate_group_building_names": [
+      "宝德云谷大厦"
+    ],
+    "gold_record_id": "point:bd09:528735b618e14bd6482e3c3f",
+    "source_map_partition": "龙岗区",
+    "label_kind": "official_map_point_membership",
+    "label_status": "outside_selected_map",
+    "predicate": "captured_official_BMapLib.GeoUtils.isPointInPolygon_offline_replay",
+    "point_school_ids": [],
+    "point_school_names": [],
+    "point_school_count": 0,
+    "point_zone_ids": [],
+    "gold_school_id": null,
+    "gold_school_name": null,
+    "on_boundary_zone_ids": [],
+    "invalid_geometry_hit_zone_ids": [],
+    "unknown_school_ids": [],
+    "complete_within_selected_roster": true,
+    "complete_within_all_official_schools": false,
+    "extra_policy_application_expanded": false,
+    "individual_enrollment_eligibility": false,
+    "base_scope_policy_review": "未完成全量基础范围空间核验；本标签仅为所选原始地图命中"
+  },
+  {
+    "coordinate_group_id": "bd09:94898d315031ed7b03692af4",
+    "representative_point_bd09": [
+      114.169751,
+      22.629659
+    ],
+    "representative_point_wgs84": [
+      114.15819439044213,
+      22.62661463306964
+    ],
+    "building_id": "fdc:sz:5327",
+    "building_name": "福景苑",
+    "coordinate_group_building_ids": [
+      "fdc:sz:5327"
+    ],
+    "coordinate_group_building_names": [
+      "福景苑"
+    ],
+    "gold_record_id": "point:bd09:94898d315031ed7b03692af4",
+    "source_map_partition": "龙岗区",
+    "label_kind": "official_map_point_membership",
+    "label_status": "outside_selected_map",
+    "predicate": "captured_official_BMapLib.GeoUtils.isPointInPolygon_offline_replay",
+    "point_school_ids": [],
+    "point_school_names": [],
+    "point_school_count": 0,
+    "point_zone_ids": [],
+    "gold_school_id": null,
+    "gold_school_name": null,
+    "on_boundary_zone_ids": [],
+    "invalid_geometry_hit_zone_ids": [],
+    "unknown_school_ids": [],
+    "complete_within_selected_roster": true,
+    "complete_within_all_official_schools": false,
+    "extra_policy_application_expanded": false,
+    "individual_enrollment_eligibility": false,
+    "base_scope_policy_review": "未完成全量基础范围空间核验；本标签仅为所选原始地图命中"
+  },
+  {
+    "coordinate_group_id": "bd09:3af810bcb1cce8b17504c267",
+    "representative_point_bd09": [
+      114.072087,
+      22.679385
+    ],
+    "representative_point_wgs84": [
+      114.06040303887626,
+      22.676406543569108
+    ],
+    "building_id": "fdc:sz:5743",
+    "building_name": "宝能科技大厦",
+    "coordinate_group_building_ids": [
+      "fdc:sz:5743"
+    ],
+    "coordinate_group_building_names": [
+      "宝能科技大厦"
+    ],
+    "gold_record_id": "point:bd09:3af810bcb1cce8b17504c267",
+    "source_map_partition": "龙岗区",
+    "label_kind": "official_map_point_membership",
+    "label_status": "outside_selected_map",
+    "predicate": "captured_official_BMapLib.GeoUtils.isPointInPolygon_offline_replay",
+    "point_school_ids": [],
+    "point_school_names": [],
+    "point_school_count": 0,
+    "point_zone_ids": [],
+    "gold_school_id": null,
+    "gold_school_name": null,
+    "on_boundary_zone_ids": [],
+    "invalid_geometry_hit_zone_ids": [],
+    "unknown_school_ids": [],
+    "complete_within_selected_roster": true,
+    "complete_within_all_official_schools": false,
+    "extra_policy_application_expanded": false,
+    "individual_enrollment_eligibility": false,
+    "base_scope_policy_review": "未完成全量基础范围空间核验；本标签仅为所选原始地图命中"
+  },
+  {
+    "coordinate_group_id": "bd09:e7b26d0112cf5d81c8c1487d",
+    "representative_point_bd09": [
+      114.09735,
+      22.64228
+    ],
+    "representative_point_wgs84": [
+      114.08573263198028,
+      22.638939881463173
+    ],
+    "building_id": "fdc:sz:5747",
+    "building_name": "海发大厦",
+    "coordinate_group_building_ids": [
+      "fdc:sz:5747"
+    ],
+    "coordinate_group_building_names": [
+      "海发大厦"
+    ],
+    "gold_record_id": "point:bd09:e7b26d0112cf5d81c8c1487d",
+    "source_map_partition": "龙岗区",
+    "label_kind": "official_map_point_membership",
+    "label_status": "outside_selected_map",
+    "predicate": "captured_official_BMapLib.GeoUtils.isPointInPolygon_offline_replay",
+    "point_school_ids": [],
+    "point_school_names": [],
+    "point_school_count": 0,
+    "point_zone_ids": [],
+    "gold_school_id": null,
+    "gold_school_name": null,
+    "on_boundary_zone_ids": [],
+    "invalid_geometry_hit_zone_ids": [],
+    "unknown_school_ids": [],
+    "complete_within_selected_roster": true,
+    "complete_within_all_official_schools": false,
+    "extra_policy_application_expanded": false,
+    "individual_enrollment_eligibility": false,
+    "base_scope_policy_review": "未完成全量基础范围空间核验；本标签仅为所选原始地图命中"
+  },
+  {
+    "coordinate_group_id": "bd09:e51b728457b4b07858a16039",
+    "representative_point_bd09": [
+      114.10322,
+      22.608073
+    ],
+    "representative_point_wgs84": [
+      114.09159618724203,
+      22.604627383515275
+    ],
+    "building_id": "fdc:sz:6229",
+    "building_name": "文谷庄园",
+    "coordinate_group_building_ids": [
+      "fdc:sz:6229"
+    ],
+    "coordinate_group_building_names": [
+      "文谷庄园"
+    ],
+    "gold_record_id": "point:bd09:e51b728457b4b07858a16039",
+    "source_map_partition": "龙岗区",
+    "label_kind": "official_map_point_membership",
+    "label_status": "outside_selected_map",
+    "predicate": "captured_official_BMapLib.GeoUtils.isPointInPolygon_offline_replay",
+    "point_school_ids": [],
+    "point_school_names": [],
+    "point_school_count": 0,
+    "point_zone_ids": [],
+    "gold_school_id": null,
+    "gold_school_name": null,
+    "on_boundary_zone_ids": [],
+    "invalid_geometry_hit_zone_ids": [],
+    "unknown_school_ids": [],
+    "complete_within_selected_roster": true,
+    "complete_within_all_official_schools": false,
+    "extra_policy_application_expanded": false,
+    "individual_enrollment_eligibility": false,
+    "base_scope_policy_review": "未完成全量基础范围空间核验；本标签仅为所选原始地图命中"
+  },
+  {
+    "coordinate_group_id": "bd09:182c20ec410d57468393ead4",
+    "representative_point_bd09": [
+      114.282653,
+      22.734487
+    ],
+    "representative_point_wgs84": [
+      114.27128918125173,
+      22.731415390745862
+    ],
+    "building_id": "fdc:sz:6375",
+    "building_name": "伟华大厦",
+    "coordinate_group_building_ids": [
+      "fdc:sz:6375"
+    ],
+    "coordinate_group_building_names": [
+      "伟华大厦"
+    ],
+    "gold_record_id": "point:bd09:182c20ec410d57468393ead4",
+    "source_map_partition": "龙岗区",
+    "label_kind": "official_map_point_membership",
+    "label_status": "outside_selected_map",
+    "predicate": "captured_official_BMapLib.GeoUtils.isPointInPolygon_offline_replay",
+    "point_school_ids": [],
+    "point_school_names": [],
+    "point_school_count": 0,
+    "point_zone_ids": [],
+    "gold_school_id": null,
+    "gold_school_name": null,
+    "on_boundary_zone_ids": [],
+    "invalid_geometry_hit_zone_ids": [],
+    "unknown_school_ids": [],
+    "complete_within_selected_roster": true,
+    "complete_within_all_official_schools": false,
+    "extra_policy_application_expanded": false,
+    "individual_enrollment_eligibility": false,
+    "base_scope_policy_review": "未完成全量基础范围空间核验；本标签仅为所选原始地图命中"
+  },
+  {
+    "coordinate_group_id": "bd09:7bae7dbb483c5ea92156cdce",
+    "representative_point_bd09": [
+      114.282379,
+      22.734778
+    ],
+    "representative_point_wgs84": [
+      114.27101640876913,
+      22.731701895005447
+    ],
+    "building_id": "fdc:sz:6388",
+    "building_name": "苏鹿公寓",
+    "coordinate_group_building_ids": [
+      "fdc:sz:6388"
+    ],
+    "coordinate_group_building_names": [
+      "苏鹿公寓"
+    ],
+    "gold_record_id": "point:bd09:7bae7dbb483c5ea92156cdce",
+    "source_map_partition": "龙岗区",
+    "label_kind": "official_map_point_membership",
+    "label_status": "outside_selected_map",
+    "predicate": "captured_official_BMapLib.GeoUtils.isPointInPolygon_offline_replay",
+    "point_school_ids": [],
+    "point_school_names": [],
+    "point_school_count": 0,
+    "point_zone_ids": [],
+    "gold_school_id": null,
+    "gold_school_name": null,
+    "on_boundary_zone_ids": [],
+    "invalid_geometry_hit_zone_ids": [],
+    "unknown_school_ids": [],
+    "complete_within_selected_roster": true,
+    "complete_within_all_official_schools": false,
+    "extra_policy_application_expanded": false,
+    "individual_enrollment_eligibility": false,
+    "base_scope_policy_review": "未完成全量基础范围空间核验；本标签仅为所选原始地图命中"
+  },
+  {
+    "coordinate_group_id": "bd09:7a0c9450b09654cb54f8388e",
+    "representative_point_bd09": [
+      114.199779,
+      22.644785
+    ],
+    "representative_point_wgs84": [
+      114.18830618269932,
+      22.641840517264093
+    ],
+    "building_id": "fdc:sz:6419",
+    "building_name": "安信大厦",
+    "coordinate_group_building_ids": [
+      "fdc:sz:6419"
+    ],
+    "coordinate_group_building_names": [
+      "安信大厦"
+    ],
+    "gold_record_id": "point:bd09:7a0c9450b09654cb54f8388e",
+    "source_map_partition": "龙岗区",
+    "label_kind": "official_map_point_membership",
+    "label_status": "outside_selected_map",
+    "predicate": "captured_official_BMapLib.GeoUtils.isPointInPolygon_offline_replay",
+    "point_school_ids": [],
+    "point_school_names": [],
+    "point_school_count": 0,
+    "point_zone_ids": [],
+    "gold_school_id": null,
+    "gold_school_name": null,
+    "on_boundary_zone_ids": [],
+    "invalid_geometry_hit_zone_ids": [],
+    "unknown_school_ids": [],
+    "complete_within_selected_roster": true,
+    "complete_within_all_official_schools": false,
+    "extra_policy_application_expanded": false,
+    "individual_enrollment_eligibility": false,
+    "base_scope_policy_review": "未完成全量基础范围空间核验；本标签仅为所选原始地图命中"
+  },
+  {
+    "coordinate_group_id": "bd09:98a81dc7399e0d1c5cb870c2",
+    "representative_point_bd09": [
+      114.200345,
+      22.644383
+    ],
+    "representative_point_wgs84": [
+      114.18887476402709,
+      22.64143294830936
+    ],
+    "building_id": "fdc:sz:6423",
+    "building_name": "塘坑商业大厦",
+    "coordinate_group_building_ids": [
+      "fdc:sz:6423"
+    ],
+    "coordinate_group_building_names": [
+      "塘坑商业大厦"
+    ],
+    "gold_record_id": "point:bd09:98a81dc7399e0d1c5cb870c2",
+    "source_map_partition": "龙岗区",
+    "label_kind": "official_map_point_membership",
+    "label_status": "outside_selected_map",
+    "predicate": "captured_official_BMapLib.GeoUtils.isPointInPolygon_offline_replay",
+    "point_school_ids": [],
+    "point_school_names": [],
+    "point_school_count": 0,
+    "point_zone_ids": [],
+    "gold_school_id": null,
+    "gold_school_name": null,
+    "on_boundary_zone_ids": [],
+    "invalid_geometry_hit_zone_ids": [],
+    "unknown_school_ids": [],
+    "complete_within_selected_roster": true,
+    "complete_within_all_official_schools": false,
+    "extra_policy_application_expanded": false,
+    "individual_enrollment_eligibility": false,
+    "base_scope_policy_review": "未完成全量基础范围空间核验；本标签仅为所选原始地图命中"
+  },
+  {
+    "coordinate_group_id": "bd09:a8a5cf278da3f0b260058318",
+    "representative_point_bd09": [
+      114.071005,
+      22.650678
+    ],
+    "representative_point_wgs84": [
+      114.05933535196803,
+      22.64771502246189
+    ],
+    "building_id": "fdc:sz:6453",
+    "building_name": "新天下公寓",
+    "coordinate_group_building_ids": [
+      "fdc:sz:6453"
+    ],
+    "coordinate_group_building_names": [
+      "新天下公寓"
+    ],
+    "gold_record_id": "point:bd09:a8a5cf278da3f0b260058318",
+    "source_map_partition": "龙岗区",
+    "label_kind": "official_map_point_membership",
+    "label_status": "outside_selected_map",
+    "predicate": "captured_official_BMapLib.GeoUtils.isPointInPolygon_offline_replay",
+    "point_school_ids": [],
+    "point_school_names": [],
+    "point_school_count": 0,
+    "point_zone_ids": [],
+    "gold_school_id": null,
+    "gold_school_name": null,
+    "on_boundary_zone_ids": [],
+    "invalid_geometry_hit_zone_ids": [],
+    "unknown_school_ids": [],
+    "complete_within_selected_roster": true,
+    "complete_within_all_official_schools": false,
+    "extra_policy_application_expanded": false,
+    "individual_enrollment_eligibility": false,
+    "base_scope_policy_review": "未完成全量基础范围空间核验；本标签仅为所选原始地图命中"
+  },
+  {
+    "coordinate_group_id": "bd09:3ea1229a547d12d1f95cd572",
+    "representative_point_bd09": [
+      114.06515,
+      22.622515
+    ],
+    "representative_point_wgs84": [
+      114.0534653707768,
+      22.61957200110423
+    ],
+    "building_id": "fdc:sz:6462",
+    "building_name": "紫雲楼",
+    "coordinate_group_building_ids": [
+      "fdc:sz:6462"
+    ],
+    "coordinate_group_building_names": [
+      "紫雲楼"
+    ],
+    "gold_record_id": "point:bd09:3ea1229a547d12d1f95cd572",
+    "source_map_partition": "龙岗区",
+    "label_kind": "official_map_point_membership",
+    "label_status": "outside_selected_map",
+    "predicate": "captured_official_BMapLib.GeoUtils.isPointInPolygon_offline_replay",
+    "point_school_ids": [],
+    "point_school_names": [],
+    "point_school_count": 0,
+    "point_zone_ids": [],
+    "gold_school_id": null,
+    "gold_school_name": null,
+    "on_boundary_zone_ids": [],
+    "invalid_geometry_hit_zone_ids": [],
+    "unknown_school_ids": [],
+    "complete_within_selected_roster": true,
+    "complete_within_all_official_schools": false,
+    "extra_policy_application_expanded": false,
+    "individual_enrollment_eligibility": false,
+    "base_scope_policy_review": "未完成全量基础范围空间核验；本标签仅为所选原始地图命中"
+  },
+  {
+    "coordinate_group_id": "bd09:aad2d2c4b76a2909b4dc0f03",
+    "representative_point_bd09": [
+      114.066014,
+      22.677713
+    ],
+    "representative_point_wgs84": [
+      114.0543360977676,
+      22.674760456791773
+    ],
+    "building_id": "fdc:sz:6476",
+    "building_name": "富士康龙华宿舍",
+    "coordinate_group_building_ids": [
+      "fdc:sz:6476"
+    ],
+    "coordinate_group_building_names": [
+      "富士康龙华宿舍"
+    ],
+    "gold_record_id": "point:bd09:aad2d2c4b76a2909b4dc0f03",
+    "source_map_partition": "龙岗区",
+    "label_kind": "official_map_point_membership",
+    "label_status": "outside_selected_map",
+    "predicate": "captured_official_BMapLib.GeoUtils.isPointInPolygon_offline_replay",
+    "point_school_ids": [],
+    "point_school_names": [],
+    "point_school_count": 0,
+    "point_zone_ids": [],
+    "gold_school_id": null,
+    "gold_school_name": null,
+    "on_boundary_zone_ids": [],
+    "invalid_geometry_hit_zone_ids": [],
+    "unknown_school_ids": [],
+    "complete_within_selected_roster": true,
+    "complete_within_all_official_schools": false,
+    "extra_policy_application_expanded": false,
+    "individual_enrollment_eligibility": false,
+    "base_scope_policy_review": "未完成全量基础范围空间核验；本标签仅为所选原始地图命中"
+  },
+  {
+    "coordinate_group_id": "bd09:7832300c1ddb33ffffd08a64",
+    "representative_point_bd09": [
+      114.118661,
+      22.669048
+    ],
+    "representative_point_wgs84": [
+      114.10711521776749,
+      22.66540221038954
+    ],
+    "building_id": "fdc:sz:6578",
+    "building_name": "新河花园",
+    "coordinate_group_building_ids": [
+      "fdc:sz:6578"
+    ],
+    "coordinate_group_building_names": [
+      "新河花园"
+    ],
+    "gold_record_id": "point:bd09:7832300c1ddb33ffffd08a64",
+    "source_map_partition": "龙岗区",
+    "label_kind": "official_map_point_membership",
+    "label_status": "outside_selected_map",
+    "predicate": "captured_official_BMapLib.GeoUtils.isPointInPolygon_offline_replay",
+    "point_school_ids": [],
+    "point_school_names": [],
+    "point_school_count": 0,
+    "point_zone_ids": [],
+    "gold_school_id": null,
+    "gold_school_name": null,
+    "on_boundary_zone_ids": [],
+    "invalid_geometry_hit_zone_ids": [],
+    "unknown_school_ids": [],
+    "complete_within_selected_roster": true,
+    "complete_within_all_official_schools": false,
+    "extra_policy_application_expanded": false,
+    "individual_enrollment_eligibility": false,
+    "base_scope_policy_review": "未完成全量基础范围空间核验；本标签仅为所选原始地图命中"
+  },
+  {
+    "coordinate_group_id": "bd09:27b12e6345e929db4a7419cb",
+    "representative_point_bd09": [
+      114.31834,
+      22.740986
+    ],
+    "representative_point_wgs84": [
+      114.30691782664125,
+      22.73803716678741
+    ],
+    "building_id": "fdc:sz:6995",
+    "building_name": "世纪城",
+    "coordinate_group_building_ids": [
+      "fdc:sz:6995"
+    ],
+    "coordinate_group_building_names": [
+      "世纪城"
+    ],
+    "gold_record_id": "point:bd09:27b12e6345e929db4a7419cb",
+    "source_map_partition": "龙岗区",
+    "label_kind": "official_map_point_membership",
+    "label_status": "outside_selected_map",
+    "predicate": "captured_official_BMapLib.GeoUtils.isPointInPolygon_offline_replay",
+    "point_school_ids": [],
+    "point_school_names": [],
+    "point_school_count": 0,
+    "point_zone_ids": [],
+    "gold_school_id": null,
+    "gold_school_name": null,
+    "on_boundary_zone_ids": [],
+    "invalid_geometry_hit_zone_ids": [],
+    "unknown_school_ids": [],
+    "complete_within_selected_roster": true,
+    "complete_within_all_official_schools": false,
+    "extra_policy_application_expanded": false,
+    "individual_enrollment_eligibility": false,
+    "base_scope_policy_review": "未完成全量基础范围空间核验；本标签仅为所选原始地图命中"
+  },
+  {
+    "coordinate_group_id": "bd09:f00ee3c46623a049c4884f6e",
+    "representative_point_bd09": [
+      114.277869,
+      22.764542
+    ],
+    "representative_point_wgs84": [
+      114.26654806165551,
+      22.761386059893546
+    ],
+    "building_id": "fdc:sz:7228",
+    "building_name": "阳光香格里家园",
+    "coordinate_group_building_ids": [
+      "fdc:sz:7228"
+    ],
+    "coordinate_group_building_names": [
+      "阳光香格里家园"
+    ],
+    "gold_record_id": "point:bd09:f00ee3c46623a049c4884f6e",
+    "source_map_partition": "龙岗区",
+    "label_kind": "official_map_point_membership",
+    "label_status": "outside_selected_map",
+    "predicate": "captured_official_BMapLib.GeoUtils.isPointInPolygon_offline_replay",
+    "point_school_ids": [],
+    "point_school_names": [],
+    "point_school_count": 0,
+    "point_zone_ids": [],
+    "gold_school_id": null,
+    "gold_school_name": null,
+    "on_boundary_zone_ids": [],
+    "invalid_geometry_hit_zone_ids": [],
+    "unknown_school_ids": [],
+    "complete_within_selected_roster": true,
+    "complete_within_all_official_schools": false,
+    "extra_policy_application_expanded": false,
+    "individual_enrollment_eligibility": false,
+    "base_scope_policy_review": "未完成全量基础范围空间核验；本标签仅为所选原始地图命中"
+  },
+  {
+    "coordinate_group_id": "bd09:99c42ff35d7648b90784a04f",
+    "representative_point_bd09": [
+      114.20788,
+      22.651163
+    ],
+    "representative_point_wgs84": [
+      114.1964525782691,
+      22.64811829160672
+    ],
+    "building_id": "fdc:sz:7242",
+    "building_name": "裕民街",
+    "coordinate_group_building_ids": [
+      "fdc:sz:7242"
+    ],
+    "coordinate_group_building_names": [
+      "裕民街"
+    ],
+    "gold_record_id": "point:bd09:99c42ff35d7648b90784a04f",
+    "source_map_partition": "龙岗区",
+    "label_kind": "official_map_point_membership",
+    "label_status": "outside_selected_map",
+    "predicate": "captured_official_BMapLib.GeoUtils.isPointInPolygon_offline_replay",
+    "point_school_ids": [],
+    "point_school_names": [],
+    "point_school_count": 0,
+    "point_zone_ids": [],
+    "gold_school_id": null,
+    "gold_school_name": null,
+    "on_boundary_zone_ids": [],
+    "invalid_geometry_hit_zone_ids": [],
+    "unknown_school_ids": [],
+    "complete_within_selected_roster": true,
+    "complete_within_all_official_schools": false,
+    "extra_policy_application_expanded": false,
+    "individual_enrollment_eligibility": false,
+    "base_scope_policy_review": "未完成全量基础范围空间核验；本标签仅为所选原始地图命中"
+  },
+  {
+    "coordinate_group_id": "bd09:aedcafb1cfd7e4cc09e6610f",
+    "representative_point_bd09": [
+      114.21508,
+      22.656102
+    ],
+    "representative_point_wgs84": [
+      114.2036946847073,
+      22.652943983169003
+    ],
+    "building_id": "fdc:sz:7261",
+    "building_name": "荣德雨辰公寓",
+    "coordinate_group_building_ids": [
+      "fdc:sz:7261"
+    ],
+    "coordinate_group_building_names": [
+      "荣德雨辰公寓"
+    ],
+    "gold_record_id": "point:bd09:aedcafb1cfd7e4cc09e6610f",
+    "source_map_partition": "龙岗区",
+    "label_kind": "official_map_point_membership",
+    "label_status": "outside_selected_map",
+    "predicate": "captured_official_BMapLib.GeoUtils.isPointInPolygon_offline_replay",
+    "point_school_ids": [],
+    "point_school_names": [],
+    "point_school_count": 0,
+    "point_zone_ids": [],
+    "gold_school_id": null,
+    "gold_school_name": null,
+    "on_boundary_zone_ids": [],
+    "invalid_geometry_hit_zone_ids": [],
+    "unknown_school_ids": [],
+    "complete_within_selected_roster": true,
+    "complete_within_all_official_schools": false,
+    "extra_policy_application_expanded": false,
+    "individual_enrollment_eligibility": false,
+    "base_scope_policy_review": "未完成全量基础范围空间核验；本标签仅为所选原始地图命中"
+  },
+  {
+    "coordinate_group_id": "bd09:c1b5624d46396f5a40af23f6",
+    "representative_point_bd09": [
+      114.286214,
+      22.758851
+    ],
+    "representative_point_wgs84": [
+      114.27485916610455,
+      22.75583201428296
+    ],
+    "building_id": "fdc:sz:7345",
+    "building_name": "远洋天祺",
+    "coordinate_group_building_ids": [
+      "fdc:sz:7345"
+    ],
+    "coordinate_group_building_names": [
+      "远洋天祺"
+    ],
+    "gold_record_id": "point:bd09:c1b5624d46396f5a40af23f6",
+    "source_map_partition": "龙岗区",
+    "label_kind": "official_map_point_membership",
+    "label_status": "outside_selected_map",
+    "predicate": "captured_official_BMapLib.GeoUtils.isPointInPolygon_offline_replay",
+    "point_school_ids": [],
+    "point_school_names": [],
+    "point_school_count": 0,
+    "point_zone_ids": [],
+    "gold_school_id": null,
+    "gold_school_name": null,
+    "on_boundary_zone_ids": [],
+    "invalid_geometry_hit_zone_ids": [],
+    "unknown_school_ids": [],
+    "complete_within_selected_roster": true,
+    "complete_within_all_official_schools": false,
+    "extra_policy_application_expanded": false,
+    "individual_enrollment_eligibility": false,
+    "base_scope_policy_review": "未完成全量基础范围空间核验；本标签仅为所选原始地图命中"
+  }
+]

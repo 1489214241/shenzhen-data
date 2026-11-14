@@ -1,0 +1,71 @@
+{
+  "round": 9,
+  "date": "2026-11-12",
+  "sources": [
+    "天心区",
+    "芙蓉区",
+    "雨花区",
+    "开福区",
+    "拱墅区",
+    "萧山区",
+    "富阳区",
+    "临安区"
+  ],
+  "targets": [
+    "龙华区",
+    "龙岗区"
+  ],
+  "seeds": [
+    20261131,
+    20261132,
+    20261133,
+    20261134,
+    20261135,
+    20261136,
+    20261137,
+    20261138,
+    20261139,
+    20261140
+  ],
+  "arms": [
+    "property_mass",
+    "school_mass",
+    "school_mass_context"
+  ],
+  "objectives": [
+    "micro_exact",
+    "balanced_exact"
+  ],
+  "steps": 40,
+  "lr": 0.003,
+  "reg": 0.01,
+  "width": 32,
+  "chunk": 64,
+  "ranking_coefficient": 1.0,
+  "initialization": "Same per-seed round06 balanced_rank checkpoint and fresh Adam as round08.",
+  "rationale": "Native group_bias divides one property across all observed schools, suppressing independent positive evidence when another school is added.",
+  "continued_rank": "Old reference inputs and original partial labels, matched40extra steps.",
+  "new_references": "New source-positive reference bank, original partial labels, same40steps.",
+  "new_references_labels": "Same new reference bank plus newly observed positive target cells, all other target cells unknown.",
+  "source_weights": "Frozen source complete-single/multi50/50 mass, source row weights identical across arms; original global group denominator retained.",
+  "target_weights": "Each target property keeps original per-group weight; extra positive-only groups add partial BCE mass. No target ranking or negatives.",
+  "features": "41pair/27school; old anchor features retained; new partial refs excluded from learned negative boundary labels, self-property references masked.",
+  "decoder": "Original round03 known positives and graph, same predict_sets; then identical round07 direct positive union for ALL arms. No new-fact transitive expansion.",
+  "threshold": "All source holdout probability breakpoints, source-only micro and balanced exact calibration; same1246source validation rows.",
+  "comparison": "Matched round08 control and frozen round07 candidate; both source-only calibration objectives,10seeds.",
+  "parent_choice": "Previously developed balanced_rank candidate, target scores already seen; explicitly a development experiment, not independent model selection.",
+  "target_gold_read": false,
+  "target_polygons_read": false,
+  "target_cardinality_used": false,
+  "independent_validation": false,
+  "adopted": false,
+  "partial_sets_are_not_complete": true,
+  "adoption": "Requires independent confirmation and district/multi/FP/FN/harm review; no automatic adoption.",
+  "property_mass": "Exact frozen round08 new_references_labels control, no extra optimization.",
+  "school_mass": "Deduplicate (property,school) in pair log-mass only; original context unchanged.",
+  "school_mass_context": "Same schoolwise bias plus recomputed six context features using that bias. Context fractions still use cross-school totals.",
+  "inputs": "All arms use identical new-reference inputs and positive-only labels from round08.",
+  "supervision": "Identical saved round08 new_references_labels weights and labels across all arms.",
+  "mechanism_limit": "No claim that reference count is the only failure or that removing dilution necessarily improves exact sets.",
+  "prior_target_results_seen": true
+}

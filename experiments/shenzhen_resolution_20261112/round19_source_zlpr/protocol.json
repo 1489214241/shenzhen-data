@@ -1,0 +1,62 @@
+{
+  "sources": [
+    "天心区",
+    "芙蓉区",
+    "雨花区",
+    "开福区",
+    "拱墅区",
+    "萧山区",
+    "富阳区",
+    "临安区"
+  ],
+  "targets": [
+    "龙华区",
+    "龙岗区"
+  ],
+  "seeds": [
+    20261131,
+    20261132,
+    20261133,
+    20261134,
+    20261135,
+    20261136,
+    20261137,
+    20261138,
+    20261139,
+    20261140
+  ],
+  "steps": 40,
+  "lr": 0.003,
+  "reg": 0.01,
+  "width": 32,
+  "chunk": 64,
+  "source_gate": {
+    "min_multi_correct": 8,
+    "min_single_correct": 901,
+    "min_attainable_multi": 18,
+    "objective": "balanced_exact",
+    "purpose": "Only determines whether to proceed to a separately frozen target test."
+  },
+  "arms": [
+    "full_reference_control",
+    "source_zlpr"
+  ],
+  "decoders": [
+    "absolute",
+    "relative"
+  ],
+  "primary_decoder": "absolute",
+  "primary_objective": "balanced_exact",
+  "intervention": "Only complete source rows use ZLPR Equation1. All partial source and Shenzhen positive-only rows retain BCE+LSEP.",
+  "control": "Exact round16 all_multi_training checkpoints and source predictions; all inputs, weights, parent and40steps matched.",
+  "reference_views": "All full during fitting. Same2round18 stress views only for evaluation.",
+  "source_selection": "Absolute calibrated balanced-exact must pass original count/ranking gate AND meet full_reference_control_relative balanced-exact. Relative and fixed-zero are secondary, never fallback candidates.",
+  "source_scale": "Use ZLPR as written, no rescaling, loss-coefficient or learning-rate search. Gradient scale and effective regularization are part of this loss substitution.",
+  "score_transform": "Store sigmoid(logits) for compatible monotone decoding, NOT a claim of calibrated probabilities. Fixed-zero diagnostic corresponds to threshold0.5.",
+  "research": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\zlpr_method_review\\阅读与适用性.txt",
+  "target_gold_read": false,
+  "target_polygon_read": false,
+  "target_cardinality_used": false,
+  "independent_validation": false,
+  "adopted": false
+}

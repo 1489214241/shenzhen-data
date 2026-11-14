@@ -1,0 +1,1876 @@
+{
+  "reports": {
+    "ensemble": {
+      "全部": {
+        "before": {
+          "n": 1761,
+          "correct": 829,
+          "exact_accuracy": 0.47075525269733104,
+          "fp": 594,
+          "fn": 1441
+        },
+        "after": {
+          "n": 1761,
+          "correct": 846,
+          "exact_accuracy": 0.4804088586030664,
+          "fp": 601,
+          "fn": 1393
+        },
+        "corrected": 19,
+        "harmed": 2,
+        "delta_pp": 0.9653605905735378,
+        "delta_95_pp": [
+          0.2783502424266315,
+          1.8285798567214497
+        ],
+        "representable": 1099
+      },
+      "龙华区": {
+        "before": {
+          "n": 627,
+          "correct": 273,
+          "exact_accuracy": 0.4354066985645933,
+          "fp": 287,
+          "fn": 644
+        },
+        "after": {
+          "n": 627,
+          "correct": 285,
+          "exact_accuracy": 0.45454545454545453,
+          "fp": 294,
+          "fn": 624
+        },
+        "corrected": 12,
+        "harmed": 0,
+        "delta_pp": 1.9138755980861244,
+        "delta_95_pp": [
+          0.3395585738539898,
+          3.8866889425242546
+        ],
+        "representable": 385
+      },
+      "龙岗区": {
+        "before": {
+          "n": 1134,
+          "correct": 556,
+          "exact_accuracy": 0.49029982363315694,
+          "fp": 307,
+          "fn": 797
+        },
+        "after": {
+          "n": 1134,
+          "correct": 561,
+          "exact_accuracy": 0.4947089947089947,
+          "fp": 307,
+          "fn": 769
+        },
+        "corrected": 7,
+        "harmed": 2,
+        "delta_pp": 0.4409171075837742,
+        "delta_95_pp": [
+          -0.1607944487623048,
+          1.1856989733958494
+        ],
+        "representable": 714
+      },
+      "单校": {
+        "before": {
+          "n": 803,
+          "correct": 578,
+          "exact_accuracy": 0.7198007471980075,
+          "fp": 304,
+          "fn": 225
+        },
+        "after": {
+          "n": 803,
+          "correct": 576,
+          "exact_accuracy": 0.7173100871731009,
+          "fp": 307,
+          "fn": 227
+        },
+        "corrected": 0,
+        "harmed": 2,
+        "delta_pp": -0.24906600249066002,
+        "delta_95_pp": [
+          -0.6353442227546227,
+          0.0
+        ],
+        "representable": 792
+      },
+      "多校": {
+        "before": {
+          "n": 958,
+          "correct": 251,
+          "exact_accuracy": 0.2620041753653445,
+          "fp": 290,
+          "fn": 1216
+        },
+        "after": {
+          "n": 958,
+          "correct": 270,
+          "exact_accuracy": 0.2818371607515658,
+          "fp": 294,
+          "fn": 1166
+        },
+        "corrected": 19,
+        "harmed": 0,
+        "delta_pp": 1.9832985386221296,
+        "delta_95_pp": [
+          0.776834035683541,
+          3.508771929824561
+        ],
+        "representable": 307
+      },
+      "语义待核": {
+        "before": {
+          "n": 242,
+          "correct": 17,
+          "exact_accuracy": 0.07024793388429752,
+          "fp": 99,
+          "fn": 468
+        },
+        "after": {
+          "n": 242,
+          "correct": 25,
+          "exact_accuracy": 0.10330578512396695,
+          "fp": 95,
+          "fn": 453
+        },
+        "corrected": 8,
+        "harmed": 0,
+        "delta_pp": 3.3057851239669422,
+        "delta_95_pp": [
+          0.0,
+          7.3313259226781575
+        ],
+        "representable": 42
+      },
+      "未标记语义待核": {
+        "before": {
+          "n": 1519,
+          "correct": 812,
+          "exact_accuracy": 0.5345622119815668,
+          "fp": 495,
+          "fn": 973
+        },
+        "after": {
+          "n": 1519,
+          "correct": 821,
+          "exact_accuracy": 0.5404871626069783,
+          "fp": 506,
+          "fn": 940
+        },
+        "corrected": 11,
+        "harmed": 2,
+        "delta_pp": 0.5924950625411455,
+        "delta_95_pp": [
+          0.06063731749902441,
+          1.3371042108459115
+        ],
+        "representable": 1057
+      }
+    },
+    "20261131": {
+      "全部": {
+        "before": {
+          "n": 1761,
+          "correct": 829,
+          "exact_accuracy": 0.47075525269733104,
+          "fp": 590,
+          "fn": 1439
+        },
+        "after": {
+          "n": 1761,
+          "correct": 845,
+          "exact_accuracy": 0.4798409994321408,
+          "fp": 602,
+          "fn": 1396
+        },
+        "corrected": 19,
+        "harmed": 3,
+        "delta_pp": 0.9085746734809768,
+        "delta_95_pp": [
+          0.2155056544308491,
+          1.794000144107933
+        ],
+        "representable": 1099
+      },
+      "龙华区": {
+        "before": {
+          "n": 627,
+          "correct": 270,
+          "exact_accuracy": 0.430622009569378,
+          "fp": 288,
+          "fn": 647
+        },
+        "after": {
+          "n": 627,
+          "correct": 282,
+          "exact_accuracy": 0.44976076555023925,
+          "fp": 297,
+          "fn": 628
+        },
+        "corrected": 12,
+        "harmed": 0,
+        "delta_pp": 1.9138755980861244,
+        "delta_95_pp": [
+          0.3395585738539898,
+          3.8866889425242546
+        ],
+        "representable": 385
+      },
+      "龙岗区": {
+        "before": {
+          "n": 1134,
+          "correct": 559,
+          "exact_accuracy": 0.4929453262786596,
+          "fp": 302,
+          "fn": 792
+        },
+        "after": {
+          "n": 1134,
+          "correct": 563,
+          "exact_accuracy": 0.4964726631393298,
+          "fp": 305,
+          "fn": 768
+        },
+        "corrected": 7,
+        "harmed": 3,
+        "delta_pp": 0.3527336860670194,
+        "delta_95_pp": [
+          -0.25513474620617477,
+          1.1190478128179044
+        ],
+        "representable": 714
+      },
+      "单校": {
+        "before": {
+          "n": 803,
+          "correct": 579,
+          "exact_accuracy": 0.7210460772104608,
+          "fp": 302,
+          "fn": 224
+        },
+        "after": {
+          "n": 803,
+          "correct": 576,
+          "exact_accuracy": 0.7173100871731009,
+          "fp": 307,
+          "fn": 227
+        },
+        "corrected": 0,
+        "harmed": 3,
+        "delta_pp": -0.37359900373599003,
+        "delta_95_pp": [
+          -0.8323424494649228,
+          0.0
+        ],
+        "representable": 792
+      },
+      "多校": {
+        "before": {
+          "n": 958,
+          "correct": 250,
+          "exact_accuracy": 0.2609603340292276,
+          "fp": 288,
+          "fn": 1215
+        },
+        "after": {
+          "n": 958,
+          "correct": 269,
+          "exact_accuracy": 0.2807933194154488,
+          "fp": 295,
+          "fn": 1169
+        },
+        "corrected": 19,
+        "harmed": 0,
+        "delta_pp": 1.9832985386221296,
+        "delta_95_pp": [
+          0.776834035683541,
+          3.508771929824561
+        ],
+        "representable": 307
+      },
+      "语义待核": {
+        "before": {
+          "n": 242,
+          "correct": 17,
+          "exact_accuracy": 0.07024793388429752,
+          "fp": 99,
+          "fn": 468
+        },
+        "after": {
+          "n": 242,
+          "correct": 25,
+          "exact_accuracy": 0.10330578512396695,
+          "fp": 97,
+          "fn": 454
+        },
+        "corrected": 8,
+        "harmed": 0,
+        "delta_pp": 3.3057851239669422,
+        "delta_95_pp": [
+          0.0,
+          7.3313259226781575
+        ],
+        "representable": 42
+      },
+      "未标记语义待核": {
+        "before": {
+          "n": 1519,
+          "correct": 812,
+          "exact_accuracy": 0.5345622119815668,
+          "fp": 491,
+          "fn": 971
+        },
+        "after": {
+          "n": 1519,
+          "correct": 820,
+          "exact_accuracy": 0.5398288347597103,
+          "fp": 505,
+          "fn": 942
+        },
+        "corrected": 11,
+        "harmed": 3,
+        "delta_pp": 0.5266622778143515,
+        "delta_95_pp": [
+          -0.06398775542951657,
+          1.2667148929565144
+        ],
+        "representable": 1057
+      }
+    },
+    "20261132": {
+      "全部": {
+        "before": {
+          "n": 1761,
+          "correct": 828,
+          "exact_accuracy": 0.47018739352640543,
+          "fp": 588,
+          "fn": 1439
+        },
+        "after": {
+          "n": 1761,
+          "correct": 846,
+          "exact_accuracy": 0.4804088586030664,
+          "fp": 601,
+          "fn": 1393
+        },
+        "corrected": 19,
+        "harmed": 1,
+        "delta_pp": 1.0221465076660987,
+        "delta_95_pp": [
+          0.3414573000514947,
+          1.8867924528301887
+        ],
+        "representable": 1099
+      },
+      "龙华区": {
+        "before": {
+          "n": 627,
+          "correct": 272,
+          "exact_accuracy": 0.43381180223285487,
+          "fp": 281,
+          "fn": 642
+        },
+        "after": {
+          "n": 627,
+          "correct": 284,
+          "exact_accuracy": 0.4529505582137161,
+          "fp": 296,
+          "fn": 625
+        },
+        "corrected": 12,
+        "harmed": 0,
+        "delta_pp": 1.9138755980861244,
+        "delta_95_pp": [
+          0.3395585738539898,
+          3.8866889425242546
+        ],
+        "representable": 385
+      },
+      "龙岗区": {
+        "before": {
+          "n": 1134,
+          "correct": 556,
+          "exact_accuracy": 0.49029982363315694,
+          "fp": 307,
+          "fn": 797
+        },
+        "after": {
+          "n": 1134,
+          "correct": 562,
+          "exact_accuracy": 0.49559082892416223,
+          "fp": 305,
+          "fn": 768
+        },
+        "corrected": 7,
+        "harmed": 1,
+        "delta_pp": 0.5291005291005291,
+        "delta_95_pp": [
+          0.0,
+          1.253134038418699
+        ],
+        "representable": 714
+      },
+      "单校": {
+        "before": {
+          "n": 803,
+          "correct": 577,
+          "exact_accuracy": 0.7185554171855542,
+          "fp": 304,
+          "fn": 226
+        },
+        "after": {
+          "n": 803,
+          "correct": 576,
+          "exact_accuracy": 0.7173100871731009,
+          "fp": 306,
+          "fn": 227
+        },
+        "corrected": 0,
+        "harmed": 1,
+        "delta_pp": -0.12453300124533001,
+        "delta_95_pp": [
+          -0.4161032131299121,
+          0.0
+        ],
+        "representable": 792
+      },
+      "多校": {
+        "before": {
+          "n": 958,
+          "correct": 251,
+          "exact_accuracy": 0.2620041753653445,
+          "fp": 284,
+          "fn": 1213
+        },
+        "after": {
+          "n": 958,
+          "correct": 270,
+          "exact_accuracy": 0.2818371607515658,
+          "fp": 295,
+          "fn": 1166
+        },
+        "corrected": 19,
+        "harmed": 0,
+        "delta_pp": 1.9832985386221296,
+        "delta_95_pp": [
+          0.776834035683541,
+          3.508771929824561
+        ],
+        "representable": 307
+      },
+      "语义待核": {
+        "before": {
+          "n": 242,
+          "correct": 17,
+          "exact_accuracy": 0.07024793388429752,
+          "fp": 96,
+          "fn": 467
+        },
+        "after": {
+          "n": 242,
+          "correct": 25,
+          "exact_accuracy": 0.10330578512396695,
+          "fp": 97,
+          "fn": 454
+        },
+        "corrected": 8,
+        "harmed": 0,
+        "delta_pp": 3.3057851239669422,
+        "delta_95_pp": [
+          0.0,
+          7.3313259226781575
+        ],
+        "representable": 42
+      },
+      "未标记语义待核": {
+        "before": {
+          "n": 1519,
+          "correct": 811,
+          "exact_accuracy": 0.5339038841342989,
+          "fp": 492,
+          "fn": 972
+        },
+        "after": {
+          "n": 1519,
+          "correct": 821,
+          "exact_accuracy": 0.5404871626069783,
+          "fp": 504,
+          "fn": 939
+        },
+        "corrected": 11,
+        "harmed": 1,
+        "delta_pp": 0.6583278472679395,
+        "delta_95_pp": [
+          0.12919896640826875,
+          1.387159331850856
+        ],
+        "representable": 1057
+      }
+    },
+    "20261133": {
+      "全部": {
+        "before": {
+          "n": 1761,
+          "correct": 826,
+          "exact_accuracy": 0.4690516751845542,
+          "fp": 590,
+          "fn": 1442
+        },
+        "after": {
+          "n": 1761,
+          "correct": 846,
+          "exact_accuracy": 0.4804088586030664,
+          "fp": 600,
+          "fn": 1394
+        },
+        "corrected": 22,
+        "harmed": 2,
+        "delta_pp": 1.135718341851221,
+        "delta_95_pp": [
+          0.3327146005968772,
+          2.122795269462882
+        ],
+        "representable": 1099
+      },
+      "龙华区": {
+        "before": {
+          "n": 627,
+          "correct": 271,
+          "exact_accuracy": 0.43221690590111644,
+          "fp": 286,
+          "fn": 646
+        },
+        "after": {
+          "n": 627,
+          "correct": 285,
+          "exact_accuracy": 0.45454545454545453,
+          "fp": 296,
+          "fn": 624
+        },
+        "corrected": 14,
+        "harmed": 0,
+        "delta_pp": 2.2328548644338118,
+        "delta_95_pp": [
+          0.3395585738539898,
+          4.597890199637024
+        ],
+        "representable": 385
+      },
+      "龙岗区": {
+        "before": {
+          "n": 1134,
+          "correct": 555,
+          "exact_accuracy": 0.4894179894179894,
+          "fp": 304,
+          "fn": 796
+        },
+        "after": {
+          "n": 1134,
+          "correct": 561,
+          "exact_accuracy": 0.4947089947089947,
+          "fp": 304,
+          "fn": 770
+        },
+        "corrected": 8,
+        "harmed": 2,
+        "delta_pp": 0.5291005291005291,
+        "delta_95_pp": [
+          -0.0847457627118644,
+          1.2934710811246282
+        ],
+        "representable": 714
+      },
+      "单校": {
+        "before": {
+          "n": 803,
+          "correct": 578,
+          "exact_accuracy": 0.7198007471980075,
+          "fp": 303,
+          "fn": 225
+        },
+        "after": {
+          "n": 803,
+          "correct": 576,
+          "exact_accuracy": 0.7173100871731009,
+          "fp": 307,
+          "fn": 227
+        },
+        "corrected": 0,
+        "harmed": 2,
+        "delta_pp": -0.24906600249066002,
+        "delta_95_pp": [
+          -0.6353442227546227,
+          0.0
+        ],
+        "representable": 792
+      },
+      "多校": {
+        "before": {
+          "n": 958,
+          "correct": 248,
+          "exact_accuracy": 0.2588726513569937,
+          "fp": 287,
+          "fn": 1217
+        },
+        "after": {
+          "n": 958,
+          "correct": 270,
+          "exact_accuracy": 0.2818371607515658,
+          "fp": 293,
+          "fn": 1167
+        },
+        "corrected": 22,
+        "harmed": 0,
+        "delta_pp": 2.2964509394572024,
+        "delta_95_pp": [
+          0.8800707332039736,
+          4.057048921080016
+        ],
+        "representable": 307
+      },
+      "语义待核": {
+        "before": {
+          "n": 242,
+          "correct": 17,
+          "exact_accuracy": 0.07024793388429752,
+          "fp": 99,
+          "fn": 468
+        },
+        "after": {
+          "n": 242,
+          "correct": 26,
+          "exact_accuracy": 0.10743801652892562,
+          "fp": 96,
+          "fn": 452
+        },
+        "corrected": 9,
+        "harmed": 0,
+        "delta_pp": 3.71900826446281,
+        "delta_95_pp": [
+          0.0,
+          8.372214781444052
+        ],
+        "representable": 42
+      },
+      "未标记语义待核": {
+        "before": {
+          "n": 1519,
+          "correct": 809,
+          "exact_accuracy": 0.532587228439763,
+          "fp": 491,
+          "fn": 974
+        },
+        "after": {
+          "n": 1519,
+          "correct": 820,
+          "exact_accuracy": 0.5398288347597103,
+          "fp": 504,
+          "fn": 942
+        },
+        "corrected": 13,
+        "harmed": 2,
+        "delta_pp": 0.7241606319947334,
+        "delta_95_pp": [
+          0.11631491534069571,
+          1.574803149606299
+        ],
+        "representable": 1057
+      }
+    },
+    "20261134": {
+      "全部": {
+        "before": {
+          "n": 1761,
+          "correct": 830,
+          "exact_accuracy": 0.47132311186825665,
+          "fp": 596,
+          "fn": 1439
+        },
+        "after": {
+          "n": 1761,
+          "correct": 843,
+          "exact_accuracy": 0.4787052810902896,
+          "fp": 616,
+          "fn": 1399
+        },
+        "corrected": 18,
+        "harmed": 5,
+        "delta_pp": 0.7382169222032936,
+        "delta_95_pp": [
+          0.06496832551024756,
+          1.5251934106976128
+        ],
+        "representable": 1099
+      },
+      "龙华区": {
+        "before": {
+          "n": 627,
+          "correct": 280,
+          "exact_accuracy": 0.44657097288676234,
+          "fp": 279,
+          "fn": 634
+        },
+        "after": {
+          "n": 627,
+          "correct": 290,
+          "exact_accuracy": 0.4625199362041467,
+          "fp": 292,
+          "fn": 618
+        },
+        "corrected": 11,
+        "harmed": 1,
+        "delta_pp": 1.5948963317384368,
+        "delta_95_pp": [
+          0.18147998369236434,
+          3.273385913426266
+        ],
+        "representable": 385
+      },
+      "龙岗区": {
+        "before": {
+          "n": 1134,
+          "correct": 550,
+          "exact_accuracy": 0.48500881834215165,
+          "fp": 317,
+          "fn": 805
+        },
+        "after": {
+          "n": 1134,
+          "correct": 553,
+          "exact_accuracy": 0.4876543209876543,
+          "fp": 324,
+          "fn": 781
+        },
+        "corrected": 7,
+        "harmed": 4,
+        "delta_pp": 0.26455026455026454,
+        "delta_95_pp": [
+          -0.35030120435533335,
+          1.0623488671608063
+        ],
+        "representable": 714
+      },
+      "单校": {
+        "before": {
+          "n": 803,
+          "correct": 576,
+          "exact_accuracy": 0.7173100871731009,
+          "fp": 305,
+          "fn": 227
+        },
+        "after": {
+          "n": 803,
+          "correct": 571,
+          "exact_accuracy": 0.7110834371108343,
+          "fp": 316,
+          "fn": 232
+        },
+        "corrected": 0,
+        "harmed": 5,
+        "delta_pp": -0.62266500622665,
+        "delta_95_pp": [
+          -1.2096774193548387,
+          -0.1298659187764246
+        ],
+        "representable": 792
+      },
+      "多校": {
+        "before": {
+          "n": 958,
+          "correct": 254,
+          "exact_accuracy": 0.2651356993736952,
+          "fp": 291,
+          "fn": 1212
+        },
+        "after": {
+          "n": 958,
+          "correct": 272,
+          "exact_accuracy": 0.2839248434237996,
+          "fp": 300,
+          "fn": 1167
+        },
+        "corrected": 18,
+        "harmed": 0,
+        "delta_pp": 1.8789144050104383,
+        "delta_95_pp": [
+          0.8253027419176874,
+          3.177586005707193
+        ],
+        "representable": 307
+      },
+      "语义待核": {
+        "before": {
+          "n": 242,
+          "correct": 19,
+          "exact_accuracy": 0.07851239669421488,
+          "fp": 97,
+          "fn": 463
+        },
+        "after": {
+          "n": 242,
+          "correct": 25,
+          "exact_accuracy": 0.10330578512396695,
+          "fp": 98,
+          "fn": 452
+        },
+        "corrected": 6,
+        "harmed": 0,
+        "delta_pp": 2.479338842975207,
+        "delta_95_pp": [
+          0.0,
+          5.340055535578729
+        ],
+        "representable": 42
+      },
+      "未标记语义待核": {
+        "before": {
+          "n": 1519,
+          "correct": 811,
+          "exact_accuracy": 0.5339038841342989,
+          "fp": 499,
+          "fn": 976
+        },
+        "after": {
+          "n": 1519,
+          "correct": 818,
+          "exact_accuracy": 0.5385121790651745,
+          "fp": 518,
+          "fn": 947
+        },
+        "corrected": 12,
+        "harmed": 5,
+        "delta_pp": 0.4608294930875576,
+        "delta_95_pp": [
+          -0.14388748180721084,
+          1.2389017368220818
+        ],
+        "representable": 1057
+      }
+    },
+    "20261135": {
+      "全部": {
+        "before": {
+          "n": 1761,
+          "correct": 826,
+          "exact_accuracy": 0.4690516751845542,
+          "fp": 595,
+          "fn": 1442
+        },
+        "after": {
+          "n": 1761,
+          "correct": 842,
+          "exact_accuracy": 0.478137421919364,
+          "fp": 614,
+          "fn": 1402
+        },
+        "corrected": 17,
+        "harmed": 1,
+        "delta_pp": 0.9085746734809768,
+        "delta_95_pp": [
+          0.28150389944066334,
+          1.6922347908770392
+        ],
+        "representable": 1099
+      },
+      "龙华区": {
+        "before": {
+          "n": 627,
+          "correct": 273,
+          "exact_accuracy": 0.4354066985645933,
+          "fp": 284,
+          "fn": 642
+        },
+        "after": {
+          "n": 627,
+          "correct": 284,
+          "exact_accuracy": 0.4529505582137161,
+          "fp": 297,
+          "fn": 626
+        },
+        "corrected": 11,
+        "harmed": 0,
+        "delta_pp": 1.7543859649122806,
+        "delta_95_pp": [
+          0.3395585738539898,
+          3.5031847133757963
+        ],
+        "representable": 385
+      },
+      "龙岗区": {
+        "before": {
+          "n": 1134,
+          "correct": 553,
+          "exact_accuracy": 0.4876543209876543,
+          "fp": 311,
+          "fn": 800
+        },
+        "after": {
+          "n": 1134,
+          "correct": 558,
+          "exact_accuracy": 0.49206349206349204,
+          "fp": 317,
+          "fn": 776
+        },
+        "corrected": 6,
+        "harmed": 1,
+        "delta_pp": 0.4409171075837742,
+        "delta_95_pp": [
+          -0.0862106187838723,
+          1.1546064129796967
+        ],
+        "representable": 714
+      },
+      "单校": {
+        "before": {
+          "n": 803,
+          "correct": 574,
+          "exact_accuracy": 0.7148194271481942,
+          "fp": 307,
+          "fn": 229
+        },
+        "after": {
+          "n": 803,
+          "correct": 573,
+          "exact_accuracy": 0.7135740971357409,
+          "fp": 312,
+          "fn": 230
+        },
+        "corrected": 0,
+        "harmed": 1,
+        "delta_pp": -0.12453300124533001,
+        "delta_95_pp": [
+          -0.4161032131299121,
+          0.0
+        ],
+        "representable": 792
+      },
+      "多校": {
+        "before": {
+          "n": 958,
+          "correct": 252,
+          "exact_accuracy": 0.2630480167014614,
+          "fp": 288,
+          "fn": 1213
+        },
+        "after": {
+          "n": 958,
+          "correct": 269,
+          "exact_accuracy": 0.2807933194154488,
+          "fp": 302,
+          "fn": 1172
+        },
+        "corrected": 17,
+        "harmed": 0,
+        "delta_pp": 1.7745302713987474,
+        "delta_95_pp": [
+          0.6658898750373339,
+          3.156941797390412
+        ],
+        "representable": 307
+      },
+      "语义待核": {
+        "before": {
+          "n": 242,
+          "correct": 17,
+          "exact_accuracy": 0.07024793388429752,
+          "fp": 100,
+          "fn": 468
+        },
+        "after": {
+          "n": 242,
+          "correct": 24,
+          "exact_accuracy": 0.09917355371900827,
+          "fp": 101,
+          "fn": 456
+        },
+        "corrected": 7,
+        "harmed": 0,
+        "delta_pp": 2.8925619834710745,
+        "delta_95_pp": [
+          0.0,
+          6.30641563893991
+        ],
+        "representable": 42
+      },
+      "未标记语义待核": {
+        "before": {
+          "n": 1519,
+          "correct": 809,
+          "exact_accuracy": 0.532587228439763,
+          "fp": 495,
+          "fn": 974
+        },
+        "after": {
+          "n": 1519,
+          "correct": 818,
+          "exact_accuracy": 0.5385121790651745,
+          "fp": 513,
+          "fn": 946
+        },
+        "corrected": 10,
+        "harmed": 1,
+        "delta_pp": 0.5924950625411455,
+        "delta_95_pp": [
+          0.06648495259326148,
+          1.294229028995537
+        ],
+        "representable": 1057
+      }
+    },
+    "20261136": {
+      "全部": {
+        "before": {
+          "n": 1761,
+          "correct": 819,
+          "exact_accuracy": 0.46507666098807493,
+          "fp": 600,
+          "fn": 1450
+        },
+        "after": {
+          "n": 1761,
+          "correct": 838,
+          "exact_accuracy": 0.47586598523566154,
+          "fp": 612,
+          "fn": 1399
+        },
+        "corrected": 23,
+        "harmed": 4,
+        "delta_pp": 1.0789324247586598,
+        "delta_95_pp": [
+          0.2507797707434731,
+          2.1015022483394397
+        ],
+        "representable": 1099
+      },
+      "龙华区": {
+        "before": {
+          "n": 627,
+          "correct": 270,
+          "exact_accuracy": 0.430622009569378,
+          "fp": 286,
+          "fn": 647
+        },
+        "after": {
+          "n": 627,
+          "correct": 286,
+          "exact_accuracy": 0.45614035087719296,
+          "fp": 289,
+          "fn": 620
+        },
+        "corrected": 16,
+        "harmed": 0,
+        "delta_pp": 2.5518341307814993,
+        "delta_95_pp": [
+          0.6556841315761277,
+          5.052340494630403
+        ],
+        "representable": 385
+      },
+      "龙岗区": {
+        "before": {
+          "n": 1134,
+          "correct": 549,
+          "exact_accuracy": 0.48412698412698413,
+          "fp": 314,
+          "fn": 803
+        },
+        "after": {
+          "n": 1134,
+          "correct": 552,
+          "exact_accuracy": 0.48677248677248675,
+          "fp": 323,
+          "fn": 779
+        },
+        "corrected": 7,
+        "harmed": 4,
+        "delta_pp": 0.26455026455026454,
+        "delta_95_pp": [
+          -0.35030120435533335,
+          1.0623488671608063
+        ],
+        "representable": 714
+      },
+      "单校": {
+        "before": {
+          "n": 803,
+          "correct": 570,
+          "exact_accuracy": 0.709838107098381,
+          "fp": 312,
+          "fn": 233
+        },
+        "after": {
+          "n": 803,
+          "correct": 566,
+          "exact_accuracy": 0.7048567870485679,
+          "fp": 321,
+          "fn": 237
+        },
+        "corrected": 0,
+        "harmed": 4,
+        "delta_pp": -0.49813200498132004,
+        "delta_95_pp": [
+          -1.0062893081761006,
+          -0.11247962691532244
+        ],
+        "representable": 792
+      },
+      "多校": {
+        "before": {
+          "n": 958,
+          "correct": 249,
+          "exact_accuracy": 0.2599164926931106,
+          "fp": 288,
+          "fn": 1217
+        },
+        "after": {
+          "n": 958,
+          "correct": 272,
+          "exact_accuracy": 0.2839248434237996,
+          "fp": 291,
+          "fn": 1162
+        },
+        "corrected": 23,
+        "harmed": 0,
+        "delta_pp": 2.4008350730688934,
+        "delta_95_pp": [
+          1.0192294829005912,
+          4.202784709618876
+        ],
+        "representable": 307
+      },
+      "语义待核": {
+        "before": {
+          "n": 242,
+          "correct": 15,
+          "exact_accuracy": 0.06198347107438017,
+          "fp": 98,
+          "fn": 467
+        },
+        "after": {
+          "n": 242,
+          "correct": 23,
+          "exact_accuracy": 0.09504132231404959,
+          "fp": 100,
+          "fn": 454
+        },
+        "corrected": 8,
+        "harmed": 0,
+        "delta_pp": 3.3057851239669422,
+        "delta_95_pp": [
+          0.0,
+          7.3313259226781575
+        ],
+        "representable": 42
+      },
+      "未标记语义待核": {
+        "before": {
+          "n": 1519,
+          "correct": 804,
+          "exact_accuracy": 0.5292955892034233,
+          "fp": 502,
+          "fn": 983
+        },
+        "after": {
+          "n": 1519,
+          "correct": 815,
+          "exact_accuracy": 0.5365371955233706,
+          "fp": 512,
+          "fn": 945
+        },
+        "corrected": 15,
+        "harmed": 4,
+        "delta_pp": 0.7241606319947334,
+        "delta_95_pp": [
+          0.0,
+          1.6989099233863638
+        ],
+        "representable": 1057
+      }
+    },
+    "20261137": {
+      "全部": {
+        "before": {
+          "n": 1761,
+          "correct": 832,
+          "exact_accuracy": 0.47245883021010787,
+          "fp": 588,
+          "fn": 1436
+        },
+        "after": {
+          "n": 1761,
+          "correct": 851,
+          "exact_accuracy": 0.4832481544576945,
+          "fp": 600,
+          "fn": 1392
+        },
+        "corrected": 20,
+        "harmed": 1,
+        "delta_pp": 1.0789324247586598,
+        "delta_95_pp": [
+          0.39444061203627956,
+          1.930763857669002
+        ],
+        "representable": 1099
+      },
+      "龙华区": {
+        "before": {
+          "n": 627,
+          "correct": 275,
+          "exact_accuracy": 0.43859649122807015,
+          "fp": 284,
+          "fn": 640
+        },
+        "after": {
+          "n": 627,
+          "correct": 287,
+          "exact_accuracy": 0.45773524720893144,
+          "fp": 297,
+          "fn": 623
+        },
+        "corrected": 12,
+        "harmed": 0,
+        "delta_pp": 1.9138755980861244,
+        "delta_95_pp": [
+          0.3395585738539898,
+          3.8866889425242546
+        ],
+        "representable": 385
+      },
+      "龙岗区": {
+        "before": {
+          "n": 1134,
+          "correct": 557,
+          "exact_accuracy": 0.4911816578483245,
+          "fp": 304,
+          "fn": 796
+        },
+        "after": {
+          "n": 1134,
+          "correct": 564,
+          "exact_accuracy": 0.4973544973544973,
+          "fp": 303,
+          "fn": 769
+        },
+        "corrected": 8,
+        "harmed": 1,
+        "delta_pp": 0.6172839506172839,
+        "delta_95_pp": [
+          0.08116062898298146,
+          1.3600425531914895
+        ],
+        "representable": 714
+      },
+      "单校": {
+        "before": {
+          "n": 803,
+          "correct": 582,
+          "exact_accuracy": 0.7247820672478207,
+          "fp": 300,
+          "fn": 221
+        },
+        "after": {
+          "n": 803,
+          "correct": 581,
+          "exact_accuracy": 0.7235367372353674,
+          "fp": 301,
+          "fn": 222
+        },
+        "corrected": 0,
+        "harmed": 1,
+        "delta_pp": -0.12453300124533001,
+        "delta_95_pp": [
+          -0.4161032131299121,
+          0.0
+        ],
+        "representable": 792
+      },
+      "多校": {
+        "before": {
+          "n": 958,
+          "correct": 250,
+          "exact_accuracy": 0.2609603340292276,
+          "fp": 288,
+          "fn": 1215
+        },
+        "after": {
+          "n": 958,
+          "correct": 270,
+          "exact_accuracy": 0.2818371607515658,
+          "fp": 299,
+          "fn": 1170
+        },
+        "corrected": 20,
+        "harmed": 0,
+        "delta_pp": 2.0876826722338206,
+        "delta_95_pp": [
+          0.8627005439647456,
+          3.591680493075394
+        ],
+        "representable": 307
+      },
+      "语义待核": {
+        "before": {
+          "n": 242,
+          "correct": 18,
+          "exact_accuracy": 0.0743801652892562,
+          "fp": 98,
+          "fn": 466
+        },
+        "after": {
+          "n": 242,
+          "correct": 26,
+          "exact_accuracy": 0.10743801652892562,
+          "fp": 96,
+          "fn": 452
+        },
+        "corrected": 8,
+        "harmed": 0,
+        "delta_pp": 3.3057851239669422,
+        "delta_95_pp": [
+          0.0,
+          7.3313259226781575
+        ],
+        "representable": 42
+      },
+      "未标记语义待核": {
+        "before": {
+          "n": 1519,
+          "correct": 814,
+          "exact_accuracy": 0.5358788676761027,
+          "fp": 490,
+          "fn": 970
+        },
+        "after": {
+          "n": 1519,
+          "correct": 825,
+          "exact_accuracy": 0.54312047399605,
+          "fp": 504,
+          "fn": 940
+        },
+        "corrected": 12,
+        "harmed": 1,
+        "delta_pp": 0.7241606319947334,
+        "delta_95_pp": [
+          0.1889916668436666,
+          1.4512021597983746
+        ],
+        "representable": 1057
+      }
+    },
+    "20261138": {
+      "全部": {
+        "before": {
+          "n": 1761,
+          "correct": 834,
+          "exact_accuracy": 0.4735945485519591,
+          "fp": 581,
+          "fn": 1427
+        },
+        "after": {
+          "n": 1761,
+          "correct": 847,
+          "exact_accuracy": 0.48097671777399204,
+          "fp": 598,
+          "fn": 1387
+        },
+        "corrected": 20,
+        "harmed": 7,
+        "delta_pp": 0.7382169222032936,
+        "delta_95_pp": [
+          -0.0569849437773966,
+          1.7241379310344827
+        ],
+        "representable": 1099
+      },
+      "龙华区": {
+        "before": {
+          "n": 627,
+          "correct": 270,
+          "exact_accuracy": 0.430622009569378,
+          "fp": 286,
+          "fn": 644
+        },
+        "after": {
+          "n": 627,
+          "correct": 282,
+          "exact_accuracy": 0.44976076555023925,
+          "fp": 294,
+          "fn": 624
+        },
+        "corrected": 13,
+        "harmed": 1,
+        "delta_pp": 1.9138755980861244,
+        "delta_95_pp": [
+          0.1431618652139433,
+          4.140127388535031
+        ],
+        "representable": 385
+      },
+      "龙岗区": {
+        "before": {
+          "n": 1134,
+          "correct": 564,
+          "exact_accuracy": 0.4973544973544973,
+          "fp": 295,
+          "fn": 783
+        },
+        "after": {
+          "n": 1134,
+          "correct": 565,
+          "exact_accuracy": 0.4982363315696649,
+          "fp": 304,
+          "fn": 763
+        },
+        "corrected": 7,
+        "harmed": 6,
+        "delta_pp": 0.08818342151675485,
+        "delta_95_pp": [
+          -0.6149301971218946,
+          0.9370176196303318
+        ],
+        "representable": 714
+      },
+      "单校": {
+        "before": {
+          "n": 803,
+          "correct": 584,
+          "exact_accuracy": 0.7272727272727273,
+          "fp": 296,
+          "fn": 219
+        },
+        "after": {
+          "n": 803,
+          "correct": 577,
+          "exact_accuracy": 0.7185554171855542,
+          "fp": 311,
+          "fn": 226
+        },
+        "corrected": 0,
+        "harmed": 7,
+        "delta_pp": -0.8717310087173101,
+        "delta_95_pp": [
+          -1.5248261346110945,
+          -0.2922407951208488
+        ],
+        "representable": 792
+      },
+      "多校": {
+        "before": {
+          "n": 958,
+          "correct": 250,
+          "exact_accuracy": 0.2609603340292276,
+          "fp": 285,
+          "fn": 1208
+        },
+        "after": {
+          "n": 958,
+          "correct": 270,
+          "exact_accuracy": 0.2818371607515658,
+          "fp": 287,
+          "fn": 1161
+        },
+        "corrected": 20,
+        "harmed": 0,
+        "delta_pp": 2.0876826722338206,
+        "delta_95_pp": [
+          0.7959606728263444,
+          3.744975731836796
+        ],
+        "representable": 307
+      },
+      "语义待核": {
+        "before": {
+          "n": 242,
+          "correct": 18,
+          "exact_accuracy": 0.0743801652892562,
+          "fp": 94,
+          "fn": 463
+        },
+        "after": {
+          "n": 242,
+          "correct": 25,
+          "exact_accuracy": 0.10330578512396695,
+          "fp": 92,
+          "fn": 452
+        },
+        "corrected": 7,
+        "harmed": 0,
+        "delta_pp": 2.8925619834710745,
+        "delta_95_pp": [
+          0.0,
+          6.8184100036509685
+        ],
+        "representable": 42
+      },
+      "未标记语义待核": {
+        "before": {
+          "n": 1519,
+          "correct": 816,
+          "exact_accuracy": 0.5371955233706386,
+          "fp": 487,
+          "fn": 964
+        },
+        "after": {
+          "n": 1519,
+          "correct": 822,
+          "exact_accuracy": 0.5411454904542462,
+          "fp": 506,
+          "fn": 935
+        },
+        "corrected": 13,
+        "harmed": 7,
+        "delta_pp": 0.39499670836076367,
+        "delta_95_pp": [
+          -0.3244963399966602,
+          1.2722753728981087
+        ],
+        "representable": 1057
+      }
+    },
+    "20261139": {
+      "全部": {
+        "before": {
+          "n": 1761,
+          "correct": 827,
+          "exact_accuracy": 0.4696195343554798,
+          "fp": 587,
+          "fn": 1439
+        },
+        "after": {
+          "n": 1761,
+          "correct": 842,
+          "exact_accuracy": 0.478137421919364,
+          "fp": 610,
+          "fn": 1399
+        },
+        "corrected": 19,
+        "harmed": 4,
+        "delta_pp": 0.8517887563884157,
+        "delta_95_pp": [
+          0.10974263828568702,
+          1.7491763243633254
+        ],
+        "representable": 1099
+      },
+      "龙华区": {
+        "before": {
+          "n": 627,
+          "correct": 272,
+          "exact_accuracy": 0.43381180223285487,
+          "fp": 283,
+          "fn": 644
+        },
+        "after": {
+          "n": 627,
+          "correct": 285,
+          "exact_accuracy": 0.45454545454545453,
+          "fp": 296,
+          "fn": 625
+        },
+        "corrected": 13,
+        "harmed": 0,
+        "delta_pp": 2.073365231259968,
+        "delta_95_pp": [
+          0.45869808810140766,
+          4.111894153897403
+        ],
+        "representable": 385
+      },
+      "龙岗区": {
+        "before": {
+          "n": 1134,
+          "correct": 555,
+          "exact_accuracy": 0.4894179894179894,
+          "fp": 304,
+          "fn": 795
+        },
+        "after": {
+          "n": 1134,
+          "correct": 557,
+          "exact_accuracy": 0.4911816578483245,
+          "fp": 314,
+          "fn": 774
+        },
+        "corrected": 6,
+        "harmed": 4,
+        "delta_pp": 0.1763668430335097,
+        "delta_95_pp": [
+          -0.4708431363134392,
+          0.9911582829924221
+        ],
+        "representable": 714
+      },
+      "单校": {
+        "before": {
+          "n": 803,
+          "correct": 576,
+          "exact_accuracy": 0.7173100871731009,
+          "fp": 303,
+          "fn": 227
+        },
+        "after": {
+          "n": 803,
+          "correct": 572,
+          "exact_accuracy": 0.7123287671232876,
+          "fp": 313,
+          "fn": 231
+        },
+        "corrected": 0,
+        "harmed": 4,
+        "delta_pp": -0.49813200498132004,
+        "delta_95_pp": [
+          -1.0088590826295745,
+          -0.1148105625717566
+        ],
+        "representable": 792
+      },
+      "多校": {
+        "before": {
+          "n": 958,
+          "correct": 251,
+          "exact_accuracy": 0.2620041753653445,
+          "fp": 284,
+          "fn": 1212
+        },
+        "after": {
+          "n": 958,
+          "correct": 270,
+          "exact_accuracy": 0.2818371607515658,
+          "fp": 297,
+          "fn": 1168
+        },
+        "corrected": 19,
+        "harmed": 0,
+        "delta_pp": 1.9832985386221296,
+        "delta_95_pp": [
+          0.7148898781950901,
+          3.5491190759565296
+        ],
+        "representable": 307
+      },
+      "语义待核": {
+        "before": {
+          "n": 242,
+          "correct": 17,
+          "exact_accuracy": 0.07024793388429752,
+          "fp": 98,
+          "fn": 467
+        },
+        "after": {
+          "n": 242,
+          "correct": 26,
+          "exact_accuracy": 0.10743801652892562,
+          "fp": 97,
+          "fn": 451
+        },
+        "corrected": 9,
+        "harmed": 0,
+        "delta_pp": 3.71900826446281,
+        "delta_95_pp": [
+          0.0,
+          7.929833489718349
+        ],
+        "representable": 42
+      },
+      "未标记语义待核": {
+        "before": {
+          "n": 1519,
+          "correct": 810,
+          "exact_accuracy": 0.533245556287031,
+          "fp": 489,
+          "fn": 972
+        },
+        "after": {
+          "n": 1519,
+          "correct": 816,
+          "exact_accuracy": 0.5371955233706386,
+          "fp": 513,
+          "fn": 948
+        },
+        "corrected": 10,
+        "harmed": 4,
+        "delta_pp": 0.39499670836076367,
+        "delta_95_pp": [
+          -0.1975048636844748,
+          1.1466990517357614
+        ],
+        "representable": 1057
+      }
+    },
+    "20261140": {
+      "全部": {
+        "before": {
+          "n": 1761,
+          "correct": 828,
+          "exact_accuracy": 0.47018739352640543,
+          "fp": 595,
+          "fn": 1440
+        },
+        "after": {
+          "n": 1761,
+          "correct": 848,
+          "exact_accuracy": 0.48154457694491765,
+          "fp": 602,
+          "fn": 1393
+        },
+        "corrected": 21,
+        "harmed": 1,
+        "delta_pp": 1.135718341851221,
+        "delta_95_pp": [
+          0.398389396957624,
+          2.09102420782921
+        ],
+        "representable": 1099
+      },
+      "龙华区": {
+        "before": {
+          "n": 627,
+          "correct": 272,
+          "exact_accuracy": 0.43381180223285487,
+          "fp": 288,
+          "fn": 645
+        },
+        "after": {
+          "n": 627,
+          "correct": 286,
+          "exact_accuracy": 0.45614035087719296,
+          "fp": 296,
+          "fn": 623
+        },
+        "corrected": 14,
+        "harmed": 0,
+        "delta_pp": 2.2328548644338118,
+        "delta_95_pp": [
+          0.4942339373970346,
+          4.4836578412198
+        ],
+        "representable": 385
+      },
+      "龙岗区": {
+        "before": {
+          "n": 1134,
+          "correct": 556,
+          "exact_accuracy": 0.49029982363315694,
+          "fp": 307,
+          "fn": 795
+        },
+        "after": {
+          "n": 1134,
+          "correct": 562,
+          "exact_accuracy": 0.49559082892416223,
+          "fp": 306,
+          "fn": 770
+        },
+        "corrected": 7,
+        "harmed": 1,
+        "delta_pp": 0.5291005291005291,
+        "delta_95_pp": [
+          0.0,
+          1.253134038418699
+        ],
+        "representable": 714
+      },
+      "单校": {
+        "before": {
+          "n": 803,
+          "correct": 578,
+          "exact_accuracy": 0.7198007471980075,
+          "fp": 305,
+          "fn": 225
+        },
+        "after": {
+          "n": 803,
+          "correct": 577,
+          "exact_accuracy": 0.7185554171855542,
+          "fp": 306,
+          "fn": 226
+        },
+        "corrected": 0,
+        "harmed": 1,
+        "delta_pp": -0.12453300124533001,
+        "delta_95_pp": [
+          -0.4161032131299121,
+          0.0
+        ],
+        "representable": 792
+      },
+      "多校": {
+        "before": {
+          "n": 958,
+          "correct": 250,
+          "exact_accuracy": 0.2609603340292276,
+          "fp": 290,
+          "fn": 1215
+        },
+        "after": {
+          "n": 958,
+          "correct": 271,
+          "exact_accuracy": 0.2828810020876827,
+          "fp": 296,
+          "fn": 1167
+        },
+        "corrected": 21,
+        "harmed": 0,
+        "delta_pp": 2.1920668058455117,
+        "delta_95_pp": [
+          0.8997551928783383,
+          3.838125200170814
+        ],
+        "representable": 307
+      },
+      "语义待核": {
+        "before": {
+          "n": 242,
+          "correct": 15,
+          "exact_accuracy": 0.06198347107438017,
+          "fp": 100,
+          "fn": 469
+        },
+        "after": {
+          "n": 242,
+          "correct": 24,
+          "exact_accuracy": 0.09917355371900827,
+          "fp": 97,
+          "fn": 453
+        },
+        "corrected": 9,
+        "harmed": 0,
+        "delta_pp": 3.71900826446281,
+        "delta_95_pp": [
+          0.0,
+          8.372214781444052
+        ],
+        "representable": 42
+      },
+      "未标记语义待核": {
+        "before": {
+          "n": 1519,
+          "correct": 813,
+          "exact_accuracy": 0.5352205398288348,
+          "fp": 495,
+          "fn": 971
+        },
+        "after": {
+          "n": 1519,
+          "correct": 824,
+          "exact_accuracy": 0.5424621461487821,
+          "fp": 505,
+          "fn": 940
+        },
+        "corrected": 12,
+        "harmed": 1,
+        "delta_pp": 0.7241606319947334,
+        "delta_95_pp": [
+          0.1893939393939394,
+          1.4567580095539712
+        ],
+        "representable": 1057
+      }
+    }
+  },
+  "independent_validation": false,
+  "adopted": false
+}

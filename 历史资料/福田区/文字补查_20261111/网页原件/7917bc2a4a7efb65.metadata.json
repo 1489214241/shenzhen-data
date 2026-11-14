@@ -1,0 +1,20 @@
+{
+  "url": "https://hxxx.szftedu.cn/",
+  "fetched_on": "2026-11-11",
+  "status_code": 200,
+  "final_url": "https://hxxx.szftedu.cn/",
+  "content_type": "text/html",
+  "local_file": "网页原件/7917bc2a4a7efb65.html",
+  "sha256": "fb946d2ad8ccda9ab23f41389bb2515faa400e118acd3e075fb07b7e625d79d8",
+  "title": "华新小学",
+  "admission_links": [
+    {
+      "title": "福田区华新小学关于2026年秋季转学插班公告",
+      "url": "http://mp.weixin.qq.com/s?__biz=Mzg3NTcxOTc1NQ==&mid=2247700185&idx=1&sn=1098ca6e8a8749bc0b390805db061079&chksm=ce6dff7b830ac0a76a7515450366f7cdcac9f6b57a8b0e19303efcb49444e07fcbf34df7450e&scene=126&sessionid=1788341852#rd"
+    },
+    {
+      "title": "招生报名 ENROLLING ONLINE",
+      "url": "https://hxxx.szftedu.cn/kjtdhx/zsbm/"
+    }
+  ]
+}

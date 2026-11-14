@@ -1,0 +1,70 @@
+{
+  "sources": [
+    "天心区",
+    "芙蓉区",
+    "雨花区",
+    "开福区",
+    "拱墅区",
+    "萧山区",
+    "富阳区",
+    "临安区"
+  ],
+  "targets": [
+    "龙华区",
+    "龙岗区"
+  ],
+  "seeds": [
+    20261131,
+    20261132,
+    20261133,
+    20261134,
+    20261135,
+    20261136,
+    20261137,
+    20261138,
+    20261139,
+    20261140
+  ],
+  "steps": 1000,
+  "lr": 0.003,
+  "reg": 0.01,
+  "width": 32,
+  "chunk": 64,
+  "source_gate": {
+    "min_multi_correct": 8,
+    "min_single_correct": 901,
+    "min_attainable_multi": 18,
+    "objective": "balanced_exact",
+    "purpose": "Only determines whether to proceed to a separately frozen target test."
+  },
+  "arms": [
+    "constant_head",
+    "adaptive_head"
+  ],
+  "base": "round32/features_labels frozen scorer, no continued scorer training",
+  "training": "Complete source training rows only; retain original weights; no partial labels used to learn stopping boundary.",
+  "input": "35d: softmax-weighted33d anchor/context, normalized entropy, top2 logit gap. Train-only weighted mean/std.",
+  "initializer": "Each arm continues its own frozen round34 40step head; school scorer remains fixed.",
+  "loss": "ATLOP virtual threshold two categorical terms, all observed positive/negative classes, fixed school logits.",
+  "primary": "adaptive_head: mean per-seed school logit minus mean learned TH >0; no validation threshold fitting; empty falls back to argmax.",
+  "controls": "Same-budget constant TH offset head and original round32 features_labels relative probability decoder.",
+  "source_gate_rule": "Original single/multi/attainable gate AND balanced_exact >= both controls AND each stress exact >= both controls; only adaptive_head may advance.",
+  "checkpoint": "Save after each25iteration optimizer block, resume saved optimizer; no validation early stopping.",
+  "complete_population": "Original1246source development validation; no target inference before pass. Later target trial must include all cumulative facts identically for controls.",
+  "target_gold_read": false,
+  "target_polygon_read": false,
+  "target_cardinality_used": false,
+  "target_predictions_generated": false,
+  "independent_validation": false,
+  "adopted": false,
+  "optimizer": "LBFGS float64 lr1 strong_wolfe history30; max1000inner iterations in40blocks of25.",
+  "stopping": "Training gradient infinity norm<=1e-6; max1000iterations;3unchanged objective blocks with improvement<=1e-12 stops as stalled, not converged. No validation access.",
+  "convergence_gate": "All10adaptive heads must satisfy gradient-infinity tolerance in addition to original source gates; no checkpoint selection by validation.",
+  "sufficient_statistics": "Exact AT loss via positive/negative logsumexp per complete source row; independently verify against uncompressed school loss.",
+  "parameter_matching": false,
+  "gradient_tolerance": 1e-06,
+  "block_iterations": 25,
+  "max_blocks": 40,
+  "optimizer_lr": 1.0,
+  "history_size": 30
+}

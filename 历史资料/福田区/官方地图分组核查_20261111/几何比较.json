@@ -1,0 +1,416 @@
+[
+  {
+    "group": "益田村",
+    "schools": [
+      {
+        "name": "福田区益田小学",
+        "vertices": 20,
+        "valid": true
+      },
+      {
+        "name": "福田区福强小学",
+        "vertices": 16,
+        "valid": true
+      },
+      {
+        "name": "西交利物浦大学基础教育集团外国语学校（全海）小学部",
+        "vertices": 32,
+        "valid": true
+      }
+    ],
+    "pairs": [
+      {
+        "a": "福田区益田小学",
+        "b": "福田区福强小学",
+        "valid": true,
+        "equal": false,
+        "intersection_over_a": 0.000644,
+        "intersection_over_b": 0.001048
+      },
+      {
+        "a": "福田区益田小学",
+        "b": "西交利物浦大学基础教育集团外国语学校（全海）小学部",
+        "valid": true,
+        "equal": false,
+        "intersection_over_a": 0.0,
+        "intersection_over_b": 0.0
+      },
+      {
+        "a": "福田区福强小学",
+        "b": "西交利物浦大学基础教育集团外国语学校（全海）小学部",
+        "valid": true,
+        "equal": false,
+        "intersection_over_a": 0.000933,
+        "intersection_over_b": 0.000223
+      }
+    ]
+  },
+  {
+    "group": "东海",
+    "schools": [
+      {
+        "name": "深圳外国语小学",
+        "vertices": 4,
+        "valid": true
+      },
+      {
+        "name": "福田区东海实验小学",
+        "vertices": 32,
+        "valid": true
+      }
+    ],
+    "pairs": [
+      {
+        "a": "深圳外国语小学",
+        "b": "福田区东海实验小学",
+        "valid": true,
+        "equal": false,
+        "intersection_over_a": 0.0,
+        "intersection_over_b": 0.0
+      }
+    ]
+  },
+  {
+    "group": "上沙",
+    "schools": [
+      {
+        "name": "福田区红岭实验学校（上沙）小学部",
+        "vertices": 14,
+        "valid": true
+      },
+      {
+        "name": "福田区绿洲小学",
+        "vertices": 11,
+        "valid": true
+      },
+      {
+        "name": "福田区红树林实验学校小学部",
+        "vertices": 13,
+        "valid": true
+      }
+    ],
+    "pairs": [
+      {
+        "a": "福田区红岭实验学校（上沙）小学部",
+        "b": "福田区绿洲小学",
+        "valid": true,
+        "equal": false,
+        "intersection_over_a": 0.0,
+        "intersection_over_b": 0.0
+      },
+      {
+        "a": "福田区红岭实验学校（上沙）小学部",
+        "b": "福田区红树林实验学校小学部",
+        "valid": true,
+        "equal": false,
+        "intersection_over_a": 0.0,
+        "intersection_over_b": 0.0
+      },
+      {
+        "a": "福田区绿洲小学",
+        "b": "福田区红树林实验学校小学部",
+        "valid": true,
+        "equal": false,
+        "intersection_over_a": 0.0,
+        "intersection_over_b": 0.0
+      }
+    ]
+  },
+  {
+    "group": "莲花",
+    "schools": [
+      {
+        "name": "福田区美莲小学",
+        "vertices": 46,
+        "valid": true
+      },
+      {
+        "name": "深圳莲花山学校",
+        "vertices": 4,
+        "valid": true
+      }
+    ],
+    "pairs": [
+      {
+        "a": "福田区美莲小学",
+        "b": "深圳莲花山学校",
+        "valid": true,
+        "equal": false,
+        "intersection_over_a": 0.000631,
+        "intersection_over_b": 0.001293
+      }
+    ]
+  },
+  {
+    "group": "景田南",
+    "schools": [
+      {
+        "name": "福田区景鹏小学",
+        "vertices": 22,
+        "valid": true
+      },
+      {
+        "name": "福田区荔园外国语小学（景田）",
+        "vertices": 8,
+        "valid": true
+      }
+    ],
+    "pairs": [
+      {
+        "a": "福田区景鹏小学",
+        "b": "福田区荔园外国语小学（景田）",
+        "valid": true,
+        "equal": false,
+        "intersection_over_a": 0.991033,
+        "intersection_over_b": 0.999598
+      }
+    ]
+  },
+  {
+    "group": "福民",
+    "schools": [
+      {
+        "name": "福田区荔园外国语小学（海滨）",
+        "vertices": 13,
+        "valid": true
+      },
+      {
+        "name": "福田中学教育集团皇御苑实验学校（小学部）",
+        "vertices": 17,
+        "valid": true
+      },
+      {
+        "name": "福田区皇岗创新实验学校（小学部）",
+        "vertices": 16,
+        "valid": true
+      },
+      {
+        "name": "福田区福民小学",
+        "vertices": 30,
+        "valid": true
+      }
+    ],
+    "pairs": [
+      {
+        "a": "福田区荔园外国语小学（海滨）",
+        "b": "福田中学教育集团皇御苑实验学校（小学部）",
+        "valid": true,
+        "equal": false,
+        "intersection_over_a": 0.99235,
+        "intersection_over_b": 0.996261
+      },
+      {
+        "a": "福田区荔园外国语小学（海滨）",
+        "b": "福田区皇岗创新实验学校（小学部）",
+        "valid": true,
+        "equal": false,
+        "intersection_over_a": 0.994554,
+        "intersection_over_b": 0.993678
+      },
+      {
+        "a": "福田区荔园外国语小学（海滨）",
+        "b": "福田区福民小学",
+        "valid": true,
+        "equal": false,
+        "intersection_over_a": 0.99532,
+        "intersection_over_b": 0.991845
+      },
+      {
+        "a": "福田中学教育集团皇御苑实验学校（小学部）",
+        "b": "福田区皇岗创新实验学校（小学部）",
+        "valid": true,
+        "equal": false,
+        "intersection_over_a": 0.999088,
+        "intersection_over_b": 0.994288
+      },
+      {
+        "a": "福田中学教育集团皇御苑实验学校（小学部）",
+        "b": "福田区福民小学",
+        "valid": true,
+        "equal": false,
+        "intersection_over_a": 0.998734,
+        "intersection_over_b": 0.99134
+      },
+      {
+        "a": "福田区皇岗创新实验学校（小学部）",
+        "b": "福田区福民小学",
+        "valid": true,
+        "equal": false,
+        "intersection_over_a": 0.998762,
+        "intersection_over_b": 0.996153
+      }
+    ]
+  },
+  {
+    "group": "香梅",
+    "schools": [
+      {
+        "name": "福田区外国语小学",
+        "vertices": 27,
+        "valid": true
+      },
+      {
+        "name": "福田区实验教育集团侨香学校（南校）小学部",
+        "vertices": 27,
+        "valid": true
+      },
+      {
+        "name": "福田区外国语学校（香蜜）",
+        "vertices": 5,
+        "valid": true
+      }
+    ],
+    "pairs": [
+      {
+        "a": "福田区外国语小学",
+        "b": "福田区实验教育集团侨香学校（南校）小学部",
+        "valid": true,
+        "equal": false,
+        "intersection_over_a": 0.0,
+        "intersection_over_b": 0.0
+      },
+      {
+        "a": "福田区外国语小学",
+        "b": "福田区外国语学校（香蜜）",
+        "valid": true,
+        "equal": false,
+        "intersection_over_a": 0.0,
+        "intersection_over_b": 0.0
+      },
+      {
+        "a": "福田区实验教育集团侨香学校（南校）小学部",
+        "b": "福田区外国语学校（香蜜）",
+        "valid": true,
+        "equal": false,
+        "intersection_over_a": 0.0,
+        "intersection_over_b": 0.0
+      }
+    ]
+  },
+  {
+    "group": "福田南",
+    "schools": [
+      {
+        "name": "福田中学教育集团第二实验学校（小学部）",
+        "vertices": 5,
+        "valid": true
+      },
+      {
+        "name": "福田中学教育集团福田小学",
+        "vertices": 23,
+        "valid": true
+      },
+      {
+        "name": "福田中学教育集团福南小学",
+        "vertices": 66,
+        "valid": false
+      }
+    ],
+    "pairs": [
+      {
+        "a": "福田中学教育集团第二实验学校（小学部）",
+        "b": "福田中学教育集团福田小学",
+        "valid": true,
+        "equal": false,
+        "intersection_over_a": 0.080288,
+        "intersection_over_b": 0.000151
+      },
+      {
+        "a": "福田中学教育集团第二实验学校（小学部）",
+        "b": "福田中学教育集团福南小学",
+        "valid": false
+      },
+      {
+        "a": "福田中学教育集团福田小学",
+        "b": "福田中学教育集团福南小学",
+        "valid": false
+      }
+    ]
+  },
+  {
+    "group": "下梅林",
+    "schools": [
+      {
+        "name": "福田区深圳中学梅香学校（小学部）",
+        "vertices": 4,
+        "valid": true
+      },
+      {
+        "name": "福田区梅林小学",
+        "vertices": 132,
+        "valid": false
+      },
+      {
+        "name": "福田区梅园小学",
+        "vertices": 40,
+        "valid": true
+      }
+    ],
+    "pairs": [
+      {
+        "a": "福田区深圳中学梅香学校（小学部）",
+        "b": "福田区梅林小学",
+        "valid": false
+      },
+      {
+        "a": "福田区深圳中学梅香学校（小学部）",
+        "b": "福田区梅园小学",
+        "valid": true,
+        "equal": false,
+        "intersection_over_a": 0.0,
+        "intersection_over_b": 0.0
+      },
+      {
+        "a": "福田区梅林小学",
+        "b": "福田区梅园小学",
+        "valid": false
+      }
+    ]
+  },
+  {
+    "group": "上梅林",
+    "schools": [
+      {
+        "name": "福田区外国语学校（梅红）小学部",
+        "vertices": 4,
+        "valid": true
+      },
+      {
+        "name": "福田区梅丽小学",
+        "vertices": 29,
+        "valid": true
+      },
+      {
+        "name": "福田区梅华小学",
+        "vertices": 37,
+        "valid": true
+      }
+    ],
+    "pairs": [
+      {
+        "a": "福田区外国语学校（梅红）小学部",
+        "b": "福田区梅丽小学",
+        "valid": true,
+        "equal": false,
+        "intersection_over_a": 1.0,
+        "intersection_over_b": 0.016892
+      },
+      {
+        "a": "福田区外国语学校（梅红）小学部",
+        "b": "福田区梅华小学",
+        "valid": true,
+        "equal": false,
+        "intersection_over_a": 0.0,
+        "intersection_over_b": 0.0
+      },
+      {
+        "a": "福田区梅丽小学",
+        "b": "福田区梅华小学",
+        "valid": true,
+        "equal": false,
+        "intersection_over_a": 0.000116,
+        "intersection_over_b": 3.2e-05
+      }
+    ]
+  }
+]

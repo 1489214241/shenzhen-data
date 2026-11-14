@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-13",
+  "arms": [
+    "current",
+    "changsha_E",
+    "hangzhou_E",
+    "changsha_ER",
+    "hangzhou_ER"
+  ],
+  "targets": [
+    "龙华区",
+    "龙岗区"
+  ],
+  "seeds": [
+    20261131,
+    20261132,
+    20261133,
+    20261134,
+    20261135,
+    20261136,
+    20261137,
+    20261138,
+    20261139,
+    20261140
+  ],
+  "parent": "round06 balanced_rank; current final output must reproduce round31 round07",
+  "steps": 0,
+  "weights": "Same ten frozen checkpoints; no retraining or calibration",
+  "chunk": 64,
+  "threshold": "Unchanged source-only balanced_exact threshold from round06",
+  "primary_comparisons": [
+    [
+      "hangzhou_E",
+      "changsha_E"
+    ],
+    [
+      "hangzhou_ER",
+      "changsha_ER"
+    ]
+  ],
+  "control": "current retains all historical features and reference estimates, for exact replay",
+  "E": "Same original reference bank; shared positive-scope binding and exact unit identities; only community feature columns change",
+  "ER": "E plus Hangzhou-style singleton whole-community estimates for previously unknown sites; union into original references and final partial positives; all other target labels remain unknown",
+  "shared_identity": "Exact existing policy unit identity; role-stripped POI fallback, no fuzzy aliasing or parent/subcommittee merge",
+  "shared_scope": "Positive membership nodes only; AND/MINUS partial; exclusions never positive; unknown/conditional/ref not inferred",
+  "carryover": "All arms retain original Changsha-derived rule references; this estimates incremental replacement on the current pipeline, not a clean-room no-reference factorial",
+  "sources": "Same frozen Baidu inventory and metric coordinates for both estimators; no claim these are MCA-quality units",
+  "inference_policy": "Same university/shared rules, refreshed graph and cumulative reviewed supplements in all arms",
+  "scored_population": 1761,
+  "unscored_population": 41,
+  "adoption_rule": {
+    "candidate_family": [
+      "changsha_E",
+      "hangzhou_E",
+      "changsha_ER",
+      "hangzhou_ER"
+    ],
+    "primary_metric": "exact final set",
+    "simultaneous_interval": "1km district-stratified paired bootstrap, 3000 draws; Bonferroni 98.75 percent interval versus current",
+    "eligibility": "positive lower bound; neither district nor single/multi exact counts decrease; at least8of10seed deltas nonnegative",
+    "selection": "highest ensemble exact among eligible, ties prefer E then changsha; otherwise retain current",
+    "status": "user-authorized local development selection, not independent generalization proof"
+  },
+  "target_gold_read": false,
+  "target_polygons_read": false,
+  "independent_validation": false
+}

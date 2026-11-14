@@ -1,0 +1,24 @@
+{
+  "districts": {
+    "龙华区": {
+      "schools": 71,
+      "old_edges": 48,
+      "new_edges": 48,
+      "added": 0,
+      "removed": 0
+    },
+    "龙岗区": {
+      "schools": 131,
+      "old_edges": 28,
+      "new_edges": 29,
+      "added": 1,
+      "removed": 0
+    }
+  },
+  "official_pdf_page9_visually_reviewed": true,
+  "scope_status_and_university_exclusions_unchanged": true,
+  "target_gold_read": false,
+  "target_polygon_read": false,
+  "interpretation": "Direct inclusion between parsed original scopes; correctness of the predicted trigger school remains uncertain.",
+  "adopted": false
+}

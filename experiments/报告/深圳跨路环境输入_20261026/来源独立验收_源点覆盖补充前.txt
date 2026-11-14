@@ -1,0 +1,29 @@
+62 深圳原始环境来源独立验收
+
+只核验固定源人口、采集源码/请求/收据/原响应及 OSM 结构；没有构建cross特征、目标PIP、模型预测或Gold。
+独立源检查全部通过：False
+当前状态：partial_not_full_footprint；已收到叶块的来源结构检查通过：True
+固定人口：2475坐标组 + 158学校官方标记；未按Gold、候选命中或预测筛选。
+独立重算WGS84包络：[113.86,22.46,114.11,22.64]；按冻结规则均分4块。
+实际获取合同：原0/1两块 + 原2/3的八子块，共10叶块；当前收到8/10。预定父子联合精确等于原footprint，未声称原4query都成功。
+未收到子块：[{"id": "tile_2_0", "reason": "both_frozen_endpoint_attempts_exhausted"}, {"id": "tile_2_1", "reason": "both_frozen_endpoint_attempts_exhausted"}]
+历史请求：2026-10-23T00:00:00Z。全部highway、railway=rail、waterway=river/canal；out meta geom。
+
+逐块结果：
+tile original_0：12664 ways，11328837 bytes；请求/快照/SHA/收据检查=True；response osm_base=2026-10-26T06:39:48Z。
+tile original_1：14029 ways，13200153 bytes；请求/快照/SHA/收据检查=True；response osm_base=2026-10-26T06:40:50Z。
+tile tile_2_2：836 ways，1030513 bytes；请求/快照/SHA/收据检查=True；response osm_base=2026-10-26T06:55:05Z。
+tile tile_2_3：1128 ways，1435617 bytes；请求/快照/SHA/收据检查=True；response osm_base=2026-10-26T06:55:58Z。
+tile tile_3_0：2172 ways，2247955 bytes；请求/快照/SHA/收据检查=True；response osm_base=2026-10-26T06:55:58Z。
+tile tile_3_1：6024 ways，5195713 bytes；请求/快照/SHA/收据检查=True；response osm_base=2026-10-26T06:57:05Z。
+tile tile_3_2：4888 ways，4726574 bytes；请求/快照/SHA/收据检查=True；response osm_base=2026-10-26T06:57:05Z。
+tile tile_3_3：1764 ways，1822541 bytes；请求/快照/SHA/收据检查=True；response osm_base=2026-10-26T06:58:03Z。
+
+合计 43505 次way出现，42972 唯一way，533 次重复；冲突way=0，冲突node=0。
+不完整geometry=0；nodes/geometry不对应=0；晚于请求快照的way timestamp=0。
+原49优先级下唯一类线计数：{"major": 4931, "secondary": 2234, "tertiary": 2141, "not_in_49_crossing_classes": 28586, "local": 4530, "river": 166, "rail": 384}
+
+失败项：[{"check": "completion_state", "details": null}, {"check": "completion_all_eight_children_received", "details": null}]
+
+当前结论仅为原始来源验收。下载范围不是现实道路全集，OSM snapshot请求与服务基础库时间分开记录。未计算投影后线段覆盖、cross特征或任何学校判断；后续适配仍须独立冻结。
+机器详情及所有SHA见 source_audit.json。

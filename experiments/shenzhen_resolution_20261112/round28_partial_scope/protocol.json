@@ -1,0 +1,37 @@
+{
+  "round": 28,
+  "arms": [
+    "round07",
+    "round12"
+  ],
+  "objectives": [
+    "micro_exact",
+    "balanced_exact"
+  ],
+  "labels": [
+    "ensemble",
+    "20261131",
+    "20261132",
+    "20261133",
+    "20261134",
+    "20261135",
+    "20261136",
+    "20261137",
+    "20261138",
+    "20261139",
+    "20261140"
+  ],
+  "primary": "round27/round07/balanced_exact/ensemble",
+  "intervention": "Retain known Boolean branches while unsupported subtrees remain distinct unknown atoms; require implication for all truth assignments.",
+  "roots": "Only original raw_school_ids union positive_lower_bound; no transitive expansion.",
+  "source_review": "2026 Longgang guide pages9-11 visually checked, including Mumianwan page continuation.",
+  "training_steps": 0,
+  "probabilities_unchanged": true,
+  "thresholds_unchanged": true,
+  "references_unchanged": true,
+  "target_gold_read": false,
+  "target_polygon_read": false,
+  "unknown_is_not_negative": true,
+  "independent_validation": false,
+  "adopted": false
+}

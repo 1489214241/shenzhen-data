@@ -1,0 +1,67 @@
+{
+  "sources": [
+    "天心区",
+    "芙蓉区",
+    "雨花区",
+    "开福区",
+    "拱墅区",
+    "萧山区",
+    "富阳区",
+    "临安区"
+  ],
+  "targets": [
+    "龙华区",
+    "龙岗区"
+  ],
+  "seeds": [
+    20261131,
+    20261132,
+    20261133,
+    20261134,
+    20261135,
+    20261136,
+    20261137,
+    20261138,
+    20261139,
+    20261140
+  ],
+  "arms": [
+    "scalar_control",
+    "vector_residual"
+  ],
+  "chunk": 64,
+  "width": 32,
+  "embedding_width": 16,
+  "source_gate": {
+    "min_multi_correct": 8,
+    "min_single_correct": 901,
+    "min_attainable_multi": 18,
+    "objective": "balanced_exact",
+    "purpose": "Only determines whether to proceed to a separately frozen target test."
+  },
+  "modes": [
+    "probability_ratio",
+    "odds_ratio"
+  ],
+  "steps": 0,
+  "weights_changed": false,
+  "reference_bank_changed": false,
+  "labels_changed": false,
+  "hypothesis": "Sigmoid ratio changes under a shared single-model logit shift even when reference mass ratios do not. Test stable odds ratios from actual logits, without clipped inverse sigmoid.",
+  "primary_candidate": "scalar_control_odds_ratio",
+  "strong_control": "scalar_control_probability_ratio",
+  "vector_arm": "Predeclared representation interaction diagnostic only; never a fallback for primary failure.",
+  "ensemble": "Preserve arithmetic mean Bernoulli probabilities; stable log-odds of that mixture, then divide odds by the maximum odds. Do not average per-seed ratios.",
+  "shift_limitation": "Exact common-shift invariance applies to each individual model. A heterogeneous Bernoulli mixture is not generally common-shift invariant.",
+  "primary_objective": "balanced_exact",
+  "source_selection": "Original source gate AND balanced_exact at least strong control AND both frozen missing-support stress counts at least strong control.",
+  "stress": "Reuse original two untrained support partitions with full-source threshold, no stress recalibration.",
+  "score_semantics": "Normalized odds are ranking/selection scores, not calibrated probabilities or eligibility.",
+  "source_validation": "Same1246development rows,1186single60multi; reused, not independent confirmation.",
+  "target_gold_read": false,
+  "target_polygon_read": false,
+  "target_cardinality_used": false,
+  "target_predictions_generated": false,
+  "independent_validation": false,
+  "adopted": false
+}

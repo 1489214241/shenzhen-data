@@ -1,0 +1,29 @@
+{
+  "round": 2,
+  "date": "2026-11-12",
+  "baseline": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round01_set_decode",
+  "candidate": "Direct Boolean scope inclusion from complete unconditional source ASTs; root-only single pass, set-posterior MAP.",
+  "hypothesis": "Literal whole-scope equality misses one school whose entire scope equals one branch of another school.",
+  "labels": [
+    "ensemble",
+    "20261131",
+    "20261132",
+    "20261133",
+    "20261134",
+    "20261135",
+    "20261136",
+    "20261137",
+    "20261138",
+    "20261139",
+    "20261140"
+  ],
+  "hyperparameters": [],
+  "retraining": false,
+  "target_gold_used_to_build": false,
+  "exclusions": "University, eligibility, pending, unknown syntax, references, unresolved aliases: no new implications.",
+  "protected": "Same rule-known outputs as round01; do not promote partial references to full labels.",
+  "limitations": "Soundness is relative to parsed source expressions. It does not establish correct school root, policy interpretation, map freshness or household eligibility.",
+  "independent_validation": false,
+  "adopted": false,
+  "adoption_gate": "Full population, both districts, FP/FN, corrected/harmed, spatial intervals; independent confirmation needed. No automatic adoption."
+}

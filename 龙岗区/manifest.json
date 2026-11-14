@@ -1,0 +1,29 @@
+{
+  "schema": "shenzhen_point_gold_release_v2",
+  "counts": {
+    "district": "龙岗区",
+    "candidate_raw_records": 1175,
+    "candidate_coordinate_groups": 1174,
+    "published_building_records": 1135,
+    "gold_coordinate_groups": 1134,
+    "school_count": 131,
+    "unique_original_map_records": 131,
+    "official_text_matched_schools": 131,
+    "unique_school_groups": 581,
+    "multiple_school_groups": 553,
+    "outside_groups": 40,
+    "unknown_groups": 0,
+    "geometry_valid": 72,
+    "hit_count_distribution": {
+      "1": 581,
+      "2": 325,
+      "3": 200,
+      "5": 2,
+      "4": 26,
+      "0": 40
+    }
+  },
+  "protocol": "../构建协议.json",
+  "label_kind": "official_map_point_membership",
+  "training_dataset_ready": false
+}

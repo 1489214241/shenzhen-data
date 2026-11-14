@@ -1,0 +1,22 @@
+[
+  {
+    "district": "龙华区",
+    "year": 2026,
+    "stage": "小学",
+    "school_name_raw": "龙华区龙腾学校北辰校区\n（小学）",
+    "scope_text": "面向民治街道招生。",
+    "source_url": "https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx",
+    "source_file": "原始资料\\招生政策\\附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx",
+    "source_section": "Sheet1",
+    "source_row": 38,
+    "snapshot_date": "2026-09-18",
+    "label_status": "policy_evidence_not_building_school_gold_label",
+    "subdistrict_raw": "民治",
+    "eligibility_text": "1-6类",
+    "source_includes_junior_stage": false,
+    "stage_evidence": "招生范围表学校名称明确包含小学",
+    "record_id": "sz_2026_primary_scope_0233",
+    "source_file_in_package": "原始资料/年度政策/附件/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx",
+    "source_file_sha256": "7820dfe2bef568ba908597fb3e3bbe4ecdd79bc4b99138153d6b134f8c598820"
+  }
+]

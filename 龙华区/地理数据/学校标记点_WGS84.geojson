@@ -1,0 +1,1064 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:126b5238994546a89ec7c673bc1d3b44",
+        "school_name": "龙华区虔贞学校（小学部）",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.0110905077227,
+          22.679995278905835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:14c13f11622f4d8ca604cf9b6b722d01",
+        "school_name": "龙华区教育科学研究院附属外国语学校（小学部）",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.03646573657741,
+          22.642820326029575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:1dd894e9511144dc856000fda2fd9fb3",
+        "school_name": "龙华区行知学校（小学部）",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.01904215476266,
+          22.71431153871773
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:496FFFE16B405558E053BC09A8C0A5ED",
+        "school_name": "龙华区清湖小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.03782732238095,
+          22.673697635871214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:496FFFE16B465558E053BC09A8C0A5ED",
+        "school_name": "华东师范大学附属深圳龙华学校教育集团未来小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.0101454186652,
+          22.637872742408888
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:496FFFE16B4B5558E053BC09A8C0A5ED",
+        "school_name": "龙华区广培小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.08320440690758,
+          22.72947775093044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:b5d42e6c807e47b1b53f2f24323cc6aa",
+        "school_name": "龙华区龙腾学校（小学部）",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.03613702996527,
+          22.60828859251548
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:c649047304de4edaa878ae435599b2dd",
+        "school_name": "龙华区第二实验学校教育集团华育小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.03070962206372,
+          22.644431208439798
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:496FFFE16B955558E053BC09A8C0A5ED",
+        "school_name": "深圳高级中学（集团）北校区（小学部）",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.02164573937097,
+          22.621956442232474
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:7628da1534ad4b82b083fb5baed4b0b4",
+        "school_name": "龙华高级中学教育集团龙华区第三实验学校（小学部）",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.98501268487348,
+          22.70609624062472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:8e0c89bd31ed415788147cd66bffa09b",
+        "school_name": "龙华区第三外国语学校（小学部）",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.03631235679566,
+          22.711094907881705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:9ee001ac0a054274a07983d4506a0274",
+        "school_name": "龙华区创新实验学校（小学部）",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.0252430066351,
+          22.654390466936658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:ba2444f9c7514892b3d64263c55c09f5",
+        "school_name": "龙华区第二外国语学校（小学部）",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.99492565003409,
+          22.67838569275747
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:e3a272c8c0df4aabbf2a6f428245dba1",
+        "school_name": "龙华区龙华第三小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.00889410294164,
+          22.6604552114215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:1f276b80093840b9a1af7dac99af256f",
+        "school_name": "艺术高中民治学校（小学部）",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.02088032419084,
+          22.644164415304235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:23ba0810988d4e3fb4fa75f80c080db8",
+        "school_name": "深圳外国语学校龙华学校（小学部）",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.02775904919017,
+          22.60259316400015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:42392d26506d455da3eab13483999166",
+        "school_name": "龙华区民治中学教育集团民新学校（小学部）",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.02911490670212,
+          22.633517442811996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:496FFFE16B3C5558E053BC09A8C0A5ED",
+        "school_name": "龙华区振能学校（小学部）",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.06512063553492,
+          22.720690598520424
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:496FFFE16B415558E053BC09A8C0A5ED",
+        "school_name": "龙华区松和学校（小学部）",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.03612545231597,
+          22.64548181754622
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:496FFFE16B445558E053BC09A8C0A5ED",
+        "school_name": "龙华区教育科学研究院附属小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.0814258272095,
+          22.70217410949052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:94aed576e2854236bfd117b281031afa",
+        "school_name": "华东师范大学附属深圳龙华学校教育集团（小学部）",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.0091560148969,
+          22.64270301201619
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:a30b9ed45d5e4734b2d70feceb561c96",
+        "school_name": "龙华区鹭湖实验学校（小学部）",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.06967824907338,
+          22.68796285154161
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:496FFFE16B735558E053BC09A8C0A5ED",
+        "school_name": "龙华区同胜学校（小学部）",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.9760698913157,
+          22.68371577562289
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:dd655370e05640259a918bdfb9146830",
+        "school_name": "深圳中学龙华学校（小学部）",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.02918676770275,
+          22.643463897116845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:f29dbee4b70c47d393ce050ba7813032",
+        "school_name": "龙华区观湖外国语学校（小学部）",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.0682939694021,
+          22.710805451665806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:496FFFE16B6C5558E053BC09A8C0A5ED",
+        "school_name": "龙华高级中学教育集团大浪校区（小学部）",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.99192192906796,
+          22.67069965654317
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:3925e3411b3a41db92a8fbc9cc41c4b6",
+        "school_name": "龙华区龙华中学弘毅校区（小学部）",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.0070578773751,
+          22.653511809215885
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:496FFFE16B4A5558E053BC09A8C0A5ED",
+        "school_name": "龙华区桂花学校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.0558668537001,
+          22.735016096772743
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:496FFFE16B4C5558E053BC09A8C0A5ED",
+        "school_name": "龙华区丹堤实验学校（小学部）",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.04963962136698,
+          22.59974214952274
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:496FFFE16B4F5558E053BC09A8C0A5ED",
+        "school_name": "龙华区书香小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.04128200089556,
+          22.598132630616263
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:4c3a8df2652947908d8864574a4ecc46",
+        "school_name": "龙华区博雅实验学校（小学部）",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.97692095625342,
+          22.678599127820767
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:496FFFE16B755558E053BC09A8C0A5ED",
+        "school_name": "龙华区民治中学教育集团小学部",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.0225648493436,
+          22.634673199369775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:0243cbf5c9f44a73b8cf266871d50ffe",
+        "school_name": "龙华区外国语学校教育集团新和校区（小学部）",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.02854158285537,
+          22.676228371836018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:26607511230d404689ae8f55465df792",
+        "school_name": "龙华区和平实验小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.00305618808252,
+          22.642552701478724
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:38ce5ec6b658423491f976dbddbb13c3",
+        "school_name": "龙华区新华中学教育集团龙为小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.02690167914199,
+          22.663764182389436
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:496FFFE16B485558E053BC09A8C0A5ED",
+        "school_name": "龙华区高峰学校（小学部）",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.00588051341866,
+          22.656900653949616
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:496FFFE16B4D5558E053BC09A8C0A5ED",
+        "school_name": "龙华区潜龙学校（小学部）",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.03611400375065,
+          22.6133642908925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:496FFFE16B935558E053BC09A8C0A5ED:guanhu",
+        "school_name": "龙华区外国语学校教育集团观湖校区（小学部）",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.06475909648266,
+          22.693282360550228
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:496FFFE16B935558E053BC09A8C0A5ED:gaoxin",
+        "school_name": "龙华区外国语学校教育集团高新校区（小学部）",
+        "point_role": "官方合并条目标记点不等于高新校址"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:496FFFE16B945558E053BC09A8C0A5ED",
+        "school_name": "龙华区实验学校教育集团（小学部）",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.01508624306418,
+          22.63142191598945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:7d4cace1dbac4f02bb47112ea549f2f7",
+        "school_name": "龙华区行知外国语学校（小学部）（原行知中学）",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.03433788080658,
+          22.736635798848194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:92b2600af53243cd8652d9576d56df41",
+        "school_name": "龙华区第二实验学校教育集团华美校区（小学部）",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.02191053555046,
+          22.648848072065718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:b3f88a4b9de8403cbbbf9614e5156fd2",
+        "school_name": "龙华区新华中学教育集团（小学部）",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.02945037107342,
+          22.656577530932545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:496FFFE16B7A5558E053BC09A8C0A5ED",
+        "school_name": "龙华区行知实验小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.04020928608925,
+          22.61714774831354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:d713de18b1b043afb8e90469d78f13c9",
+        "school_name": "龙华区华南实验学校（小学部）",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.0462734917688,
+          22.621491947529165
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:ebe9113be2924ea68014727f80792b78",
+        "school_name": "格致中学民治校区（小学部）",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.03163108246478,
+          22.61173703055557
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:496FFFE16B425558E053BC09A8C0A5ED",
+        "school_name": "龙华区大浪实验学校（小学部）",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.99665103622141,
+          22.695985971901056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:496FFFE16B455558E053BC09A8C0A5ED",
+        "school_name": "龙华区观澜第二中学教育集团观澜第二小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.03927481334448,
+          22.70924865694732
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:496FFFE16B475558E053BC09A8C0A5ED",
+        "school_name": "龙华区民治小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.0342525384138,
+          22.623223436150855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:496FFFE16B495558E053BC09A8C0A5ED",
+        "school_name": "龙华区碧澜外国语小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.02727752824548,
+          22.741487514615084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:57e88fc8ebe3404891cd5d07f1e506bc",
+        "school_name": "龙华区福城实验学校（小学部）",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.0218116764708,
+          22.708838613372578
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:496FFFE16B6F5558E053BC09A8C0A5ED",
+        "school_name": "龙华区教育科学研究院附属学校（小学部）",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.02384613054019,
+          22.724879509096237
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:270930b511e946c38951ecf46a65476a",
+        "school_name": "红山中学民治校区（小学部）",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.04784261466664,
+          22.615966564237514
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:449225a8ccc34107b689c883a1b6caa2",
+        "school_name": "龙华区观湖实验学校（小学部）",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.06707867627742,
+          22.68834843124437
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:496FFFE16B3E5558E053BC09A8C0A5ED",
+        "school_name": "龙华区行知小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.02585573417666,
+          22.637662045952496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:496FFFE16B3F5558E053BC09A8C0A5ED",
+        "school_name": "龙华区龙华第二小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.02533423806578,
+          22.661164111987937
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:496FFFE16B435558E053BC09A8C0A5ED",
+        "school_name": "龙华区观澜第二中学教育集团龙澜学校（小学部）",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.00673245386822,
+          22.71545914335525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:58917a95bb2b4a0e89216e9b870ae6dc",
+        "school_name": "龙华区外国语学校教育集团福城校区（小学部）",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.03405831272471,
+          22.69671080257359
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:c6a72391361d4221817db0289a292060:huaren",
+        "school_name": "龙华区第二实验学校教育集团华仁校区（小学部）",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.02829644604576,
+          22.649415769599795
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:e158b5b70ec34bbaae1323e42fee6a06",
+        "school_name": "龙华区鹭湖外国语小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.05570010684144,
+          22.695170741802805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:496FFFE16B715558E053BC09A8C0A5ED",
+        "school_name": "龙华区玉龙学校（小学部）",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.02321263527875,
+          22.606617912555507
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:345bd8c3128a491c83ea353a4218b0c8",
+        "school_name": "龙华区观澜实验学校（小学部）",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.09749908187236,
+          22.715765049964162
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:496FFFE16B3B5558E053BC09A8C0A5ED",
+        "school_name": "龙华区德风小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.09519100200478,
+          22.72062919158312
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:496FFFE16B3D5558E053BC09A8C0A5ED",
+        "school_name": "龙华区观澜中心学校（小学部）",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.04972925156538,
+          22.719834906700473
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:496FFFE16B4E5558E053BC09A8C0A5ED",
+        "school_name": "龙华区龙华中心小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.01588568802585,
+          22.661622871711856
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:85fbf4152f374f80a015cdabb34c4ff5",
+        "school_name": "龙华区龙胜实验学校（小学部）",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.00121644001804,
+          22.64580797360748
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:a863a2a0d9434c7c8370f9af437bae6e",
+        "school_name": "龙华区教育科学研究院附属实验学校（小学部）",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.02798591568987,
+          22.626292560469295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:b31451d47108423e9503bf0382ce5192",
+        "school_name": "龙华区龙飞小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.04333593369074,
+          22.610360877439895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:da8402fbef554a27b5ac54f83c6a1682",
+        "school_name": "龙华区清泉外国语学校（小学部）",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.03512008492083,
+          22.666115192266226
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:ef3f3d903cc94a3981284a92f19b23f1",
+        "school_name": "龙华区华盛学校（小学部）",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.00597202418182,
+          22.676338544822357
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longhua:school:f9aa4dcc77234f738633dc9c37638464",
+        "school_name": "龙华区教育科学研究院第二附属学校（小学部）",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.09541530263901,
+          22.724003152895385
+        ]
+      }
+    }
+  ]
+}

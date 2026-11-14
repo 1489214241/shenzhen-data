@@ -1,0 +1,1970 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16CB85558E053BC09A8C0A5ED",
+        "school_name": "扬美实验学校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.067833441037,
+          22.63509421422351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16CDD5558E053BC09A8C0A5ED",
+        "school_name": "凤凰山小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.14455513553642,
+          22.694193899559476
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16D065558E053BC09A8C0A5ED",
+        "school_name": "龙岗中心学校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.27331240642287,
+          22.72954287177369
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16D095558E053BC09A8C0A5ED",
+        "school_name": "乐淮实验学校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3117400518151,
+          22.775012663323523
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16D125558E053BC09A8C0A5ED",
+        "school_name": "育贤小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2878831814213,
+          22.72389508493493
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16D135558E053BC09A8C0A5ED",
+        "school_name": "龙岗区外国语学校(集团)爱联小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.229984820107,
+          22.703121674742814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16D255558E053BC09A8C0A5ED",
+        "school_name": "龙岗区外国语学校(集团)云和学校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.0626370271272,
+          22.65025951550487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16D265558E053BC09A8C0A5ED",
+        "school_name": "深圳实验学校坂田校区",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.07950224646872,
+          22.63378529899613
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16D285558E053BC09A8C0A5ED",
+        "school_name": "六约学校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.18475117163686,
+          22.642766919107743
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16C795558E053BC09A8C0A5ED",
+        "school_name": "龙岗区第二外国语学校（集团）可园学校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.12949311514076,
+          22.598977905444507
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16C8C5558E053BC09A8C0A5ED",
+        "school_name": "深圳大学附属坂田学校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.06951786705704,
+          22.658292933490447
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16C9D5558E053BC09A8C0A5ED",
+        "school_name": "龙岗区南湾教育集团康桥外国语小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13776305466479,
+          22.62722279855749
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:fe2f34ce82a44f0f9e8543f46206722a",
+        "school_name": "守真小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.12180322736324,
+          22.693137830696756
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:3e0fdc78094340f5b26d6a5253dc67c7",
+        "school_name": "深圳市高级中学龙岗学校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.31083593459485,
+          22.69766327496614
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:477efc3b15054d70bf5afe66ebb138b0",
+        "school_name": "龙城高级中学（教育集团）龙城创新学校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.21259743965754,
+          22.734949461056374
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:b2822c8fdd43451382c99714fb1805fb",
+        "school_name": "横岗外国语学校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.17637415847561,
+          22.648932214423613
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:c6bb9d7857544432a0939efbcbc36247",
+        "school_name": "龙岗区宝龙实验学校（工程名：南约九年一贯制学校）",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2550356220762,
+          22.684329394582313
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:956211a281b6477d89b3cdffe7d95beb",
+        "school_name": "东兴外国语学校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.27476826794081,
+          22.764091026137805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:a2943eed6fdf49ed802e3cf225321247",
+        "school_name": "吉华实验学校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.11235863667814,
+          22.62913206337779
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:a2b9ddb0743649288fed0525a4d449f2",
+        "school_name": "龙岗区外国语学校(集团)行知学校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.24560599479085,
+          22.707515107471917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16CE15558E053BC09A8C0A5ED",
+        "school_name": "龙岭学校公办班(民办学校)",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.10802955450926,
+          22.608070277155978
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16D015558E053BC09A8C0A5ED",
+        "school_name": "德兴小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.10566625828834,
+          22.595450317475095
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16D045558E053BC09A8C0A5ED",
+        "school_name": "龙岗区科创实验学校（集团）四联小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.19432281904302,
+          22.654788651434423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16D105558E053BC09A8C0A5ED",
+        "school_name": "龙岗区外国语学校(集团)新亚洲学校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.22988113139917,
+          22.721125145087775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16D165558E053BC09A8C0A5ED",
+        "school_name": "坂田小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.06066397624771,
+          22.635361374100587
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16D2A5558E053BC09A8C0A5ED",
+        "school_name": "天誉实验学校*",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2421817706152,
+          22.71747665564846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:4de8828a16684f23a0f86a534cfa2549",
+        "school_name": "南京师范大学附属龙岗学校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.11535606223765,
+          22.63089793963643
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:534b7dc2be9f432ebb63346a29aa0f2c",
+        "school_name": "香港中文大学（深圳）附属道远学校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.20580620536165,
+          22.711115073359704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16CA95558E053BC09A8C0A5ED",
+        "school_name": "龙岗区科创实验学校（集团）清林小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.23867890842953,
+          22.731332127529974
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16CAC5558E053BC09A8C0A5ED",
+        "school_name": "龙岗区科创实验学校（集团）平安里学校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.21532371255691,
+          22.72740118010962
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:ee3005e048ca42bfaa228e2927283f96",
+        "school_name": "文理学校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.11706078991756,
+          22.608010686457387
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:d0433805cdbb4a9d8c14bf956096e26f",
+        "school_name": "龙城高级中学（教育集团）宝龙外国语学校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.28873864096356,
+          22.686870516475363
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:9282b3c9f5e34aceaea9fa08ffeef24f",
+        "school_name": "立雪小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.07470463445196,
+          22.653445432467286
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:28c2c4c1554c497780ce84c689ca134f",
+        "school_name": "龙岗区信义外国语学校（原盛义九年一贯制学校）",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.20368968986288,
+          22.657800903865844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16CB35558E053BC09A8C0A5ED",
+        "school_name": "南约小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2732959142146,
+          22.699824268970303
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16CE45558E053BC09A8C0A5ED",
+        "school_name": "千林山小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.22741195342712,
+          22.752408439152358
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16CFD5558E053BC09A8C0A5ED",
+        "school_name": "坪地中心小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.29855978909575,
+          22.769885163340795
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16D195558E053BC09A8C0A5ED",
+        "school_name": "华中师范大学龙岗附属中学（集团）平湖中心学校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.12807880367029,
+          22.692037885190015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "school_name": "贤义外国语学校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.12325893434598,
+          22.5939218174196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:58c59cc2ba13405a9372d2096e8db34c",
+        "school_name": "南湾实验小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13440155900372,
+          22.626364252068743
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16C805558E053BC09A8C0A5ED",
+        "school_name": "龙岗区外国语学校(集团)致美学校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.22211441847537,
+          22.705682283454774
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16C965558E053BC09A8C0A5ED",
+        "school_name": "六联小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.32118985624724,
+          22.790338549804815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16CAA5558E053BC09A8C0A5ED",
+        "school_name": "深圳中学龙岗学校（集团）依山郡小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.21787516065751,
+          22.73402083576538
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16CB15558E053BC09A8C0A5ED",
+        "school_name": "白坭坑小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.15024990404376,
+          22.65738429632413
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16CB25558E053BC09A8C0A5ED",
+        "school_name": "安良小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.21663197051615,
+          22.631652554922262
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16CD55558E053BC09A8C0A5ED",
+        "school_name": "华南师范大学附属龙岗雅宝小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.06013182475394,
+          22.607442395986105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16CD75558E053BC09A8C0A5ED",
+        "school_name": "沙塘布学校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.15128400590321,
+          22.61518173966703
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16D025558E053BC09A8C0A5ED",
+        "school_name": "龙岗区科创实验学校（集团）横岗中心学校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.20668010639397,
+          22.639247905596328
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16D145558E053BC09A8C0A5ED",
+        "school_name": "盛平小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.25162495045893,
+          22.733969526579436
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16D175558E053BC09A8C0A5ED",
+        "school_name": "南岭小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.14138868362295,
+          22.61178239182847
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16D1A5558E053BC09A8C0A5ED",
+        "school_name": "辅城坳小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1024393130103,
+          22.698256124166715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16D205558E053BC09A8C0A5ED",
+        "school_name": "聚英小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1785035967564,
+          22.635637477198618
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16C7D5558E053BC09A8C0A5ED",
+        "school_name": "龙岗区外国语学校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2160967324307,
+          22.70164191837031
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16C955558E053BC09A8C0A5ED",
+        "school_name": "水晶城小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.22035761672274,
+          22.675335358864615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:48b63aa47a8d4bc699170ca18264531e",
+        "school_name": "碧新小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.27046300233013,
+          22.692935442492633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:b4f7994665414818a2b73f1cd1e552b9",
+        "school_name": "平湖第二实验学校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.10037248229213,
+          22.70818121670909
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:e1e7b6362d054630acd689fabfc1eed0",
+        "school_name": "上海外国语大学附属龙岗学校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.22789209667962,
+          22.692921191879805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:a241a4bce82940c79906fbca2d362f50",
+        "school_name": "深圳市云端学校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.07394096282482,
+          22.62688964867027
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:25b2133f7c5f49cd950c340491e234ca",
+        "school_name": "宝荷学校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.25506195088226,
+          22.689594553833437
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16CD95558E053BC09A8C0A5ED",
+        "school_name": "华南师范大学附属乐城小学*",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.21466096956902,
+          22.671123597940905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16CDA5558E053BC09A8C0A5ED",
+        "school_name": "华南师范大学附属龙岗大运学校*",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.21582202535416,
+          22.692158673197948
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16CE65558E053BC09A8C0A5ED",
+        "school_name": "龙岗区第二外国语学校（集团）木棉湾学校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.12699042254414,
+          22.600568120966642
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16CEF5558E053BC09A8C0A5ED",
+        "school_name": "吉祥小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.11908180487256,
+          22.616531340922286
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16CFA5558E053BC09A8C0A5ED",
+        "school_name": "宝岗小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.060646761338,
+          22.65741461077507
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16CFE5558E053BC09A8C0A5ED",
+        "school_name": "同乐主力学校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.30969075011596,
+          22.72098779317221
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16D115558E053BC09A8C0A5ED",
+        "school_name": "龙岗区第二实验学校（集团）新生小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.27338003849627,
+          22.742993283604633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16D155558E053BC09A8C0A5ED",
+        "school_name": "兰陵学校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.29870261340864,
+          22.774691931364412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16D275558E053BC09A8C0A5ED",
+        "school_name": "沙西小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.14793934253456,
+          22.615402899917303
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16D2B5558E053BC09A8C0A5ED",
+        "school_name": "麓城外国语小学*",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.09729207822303,
+          22.626165218182233
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:503fc307639d43b7a2925758ad174ce7",
+        "school_name": "华中师范大学龙岗附属中学（集团）龙园学校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.26130061694451,
+          22.743872516152265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:59d042e7d2f84e8f987facfaee0954d6",
+        "school_name": "龙岗区教育科学研究院附属第一小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.23181475077608,
+          22.745639736728275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16C7A5558E053BC09A8C0A5ED",
+        "school_name": "龙岗区外国语学校(集团)星河学校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.22494449045584,
+          22.6955659036382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16C7E5558E053BC09A8C0A5ED",
+        "school_name": "龙岗区第二实验学校（集团）新梓学校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.27229084158955,
+          22.749169419369828
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16C815558E053BC09A8C0A5ED",
+        "school_name": "大康小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.22769367079987,
+          22.649500298718895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16C8A5558E053BC09A8C0A5ED",
+        "school_name": "花城小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.05120728977299,
+          22.625561386783875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16C925558E053BC09A8C0A5ED",
+        "school_name": "华中师范大学龙岗附属中学(集团)平湖实验学校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.14767499817268,
+          22.67778772713283
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:e9923aeba7d44e03a567c71a9eab2d0b",
+        "school_name": "深圳大学附属华南学校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13954890591658,
+          22.684334685371812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:4258ecf9196344eda7729eb884bdcf5a",
+        "school_name": "深圳中学坂田学校（工程名：坂田南九年一贯制学校）",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.071102030368,
+          22.638940450224297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:a052ff05f59a4e608445a71d5bf86dab",
+        "school_name": "华南师范大学附属平湖学校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.15673116326906,
+          22.67543498940043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:02f11df45da0485a81366d7754c1c849",
+        "school_name": "深圳外国语学校(集团)龙岗学校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.09755507491009,
+          22.705124374707967
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16CDE5558E053BC09A8C0A5ED",
+        "school_name": "振新小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.26403330640026,
+          22.737822628147473
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16CE35558E053BC09A8C0A5ED",
+        "school_name": "深圳科学高中龙岗五和学校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.0624712650976,
+          22.61644878191524
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16CF65558E053BC09A8C0A5ED",
+        "school_name": "石芽岭学校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.12864487218803,
+          22.626997551404756
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16CF75558E053BC09A8C0A5ED",
+        "school_name": "龙园意境小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.12094757228316,
+          22.62429495955882
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16D055558E053BC09A8C0A5ED",
+        "school_name": "深圳北理莫斯科大学附属龙岗园山学校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.21154692976569,
+          22.66274254054824
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16D085558E053BC09A8C0A5ED",
+        "school_name": "龙岗区教育科学研究院附属实验学校（集团）龙西小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.24488728644224,
+          22.75081022351347
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16D0C5558E053BC09A8C0A5ED",
+        "school_name": "厚德小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.21897175895128,
+          22.68360212340291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16D185558E053BC09A8C0A5ED",
+        "school_name": "沙湾小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.15725114193401,
+          22.610787416338713
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16D1F5558E053BC09A8C0A5ED",
+        "school_name": "文景小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1215642667652,
+          22.610375778115042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16D2F5558E053BC09A8C0A5ED",
+        "school_name": "深圳未来天成学校（龙岗）（原天成学校）",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.25239222195893,
+          22.73028157073037
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16C865558E053BC09A8C0A5ED",
+        "school_name": "莲花小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.10379714493695,
+          22.60046537313991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16C8B5558E053BC09A8C0A5ED",
+        "school_name": "龙城小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2394667474613,
+          22.72654393434883
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:f6df9dbc0bcd4d48982355c4459cf74e",
+        "school_name": "龙岗区第二实验学校（集团）仙田外国语学校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2680457011523,
+          22.75408621942938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:3dded88438a44d07ae2a55afaff84fe5",
+        "school_name": "清林径实验小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.21129957610461,
+          22.753647748572604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:42f3fdd343ce46f3b000158c854d504f",
+        "school_name": "华中师范大学龙岗附属中学（集团）同心实验学校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.30181757298837,
+          22.724551101950006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:44d24aa4278e4c4fb9a2ff16e8c2761f",
+        "school_name": "龙岗区外国语学校（集团）和美小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.06226152409428,
+          22.628511010399873
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:b09cf70e03ed4b77b00b3b18a802107e",
+        "school_name": "广东实验中学深圳学校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.06306363748594,
+          22.671354511861203
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:a4ac4043711d489fb93e753e80210509",
+        "school_name": "龙岗区教育科学研究院附属实验学校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.23491103529523,
+          22.746907119451052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16CDC5558E053BC09A8C0A5ED",
+        "school_name": "龙岗区南湾教育集团下李朗小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13141321082689,
+          22.643200497777144
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16CE75558E053BC09A8C0A5ED",
+        "school_name": "水径小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.10460864450629,
+          22.623083179572717
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16CE85558E053BC09A8C0A5ED",
+        "school_name": "宝龙科技城实验学校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.25903778880021,
+          22.687272495703432
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16CEC5558E053BC09A8C0A5ED",
+        "school_name": "怡翠实验学校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.10568476496184,
+          22.628514256797807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16CED5558E053BC09A8C0A5ED",
+        "school_name": "雪象小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.0726394597137,
+          22.653531429845163
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+        "school_name": "信义实验小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.11889640206535,
+          22.594691088471354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16D0F5558E053BC09A8C0A5ED",
+        "school_name": "龙岗区实验学校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.22564580116394,
+          22.72658348154566
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16D1B5558E053BC09A8C0A5ED",
+        "school_name": "梧桐学校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.17636021927655,
+          22.642824951280105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16D1D5558E053BC09A8C0A5ED",
+        "school_name": "科技城外国语学校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.0514685306217,
+          22.642088407939674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16D2E5558E053BC09A8C0A5ED",
+        "school_name": "横岗中学小学部",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.17964503836197,
+          22.65244654667335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16C915558E053BC09A8C0A5ED",
+        "school_name": "深圳中学龙岗学校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.23442686242663,
+          22.7091171917625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16CA85558E053BC09A8C0A5ED",
+        "school_name": "鹅溪小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.14703811914802,
+          22.684716410722846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16CB05558E053BC09A8C0A5ED",
+        "school_name": "深圳科学高中龙岗五园小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.06507280536681,
+          22.61832685756056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:b7a487243d5d4142b8ad5479202da913",
+        "school_name": "龙城高级中学（教育集团）吉华学校（工程名：水径九年一贯制学校）",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.09972828315654,
+          22.618677990790644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:da2a63b90b054376b90f7cd970396257",
+        "school_name": "香港中文大学（深圳）附属时进学校（工程名：新坡塘九年一贯制学校）",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.21397188876038,
+          22.65816215847683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f",
+        "school_name": "百外世纪小学公办班（民办学校）",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.12186874707356,
+          22.597145454798955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "school_name": "龙岗区第二外国语学校（工程名：百鸽笼九年一贯制学校）",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.12596499741188,
+          22.598875664661026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:0c4bca2cfd8548aeb750a7f2d65dddd4",
+        "school_name": "深圳未来双语学校（龙岗）",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.25383659407503,
+          22.723821347477724
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16CD65558E053BC09A8C0A5ED",
+        "school_name": "丹竹头小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.15256263082657,
+          22.62329352237962
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16CE95558E053BC09A8C0A5ED",
+        "school_name": "深圳中学龙岗学校（集团）兰著学校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.23338352362224,
+          22.737194709513332
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16CEB5558E053BC09A8C0A5ED",
+        "school_name": "甘李学校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.10654412653629,
+          22.656884843201993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16CFC5558E053BC09A8C0A5ED",
+        "school_name": "龙岗区南湾教育集团南湾学校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.13537263446757,
+          22.629573643920047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16D005558E053BC09A8C0A5ED",
+        "school_name": "平湖外国语学校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1146785893517,
+          22.708194587322254
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16D0D5558E053BC09A8C0A5ED",
+        "school_name": "华中师范大学龙岗附属中学（集团）南联学校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.26395360456004,
+          22.712354817059342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16D215558E053BC09A8C0A5ED",
+        "school_name": "阳光小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.10915230826976,
+          22.618882508309188
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:570454dc28bc4fec90c5149c2a12ea37",
+        "school_name": "悦澜山实验小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.24670895781287,
+          22.738816048796885
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16C6B5558E053BC09A8C0A5ED",
+        "school_name": "信德学校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.11616255990299,
+          22.693871622921847
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16C905558E053BC09A8C0A5ED",
+        "school_name": "布吉中心小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1109984554746,
+          22.60137100741316
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16C945558E053BC09A8C0A5ED",
+        "school_name": "西坑小学",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.21850971619362,
+          22.61976655257653
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:496FFFE16CAB5558E053BC09A8C0A5ED",
+        "school_name": "香港中文大学（深圳）附属知新学校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.20963176200762,
+          22.714259145190073
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:e896e7934b2c422bb1eb1a929f6a1f82",
+        "school_name": "深圳科学高中龙岗分校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.28681868898704,
+          22.755195994737416
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:cecf915b0a7d4b038eb60bdd49a068de",
+        "school_name": "坂田实验学校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.06383988090705,
+          22.624768639304833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "school_id": "sz:longgang:school:dbcdd331adff4e2db4cbbb7f95b9e508",
+        "school_name": "华中师范大学龙岗附属中学(集团)崇真学校",
+        "point_role": "官方地图标记点，非独立测绘校址"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.14798080830523,
+          22.67953993719667
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,533 @@
+[
+  {
+    "item": 1,
+    "school_name_raw": "福田区福苑小学",
+    "line": 40,
+    "candidate_school_id": "sz:futian:school:92f6461fa6ba4f679c69afd8c4093834",
+    "candidate_school_name": "福田区外国语学校（福苑）小学部",
+    "url": "https://m.shenchuang.com/show/1598576.shtml",
+    "association_status": "historical_name_lead_only"
+  },
+  {
+    "item": 2,
+    "school_name_raw": "福田区福强小学",
+    "line": 46,
+    "candidate_school_id": "sz:futian:school:496FFFE16E555558E053BC09A8C0A5ED",
+    "candidate_school_name": "福田区福强小学",
+    "url": "https://m.shenchuang.com/show/1598576.shtml",
+    "association_status": "historical_name_lead_only"
+  },
+  {
+    "item": 3,
+    "school_name_raw": "福田区外国语学校南校区小学部",
+    "line": 52,
+    "candidate_school_id": "sz:futian:school:1e873e7609754306915e197427d5fde9",
+    "candidate_school_name": "福田区外国语学校（福保）小学部",
+    "url": "https://m.shenchuang.com/show/1598576.shtml",
+    "association_status": "historical_name_lead_only"
+  },
+  {
+    "item": 4,
+    "school_name_raw": "福田区益田小学",
+    "line": 58,
+    "candidate_school_id": "sz:futian:school:496FFFE16E565558E053BC09A8C0A5ED",
+    "candidate_school_name": "福田区益田小学",
+    "url": "https://m.shenchuang.com/show/1598576.shtml",
+    "association_status": "historical_name_lead_only"
+  },
+  {
+    "item": 5,
+    "school_name_raw": "福田区全海小学",
+    "line": 64,
+    "candidate_school_id": "sz:futian:school:496FFFE16E575558E053BC09A8C0A5ED",
+    "candidate_school_name": "西交利物浦大学基础教育集团外国语学校（全海）小学部",
+    "url": "https://m.shenchuang.com/show/1598576.shtml",
+    "association_status": "historical_name_lead_only"
+  },
+  {
+    "item": 6,
+    "school_name_raw": "福田区绿洲小学",
+    "line": 69,
+    "candidate_school_id": "sz:futian:school:496FFFE16E545558E053BC09A8C0A5ED",
+    "candidate_school_name": "福田区绿洲小学",
+    "url": "https://m.shenchuang.com/show/1598576.shtml",
+    "association_status": "historical_name_lead_only"
+  },
+  {
+    "item": 7,
+    "school_name_raw": "福田区上沙小学",
+    "line": 75,
+    "candidate_school_id": "sz:futian:school:496FFFE16E535558E053BC09A8C0A5ED",
+    "candidate_school_name": "福田区红岭实验学校（上沙）小学部",
+    "url": "https://m.shenchuang.com/show/1598576.shtml",
+    "association_status": "historical_name_lead_only"
+  },
+  {
+    "item": 8,
+    "school_name_raw": "福田区福南小学",
+    "line": 81,
+    "candidate_school_id": "sz:futian:school:496FFFE16E345558E053BC09A8C0A5ED",
+    "candidate_school_name": "福田中学教育集团福南小学",
+    "url": "https://m.shenchuang.com/show/1598576.shtml",
+    "association_status": "historical_name_lead_only"
+  },
+  {
+    "item": 9,
+    "school_name_raw": "福田区福民小学",
+    "line": 86,
+    "candidate_school_id": "sz:futian:school:496FFFE16E485558E053BC09A8C0A5ED",
+    "candidate_school_name": "福田区福民小学",
+    "url": "https://m.shenchuang.com/show/1598576.shtml",
+    "association_status": "historical_name_lead_only"
+  },
+  {
+    "item": 10,
+    "school_name_raw": "福田区荔园外国语小学（水围）",
+    "line": 92,
+    "candidate_school_id": "sz:futian:school:496FFFE16E385558E053BC09A8C0A5ED",
+    "candidate_school_name": "福田区荔园外国语小学（水围）",
+    "url": "https://m.shenchuang.com/show/1598576.shtml",
+    "association_status": "historical_name_lead_only"
+  },
+  {
+    "item": 11,
+    "school_name_raw": "福田区益强小学",
+    "line": 97,
+    "candidate_school_id": "sz:futian:school:496FFFE16E615558E053BC09A8C0A5ED",
+    "candidate_school_name": "福田区益强小学",
+    "url": "https://m.shenchuang.com/show/1598576.shtml",
+    "association_status": "historical_name_lead_only"
+  },
+  {
+    "item": 12,
+    "school_name_raw": "福田区荔园小学（荔园教育集团）众孚校区",
+    "line": 103,
+    "candidate_school_id": "sz:futian:school:496FFFE16E3B5558E053BC09A8C0A5ED",
+    "candidate_school_name": "福田区荔园小学（众孚）",
+    "url": "https://m.shenchuang.com/show/1598576.shtml",
+    "association_status": "historical_name_lead_only"
+  },
+  {
+    "item": 13,
+    "school_name_raw": "福田区新沙小学",
+    "line": 109,
+    "candidate_school_id": "sz:futian:school:496FFFE16E3C5558E053BC09A8C0A5ED",
+    "candidate_school_name": "福田区新沙小学",
+    "url": "https://m.shenchuang.com/show/1598576.shtml",
+    "association_status": "historical_name_lead_only"
+  },
+  {
+    "item": 14,
+    "school_name_raw": "福田区石厦学校小学部",
+    "line": 115,
+    "candidate_school_id": "sz:futian:school:496FFFE16E525558E053BC09A8C0A5ED",
+    "candidate_school_name": "福田区石厦学校（小学部）",
+    "url": "https://m.shenchuang.com/show/1598576.shtml",
+    "association_status": "historical_name_lead_only"
+  },
+  {
+    "item": 15,
+    "school_name_raw": "福田区新洲小学",
+    "line": 120,
+    "candidate_school_id": "sz:futian:school:496FFFE16E3A5558E053BC09A8C0A5ED",
+    "candidate_school_name": "福田区新洲小学",
+    "url": "https://m.shenchuang.com/show/1598576.shtml",
+    "association_status": "historical_name_lead_only"
+  },
+  {
+    "item": 16,
+    "school_name_raw": "福田区下沙小学",
+    "line": 126,
+    "candidate_school_id": "sz:futian:school:496FFFE16E3D5558E053BC09A8C0A5ED",
+    "candidate_school_name": "西交利物浦大学基础教育集团外国语学校（下沙明远）小学部",
+    "url": "https://m.shenchuang.com/show/1598576.shtml",
+    "association_status": "historical_name_lead_only"
+  },
+  {
+    "item": 17,
+    "school_name_raw": "福田区明德实验学校碧海校区(小学部)",
+    "line": 132,
+    "candidate_school_id": "sz:futian:school:496FFFE16E5B5558E053BC09A8C0A5ED",
+    "candidate_school_name": "深圳明德实验学校（集团）碧海校区小学部",
+    "url": "https://m.shenchuang.com/show/1598576.shtml",
+    "association_status": "historical_name_lead_only"
+  },
+  {
+    "item": 18,
+    "school_name_raw": "福田区教科院附小",
+    "line": 138,
+    "candidate_school_id": "sz:futian:school:496FFFE16E415558E053BC09A8C0A5ED",
+    "candidate_school_name": "福田区外国语小学（竹林）",
+    "url": "https://m.shenchuang.com/show/1598576.shtml",
+    "association_status": "historical_name_lead_only"
+  },
+  {
+    "item": 19,
+    "school_name_raw": "福田区福新小学",
+    "line": 143,
+    "candidate_school_id": "sz:futian:school:496FFFE16E5C5558E053BC09A8C0A5ED",
+    "candidate_school_name": "福田区福新小学",
+    "url": "https://m.shenchuang.com/show/1598576.shtml",
+    "association_status": "historical_name_lead_only"
+  },
+  {
+    "item": 20,
+    "school_name_raw": "福田区文天祥小学",
+    "line": 149,
+    "candidate_school_id": "sz:futian:school:9be177e2a1e04caaa5b4a41d581f4dff",
+    "candidate_school_name": "福田区文天祥小学",
+    "url": "https://m.shenchuang.com/show/1598576.shtml",
+    "association_status": "historical_name_lead_only"
+  },
+  {
+    "item": 21,
+    "school_name_raw": "福田区福华小学",
+    "line": 155,
+    "candidate_school_id": "sz:futian:school:496FFFE16E4D5558E053BC09A8C0A5ED",
+    "candidate_school_name": "福田区福华小学",
+    "url": "https://m.shenchuang.com/show/1598576.shtml",
+    "association_status": "historical_name_lead_only"
+  },
+  {
+    "item": 22,
+    "school_name_raw": "福田区岗厦小学",
+    "line": 161,
+    "candidate_school_id": "sz:futian:school:496FFFE16E355558E053BC09A8C0A5ED",
+    "candidate_school_name": "福田区文天祥小学（岗厦）",
+    "url": "https://m.shenchuang.com/show/1598576.shtml",
+    "association_status": "historical_name_lead_only"
+  },
+  {
+    "item": 23,
+    "school_name_raw": "福田区福田小学",
+    "line": 167,
+    "candidate_school_id": "sz:futian:school:496FFFE16E325558E053BC09A8C0A5ED",
+    "candidate_school_name": "福田中学教育集团福田小学",
+    "url": "https://m.shenchuang.com/show/1598576.shtml",
+    "association_status": "historical_name_lead_only"
+  },
+  {
+    "item": 24,
+    "school_name_raw": "福田区南华小学",
+    "line": 172,
+    "candidate_school_id": "sz:futian:school:496FFFE16E175558E053BC09A8C0A5ED",
+    "candidate_school_name": "福田区南华小学",
+    "url": "https://m.shenchuang.com/show/1598576.shtml",
+    "association_status": "historical_name_lead_only"
+  },
+  {
+    "item": 25,
+    "school_name_raw": "福田区上步小学",
+    "line": 178,
+    "candidate_school_id": "sz:futian:school:496FFFE16E185558E053BC09A8C0A5ED",
+    "candidate_school_name": "福田区上步小学",
+    "url": "https://m.shenchuang.com/show/1598576.shtml",
+    "association_status": "historical_name_lead_only"
+  },
+  {
+    "item": 26,
+    "school_name_raw": "福田区南园小学",
+    "line": 184,
+    "candidate_school_id": "sz:futian:school:496FFFE16E335558E053BC09A8C0A5ED",
+    "candidate_school_name": "福田区南园小学",
+    "url": "https://m.shenchuang.com/show/1598576.shtml",
+    "association_status": "historical_name_lead_only"
+  },
+  {
+    "item": 27,
+    "school_name_raw": "福田区荔园小学（荔园教育集团）通新岭校区",
+    "line": 189,
+    "candidate_school_id": "sz:futian:school:496FFFE16E395558E053BC09A8C0A5ED",
+    "candidate_school_name": "福田区荔园小学（通新岭）",
+    "url": "https://m.shenchuang.com/show/1598576.shtml",
+    "association_status": "historical_name_lead_only"
+  },
+  {
+    "item": 28,
+    "school_name_raw": "福田区荔园小学（荔园教育集团）玮鹏校区",
+    "line": 195,
+    "candidate_school_id": "sz:futian:school:496FFFE16E6A5558E053BC09A8C0A5ED",
+    "candidate_school_name": "福田区荔园小学（玮鹏）",
+    "url": "https://m.shenchuang.com/show/1598576.shtml",
+    "association_status": "historical_name_lead_only"
+  },
+  {
+    "item": 29,
+    "school_name_raw": "福田区园岭小学",
+    "line": 200,
+    "candidate_school_id": "sz:futian:school:496FFFE16E1B5558E053BC09A8C0A5ED",
+    "candidate_school_name": "福田区园岭教育集团园岭小学",
+    "url": "https://m.shenchuang.com/show/1598576.shtml",
+    "association_status": "historical_name_lead_only"
+  },
+  {
+    "item": 30,
+    "school_name_raw": "实验学校小学部(公办）",
+    "line": 206,
+    "candidate_school_id": "sz:futian:school:496FFFE16E1C5558E053BC09A8C0A5ED",
+    "candidate_school_name": "深圳实验学校小学部",
+    "url": "https://m.shenchuang.com/show/1598576.shtml",
+    "association_status": "historical_name_lead_only"
+  },
+  {
+    "item": 31,
+    "school_name_raw": "福田区荔园小学（荔园教育集团）百花校区",
+    "line": 212,
+    "candidate_school_id": "sz:futian:school:496FFFE16E1E5558E053BC09A8C0A5ED",
+    "candidate_school_name": "福田区荔园小学（百花）",
+    "url": "https://m.shenchuang.com/show/1598576.shtml",
+    "association_status": "historical_name_lead_only"
+  },
+  {
+    "item": 32,
+    "school_name_raw": "福田区百花小学",
+    "line": 218,
+    "candidate_school_id": "sz:futian:school:496FFFE16E425558E053BC09A8C0A5ED",
+    "candidate_school_name": "福田区园岭教育集团百花小学",
+    "url": "https://m.shenchuang.com/show/1598576.shtml",
+    "association_status": "historical_name_lead_only"
+  },
+  {
+    "item": 33,
+    "school_name_raw": "福田区华富小学",
+    "line": 224,
+    "candidate_school_id": "sz:futian:school:496FFFE16E435558E053BC09A8C0A5ED",
+    "candidate_school_name": "福田区红岭教育集团华富实验学校（小学部）",
+    "url": "https://m.shenchuang.com/show/1598576.shtml",
+    "association_status": "historical_name_lead_only"
+  },
+  {
+    "item": 34,
+    "school_name_raw": "福田区园岭实验小学",
+    "line": 230,
+    "candidate_school_id": "sz:futian:school:496FFFE16E375558E053BC09A8C0A5ED",
+    "candidate_school_name": "福田区园岭教育集团园岭实验小学",
+    "url": "https://m.shenchuang.com/show/1598576.shtml",
+    "association_status": "historical_name_lead_only"
+  },
+  {
+    "item": 35,
+    "school_name_raw": "福田区园岭外国语小学",
+    "line": 235,
+    "candidate_school_id": "sz:futian:school:496FFFE16E315558E053BC09A8C0A5ED",
+    "candidate_school_name": "福田区园岭教育集团园岭外国语学校（小学部）",
+    "url": "https://m.shenchuang.com/show/1598576.shtml",
+    "association_status": "historical_name_lead_only"
+  },
+  {
+    "item": 36,
+    "school_name_raw": "福田区华新小学",
+    "line": 241,
+    "candidate_school_id": "sz:futian:school:496FFFE16E475558E053BC09A8C0A5ED",
+    "candidate_school_name": "福田区华新小学",
+    "url": "https://m.shenchuang.com/show/1598576.shtml",
+    "association_status": "historical_name_lead_only"
+  },
+  {
+    "item": 37,
+    "school_name_raw": "福田区美莲小学",
+    "line": 247,
+    "candidate_school_id": "sz:futian:school:496FFFE16E465558E053BC09A8C0A5ED",
+    "candidate_school_name": "福田区美莲小学",
+    "url": "https://m.shenchuang.com/show/1598576.shtml",
+    "association_status": "historical_name_lead_only"
+  },
+  {
+    "item": 38,
+    "school_name_raw": "福田区莲花小学",
+    "line": 252,
+    "candidate_school_id": "sz:futian:school:496FFFE16E445558E053BC09A8C0A5ED",
+    "candidate_school_name": "福田区莲花小学",
+    "url": "https://m.shenchuang.com/show/1598576.shtml",
+    "association_status": "historical_name_lead_only"
+  },
+  {
+    "item": 39,
+    "school_name_raw": "福田区天健小学",
+    "line": 258,
+    "candidate_school_id": "sz:futian:school:496FFFE16E595558E053BC09A8C0A5ED",
+    "candidate_school_name": "香港中文大学（深圳）附属天健小学",
+    "url": "https://m.shenchuang.com/show/1598576.shtml",
+    "association_status": "historical_name_lead_only"
+  },
+  {
+    "item": 40,
+    "school_name_raw": "福田区黄埔学校小学部",
+    "line": 264,
+    "candidate_school_id": "sz:futian:school:496FFFE16E5D5558E053BC09A8C0A5ED",
+    "candidate_school_name": "北京大学附属中学深圳学校（集团）黄埔学校（小学部）",
+    "url": "https://m.shenchuang.com/show/1598576.shtml",
+    "association_status": "historical_name_lead_only"
+  },
+  {
+    "item": 41,
+    "school_name_raw": "福田区彩田学校小学部",
+    "line": 270,
+    "candidate_school_id": "sz:futian:school:496FFFE16E5F5558E053BC09A8C0A5ED",
+    "candidate_school_name": "香港中文大学（深圳）附属彩田学校（小学部）",
+    "url": "https://m.shenchuang.com/show/1598576.shtml",
+    "association_status": "historical_name_lead_only"
+  },
+  {
+    "item": 42,
+    "school_name_raw": "福田区景鹏小学",
+    "line": 275,
+    "candidate_school_id": "sz:futian:school:496FFFE16E455558E053BC09A8C0A5ED",
+    "candidate_school_name": "福田区景鹏小学",
+    "url": "https://m.shenchuang.com/show/1598576.shtml",
+    "association_status": "historical_name_lead_only"
+  },
+  {
+    "item": 43,
+    "school_name_raw": "福田区景龙小学",
+    "line": 281,
+    "candidate_school_id": "sz:futian:school:496FFFE16E4A5558E053BC09A8C0A5ED",
+    "candidate_school_name": "西交利物浦大学基础教育集团外国语学校（景龙）小学部",
+    "url": "https://m.shenchuang.com/show/1598576.shtml",
+    "association_status": "historical_name_lead_only"
+  },
+  {
+    "item": 44,
+    "school_name_raw": "福田区荔园外国语小学（天骄）",
+    "line": 286,
+    "candidate_school_id": "sz:futian:school:2ea8f73c686a4beaa88410a90916e59b",
+    "candidate_school_name": "福田区荔园外国语小学（天骄）",
+    "url": "https://m.shenchuang.com/show/1598576.shtml",
+    "association_status": "historical_name_lead_only"
+  },
+  {
+    "item": 45,
+    "school_name_raw": "福田区荔园外国语小学（原东校区）",
+    "line": 292,
+    "candidate_school_id": "sz:futian:school:496FFFE16E5E5558E053BC09A8C0A5ED",
+    "candidate_school_name": "福田区荔园外国语小学",
+    "url": "https://m.shenchuang.com/show/1598576.shtml",
+    "association_status": "historical_name_lead_only"
+  },
+  {
+    "item": 46,
+    "school_name_raw": "福田区新莲小学",
+    "line": 298,
+    "candidate_school_id": "sz:futian:school:496FFFE16E4B5558E053BC09A8C0A5ED",
+    "candidate_school_name": "福田区新莲小学",
+    "url": "https://m.shenchuang.com/show/1598576.shtml",
+    "association_status": "historical_name_lead_only"
+  },
+  {
+    "item": 47,
+    "school_name_raw": "福田区景莲小学",
+    "line": 304,
+    "candidate_school_id": "sz:futian:school:496FFFE16E4C5558E053BC09A8C0A5ED",
+    "candidate_school_name": "福田区景莲小学",
+    "url": "https://m.shenchuang.com/show/1598576.shtml",
+    "association_status": "historical_name_lead_only"
+  },
+  {
+    "item": 48,
+    "school_name_raw": "福田区景秀小学",
+    "line": 310,
+    "candidate_school_id": "sz:futian:school:496FFFE16E505558E053BC09A8C0A5ED",
+    "candidate_school_name": "福田区外国语小学（景秀）",
+    "url": "https://m.shenchuang.com/show/1598576.shtml",
+    "association_status": "historical_name_lead_only"
+  },
+  {
+    "item": 49,
+    "school_name_raw": "福田区明德实验学校香蜜校区(小学部)",
+    "line": 315,
+    "candidate_school_id": "sz:futian:school:496FFFE16E625558E053BC09A8C0A5ED",
+    "candidate_school_name": "深圳明德实验学校（集团）香蜜校区小学部",
+    "url": "https://m.shenchuang.com/show/1598576.shtml",
+    "association_status": "historical_name_lead_only"
+  },
+  {
+    "item": 50,
+    "school_name_raw": "福田区东海实验小学",
+    "line": 321,
+    "candidate_school_id": "sz:futian:school:496FFFE16E5A5558E053BC09A8C0A5ED",
+    "candidate_school_name": "福田区东海实验小学",
+    "url": "https://m.shenchuang.com/show/1598576.shtml",
+    "association_status": "historical_name_lead_only"
+  },
+  {
+    "item": 51,
+    "school_name_raw": "福田区荔园外国语小学（香蜜湖)(原西校区）",
+    "line": 327,
+    "candidate_school_id": "sz:futian:school:496FFFE16E195558E053BC09A8C0A5ED",
+    "candidate_school_name": "福田区荔园外国语小学（香蜜湖）",
+    "url": "https://m.shenchuang.com/show/1598576.shtml",
+    "association_status": "historical_name_lead_only"
+  },
+  {
+    "item": 52,
+    "school_name_raw": "福田区教科院第二附小",
+    "line": 333,
+    "candidate_school_id": "sz:futian:school:496FFFE16E3F5558E053BC09A8C0A5ED",
+    "candidate_school_name": "福田区东海实验小学（竹园）",
+    "url": "https://m.shenchuang.com/show/1598576.shtml",
+    "association_status": "historical_name_lead_only"
+  },
+  {
+    "item": 53,
+    "school_name_raw": "福田区红岭中学（集团）深康实验学校小学部",
+    "line": 338,
+    "candidate_school_id": "sz:futian:school:6f43d9c8ed204a7791477f3a7b094aa1",
+    "candidate_school_name": "福田区红岭教育集团深康学校（小学部）",
+    "url": "https://m.shenchuang.com/show/1598576.shtml",
+    "association_status": "historical_name_lead_only"
+  },
+  {
+    "item": 54,
+    "school_name_raw": "福田区翰林实验学校小学部",
+    "line": 344,
+    "candidate_school_id": "sz:futian:school:496FFFE16E605558E053BC09A8C0A5ED",
+    "candidate_school_name": "福田区实验教育集团翰林学校（小学部）",
+    "url": "https://m.shenchuang.com/show/1598576.shtml",
+    "association_status": "historical_name_lead_only"
+  },
+  {
+    "item": 55,
+    "school_name_raw": "福田区梅华小学",
+    "line": 350,
+    "candidate_school_id": "sz:futian:school:496FFFE16E495558E053BC09A8C0A5ED",
+    "candidate_school_name": "福田区梅华小学",
+    "url": "https://m.shenchuang.com/show/1598576.shtml",
+    "association_status": "historical_name_lead_only"
+  },
+  {
+    "item": 56,
+    "school_name_raw": "福田区梅丽小学",
+    "line": 355,
+    "candidate_school_id": "sz:futian:school:496FFFE16E4E5558E053BC09A8C0A5ED",
+    "candidate_school_name": "福田区梅丽小学",
+    "url": "https://m.shenchuang.com/show/1598576.shtml",
+    "association_status": "historical_name_lead_only"
+  },
+  {
+    "item": 57,
+    "school_name_raw": "福田区梅林小学",
+    "line": 361,
+    "candidate_school_id": "sz:futian:school:496FFFE16E405558E053BC09A8C0A5ED",
+    "candidate_school_name": "福田区梅林小学",
+    "url": "https://m.shenchuang.com/show/1598576.shtml",
+    "association_status": "historical_name_lead_only"
+  },
+  {
+    "item": 58,
+    "school_name_raw": "福田区梅园小学",
+    "line": 366,
+    "candidate_school_id": "sz:futian:school:496FFFE16E4F5558E053BC09A8C0A5ED",
+    "candidate_school_name": "福田区梅园小学",
+    "url": "https://m.shenchuang.com/show/1598576.shtml",
+    "association_status": "historical_name_lead_only"
+  },
+  {
+    "item": 59,
+    "school_name_raw": "福田区梅山小学",
+    "line": 372,
+    "candidate_school_id": "sz:futian:school:496FFFE16E515558E053BC09A8C0A5ED",
+    "candidate_school_name": "福田区梅山小学",
+    "url": "https://m.shenchuang.com/show/1598576.shtml",
+    "association_status": "historical_name_lead_only"
+  }
+]

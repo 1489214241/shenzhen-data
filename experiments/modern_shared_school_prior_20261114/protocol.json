@@ -1,0 +1,83 @@
+{
+  "date": "2026-11-14",
+  "sources": [
+    "天心区",
+    "芙蓉区",
+    "雨花区",
+    "开福区",
+    "拱墅区",
+    "萧山区",
+    "富阳区",
+    "临安区"
+  ],
+  "targets": [
+    "龙华区",
+    "龙岗区"
+  ],
+  "seeds": [
+    20261231,
+    20261232,
+    20261233
+  ],
+  "arms": {
+    "text_minimum": [
+      "minimum",
+      false,
+      "admission"
+    ],
+    "text_group_exact": [
+      "group_exact",
+      false,
+      "admission"
+    ],
+    "text_count_admission": [
+      "count_exact",
+      false,
+      "admission"
+    ],
+    "text_count_native": [
+      "count_exact",
+      false,
+      "native"
+    ],
+    "estimated_minimum": [
+      "minimum",
+      true,
+      "admission"
+    ],
+    "estimated_group_exact": [
+      "group_exact",
+      true,
+      "admission"
+    ],
+    "estimated_count_admission": [
+      "count_exact",
+      true,
+      "admission"
+    ],
+    "estimated_count_native": [
+      "count_exact",
+      true,
+      "native"
+    ]
+  },
+  "baseline": "routed_bce_legacy from frozen hybrid run",
+  "primary": "text_minimum minus baseline_current",
+  "training_steps": 0,
+  "intervention": "Policy prior is assembled before final set selection; frozen Modern native/admission scores are reused. Not a retrained network or prompt experiment.",
+  "verified_prior": "Independent textual positive relations plus named or directly triggered shared clauses. Never use model scope estimates as confirmed input.",
+  "estimated_prior": "Secondary arm only: if verified multi prior unavailable, original native top1 may trigger its directly implied shared group. Unknown applicability remains estimated.",
+  "cardinality": "Policy members are positive lower bounds, NOT exhaustive sets. Exact-group and exact-count arms explicitly TEST completeness; they never relabel unknown schools as training negatives.",
+  "count_ablation": "Give only k, rank all nonexcluded schools; do not force supplied member IDs. The university exception preserves independently supported sharing only.",
+  "minimum": "Union prior members with current prediction. Group-exact replaces active output by prior group. Count-exact replaces active output by top k. Uncovered outputs unchanged.",
+  "university": "No university membership expansion; at most one per university group unless explicit shared/base evidence supports more.",
+  "scope": "Shared partial ranges preserve names/direction. No closure across shared groups. All school counts >=2 supported, not just pairs.",
+  "scoring": "Same1761map-hit rows;41output-only;242semantic-pending retained. Exact full sets, precision/recall, FP/FN, corrected/harmed,1km district bootstrap3000.",
+  "oracle": "AFTER prediction freeze only: read answer cardinality to diagnose frozen raw rankings; diagnostic only, never a deployable gain. Both rankings fixed beforehand.",
+  "selection": "No fitting, thresholds, grid, or target selection. All declared arms reported; no adoption.",
+  "prior_target_results_seen": true,
+  "independent_validation": false,
+  "adopted": false,
+  "target_gold_read": false,
+  "target_polygon_read": false
+}

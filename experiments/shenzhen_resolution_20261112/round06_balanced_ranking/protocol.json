@@ -1,0 +1,67 @@
+{
+  "round": 6,
+  "date": "2026-11-12",
+  "sources": [
+    "天心区",
+    "芙蓉区",
+    "雨花区",
+    "开福区",
+    "拱墅区",
+    "萧山区",
+    "富阳区",
+    "临安区"
+  ],
+  "targets": [
+    "龙华区",
+    "龙岗区"
+  ],
+  "seeds": [
+    20261131,
+    20261132,
+    20261133,
+    20261134,
+    20261135,
+    20261136,
+    20261137,
+    20261138,
+    20261139,
+    20261140
+  ],
+  "arms": [
+    "continued_bce",
+    "balanced_bce",
+    "balanced_rank"
+  ],
+  "objectives": [
+    "micro_exact",
+    "balanced_exact"
+  ],
+  "steps": 40,
+  "lr": 0.003,
+  "reg": 0.01,
+  "width": 32,
+  "chunk": 64,
+  "ranking_coefficient": 1.0,
+  "hypothesis": "Only94complete-source multi-label training rows versus4790singletons; parent fits2/94multi sets. Source-balanced mass and hard-positive ranking may improve complete-set learning.",
+  "parent_arm": "masked_bce",
+  "parent": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round03_partial_labels",
+  "initialization": "same frozen parent checkpoint per seed; fresh Adam for every arm; keep original regularization anchor",
+  "continuation_control": "continued_bce: same original weighted maskedBCE plus40steps, distinguishes extra optimization from intervention",
+  "balanced_bce": "source complete singleton/multi row mass each50%; preserve total complete-source mass, property weighting, source partial and all target weights",
+  "balanced_rank": "balanced_bce plus coefficient1 LSEP Eq7 on observed positive-negative pairs; partial target has no negative cells and contributes no ranking loss",
+  "scope": "Same frozen old inputs and policy decoder; round04geography changes excluded to isolate training changes",
+  "threshold": "exact source-only calibration on[0,1]; both micro and balanced objectives reported; never select by Shenzhen scores",
+  "validation": "same1246source spatial holdout rows,60multi; already used for development, not independent confirmation",
+  "source_negative_labels_only": true,
+  "target_gold_read": false,
+  "target_polygons_read": false,
+  "target_cardinality_used": false,
+  "independent_validation": false,
+  "adopted": false,
+  "research": {
+    "url": "https://arxiv.org/pdf/1704.03135",
+    "sections_read": "3.1,3.2,3.3; equation7",
+    "adaptation": "Exact all-pair factorization, BCE retained for absolute probability calibration; no label-decision neural module or full paper reproduction."
+  },
+  "comparison": "Both districts/allseeds; strict1761fixedmap-hit set,FP/FN,corrected/harmed,spatialintervals. Compare to matched continuedBCE and frozen parent."
+}

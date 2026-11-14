@@ -1,0 +1,12 @@
+{
+  "url": "https://mp.weixin.qq.com/s/_qSyJd34ogOjKTpRKSMe6g",
+  "fetched_on": "2026-11-11",
+  "status_code": 200,
+  "final_url": "https://mp.weixin.qq.com/mp/wappoc_appmsgcaptcha?poc_token=HJdF82qja03wOiZaqFeZ5-a3c4EsoKUJqr9TJD45&target_url=https%3A%2F%2Fmp.weixin.qq.com%2Fs%2F_qSyJd34ogOjKTpRKSMe6g",
+  "content_type": "text/html; charset=UTF-8",
+  "local_file": "网页原件/dd41665b370868a2.html",
+  "sha256": "aa2f5a7580d198f61f454f4d1c41d5a589bf04cf7176a8fd59a2dc5fd2218c2f",
+  "title": "",
+  "admission_links": [],
+  "content_status": "captcha_page_not_article"
+}

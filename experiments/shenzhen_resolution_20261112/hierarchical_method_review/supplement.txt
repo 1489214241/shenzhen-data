@@ -1,0 +1,78 @@
+A    Decision Boundaries
+
+
+
+
+               (a)                              (b)                              (c)
+
+Figure 5: Figure 5a: Decision boundaries for class B of f + when R1 \ R2 = ;. Figure 5b: Decision
+boundaries for class B of f + when R1 \ R2 = R1 . Figure 5c: Decision boundaries for class B of
+f + when R1 \ R2 62 {;, R1 }.
+
+
+
+
+               (a)                              (b)                              (c)
+
+Figure 6: Figure 6a: Decision boundaries for class B of g + when R1 \ R2 = ;. Figure 6b: Decision
+boundaries for class B of g + when R1 \ R2 = R1 . Figure 6c: Decision boundaries for class B of g +
+when R1 \ R2 62 {;, R1 }.
+
+
+
+
+               (a)                              (b)                              (c)
+
+Figure 7: Figure 7a: Decision boundaries for class B of C-HMCNN(h) when R1 \ R2 = ;.
+Figure 7b: Decision boundaries for class B of C-HMCNN(h) when R1 \ R2 = R1 . Figure 7c:
+Decision boundaries for class B of C-HMCNN(h) when R1 \ R2 62 {;, R1 }.
+
+
+B    Experimental Analysis Details
+In this section, we provide more details about the conducted experimental analysis. As stated in
+the paper, across the different experiments, we kept all hyperparameters fixed with the exception of
+the hidden dimension and the learning rate, which are reported in the first two columns of Table 4.
+The other hyperparameters were determined by searching the best hyperparameters configuration
+on the Funcat datasets; we then took the configuration that led to the best results on the highest
+
+
+                                                13
+Table 4: Hidden dimension used for each dataset, learning rate used for each dataset, and average
+inference time per batch in milliseconds (ms). Average computed over 500 batches for each dataset.
+
+         DATASET               Hidden Dimension        Learning Rate    Time per batch (ms)
+         C ELLCYCLE FUN                500                 10  4
+                                                                                2.0
+         D ERISI FUN                  500                  10 4                 2.0
+         E ISEN FUN                    500                 10 4                 1.7
+         E XPR FUN                    1000                 10 4                 1.9
+         G ASCH 1 FUN                 1000                 10 4                 2.0
+         G ASCH 2 FUN                  500                 10 4                 2.8
+         S EQ FUN                     2000                 10 4                 2.0
+         S PO FUN                      250                 10 4                 1.6
+         C ELLCYCLE GO                1000                 10 4                 2.4
+         D ERISI GO                   500                  10 4                 2.5
+         E ISEN GO                     500                 10 4                 3.4
+         E XPR GO                     4000                 10 5                 3.9
+         G ASCH 1 GO                   500                 10 4                 2.5
+         G ASCH 2 GO                   500                 10 4                 2.8
+         S EQ GO                      9000                 10 5                 2.6
+         S PO GO                       500                 10 4                 3.3
+         D IATOMS                     2000                 10 5                 2.0
+         E NRON                       1000                 10 5                 3.6
+         I MCLEF 07 A                 1000                 10 5                 3.4
+         I MCLEF 07 D                 1000                 10 5                 2.9
+
+
+number of datasets. The hyperparameter values taken in consideration were: (i) learning rate:
+[10 3 , 10 4 , 10 5 ], (ii) batch size: [4, 64, 256], (iii) dropout: [0.6, 0.7], and (iv) weight decay:
+[10 3 , 10 5 ]. Concerning the hidden dimension, we took into account all possible dimensions from
+250 to 2000 with step equal to 250, and from 2000 to 10000 with step 1000. The last column of
+Table 4 shows the average inference time per batch in milliseconds. The average is computed over
+500 batches for each dataset. All experiments were run on an Nvidia Titan Xp with 12 GB memory.
+
+
+
+
+                                                  14
+

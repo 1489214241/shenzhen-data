@@ -1,0 +1,37 @@
+{
+  "version": "20261111_base_scope_rules_v1",
+  "districts": [
+    {
+      "district": "龙华区",
+      "schools": 71,
+      "relations": 21,
+      "relation_types": {
+        "shared": 14,
+        "university": 1,
+        "base_scope": 2,
+        "eligibility": 2,
+        "pending": 2
+      },
+      "sites": 628,
+      "policy_supported_sites": 0,
+      "policy_multischool_sites": 0,
+      "model_predictions_run": false
+    },
+    {
+      "district": "龙岗区",
+      "schools": 131,
+      "relations": 37,
+      "relation_types": {
+        "shared": 31,
+        "pending": 6
+      },
+      "sites": 1174,
+      "policy_supported_sites": 32,
+      "policy_multischool_sites": 11,
+      "model_predictions_run": false
+    }
+  ],
+  "raw_gold_changed": false,
+  "model_training_rerun": false,
+  "pending": "缺少道路/行政范围或分期身份的条款保持unknown；模型推断的共享集合不作为核验训练标签"
+}

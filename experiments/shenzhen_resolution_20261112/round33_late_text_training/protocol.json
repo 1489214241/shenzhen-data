@@ -1,0 +1,63 @@
+{
+  "sources": [
+    "天心区",
+    "芙蓉区",
+    "雨花区",
+    "开福区",
+    "拱墅区",
+    "萧山区",
+    "富阳区",
+    "临安区"
+  ],
+  "targets": [
+    "龙华区",
+    "龙岗区"
+  ],
+  "seeds": [
+    20261131,
+    20261132,
+    20261133,
+    20261134,
+    20261135,
+    20261136,
+    20261137,
+    20261138,
+    20261139,
+    20261140
+  ],
+  "steps": 40,
+  "lr": 0.003,
+  "reg": 0.01,
+  "width": 32,
+  "chunk": 64,
+  "ranking_coefficient": 1.0,
+  "source_gate": {
+    "min_multi_correct": 8,
+    "min_single_correct": 901,
+    "min_attainable_multi": 18,
+    "objective": "balanced_exact",
+    "purpose": "Only determines whether to proceed to a separately frozen target test."
+  },
+  "arms": [
+    "scalar_control",
+    "textual_labels",
+    "textual_references"
+  ],
+  "primary_decoder": "relative",
+  "primary_objective": "balanced_exact",
+  "control": "Reuse round32 features_labels checkpoints and source probabilities, renamed scalar_control for reporting. It retains the7 official negatives and repaired negative features.",
+  "textual_labels": "19 previously unused textual positive labels,7new training locations. Target features and references identical to control.",
+  "textual_references": "Same19positive labels plus19reference pairs;6more schools covered,7new reference locations. Withdraw3old singleton border-support locations now known to have extra positives; no new partial labels become negative border evidence.",
+  "geometry": "12late geographic-estimate relations remain held; they are not mixed into textual supervision or reference extension.",
+  "source_bank": "Identical full source multireference bank, labels and weights to round32. This differs from the959development incumbent; target comparison with that incumbent remains required.",
+  "weights": "All original source/target weights bitwise preserved;7new independent property groups receive original10/5211mass each.",
+  "source_selection": "Only textual_references_relative may advance: original gate AND balanced_exact >= BOTH scalar_control and textual_labels AND both stress exact counts >= BOTH controls. No fallback to secondary arm/decoder.",
+  "target_rule": "Only after source audit passes, separately freeze target predictions with identical cumulative textual facts, prior geographic supplements and exclusions for ALL comparators; compare matched controls and959development incumbent.",
+  "calibration": "Original1246source development rows only;1186single60multi. Reused, not independent confirmation.",
+  "no_target_gold": true,
+  "no_target_polygon": true,
+  "no_target_cardinality": true,
+  "target_predictions_generated": false,
+  "independent_validation": false,
+  "adopted": false
+}

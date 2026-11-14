@@ -1,0 +1,62 @@
+{
+  "sources": [
+    "天心区",
+    "芙蓉区",
+    "雨花区",
+    "开福区",
+    "拱墅区",
+    "萧山区",
+    "富阳区",
+    "临安区"
+  ],
+  "targets": [
+    "龙华区",
+    "龙岗区"
+  ],
+  "seeds": [
+    20261131,
+    20261132,
+    20261133,
+    20261134,
+    20261135,
+    20261136,
+    20261137,
+    20261138,
+    20261139,
+    20261140
+  ],
+  "steps": 40,
+  "lr": 0.003,
+  "reg": 0.01,
+  "width": 32,
+  "chunk": 64,
+  "ranking_coefficient": 1.0,
+  "source_gate": {
+    "min_multi_correct": 8,
+    "min_single_correct": 901,
+    "min_attainable_multi": 18,
+    "objective": "balanced_exact",
+    "purpose": "Only determines whether to proceed to a separately frozen target test."
+  },
+  "arms": [
+    "scalar_control",
+    "hierarchy_loss"
+  ],
+  "primary_decoder": "relative",
+  "primary_objective": "balanced_exact",
+  "intervention": "Replace target positive-only masked BCE with masked max-constraint loss. Source identity relations keep BCE exactly unchanged. LSEP and regularizer unchanged.",
+  "mechanism_limit": "No target negatives: cannot directly train down an unknown/wrong target-school logit; positive supervision can delegate to another observed positive.",
+  "hierarchy": "77 proved round27 direct scope edges; graph already transitively closed. Self edges included. Equality cycles allowed. No new policy relations or labels.",
+  "source_hierarchy": "Identity only. Conservative full-scope exact-clause probe found no nontrivial edges; not proof that no local shared scopes exist.",
+  "control": "Reuse audited round24 scalar_control, same full-reference inputs, round06 parent, fresh Adam, 40 steps, 10 seeds, labels, weights, capacity.",
+  "source_gate_rule": "Relative decoder must pass original gate, balanced_exact >= matched control, and exact counts on BOTH held-out support stress views >= control. Absolute results secondary, no fallback.",
+  "target_rule": "No target inference in this script. Passing source gate permits a separately frozen trial with max projection, original university restrictions and identical round29 factual supplements.",
+  "reference_bank": "round16 all_multi_training",
+  "research": "C-HMCNN NeurIPS2020 Eq4 adapted to partial observed labels, not exact reproduction. Paper full hierarchy labels/AU(PRC) differ from our setting.",
+  "source_validation": "1246 reused development rows; not independent confirmation.",
+  "no_target_gold": true,
+  "no_target_polygon": true,
+  "no_target_cardinality": true,
+  "target_predictions_generated": false,
+  "adopted": false
+}

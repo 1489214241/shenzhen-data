@@ -1,0 +1,28 @@
+{
+  "url": "https://ftml.szftedu.cn/",
+  "fetched_on": "2026-11-11",
+  "status_code": 200,
+  "final_url": "https://ftml.szftedu.cn/",
+  "content_type": "text/html",
+  "local_file": "网页原件/c1c110040baf93c0.html",
+  "sha256": "92b39f621dec746049159b6911ca59007203b7f493899b39318ad80279134885",
+  "title": "梅丽小学",
+  "admission_links": [
+    {
+      "title": "招生信息",
+      "url": "https://ftml.szftedu.cn/zszp_564/"
+    },
+    {
+      "title": "福田区梅丽小学关于2025年秋季转学插班公告 根据《广东省教育厅关于中小学生学籍管理的实施细则(试行)》(粤教基〔2014〕24号)及市区教育部门相关要求，现将我校2025年秋季转学插班工作公告如下: ... 2025-07-07",
+      "url": "https://ftml.szftedu.cn/xyzx_532/gg/tzgg_537/202507/t20250707_169663.html"
+    },
+    {
+      "title": "福田区梅丽小学关于2024年秋季转学插班公告",
+      "url": "https://ftml.szftedu.cn/xyzx_532/gg/tzgg_537/202407/t20240707_164868.html"
+    },
+    {
+      "title": "福田区梅丽小学关于2023年秋季转学插班公告",
+      "url": "https://ftml.szftedu.cn/xyzx_532/gg/tzgg_537/202307/t20230709_159297.html"
+    }
+  ]
+}

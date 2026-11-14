@@ -1,0 +1,74 @@
+Binary Classifier
+Given the embedding (hes , heo ) of an entity pair es , eo com-
+puted by equation (2), we map the entities to hidden states
+z with a linear layer followed by non-linear activation, then
+calculate the probability of relation r by bilinear function and
+sigmoid activation. This process is formulated as:
+                        zs = tanh (Ws hes ) ,               (3)
+                        zo = tanh (Wo heo ) ,               (4)           Figure 2: An artificial illustration of our proposed adaptive-
+                                                                          thresholding loss. A TH class is introduced to separate posi-
+             P (r|es , eo ) = σ (zs| Wr zo + br ) ,                       tive classes and negative classes: positive classes would have
+where Ws ∈ Rd×d , Wo ∈ Rd×d , Wr ∈ Rd×d , br ∈ R                          higher probabilities than TH, and negative classes would
+are model parameters. The representation of one entity is                 have lower probabilities than TH.
+the same among different entity pairs. To reduce the number
+of parameters in the bilinear classifier, we use the group
+bilinear (Zheng et al. 2019; Tang et al. 2020b), which splits              • negative classes NT ⊆ R are the relations that do not exist
+the embedding dimensions into k equal-sized groups and                       between the entities. If T does not express any relation,
+applies bilinear within the groups:                                          NT = R.
+           1                                                             If an entity pair is classified correctly, the logits of positive
+           zs ; ...; zsk = zs ,
+                        
+           1                                                             classes should be higher than the threshold while those of neg-
+           zo ; ...; zok = zo ,
+                        
+                                                                          ative classes should be lower. Here we introduce a threshold
+                                k
+                                                 !                        class TH, which is automatically learned in the same way as
+                                                                          other classes (see Eq.(5)). At the test time, we return classes
+                                X
+                                   i|   i i
+          P (r|es , eo ) = σ      zs Wr zo + br ,        (5)
+                              i=1
+                                                                          with higher logits than the TH class as positive classes or
+                                                                          return NA if such classes do not exist. This threshold class
+where Wri ∈ Rd/k×d/k for i = 1...k are model parameters,                  learns an entities-dependent threshold value. It is a substi-
+P (r|es , eo ) is the probability that relation r is associated           tute for the global threshold and thus eliminates the need for
+with the entity pair (es , eo ). In this way, we can reduce the           tuning threshold on the development set.
+number of parameters from d2 to d2 /k. We use the binary                     To learn the new model, we need a special loss func-
+cross entropy loss for training. During inference, we tune                tion that considers the TH class. We design our adaptive-
+a global threshold θ that maximizes evaluation metrics (F1                thresholding loss based on the standard categorical cross
+score for RE) on the development set and return r as an                   entropy loss. The loss function is broken down to two parts
+associated relation if P (r|es , eo ) > θ or return NA if no              as shown below:
+relation exists.                                                                                                                       !
+   Our enhanced base model achieves near state-of-the-art
+                                                                                         X                      exp (logitr )
+                                                                               L1 = −         log P                                      ,
+performance in our experiments, significantly outperforms                               r∈PT             r 0 ∈PT ∪{TH} exp (logitr 0 )
+existing BERT baselines.                                                                                                        !
+                                                                                                        exp (logitTH )
+                                                                               L2 = − log P                                       ,
+                Adaptive Thresholding                                                             r 0 ∈NT ∪{TH} exp (logitr 0 )
+The RE classifier outputs the probability P (r|es , eo ) within
+                                                                               L = L1 + L2 .
+the range [0, 1], which needs thresholding to be converted to
+relation labels. As the threshold neither has a closed-form               The first part L1 involves positive classes and the TH class.
+solution nor is differentiable, a common practice for deciding            Since there may be multiple positive classes, the total loss
+threshold is enumerating several values in the range (0, 1)               is calculated as the sum of categorical cross entropy losses
+and picking the one that maximizes the evaluation metrics                 on all positive classes (Menon et al. 2019; Reddi et al. 2019).
+(F1 score for RE). However, the model may have different                  L1 pushes the logits of all positive classes to be higher than
+confidence for different entity pairs or classes in which one             the TH class. It is not used if there is no positive label. The
+global threshold does not suffice. The number of relations                second part L2 involves the negative classes and threshold
+varies (multi-label problem) and the models may not be glob-              class. It is a categorical cross entropy loss with TH class
+ally calibrated so that the same probability does not mean                being the true label. It pulls the logits of negative classes to
+the same for all entity pairs. This problem motivates us to               be lower than the TH class. Two parts are simply summed
+replace the global threshold with a learnable, adaptive one,              for the total loss.
+which can reduce decision errors during inference.                           The proposed adaptive-thresholding loss is illustrated in
+   For the convenience of explanation, we split the labels of             Figure 2. It obtains a large performance gain to the global
+entity pair T = (es , eo ) into two subsets: positive classes PT          threshold in our experiments.
+and negative classes NT , which are defined as follows:
+ • positive classes PT ⊆ R are the relations that exist be-                             Localized Context Pooling
+   tween the entities in T . If T does not express any relation,          The logsumexp pooling (see Eq. (2)) accumulates the em-
+   PT is empty.                                                           bedding of all mentions for an entity across the whole docu-
+
+
+                                                                  14614

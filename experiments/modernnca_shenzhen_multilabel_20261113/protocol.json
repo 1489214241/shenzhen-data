@@ -1,0 +1,77 @@
+{
+  "date": "2026-11-13",
+  "backbone": "ModernNCA-LN full-evidence relation adapter, dim32, all legal references, no SNS/top-k or RetrievalScorer weights",
+  "methods": [
+    "categorical",
+    "multilabel"
+  ],
+  "arms": [
+    "categorical_raw",
+    "categorical_policy",
+    "multilabel_raw",
+    "multilabel_policy"
+  ],
+  "sources": [
+    "天心区",
+    "芙蓉区",
+    "雨花区",
+    "开福区",
+    "拱墅区",
+    "萧山区",
+    "富阳区",
+    "临安区"
+  ],
+  "targets": [
+    "龙华区",
+    "龙岗区"
+  ],
+  "seeds": [
+    20261231,
+    20261232,
+    20261233
+  ],
+  "selection_seed": 20261230,
+  "grid": [
+    {
+      "lr": 0.001,
+      "reg": 0.001
+    },
+    {
+      "lr": 0.001,
+      "reg": 0.01
+    },
+    {
+      "lr": 0.003,
+      "reg": 0.001
+    },
+    {
+      "lr": 0.003,
+      "reg": 0.01
+    }
+  ],
+  "checkpoints": [
+    40,
+    80,
+    160,
+    320
+  ],
+  "minibatch": 64,
+  "inference_chunk": 64,
+  "clip": 5.0,
+  "dim": 32,
+  "categorical": "Same ModernNCA categorical probabilities. Mean native NLL across observed positives (equivalent repeated single-label questions with split weight), argmax output. Same underlying positive relations, not historical singleton-only training reproduction.",
+  "multilabel": "Same token logits and school aggregation before across-school normalization, plus a shared binary bias. Masked BCE on observed cells; unknown cells have zero loss; no expected target cardinality.",
+  "supervision": "Reuse frozen complete source labels and partial target positives from round03, identical admissions/folds across methods. Same-property weighting; source complete single/multi mass balanced50/50 for BOTH methods. No new target facts promoted into training.",
+  "validation": "Existing 1246 source spatial holdout rows. Model selection uses mean of single/multi exact rates, then micro exact, fewer FP, earlier step. Each method same four-trial320-step cap; no post-target tuning. Boundary optimum is reported as unresolved optimization.",
+  "threshold": "Exact source-validation balanced-exact threshold selected for multilabel at each selection checkpoint; final threshold recalibrated from final three-seed SOURCE ensemble only. Categorical uses argmax.",
+  "policy": "Both methods receive identical current decoder, university base-only handling, nontransitive scope implications, partial-positive lower bounds and cumulative reviewed supplements. Raw outputs separately reported; policy does NOT use target map geometry.",
+  "target_input": "Same current Shenzhen feature/reference inputs as retained community comparison. Source school anchors preserve zero-support candidates.",
+  "scoring": "Same1761 map-hit coordinate groups;41 outside-map rows output but not scored. Full-set exact, single/multi, districts, FP/FN, precision/recall, corrected/harmed; district-stratified1km bootstrap3000.",
+  "primary": "multilabel_policy minus categorical_policy",
+  "secondary": "multilabel_raw minus categorical_raw; policy on/off for each method; incumbent959 is historical context with different training protocol",
+  "status": "Exploratory development experiment; no automatic adoption. No target Gold/geometry/label cardinality in selection or inference. Existing source holdout and target geography are not independent unseen validation.",
+  "target_gold_read": false,
+  "target_polygons_read": false,
+  "adopted": false,
+  "independent_validation": false
+}

@@ -1,0 +1,13 @@
+{
+  "version": "20261111-public",
+  "active_districts": [
+    "龙华区",
+    "龙岗区"
+  ],
+  "historical_districts": [
+    "福田区",
+    "南山区"
+  ],
+  "dataset_path": "../../../..",
+  "publication_layout": "district folders at repository root"
+}

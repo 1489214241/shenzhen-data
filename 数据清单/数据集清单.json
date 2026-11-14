@@ -1,0 +1,58 @@
+{
+  "version": "20261111",
+  "active_districts": [
+    "龙华区",
+    "龙岗区"
+  ],
+  "school_count": 202,
+  "districts": [
+    {
+      "district": "龙华区",
+      "candidate_raw_records": 629,
+      "candidate_coordinate_groups": 628,
+      "published_building_records": 628,
+      "gold_coordinate_groups": 627,
+      "school_count": 71,
+      "unique_original_map_records": 70,
+      "official_text_matched_schools": 71,
+      "unique_school_groups": 222,
+      "multiple_school_groups": 405,
+      "outside_groups": 1,
+      "unknown_groups": 0,
+      "geometry_valid": 51,
+      "hit_count_distribution": {
+        "2": 269,
+        "6": 22,
+        "1": 222,
+        "3": 72,
+        "4": 21,
+        "5": 21,
+        "0": 1
+      }
+    },
+    {
+      "district": "龙岗区",
+      "candidate_raw_records": 1175,
+      "candidate_coordinate_groups": 1174,
+      "published_building_records": 1135,
+      "gold_coordinate_groups": 1134,
+      "school_count": 131,
+      "unique_original_map_records": 131,
+      "official_text_matched_schools": 131,
+      "unique_school_groups": 581,
+      "multiple_school_groups": 553,
+      "outside_groups": 40,
+      "unknown_groups": 0,
+      "geometry_valid": 72,
+      "hit_count_distribution": {
+        "1": 581,
+        "2": 325,
+        "3": 200,
+        "5": 2,
+        "4": 26,
+        "0": 40
+      }
+    }
+  ],
+  "training_dataset_ready": false
+}

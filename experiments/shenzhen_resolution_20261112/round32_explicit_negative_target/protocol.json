@@ -1,0 +1,63 @@
+{
+  "round": 32,
+  "arms": [
+    "scalar_control",
+    "features_only",
+    "features_labels"
+  ],
+  "seeds": [
+    20261131,
+    20261132,
+    20261133,
+    20261134,
+    20261135,
+    20261136,
+    20261137,
+    20261138,
+    20261139,
+    20261140
+  ],
+  "objectives": [
+    "micro_exact",
+    "balanced_exact"
+  ],
+  "primary_arm": "features_labels",
+  "primary_objective": "balanced_exact",
+  "decoder": "relative",
+  "source_gate_passed": true,
+  "training_steps": 0,
+  "comparisons": [
+    [
+      "features_only",
+      "scalar_control"
+    ],
+    [
+      "features_labels",
+      "scalar_control"
+    ],
+    [
+      "features_labels",
+      "features_only"
+    ],
+    [
+      "features_labels",
+      "best_development"
+    ],
+    [
+      "features_labels",
+      "parser_repaired_development"
+    ]
+  ],
+  "intervention": "Matched three-arm source-trained checkpoints; scalar original input, features_only and features_labels identical repaired target features.",
+  "policy": "Identical round31 supplements: original university areas, explicit shared rules, original-root graph, community, roads, residential, joint, named facts and whole-scope exclusions.",
+  "supplement_audit": "All88 frozen predecessor files and79288 rows reproduced without Gold.",
+  "reference": "best_development is round31 round07; parser_repaired_development is round31 round12. Both descriptive historical comparators, not matched training controls.",
+  "threshold": "Frozen source-only selection for each model arm and objective; no target threshold or cardinality tuning.",
+  "output_nonempty": "Abort if official exclusions empty any predicted set; do not select a new fallback after exclusion.",
+  "scored_sites": 1761,
+  "unscored_sites": 41,
+  "target_gold_read": false,
+  "target_polygon_read": false,
+  "independent_validation": false,
+  "adopted": false
+}

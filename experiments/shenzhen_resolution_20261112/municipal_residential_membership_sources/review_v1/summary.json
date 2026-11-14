@@ -1,0 +1,23 @@
+{
+  "coverage": {
+    "龙华区": {
+      "new_membership_sites": 4,
+      "school_relations": 10,
+      "applicable_sites": 2,
+      "supported_schools": 8
+    },
+    "龙岗区": {
+      "new_membership_sites": 10,
+      "school_relations": 6,
+      "applicable_sites": 3,
+      "supported_schools": 6
+    }
+  },
+  "decisions": {
+    "no_exact_dataset_entity": 22,
+    "accepted_dated_membership": 14,
+    "pending_entity_identity": 30,
+    "duplicate_existing_fact": 8
+  },
+  "scope": "Exact entity source membership supplement only; no new model training or complete labels."
+}

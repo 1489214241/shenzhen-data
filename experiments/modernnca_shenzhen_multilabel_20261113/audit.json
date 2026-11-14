@@ -1,0 +1,158 @@
+{
+  "passed": true,
+  "output_rows_checked": 28832,
+  "reloaded_target_probability_arrays_bitwise_equal": 12,
+  "independent_correct_counts": {
+    "categorical_raw": {
+      "ensemble": 578,
+      "20261231": 557,
+      "20261232": 574,
+      "20261233": 573
+    },
+    "categorical_policy": {
+      "ensemble": 898,
+      "20261231": 874,
+      "20261232": 901,
+      "20261233": 887
+    },
+    "multilabel_raw": {
+      "ensemble": 552,
+      "20261231": 544,
+      "20261232": 532,
+      "20261233": 529
+    },
+    "multilabel_policy": {
+      "ensemble": 702,
+      "20261231": 673,
+      "20261232": 684,
+      "20261233": 676
+    }
+  },
+  "source_threshold_recount": 862,
+  "source_train_validation_groups_disjoint": true,
+  "target_unknown_not_negative": true,
+  "target_no_validation_labels": true,
+  "original_gold_unchanged": true,
+  "adopted": false,
+  "cardinality_diagnostics": {
+    "categorical_raw": {
+      "1": {
+        "n": 803,
+        "correct": 578,
+        "exact": 71.98007471980074,
+        "fp": 225,
+        "fn": 225,
+        "precision": 0.7198007471980075,
+        "recall": 0.7198007471980075
+      },
+      "2": {
+        "n": 594,
+        "correct": 0,
+        "exact": 0.0,
+        "fp": 132,
+        "fn": 726,
+        "precision": 0.7777777777777778,
+        "recall": 0.3888888888888889
+      },
+      "3": {
+        "n": 364,
+        "correct": 0,
+        "exact": 0.0,
+        "fp": 67,
+        "fn": 954,
+        "precision": 0.8159340659340659,
+        "recall": 0.23741007194244604
+      }
+    },
+    "categorical_policy": {
+      "1": {
+        "n": 803,
+        "correct": 574,
+        "exact": 71.48194271481943,
+        "fp": 313,
+        "fn": 212,
+        "precision": 0.6537610619469026,
+        "recall": 0.7359900373599004
+      },
+      "2": {
+        "n": 594,
+        "correct": 226,
+        "exact": 38.04713804713805,
+        "fp": 219,
+        "fn": 460,
+        "precision": 0.7687434002111933,
+        "recall": 0.6127946127946128
+      },
+      "3": {
+        "n": 364,
+        "correct": 98,
+        "exact": 26.923076923076923,
+        "fp": 146,
+        "fn": 557,
+        "precision": 0.8261904761904761,
+        "recall": 0.5547561950439648
+      }
+    },
+    "multilabel_raw": {
+      "1": {
+        "n": 803,
+        "correct": 414,
+        "exact": 51.55666251556662,
+        "fp": 503,
+        "fn": 175,
+        "precision": 0.5552608311229,
+        "recall": 0.7820672478206725
+      },
+      "2": {
+        "n": 594,
+        "correct": 79,
+        "exact": 13.299663299663301,
+        "fp": 421,
+        "fn": 605,
+        "precision": 0.5806772908366534,
+        "recall": 0.49074074074074076
+      },
+      "3": {
+        "n": 364,
+        "correct": 59,
+        "exact": 16.208791208791208,
+        "fp": 270,
+        "fn": 610,
+        "precision": 0.703622392974753,
+        "recall": 0.5123900879296562
+      }
+    },
+    "multilabel_policy": {
+      "1": {
+        "n": 803,
+        "correct": 414,
+        "exact": 51.55666251556662,
+        "fp": 616,
+        "fn": 166,
+        "precision": 0.5083798882681564,
+        "recall": 0.7932752179327521
+      },
+      "2": {
+        "n": 594,
+        "correct": 193,
+        "exact": 32.49158249158249,
+        "fp": 524,
+        "fn": 440,
+        "precision": 0.5880503144654088,
+        "recall": 0.6296296296296297
+      },
+      "3": {
+        "n": 364,
+        "correct": 95,
+        "exact": 26.098901098901102,
+        "fp": 362,
+        "fn": 458,
+        "precision": 0.6865800865800866,
+        "recall": 0.6338928856914469
+      }
+    }
+  },
+  "torch": "2.6.0+cu118",
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 3070 Laptop GPU"
+}

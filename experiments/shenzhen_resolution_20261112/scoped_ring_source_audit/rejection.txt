@@ -1,0 +1,3 @@
+Rejected source-only draft. No model inputs or predictions were generated from this version.
+Full 202-school review found unsafe splits of a park direction and an administrative boundary from a ring; phase enumeration fragmentation; and regression in an enumerated school-scope exclusion.
+Retained parser_rejected.py and tests_rejected.py identify the old implementation. Follow-up audit must use a new output directory.

@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "shapely_checked_valid_polygon_pairs": 84528,
+  "shapely_disagreements": [],
+  "longhua_original_browser_replay_equal": null,
+  "all_school_ids_unique": true,
+  "source_records_preserved": true
+}

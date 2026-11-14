@@ -1,0 +1,28 @@
+{
+  "schema": "shenzhen_point_gold_release_v2",
+  "version": "20261111",
+  "active_districts": [
+    "龙华区",
+    "龙岗区"
+  ],
+  "historical_districts": [
+    "福田区",
+    "南山区"
+  ],
+  "reference": "长沙市/芙蓉区/标准数据_20261018/manifest.json",
+  "target": "official_map_point_membership",
+  "gold_definition": "代表点命中所选官方原始MAPDATA路径的全部学校/校区集合；不是最终录取或全部申请资格",
+  "coordinate_system": "BD-09原生点与路径；WGS84派生点仅供地理工具",
+  "point_predicate": "captured_official_BMapLib.GeoUtils.isPointInPolygon_offline_replay",
+  "all_hits_preserved": true,
+  "geometry_repair": false,
+  "invalid_polygon_filter": false,
+  "extra_policy_application_expanded": false,
+  "campus_split": "观湖和高新共享原合并路径，各有独立学校ID；华仁沿用合名路径，华美保留已有独立路径",
+  "minle_excluded": true,
+  "unknown_is_negative": false,
+  "full_policy_scope_spatial_review_complete": false,
+  "known_base_scope_exception": "华东师范大学附属深圳龙华学校教育集团原polygon混入电脑派位范围；原图标签保留，不能当作核准基础学区Gold",
+  "predictive_inputs_exclude_polygons_and_gold": true,
+  "model_training_package_ready": false
+}

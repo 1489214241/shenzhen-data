@@ -1,0 +1,50 @@
+{
+  "candidate": "all_multi_training_relative",
+  "control": "control_absolute",
+  "arms": [
+    "control_absolute",
+    "all_multi_training_absolute",
+    "all_multi_training_relative"
+  ],
+  "model_banks": {
+    "control_absolute": "control",
+    "all_multi_training_absolute": "all_multi_training",
+    "all_multi_training_relative": "all_multi_training"
+  },
+  "decoders": {
+    "control_absolute": "absolute",
+    "all_multi_training_absolute": "absolute",
+    "all_multi_training_relative": "relative"
+  },
+  "seeds": [
+    20261131,
+    20261132,
+    20261133,
+    20261134,
+    20261135,
+    20261136,
+    20261137,
+    20261138,
+    20261139,
+    20261140
+  ],
+  "objectives": [
+    "micro_exact",
+    "balanced_exact"
+  ],
+  "primary": "balanced_exact",
+  "source_gate_passed": true,
+  "source_input_intervention_only": false,
+  "target_inputs": "F:\\学区划片描述\\学区归属模型_代码库\\data\\深圳市\\边界合取修复模型输入_20261112",
+  "same_parent_steps_seeds_losses_and_target_inputs": true,
+  "policy": "Same original-area university restriction, direct partial positives, scope implications, round07 community facts, round13 road estimates.",
+  "comparison": "Absolute candidate versus absolute control isolates references; relative versus same-bank absolute isolates decoding. Combined candidate versus control changes both when relative is enabled. Previous native/latest and best-development are descriptive comparisons.",
+  "seed_reporting": "Per-seed district, single/multi, exact/FP/FN and corrected/harmed; spatial confidence intervals for ensemble.",
+  "target_gold_read": false,
+  "target_polygon_read": false,
+  "target_cardinality_used": false,
+  "scored": 1761,
+  "unscored": 41,
+  "independent_validation": false,
+  "adopted": false
+}

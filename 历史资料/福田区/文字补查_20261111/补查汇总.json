@@ -1,0 +1,13 @@
+{
+  "total": 78,
+  "first_pass_searched": 78,
+  "map_text_present": 77,
+  "independent_before": 12,
+  "independent_after": 21,
+  "newly_paired_schools": 9,
+  "still_without_independent": 57,
+  "third_party_table_rows": 59,
+  "third_party_linked_schools": 64,
+  "draft_schools": 2,
+  "exhaustive_web_coverage_claimed": false
+}

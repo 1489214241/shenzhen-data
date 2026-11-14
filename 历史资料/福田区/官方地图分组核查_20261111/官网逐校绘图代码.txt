@@ -1,0 +1,82 @@
+来源：https://zs.szft.gov.cn/visitftgbxyxqdt
+获取日期：2026-11-11
+
+	function otherotherxx() {
+
+		for (var i = 0; i < otherxx.length; i++) {
+
+			var label = new BMap.Label((otherxx[i].MC||""), {offset: new BMap.Size( 10, 25)});			//创建气球下方名称标签
+
+		    label.setStyle({borderColor: "gray",color: "green"});		    
+
+			var spointtemp = new BMap.Point(otherxx[i].POINTX, otherxx[i].POINTY);
+
+			var smarkertemp = new BMap.Marker(spointtemp);
+
+			smarkertemp.setLabel(label);
+
+			map.addOverlay(smarkertemp);
+
+			var ps = [];
+
+			var borderpointstemp = eval(otherxx[i].MAPDATA);
+
+			for (var j = 0; j < borderpointstemp.length; j++) {
+
+				var point = new BMap.Point(borderpointstemp[j].x, borderpointstemp[j].y);
+
+				ps.push(point);
+
+			}
+
+			var plyname = "polygon" + i;
+
+			ply_event(plyname, ps, i);
+
+		}
+
+	}
+
+	function ply_event(plyname, zps, i) {		
+
+	    plyname = new BMap.Polygon(zps, {
+
+			strokeColor : "red",
+
+			strokeWeight : 3.3,
+
+			strokeOpacity : 1,
+
+			fillColor : "white",
+
+			fillOpacity : 0.001,
+
+			strokeStyle : "dashed"
+
+		});
+
+		map.addOverlay(plyname);
+
+		plyname.addEventListener("mouseover", function() {
+
+			w = i;
+
+		});
+
+		plyname.addEventListener("mousemove", function() {
+
+			w = i;
+
+		});
+
+		plyname.addEventListener("mouseout", function() {
+
+			w = -1;
+
+		});
+
+	}
+
+
+
+	//搜索学校

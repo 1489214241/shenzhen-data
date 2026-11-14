@@ -1,0 +1,24 @@
+{
+  "districts": {
+    "龙华区": {
+      "schools": 71,
+      "sites": 628,
+      "positive_composed_without_cardinal_or_reference": 142,
+      "schools_with_hidden_composed": 16,
+      "regained_hits_without_K8": 0,
+      "schools_with_K8_withdrawal": 0
+    },
+    "龙岗区": {
+      "schools": 131,
+      "sites": 1174,
+      "positive_composed_without_cardinal_or_reference": 41,
+      "schools_with_hidden_composed": 11,
+      "regained_hits_without_K8": 5,
+      "schools_with_K8_withdrawal": 1
+    }
+  },
+  "target_gold_read": false,
+  "target_polygon_read": false,
+  "interpretation": "Only a flow audit. Composed estimates may use office proxies; cardinal/reference absence does not imply all model features lack information.",
+  "adopted": false
+}

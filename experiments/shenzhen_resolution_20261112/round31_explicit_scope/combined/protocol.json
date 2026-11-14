@@ -1,0 +1,48 @@
+{
+  "round": 31,
+  "variant": "combined",
+  "arms": [
+    "round07",
+    "round12"
+  ],
+  "objectives": [
+    "micro_exact",
+    "balanced_exact"
+  ],
+  "labels": [
+    "ensemble",
+    "20261131",
+    "20261132",
+    "20261133",
+    "20261134",
+    "20261135",
+    "20261136",
+    "20261137",
+    "20261138",
+    "20261139",
+    "20261140"
+  ],
+  "primary": "combined/round07/balanced_exact/ensemble",
+  "intervention": "Add source-proven restored positive names and/or remove whole-scope source-proven exclusions, separately reported.",
+  "population": "All202 schools audited,1802 sites output,1761 scored,41 unscored; original Gold unchanged.",
+  "no_name_match_is_unknown": true,
+  "local_exclusion_is_not_whole_school_exclusion": true,
+  "official_pdf_pages_visually_reviewed": [
+    9,
+    10,
+    11,
+    13
+  ],
+  "official_url": "https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf",
+  "prediction_trigger_used": false,
+  "transitive_expansion": false,
+  "training_steps": 0,
+  "references_unchanged": true,
+  "thresholds_unchanged": true,
+  "model_probabilities_unchanged": true,
+  "no_new_empty_set": "Abort preparation if any source-approved edit would create empty prediction; do not invent a fallback school.",
+  "target_gold_read": false,
+  "target_polygon_read": false,
+  "independent_validation": false,
+  "adopted": false
+}

@@ -1,0 +1,29 @@
+多校预测方法核查：训练监督、校准与适用前提
+2026-11-12；本目录为调研及公式审计，不是已采用的新模型。
+
+1. Towards Calibrated Multi-label Deep Neural Networks，CVPR 2024
+论文：https://openaccess.thecvf.com/content/CVPR2024/papers/Cheng_Towards_Calibrated_Multi-label_Deep_Neural_Networks_CVPR_2024_paper.pdf
+实现：https://github.com/JiachengCheng96/Towards-Calibrated-Multi-label-Deep-Neural-Networks
+已提取全文，重点核查第3.3至3.4节及Eq3、16、17；PDF第5页经过渲染和目视核对。未复现图像实验，未执行下载代码。
+
+针对文中给定的条件风险
+R(v)=eta*softplus(-v)+(1-eta)*softplus(k*(v-b))/zeta，
+由一阶条件得到校准映射：
+a=(k/zeta)*sigmoid(k*(v-b)); c=sigmoid(-v); eta=a/(a+c)。
+按Eq3的sigmoid定义逐字解释Eq17，其符号与上述风险导出的映射不一致。发布代码SPAInvLink的分子为k*exp(v)+1，而上述风险导出的分子应为k*(exp(v)+1)。
+独立标量检查覆盖3组参数、5个真实概率，共15例；对风险做求根和有限差分核验。导出映射最大误差2.8e-17，逐字论文公式约0.990，发布代码约0.105。
+这只说明该公式/代码与所述风险存在一致性问题，不代表整篇论文无效，也不否定经修正的构造。当前深圳模型没有使用SPA，此处不是对现有错误的归因。
+证据：spa_link_consistency.json；可复核脚本scripts/audit_shenzhen_spa_link.py。
+
+2. Single-positive Multi-label Learning with Label Cardinality，TMLR 2025
+论文入口：https://openreview.net/forum?id=XEPPXH2nKu
+实现：https://github.com/shayangharib/SPMLL_with_Label_Cardinality
+已阅读摘要、仓库说明及归档的main/loss代码；论文PDF下载受阻，未通读全文。invalid_response.html是下载返回的HTML，不能当论文。
+
+代码中的ic_mode=true读取每条训练样本完整标签数；estimate模式也先用完整训练label_matrix计算标签数分布。不能把深圳Gold中的每条学校数或学校数分布传给该方法后，宣称没有使用目标答案。来源城市的标签数分布又与深圳不同，直接移用的效果需验证。
+该方法目前没有进入实验。后续若采用，需要只从合法来源监督建立可迁移的数量模型，并把它与同输入、同预算的对照比较；未知标签仍不能当负例。
+
+3. 当前优先级与实验边界
+第八轮先固定同一父模型、同40步预算、同来源校准和同最终政策补充，只比较旧参照、新参照、新参照加新增正例监督。该实验直接检验输入覆盖能否改善模型，而不是先引入更复杂的新损失。
+完整多校监督少、独立参照支持不足、政策范围组合与适用条件未完整表达，仍是已观察到的障碍。概率校准无法自动补齐未确认的行政身份或把缺失的标签集合变成完整监督。
+各轮均属于已查看目标结果后的开发实验。独立确认之前不替换默认模型、不修改Gold、不把地图重叠直接解释为保证录取。

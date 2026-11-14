@@ -1,0 +1,516 @@
+import os
+import copy
+import time
+import json
+import numpy as np
+import torch
+import datasets
+import models
+import argparse
+from tqdm import tqdm
+from losses import compute_batch_loss
+import datetime
+from instrumentation import train_logger
+
+
+def transform_function(x, a):
+    """
+    Transforms an input using a linear transformation followed by a sigmoid activation.
+
+    This function applies a linear transformation to the input value `x` using the
+    coefficient `a`. After the linear transformation, it applies the sigmoid
+    activation function to the result and returns it.
+
+    Parameters:
+    x: The input value to be transformed.
+    a: The coefficient used in the linear transformation.
+
+    Returns:
+    The result of applying a linear transformation followed by a sigmoid
+    activation to the input value.
+    """
+    z = a * x
+    return torch.sigmoid(z)
+
+
+def get_cardinality_dist(Z):
+    """
+    Computes the distribution of label cardinalities for a training dataset.
+
+    This function calculates the cardinality of labels for each sample in the training dataset
+    and determines the distribution of these cardinalities by counting their occurrences.
+
+    Parameters:
+    Z (dict): A dictionary containing dataset information, where
+              Z['datasets']['train'].label_matrix is expected to be a matrix representing
+              the label assignments of the training data.
+
+    Returns:
+    tuple: A tuple containing two elements:
+        - cardinality_arr (numpy.ndarray): An array of unique cardinalities observed
+          in the samples of the label matrix.
+        - cardinality_counts (numpy.ndarray): An array representing the counts of each
+          unique cardinality in the training data.
+    """
+    full_tr_labels = Z['datasets']['train'].label_matrix
+    sample_cardinality = full_tr_labels.sum(axis=1)
+    cardinality_arr, cardinality_counts = np.unique(sample_cardinality, return_counts=True)
+
+    return cardinality_arr, cardinality_counts
+
+
+def run_train_phase(model, P, Z, logger, epoch, phase):
+    """
+    Run one training phase.
+
+    This function orchestrates a single training phase for the provided model using the given parameters,
+    temporary training-related objects, logger for metrics tracking, and current epoch details.
+
+    Parameters
+    ----------
+    model: torch.nn.Module
+        Model to train.
+    P: dict
+        Dictionary of parameters, which completely specify the training procedure.
+    Z: dict
+        Dictionary of temporary objects used during training.
+    logger: Logger
+        Object used to track various metrics during training.
+    epoch: int
+        Integer index of the current epoch.
+    phase: str
+        String giving the phase name, should be 'train'.
+
+    Returns
+    -------
+    tuple
+        A tuple containing total predictions (numpy.ndarray) and their associated indices (numpy.ndarray).
+    """
+
+    assert phase == 'train'
+    model.train()
+
+    desc = '[{}/{}]{}'.format(epoch, P['num_epochs'], phase.rjust(8, ' '))
+    for i, batch in enumerate(tqdm(Z['dataloaders'][phase], desc=desc)):
+        P['batch'] = i
+        # move data to GPU:
+        batch['image'] = batch['image'].to(Z['device'], non_blocking=True)
+        batch['labels_np'] = batch['label_vec_obs'].clone().numpy()  # copy of labels for use in metrics
+        batch['label_vec_obs'] = batch['label_vec_obs'].to(Z['device'], non_blocking=True)
+        # forward pass:
+        Z['optimizer'].zero_grad()
+        with torch.set_grad_enabled(True):
+            batch['logits'] = model.f(batch['image'])
+            if P['loss'] in ['ic_loss', 'cs_loss']:
+                batch['preds'] = transform_function(x=batch['logits'], a=P['a'])
+            else:
+                batch['preds'] = torch.sigmoid(batch['logits'])
+            if batch['preds'].dim() == 1:
+                batch['preds'] = torch.unsqueeze(batch['preds'], 0)
+            batch['preds_np'] = batch['preds'].clone().detach().cpu().numpy()  # copy of preds for use in metrics
+            batch = compute_batch_loss(batch, P, Z)
+        # backward pass:
+        batch['loss_tensor'].backward()
+        Z['optimizer'].step()
+        # save current batch data:
+        logger.update_phase_data(batch)
+
+        if P['batch'] == 0:
+            total_preds = batch['preds'].detach().cpu().numpy()
+            total_idx = batch['idx'].cpu().numpy()
+        else:
+            total_preds = np.vstack((batch['preds'].detach().cpu().numpy(), total_preds))
+            total_idx = np.hstack((batch['idx'].cpu().numpy(), total_idx))
+
+    return total_preds, total_idx
+
+
+def run_eval_phase(model, P, Z, logger, epoch, phase):
+    """
+    Run one evaluation phase.
+
+    Parameters
+    model: The model to evaluate.
+    P: dict
+        A dictionary of parameters specifying the evaluation procedure.
+    Z: dict
+        A dictionary containing temporary objects used during evaluation, such as
+        dataloaders and device details.
+    logger: An object used to track various metrics during evaluation phases.
+    epoch: int
+        The current epoch index.
+    phase: str
+        The name of the evaluation phase, either 'val' or 'test'.
+    """
+
+    assert phase in ['val', 'test']
+    model.eval()
+    desc = '[{}/{}]{}'.format(epoch, P['num_epochs'], phase.rjust(8, ' '))
+    for batch in tqdm(Z['dataloaders'][phase], desc=desc):
+        # move data to GPU:
+        batch['image'] = batch['image'].to(Z['device'], non_blocking=True)
+        batch['labels_np'] = batch['label_vec_obs'].clone().numpy()  # copy of labels for use in metrics
+        batch['label_vec_obs'] = batch['label_vec_obs'].to(Z['device'], non_blocking=True)
+        # forward pass:
+        with torch.set_grad_enabled(False):
+            batch['logits'] = model.f(batch['image'])
+            batch['preds'] = torch.sigmoid(batch['logits'])
+            if batch['preds'].dim() == 1:
+                batch['preds'] = torch.unsqueeze(batch['preds'], 0)
+            batch['preds_np'] = batch['preds'].clone().detach().cpu().numpy()  # copy of preds for use in metrics
+            batch['loss_np'] = -1
+            batch['reg_loss_np'] = -1
+        # save current batch data:
+        logger.update_phase_data(batch)
+
+
+def train(model, P, Z):
+    """
+    Train the model using the specified training procedure and parameters.
+
+    This function orchestrates the training process, including running training
+    and evaluation phases for the specified number of epochs, logging metrics,
+    and identifying the best model weights based on validation performance.
+    It supports different loss functions and modes, such as cardinality-based
+    loss with estimation. The best epoch metrics and weights are logged and
+    returned as part of the output.
+
+    Parameters:
+    P: dict
+        A dictionary containing the parameters that specify the entire training
+        procedure, such as the number of epochs, loss type, and validation set
+        variants.
+    Z: dict
+        A dictionary containing temporary or intermediate objects utilized during
+        the training process, which may include data splits and additional dynamic
+        components.
+
+    Returns:
+    tuple
+        A tuple containing updated parameters (P), the model, the logger with
+        detailed metrics, and the best model weights (state dictionary).
+    """
+
+    best_weights_f = copy.deepcopy(model.f.state_dict())
+    logger = train_logger(P)  # initialize logger
+
+    if P['loss'] == 'ic_loss' and P['ic_mode'] == 'estimate':
+        P['CARD'], P['CARD_counts'] = get_cardinality_dist(Z)
+
+    for epoch_idx in range(0, P['num_epochs']):
+        print('start epoch [{}/{}] ...'.format(epoch_idx + 1, P['num_epochs']))
+        P['epoch'] = epoch_idx + 1
+        for phase in ['train', 'val', 'test']:
+            # reset phase metrics:
+            logger.reset_phase_data()
+
+            # run one phase:
+            t_init = time.time()
+            if phase == 'train':
+                train_preds, train_idx = run_train_phase(model, P, Z, logger, P['epoch'], phase)
+                if P['loss'] == 'ic_loss' and P['ic_mode'] == 'estimate':
+                    P['est_k_dict'] = estimate_k(p=train_preds, card_val=P['CARD'], card_counts=P['CARD_counts'],
+                                                 total_idx=train_idx, top_m=P['k_max'])
+            else:
+                run_eval_phase(model, P, Z, logger, P['epoch'], phase)
+
+            # save end-of-phase metrics:
+            logger.compute_phase_metrics(phase, P['epoch'])
+
+            # print epoch status:
+            logger.report(t_init, time.time(), phase, P['epoch'])
+
+            # update best epoch, if applicable:
+            new_best = logger.update_best_results(phase, P['epoch'], P['val_set_variant'])
+            if new_best:
+                print('*** new best weights ***')
+                best_weights_f = copy.deepcopy(model.f.state_dict())
+
+    print('')
+    print('*** TRAINING COMPLETE ***')
+    print('Best epoch: {}'.format(logger.best_epoch))
+    print('Best epoch validation score: {:.2f}'.format(logger.get_stop_metric('val', logger.best_epoch, P['val_set_variant'])))
+    print('Best epoch test score:       {:.2f}'.format(logger.get_stop_metric('test', logger.best_epoch, 'clean')))
+
+    return P, model, logger, best_weights_f
+
+
+def initialize_training_run(P, feature_extractor, linear_classifier):
+    """
+    Set up for model training.
+
+    This function initializes the training run by setting up the seed for reproducibility, preparing
+    datasets, determining dataset statistics, and setting up data loaders and models. It also configures
+    the optimization parameters and saves dataset-specific attributes.
+
+    Parameters:
+    P: dict
+        Dictionary of parameters, which completely specify the training procedure.
+    feature_extractor: Any
+        Feature extractor model to start from.
+    linear_classifier: Any
+        Linear classifier model to start from.
+
+    Returns:
+    tuple
+        A tuple containing the updated parameters dictionary (P), a dictionary of initialized training
+        objects (Z), and the multilabel model.
+    """
+
+    np.random.seed(P['seed'])
+
+    Z = {}
+
+    # accelerator:
+    Z['device'] = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+
+    # data:
+    Z['datasets'] = datasets.get_data(P)
+
+    # observed label matrix:
+    label_matrix = Z['datasets']['train'].label_matrix
+    num_examples = int(np.shape(label_matrix)[0])
+    mtx = np.array(label_matrix).astype(np.int8)
+    total_pos = np.sum(mtx == 1)
+    total_neg = np.sum(mtx == 0)
+    print('training samples: {} total'.format(num_examples))
+    print('true positives: {} total, {:.2f} per example on average.'.format(total_pos, total_pos / num_examples))
+    print('true negatives: {} total, {:.2f} per example on average.'.format(total_neg, total_neg / num_examples))
+    observed_label_matrix = Z['datasets']['train'].label_matrix_obs
+    num_examples = int(np.shape(observed_label_matrix)[0])
+    obs_mtx = np.array(observed_label_matrix).astype(np.int8)
+    obs_total_pos = np.sum(obs_mtx == 1)
+    obs_total_neg = np.sum(obs_mtx == -1)
+    print('observed positives: {} total, {:.2f} per example on average.'.format(obs_total_pos, obs_total_pos / num_examples))
+    print('observed negatives: {} total, {:.2f} per example on average.'.format(obs_total_neg, obs_total_neg / num_examples))
+
+    # save dataset-specific parameters:
+    P['num_classes'] = Z['datasets']['train'].num_classes
+
+    # dataloaders:
+    Z['dataloaders'] = {}
+    for phase in ['train', 'val', 'test']:
+        Z['dataloaders'][phase] = torch.utils.data.DataLoader(
+            Z['datasets'][phase],
+            batch_size = P['bsize'],
+            shuffle = phase == 'train',
+            sampler = None,
+            num_workers = P['num_workers'],
+            drop_last = False  # FIXME
+        )
+
+    # pseudo-labeling data:
+    P['unlabel_num'] = []
+    for i in range(observed_label_matrix.shape[1]):
+        P['unlabel_num'].append(np.sum(observed_label_matrix[:, i] == 0))
+
+    # model:
+    model = models.MultilabelModel(P, feature_extractor, linear_classifier)
+
+    # optimization objects:
+    f_params = [param for param in list(model.f.parameters()) if param.requires_grad]
+
+    Z['optimizer'] = torch.optim.Adam(
+        f_params,
+        lr=P['lr']
+    )
+
+    return P, Z, model
+
+
+def execute_training_run(P, feature_extractor, linear_classifier):
+    """
+    Initialize, run the training process, and save the results.
+
+    This function handles the initialization of the training run, carries out
+    the training procedure, and saves the results including the best model state
+    and training logs.
+
+    Parameters
+    ----------
+    P : dict
+        Dictionary of parameters, which completely specify the training procedure.
+    feature_extractor : Any
+        Feature extractor model to start from.
+    linear_classifier : Any
+        Linear classifier model to start from.
+
+    Returns
+    -------
+    Tuple[Any, Any, dict]
+        Returns the trained feature extractor, the trained linear classifier,
+        and the final training logs.
+    """
+
+    P, Z, model = initialize_training_run(P, feature_extractor, linear_classifier)
+    model.to(Z['device'])
+
+    P, model, logger, best_weights_f = train(model, P, Z)
+
+    final_logs = logger.get_logs()
+    model.f.load_state_dict(best_weights_f)
+
+    return model.f.feature_extractor, model.f.linear_classifier, final_logs
+
+
+def estimate_k(p, card_val, card_counts, total_idx, top_m):
+    """
+    Estimates and assigns a ranked set of values corresponding to given indices based on
+    calculated probabilities and cardinalities. This function computes a mapping of
+    indices to their respective estimated values derived from the input probabilities.
+
+    Parameters:
+    p : torch.Tensor
+        A tensor containing probabilities.
+    card_val : any
+        The values corresponding to unique cardinalities.
+    card_counts : numpy.ndarray
+        An array representing the count of each cardinality.
+    total_idx : any
+        Indices to be mapped to their estimated values.
+    top_m : int
+        Specifies the number of top probabilities to consider for computation.
+
+    Returns:
+    dict
+        A dictionary where keys are `total_idx` and values are the corresponding
+        estimated rankings or cardinalities.
+    """
+    unsorted_k = torch.tensor(p).topk(k=top_m, sorted=False)[0].sum(-1).numpy()
+    sorted_indices = np.argsort(-unsorted_k)
+
+    cardinalities = np.repeat(card_val, card_counts.astype(int))
+    sorted_cardinalities = np.sort(cardinalities)[::-1]
+
+    estimated_k = np.zeros_like(sorted_indices)
+    estimated_k[sorted_indices] = sorted_cardinalities
+
+    return dict(zip(total_idx, estimated_k))
+
+
+if __name__ == '__main__':
+
+    parser = argparse.ArgumentParser(description='SPMLL with label cardinality - TMLR2025')
+    parser.add_argument('-g', '--gpu', default='0', choices=['0', '1', '2', '3'], type=str)
+    parser.add_argument('-d', '--dataset', default='pascal', choices=['pascal', 'coco', 'nuswide', 'cub'], type=str)
+    parser.add_argument('-l', '--loss', default='ic_loss', choices=['bce', 'an', 'ic_loss', 'cs_loss'], type=str)
+    parser.add_argument('-s', '--pytorch_seed', default=0, type=int)  # try 0, 1, 8
+    parser.add_argument('-m', '--ic_mode', default='true', choices=['true', 'estimate'], type=str)
+    args = parser.parse_args()
+
+    P = {}
+
+    # Top-level parameters:
+    P['GPU'] = args.gpu
+    P['dataset'] = args.dataset
+    P['loss'] = args.loss
+    P['val_set_variant'] = 'clean'  # clean, observed
+
+    # System parameters:
+    os.environ["CUDA_VISIBLE_DEVICES"] = P['GPU']
+    P['pytorch_seed'] = args.pytorch_seed
+    torch.manual_seed(P['pytorch_seed'])
+    torch.cuda.manual_seed(P['pytorch_seed'])
+    
+    # Optimization & method parameters:
+    P['ic_mode'] = args.ic_mode
+    P['top_m_multiplier'] = 2
+
+    if P['dataset'] == 'pascal':
+        P['bsize'] = 8
+        P['lr'] = 1e-5
+        P['lamda'] = 0.35
+        P['a'] = 2.0
+        P['warmup_epoch'] = 6
+        if P['ic_mode'] == 'true':
+            P['alpha'] = 0.009
+            P['pos_stddev'] = 0.3
+            P['neg_stddev'] = 0.6
+        else:
+            P['alpha'] = 0.0001
+            P['pos_stddev'] = 0.5
+            P['neg_stddev'] = 0.65
+        P['k_e'] = 1.46
+        P['k_max'] = 5
+
+    elif P['dataset'] == 'coco':
+        P['bsize'] = 16
+        P['lr'] = 1e-5
+        P['lamda'] = 0.15
+        P['a'] = 3.0
+        P['warmup_epoch'] = 6
+        if P['ic_mode'] == 'true':
+            P['alpha'] = 0.006
+            P['pos_stddev'] = 0.5
+            P['neg_stddev'] = 0.6
+        else:
+            P['alpha'] = 8e-5
+            P['pos_stddev'] = 0.1
+            P['neg_stddev'] = 0.55
+        P['k_e'] = 2.94
+        P['k_max'] = 18
+
+    elif P['dataset'] == 'nuswide':
+        P['bsize'] = 16
+        P['lr'] = 1e-5
+        P['lamda'] = 0.1
+        P['a'] = 2.0
+        P['warmup_epoch'] = 5
+        if P['ic_mode'] == 'true':
+            P['alpha'] = 0.007
+            P['pos_stddev'] = 0.55
+            P['neg_stddev'] = 0.3
+        else:
+            P['alpha'] = 0.004
+            P['pos_stddev'] = 0.5
+            P['neg_stddev'] = 0.35
+        P['k_e'] = 1.89
+        P['k_max'] = 11
+
+    elif P['dataset'] == 'cub':
+        P['bsize'] = 8
+        P['lr'] = 5e-5
+        P['lamda'] = 0.01
+        P['a'] = 2.0
+        P['warmup_epoch'] = 5
+        if P['ic_mode'] == 'true':
+            P['alpha'] = 8e-6
+            P['pos_stddev'] = 0.4
+            P['neg_stddev'] = 0.55
+        else:
+            P['alpha'] = 6e-6
+            P['pos_stddev'] = 0.55
+            P['neg_stddev'] = 0.35
+        P['k_e'] = 31.4
+        P['k_max'] = 71
+
+    # Additional parameters:
+    P['seed'] = 1200  # overall numpy seed
+    P['use_pretrained'] = True  # True, False
+    P['num_workers'] = 8
+    P['stop_metric'] = 'map'  # metric used to select the best epoch
+
+    # Dataset parameters:
+    P['split_seed'] = 1200  # seed for train/val splitting
+    P['val_frac'] = 0.2  # fraction of train set to split off for val
+    P['ss_seed'] = 999  # seed for subsampling
+    P['ss_frac_train'] = 1.0  # fraction of training set to subsample
+    P['ss_frac_val'] = 1.0  # fraction of val set to subsample
+
+    # Dependent parameters:
+    if P['loss'] == 'bce':
+        P['train_set_variant'] = 'clean'
+    else:
+        P['train_set_variant'] = 'observed'
+
+    # training parameters:
+    P['num_epochs'] = 20
+    P['freeze_feature_extractor'] = False
+    P['use_feats'] = False
+    P['arch'] = 'resnet50'
+    P['feature_extractor_arch'] = 'resnet50'
+    P['feat_dim'] = 2048
+
+    # run training process:
+    print('[{} + {}] start exp ...'.format(P['dataset'], P['loss']))
+    (feature_extractor, linear_classifier, logs) = execute_training_run(P, feature_extractor=None, linear_classifier=None)

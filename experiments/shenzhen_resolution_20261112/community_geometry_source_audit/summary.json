@@ -1,0 +1,40 @@
+{
+  "summary": {
+    "龙华区": {
+      "qualified": {
+        "schools": 71,
+        "source_supported_pairs": 69,
+        "source_supported_sites": 24,
+        "novel_pairs_vs_round07": 0,
+        "novel_sites_vs_round07": 0
+      },
+      "scoped_ring": {
+        "schools": 71,
+        "source_supported_pairs": 69,
+        "source_supported_sites": 24,
+        "novel_pairs_vs_round07": 0,
+        "novel_sites_vs_round07": 0
+      }
+    },
+    "龙岗区": {
+      "qualified": {
+        "schools": 131,
+        "source_supported_pairs": 82,
+        "source_supported_sites": 50,
+        "novel_pairs_vs_round07": 6,
+        "novel_sites_vs_round07": 6
+      },
+      "scoped_ring": {
+        "schools": 131,
+        "source_supported_pairs": 82,
+        "source_supported_sites": 50,
+        "novel_pairs_vs_round07": 6,
+        "novel_sites_vs_round07": 6
+      }
+    }
+  },
+  "caution": "Independent geometry estimate only; no current training or scoring change; road identity, geographic predicates and source dates remain auditable limitations.",
+  "target_gold_read": false,
+  "target_polygon_read": false,
+  "adopted": false
+}

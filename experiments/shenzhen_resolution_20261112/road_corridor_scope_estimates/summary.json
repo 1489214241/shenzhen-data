@@ -1,0 +1,50 @@
+{
+  "districts": [
+    {
+      "district": "龙华区",
+      "source_scope_estimates": 0,
+      "sites": 0,
+      "schools": 0,
+      "cases": [
+        {
+          "case_id": 1,
+          "inside_points": 0
+        },
+        {
+          "case_id": 5,
+          "inside_points": 0
+        }
+      ]
+    },
+    {
+      "district": "龙岗区",
+      "source_scope_estimates": 11,
+      "sites": 6,
+      "schools": 3,
+      "cases": [
+        {
+          "case_id": 1,
+          "inside_points": 5
+        },
+        {
+          "case_id": 5,
+          "inside_points": 1
+        }
+      ]
+    }
+  ],
+  "selected_case_ids": [
+    1,
+    5
+  ],
+  "radii_m": [
+    10,
+    25,
+    50
+  ],
+  "boundary_margin_m": 50,
+  "negative_labels_generated": 0,
+  "target_gold_read": false,
+  "target_polygon_read": false,
+  "adopted": false
+}

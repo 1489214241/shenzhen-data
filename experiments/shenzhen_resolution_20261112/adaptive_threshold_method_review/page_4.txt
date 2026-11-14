@@ -1,0 +1,74 @@
+      Context                              𝒄 𝑠,𝑜                                Statistics                   DocRED       CDR     GDA
+      Pooling                                                                  # Train                           3053      500    23353
+                                                                               # Dev                             1000      500     5839
+                                                                               # Test                            1000      500     1000
+       BERT                                                                    # Relations                        97        2        2
+      Layer 𝐿            …
+                                                                               Avg.# entities per Doc.           19.5      7.6      5.4
+                    𝑒𝑠       𝑒𝑠                           𝑒𝑜
+       BERT                                                                      Table 1: Statistics of the datasets in experiments.
+                               …                        …
+    Layer 𝐿 − 1
+                                                                              Hyperparam             DocRED           CDR          GDA
+Figure 3: Illustration of localized context pooling. Tokens                                       BERT RoBERTa      SciBERT      SciBERT
+are weighted averaged to form the localized context c(s,o) of                 Batch size           4       4             4         16
+the entity pair (es , eo ). The weights of tokens are derived by              # Epoch              30      30            30        10
+multiplying the attention weights of the subject entity es and                lr for encoder      5e-5    3e-5          2e-5      2e-5
+the object entity eo from the last transformer layer so that                  lr for classifier   1e-4    1e-4          1e-4      1e-4
+only the tokens that are important to both entities (highlighted
+in light yellow) receive higher weights.                                                Table 2: Hyper-parameters in training.
+
+ment and generates one embedding for this entity. The entity               entity embedding to obtain entity representations that are
+embedding from this document-level global pooling is then                  different for different entity pairs, by modifying the original
+used in the classification of all entity pairs. However, for               linear layer in Eq. (3) and Eq. (4) as follows:
+an entity pair, some context of the entities may not be rele-
+vant. For example, in Figure 1, the second mention of John
+                                                                                                                           
+                                                                                      zs(s,o) = tanh Ws hes + Wc1 c(s,o) ,             (6)
+Stanistreet and its context are irrelevant to the entity pair
+(John Stanistreet, Bendigo). Therefore, it is better to have
+                                                                                                                           
+                                                                                      zo(s,o) = tanh Wo heo + Wc2 c(s,o) ,             (7)
+a localized representation that only attends to the relevant
+context in the document that is useful to decide the relation
+for this entity pair.                                                      where Wc1 , Wc2 ∈ Rd×d are model parameters. The pro-
+   Therefore we propose the localized context pooling, where               posed localized context pooling is illustrated in Figure 3.
+we enhance the embedding of an entity pair with an additional              In experiments, we use the attention matrix from the last
+local context embedding that is related to both entities. In               transformer layer.
+this work, since we use pre-trained transformer-based models
+as the encoder, which has already learned token-level depen-                                        Experiments
+dencies by multi-head self-attention (Vaswani et al. 2017),                Datasets
+we consider directly using their attention heads for local-
+ized context pooling. This method transfers the well-learned               We evaluate our ATLOP model on three public document-
+dependencies from the pre-trained language model without                   level relation extraction datasets. The dataset statistics are
+learning new attention layers from scratch.                                shown in Table 1.
+   Specifically, given a pre-trained multi-head attention ma-              • DocRED (Yao et al. 2019) is a large-scale crowdsourced
+trix A ∈ RH×l×l , where Aijk represents attention from                       dataset for document-level RE. It is constructed from
+token j to token k in the ith attention head, we first take the              Wikipedia articles. DocRED consists of 3053 documents
+attention from the “*” symbol as the mention-level attention,                for training. For entity pairs that express relation(s), about
+then average the attention over mentions of the same entity                  7% of them have more than one relation label.
+to obtain entity-level attention AE    i ∈R
+                                              H×l
+                                                  , which denotes          • CDR (Li et al. 2016) is a human-annotated dataset in the
+                        th
+attention from the i entity to all tokens. Then given an en-                 biomedical domain. It consists of 500 documents for train-
+tity pair (es , eo ), we locate the local context that is important          ing. The task is to predict the binary interactions between
+to both es and eo by multiplying their entity-level attention,               Chemical and Disease concepts.
+and obtain the localized context embedding c(s,o) by:
+                                                                           • GDA (Wu et al. 2019b) is a large-scale dataset in the
+                   A(s,o) = AE    E
+                             s · Ao ,                                        biomedical domain. It consists of 29192 articles for train-
+                               H                                             ing. The task is to predict the binary interactions between
+                                        (s,o)
+                               X
+                   q (s,o) =       Ai           ,                            Gene and Disease concepts. We follow Christopoulou,
+                               i=1                                           Miwa, and Ananiadou (2019) to split the training set into
+                                                                             an 80/20 split as training and development sets.
+                   a(s,o) = q   (s,o)
+                                        /1| q (s,o) ,
+                 c(s,o) = H | a(s,o) ,                                     Experiment Settings
+where H is the contextual embedding in Eq. (1). The local-                 Our model is implemented based on Huggingface’s Trans-
+ized context embedding is then fused into the globally pooled              formers (Wolf et al. 2019). We use cased BERT-base (Devlin
+
+
+                                                                   14615

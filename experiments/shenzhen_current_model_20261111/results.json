@@ -1,0 +1,633 @@
+{
+  "status": "completed_development_input_ablation_not_adopted",
+  "districts": {
+    "龙华区": {
+      "candidate_sites": 628,
+      "outside_map_unscored": 1,
+      "all_map": {
+        "raw_argmax": {
+          "n": 627,
+          "correct": 122,
+          "exact_accuracy": 0.19457735247208932,
+          "false_positive_school_assignments": 204,
+          "false_negative_school_assignments": 874,
+          "overreported_sites": 204,
+          "omitted_sites": 505,
+          "precision": 0.6746411483253588,
+          "recall": 0.3261372397841172
+        },
+        "before": {
+          "n": 627,
+          "correct": 122,
+          "exact_accuracy": 0.19457735247208932,
+          "false_positive_school_assignments": 204,
+          "false_negative_school_assignments": 874,
+          "overreported_sites": 204,
+          "omitted_sites": 505,
+          "precision": 0.6746411483253588,
+          "recall": 0.3261372397841172
+        },
+        "after": {
+          "n": 627,
+          "correct": 243,
+          "exact_accuracy": 0.3875598086124402,
+          "false_positive_school_assignments": 351,
+          "false_negative_school_assignments": 683,
+          "overreported_sites": 205,
+          "omitted_sites": 384,
+          "precision": 0.6362694300518135,
+          "recall": 0.47340015420200465
+        },
+        "corrected": 121,
+        "harmed": 0,
+        "changed_sites": 278,
+        "wrongly_added_sites": 111
+      },
+      "single": {
+        "raw_argmax": {
+          "n": 222,
+          "correct": 122,
+          "exact_accuracy": 0.5495495495495496,
+          "false_positive_school_assignments": 100,
+          "false_negative_school_assignments": 100,
+          "overreported_sites": 100,
+          "omitted_sites": 100,
+          "precision": 0.5495495495495496,
+          "recall": 0.5495495495495496
+        },
+        "before": {
+          "n": 222,
+          "correct": 122,
+          "exact_accuracy": 0.5495495495495496,
+          "false_positive_school_assignments": 100,
+          "false_negative_school_assignments": 100,
+          "overreported_sites": 100,
+          "omitted_sites": 100,
+          "precision": 0.5495495495495496,
+          "recall": 0.5495495495495496
+        },
+        "after": {
+          "n": 222,
+          "correct": 122,
+          "exact_accuracy": 0.5495495495495496,
+          "false_positive_school_assignments": 165,
+          "false_negative_school_assignments": 100,
+          "overreported_sites": 100,
+          "omitted_sites": 100,
+          "precision": 0.4250871080139373,
+          "recall": 0.5495495495495496
+        },
+        "corrected": 0,
+        "harmed": 0,
+        "changed_sites": 47,
+        "wrongly_added_sites": 47
+      },
+      "multi": {
+        "raw_argmax": {
+          "n": 405,
+          "correct": 0,
+          "exact_accuracy": 0.0,
+          "false_positive_school_assignments": 104,
+          "false_negative_school_assignments": 774,
+          "overreported_sites": 104,
+          "omitted_sites": 405,
+          "precision": 0.7432098765432099,
+          "recall": 0.28
+        },
+        "before": {
+          "n": 405,
+          "correct": 0,
+          "exact_accuracy": 0.0,
+          "false_positive_school_assignments": 104,
+          "false_negative_school_assignments": 774,
+          "overreported_sites": 104,
+          "omitted_sites": 405,
+          "precision": 0.7432098765432099,
+          "recall": 0.28
+        },
+        "after": {
+          "n": 405,
+          "correct": 121,
+          "exact_accuracy": 0.29876543209876544,
+          "false_positive_school_assignments": 186,
+          "false_negative_school_assignments": 583,
+          "overreported_sites": 105,
+          "omitted_sites": 284,
+          "precision": 0.7256637168141593,
+          "recall": 0.4576744186046512
+        },
+        "corrected": 121,
+        "harmed": 0,
+        "changed_sites": 231,
+        "wrongly_added_sites": 64
+      },
+      "semantic_pending": {
+        "raw_argmax": {
+          "n": 136,
+          "correct": 0,
+          "exact_accuracy": 0.0,
+          "false_positive_school_assignments": 40,
+          "false_negative_school_assignments": 371,
+          "overreported_sites": 40,
+          "omitted_sites": 136,
+          "precision": 0.7058823529411765,
+          "recall": 0.20556745182012848
+        },
+        "before": {
+          "n": 136,
+          "correct": 0,
+          "exact_accuracy": 0.0,
+          "false_positive_school_assignments": 40,
+          "false_negative_school_assignments": 371,
+          "overreported_sites": 40,
+          "omitted_sites": 136,
+          "precision": 0.7058823529411765,
+          "recall": 0.20556745182012848
+        },
+        "after": {
+          "n": 136,
+          "correct": 10,
+          "exact_accuracy": 0.07352941176470588,
+          "false_positive_school_assignments": 78,
+          "false_negative_school_assignments": 331,
+          "overreported_sites": 40,
+          "omitted_sites": 126,
+          "precision": 0.6355140186915887,
+          "recall": 0.291220556745182
+        },
+        "corrected": 10,
+        "harmed": 0,
+        "changed_sites": 54,
+        "wrongly_added_sites": 24
+      },
+      "semantic_not_flagged": {
+        "raw_argmax": {
+          "n": 491,
+          "correct": 122,
+          "exact_accuracy": 0.2484725050916497,
+          "false_positive_school_assignments": 164,
+          "false_negative_school_assignments": 503,
+          "overreported_sites": 164,
+          "omitted_sites": 369,
+          "precision": 0.6659877800407332,
+          "recall": 0.39397590361445783
+        },
+        "before": {
+          "n": 491,
+          "correct": 122,
+          "exact_accuracy": 0.2484725050916497,
+          "false_positive_school_assignments": 164,
+          "false_negative_school_assignments": 503,
+          "overreported_sites": 164,
+          "omitted_sites": 369,
+          "precision": 0.6659877800407332,
+          "recall": 0.39397590361445783
+        },
+        "after": {
+          "n": 491,
+          "correct": 233,
+          "exact_accuracy": 0.4745417515274949,
+          "false_positive_school_assignments": 273,
+          "false_negative_school_assignments": 352,
+          "overreported_sites": 165,
+          "omitted_sites": 258,
+          "precision": 0.6364846870838882,
+          "recall": 0.5759036144578313
+        },
+        "corrected": 111,
+        "harmed": 0,
+        "changed_sites": 224,
+        "wrongly_added_sites": 87
+      },
+      "paired_interval": {
+        "blocks": 44,
+        "delta_95_percentile": [
+          0.08048541367766619,
+          0.3019950224791265
+        ],
+        "describes": "paired 2km spatial block resampling; not independent city validation"
+      }
+    },
+    "龙岗区": {
+      "candidate_sites": 1174,
+      "outside_map_unscored": 40,
+      "all_map": {
+        "raw_argmax": {
+          "n": 1134,
+          "correct": 375,
+          "exact_accuracy": 0.3306878306878307,
+          "false_positive_school_assignments": 337,
+          "false_negative_school_assignments": 1148,
+          "overreported_sites": 337,
+          "omitted_sites": 759,
+          "precision": 0.7028218694885362,
+          "recall": 0.40976863753213366
+        },
+        "before": {
+          "n": 1134,
+          "correct": 385,
+          "exact_accuracy": 0.3395061728395062,
+          "false_positive_school_assignments": 337,
+          "false_negative_school_assignments": 1129,
+          "overreported_sites": 337,
+          "omitted_sites": 748,
+          "precision": 0.7077189939288812,
+          "recall": 0.41953727506426736
+        },
+        "after": {
+          "n": 1134,
+          "correct": 466,
+          "exact_accuracy": 0.4109347442680776,
+          "false_positive_school_assignments": 425,
+          "false_negative_school_assignments": 950,
+          "overreported_sites": 362,
+          "omitted_sites": 665,
+          "precision": 0.7007042253521126,
+          "recall": 0.5115681233933161
+        },
+        "corrected": 81,
+        "harmed": 0,
+        "changed_sites": 174,
+        "wrongly_added_sites": 65
+      },
+      "single": {
+        "raw_argmax": {
+          "n": 581,
+          "correct": 375,
+          "exact_accuracy": 0.6454388984509466,
+          "false_positive_school_assignments": 206,
+          "false_negative_school_assignments": 206,
+          "overreported_sites": 206,
+          "omitted_sites": 206,
+          "precision": 0.6454388984509466,
+          "recall": 0.6454388984509466
+        },
+        "before": {
+          "n": 581,
+          "correct": 375,
+          "exact_accuracy": 0.6454388984509466,
+          "false_positive_school_assignments": 206,
+          "false_negative_school_assignments": 206,
+          "overreported_sites": 206,
+          "omitted_sites": 206,
+          "precision": 0.6454388984509466,
+          "recall": 0.6454388984509466
+        },
+        "after": {
+          "n": 581,
+          "correct": 375,
+          "exact_accuracy": 0.6454388984509466,
+          "false_positive_school_assignments": 228,
+          "false_negative_school_assignments": 205,
+          "overreported_sites": 206,
+          "omitted_sites": 205,
+          "precision": 0.6225165562913907,
+          "recall": 0.6471600688468159
+        },
+        "corrected": 0,
+        "harmed": 0,
+        "changed_sites": 20,
+        "wrongly_added_sites": 19
+      },
+      "multi": {
+        "raw_argmax": {
+          "n": 553,
+          "correct": 0,
+          "exact_accuracy": 0.0,
+          "false_positive_school_assignments": 131,
+          "false_negative_school_assignments": 942,
+          "overreported_sites": 131,
+          "omitted_sites": 553,
+          "precision": 0.7631103074141049,
+          "recall": 0.3093841642228739
+        },
+        "before": {
+          "n": 553,
+          "correct": 10,
+          "exact_accuracy": 0.018083182640144666,
+          "false_positive_school_assignments": 131,
+          "false_negative_school_assignments": 923,
+          "overreported_sites": 131,
+          "omitted_sites": 542,
+          "precision": 0.7709790209790209,
+          "recall": 0.32331378299120234
+        },
+        "after": {
+          "n": 553,
+          "correct": 91,
+          "exact_accuracy": 0.16455696202531644,
+          "false_positive_school_assignments": 197,
+          "false_negative_school_assignments": 745,
+          "overreported_sites": 156,
+          "omitted_sites": 460,
+          "precision": 0.758578431372549,
+          "recall": 0.4538123167155425
+        },
+        "corrected": 81,
+        "harmed": 0,
+        "changed_sites": 154,
+        "wrongly_added_sites": 46
+      },
+      "semantic_pending": {
+        "raw_argmax": {
+          "n": 106,
+          "correct": 13,
+          "exact_accuracy": 0.12264150943396226,
+          "false_positive_school_assignments": 11,
+          "false_negative_school_assignments": 134,
+          "overreported_sites": 11,
+          "omitted_sites": 93,
+          "precision": 0.8962264150943396,
+          "recall": 0.4148471615720524
+        },
+        "before": {
+          "n": 106,
+          "correct": 13,
+          "exact_accuracy": 0.12264150943396226,
+          "false_positive_school_assignments": 11,
+          "false_negative_school_assignments": 134,
+          "overreported_sites": 11,
+          "omitted_sites": 93,
+          "precision": 0.8962264150943396,
+          "recall": 0.4148471615720524
+        },
+        "after": {
+          "n": 106,
+          "correct": 13,
+          "exact_accuracy": 0.12264150943396226,
+          "false_positive_school_assignments": 11,
+          "false_negative_school_assignments": 134,
+          "overreported_sites": 11,
+          "omitted_sites": 93,
+          "precision": 0.8962264150943396,
+          "recall": 0.4148471615720524
+        },
+        "corrected": 0,
+        "harmed": 0,
+        "changed_sites": 0,
+        "wrongly_added_sites": 0
+      },
+      "semantic_not_flagged": {
+        "raw_argmax": {
+          "n": 1028,
+          "correct": 362,
+          "exact_accuracy": 0.3521400778210117,
+          "false_positive_school_assignments": 326,
+          "false_negative_school_assignments": 1014,
+          "overreported_sites": 326,
+          "omitted_sites": 666,
+          "precision": 0.6828793774319066,
+          "recall": 0.4090909090909091
+        },
+        "before": {
+          "n": 1028,
+          "correct": 372,
+          "exact_accuracy": 0.36186770428015563,
+          "false_positive_school_assignments": 326,
+          "false_negative_school_assignments": 995,
+          "overreported_sites": 326,
+          "omitted_sites": 655,
+          "precision": 0.6886341929321872,
+          "recall": 0.4201631701631702
+        },
+        "after": {
+          "n": 1028,
+          "correct": 453,
+          "exact_accuracy": 0.4406614785992218,
+          "false_positive_school_assignments": 414,
+          "false_negative_school_assignments": 816,
+          "overreported_sites": 351,
+          "omitted_sites": 572,
+          "precision": 0.684931506849315,
+          "recall": 0.5244755244755245
+        },
+        "corrected": 81,
+        "harmed": 0,
+        "changed_sites": 174,
+        "wrongly_added_sites": 65
+      },
+      "paired_interval": {
+        "blocks": 74,
+        "delta_95_percentile": [
+          0.03365815356787044,
+          0.11230613779639932
+        ],
+        "describes": "paired 2km spatial block resampling; not independent city validation"
+      }
+    }
+  },
+  "overall": {
+    "raw_argmax": {
+      "n": 1761,
+      "correct": 497,
+      "exact_accuracy": 0.2822260079500284,
+      "false_positive_school_assignments": 541,
+      "false_negative_school_assignments": 2022,
+      "overreported_sites": 541,
+      "omitted_sites": 1264,
+      "precision": 0.6927881885292447,
+      "recall": 0.3763109191856878
+    },
+    "before": {
+      "n": 1761,
+      "correct": 507,
+      "exact_accuracy": 0.2879045996592845,
+      "false_positive_school_assignments": 541,
+      "false_negative_school_assignments": 2003,
+      "overreported_sites": 541,
+      "omitted_sites": 1253,
+      "precision": 0.696067415730337,
+      "recall": 0.38217149907464526
+    },
+    "after": {
+      "n": 1761,
+      "correct": 709,
+      "exact_accuracy": 0.4026121521862578,
+      "false_positive_school_assignments": 776,
+      "false_negative_school_assignments": 1633,
+      "overreported_sites": 567,
+      "omitted_sites": 1049,
+      "precision": 0.6746331236897275,
+      "recall": 0.4962985811227637
+    },
+    "corrected": 202,
+    "harmed": 0,
+    "changed_sites": 452,
+    "wrongly_added_sites": 176
+  },
+  "per_seed": {
+    "ensemble": {
+      "raw_argmax": {
+        "n": 1761,
+        "correct": 497,
+        "exact_accuracy": 0.2822260079500284,
+        "false_positive_school_assignments": 541,
+        "false_negative_school_assignments": 2022,
+        "overreported_sites": 541,
+        "omitted_sites": 1264,
+        "precision": 0.6927881885292447,
+        "recall": 0.3763109191856878
+      },
+      "before": {
+        "n": 1761,
+        "correct": 507,
+        "exact_accuracy": 0.2879045996592845,
+        "false_positive_school_assignments": 541,
+        "false_negative_school_assignments": 2003,
+        "overreported_sites": 541,
+        "omitted_sites": 1253,
+        "precision": 0.696067415730337,
+        "recall": 0.38217149907464526
+      },
+      "after": {
+        "n": 1761,
+        "correct": 709,
+        "exact_accuracy": 0.4026121521862578,
+        "false_positive_school_assignments": 776,
+        "false_negative_school_assignments": 1633,
+        "overreported_sites": 567,
+        "omitted_sites": 1049,
+        "precision": 0.6746331236897275,
+        "recall": 0.4962985811227637
+      },
+      "corrected": 202,
+      "harmed": 0,
+      "changed_sites": 452,
+      "wrongly_added_sites": 176
+    },
+    "20261131": {
+      "raw_argmax": {
+        "n": 1761,
+        "correct": 504,
+        "exact_accuracy": 0.28620102214650767,
+        "false_positive_school_assignments": 534,
+        "false_negative_school_assignments": 2015,
+        "overreported_sites": 534,
+        "omitted_sites": 1257,
+        "precision": 0.696763202725724,
+        "recall": 0.378470080197409
+      },
+      "before": {
+        "n": 1761,
+        "correct": 514,
+        "exact_accuracy": 0.2918796138557638,
+        "false_positive_school_assignments": 535,
+        "false_negative_school_assignments": 1997,
+        "overreported_sites": 535,
+        "omitted_sites": 1246,
+        "precision": 0.699438202247191,
+        "recall": 0.3840222085132634
+      },
+      "after": {
+        "n": 1761,
+        "correct": 716,
+        "exact_accuracy": 0.40658716638273706,
+        "false_positive_school_assignments": 767,
+        "false_negative_school_assignments": 1629,
+        "overreported_sites": 560,
+        "omitted_sites": 1042,
+        "precision": 0.6777310924369748,
+        "recall": 0.4975323874151758
+      },
+      "corrected": 202,
+      "harmed": 0,
+      "changed_sites": 449,
+      "wrongly_added_sites": 173
+    },
+    "20261132": {
+      "raw_argmax": {
+        "n": 1761,
+        "correct": 489,
+        "exact_accuracy": 0.2776831345826235,
+        "false_positive_school_assignments": 554,
+        "false_negative_school_assignments": 2035,
+        "overreported_sites": 554,
+        "omitted_sites": 1272,
+        "precision": 0.6854060193072118,
+        "recall": 0.3723010487353485
+      },
+      "before": {
+        "n": 1761,
+        "correct": 499,
+        "exact_accuracy": 0.2833617262918796,
+        "false_positive_school_assignments": 554,
+        "false_negative_school_assignments": 2016,
+        "overreported_sites": 554,
+        "omitted_sites": 1261,
+        "precision": 0.6887640449438203,
+        "recall": 0.37816162862430597
+      },
+      "after": {
+        "n": 1761,
+        "correct": 697,
+        "exact_accuracy": 0.39579784213515046,
+        "false_positive_school_assignments": 798,
+        "false_negative_school_assignments": 1652,
+        "overreported_sites": 581,
+        "omitted_sites": 1061,
+        "precision": 0.6658291457286433,
+        "recall": 0.4904380012338063
+      },
+      "corrected": 198,
+      "harmed": 0,
+      "changed_sites": 455,
+      "wrongly_added_sites": 184
+    },
+    "20261133": {
+      "raw_argmax": {
+        "n": 1761,
+        "correct": 495,
+        "exact_accuracy": 0.28109028960817717,
+        "false_positive_school_assignments": 538,
+        "false_negative_school_assignments": 2019,
+        "overreported_sites": 538,
+        "omitted_sites": 1266,
+        "precision": 0.6944917660420216,
+        "recall": 0.3772362739049969
+      },
+      "before": {
+        "n": 1761,
+        "correct": 505,
+        "exact_accuracy": 0.2867688813174333,
+        "false_positive_school_assignments": 539,
+        "false_negative_school_assignments": 2001,
+        "overreported_sites": 539,
+        "omitted_sites": 1255,
+        "precision": 0.6971910112359551,
+        "recall": 0.3827884022208513
+      },
+      "after": {
+        "n": 1761,
+        "correct": 707,
+        "exact_accuracy": 0.40147643384440657,
+        "false_positive_school_assignments": 772,
+        "false_negative_school_assignments": 1632,
+        "overreported_sites": 566,
+        "omitted_sites": 1051,
+        "precision": 0.6759026028547439,
+        "recall": 0.49660703269586676
+      },
+      "corrected": 202,
+      "harmed": 0,
+      "changed_sites": 450,
+      "wrongly_added_sites": 174
+    }
+  },
+  "paired_interval": {
+    "blocks": 118,
+    "delta_95_percentile": [
+      0.06749579627417142,
+      0.16983452238184982
+    ],
+    "describes": "paired 2km spatial block resampling; not independent city validation"
+  },
+  "gold_sha256": {
+    "龙华区": "ecda4cf45e0d8163f7a219a9e2c776a764c51163349ac1a4b6d20019aad7514a",
+    "龙岗区": "13fe9045052b3d29ad9d120cdc40baf37f76e60e1c77b1f125ced04abaa36734"
+  },
+  "candidate_sites": 1802,
+  "map_gold_sites": 1761,
+  "base_catchment_accuracy": null,
+  "protocol_sha256": "d9033f4ef31abd571660cf20a12c8bbe76d16ee3b8a52b9eb9782510fa7d4973",
+  "prediction_freeze_sha256": "d7b76e9a500ea8611bd7f9360aa34adf6dbd0cb5812b6a68d596b3117a668573"
+}

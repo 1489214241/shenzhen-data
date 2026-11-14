@@ -1,0 +1,50 @@
+{
+  "sources": [
+    "天心区",
+    "芙蓉区",
+    "雨花区",
+    "开福区",
+    "拱墅区",
+    "萧山区",
+    "富阳区",
+    "临安区"
+  ],
+  "targets": [
+    "龙华区",
+    "龙岗区"
+  ],
+  "arms": [
+    "pooled_control",
+    "plus_composed_scope"
+  ],
+  "parameters": {
+    "loss": "log_loss",
+    "learning_rate": 0.05,
+    "max_iter": 200,
+    "max_leaf_nodes": 15,
+    "min_samples_leaf": 20,
+    "l2_regularization": 1.0,
+    "early_stopping": false,
+    "random_state": 20261131
+  },
+  "control": "Exact round11 pooled_relations model, unchanged observed training features and labels verified.",
+  "intervention": "Add three categorical complete-geographic-scope channels; all previous159channels unchanged.",
+  "native_rules": "Retain K1-K8/X2; nonarea alternatives prevent negative full-scope assumptions.",
+  "source_gate": {
+    "min_multi_correct": 8,
+    "min_single_correct": 901,
+    "min_attainable_multi": 18,
+    "objective": "balanced_exact",
+    "purpose": "Only determines whether to proceed to a separately frozen target test."
+  },
+  "features": {
+    "pooled_control": 159,
+    "plus_composed_scope": 162
+  },
+  "independent_validation": false,
+  "adopted": false,
+  "target_gold_read": false,
+  "target_polygon_read": false,
+  "source_holdout": "Same1246development validation rows;60multi,1186single. No new independence claim.",
+  "partial_labels": "Same positive-only targets, no unknown-as-negative and no new geographic training labels."
+}

@@ -1,0 +1,13 @@
+2026-11-12后续线索。未按这些线索生成新学校关系。
+
+龙岗2023附件 https://www.lg.gov.cn/attachment/1/1439/1439143/11251370.pdf 本次主机curl返回404；目录内同名pdf实际是404HTML，不作为PDF原件。
+龙岗2024住宅附件成功获取并完成round20核查，见longgang_review_queue.json及review_v1。
+龙华2023名单正文 https://www.szlhq.gov.cn/bmxxgk/csglj/dtxx_124388/gzdt_124389/content/post_11191687.html 已用curl成功下载longhua2023_notice.html；住宅区仅名称列表，没有逐项社区对应，不单独生成社区归属。
+龙华2024公示 https://www.szlhq.gov.cn/lhcsglj/gkmlpt/content/12/12138/post_12138349.html 网页公开正文同样是名称列表，不把居民委员会与住宅清单按位置相连。
+主机curl核查 https://guangdong.tianditu.gov.cn/shenzhen/bzmap 返回TLS握手失败、HTTP000。只说明此次连接失败，不宣称网站不存在或所有访问者打不开。未取得行政边界几何。
+
+有待继续检查的独立资料类别：
+1. 政府住房配租公告中逐项目的社区地址；需要区分项目完整范围与个别出租房屋。
+2. 官方物业项目名单、社区辖区清单及分期身份资料；学校附属幼儿园地址只能支持局部位置，不能自动推广整个住宅区。
+3. 龙岗星级物业公告 https://www.lg.gov.cn/bmzz/zjj/xxgk/qt/gzdt/content/post_12048537.html 尚未核查附件是否具有社区字段。
+4. 公开社区名录和标准地名代码只证明身份层级，不能单独当作边界或住宅归属。

@@ -1,0 +1,31 @@
+{
+  "seeds": [
+    20261131,
+    20261132,
+    20261133,
+    20261134,
+    20261135,
+    20261136,
+    20261137,
+    20261138,
+    20261139,
+    20261140
+  ],
+  "objectives": [
+    "micro_exact",
+    "balanced_exact"
+  ],
+  "arm": "new_references_labels",
+  "checkpoint_parent": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round08_reference_retraining",
+  "intervention": "Only reviewed incomplete-boundary conjunction delta; previous resident-group correction preserved in both arms.",
+  "control_input": "F:\\学区划片描述\\学区归属模型_代码库\\data\\深圳市\\居民小组修复模型输入_20261112",
+  "control_predictions": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round10_resident_replay",
+  "threshold": "Exact frozen round08 source thresholds; no recalibration.",
+  "training_steps": 0,
+  "scored_sites": 1761,
+  "unscored_sites": 41,
+  "target_gold_read": false,
+  "target_polygon_read": false,
+  "independent_validation": false,
+  "adopted": false
+}

@@ -1,0 +1,140 @@
+{
+  "status": "frozen_before_training_and_target_scoring",
+  "model": "zoning.model.RetrievalScorer",
+  "targets": [
+    "龙华区",
+    "龙岗区"
+  ],
+  "sources": [
+    "天心区",
+    "芙蓉区",
+    "雨花区",
+    "开福区",
+    "拱墅区",
+    "萧山区",
+    "富阳区",
+    "临安区"
+  ],
+  "seeds": [
+    20261131,
+    20261132,
+    20261133
+  ],
+  "steps": 40,
+  "lr": 0.003,
+  "regularization": 0.01,
+  "width": 32,
+  "warm_start_steps": 100,
+  "chunk": 64,
+  "source_config": {
+    "说明": "默认（11-07 夜起）：输入只用政府公布的政策文字（长沙公告；杭州入学平台范围描述＋萧山核实别名），杭州四至补路 v2，杭州社区/村条款用民政部地名库坐标（小区归最近社区/村点；社区证据四列同长沙雨花；归属把握大且所在社区只被一所学校整体点名的直接由规则判）。官方答案优先学区地图，无图学校用平台小区名单补。",
+    "districts": [
+      "天心区",
+      "芙蓉区",
+      "雨花区",
+      "开福区",
+      "拱墅区",
+      "萧山区",
+      "富阳区",
+      "临安区"
+    ],
+    "rules": {
+      "preset": "unified_20261106",
+      "hangzhou_names": "policy_text_aliases",
+      "hangzhou_boundary": "v2",
+      "hangzhou_community_rule": true
+    },
+    "evidence": {
+      "pair_blocks": [
+        "distance",
+        "named_reference",
+        "policy",
+        "agreement",
+        "disagreement",
+        "crossing",
+        "within_2km",
+        "learned_boundary",
+        "same_community"
+      ],
+      "school_blocks": [
+        "distance",
+        "policy",
+        "within_2km",
+        "community_clause",
+        "name"
+      ],
+      "exclusion_to_model": "all",
+      "layout": "compact"
+    },
+    "model": {
+      "width": 32
+    },
+    "train": {
+      "items": {
+        "target_known": true,
+        "other_known": true,
+        "other_answers": true
+      },
+      "steps": 40,
+      "lr": 0.003,
+      "reg": {
+        "default": 0.01
+      },
+      "seeds": [
+        20261131,
+        20261132,
+        20261133,
+        20261134,
+        20261135,
+        20261136,
+        20261137,
+        20261138,
+        20261139,
+        20261140
+      ]
+    },
+    "evaluate": {
+      "bootstrap_seed": 20261104,
+      "draws": 3000
+    },
+    "output_dir": "outputs/hz_comm_ER",
+    "data": {
+      "hangzhou_gold": "map_list",
+      "hangzhou_community": "mca"
+    }
+  },
+  "additional_target_gold_references": 0,
+  "pair_blocks": [
+    "distance",
+    "named_reference",
+    "policy",
+    "agreement",
+    "disagreement",
+    "within_2km"
+  ],
+  "school_blocks": [
+    "distance",
+    "policy",
+    "within_2km"
+  ],
+  "omitted_in_both_sources_and_targets": [
+    "crossing",
+    "learned_boundary",
+    "same_community",
+    "community_clause",
+    "name"
+  ],
+  "target_directional_states": "unknown; no independent road/admin observations",
+  "missing_school_marker": "per-query median of other school distance features; not a verified location",
+  "baseline": "current model argmax except independently text-known sites keep their complete policy set",
+  "treatment": "same frozen baseline predictions passed through shenzhen_policy.predict_district",
+  "ensemble": "mean of 3 seed probabilities, no score-based selection",
+  "metric": "exact school set vs preserved official_map_point_membership; not certified basic catchment accuracy",
+  "bootstrap": {
+    "seed": 20261111,
+    "draws": 3000,
+    "block_metres": 2000,
+    "paired": true
+  },
+  "adoption": "development external input-ablation test only; no model adoption"
+}

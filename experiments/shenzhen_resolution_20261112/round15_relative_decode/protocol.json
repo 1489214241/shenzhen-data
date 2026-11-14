@@ -1,0 +1,39 @@
+{
+  "sources": [
+    "天心区",
+    "芙蓉区",
+    "雨花区",
+    "开福区",
+    "拱墅区",
+    "萧山区",
+    "富阳区",
+    "临安区"
+  ],
+  "arms": [
+    "absolute",
+    "relative"
+  ],
+  "scorer": "Exactly reused round11 pooled_relations HGB; no retraining.",
+  "primary": "balanced_exact; one source-calibrated scalar for each decoder",
+  "relative_formula": "p(s)/max(p) >= alpha; all-zero scores use original argmax fallback",
+  "source_gate": {
+    "min_multi_correct": 8,
+    "min_single_correct": 901,
+    "min_attainable_multi": 18,
+    "objective": "balanced_exact",
+    "purpose": "Only determines whether to proceed to a separately frozen target test."
+  },
+  "target_gold_read": false,
+  "target_polygon_read": false,
+  "target_cardinality_used": false,
+  "independent_validation": false,
+  "adopted": false,
+  "motivation": "28/60 source multi sets are rank-separable but only9/60 are recovered by a global absolute threshold. Test query-specific scale without learning additional parameters.",
+  "limitation": "Scores normalized by their maximum are relative scores, not probabilities. Ordering errors cannot be repaired.",
+  "research": [
+    {
+      "url": "https://www.mdpi.com/2076-3417/13/13/7591",
+      "reviewed": "Introduction and abstract distinguish ranking and thresholding. This simple fixed normalization is not a reproduction of ThresNets; no F1 guarantee transferred to exact sets."
+    }
+  ]
+}

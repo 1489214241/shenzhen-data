@@ -1,0 +1,56 @@
+{
+  "round": 7,
+  "date": "2026-11-12",
+  "seeds": [
+    20261131,
+    20261132,
+    20261133,
+    20261134,
+    20261135,
+    20261136,
+    20261137,
+    20261138,
+    20261139,
+    20261140
+  ],
+  "labels": [
+    "ensemble",
+    "20261131",
+    "20261132",
+    "20261133",
+    "20261134",
+    "20261135",
+    "20261136",
+    "20261137",
+    "20261138",
+    "20261139",
+    "20261140"
+  ],
+  "arms": [
+    "continued_bce",
+    "balanced_bce",
+    "balanced_rank"
+  ],
+  "objectives": [
+    "micro_exact",
+    "balanced_exact"
+  ],
+  "hypothesis": "Independent official residential membership can supply missing applicability facts for community-based school scopes.",
+  "intervention": "Union source-proved positive school relations with each unchanged round06 final prediction; no transitive relation expansion.",
+  "training": false,
+  "recomputed_model_probabilities": false,
+  "changed_model_references": false,
+  "temporal_cutoff": "2026-06-01",
+  "source_age_limitation": "Archived official profile publication predates cutoff; unchanged2026boundary not independently guaranteed.",
+  "identity": "Every coordinate-group name supported by reviewed clause; homonyms across communities held; no fuzzy aliases or subcommittee collapse.",
+  "proof": "3-valued AST: exact community/street identity and explicit source range references; unresolved roads, exclusions, household conditions remain unknown.",
+  "all_schools": 202,
+  "target_gold_read": false,
+  "target_polygon_read": false,
+  "independent_validation": false,
+  "adopted": false,
+  "target": "Geographical scope membership, not admission eligibility; listed positives do not constitute a complete answer set.",
+  "comparison": "All3arms x2source-calibration objectives x10seeds plus ensemble; same1761scored and41unscored.",
+  "metrics": "Exact-set,FP,FN,corrected,harmed,1km paired district-stratified bootstrap3000 draws; both districts,single,multi and semantic-pending.",
+  "adoption": "No automatic adoption or target-score selection; independent validation and full input/training experiment still required."
+}

@@ -1,0 +1,59 @@
+{
+  "sources": [
+    "天心区",
+    "芙蓉区",
+    "雨花区",
+    "开福区",
+    "拱墅区",
+    "萧山区",
+    "富阳区",
+    "临安区"
+  ],
+  "targets": [
+    "龙华区",
+    "龙岗区"
+  ],
+  "seeds": [
+    20261231,
+    20261232,
+    20261233
+  ],
+  "selection_seed": 20261231,
+  "arms": [
+    "control_bce",
+    "control_zlpr",
+    "routed_bce",
+    "routed_zlpr"
+  ],
+  "grid": [
+    0.001,
+    0.003
+  ],
+  "checkpoints": [
+    0,
+    40,
+    80,
+    160,
+    320
+  ],
+  "batch": 128,
+  "primary": "routed_zlpr_legacy minus control_base_legacy",
+  "hypothesis": "Freeze native teacher first school; separately learn shared conditional membership for every other school, without prefix/cardinality restriction.",
+  "feature": "Native ensemble mean softmax; candidate anchor, top1 anchor, difference, all self-masked reference feature means, relative mass, confidence, entropy, support count. No school ID.",
+  "backbone": "Three frozen categorical Modern teacher seeds; learned admissions have three initialization seeds. No teacher weight update.",
+  "supervision": "Identical routed textual partial labels in both input arms. Preserve source full/partial and original per-property single/multi weights; unknown excluded. Mandatory native top1 excluded from admission loss.",
+  "loss": "Observed BCE versus observed-only adaptation of ZLPR eq1. Not official paper reproduction; missingness not assumed random.",
+  "selection": "Same1246 source rows; singleton loss <=0.5pp, at least1 multi correct, maximize exact then multi then earliest. If none passes, no additions. No target selection.",
+  "threshold": "Exact transition enumeration; native top1 is assigned admission1. Every checkpoint/source ensemble threshold source-only.",
+  "decoding": "Keep previous legacy rules for primary, same in both sides. Separately raw, verified-only ablations. University member suppression unchanged in legacy. Rules/estimates are not promoted to supervision.",
+  "input_versions": [
+    "control",
+    "routed"
+  ],
+  "source_validation_previously_used": true,
+  "target_previous_results_seen": true,
+  "independent_validation": false,
+  "adopted": false,
+  "target_gold_read": false,
+  "limits": "Frozen top1 cannot fix top1 errors; source complete multisets are only pairs; no claim of full AST encoding or enrollment eligibility."
+}

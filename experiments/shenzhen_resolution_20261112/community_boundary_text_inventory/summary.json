@@ -1,0 +1,11 @@
+{
+  "profiles": 181,
+  "profiles_with_three_or_more_directional_mentions": 69,
+  "linear_four_side_candidates": 17,
+  "all_four_exact_named_geometry": 6,
+  "candidate_communities": 12,
+  "target_labels_read": false,
+  "target_polygons_read": false,
+  "school_relations_generated": 0,
+  "caution": "Descriptions may be approximate, outdated, or include disconnected/ambiguous road segments. Exact name matching is a proposal, never geometry validation."
+}

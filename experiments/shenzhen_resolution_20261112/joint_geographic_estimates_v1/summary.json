@@ -1,0 +1,37 @@
+{
+  "coverage": {
+    "龙华区": {
+      "verified_memberships": 54,
+      "schools": 71,
+      "community_only_relations": 83,
+      "added_geographic_estimates": 1,
+      "added_sites": 1,
+      "added_schools": 1,
+      "full_scope_states": {
+        "0": 1034,
+        "-1": 2716,
+        "1": 84
+      }
+    },
+    "龙岗区": {
+      "verified_memberships": 175,
+      "schools": 131,
+      "community_only_relations": 84,
+      "added_geographic_estimates": 0,
+      "added_sites": 0,
+      "added_schools": 0,
+      "full_scope_states": {
+        "0": 296,
+        "-1": 21832,
+        "1": 97
+      }
+    }
+  },
+  "input_memberships": 229,
+  "target_gold_read": false,
+  "target_polygons_read": false,
+  "office_proxies_used": false,
+  "unknown_is_negative": false,
+  "current_property_registry_used": false,
+  "adopted": false
+}

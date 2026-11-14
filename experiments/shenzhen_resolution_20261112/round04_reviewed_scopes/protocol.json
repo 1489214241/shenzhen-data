@@ -1,0 +1,62 @@
+{
+  "round": 4,
+  "date": "2026-11-12",
+  "seeds": [
+    20261131,
+    20261132,
+    20261133,
+    20261134,
+    20261135,
+    20261136,
+    20261137,
+    20261138,
+    20261139,
+    20261140
+  ],
+  "labels": [
+    "ensemble",
+    "20261131",
+    "20261132",
+    "20261133",
+    "20261134",
+    "20261135",
+    "20261136",
+    "20261137",
+    "20261138",
+    "20261139",
+    "20261140"
+  ],
+  "baselines": {
+    "scope_sets": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round02_scope_inclusion_v2",
+    "masked_bce": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round03_partial_labels",
+    "assume_negative": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round03_partial_labels"
+  },
+  "components": {
+    "local_conditions": [
+      "literal_unconditional_name"
+    ],
+    "street_geography": [
+      "independent_admin_geography"
+    ],
+    "both": [
+      "independent_admin_geography",
+      "literal_unconditional_name"
+    ]
+  },
+  "hypothesis": "Whole-school pending status suppresses independently usable unqualified clauses and explicitly published street scopes.",
+  "intervention": "Union literal unqualified school-name facts and independently estimated administrative membership with frozen predictions. Components tested separately and together.",
+  "target": "geographical school scope relation; not admission eligibility",
+  "conservative_name_rule": "Every name in coordinate group must literally match an unconditional AST named atom; no fuzzy or prefix match.",
+  "geometry": "Independent OSM street boundary, 50m boundary band unknown; no school polygons and no office-point proxy for new facts.",
+  "qualifications": "Household-conditioned clauses remain unknown. Published acceptance types retained. University member expansion prohibited.",
+  "training": false,
+  "recomputed_model_probabilities": false,
+  "partial_known_sets_are_not_exhaustive": true,
+  "target_gold_read": false,
+  "target_polygon_read": false,
+  "independent_validation": false,
+  "adopted": false,
+  "comparisons": "All three components on round02 and both round03 arms, all10seeds plus ensemble. No selection by Shenzhen scores.",
+  "metrics": "Frozen1761map-hit rows; strict exact set, FP/FN, corrected/harmed, districts and single/multi. Paired district-stratified1km bootstrap3000draws.",
+  "success": "No automatic adoption. Stable full-population benefit and independent confirmation still needed."
+}

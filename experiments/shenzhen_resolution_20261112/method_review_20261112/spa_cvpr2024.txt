@@ -1,0 +1,1005 @@
+PAGE 1
+ThisCVPRpaperistheOpenAccessversion,providedbytheComputerVisionFoundation.
+Exceptforthiswatermark,itisidenticaltotheacceptedversion;
+thefinalpublishedversionoftheproceedingsisavailableonIEEEXplore.
+Towards Calibrated Multi-label Deep Neural Networks
+JiachengCheng NunoVasconcelos
+DepartmentofElectricalandComputerEngineering
+UniversityofCalifornia,SanDiego
+{jicheng,nvasconcelos}@ucsd.edu
+1
+s P ={apple,fork},N ={knife}
+e Perfect Calibration
+lp
+Focal
+m
+0.8 ASY
+a
+x Ours
+E
+e v0.6 Focal[40]
+itis
+o
+P0.4
+fo
+n
+o0.2 ASY[61]
+itc
+a
+rF
+0
+0 0.2 0.4 0.6 0.8 1
+Mean Posterior Estimate Ours
+Figure1. Left: Reliabilitydiagram(calibrationcurve)ofmulti-labelDNNstrainedwiththeasymmetricfocalloss[40],ASYloss[61],andourproposed
+loss.Right:correspondingretrievalresultsonthemulti-labelretrievaltask,wheretheuserspecifiesaquerystringofdesiredlabelsPandundesiredlabels
+N.Correctretrievalresultsarehighlightedingreen.Improvedcalibrationsubstantiallyimprovesretrievalperformance.
+Abstract
+The problem of calibrating deep neural networks
+(DNNs) for multi-label learning is considered. It is well-
+1.Introduction
+knownthatDNNstrainedbycross-entropyforsingle-label,
+orone-hot,classificationarepoorlycalibrated. Manycali- Deepneuralnetworks(DNNs)includingconvolutionalneu-
+brationtechniqueshavebeenproposedtoaddresstheprob- ral networks (CNNs) [27, 35] and vision transformers
+lem. However, little attention has been paid to the cali- (ViTs)[13]havedemonstratedgreatcapacityforsolvingsu-
+bration of multi-label DNNs. In this literature, the focus pervisedlearningtasksincomputervision. However,many
+hasbeenonimprovinglabelingaccuracyinthefaceofse- applicationsrequiretrust-worthymachinelearningsystems,
+veredatasetunbalance. Thisisaddressedbytheintroduc- whicharenotonlyaccuratebutalsoprobabilitycalibrated,
+tionofasymmetriclosses,whichhavebecameverypopular. i.e.abletoproduceaccurateestimatesoftheposteriorprob-
+However, these losses do not induce well calibrated clas- abilities of the various classes. A classifier is calibrated if
+sifiers. In this work, we first provide a theoretical expla- it predicts a posterior class probability of p when the se-
+nation for this poor calibration performance, by showing lection of the class is correct p×100% of the time. The
+that these loses losses lack the strictly proper property, a importance of calibration has been noted for many appli-
+necessaryconditionforaccurateprobabilityestimation. To cations. Forexample, inmedicaldiagnosis[44,82], prob-
+overcome this problem, we propose a new Strictly Proper abilities can be used to determine which examples require
+Asymmetric (SPA) loss. This is complemented by a Label human inspection, thus avoiding the cost of manually in-
+Pair Regularizer (LPR) that increases the number of cali- specting all images. However, the process can only be
+bration constraints introduced per training example. The trusted if the DNN provides accurate posterior estimates.
+effectivenessofbothcontributionsisvalidatedbyextensive The safety-critical nature of the application makes proba-
+experimentsonvariousmulti-labeldatasets. Theresulting bilitycalibrationacriticalrequirementtoenablethisfunc-
+trainingmethodisshowntosignificantlydecreasethecal- tionality. Cost-sensitiveapplications[15],e.g.frauddetec-
+ibration error while maintaining state-of-the-art accuracy. tion [2, 50] or business decision making [56, 75], involve
+27589
+
+PAGE 2
+different costs for different types of misclassification er- ofthefocalandASYlossesaredrasticallyfarfromperfect.
+rors. In such cases, accurate class-posterior probabilities We argue that these popular multi-label losses are poorly
+areindispensabletobuildingaBayesoptimaldecisionrule. suitedforclass-probabilityestimationbecausetheyarenot
+Therefore,DNNcalibrationhasattractedsubstantialatten- strictly proper [4, 19, 68]. This is a property that denotes
+tion from the computer vision and machine learning com- thefamilyoflossesuniquelyminimizedbythetrueposte-
+munity[18,24,32,36,54,67]. riorprobability. Itisknowinstatisticallearningthat, even
+While various calibration techniques have been pro- in the asymptotic limit of infinite training data, the proba-
+posed, they mostly address DNN training for single-label, bilityestimatesprovidedbyaclassifiercanonlybetrusted
+orone-hot,classification,whereeachexamplehasoneand ifthelatteristrainedwithastrictlyproperloss[42,59]. In
+onlyonelabel.However,variousapplicationsrequiremulti- summary, existing multi-label losses fail to address all re-
+label training. The classical example is image tagging, quirements needed to support applications like multi-label
+where a natural image is tagged with a plurality of labels, retrieval. On one hand, classical losses like the BCE are
+correspondingtoobjectsorattributesofinterest[21]. Other strictly proper but cannot handle the asymmetry of multi-
+examples include visual question answering (VQA) [22], labeldatasets. Ontheother, asymmetriclosses, suchfocal
+where a given image/question pair may have multiple cor- or ASY, are robust to this asymmetry but lack the strictly
+rect answers. Multi-label learning has been the subject properpropertyneededtoensureprobabilitycalibration.
+of extensive research with the focus of improving accu- This motivated us to seek a new multi-label loss that is
+racy, either by designing novel loss [3, 21, 33, 61, 80] or simultaneously asymmetric and strictly proper. We intro-
+leveragingauxiliaryinformation[8,12,25,79,83]. Multi- duce the Strictly Proper Asymmetric (SPA) loss to satisfy
+labelDNNscanbetrainedwithclassprobabilityestimation these constraints. Extensive experiments demonstrate that
+(CPE)lossesthatencourageprobabilitycalibration,suchas it produces significantly better calibrated probability esti-
+the binary cross-entropy (BCE) loss. However, the multi- matesthanexistingmulti-labellosses,asillustratedinFig-
+labelsettingishighlyimbalanced,duetothesparsenessof ure1,withoutsacrificingtheirmulti-labelclassificationac-
+positives, as most tags are absent from any given image. curacy. However, we further acknowledge that, despite its
+In result, asymmetric losses such as such as the focal loss asymptotic guarantees, the strictly proper property is not
+of [40] or the asymmetric (ASY) loss of [61] tend to pro- sufficient to guarantee calibrated probabilities in the finite
+ducemuchhigherlabelingaccuracythantheBCE[61]. training data regime. To improve on this, we leverage the
+structureofthemulti-labelproblemandproposeanewreg-
+While this has made the ASY loss quite popular for
+ularizerthatencouragesconsistencyofthelabelpairproba-
+multi-label applications such as object detection [23, 48],
+bilities. Thisisdenotedasthelabelpairregularizer(LPR).
+multi/cross-modallearning[26,38,70],ormedicaldiagno-
+This is shown to further improve calibration without clas-
+sis [5, 31, 46, 84], the question of whether this and sim-
+sification cost. Finally, it is shown that improved calibra-
+ilar losses encourage accurate label probability estimates
+tion enables significantly better performance in problems
+remains unanswered. Besides concerns of trust, safety, or
+likemulti-labelretrieval,asexemplifiedinFigure1.
+costs, multi-label learning has the challenge of relying on
+Thecontributionsofthepapercanbesummarizedas:
+independentlypredictedtagposteriorprobabilities. Forde-
+• Theoretical analysis of the poor calibration of DNNs
+cisionsinvolvingmultiplelabels,calibrationerrorscanac-
+trainedwithpopularasymmetriclosses,showingthelat-
+cumulate,degradingtheperformanceofeventhemostbasic
+terarenotstrictlyproper.
+operations. We illustrate this with the multi-label retrieval
+• NewSPAlossthatisbothasymmetricandstrictlyproper,
+applicationofFigure1,whereuserscanretrieveimagesus-
+andnewLPRregularizertoimprovecalibrationinthefi-
+ingatag-stringthatimplementsaconjunctionoftagvalues,
+nitedataregime.
+e.g. “pictures that contain fork and apple, but not knife”.
+• Use of the multi-label retrieval task as a testing ground
+These type of queries are of interest for applications like
+fortheimportanceofmulti-labelprobabilitycalibration.
+wildlife biology, where a user may seek images contain-
+• Extensive empirical evaluations on multiple multi-label
+ing animals of two or more species to study their interac-
+datasets, DNN architectures (CNNs and transformers),
+tions, face recognition systems that enable attribute based
+showing that both SPA and LPR improve calibration
+search, e.g.peoplethat”haveanelongatedchinbutdonot
+withoutsacrificeofmulti-labelclassificationaccuracy.
+wear eyeglasses”, etc. For these applications, calibration
+becomesanessentialrequirement,inthesensethatitaffects
+2.RelatedWorks
+eventheaccuracyoftheretrievaloperation.
+Our preliminary studies reveal that multi-label DNNs Probability Calibration of DNNs. It is known that
+trained with existing losses tend to produce poorly- DNNstrainedviasupervisedlearningarefrequentlypoorly-
+calibratedprobabilities.Thisisillustratedbythecalibration calibrated and over-confident [24, 54]. Many calibration
+curvesinFigure1,whereitcanbeseenthatthecalibration techniqueshavebeenproposed,includingpost-hocprocess-
+27590
+
+PAGE 3
+ing(e.g.temperaturescaling[24]),BayesianDNNs[18,32, While this assumption is imperfect and fails to capture
+67, 69], and train-time regularizations [9, 34, 47, 55, 72, labeldependence,itunderliesthepopularmulti-labellosses
+81]. Thesetechniquesaredesignedforthesingle-label, or discussed in this work and is thus necessary for the theo-
+one-hot,classificationsettingbuttheireffectivenessforthe retical analysis of whether they are proper for probability
+multi-labelsettingremainstobeinvestigated. estimation. For this reason, we adopt this assumption in
+thisworkandleavethestudyofproperlossesforjointclass
+Proper Class Probability Estimation (CPE) Loss. The
+probabilityestimationovermultiplelabelstofuturework.
+designofproperscoringrulesforprobabilityelicitationhas
+Given observation x ∈ X, the goal is to estimate the
+long been investigated in statistics [29, 64]. The family of
+properCPElosseswaslaterinvestigatedinmachinelearn- vector η(x) = (cid:2) η(1)(x),··· ,η(T)(x) (cid:3)⊤ of class-posterior
+ing [4, 42, 43, 59, 60]. In statistical learning, asymmetric probabilities
+costs or data imbalance are usually addressed by adoption
+(cid:16) (cid:17)
+of asymmetric losses and conditional risks or asymmetric η(t)(x)=P y(t) =1|x ,∀t∈{1,··· ,T}. (1)
+inverselinkfunctions[1,62,66,78]. The(symmetric)fo-
+calloss[40]ispopularincomputervisiontasksbuthasbeen Amulti-labelDNNtypicallyperformsthisprobabilityesti-
+shownnottobeastrictlyproperCPEloss[6]. Tothebest mationintwosteps. First,itmapsx∈X intoareal-valued
+ofourknowledge,theproperpropertyhasnotbeenstudied scorevectorv(x) = (cid:2) v(1)(x),··· ,v(T)(x) (cid:3)⊤ ∈ RT. The
+fortheasymmetricfocallosses[40,61]commonlyusedfor embeddingv:X →RT iscomposedbyasequenceoflin-
+multi-labellearning. earandnonlinearoperations. Eachv(t)(x)isthenmapped
+Multi-label Classification (MLC). MLC is a special case intoaclass-posteriorprobabilityestimatewith
+of multidimensional function learning, long studied in the (cid:16) (cid:17)
+machine learning literature [30, 41, 85]. Classical MLC η (cid:98) (t)(x)=P(cid:98) y(t) =1|x =[Ψ]−1(v(t)(x)), (2)
+approaches can be categorized into transformation-based
+classifiers(e.g.binaryrelevance[20],classifierchain[58]) where[Ψ]−1(·)isaninverselinkfunction. Thiscanbeany
+that transform MLC into binary or multiclass problems strictlyincreasingfunction[Ψ]−1 : R → ∆,butisusually
+and adaptation-based classifiers (e.g. AdaBoost.MH [65], thelogisticinverselink,orsigmoidactivationfunction
+rank-SVM[14])thatadaptpopularlearningalgorithmsfor
+1
+MLC,areusuallyonlyapplicabletoshallowmodels. Most σ(v)= , (3)
+1+e(−v)
+DNN-based MLC work has focused on either designing
+losses(includingbothCPElosses[3,61,80]andnon-CPE inwhichcasev(t)(x)iscalledalogit.
+losses [21, 33]) or leveraging auxiliary information (e.g. GivenaCPElossℓ : ∆×{−1,+1} → Rthatassigns
+class co-occurrence [8, 12, 79, 83], text description [25],
+acostℓ(η,±1)forpredictingη astheclass-posteriorprob-
+(cid:98) (cid:98)
+spatial annotations [63, 76, 86]) to improve classification abilityofpositiveclasswhenthetruelabelisy = ±1,1 the
+accuracy.Inthiswork,wefocusonthedesignoflossesthat
+optimalposteriorprobabilityestimatorminimizestherisk:
+encouragemulti-labelDNNstobebothaccurateandprob-
+abilitycalibrated,withouttheuseofauxiliaryinformation. (cid:34) T (cid:35)
+(cid:88) (cid:16) (cid:17)
+R(η)=E ℓ η(t)(x),y(t) , (4)
+(cid:98) x,y (cid:98)
+3. Towards Calibrated Probabilistic Multi- t=1
+labelDNNs whereEdenotesexpectation. Totrainamulti-labelproba-
+bilisticDNN,thisisapproximatedbytheempiricalrisk
+3.1.Preliminaries
+( N 0 o , t + at ∞ io ) n , s. an L d et ∆ R= = ( [ − 0, ∞ 1] , . +∞ Fo ) r , a R n + y x =[ ∈ 0,+ R ∞ , w ), e R d + e + no = te R(cid:98)(η (cid:98) ;D)= N 1 (cid:88) N (cid:88) T ℓ(η (cid:98) (t)(x i ),y i (t)) (5)
+max(x,0) by (x) . Given event A, the indicator function i=1 t=1
++
+1 A hasvalue1ifAistrueand0otherwise. on a training dataset D = {(x i ,y i )}N i=1 of i.i.d. samples
+In multi-label classification, each example x ∈ X fromX ×Y [74].
+can have multiple labels simultaneously. The label y = ACPElosscanbeequivalentlyexpressedwithapairof
+[y(1),··· ,y(T)]⊤ ∈ Y = {−1,+1}T is a vector of T bi- partiallossesℓ (η):=ℓ(η,±1).Using(2),ℓ (η)canbe
+±1 (cid:98) (cid:98) ±1 (cid:98)
+narylabelsortags. Modernmulti-labelDNNsusuallypre- rewrittenasthecompositelossℓ (v):=ℓ ([Ψ]−1(v)),
+±1,Ψ ±1
+dict labels separately [10, 61, 70, 73] under the following which is a function of a real-valued score v ∈ R. In this
+independenceassumption. work, weuseℓ (η)andℓ (v)todenotetheCPEloss
+±1 (cid:98) ±1,Ψ
+andtheCPEcompositeloss,respectively.
+Assumption1. Foranyx ∈ X andi ̸= j ∈ {1,··· ,T},
+y(i)andy(j)areindependentgivenx,i.e.y(i)⊥⊥y(j)|x. 1Wesometimesomitdependenciesonxandtfornotationsimplicity.
+27591
+
+PAGE 4
+3.2.Multi-labelLearningLoss whereC isthe(pointwise)conditionalrisk
+The most popular multi-label loss is the binary cross- C(η(x),η(x))=η(x)ℓ (η(x))+(1−η(x))ℓ (η(x)).
+(cid:98) +1 (cid:98) −1 (cid:98)
+entropy(BCE) (11)
+Itfollowsthattherisk(4)isminimizedwhentheconditional
+(cid:40)
+ℓB +1 CE(η (cid:98) )=−log(η (cid:98) ), (6) risk is minimum for all x ∈ X. For η (cid:98) to be an accurate
+ℓB −1 CE(η (cid:98) )=−log(1−η (cid:98) ). estimate of the true class-posterior probability η, C(η,η (cid:98) )
+should be uniquely minimized by η = η for all η ∈ ∆.
+(cid:98)
+Thisissymmetric,inthatℓBCE(η)=ℓBCE(1−η). How- WhenthisholdstheCPElossissaidtobestrictlyproper.
++1 (cid:98) −1 (cid:98)
+ever,real-worldmulti-labeldatasetstendtohavehighlyim-
+Definition 1. (Strict Properness [4, 19, 68]) The pair
+balancedlabeldistributions, sincenegativelabels(absence
+of partial losses {ℓ ,ℓ } or {ℓ ,ℓ } is strictly
+−1 +1 −1,Ψ +1,Ψ
+of a tag) are much more frequent than positive ones (pres-
+proper if the conditional risk C(η,η) of (11) is uniquely
+(cid:98)
+ence of tag). This imbalance degrades BCE loss perfor-
+minimizedbyη =ηforallη ∈[0,1].
+(cid:98)
+manceincomparisontoasymmetriclosses,suchasthefo-
+calloss[40,61] It is well-known that the BCE loss of (6) is strictly
+proper[43,59]. Wenextshowthatboththefocallossof(7)
+(cid:40) ℓAsyFocal(η)=−(1−η)γ+ log(η), andtheASYlossof(8)arenotstrictlyproper.
++1 (cid:98) (cid:98) (cid:98)
+(7)
+ℓAsyFocal(η)=−(η)γ− log(1−(η)), Theorem 1. For any m ∈ R and γ+,γ− ∈ R , the
+−1 (cid:98) (cid:98) (cid:98) + ++
+ASYlossof (8)isnotstrictlyproper.
+where γ+,γ− ∈ R are focusing parameters for posi-
+++ Corollary1. Foranyγ+,γ− ∈R ,thefocallossof (7)
+tiveandnegativeexamplesrespectively. Forγ+ <γ−,this ++
+isnotstrictlyproper.
+loss assigns relatively higher weights to hard negative ex-
+amples, discounting the large numbers of negatives away Tothebestofourknowledge,Theorem1isthefirstanal-
+fromtheboundary. Thisincreasestheclassificationmargin ysis of the strict properness property for the asymmetric
+and improves multi-label classification performance. [61] focal and ASY losses. Note that when γ+ = γ−, it fol-
+proposed to further increase negative example margins by lows from Corollary 1 that the (symmetric) focal loss [40]
+augmenting this loss with asymmetric probability shifting, isnotstrictlyproper,aresultfirstprovenin[6,Theorem5].
+i.e. hard thresholding of the margin to fully discard easy [6,Theorem11]showsthat,forthe(symmetric)focalloss,
+negativeexamples.Thisleadstotheasymmetric(ASY)loss thelackofstrictpropernesspropertycanbecircumvented,
+by deriving a bijective map between the conditional risk
+(cid:40) ℓA + S 1 Y(η (cid:98) )=−(1−η (cid:98) )γ+ log(η (cid:98) ), minimizerandthetrueclass-posteriorprobability. Thefol-
+(8)
+ℓASY(η)=−(η−m) γ− log(1−(η−m) ), lowingtheoremgeneralizesthisresult,byshowingthatthe
+−1 (cid:98) (cid:98) + (cid:98) + class-posteriorprobabilitycanberecoveredfromthemini-
+wherem∈R istheprobabilitymargin,andtheASYloss mizeroftheconditionalriskoftheASYloss(8)byabijec-
++
+tivemapifandonlyiftheprobabilitymarginism=0.
+reducestotheasymmetricfocallossof(7)ifm=0.
+TheASYlossachievesstate-of-the-artaccuracyonmul- Theorem2. Denotetheconditionalriskof(11)definedby
+tiplemulti-labeldatasetsandhasbecomeincreasinglypop- theASYlossℓASY of (8)byCASY(η,η). Let
+(cid:98)
+ularinmachinelearningandcomputervision[5,23,26,31,
+38,46,48,70,84]. However,weobservethattheprobabil- η (cid:98) ASY,∗(x)=argminCASY(η(x),η (cid:98) (x)) (12)
+ityestimatesitproducesareusuallyhighlyuncalibrated(as η(cid:98)∈[0,1]
+illustratedbythecalibrationcurveinFigure1). Thismakes betheminimizerofthisriskforanyx∈X. Thenthereisa
+itpoorlysuitedforapplicationsthatrequirecalibratedprob- mappingϕsuchthat
+abilityestimates.
+η(x)=ϕ (cid:0) ηASY,∗(x);γ−,γ+,m (cid:1) , (13)
+(cid:98)
+3.3.StrictlyProperAsymmetricLoss
+where
+Since(4)canberewrittenas
+h((z−m) ;γ−)
+ϕ(z;γ−,γ+,m)= + ,
+(cid:34) (cid:34) (cid:88) T (cid:16) (cid:17) (cid:12) (cid:12) (cid:35)(cid:35) h((z−m) + ;γ−)+h(1−z;γ+)
+R(η (cid:98) )=E x E y|x ℓ η (cid:98) (t)(x),y(t) (cid:12) (cid:12) x (9) (14)
+(cid:12)
+t=1 zγ −γzγ−1(1−z)log(1−z)
+(cid:34) T (cid:35) h(z;γ)= . (15)
+=E (cid:88) C (cid:16) η(t)(x),η(t)(x) (cid:17) (10) 1−z
+x (cid:98)
+t=1 ϕ:∆→∆isabijectivemapifandonlyifm=0.
+27592
+
+PAGE 5
+1
+100 Definition Asymmetric StrictProper Recoverη
+0.8
+`
+`
++
+!
+1
+1
+;
+;
+*
+*
+(
+(
+v
+v
+)
+) 0
+0
+.
+.
+4
+6 [*]!1(v)
+Foc
+B
+a
+C
+l
+E
+[40]
+(
+(
+6
+7
+)
+) ✓
+✗ ✓
+✗
+✓
+✓
+10-5 0.2 ASY[61] (8) ✓ ✗ ✗
+0 SPA (16,17) ✓ ✓ ✓
+-4 -2 0 2 4 -4 -2 0 2 4
+v v
+Figure2.ExampleoftheSPAlosses(left)andtheassociatedinverselink Table1. Multi-labelCPElossesdiscussedinthiswork. Thelastcolumn
+(right)where(ζ+,k+,b+,ζ−,k−,b−)=(1,1,0,5,3,1). indicateswhetherthereisabijectivemapbetweenthetrueclass-posterior
+probabilityηandtheCPEriskminimizer.
+Our empirical studies show that applying the mapping
+3.4.LabelPairRegularizer
+ϕ of (13) significantly improves the calibration of multi-
+label DNNs trained by both (7) (where m = 0) and (8)
+A strictly proper CPE loss only guarantees perfect label-
+(wherem > 0). However,ϕisbijectiveandstrictlyorder-
+probability estimates for asymptotically large datasets. In
+preserving (i.e. it will preserve the accuracy of the trained
+practice, for finite datasets, empirical risk minimization
+DNNs) if and only if m = 0. When m > 0, the accu-
+does not guarantee the recovery of true risk minimizer. In
+racy of multi-label DNNs may be compromised by ϕ. To
+this case, probability calibration can usually be improved
+overcomethislimitation,weseektodesignanewlossthat
+byaddingregularizationtermstothelossfunction. Inthis
+issimultaneouslyasymmetricandstrictlyproper. Forthis,
+work, we propose a regularizer specifically designed for
+ratherthandesigningaCPElossℓ (η)explicitly,wecon-
+±1 (cid:98) multi-labellearning.
+sidertheseparatedesignofacompositelossℓ (v)and
+±1,Ψ Under the independence Assumption 1, the probability
+aninverselink[Ψ]−1(v)asbelow
+estimates of each label in {1,··· ,T} are supervised inde-
+pendently, i.e. there is no explicit supervision for the joint
+ 1 (cid:18) 1 (cid:19) prediction of multiple classes. This is consistent with the
+ ℓ +1,Ψ (v)=− ζ+ log 1+e(−k+(v−b+)) , decomposition of the risk of (4) into a sum of t label-
+(16)
+(cid:18) (cid:19)
+ℓ
+−1,Ψ
+(v)=−
+ζ
+1
+−
+log
+1+e(+k
+1
+−(v−b−))
+,
+s
+c
+p
+o
+e
+n
+c
+s
+i
+t
+fi
+ra
+c
+in
+r
+t
+i
+s
+sk
+o
+s
+n
+.
+t
+H
+he
+ow
+pr
+e
+o
+v
+b
+e
+a
+r,
+bi
+a
+l
+n
+ity
+ex
+e
+a
+s
+m
+tim
+pl
+a
+e
+te
+x
+s o
+st
+f
+il
+d
+l
+i
+p
+ff
+r
+e
+o
+r
+v
+e
+i
+n
+d
+t
+e
+l
+s
+ab
+jo
+e
+i
+l
+n
+s
+t
+.
+To see this, consider any x ∈ X and pair (t,t′) of labels
+k−σ(−k−(v−b−)) withdifferentvalues. Theprobabilityofy(t)=+1isthen
+[Ψ]−1(v)= ζ− , (17)
+k ζ− −σ(−k−(v−b−))+ k ζ+ +σ(k+(v−b+)) βtt′ (x)=P (cid:16) y(t)=+1|y(t)̸=y(t′),x (cid:17)
+whereσ(·)isthesigmoidfunctionof(3). Accordingtothe P(y(t)=+1,y(t′)=−1|x)
+Theorem3below,theCPElosscomposedof(16)and(17) = P (cid:0) y(t)=+1,y(t′)=−1 (cid:12) (cid:12)x (cid:1) +P (cid:0) y(t)=−1,y(t′)=+1 (cid:12) (cid:12)x (cid:1)
+isstrictlyproperandthusreferredtoastheStrictlyProper
+η(t)(x)(1−η(t′)(x))
+Asymmetric(SPA)lossinthiswork. Inpractice,following =
+η(t)(x)(1−η(t′)(x))+(1−η(t)(x))η(t′)(x)
+thepracticeintheliterature[61],wereducethepositivepar-
+(18)
+tiallosstotheBCElossbysetting(ζ+,k+,b+) = (1,1,0)
+wherethelastequalityfollowsfromtheAssumption1. Let
+and only tune the hyperparmeters ζ−,k−,b− of the nega-
+tivepartialloss. Themotivationforthesehyperparmetersis η(t)(1−η(t′))
+simpleandintuitive: i)k−,b− defineanaffinetransforma- β(cid:98) tt′ = (cid:98) (cid:98) (19)
+η(t)(1−η(t′))+η(t′)(1−η(t))
+tion of the logits v(t)(x) that enables control of the rate at (cid:98) (cid:98) (cid:98) (cid:98)
+whichℓ decaysto0asv →0. ii)ζ−isascalefactorthat
+−1 bethepluginestimatorofβtt′. Thefollowingresultshows
+controlstheoverallweightofnegativeexamples. Notethat
+unlikepriorlosses(6)-(8),SPAdoesnotdirectlyoperateon
+thattheaccurateestimationofβ(cid:98)tt′ isanecessarycondition
+fortheaccurateestimationofη(t)andη(t′).
+the probability estimate η(x), and that the introduction of (cid:98) (cid:98)
+(cid:98)
+thesehyperparametersinducestheneedfortheinverselink
+Lemma 1. For any t ̸= t′, β(cid:98)(tt′) = β(tt′) is a necessary
+of (17) to achieve the strict properness, rather than simply
+conditionforη(t) =η(t)andη(t′) =η(t′).
+usingthesigmoidof(3). (cid:98) (cid:98)
+Theorem3. Foranyζ+,ζ−,k+,k− ∈R ++ andb−,b+ ∈ Since the example x can be seen as a calibration con-
+R, the CPE loss composed of composite loss (16) and in- straint for the estimation of β(cid:98)tt′ in addition to those that
+verselinkfunction(17)isstrictlyproper. it already provides for the individual calibration of η(t)
+(cid:98)
+Finally, Figure 2 presents an example of the SPA loss and η (cid:98) (t′), this suggests that introducing calibration super-
+and Table 1 summarises the properties of the CPE losses
+visiononβ(cid:98)tt′ canhelpimprovethecalibrationofη(t),η(t′).
+discussed in this section. The proofs of all theoretical re- We leverage this observation by introducing a new Label
+sultsinthissectionareincludedintheAppendix. PairRegularizer(LPR)ocalibratetheestimateβ(cid:98)ij,imple-
+27593
+
+PAGE 6
+mentedwiththeBCEloss MS-COCO VOC2012 WIDER-A VISPR
+LLPR(x,y)= T(T 2 −1) (cid:88) 1 y(t)=+1 (cid:104) −logβ(cid:98) tt′ (cid:105) . # # c tr l a a i s n se im s ages 82 8 0 0 81 57 2 1 0 7 28 1 3 4 40 14 6 1 8 67
+t̸=t′ y(t′)=−1 #
+#
+t
+p
+e
+o
+s
+si
+t
+tiv
+im
+ela
+a
+b
+g
+el
+e
+s
+s 4
+0
+0
+.
+1
+0
+3
+4
+7 5
+0
+8
+.0
+2
+8
+3 2
+0
+9
+.
+1
+2
+1
+6
+7 8
+0
+0
+.0
+0
+8
+0
+(20) #negativelabels
+Finally,inourproposedtrainingapproach,amulti-label
+Table2.Statisticsofmulti-labelclassificationdatasetsusedforevaluation.
+DNNistrainedbyajointoptimizationofSPAandLPR:
+5.Experiments
+T
+Loverall(x,y)= 1(cid:88) ℓ (v(t)(x))+λLLPR(x,y) (21) In this section, we evaluate the calibration performance of
+T y(t),Ψ theSPAlossandtheLPRcalibrationregularizer.
+t=1
+5.1.ExperimentSetup
+whereλisthemultiplierbalancingthetwoterms.
+Networks and Datasets. We evaluate the benefits of
+4.Multi-labelImageRetrieval the proposed contributions for both CNNs and transform-
+ers, using the ECA-ResNet50-T [27, 28, 77] and ViT-
+Multi-label probability calibration has many applications
+B/32 [13] networks as multi-label DNN backbone archi-
+beyond image tagging with binary labels. In fact, binary
+tecture, respectively. Four public multi-label image clas-
+tagging is not the most demanding application in terms of
+sification datasets are used for the empirical evaluations:
+probability calibration. Many binary classification tech-
+MS-COCO [39], PASCAL VOC 2012 [16, 17], WIDER
+niques, e.g. support vector machines [74], are known to
+Attribute [37], and MPI-I VISPR [53]. In MS-COCO and
+be accurate for classification but not well calibrated. This
+VOC, each label indicates the existence of an object class
+has motivated a literature on post-hoc calibration tech-
+intheimage,whileinWIDER-AandVISPR,eachlabelin-
+niques, such as Platt scaling [57]. In general, tasks that
+dicatesthepossessionofanattribute. Moredatasetsstatis-
+involve reasoning about multiple tags benefit more from
+tics can be found in Table 2. Beyond image classification,
+calibrated probability estimates. Consider the problem of
+weevaluatetheproposedcontributionsonthemulti-modal
+multi-label image retrieval, where a user provides a query
+multi-label task of visual question answering on the VQA
+string with multiple tags, where a tag can be specified as
+v2.0 dataset [22] and the LXMERT [71] network. In this
+desired (y = +1) or undesired (y = −1). For exam-
+case, the DNN is faced with an image/question pair and
+ple, the user may want pictures of “dogs” but “not on the
+each label is a possible answer to the question. We com-
+beach”and“notonthepark”. Letthesetofpositivelabels
+pare SPA and the BCE loss, which is used to train most
+be P = {y(j1),··· ,y(j|P|)} and the set of negative labels
+end-to-endVQADNNs[7,71],intheAppendix.
+N ={y(k1),··· ,y(k|N|)}. Anaturalscoreforimagerank-
+ingisthentheposteriorprobability Baselines. WeusetheBCE,(asymmetric)focal,andASY
+losses,ofTable1asbaselinesinallexperiments. Theseare
+(cid:16) (cid:12) (cid:17)
+s(x) = P {y(j)=+1} ,{y(k)=−1} (cid:12)x complemented by the recent two-way loss (TWL) [33], a
+j∈P k∈N(cid:12)
+state-of-the-art non-CPE loss for multi-label learning. For
+(cid:89) (cid:89)
+= η(j)(x) (1−η(k)(x)) (22) focal and ASY, we also evaluate the composition of the
+probability estimate with the true class probability recov-
+j∈P k∈N
+erymappingϕof(12). SinceTWLisanon-CPElossand
+wheretheequalityfollowsfromtheAssumption1.Thiscan cannotproduceclass-posteriorprobabilityestimates,weat-
+beestimatedbyaprobabilisticmulti-labelnetworksas tempttocalibrateitsoutputsbytemperaturescaling[24].
+(cid:89) (cid:89) Evaluation Metrics. For measuring image classifi-
+s(x) = η(j)(x) (1−η(k)(x)). (23)
+(cid:98) (cid:98) (cid:98) cation accuracy, we follow the protocols in the lit-
+j∈P k∈N erature [33, 61] and employ two metrics: class-
+based mean average precision (mAP@y) and example-
+However, since this involves the multiplication of several
+based mean average precision (mAP@x). The for-
+probabilityestimateswhoseerrorscanaccumulate,theerror
+mer/latter is obtained by first calculating the average pre-
+oftheestimatedscoreusuallyincreaseswiththetotalnum-
+cision (AP) for each class/example and then averaging
+ber |P|+|N| of labels included in the query. In practice,
+theperformanceoftheretrievaloperationtendstodegrade them, i.e. mAP@y = T 1 (cid:80)T t=1 AP({(v(t)(x i ),y i (t))}N i=1 ),
+quickly as the length of the query string increases. Prob- mAP@x = 1 (cid:80)N AP({(v(t)(x ),y(t))}T ). Forevalu-
+N i=1 i i t=1
+ability calibration can decrease the rate of this decay. We ating class-posterior probability calibration, we employed
+thususethisapplicationtoevaluatethepracticalbenefitsof two probability calibration metrics based on the reliabil-
+boththeSPAlossandtheLPRregularizer. ity diagram [11, 52]: average calibration error (ACE) [51]
+27594
+
+PAGE 7
+MS-COCO
+80
+ECA-ResNet50-T ViT-B/32
+Accuracy Calibration Accuracy Calibration 75
+Dataset Method mAP@y↑ mAP@x↑ ACE↓ MCE↓ mAP@y↑ mAP@x↑ ACE↓ MCE↓ P70
+A
+BCE 72.2 82.4 8.2 17.0 70.1 81.9 6.0 15.5 m65
+TWL 77.2 87.9 17.2 33.6 76.2 88.0 14.2 31.3 BCE
+60 ASY
+Focal 74.8 85.9 20.1 34.9 72.0 83.8 23.6 36.2 Ours
+Focal+ϕ - - 11.1 20.3 - - 8.5 17.9 55
+COCO 2 3 4 5
+ASY 77.5 88.2 30.6 46.0 76.4 87.7 29.5 48.6 +
+jPj jNj
+ASY+ϕ 77.0 87.8 15.0 26.0 76.2 87.3 16.2 26.2 VOC
+85
+SPA 77.8 88.4 5.3 12.0 76.8 87.9 4.8 10.7
+SPA+LPR 77.7 88.6 4.2 9.3 76.6 88.1 2.1 5.3 80
+75
+BCE 85.1 92.4 6.9 13.8 86.9 92.7 7.8 16.7 P
+A70
+TWL 89.1 93.7 10.8 22.0 90.1 94.5 14.5 28.3 m
+Focal 87.4 93.3 19.0 35.8 88.4 93.6 16.2 31.7 65 BCE
+Focal+ϕ - - 7.0 16.5 - - 9.3 20.7 60 ASY
+VOC Ours
+ASY 89.6 94.6 26.4 47.7 90.4 94.7 31.7 52.8 55
+2 3 4 5
+ASY+ϕ 89.1 94.3 12.9 24.7 89.8 94.2 15.5 33.0 +
+jPj jNj
+SPA 89.5 94.1 5.4 14.9 90.0 93.9 6.1 14.4 VISPR
+SPA+LPR 89.9 94.3 4.9 11.0 90.4 94.8 5.5 12.7 50
+BCE 74.9 82.8 11.5 25.2 76.7 83.2 8.6 13.3
+40
+TWL 79.9 85.5 14.3 29.0 81.6 87.6 16.7 32.3 P
+A
+Focal 78.5 84.1 20.1 34.2 80.8 85.2 18.8 31.2 m
+Focal+ϕ - - 9.3 21.0 - - 7.4 16.5 30 BCE
+WIDER-A ASY 80.6 86.0 24.2 35.2 82.2 87.8 22.8 36.3 ASY
+Ours
+ASY+ϕ 79.9 85.4 14.3 27.5 81.8 87.2 13.3 20.7 20
+2 3 4 5
+SPA 80.1 85.8 5.3 11.2 82.0 87.6 4.3 10.5 +
+SPA+LPR 80.3 85.9 3.5 8.0 82.7 87.9 2.8 6.2 W jP I j DER jN -A j
+70
+BCE 46.3 78.8 9.7 16.6 48.4 80.5 8.2 14.8
+60
+TWL 52.4 84.3 17.9 26.0 53.6 85.4 12.4 26.8
+Focal 48.0 81.0 24.0 40.5 50.1 83.2 24.6 35.7 P50
+A
+VISPR
+Focal+ϕ - - 8.6 18.2 - - 9.6 14.1 m40
+ASY 51.6 84.0 28.8 44.2 53.0 85.0 27.7 45.2 BCE
+ASY+ϕ 51.4 83.7 14.3 23.7 43.9 52.8 16.4 29.0 30 ASY
+Ours
+SPA 52.4 84.5 5.8 12.1 53.2 85.3 5.9 10.2 20
+2 3 4 5
+SPA+LPR 52.7 84.9 3.0 8.1 53.4 85.6 2.5 7.4 +
+jPj jNj
+Figure 3. Multi-label image re-
+Table3. Performanceofdifferentlossesondifferentcombinationsofdatasetsandnetworks. Foreachcombination,
+trievalmAPversusthenumberof
+wehighlightthebestresultsinboldandthesecondbestresultsunderlined.
+searchconditions|P|+|N|.
+and maximum calibration error (MCE) [49] (detailed def- inthefourmulti-labelimageclassificationdatasetsconsid-
+inition provided in the Appendix). These metrics are ered. Several observations are possible. First, all losses
+suitedforevaluatingthecalibrationerrorunderdataimbal- other than BCE have competitive classification accuracy.
+ance[45,51]. The poor performance of BCE is explained by its well
+ImplementationDetails. Allmulti-labelDNNsaretrained known sensitivity to data imbalance. Among the other
+with a stochastic gradient descent (SGD) optimizer with losses, ASY and SPA tend to have consistently better per-
+momentumof0.9,weightdecayof1e-4,andbatchsizeof formance. Second,therearelargedifferencesincalibration
+256. Theinputimageresolutionissetto224×224forboth performance. Compared to the strictly proper losses (SPA
+training and testing. Following the protocol of [33, 61], and BCE), the TWL, focal, and ASY losses produce sig-
+all DNNs are initialized with weights pretrained on Ima- nificantly worse calibrated models. This confirms our ar-
+geNet. For the evaluation of ASY and TWL, we use the guments for the importance of the strictly proper property
+official publicly-released implementations and follow the for CPE losses. Third, while the mapping ϕ of (13) sig-
+suggestions for hyperparameters choices provided in the nificantly improves the calibration of focal and ASY, it is
+original papers. For SPA, we use the hyperparameters not sufficient to make these losses competitive with BCE
+(ζ+,k+,b+,ζ−,k−,b−)=(1,1,0,5,3,1)ofFigure2and and SPA. Finally, SPA has the best calibration among the
+avoiddataset-specifictuning. strictlyproperlosses,e.g.reducingtheACEoftheBCEloss
+byasmuchasafactorof≈4(WIDER-A).
+5.2.Results
+Overall,SPAhasaccuracycomparableorsuperiortothe
+Multi-labelClassification. Table3summarizesthemulti- currentstate-of-the-artASYandTWLwithmuchsuperior
+labelclassificationandcalibrationperformanceofalllosses calibration. Regarding LPR, it can be seen that the addi-
+27595
+
+PAGE 8
+P ={person,baseballbat},N ={baseballglove}
+ASY[61]
+Ours
+P ={car,stopsign},N ={motorcycle,bicycle}
+ASY[61]
+Ours
+Figure4.Qualitativeresultsofmulti-labelimageretrieval.Correctretrievalresultsarehighlightedingreen.
+mAP@x↑ mAP@y↑ ACE↓ MCE↓ SPAlosses. Notethat,eventhoughASYisabetterlossfor
+multi-label classification than the BCE loss, its poor cali-
+BCE 72.2 82.4 8.2 17.0
+BCE+LPR 72.4 82.9 6.5 14.8 bration compromises its application to the multi-condition
+Focal 74.8 85.9 20.1 34.9 retrievaltask,whereitseverelyunderperformstheothertwo
+Focal+LPR 75.1 86.3 19.7 36.4 losses.Thebettercalibratedmulti-labelmodelstrainedwith
+ASY 77.5 88.2 30.6 46.0
+theSPAlossoutperformthenetworkstrainedwiththeother
+ASY+LPR 77.2 88.1 29.4 44.7
+methodsinalldatasets. Thebenefitsofcalibrationarealso
+Table4.EffectofLPRonotherCPElosses(COCO,ECA-ResNet50-T).
+visibleinthefactthattheperformancegapbetweentheSPA
+tion of this regularizer maintains the accuracy of SPA and
+networksandthepoorlycalibratedASYnetworksincreases
+further enhances calibration, e.g. from 5.8 to 3.0 ACE on
+withthelengthofthequerystring|P|+|N|. Thisiscon-
+VISPER. Altogether, SPA or SPA +LPR achieve the top
+sistent with the hypothesis of Section 4. Some qualitative
+performance for 29 of the 32 dataset/model/metric config-
+retrievalresultsarepresentedinFigure4.
+urationsofTable3, whileSPA+LPRhastopperformance
+for 25 out of the 36. These results demonstrate the effec- 6.Conclusion
+tivenessofSPA+LPR-basedmulti-labelcalibration.
+Inthiswork,weinvestigatedthepoorcalibrationofDNNs
+Pairwise regularization. While LPR is proposed to com-
+trained by state-of-the-art multi-label losses, both theoret-
+plement the SPA loss, it can be used to improve the cali-
+ically and empirically. We explained the poor calibration
+brationofanymulti-labelclassificationloss. Table4sum-
+performancebythelackofthestrictpropernesspropertyfor
+marizes its impact on the prior CPE losses for the ECA-
+theselossesandproposedanewasymmetriclosswiththis
+ResNet50-T network on MS-COCO. The addition of the
+property. Thiswascomplementedbyanewlabelpairreg-
+LPRregularizerimprovescalibrationforalllosseswithout
+ularizerthatincreasesthenumberofcalibrationconstraints
+substantiallyalteringaccuracy.
+per training example. The combination of the two contri-
+5.3.Multi-labelImageRetrieval butionswasshowntoproducemulti-labelDNNsfeaturing
+bothstate-of-the-artaccuracyandwell-calibratedprobabil-
+Weevaluatetheprobabilisticmulti-labelmodelstrainedin ityestimates.
+the last subsection on the multi-label image retrieval task
+introducedinSection4.Weconsiderallpossiblelabelcom- Acknowledgements
+binations for P and N with |P| ≥ 1 and |P|+|N| ≤ 5.
+The retrieval operation is performed by using (23) to rank ThisworkwaspartiallyfundedbyNSFawardIIS-2303153,
+allthedatabaseimages. Performanceisevaluatedbymea- a gift from Qualcomm, and NVIDIA GPU donations. We
+suring the mAP over all queries. Figure 3 compares the alsoacknowledgeandthanktheuseoftheNautilusplatform
+mAP curves of networks trained with the BCE, ASY, and forsomeoftheexperimentsdiscussedabove.
+27596
+
+PAGE 9
+References [16] M. Everingham, L. Van Gool, C. K. I. Williams, J. Winn,
+and A. Zisserman. The pascal visual object classes (voc)
+[1] Arpit Agarwal, Harikrishna Narasimhan, Shivaram
+challenge. InternationalJournalofComputerVision,88(2):
+Kalyanakrishnan, and Shivani Agarwal. Gev-canonical
+303–338,2010. 6
+regression for accurate binary class probability estimation
+[17] M. Everingham, S. M. A. Eslami, L. Van Gool, C. K. I.
+whenoneclassisrare. InICML,2014. 3
+Williams,J.Winn,andA.Zisserman. Thepascalvisualob-
+[2] AlejandroCorreaBahnsen,AleksandarStojanovic,Djamila
+jectclasseschallenge:Aretrospective.InternationalJournal
+Aouada,andBjo¨rnOttersten.Costsensitivecreditcardfraud
+ofComputerVision,111(1):98–136,2015. 6
+detectionusingbayesminimumrisk. InInternationalCon-
+[18] YarinGalandZoubinGhahramani. Dropoutasabayesian
+ferenceonMachineLearningandApplications.IEEE,2013.
+approximation: Representing model uncertainty in deep
+1
+learning. InICML,2016. 2,3
+[3] Emanuel Ben-Baruch, Tal Ridnik, Itamar Friedman, Avi
+[19] TilmannGneitingandAdrianERaftery.Strictlyproperscor-
+Ben-Cohen, Nadav Zamir, Asaf Noy, and Lihi Zelnik-
+ingrules,prediction,andestimation. JournaloftheAmeri-
+Manor.Multi-labelclassificationwithpartialannotationsus-
+canstatisticalAssociation,102(477):359–378,2007. 2,4
+ingclass-awareselectiveloss. InCVPR,2022. 2,3
+[20] Shantanu Godbole and Sunita Sarawagi. Discriminative
+[4] Andreas Buja, Werner Stuetzle, and Yi Shen. Loss func-
+methods for multi-labeled classification. In Advances
+tions for binary class probability estimation and classifica-
+in Knowledge Discovery and Data Mining, pages 22–30.
+tion: Structureandapplications. Technicalreport,2005. 2,
+Springer,2004. 3
+3,4
+[21] YunchaoGong,YangqingJia,ThomasLeung,AlexanderTo-
+[5] Wenjie Cai, Fanli Liu, Bolin Xu, Xuan Wang, Shuaicong
+shev,andSergeyIoffe. Deepconvolutionalrankingformul-
+Hu,andMingjieWang.Classificationofmulti-leadecgwith tilabelimageannotation. InICLR,2014. 2,3
+deepresidualconvolutionalneuralnetworks. Physiological
+[22] YashGoyal,TejasKhot,DouglasSummers-Stay,DhruvBa-
+Measurement,43(7):074003,2022. 2,4
+tra, and Devi Parikh. Making the V in VQA matter: Ele-
+[6] Nontawat Charoenphakdee, Jayakorn Vongkulbhisal, Nut- vating the role of image understanding in Visual Question
+tapongChairatanakul,andMasashiSugiyama.Onfocalloss Answering. InCVPR,2017. 2,6
+forclass-posteriorprobabilityestimation: Atheoreticalper-
+[23] Inske Groenen, Stevan Rudinac, and Marcel Worring.
+spective. InCVPR,2021. 3,4
+Panorams: automaticannotationfordetectingobjectsinur-
+[7] Yen-Chun Chen, Linjie Li, Licheng Yu, Ahmed El Kholy, ban context. IEEE Transactions on Multimedia, 2023. 2,
+FaisalAhmed,ZheGan,YuCheng,andJingjingLiu.Uniter: 4
+Universal image-text representation learning. In ECCV. [24] ChuanGuo,GeoffPleiss,YuSun,andKilianQWeinberger.
+Springer,2020. 6 Oncalibrationofmodernneuralnetworks. InICML,2017.
+[8] Zhao-Min Chen, Xiu-Shen Wei, Peng Wang, and Yanwen 2,3,6
+Guo. Multi-label image recognition with graph convolu- [25] Zixian Guo, Bowen Dong, Zhilong Ji, Jinfeng Bai, Yiwen
+tionalnetworks. InCVPR,2019. 2,3 Guo,andWangmengZuo. Textsasimagesinprompttuning
+[9] Jiacheng Cheng and Nuno Vasconcelos. Calibrating deep formulti-labelimagerecognition. InCVPR,2023. 2,3
+neuralnetworksbypairwiseconstraints. InProceedingsof [26] RohitGupta,AnirbanRoy,ClaireChristensen,SujeongKim,
+theIEEE/CVFConferenceonComputerVisionandPattern SarahGerard,MadelineCincebeaux,AjayDivakaran,Todd
+Recognition,pages13709–13718,2022. 3 Grindal, and Mubarak Shah. Class prototypes based con-
+[10] ElijahCole,OisinMacAodha,TitouanLorieul,PietroPer- trastivelearningforclassifyingmulti-labelandfine-grained
+ona, Dan Morris, and Nebojsa Jojic. Multi-label learning educationalvideos. InCVPR,2023. 2,4
+fromsinglepositivelabels. InCVPR,2021. 3 [27] KaimingHe,XiangyuZhang,ShaoqingRen,andJianSun.
+[11] MorrisHDeGrootandStephenEFienberg.Thecomparison Deep residual learning for image recognition. In CVPR,
+andevaluationofforecasters.JournaloftheRoyalStatistical 2016. 1,6
+Society:SeriesD(TheStatistician),32(1-2):12–22,1983. 6 [28] Tong He, Zhi Zhang, Hang Zhang, Zhongyue Zhang, Jun-
+[12] ZixuanDing,AoWang,HuiChen,QiangZhang,Pengzhang yuanXie,andMuLi. Bagoftricksforimageclassification
+Liu,YongjunBao,WeipengYan,andJungongHan. Explor- withconvolutionalneuralnetworks. 2018. 6
+ingstructuredsemanticpriorformultilabelrecognitionwith [29] ArloDHendricksonandRobertJBuehler.Properscoresfor
+incompletelabels. InCVPR,2023. 2,3 probabilityforecasters. TheAnnalsofMathematicalStatis-
+[13] Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, tics,42(6):1916–1921,1971. 3
+Dirk Weissenborn, Xiaohua Zhai, Thomas Unterthiner, [30] Francisco Herrera, Francisco Charte, Antonio J Rivera,
+MostafaDehghani,MatthiasMinderer,GeorgHeigold,Syl- Mar´ıaJDelJesus,FranciscoHerrera,FranciscoCharte,An-
+vainGelly,JakobUszkoreit,andNeilHoulsby. Animageis tonioJRivera,andMar´ıaJdelJesus. Multilabelclassifica-
+worth16x16words: Transformersforimagerecognitionat tion. Springer,2016. 3
+scale. InICLR,2021. 1,6 [31] Hyeonji Hwang, Seongjun Yang, Daeyoung Kim, Radhika
+[14] Andre´ Elisseeff and Jason Weston. A kernel method for Dua, Jong-YeupKim, EunhoYang, andEdwardChoi. To-
+multi-labelledclassification. NeurIPS,2001. 3 wardsthepracticalutilityoffederatedlearninginthemedi-
+[15] CharlesElkan.Thefoundationsofcost-sensitivelearning.In caldomain. InConferenceonHealth,Inference,andLearn-
+IJCAI,2001. 1 ing,pages163–181.PMLR,2023. 2,4
+27597
+
+PAGE 10
+[32] AlexKendallandYarinGal. Whatuncertaintiesdoweneed [49] Mahdi Pakdaman Naeini, Gregory F Cooper, and Milos
+inbayesiandeeplearningforcomputervision? InNeurIPS, Hauskrecht. Obtaining well calibrated probabilities using
+2017. 2,3 bayesianbinning. InAAAI,2015. 7
+[33] Takumi Kobayashi. Two-way multi-label loss. In CVPR, [50] Sanaz Nami and Mehdi Shajari. Cost-sensitive payment
+2023. 2,3,6,7 card fraud detection based on dynamic random forest and
+[34] RanganathKrishnanandOmeshTickoo. Improvingmodel k-nearestneighbors. ExpertSystemswithApplications,110:
+calibrationwithaccuracyversusuncertaintyoptimization.In 381–392,2018. 1
+NeurIPS,2020. 3 [51] Lukas Neumann, Andrew Zisserman, and Andrea Vedaldi.
+[35] Alex Krizhevsky, Ilya Sutskever, and Geoffrey E Hinton. Relaxed softmax: Efficient confidence auto-calibration for
+Imagenet classification with deep convolutional neural net- safepedestriandetection. InNeurIPSWorkshops,2018. 6,7
+works. InNeurIPS,2012. 1 [52] Alexandru Niculescu-Mizil and Rich Caruana. Predicting
+[36] Balaji Lakshminarayanan, Alexander Pritzel, and Charles goodprobabilitieswithsupervisedlearning. InICML,2005.
+Blundell. Simple and scalable predictive uncertainty esti- 6
+mationusingdeepensembles. InNeurIPS,2017. 2 [53] TribhuvaneshOrekondy,BerntSchiele,andMarioFritz.To-
+[37] Yining Li, Chen Huang, Chen Change Loy, and Xiaoou wardsavisualprivacyadvisor: Understandingandpredict-
+Tang.Humanattributerecognitionbydeephierarchicalcon- ingprivacyrisksinimages. InICCV,2017. 6
+texts. InECCV,2016. 6
+[54] YanivOvadia,EmilyFertig,JieRen,ZacharyNado,David
+[38] YehaoLi, YingweiPan, TingYao, andTaoMei. Compre- Sculley,SebastianNowozin,JoshuaDillon,BalajiLakshmi-
+hending and ordering semantics for image captioning. In narayanan, and Jasper Snoek. Can you trust your model’s
+Proceedings of the IEEE/CVF conference on computer vi- uncertainty? evaluatingpredictiveuncertaintyunderdataset
+sionandpatternrecognition,pages17990–17999,2022. 2, shift. InNeurIPS,2019. 2
+4
+[55] Hyekang Park, Jongyoun Noh, Youngmin Oh, Donghyeon
+[39] Tsung-YiLin,MichaelMaire,SergeBelongie,JamesHays,
+Baek, and Bumsub Ham. Acls: Adaptive and conditional
+PietroPerona,DevaRamanan,PiotrDolla´r,andCLawrence labelsmoothingfornetworkcalibration. InICCV,2023. 3
+Zitnick. Microsoft coco: Common objects in context. In
+[56] GeorgePetrides,DarieMoldovan,LizeCoenen,TiasGuns,
+ECCV,2014. 6
+and Wouter Verbeke. Cost-sensitive learning for profit-
+[40] Tsung-YiLin,PriyaGoyal,RossGirshick,KaimingHe,and
+drivencreditscoring. JournaloftheOperationalResearch
+PiotrDolla´r. Focallossfordenseobjectdetection. InICCV,
+Society,73(2):338–350,2022. 1
+pages2980–2988,2017. 1,2,3,4,5
+[57] JohnPlatt.Probabilisticoutputsforsupportvectormachines
+[41] WeiweiLiu,HaoboWang,XiaoboShen,andIvorWTsang.
+and comparisons to regularized likelihood methods. Ad-
+Theemergingtrendsofmulti-labellearning. IEEETransac-
+vancesinlargemarginclassifiers,10(3):61–74,1999. 6
+tionsonPatternAnalysisandMachineIntelligence(TPAMI),
+[58] Jesse Read, Bernhard Pfahringer, Geoff Holmes, and Eibe
+44(11):7955–7974,2021. 3
+Frank. Classifierchainsformulti-labelclassification. Ma-
+[42] HamedMasnadi-ShiraziandNunoVasconcelos. Onthede-
+chineLearning,85:333–359,2011. 3
+signoflossfunctionsforclassification:theory,robustnessto
+[59] MarkDReidandRobertCWilliamson. Compositebinary
+outliers,andsavageboost. NeurIPS,2008. 2,3
+losses. Journal of machine learning research (JMLR), 11:
+[43] HamedMasnadi-ShiraziandNunoVasconcelos. Aviewof
+2387–2422,2010. 2,3,4
+marginlossesasregularizersofprobabilityestimates. Jour-
+[60] MarkDReidandRobertCWilliamson.Convexityofproper
+nal of Machine Learning Research (JMLR), 16(1):2751–
+compositebinarylosses. InAISTATS,2010. 3
+2795,2015. 3,4
+[44] AlirezaMehrtash,WilliamMWells,ClareMTempany,Pu- [61] TalRidnik,EmanuelBen-Baruch,NadavZamir,AsafNoy,
+rangAbolmaesumi,andTinaKapur. Confidencecalibration Itamar Friedman, Matan Protter, and Lihi Zelnik-Manor.
+and predictive uncertainty estimation for deep medical im- Asymmetric loss for multi-label classification. In ICCV,
+age segmentation. IEEE transactions on medical imaging, 2021. 1,2,3,4,5,6,7,8
+39(12):3868–3878,2020. 1 [62] Rau´l Santos-Rodr´ıguez, Alicia Guerrero-Curieses, Roc´ıo
+[45] JoshuaMeier,RoshanRao,RobertVerkuil,JasonLiu,Tom Alaiz-Rodr´ıguez,andJesu´sCid-Sueiro.Cost-sensitivelearn-
+Sercu, andAlexRives. Languagemodelsenablezero-shot ingbasedonbregmandivergences. MachineLearning,76:
+prediction of the effects of mutations on protein function. 271–285,2009. 3
+2021. 7 [63] Nikolaos Sarafianos, Xiang Xu, and Ioannis A Kakadiaris.
+[46] Philip Mu¨ller, Felix Meissen, Johannes Brandt, Georgios Deep imbalanced attribute classification using visual atten-
+Kaissis, and Daniel Rueckert. Anatomy-driven pathology tionaggregation. InECCV,2018. 3
+detectiononchestx-rays. InMICCAI,2023. 2,4 [64] LeonardJSavage. Elicitationofpersonalprobabilitiesand
+[47] Rafael Mu¨ller, Simon Kornblith, and Geoffrey E Hinton. expectations. Journal of the American Statistical Associa-
+Whendoeslabelsmoothinghelp? InNeurIPS,2019. 3 tion,66(336):783–801,1971. 3
+[48] Lorenzo Mur-Labadia, Jose J Guerrero, and Ruben [65] Robert E. Schapire and Yoram Singer. Improved boost-
+Martinez-Cantin. Multi-labelaffordancemappingfromego- ingalgorithmsusingconfidence-ratedpredictions. Machine
+centricvision. InICCV,2023. 2,4 Learning,37(3):297–336,1999. 3
+27598
+
+PAGE 11
+[66] ClaytonScott.Calibratedasymmetricsurrogatelosses.Elec- [82] WenjingYang,ZhantaoCao,QinChen,YuhongYang,and
+tronicJournalofStatistics,6:958–992,2012. 3 GuowuYang. Confidencecalibrationonmulticlassclassifi-
+[67] SeongukSeo,PaulHongsuckSeo,andBohyungHan.Learn- cationinmedicalimaging. InICDM.IEEE,2020. 1
+ingforsingle-shotconfidencecalibrationindeepneuralnet- [83] Vacit Oguz Yazici, Abel Gonzalez-Garcia, Arnau Ramisa,
+worksthroughstochasticinferences. InCVPR,2019. 2,3 Bartlomiej Twardowski, and Joost van de Weijer. Order-
+[68] Emir Shuford, Arthur Albert, and H. Edward Massengill. lessrecurrentmodelsformulti-labelclassification.InCVPR,
+Admissibleprobabilitymeasurementprocedures.Psychome- 2020. 2,3
+trika,31(2):125–145,1966. 2,4 [84] LiboZhang,LutaoJiang,RuyiJi,andHengFan. Pidray: A
+large-scale x-ray benchmark for real-world prohibited item
+[69] MaheshSubedar,RanganathKrishnan,PauloLopezMeyer,
+detection. InternationalJournalofComputerVision(IJCV),
+Omesh Tickoo, and Jonathan Huang. Uncertainty-aware
+pages1–23,2023. 2,4
+audiovisual activity recognition using deep bayesian varia-
+tionalinference. InCVPR,2019. 3 [85] Min-LingZhangandZhi-HuaZhou.Areviewonmulti-label
+learningalgorithms. IEEETransactionsonKnowledgeand
+[70] Ximeng Sun, Ping Hu, and Kate Saenko. Dualcoop: Fast
+DataEngineering(TKDE),26(8):1819–1837,2013. 3
+adaptation to multi-label recognition with limited annota-
+[86] FengZhu,HongshengLi,WanliOuyang,NenghaiYu,and
+tions. 2022. 2,3,4
+XiaogangWang.Learningspatialregularizationwithimage-
+[71] Hao Tan and Mohit Bansal. Lxmert: Learning cross-
+level supervisions for multi-label image classification. In
+modality encoder representations from transformers. In
+CVPR,2017. 3
+Proceedingsofthe2019ConferenceonEmpiricalMethods
+in Natural Language Processing and the 9th International
+JointConferenceonNaturalLanguageProcessing(EMNLP-
+IJCNLP),pages5100–5111,2019. 6
+[72] Sunil Thulasidasan, Gopinath Chennupati, Jeff A Bilmes,
+TanmoyBhattacharya,andSarahMichalak.Onmixuptrain-
+ing:Improvedcalibrationandpredictiveuncertaintyfordeep
+neuralnetworks. InNeurIPS,2019. 3
+[73] GrigoriosTsoumakasandIoannisKatakis. Multi-labelclas-
+sification:Anoverview.InternationalJournalofDataWare-
+housingandMining(IJDWM),3(3):1–13,2007. 3
+[74] VladimirVapnik. Thenatureofstatisticallearningtheory.
+Springer,1999. 3,6
+[75] Thomas Verbraken, Wouter Verbeke, and Bart Baesens. A
+novelprofitmaximizingmetricformeasuringclassification
+performance of customer churn prediction models. IEEE
+transactionsonknowledgeanddataengineering,25(5):961–
+973,2012. 1
+[76] MengWang,ChangzhiLuo,RichangHong,JinhuiTang,and
+JiashiFeng. Beyondobjectproposals: Randomcroppool-
+ingformulti-labelimagerecognition.IEEETransactionson
+ImageProcessing,25(12):5678–5688,2016. 3
+[77] QilongWang, BangguWu, PengfeiZhu, PeihuaLi, Wang-
+mengZuo,andQinghuaHu. Eca-net: Efficientchannelat-
+tention for deep convolutional neural networks. In CVPR,
+2020. 6
+[78] Xia Wang and Dipak K. Dey. Generalized extreme value
+regressionforbinaryresponsedata: AnapplicationtoB2B
+electronicpaymentssystemadoption.TheAnnalsofApplied
+Statistics,4(4):2000–2023,2010. 3
+[79] ZhouxiaWang,TianshuiChen,GuanbinLi,RuijiaXu,and
+LiangLin. Multi-labelimagerecognitionbyrecurrentlydis-
+coveringattentionalregions. InICCV,2017. 2,3
+[80] TongWu,QingqiuHuang,ZiweiLiu,YuWang,andDahua
+Lin. Distribution-balancedlossformulti-labelclassification
+inlong-taileddatasets. InECCV.Springer,2020. 2,3
+[81] ChenXing,SercanArik,ZizhaoZhang,andTomasPfister.
+Distance-basedlearningfromerrorsforconfidencecalibra-
+tion. InICLR,2020. 3
+27599

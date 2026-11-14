@@ -1,0 +1,319 @@
+import torch
+import numpy as np
+
+'''
+loss functions
+'''
+
+
+def loss_bce(batch, P, Z):
+    """
+    Computes the binary cross-entropy (BCE) loss for a given batch of predictions and observed labels.
+
+    This function calculates the loss matrix by applying the negative log likelihood to predictions
+    based on the observed labels. It validates that there are no missing labels in the observed labels
+    and that the training set variant is specified as 'clean'. Regularization loss is not applied in this
+    implementation.
+
+    Parameters:
+    batch (dict): A dictionary containing the keys 'preds' (predictions tensor) and 'label_vec_obs'
+        (observed labels tensor).
+    P (dict): A configuration dictionary containing the key 'train_set_variant'.
+    Z (Any): Additional input, not used in the current implementation, for consistent input design with other functions.
+
+    Returns:
+    tuple[torch.Tensor, None]: A tuple where the first element is a tensor representing the BCE loss matrix
+    calculated for the batch and the second element is always None (as regularization loss is absent).
+
+    Raises:
+    AssertionError: If any observed label equals -1 in 'label_vec_obs'.
+    AssertionError: If the training set variant in P is not 'clean'.
+    """
+    # unpack:
+    preds = batch['preds']
+    observed_labels = batch['label_vec_obs']
+    # input validation:
+    assert not torch.any(observed_labels == -1)
+    assert P['train_set_variant'] == 'clean'
+    # compute loss:
+    loss_mtx = torch.zeros_like(observed_labels)
+    loss_mtx[observed_labels == 1] = neg_log(preds[observed_labels == 1])
+    loss_mtx[observed_labels == 0] = neg_log(1.0 - preds[observed_labels == 0])
+    reg_loss = None
+    return loss_mtx, reg_loss
+
+
+def loss_an(batch, P, Z):
+    """
+    Computes the loss matrix for a batch of predictions and observed labels.
+
+    The function processes a batch containing predicted probabilities and observed
+    binary labels, calculates the loss for each prediction based on whether the
+    corresponding label is positive (1) or negative (0), and optionally includes a
+    regularization term.
+
+    Parameters:
+    batch : dict
+        A dictionary containing the keys:
+        - 'preds': Predicted probabilities (torch.Tensor).
+        - 'label_vec_obs': Binary observed labels (torch.Tensor).
+    P : any
+        A placeholder parameter, not used in the current implementation, for consistent input design with other functions.
+    Z : any
+        A placeholder parameter, not used in the current implementation, for consistent input design with other functions.
+
+    Returns:
+    tuple
+        A tuple containing:
+        - loss_mtx (torch.Tensor): The computed loss matrix.
+        - reg_loss (NoneType): The regularization loss, which is currently None.
+
+    Raises:
+    AssertionError
+        If the minimum value in `label_vec_obs` is less than 0.
+    """
+    # unpack:
+    preds = batch['preds']
+    observed_labels = batch['label_vec_obs']
+
+    # input validation:
+    assert torch.min(observed_labels) >= 0
+    # compute loss:
+    loss_mtx = torch.zeros_like(observed_labels)
+    loss_mtx[observed_labels == 1] = neg_log(preds[observed_labels == 1])
+    loss_mtx[observed_labels == 0] = neg_log(1.0 - preds[observed_labels == 0])
+    reg_loss = None
+
+    return loss_mtx, reg_loss
+
+
+def L_IC(batch, P, Z):
+    """
+    Computes the loss and regularization loss for instance cardinality learning.
+
+    This function calculates the loss for observed labels and applies an additional regularization
+    loss depending on whether the model is in the warmup phase or the regular training phase.
+
+    Parameters:
+    batch: dict
+        A batch of data containing tensors for predictions, observed labels, etc.
+    P: dict
+        Configuration parameters, including training hyperparameters and thresholds.
+    Z: dict
+        Additional configuration data, including the device for computations.
+
+    Returns:
+    tuple
+        A tuple containing:
+        - loss: torch.Tensor
+            The computed loss for observed labels.
+        - reg_loss: torch.Tensor or None
+            The regularization loss if applicable; otherwise, None.
+
+    Raises:
+    ValueError
+        If an unknown 'ic_mode' is specified in the configuration.
+    """
+    device = Z['device']
+    preds = batch['preds'].to(device)
+    observed_labels = batch['label_vec_obs'].to(device)
+
+    loss = torch.zeros_like(preds)
+    loss[observed_labels == 1] = neg_log(preds[observed_labels == 1])
+
+    reg_loss = None
+
+    if P['epoch'] <= P['warmup_epoch']:
+        max_bound = (P['k_max'] - 1.0) / (P['num_classes'] - 1.0)
+        min_bound = (P['k_e'] - 1.0) / (P['num_classes'] - 1.0)
+
+        unknown_mask = observed_labels == 0
+        unknown_preds = preds[unknown_mask]
+
+        upper_penalty = P['lamda'] * (unknown_preds - max_bound) ** 2
+        lower_penalty = P['lamda'] * (unknown_preds - min_bound) ** 2
+
+        loss[unknown_mask] = torch.where(unknown_preds > max_bound, upper_penalty,
+                                         torch.where(unknown_preds < min_bound, lower_penalty, 0.0)
+                                         )
+    else:
+        if P['ic_mode'] == 'true':
+            total_cardinality = batch['label_vec_true'].sum(-1).to(device)
+        elif P['ic_mode'] == 'estimate':
+            get_value = np.vectorize(lambda x: P['est_k_dict'][x])
+            total_cardinality = torch.tensor(get_value(batch['idx'].cpu().numpy())).to(device)
+        else:
+            raise ValueError('The IC mode is unknown!')
+
+        num_observed_labels = observed_labels.sum(-1)
+        cardinality_unobserved = torch.clamp(total_cardinality - num_observed_labels, min=0)
+
+        normal_neg = torch.distributions.normal.Normal(0.0, P['neg_stddev'])
+        reg_loss_list = []
+        for i in range(preds.shape[0]):
+            unknown_sample_preds = preds[i, observed_labels[i] == 0]
+            card_unobs = int(cardinality_unobserved[i].item())
+
+            if card_unobs == 0:
+                reg_loss_list.append(normal_neg.log_prob(unknown_sample_preds.sum()).neg())
+                continue
+
+            top_m = int(P['top_m_multiplier'] * card_unobs) if P['ic_mode'] == 'true' else \
+                int(P['k_max'] - num_observed_labels[i])
+
+            top_values, _ = torch.topk(unknown_sample_preds, k=top_m, sorted=False)
+            neg_values, _ = torch.topk(unknown_sample_preds, k=len(unknown_sample_preds) - top_m,
+                                       largest=False, sorted=False)
+
+            normal_pos = torch.distributions.normal.Normal(card_unobs, P['pos_stddev'])
+            reg_loss_list.append((normal_pos.log_prob(top_values.sum()) + normal_neg.log_prob(neg_values.sum())).neg())
+
+        reg_loss = P['alpha'] * torch.stack(reg_loss_list).mean()
+
+    return loss, reg_loss
+
+
+def L_CS(batch, P, Z):
+    """
+    Calculates the classification loss for a batch based on observed labels and predictions,
+    with penalties applied to unknown classes outside specified bounds.
+
+    Parameters:
+        batch (dict): A dictionary containing 'preds', the predicted probabilities (torch.Tensor),
+            and 'label_vec_obs', the observed labels as a tensor (torch.Tensor).
+        P (dict): A dictionary of configuration parameters containing:
+            - 'k_max' (float): The maximum cardinality used for bound calculation.
+            - 'k_e' (float): The mean cardinality used for bound calculation.
+            - 'num_classes' (int): The number of classes.
+            - 'lamda' (float): The penalty weight applied to out-of-bound predictions.
+        Z (dict): A dictionary containing the key 'device', specifying the computation
+            device on which the tensors reside (e.g., 'cpu' or 'cuda').
+
+    Returns:
+        tuple: A tuple containing the computed loss (torch.Tensor) and None (placeholder).
+    """
+    preds = batch['preds']
+    observed_labels = batch['label_vec_obs']
+
+    loss = torch.zeros_like(preds).to(Z['device'])
+    loss[observed_labels == 1] = neg_log(preds[observed_labels == 1])
+
+    max_bound = (P['k_max'] - 1.0) / (P['num_classes'] - 1.0)
+    min_bound = (P['k_e'] - 1.0) / (P['num_classes'] - 1.0)
+
+    unknown_mask = observed_labels == 0
+    unknown_preds = preds[unknown_mask]
+
+    penalty_max = P['lamda'] * (unknown_preds - max_bound) ** 2
+    penalty_min = P['lamda'] * (unknown_preds - min_bound) ** 2
+
+    loss[unknown_mask] = torch.where(unknown_preds > max_bound, penalty_max,
+                                     torch.where(unknown_preds < min_bound, penalty_min, 0.0)
+                                     )
+    return loss, None
+
+
+loss_functions = {
+    'bce': loss_bce,
+    'an': loss_an,
+    'cs_loss': L_CS,
+    'ic_loss': L_IC
+}
+
+
+'''
+top-level wrapper
+'''
+
+
+def compute_batch_loss(batch, P, Z):
+    """
+    Computes the loss for a batch of predictions and labels, based on specified loss function.
+
+    This function validates input data, ensures correct shapes and values, and computes the
+    loss for a batch of predictions and corresponding label vectors. It also computes a
+    regularization loss if applicable, and adds necessary loss values to the batch object.
+
+    Parameters:
+    - batch: dict
+        A dictionary containing predictions ('preds') and observed label vectors
+        ('label_vec_obs'). The predictions should be a 2D tensor of shape
+        (batch_size, num_classes), and 'label_vec_obs' should match the same shape.
+        Assumes specific constraints on the values of the tensors.
+
+    - P: dict
+        A dictionary containing hyperparameters, including the key 'loss', which
+        indicates the loss function to be used for calculations. The selected
+        loss function must exist in the pre-defined 'loss_functions' mapping.
+
+    - Z: Any
+        Additional optional data required for certain loss functions.
+
+    Returns:
+    - dict
+        The modified batch dictionary containing the loss values:
+        - 'loss_tensor': A tensor representing the computed total loss.
+        - 'loss_np': The computed loss converted to a numpy array.
+        - 'reg_loss_np': If a regularization loss is present, its value as a numpy
+          array; otherwise, 0.0.
+    """
+
+    assert batch['preds'].dim() == 2
+
+    batch_size = int(batch['preds'].size(0))
+    num_classes = int(batch['preds'].size(1))
+
+    loss_denom_mtx = (num_classes * batch_size) * torch.ones_like(batch['preds'])
+
+    # input validation:
+    assert torch.max(batch['label_vec_obs']) <= 1
+    assert torch.min(batch['label_vec_obs']) >= -1
+    assert batch['preds'].size() == batch['label_vec_obs'].size()
+    assert P['loss'] in loss_functions
+
+    # validate predictions:
+    assert torch.max(batch['preds']) <= 1
+    assert torch.min(batch['preds']) >= 0
+
+    # compute loss for each image and class:
+    loss_mtx, reg_loss = loss_functions[P['loss']](batch, P, Z)
+    main_loss = (loss_mtx / loss_denom_mtx).sum()
+
+    if reg_loss is not None:
+        batch['loss_tensor'] = main_loss + reg_loss
+        batch['reg_loss_np'] = reg_loss.clone().detach().cpu().numpy()
+    else:
+        batch['loss_tensor'] = main_loss
+        batch['reg_loss_np'] = 0.0
+    batch['loss_np'] = batch['loss_tensor'].clone().detach().cpu().numpy()
+
+    return batch
+
+
+'''
+helper functions
+'''
+
+
+LOG_EPSILON = 1e-5
+
+
+def neg_log(x):
+    """
+    Compute the negative logarithm of a given input tensor, adjusted with a small epsilon
+    for numerical stability.
+
+    The operation is performed using the formula:
+        -log(x + epsilon)
+    where epsilon is a pre-defined constant added to avoid logarithm of zero or
+    numerical instability.
+
+    Parameters:
+    x : Tensor
+        The input tensor for which the negative logarithm will be computed.
+
+    Returns:
+    Tensor
+        A tensor containing the negative logarithm of the input, adjusted with epsilon.
+    """
+    return - torch.log(x + LOG_EPSILON)

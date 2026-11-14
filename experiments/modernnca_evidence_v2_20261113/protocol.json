@@ -1,0 +1,61 @@
+{
+  "date": "2026-11-13",
+  "sources": [
+    "天心区",
+    "芙蓉区",
+    "雨花区",
+    "开福区",
+    "拱墅区",
+    "萧山区",
+    "富阳区",
+    "临安区"
+  ],
+  "targets": [
+    "龙华区",
+    "龙岗区"
+  ],
+  "seeds": [
+    20261231,
+    20261232,
+    20261233
+  ],
+  "selection_seed": 20261231,
+  "arms": [
+    "control",
+    "routed"
+  ],
+  "width": 32,
+  "minibatch": 64,
+  "grid": [
+    {
+      "lr": 0.0003,
+      "reg": 0.001
+    },
+    {
+      "lr": 0.001,
+      "reg": 0.001
+    }
+  ],
+  "checkpoints": [
+    0,
+    20,
+    40,
+    80
+  ],
+  "warm_start": "Frozen categorical Modern teacher for corresponding seed. Lossless zero-column expansion from41/27 to44/30. All encoder/query/matching parameters trainable.",
+  "loss": "Mean BCE over observed schools per property-row; unknown entries zero gradient. Complete source singleton labels penalize every observed extra school. Same loss and source mass in both arms.",
+  "comparison": "Matched compound input/routing intervention; component causal gains not isolated. Separately cross legacy versus verified-only decoders on each model.",
+  "input_manifest": "F:\\学区划片描述\\学区归属模型_代码库\\data\\深圳市\\全链路输入_v2_20261113\\manifest.json",
+  "source_partial_rows_included": 69,
+  "target_labels": "control original partial estimates; routed textual proofs and7explicit negatives, estimates remain features/reference tokens only.",
+  "output": "Independent school membership with source-calibrated threshold; no fixed template inventory or target cardinality; fallback to top1 before explicit constraints. Empty after exclusion is retained as abstention.",
+  "selection": "Source exact full-set subject to singleton no worse than frozen native teacher by0.5pp; tie multi then higher threshold. If no checkpoint passes, report gate failure; never adopt.",
+  "calibration": "Enumerate exact threshold transitions on1246source validation rows. Checkpoint0 included as no-training control; final ensemble recalibrated on source only.",
+  "target": "All1802outputs,1761fixed scored rows,41outside,242semantic-pending retained.",
+  "prior_target_results_seen": true,
+  "independent_validation": false,
+  "adopted": false,
+  "target_gold_read": false,
+  "target_polygons_read": false,
+  "diagnostic_target_scoring_if_gate_fails": true
+}

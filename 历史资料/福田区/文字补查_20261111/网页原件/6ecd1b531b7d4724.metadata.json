@@ -1,0 +1,44 @@
+{
+  "url": "https://mdsy.szftedu.cn/",
+  "fetched_on": "2026-11-11",
+  "status_code": 200,
+  "final_url": "https://mdsy.szftedu.cn/",
+  "content_type": "text/html",
+  "local_file": "网页原件/6ecd1b531b7d4724.html",
+  "sha256": "f60923533da36820dd21284e1799fbc8477b16d95d4e3f9fc2b38ad9a3dba01f",
+  "title": "深圳明德实验学校（集团） Shenzhen Mingde Experimental School （Group）",
+  "admission_links": [
+    {
+      "title": "校长简介",
+      "url": "https://mdsy.szftedu.cn/xxgk/xzjj/"
+    },
+    {
+      "title": "招生专栏",
+      "url": "https://mdsy.szftedu.cn/zsgz/"
+    },
+    {
+      "title": "高中招生",
+      "url": "https://mdsy.szftedu.cn/zsgz/gzzs/"
+    },
+    {
+      "title": "招生专栏",
+      "url": "javascript:;"
+    },
+    {
+      "title": "小学初中招生咨询电话",
+      "url": "https://mdsy.szftedu.cn/zsgz/xsbm/202104/t20210412_131418.html"
+    },
+    {
+      "title": "深圳明德实验学校（集团）碧海校区2026年秋季新生招生简章",
+      "url": "https://mp.weixin.qq.com/s/_qSyJd34ogOjKTpRKSMe6g"
+    },
+    {
+      "title": "深圳明德实验学校（集团）香蜜校区2026年秋季新生招生简章",
+      "url": "https://mp.weixin.qq.com/s/g_fGM4iAbiwwoTLzZWoDSg"
+    },
+    {
+      "title": "深圳明德实验学校（集团）高级中学二类自主招生（美术）考试须知",
+      "url": "https://mdsy.szftedu.cn/zsgz/xsbm/202406/t20240625_164660.html"
+    }
+  ]
+}

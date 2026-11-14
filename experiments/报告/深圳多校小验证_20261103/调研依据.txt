@@ -1,0 +1,30 @@
+方案调研，2026-11-03
+
+1. Zhang & Zhou, ML-KNN: A lazy learning approach to multi-label learning, Pattern Recognition 2007.
+论文 https://www.sciencedirect.com/science/article/pii/S0031320307000027
+作者代码 https://www.lamda.nju.edu.cn/code_MLkNN.ashx
+检索摘要与作者代码目录确认：邻居信息可以用于多标签预测。无需先转成“只能选一个学校”。
+本试验V只实现距离加权标签投票，不包含论文贝叶斯计数推断，不冒称ML-kNN复现。
+作者代码页面直接打开超时，未下载运行原代码。
+
+2. Gorishniy et al., TabR: Tabular Deep Learning Meets Nearest Neighbors, ICLR 2024.
+https://proceedings.iclr.cc/paper_files/paper/2024/hash/4ef594af0d9a519db8fb292452c461fa-Abstract-Conference.html
+会议官方摘要已打开：以其他训练对象特征和标签帮助目标预测，使用注意力式检索。
+支持保留“已知小区参照”的设计方向，但论文不是深圳实验，也没有证明JM多标签有效。
+
+3. Cole et al., Multi-Label Learning From Single Positive Labels, CVPR 2021, pp.933–942.
+https://openaccess.thecvf.com/content/CVPR2021/html/Cole_Multi-Label_Learning_From_Single_Positive_Labels_CVPR_2021_paper.html
+官方检索摘要和PDF索引确认：单个正标签/缺标签的训练需要区别于完整标签监督。
+官方HTML直接打开403，结论仅依摘要与PDF索引，不声称复现其损失或完整阅读论文。
+对本任务的约束：政策只明确A，不等于B/C是负例，更不等于完整答案只有A。
+
+本地依据
+科研推进/长沙深度参照模型_20261028/deep_model.py：JM的参照及学校分数联合softmax，单目标NLL。
+科研推进/多校输出与阈值方案_20261026/实验方案_v1_待审阅.txt：已有集合解码、完整标签与弱监督区分。
+深圳四区包README与实验输入：尚未生成已知关系、划分和环境特征。
+
+建议先后次序
+先验证完整集合参照+距离投票，再比较相同监督下的softmax集合与sigmoid多标签。
+不要把每种学校组合另设一个类别：未见组合无法输出且类别数随地区膨胀。
+不要按真实答案大小取top-k；不要把共享学区解释强加为几何标签扩展。
+简单方案若已能工作，可保留深圳；神经方案是否优于它是另一个需公平验证的问题。

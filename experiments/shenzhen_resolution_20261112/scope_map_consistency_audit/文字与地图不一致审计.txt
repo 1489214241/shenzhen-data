@@ -1,0 +1,24 @@
+官方范围关系与原地图答案一致性审计（仅评分后诊断，禁止训练使用）
+
+未改原图答案、样本分母或政策。核对已有76条直接文字范围包含关系，涉及全部202校的准入清单。
+不一致表示文字解析/政策关系与地图标签不能同时成立，不能仅凭此认定地图错误。
+
+龙华区: 48条关系，5条存在不一致，影响19个不同小区。
+  龙华区福城实验学校（小学部） -> 龙华区行知学校（小学部）: 18例；原文附加条款=False
+  龙华区外国语学校教育集团观湖校区（小学部） -> 龙华区鹭湖外国语小学: 1例；原文附加条款=False
+  龙华区外国语学校教育集团高新校区（小学部） -> 龙华区鹭湖外国语小学: 1例；原文附加条款=False
+  龙华区外国语学校教育集团福城校区（小学部） -> 龙华区外国语学校教育集团新和校区（小学部）: 1例；原文附加条款=False
+  龙华区外国语学校教育集团福城校区（小学部） -> 龙华区观澜第二中学教育集团观澜第二小学: 1例；原文附加条款=False
+龙岗区: 28条关系，5条存在不一致，影响44个不同小区。
+  百外世纪小学公办班（民办学校） -> 信义实验小学: 24例；原文附加条款=True
+  贤义外国语学校 -> 信义实验小学: 23例；原文附加条款=True
+  百外世纪小学公办班（民办学校） -> 贤义外国语学校: 16例；原文附加条款=True
+  信义实验小学 -> 贤义外国语学校: 15例；原文附加条款=True
+  麓城外国语小学* -> 怡翠实验学校: 5例；原文附加条款=True
+
+https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf
+官方指南第3页：贤义外国语学校--信义实验小学明确属于共享学区；优享只关系第一志愿加分。
+这不能按大学区单校规则处理。需继续核对地图是否展示优享范围、范围是否过时或采集字段含义不一致。
+
+{'district': '龙华区', 'school_a': '龙华区鹭湖实验学校（小学部）', 'school_b': '龙华区观湖外国语学校（小学部）', 'source_url': 'https://zsjz.szlhq.gov.cn:8090/visitlhuagbxyxqdt', 'snapshot_a': '2026-11-03T13:37:28.219Z', 'snapshot_b': '2026-11-03T13:37:28.219Z', 'vertices_a': 145, 'vertices_b': 122, 'polygon_iou': 0.9918271759489979, 'geometry_valid_a': True, 'geometry_valid_b': True, 'geometry_issue_a': 'Valid Geometry', 'geometry_issue_b': 'Valid Geometry', 'invalid_ring_handling': 'No repair, area or IoU for invalid rings. Original official-algorithm point labels retained.', 'map_hit_a': 43, 'map_hit_b': 43, 'map_hit_both': 43, 'only_a': 0, 'only_b': 0, 'native_polygon_sha256': '87175bf41b06aff74582551b9aab84d553fbcea66931400f13a6a5dce711ef39', 'coordinate_conversion': 'BD09->iterativeWGS84->EPSG32650', 'native_point_labels_preserved': True, 'independent_street_geometry': {'properties': {'admin_level': '8', 'admin_type:CN': 'subdistrict', 'alt_name': '观湖', 'alt_name:en': 'Guanhu', 'boundary': 'administrative', 'name': '观湖街道', 'name:en': 'Guanhu Sub-District', 'name:ja': '観湖街道', 'name:yue-Latn': 'Gunwu-gaaidou', 'name:zh': '观湖街道', 'name:zh-Hans': '观湖街道', 'name:zh-Hant': '觀湖街道', 'name:zh-Latn-pinyin': 'Guānhú Jiēdào', 'ref:admin:CN:mca': '440309005', 'ref:admin:CN:nbs': '440309001', 'wikidata': 'Q28414198', 'osm_area_id': 21321487, 'osm_original_id': 10660743, 'from_way': False, 'valid': True}, 'sha256': '8b6f79ace861a1023ad681d51e86019efe0ae007cd8ab7dbefd2b3660f4d77a6', 'area_km2': 24.955204524451833, 'source_is_official': False}, 'school_vs_street': [{'school': '龙华区鹭湖实验学校（小学部）', 'school_area_km2': 21.41573578805261, 'intersection_over_street': 0.7308541196749896, 'intersection_over_school': 0.8516454542833173, 'iou': 0.6483151749871908}, {'school': '龙华区观湖外国语学校（小学部）', 'school_area_km2': 21.34885249771202, 'intersection_over_street': 0.7295607768126772, 'intersection_over_school': 0.8528017325675705, 'iou': 0.647965005349801}]}
+{'district': '龙岗区', 'school_a': '贤义外国语学校', 'school_b': '信义实验小学', 'source_url': 'https://zsbm.lggov.cn/visitlggbxyxqdt', 'snapshot_a': '2026-11-04T07:52:36.694Z', 'snapshot_b': '2026-11-04T07:52:36.694Z', 'vertices_a': 84, 'vertices_b': 67, 'polygon_iou': None, 'geometry_valid_a': False, 'geometry_valid_b': False, 'geometry_issue_a': 'Ring Self-intersection[114.136456 22.594102]', 'geometry_issue_b': 'Ring Self-intersection[114.131301 22.595972]', 'invalid_ring_handling': 'No repair, area or IoU for invalid rings. Original official-algorithm point labels retained.', 'map_hit_a': 23, 'map_hit_b': 15, 'map_hit_both': 0, 'only_a': 23, 'only_b': 15, 'native_polygon_sha256': 'c7719f5d0129412ef933e51d6de5e73f86eb4cf8ce32844e1ecc2c2b50dfc269', 'coordinate_conversion': 'BD09->iterativeWGS84->EPSG32650', 'native_point_labels_preserved': True}

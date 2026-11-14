@@ -1,0 +1,51 @@
+{
+  "sources": [
+    "天心区",
+    "芙蓉区",
+    "雨花区",
+    "开福区",
+    "拱墅区",
+    "萧山区",
+    "富阳区",
+    "临安区"
+  ],
+  "seeds": [
+    20261131,
+    20261132,
+    20261133,
+    20261134,
+    20261135,
+    20261136,
+    20261137,
+    20261138,
+    20261139,
+    20261140
+  ],
+  "banks": [
+    "control",
+    "complete_existing",
+    "all_multi_training"
+  ],
+  "decoders": [
+    "absolute",
+    "relative"
+  ],
+  "source_gate": {
+    "min_multi_correct": 8,
+    "min_single_correct": 901,
+    "min_attainable_multi": 18,
+    "objective": "balanced_exact",
+    "purpose": "Only determines whether to proceed to a separately frozen target test."
+  },
+  "intervention": "Reuse all30 frozen round16 models; compare p>=t with p/max(p)>=alpha, one source-calibrated scalar per branch.",
+  "primary": "balanced_exact; complete-set equality; per-seed same ensemble-calibrated thresholds",
+  "motivation": "Richer source references improved top1 and multi ranking, but absolute decoding lost singleton accuracy.",
+  "previous_failure": "Round15 relative HGB decoder passed source but harmed Shenzhen multi cases. This is a new native-reference input condition, not evidence that relative decoding generally works.",
+  "selection": "Prefer all_multi_training_relative if gate passes and balanced_exact >= control_absolute, else complete_existing_relative under same requirement; no target score used.",
+  "limitation": "No ranking repair; scores normalized by maximum are not calibrated probabilities. Same reused development validation.",
+  "independent_validation": false,
+  "adopted": false,
+  "target_gold_read": false,
+  "target_cardinality_used": false,
+  "target_polygon_read": false
+}

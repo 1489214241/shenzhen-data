@@ -1,0 +1,800 @@
+    Semi-Supervised Learning Using Gaussian Fields and Harmonic Functions
+
+
+Xiaojin Zhu            
+                                                                                         ZHUXJ @ CS . CMU . EDU
+Zoubin Ghahramani                                                                 ZOUBIN @ GATSBY. UCL . AC . UK
+John Lafferty                                                                        LAFFERTY @ CS . CMU . EDU
+
+
+ School of Computer Science, Carnegie Mellon University, Pittsburgh PA 15213, USA
+ Gatsby Computational Neuroscience Unit, University College London, London WC1N 3AR, UK
+
+
+
+
+                           Abstract                              The semi-supervised learning problem has attracted an in-
+                                                                 creasing amount of interest recently, and several novel ap-
+     An approach to semi-supervised learning is pro-
+                                                                 proaches have been proposed; we refer to (Seeger, 2001)
+     posed that is based on a Gaussian random field
+                                                                 for an overview. Among these methods is a promising fam-
+     model. Labeled and unlabeled data are rep-
+                                                                 ily of techniques that exploit the “manifold structure” of the
+     resented as vertices in a weighted graph, with
+                                                                 data; such methods are generally based upon an assumption
+     edge weights encoding the similarity between in-
+                                                                 that similar unlabeled examples should be given the same
+     stances. The learning problem is then formulated
+                                                                 classification. In this paper we introduce a new approach
+     in terms of a Gaussian random field on this graph,
+                                                                 to semi-supervised learning that is based on a random field
+     where the mean of the field is characterized in
+                                                                 model defined on a weighted graph over the unlabeled and
+     terms of harmonic functions, and is efficiently
+                                                                 labeled data, where the weights are given in terms of a sim-
+     obtained using matrix methods or belief propa-
+                                                                 ilarity function between instances.
+     gation. The resulting learning algorithms have
+     intimate connections with random walks, elec-               Unlike other recent work based on energy minimization
+     tric networks, and spectral graph theory. We dis-           and random fields in machine learning (Blum & Chawla,
+     cuss methods to incorporate class priors and the            2001) and image processing (Boykov et al., 2001), we
+     predictions of classifiers obtained by supervised           adopt Gaussian fields over a continuous state space rather
+     learning. We also propose a method of parameter             than random fields over the discrete label set. This “re-
+     learning by entropy minimization, and show the              laxation” to a continuous rather than discrete sample space
+     algorithm’s ability to perform feature selection.           results in many attractive properties. In particular, the most
+     Promising experimental results are presented for            probable configuration of the field is unique, is character-
+     synthetic data, digit classification, and text clas-        ized in terms of harmonic functions, and has a closed form
+     sification tasks.                                           solution that can be computed using matrix methods or
+                                                                 loopy belief propagation (Weiss et al., 2001). In contrast,
+                                                                 for multi-label discrete random fields, computing the low-
+1. Introduction                                                  est energy configuration is typically NP-hard, and approxi-
+                                                                 mation algorithms or other heuristics must be used (Boykov
+In many traditional approaches to machine learning, a tar-       et al., 2001). The resulting classification algorithms for
+get function is estimated using labeled data, which can be       Gaussian fields can be viewed as a form of nearest neigh-
+thought of as examples given by a “teacher” to a “student.”      bor approach, where the nearest labeled examples are com-
+Labeled examples are often, however, very time consum-           puted in terms of a random walk on the graph. The learning
+ing and expensive to obtain, as they require the efforts of      methods introduced here have intimate connections with
+human annotators, who must often be quite skilled. For in-       random walks, electric networks, and spectral graph the-
+stance, obtaining a single labeled example for protein shape     ory, in particular heat kernels and normalized cuts.
+classification, which is one of the grand challenges of bio-
+logical and computational science, requires months of ex-        In our basic approach the solution is solely based on the
+pensive analysis by expert crystallographers. The problem        structure of the data manifold, which is derived from data
+of effectively combining unlabeled data with labeled data        features. In practice, however, this derived manifold struc-
+is therefore of central importance in machine learning.          ture may be insufficient for accurate classification. We
+
+
+
+
+Proceedings of the Twentieth International Conference on Machine Learning (ICML-2003), Washington DC, 2003.
+                                                                                               weightings are possible, of course, and may be more appro-
+                                                                                               priate when  is discrete or symbolic. For our purposes the
+                                                                                               matrix E fully specifies the data manifold structure (see
+                                                                                               Figure 1).
+                                                                                                                    Ta
+                                                                                               Our
+                                                                                               _#`
+                                                                                                       strategy is to first compute a real-valued function
+                                                                                                     2           F      on 0 with certain
+                                                                                                                                   _
+                                                                                                                                          nice properties,
+                                                                                                                                                     _
+                                                                                                                                                            and to
+                                                                                               then_ assign labels
+                                                                                                               _
+                                                                                                                          based on   . We constrain    to take  val-
+                                                                                                                              K
+                                                                                               ues bc!          bcd^   on the labeled data bD!e.f@ .
+                                                                                               Intuitively, we want unlabeled points that are nearby in the
+                                                                                               graph to have similar labels. This motivates the choice of
+                                                                                               the quadratic energy function
+                                                                                                                                                                                                                                                                 T
+                                                                                                                                                      _                                  .       V                                      _                            _
+Figure 1. The random fields used in this work are constructed on                                                                                                                                                     JLKNM
+                                                                                                                                          5c                             I!         g                                                             b                  ji           Z                       (2)
+                                                                                                                                                                                                     Kh M
+labeled and unlabeled examples. We form a graph with weighted
+edges between instances (in this case scanned digits), with labeled                                                                                                                                                                                                                             _
+data items appearing as special “boundary” points, and unlabeled                               To assign a probability distribution on functions , we form
+                                                                                                                             _
+points as “interior” points. We consider Gaussian random fields                                the Gaussian field kl I!1monpu qRrst , where v is an “inverse
+on this graph.                                                                                               X             T
+                                                                                               temperature” parameter, and               wxp l is the partition function
+                                                                                                                                     _        _
+                                                                                               wxly!ez>{}| ~   { OPRQ     v5c     ] , which normalizes over
+                                                                                                                                       _
+show how the extra evidence of class priors can help classi-                                   all functions constrained to  on the labeled data.
+fication in Section 4. Alternatively, we may combine exter-                                                                                                       X
+nal classifiers using vertex weights or “assignment costs,”                                    It
+                                                                                               _
+                                                                                                   is not difficult to show   _
+                                                                                                                                that the minimum energy function
+                                                                                                     !  arg min {}| ~ {  5c    is harmonic; namely, it satisfies
+as described in Section 5. Encouraging experimental re-                                           _                                                            _
+                                                                                                       !+ on unlabeled data points ; , and is equal to 
+sults for synthetic data, digit classification, and text clas-                                                                                 T
+sification tasks are presented in Section 7. One difficulty                                    on the labeled data points 7 . Here is the combinatorial
+with the random field approach is that the right choice of                                     Laplacian, given in matrix form as !              E  where <!
+graph is often not entirely clear, and it may be desirable to                                  diag ] K is the diagonal matrix with entries ] K ! M J KNM
+learn it from data. In Section 6 we propose a method for                                       and E! J KM is the weight matrix.
+                                                                                                                                                                                                                                                                                                    _
+learning these weights by entropy minimization, and show                                       The harmonic property means that the value of at each
+                                                                                                                                     _
+the algorithm’s ability to perform feature selection to better                                 unlabeled data point is the average of at neighboring
+characterize the data manifold.                                                                points:
+                                                                                                   _                                           V
+                                                                                                                                  .                                        JKM _
+2. Basic Framework                                                                                     ji I!                         M
+                                                                                                                                                   KM
+                                                                                                                                                                                             b:                   for i!$.f@o$                                                                (3)
+                                                                                                                              ]
+
+We suppose there are labeled points     ,
+and  unlabeled points  ; typically  .                            which
+                                                                                               _
+                                                                                                        is consistent with our prior notion of smoothness of
+Let "!#%$& be the total number of data points. To be-                                           _
+                                                                                                   with  respect
+                                                                                                         _
+                                                                                                                 to the graph. Expressed slightly differently,
+gin, we assume the labels are binary: ('*),+-./ . Consider                                     !     , where ^!C  E . Because of the maximum      _
+a connected graph 01!132456 with nodes 2 correspond-                                        principle of harmonic functions (Doyle & Snell, 1984),
+                                                                                                                                                    _
+                                                                                                                                                              is
+ing to the data points, with nodes 7"!8)9.9%:/ corre-                                 unique and is either a constant or it satisfies +c    i .
+sponding to the labeled points with labels     , and                             for i'; .
+nodes ;<!=)>$?.9@%$A/ corresponding to the unla-
+                                                                                               To compute the harmonic solution explicitly in terms of
+beled points. Our task is to assign labels to nodes ; . We
+                                                                                               matrix operations, we split the weight matrix E (and sim-
+assume an CBD symmetric weight matrix E on the edges
+                                                                                               ilarly  ) into 4 blocks after the th row and column:
+of the graph is given. For example, when <'GFIH , the
+weight matrix can be                     W T       W                                                                                                                                                             E                           E          
+                                SUT                                                                                                                                        E!                                                                                                                                (4)
+                                                         K       W           M       \                                                                                                                       E               ,            E          >&
+                                      VWYH X                                 Z
+              JLKNM
+                      !&OPRQ                                [                           (1)                                                                  _
+          W                                                          Z                                          _                                                                                                   _
+                                                                                                                                                         _
+                                                                                               Letting                    !                                                     where                                            denotes the values on the un-
+                                                                                                                                                                      A
+                                                                                                                                                                                                                                                                                   _
+where  K is the ] -th component of instance  K represented                                   labeled  data  points, the harmonic solution                                                                                                                                                     !?+         subject
+                                                                                                  _    _
+as a vector  K '^F H , and [  [   are length scale                                 to     !     is given by
+                                            H                                                                  T                       T
+hyperparameters for each dimension. Thus, nearby points                                        _                                                                                                                         _                                                                              _
+                                                                                                                                                                                                                                                                                           
+in Euclidean space are assigned large edge weight. Other                                           ¡!¢D>                                                     E£>R                             E¤,                        ¥!¦                               U,R                ,          (5)
+ 3.5
+                               4                                 2001) the walk crucially depends on the time parameter .
+  3
+                                                                 We will return to this point when discussing heat kernels.
+ 2.5                           3
+
+  2
+                               2                                 An electrical network interpretation is given in (Doyle &
+ 1.5
+                               1
+                                                                 Snell, 1984). Imagine the edges of 0 to be resistors with
+  1
+
+ 0.5
+                                                                 conductance E . We connect nodes labeled . to a positive _
+                               0                           2
+  0
+                               2
+                                       0             0           voltage source, and points labeled + to ground. Then 
+   0      1          2   3                   −2 −2
+                                                                 is the voltage in the resulting electric
+                                                                                                     _
+                                                                                                          network on each of
+                                                                 the unlabeled nodes. Furthermore  minimizes the_ energy
+Figure 2. Demonstration of harmonic energy minimization on two   dissipation of the electric network 0 for the given  . The
+synthetic datasets. Large symbols indicate labeled data, other   harmonic property here follows from Kirchoff’s and Ohm’s
+points are unlabeled.
+                                                                 laws, and the maximum principle then shows that this is
+                                                                 precisely the same solution obtained in (5).
+In this paper we focus on the above harmonic function as a
+basis for semi-supervised classification. However, we em-        3.2. Graph Kernels
+phasize that the Gaussian random field model from which                                           _
+                                                                 The solution can be viewed from the viewpoint of spec-
+
+                                                                                                                                                 
+this function is derived provides the learning framework
+                                                                                                                                                                                                       
+                                                                 tral graph theory. The heat kernel with time parameter
+with a consistent probabilistic semantics.                       on the graph 0 is defined as ! 9            . Here YbY i is
+In the following, we refer to the procedure described above      the solution to the heat equation on the graph with initial
+as harmonic energy minimization, to underscore the har-          conditions being a point source at b at time !+ . Kondor
+monic property (3) as well as the objective function being       and Lafferty (2002) propose this as an appropriate kernel
+                                                                 for machine learning with categorical data. When used in a
+                                                                                          
+minimized. Figure 2 demonstrates the use of harmonic en-
+
+shows that the data has three bands, with 4!
+             gfg
+                                                        
+ergy minimization on two synthetic datasets. The left figure
+                                                 ,  !#. ,
+                                                                 kernel method
+                                                                           _
+                                                                                 such as a support vector machine, the kernel
+                                                                 classifier ji !  K        K K
+                                                                                                                        
+                                                                                                    bY i} can be viewed as a
+                                                                                                                                                                                                                   
+and [ ! +- ; the right figure shows two spirals, with           solution to the heat equation with initial heat sources K  K
+  !
+     g
+                           
+       , "! . , and [ !1+- . Here we see harmonic              on the labeled data. The time parameter must, however,
+                                                                 be chosen using an auxiliary technique, for example cross-
+energy minimization clearly follows the structure of data,
+while obviously methods such as kNN would fail to do so.         validation.
+                                                                 Our algorithm uses a different approach 
+                                                                                                                 which is indepen-
+                                                                                                                  T
+3. Interpretation and Connections                                dent of , the diffusion
+                                                                                       
+                                                                                             time. 
+                                                                                                     Let   , be the lower right
+                                                                 £B( submatrix of       . Since > ! >           E > , it is the
+As outlined briefly in this section, the basic framework pre-    Laplacian restricted to the unlabeled nodes in 0 . Consider                                        
+sented in the previous section can be viewed in several fun-
+damentally different ways, and these different viewpoints             
+                                                                 the heat kernel on this submatrix:            !    9
+                                                                     describes heat diffusion on the unlabeled subgraph with
+                                                                                                                               . Then
+provide a rich and complementary set of techniques for rea-
+                                                                                                               
+                                                                 Dirichlet boundary conditions on the labeled nodes. The
+soning about this approach to the semi-supervised learning
+                                                                                              
+                                                                 Green’s function      is the inverse operator of the restricted
+problem.                                                         Laplacian,
+                                                                               
+                                                                                 > !?¦ , which can be expressed in terms of                                               
+                                                                      
+                                                                 the integral over time of the heat kernel :
+
+                                                                        
+3.1. Random Walks and Electric Networks                                                                                                                                         T
+                                                                                                                                                                                                               
+Imagine a particle walking along the graph 0 . Starting          *!                               ] 4!                                   ] I!               3       >                   E      >                    (6)
+from an unlabeled node b , it moves to a node i with proba-
+bility  KNM after one step. The walk
+                                  _
+                                      continues until the par-   The harmonic solution (5) can then be written as
+                                                                                                                                                        !                              !
+                                                                                                                                                                                                #"
+ticle hits a labeled node. Then b is the probability that                                                                          V X
+                                                                                                                                            
+                                                                                                                                                        V
+                                                                          _                           _                  _                                            K J           K
+the particle, starting from node b , hits a labeled node with                    !   xE£,                      or        ji I!                                                               % i                   (7)
+                                                                                                                                      K
+label 1. Here the labeled data is viewed as an “absorbing                                                                                       
+boundary” for the random walk.
+                                                                                                                                                    
+                                                                 Expression (7) shows that this approach can be viewed as
+This view of the harmonic solution indicates that it is          a kernel classifier with the kernel and a specific form of
+closely related to the random walk approach of Szummer           kernel machine. (See also (Chung & Yau, 2000), where a
+
+                                                                                                                                                                                                                       
+and Jaakkola (2001), however there     are two major differ-     normalized Laplacian is used instead of the combinatorial
+                                    _
+
+                                                                 $                                   %$
+ences. First, we fix the value of on the labeled points,         Laplacian.) From (6) we also see that the  
+                                                                                                                 spectrum of is
+                                                                    K              K
+and second, our solution is an equilibrium state, expressed      )       / , where )   / is the spectrum of   > . This indicates
+
+in terms of a hitting time, while in (Szummer & Jaakkola,        a connection to the work of Chapelle et al. (2002), who ma-
+                                                                 nipulate the eigenvalues of the Laplacian to create various
+kernels. A related approach is given by Belkin and Niyogi                                                             4. Incorporating Class Prior Knowledge
+(2002), who propose to regularize functions
+                                          
+                                             on 0 by select-                                                                                _
+ing the top k normalized eigenvectors of corresponding                                                                To go from to labels, the       _
+                                                                                                                                                         obvious decision rule is to
+                                                                                                                      assign label 1 to node b if b 
+                                                           _                                                                                                       
+to the smallest eigenvalues, thus obtaining the best fit to                                                                                                         , and label 0 other-
+                                                  _                                                                                                              Z
+in the least squares sense. We remark that our fits the                                                               wise. We call this rule the harmonic threshold (abbreviated
+labeled data exactly, while the order k approximation may                                                             “thresh”_ below). In terms of the random walk interpreta-
+                                                                                                                      tion, if b 
+                                                                                                                                          
+not.                                                                                                                                        , then starting at b , the random walk is
+                                                                                                                                        Z
+                                                                                                                      more likely to reach a positively labeled point before a neg-
+                                                                                                                      atively labeled point. This decision rule works well when
+3.3. Spectral Clustering and Graph Mincuts
+                                                                                                                      the classes are well separated. However in real datasets,   _
+The normalized cut approach of Shi and Malik (2000) has                                                               classes are often not ideally separated, and using as is
+as its objective function the minimization of the Raleigh                                                             tends to produce severely unbalanced classification.
+quotient                                 T                                                                            The problem stems from the fact that E , which specifies
+                            _  _                KM   J       KM
+                                                                        
+                                                                             _
+                                                                                 b
+                                                                                                 _
+                                                                                                     i   Z
+                                                                                                                      the data manifold, is often poorly estimated in practice and
+                   _
+                      I!   _      _   !                                         _                             (8)   does not reflect the classification goal. In other words, we
+                                                                            K ] K       b: Z
+                                                              
+                                                                                                                      should not “fully trust” the graph structure. The class priors
+                                            
+                                            _
+                                                                                                                      are a valuable piece of complementary information. Let’s
+subject to the constraint       . The solution is the second                                                                 T
+                                                                                                                      assume the desirable proportions for classes 1 and 0 are
+           $
+smallest
+ _
+          eigenvector
+             _
+                      of the generalized   eigenvalue problem
+     !         . Yu and Shi (2001) add a grouping bias to                                                             and .       , respectively, where these values are either given
+the normalized cut to specify which points should be in                                                               by an “oracle” or estimated from labeled data. We adopt a
+the same group. Since labeled data can be encoded into                                                                simple procedure called class mass normalization (CMN)
+such pairwise grouping constraints, this technique can be                                                             to adjust the class distributions    _
+                                                                                                                                                               to match the priors. Define
+                                                                                                                                     T                   K
+applied to semi-supervised learning as well. In general,                                                              the mass of class_
+                                                                                                                                               1 to be      b , and the mass of class 0
+
+when E is close to block diagonal, it can be shown that                                                               to be  K  .       b . Class mass normalization scales these
+
+data points are tightly clustered  in the eigenspace spanned                                                         masses so that an unlabeled point b is classified as class 1
+                                                                                                                      iff                                               T
+by the first few eigenvectors of (Ng et al., 2001a; Meila                                                                                        _
+                                                                                                                                                                                     T
+                                                                                                                                                                                                                  _
+                                                                                                                                                                                                             T
+& Shi, 2001), leading to various spectral clustering algo-                                                                                               b                                       .                  b:
+rithms.                                                                                                                                               K
+                                                                                                                                                          _          ? .                 
+                                                                                                                                                                                                     K .
+                                                                                                                                                                                                                        _                 (9)
+                                                                                                                                                           b                                                       b
+
+Perhaps the most interesting and substantial connection to                                                            This method extends naturally to the general multi-label
+the methods we propose here is the graph mincut approach                                                              case.
+proposed by Blum and Chawla (2001). The starting point
+for this work is also a weighted graph 0 , but the semi-
+                                                                                                                      5. Incorporating External Classifiers
+                   
+supervised learning problem is cast as one of finding a
+minimum  -cut, where negative labeled data is connected                                                              Often we have an external classifier at hand, which is con-
+(with large weight) to a special source node  , and positive                                                         structed on labeled data alone. In this section we suggest
+labeled data is connected to a special sink node . A mini-                                                            how this can be combined with harmonic energy minimiza-
+mum  -cut, which is not necessarily
+                                                                     T
+                            _
+                                       unique, minimizes                     the                                     tion. Assume the external classifier produces labels % on
+                                       K  h M a JLKM T  _           _
+7   objective function 5   ! _#`                            b       i}                                       the unlabeled data;  can be 0/1 or soft labels in  +-.  . We
+and corresponds to a function Z 2                       )      .9Y$.f/ ; the                                        combine  with harmonic energy minimization by a sim-
+solutions can be obtained using linear programming. The                                                               ple modification of the graph. For each unlabeled node b in
+                        T
+corresponding random field model is a “traditional” field                                                             the original graph, we attach a “dongle” node which is a la-
+over the label space ) .f $./ , but the field is pinned on                                                         beled node with value K , let the transition probability from
+                                                                                                                             T
+the labeled entries. Because of this constraint, approxima-                                                           b to its dongle be , and discount all other transitions from b
+tion methods based on rapidly mixing Markov chains that                                                               by .       . We then perform harmonic energy minimization
+apply to the ferromagnetic Ising model unfortunately can-                                                             on this augmented graph. Thus, the external classifier in-
+not be used. Moreover, multi-label extensions are generally                                                           troduces “assignment costs” to the energy function, which
+NP-hard in this framework. In contrast, the harmonic so-                                                              play the role of vertex potentials in the random field. It
+lution can be computed efficiently using matrix methods,                                                              is not difficult to show that the harmonic solution on the
+even in the multi-label case, and inference for the Gaussian                                                                                             T walk view,
+                                                                                                                      augmented T graphT is, in the random
+random field can be efficiently and accurately carried out                                                              _                                                                                             _
+using loopy belief propagation (Weiss et al., 2001).                                                                           !G¦           .           -    >                 .       -         ,        $         (10)
+                                                                                                                      We note that throughout the paper we have assumed the
+                                                                                                                      labeled data to be noise free, and so clamping their values
+makes sense. If there is reason to doubt this assumption, it                                                               This complication can be avoided by smoothing the tran-
+would be reasonable to attach dongles to labeled nodes as                                                                  sition matrix. Inspired by analysis of the PageRank algo-
+                                                                                                                                                   T
+well, and to move the labels to these new nodes.                                                                           rithm in (Ng et al., 2001b), we replace  with the smoothed
+                                                                                                                           matrix !C$*. fR , where  is the uniform matrix
+6. Learning the Weight Matrix                                                                                              with entries  KNM ! .--$@ .                    W
+
+
+                                                                                                                           We use gradient descent to find the hyperparameters [                                                                                                                                                                                                                                                                                                  that
+Previously we assumed that the weight matrix E is given
+                                                                                                                           minimize  . The gradient is computed as
+and fixed.
+      W
+            In this section, we investigate learning weight                                                                                                                                                                                                                                                                    T
+functions of the form given by equation (1). We will learn                                                                                                           W                                                                                                                                                                                _                                                                  _ W
+                                                                                                                                                                                                              .             XV                                                                        .                                                                     b                                                    b
+the [ ’s from both labeled and unlabeled data; this will be                                                                                    [                                  !                                                                                                                                                _                                                                                          [                                          (12)
+shown to be useful as a feature selection mechanism which                                                                                                                                                               K
+                                                                                                                                                                                                                                           j                                           W
+                                                                                                                                                                                                                                                                                                                                                       b:                  
+better aligns the graph structure with the data.                                                                                                      W                                                                            _                                  
+                                                                                                                                                  b:
+                                                                                                                                                         [
+                                                                                                                            _  [ the values
+                                                                                                                           where                                                                                                                                                                                               can be read off the vector
+                                                                                                                              
+The usual parameter learning criterion is to maximize the                                                                            , which is given by
+likelihood of labeled data. However, the likelihood     crite-
+                                                 _
+rion is not appropriate in this case because the values for                                                                              _ W                                                                                              T                                                                               S
+                                                                                                                                                                                                                                                                                                                                                                                      W                                                              W              \
+                                                                                                                                                                                                                                                                                                                                                                                  >               _                                             , _
+labeled data are fixed during training, and moreover likeli-                                                                             [                                    !                                       ¦                                     ,                                                                                          [                                                                  $             [                          (13)
+hood doesn’t make sense for the unlabeled data because we                                                                                                                                                                                                                                                                                                T
+do not have a generative model. We propose instead to use                                                                                                         W                                                                                                   W                                                                                                                                                                                                    W
+
+average label entropy as a heuristic criterion for parameter                                                                T the
+                                                                                                                           using         [ fact that ]  [    !       3] ¤  .  Both
+                                          _               _                                                                      >       and  ,         are sub-matrices of  [ !
+learning. The average label entropy ¡      of the field is                                                                 .       f . Since the original transition matrix  is ob-
+                                                                                                                           tained by!"normalizing the weight matrixX E , we have that
+defined as
+                                                                                                                                                                                                                                                                                              T
+                                  _                       XV                                _
+                    ¡
+                                                  .
+                                                                                   K                                                                                                             KW M                                                        #%$'&                                                                                KM                                         j
+                                                                                                                                                                                                                                                                                                                                                                                                                                       # $)
+                                      I!
+                                                      K
+                                                                                                   b:           (11)                                                               k                                                                                                                                                   k                         X                            (                       
+                              T
+                                              
+                                                                           T               T           T                                                                  [                                                  !                             !"                                                                              
+                                                                                                                                                                                                                                                                                                                                                                                                                                         "                                 (14)
+           K   _                      _                         _                                     _         _                                                                                                                                                                                                                                 (                             
+                                                                                                                                                                                                                                                                                                                                                                                           J               K       (
+where   bI!        b:       b  .    b    . b
+                                                                                                                                                                                                                                                            W              T                               W                                                                           W
+
+is the entropy of the field at the individual unlabeled data              _                                                Finally, !# $*&                                                !
+                                                                                                                                                                                                                   g J                 KM
+                                                                                                                                                                                                                                               
+                                                                                                                                                                                                                                                                  K
+                                                                                                                                                                                                                                                                                       
+                                                                                                                                                                                                                                                                                                                       M
+                                                                                                                                                                                                                                                                                                                                                       Z 
+                                                                                                                                                                                                                                                                                                                                                           + .              [
+point b . Here we use the random walk interpretation of ,                                                                                                     "                                                                                                                                                                 _
+relying on the maximum principle                of harmonic functions                                                      In the above derivation we use  as _ label probabilities di-
+                                    _
+which guarantees that_ +C            b¥<. for b $. . Small                                                         rectly; that is, k class  K ! .>! b . If we incorpo-
+
+entropy implies that      b: is close to 0 or 1; this captures                                                           rate class prior information, or combine harmonic energy
+                    W
+the intuition that a good E (equivalently, a good set of hy-                                                               minimization with other classifiers, it makes sense to min-
+perparameters ) [ / ) should result in a confident labeling.                                                               imize entropy on the combined probabilities. For instance,
+There are of course many arbitrary labelings of the data that                                                              if we incorporate a class prior using CMN, the probability
+have low entropy, which might suggest that this criterion                                                                  is given by                       T
+will not work. However,_
+                                 it is important to point out that                                                               ,                                                             T
+                                                                                                                                                                                                                                                                                                                                                                 _
+                                                                                                                                                                                                                                                                                                                                                                         T
+                                                                                                                                                                                                                                                                                                                                                                                               _
+                                                                                                                                                                                                                                                                                                                                                                                                                                                      T
+                                                                                                                             _                                                                                                                                  R                                                                                                        }                        %b
+we are constraining on the labeled data—most of these                                                                                bI!                                                                                            _                _                                                                                                                                                                              _                      _
+                                                                                                                                                                  R                                                                        }                 b$ .                                                                                                                                                            .                      ji
+arbitrary low entropy labelings are inconsistent with this
+constraint. In fact, we find that the spaceW of low entropy                                                                                                                                                                                                                                                                                                                                                                                                                   (15)
+labelings achievable by harmonic energy minimization is                                                                                                                                                                                                                                                                                                                                                                        _
+                                                                                                                           and we use this probability in place of b in (11). The
+small and lends itself well to tuning the [ parameters.
+                          W
+                                                                                                                           derivation of the gradient descent rule is a straightforward
+                                          a
+There is a complication, however, which is that  has a                                                                    extension of the above analysis.
+minimum at 0 as [            + . As the length scale approaches
+zero, the tail of the weight function (1) is increasingly sen-                                                             7. Experimental Results
+sitive to the distance. In the end, the label predicted for an
+unlabeled example is dominated by its nearest neighbor’s                                                                   We first evaluate harmonic energy minimization on a hand-
+label, which results in the following equivalent labeling                                                                  written digits dataset, originally from the Cedar Buffalo
+procedure: (1) starting from the labeled data set, find the                                                                binary digits database (Hull, 1994). The digits were pre-
+unlabeled point  that is closest to some labeled point  ;                                                            processed to reduce the size of each image down to a
+(2) label  with   ’s label, put  in the labeled set and re-                                                          .-   B .- grid by down-sampling and Gaussian smooth-
+peat. Since these are hard labels, the entropy is zero. This                                                               ing, with pixel values ranging from 0 to 255 (Le Cun
+solution is desirable only when the classes are extremely                                                                  etW al., 1990). Each image is thus represented by a 256-
+
+                                                                                                                                                  
+well separated, and can be expected to be inferior other-                                                                  dimensional vector. We compute the weight matrix (1) with
+                                                                                                                           [
+wise.                                                                                                                            !      9+ . For each labeled set size tested, we perform
+             1                                                             1                                                                                  1
+
+           0.95                                                          0.95                                                                               0.95
+
+            0.9                                                           0.9                                                                                0.9
+
+           0.85                                                          0.85                                                                               0.85
+accuracy
+
+
+
+
+            0.8
+
+
+
+
+                                                              accuracy
+
+
+
+
+                                                                                                                                                 accuracy
+                                                                          0.8                                                                                0.8
+
+           0.75                                                          0.75                                                                               0.75
+
+            0.7                                                           0.7                                                                                0.7
+
+           0.65
+                                               CMN                       0.65                                                                               0.65                                                                                  CMN + VP
+                                                                                                                                  CMN                                                                                                             thresh + VP
+            0.6                                1NN                        0.6
+                                                                                                                                  1NN                        0.6
+                                                                                                                                                                                                                                                  VP
+           0.55
+                                               RBF                                                                                RBF                                                                                                             CMN
+                                                                         0.55                                                                               0.55
+                                               thresh                                                                             thresh                                                                                                          thresh
+            0.5                                                           0.5                                                                                0.5
+                  0   20     40       60      80        100                     0   20   40   60     80   100   120   140   160    180     200                     0     10           20   30             40           50             60     70     80   90     100
+                           labeled set size                                                        labeled set size                                                                                 labeled set size
+
+
+           Figure 3. Harmonic energy minimization on digits “1” vs. “2” (left) and on all 10 digits (middle) and combining voted-perceptron with
+           harmonic energy minimization on odd vs. even digits (right)
+
+             1                                                              1                                                                                  1
+
+           0.95                                                          0.95                                                                               0.95
+
+            0.9                                                           0.9                                                                                0.9
+
+           0.85                                                          0.85                                                                               0.85
+accuracy
+
+
+
+
+                                                              accuracy
+
+
+
+
+                                                                                                                                                 accuracy
+            0.8                                                           0.8                                                                                0.8
+
+           0.75                                                          0.75                                                                               0.75
+
+            0.7                                                           0.7                                                                                0.7
+
+           0.65                                                          0.65                                                                               0.65
+                                               CMN                                                                            CMN                                                                                                                     CMN
+            0.6                                thresh                     0.6                                                 thresh                         0.6                                                                                      thresh
+           0.55
+                                               VP                        0.55
+                                                                                                                              VP                            0.55
+                                                                                                                                                                                                                                                      VP
+                                               1NN                                                                            1NN                                                                                                                     1NN
+            0.5                                                           0.5                                                                                0.5
+                  0   20     40       60      80        100                     0        20          40         60          80             100                     0                  20                  40                          60            80          100
+                           labeled set size                                                        labeled set size                                                                                 labeled set size
+
+
+           Figure 4. Harmonic energy minimization on PC vs. MAC (left), baseball vs. hockey (middle), and MS-Windows vs. MAC (right)
+
+
+           10 trials. In each trial we randomly sample labeled data                                             We also consider the 10-way problem of classifying digits
+           from the entire dataset, and use the rest of the images as                                           “0” through ’9’. We report the results on a dataset with in-
+           unlabeled data. If any class is absent from the sampled la-                                          tentionally unbalanced class sizes, with 455, 213, 129, 100,
+           beled set, we redo the sampling. For methods that incorpo-                                           754, 970, 275, 585, 166, 353 examples per class, respec-
+           rate class priors , we estimate from the labeled set with                                            tively (noting that the results on a balanced dataset are sim-
+           Laplace (“add one”) smoothing.                                                                       ilar). We report the average accuracy of thresh, CMN, RBF,
+                                                                                                                and 1NN. These methods can handle multi-way classifica-
+           We consider the binary problem of classifying digits “1”
+                                                                                                                tion directly, or with slight modification in a one-against-all
+           vs. “2,” with 1100 images in each class. We report aver-
+                                                                                                                fashion. As the results in Figure 3 show, CMN again im-
+           age accuracy of the following methods on unlabeled data:
+                                                                     T                                          proves performance by incorporating class priors.
+           thresh, CMN, 1NN, and a radial basis _function classifier     _
+           (RBF) which classifies to class 1 iff E*   E¤.        .                                 Next we report the results of document categorization ex-
+           RBF and 1NN are used simply as baselines. The results are                                            periments using the 20 newsgroups dataset. We pick
+           shown in Figure_
+                             3. Clearly thresh performs poorly, because                                         three binary problems: PC (number of documents: 982)
+           the values of %ji are generally close to 1, so the major-                                          vs. MAC (961), MS-Windows (958) vs. MAC, and base-
+           ity of examples are classified as digit “1”. This shows the                                          ball (994) vs. hockey (999). Each document is minimally
+           inadequacy of the weight function (1) based on pixel-wise   _
+                                                                                                                processed into a “tf.idf” vector, without applying header re-
+           Euclidean distance. However the relative rankings of ji                                           moval, frequency cutoff, stemming, or a stopword list. Two
+           are useful, and when coupled with class prior information                                            documents  are connected by an edge if  is among ’s
+           significantly improved accuracy is obtained. The greatest                                            10 nearest neighbors or if is among  ’s 10 nearest neigh-
+           improvement is achieved by the simple method CMN. We                                                 bors, as measured by cosine similarity. We use the follow-
+           could also
+                    _
+                       have adjusted the decision threshold on thresh’s                                         ing weight function on the edges:
+           solution  , so that the class proportion fits the prior . This                                                                                          T                               T
+                                                                                                                                                                                                                            
+                                                                                                                                    J                                             .                                
+           method is inferior to CMN due to the error in estimating ,                                                                    !"OP Q                                            .                              j                           (16)
+           and it is not shown in the plot. These same observations                                                                                                           +- +                                                        
+           are also true for the experiments we performed on several                                            We use one-nearest neighbor and the voted perceptron al-
+           other binary digit classification problems.                                                          gorithm (Freund & Schapire, 1999) (10 epochs with a lin-
+                                                                          5                                                                    5
+ear kernel) as baselines–our results with support vector ma-              4                                                                    4
+chines are comparable. The results are shown in Figure                    3                                                                    3
+                                                                          2                                                                    2
+4. As before, each point is the average of 10 random tri-                 1                                                                    1
+als. For this data, harmonic energy minimization performs                 0                                                                    0
+
+much better than the baselines. The improvement from the                 −1                                                                   −1
+                                                                         −2                                                                   −2
+class prior, however, is less significant. An explanation for            −3                                                                   −3
+                                                                          −4        −2                        0          2         4           −4        −2              0         2   4
+why this approach to semi-supervised learning is so effec-
+tive on the newsgroups data may lie in the common use of                                                     (a)                                                        (b)
+quotations within a topic thread: document  quotes part                                            1
+
+                                                Z
+of document   ,  + quotes part of  , and so on. Thus,                                         0.95
+                                         Z
+although documents far apart in the thread may be quite                                            0.9
+
+different, they are linked by edges in the graphical repre-
+
+
+
+
+                                                                                        entropy
+                                                                                                  0.85
+sentation of the data, and these links are exploited by the
+                                                                                                                                                        ε=0.1
+learning algorithm.                                                                                0.8
+                                                                                                                                                        ε=0.01
+                                                                                                  0.75
+                                                                                                                                                        ε=0.001
+                                                                                                                                                        ε=0.0001
+7.1. Incorporating External Classifiers                                                            0.7
+                                                                                                                                                        unsmoothed
+                                                                                                     0.2           0.4       0.6        0.8         1             1.2        1.4
+                                                                                                                                        σ
+We use the voted-perceptron as our external classifier. For
+                                                                                                                                       (c)
+each random trial, we train a voted-perceptron on the la-
+beled set, and apply it to the unlabeled set. We then use the   Figure 5. The effect of parameter on harmonic energy mini-
+                                                                                                                                                          
+                                                                mization. (a) If unsmoothed,        as       , and the algorithm
+                                                                                                                                                        
+                                                                        
+0/1 hard labels for dongle values  , and perform harmonic
+energy minimization with (10). We use !+j. .                performs poorly. (b) Result at optimal          , smoothed with
+                                                                          (c) Smoothing helps to remove the entropy minimum.
+We evaluate on the artificial but difficult binary problem
+of classifying odd digits vs. even digits; that is, we group
+                                                                5(c). When we set !+- +-. , the minimum entropy is 0.898
+“1,3,5,7,9” and “2,4,6,8,0” into two classes. There are 400
+images per digit. We use second order polynomial kernel                                                  
+                                                                bits at [ !+- - . Harmonic energy minimization under this
+in the voted-perceptron, and train for 10 epochs. Figure 3      length scale is shown in Figure 5(b), which is able to dis-
+shows the results. The accuracy of the voted-perceptron         tinguish the structure of the two grids.
+on unlabeled data, averaged over trials, is marked VP in        If we allow a separate [ for each dimension, parameter
+the plot. Independently, we run thresh and CMN. Next we
+                                                                                                  
+                                                                learning is more dramatic. With the same smoothing of
+combine thresh with the voted-perceptron, and the result
+is marked thresh+VP. Finally, we perform class mass nor-        
+                                                                ^! +- +-. , [ keeps growing towards infinity (we use
+                                                                 [
+                                                                     !   .+
+                                                                                  
+                                                                                 for computation) while [ stabilizes at 0.65,                                
+                                                                                            
+malization on the combined result and get CMN+VP. The                        a
+                                                                and we reach a minimum entropy of 0.619 bits. In this
+combination results in higher accuracy than either method       case [              is legitimate; it means that the learning al-
+alone, suggesting there is complementary information used       gorithm has identified the  -direction as irrelevant, based
+by each.                                                        on both the labeled and unlabeled data. Harmonic energy
+                                                                minimization under these parameters gives the same clas-
+7.2. Learning the Weight Matrix E                               sification as shown in Figure 5(b).
+To demonstrate the effects of estimating E , results on a toy   Next we learn [ ’s for all 256 dimensions on the “1” vs. “2”
+dataset are shown in Figure 5. The upper grid is slightly       digits dataset. For this problem we minimize the entropy
+tighter than the lower grid, and they are connected by a few    with CMN probabilities (15). We randomly pick a split of
+
+                                                                                                                                                        
+data points. There are two labeled examples, marked with        92 labeled and 2108 unlabeled examples, and start with all
+large symbols. We learn the optimal length scales for this      dimensions sharing the same [ !        f+ as in previous ex-
+dataset by minimizing entropy on unlabeled data.                periments. Then we compute the derivatives of [ for each
+                                                                dimension separately, and perform gradient descent to min-
+To simplify the problem, we first tie the length scales in
+                                                                imize the entropy. The result is shown in Table 1. As
+the two dimensions, so there is only a single parameter [
+                                     a                          entropy decreases, the accuracy of CMN and thresh both
+to learn. As noted earlier, without smoothing, the entropy
+                                  [                             increase. The learned [ ’s shown in the rightmost plot of
+approaches the minimum at 0 as         + . Under such con-
+                                                                Figure 6 range from 181 (black) to 465 (white). A small [ K
+ditions, the results of harmonic energy minimization are
+                                                                (black) indicates that the weight is more sensitive to varia-
+usually undesirable, and for this dataset the tighter grid
+                                                                tions in that dimension, while the opposite is true for large
+“invades” the sparser one as shown in Figure 5(a). With         [ K
+                                                                    (white). We can discern the shapes of a black “1” and
+smoothing, the “nuisance minimum” at 0 gradually disap-
+                                                                a white “2” in this figure; that is, the learned parameters
+pears as the smoothing factor  grows, as shown in Figure
+                (bits)        CMN               thresh               imate energy minimization via graph cuts. IEEE Trans.
+   start       0.6931     97.25 0.73 %       94.70 1.19 %             on Pattern Analysis and Machine Intelligence, 23.
+   end         0.6542     98.56 0.43 %       98.02 0.39 %           Chapelle, O., Weston, J., & Schölkopf, B. (2002). Cluster
+                                                                      kernels for semi-supervised learning. Advances in Neu-
+Table 1. Entropy of CMN and accuracies before and after learning
+ ’s on the “1” vs. “2” dataset.                                       ral Information Processing Systems, 15.
+                                                                    Chung, F., & Yau, S. (2000). Discrete Green’s functions.
+                                                                      Journal of Combinatorial Theory (A) (pp. 191–214).
+                                                                    Doyle, P., & Snell, J. (1984). Random walks and electric
+                                                                      networks. Mathematical Assoc. of America.
+                                                                    Freund, Y., & Schapire, R. E. (1999). Large margin classi-
+                                                                      fication using the perceptron algorithm. Machine Learn-
+Figure 6. Learned ’s for “1” vs. “2” dataset. From left to right:     ing, 37(3), 277–296.
+average “1”, average “2”, initial ’s, learned ’s.                   Hull, J. J. (1994). A database for handwritten text recog-
+                                                                      nition research. IEEE Transactions on Pattern Analysis
+                                                                      and Machine Intelligence, 16.
+exaggerate variations within class “1” while suppressing
+variations within class “2”. We have observed that with             Kondor, R. I., & Lafferty, J. (2002). Diffusion kernels on
+the default parameters, class “1” has much less variation             graphs and other discrete input spaces. Proc. 19th Inter-
+than class “2”; thus, the learned parameters are, in effect,          national Conf. on Machine Learning.
+compensating for the relative tightness of the two classes in       Le Cun, Y., Boser, B., Denker, J. S., Henderson, D.,
+feature space.                                                        Howard, R. E., Howard, W., & Jackel, L. D. (1990).
+                                                                      Handwritten digit recognition with a back-propagation
+8. Conclusion                                                         network. Advances in Neural Information Processing
+                                                                      Systems, 2.
+We have introduced an approach to semi-supervised learn-            Meila, M., & Shi, J. (2001). A random walks view of spec-
+ing based on a Gaussian random field model defined with              tral segmentation. AISTATS.
+respect to a weighted graph representing labeled and unla-
+                                                                    Ng, A., Jordan, M., & Weiss, Y. (2001a). On spectral clus-
+beled data. Promising experimental results have been pre-
+                                                                      tering: Analysis and an algorithm. Advances in Neural
+sented for text and digit classification, demonstrating that
+                                                                      Information Processing Systems, 14.
+the framework has the potential to effectively exploit the
+structure of unlabeled data to improve classification accu-         Ng, A. Y., Zheng, A. X., & Jordan, M. I. (2001b). Link
+racy. The underlying random field gives a coherent proba-             analysis, eigenvectors and stability. International Joint
+bilistic semantics to our approach, but this paper has con-           Conference on Artificial Intelligence (IJCAI).
+centrated on the use of only the mean of the field, which is        Seeger, M. (2001). Learning with labeled and unlabeled
+characterized in terms of harmonic functions and spectral             data (Technical Report). University of Edinburgh.
+graph theory. The fully probabilistic framework is closely          Seeger, M. (2002). PAC-Bayesian generalization error
+related to Gaussian process classification, and this connec-          bounds for Gaussian process classification. Journal of
+tion suggests principled ways of incorporating class priors           Machine Learning Research, 3, 233–269.
+and learning hyperparameters; in particular, it is natural
+                                                                    Shi, J., & Malik, J. (2000). Normalized cuts and image
+to apply evidence maximization or the generalization er-
+                                                                      segmentation. IEEE Transactions on Pattern Analysis
+ror bounds that have been studied for Gaussian processes
+                                                                      and Machine Intelligence, 22, 888–905.
+(Seeger, 2002). Our work in this direction will be reported
+in a future publication.                                            Szummer, M., & Jaakkola, T. (2001). Partially labeled clas-
+                                                                      sification with Markov random walks. Advances in Neu-
+                                                                      ral Information Processing Systems, 14.
+References
+                                                                    Weiss, Y., , & Freeman, W. T. (2001). Correctness of belief
+Belkin, M., & Niyogi, P. (2002). Using manifold structure            propagation in Gaussian graphical models of arbitrary
+  for partially labelled classification. Advances in Neural          topology. Neural Computation, 13, 2173–2200.
+  Information Processing Systems, 15.                               Yu, S. X., & Shi, J. (2001). Grouping with bias. Advances
+Blum, A., & Chawla, S. (2001). Learning from labeled and              in Neural Information Processing Systems, 14.
+  unlabeled data using graph mincuts. Proc. 18th Interna-
+  tional Conf. on Machine Learning.
+Boykov, Y., Veksler, O., & Zabih, R. (2001). Fast approx-
+

@@ -1,0 +1,3277 @@
+[
+  {
+    "school_id": "sz:longgang:school:496FFFE16CB85558E053BC09A8C0A5ED",
+    "school_name": "扬美实验学校",
+    "source_school_id": "496FFFE16CB85558E053BC09A8C0A5ED",
+    "map_school_name": "坂田街道扬美实验学校（公办)",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "坂田街道长发东路10号",
+    "school_point_bd09": [
+      114.079504,
+      22.638136
+    ],
+    "source_map_marker_bd09": [
+      114.079504,
+      22.638136
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.067833441037,
+      22.63509421422351
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16CDD5558E053BC09A8C0A5ED",
+    "school_name": "凤凰山小学",
+    "source_school_id": "496FFFE16CDD5558E053BC09A8C0A5ED",
+    "map_school_name": "平湖凤凰山小学（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "85233946",
+    "school_point_bd09": [
+      114.156121,
+      22.697505
+    ],
+    "source_map_marker_bd09": [
+      114.156121,
+      22.697505
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.14455513553642,
+      22.694193899559476
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16D065558E053BC09A8C0A5ED",
+    "school_name": "龙岗中心学校",
+    "source_school_id": "496FFFE16D065558E053BC09A8C0A5ED",
+    "map_school_name": "龙岗中心学校（公办）（小学部）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "广东省深圳市龙岗区龙岗镇三和村",
+    "school_point_bd09": [
+      114.284685,
+      22.732582
+    ],
+    "source_map_marker_bd09": [
+      114.284685,
+      22.732582
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.27331240642287,
+      22.72954287177369
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16D095558E053BC09A8C0A5ED",
+    "school_name": "乐淮实验学校",
+    "source_school_id": "496FFFE16D095558E053BC09A8C0A5ED",
+    "map_school_name": "乐淮实验学校（公办）（小学部）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "龙岗区坪地街道富民工业区第二小学",
+    "school_point_bd09": [
+      114.323135,
+      22.778035
+    ],
+    "source_map_marker_bd09": [
+      114.323135,
+      22.778035
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.3117400518151,
+      22.775012663323523
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16D125558E053BC09A8C0A5ED",
+    "school_name": "育贤小学",
+    "source_school_id": "496FFFE16D125558E053BC09A8C0A5ED",
+    "map_school_name": "宝龙街道育贤小学（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "龙岗区龙岗镇龙东村",
+    "school_point_bd09": [
+      114.299303,
+      22.726773
+    ],
+    "source_map_marker_bd09": [
+      114.299303,
+      22.726773
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.2878831814213,
+      22.72389508493493
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16D135558E053BC09A8C0A5ED",
+    "school_name": "龙岗区外国语学校(集团)爱联小学",
+    "source_school_id": "496FFFE16D135558E053BC09A8C0A5ED",
+    "map_school_name": "外国语学校(集团)爱联小学（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "深圳市龙岗区龙城爱联深惠公路爱联段195号",
+    "school_point_bd09": [
+      114.24129,
+      22.706624
+    ],
+    "source_map_marker_bd09": [
+      114.24129,
+      22.706624
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.229984820107,
+      22.703121674742814
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16D255558E053BC09A8C0A5ED",
+    "school_name": "龙岗区外国语学校(集团)云和学校",
+    "source_school_id": "496FFFE16D255558E053BC09A8C0A5ED",
+    "map_school_name": "外国语学校(集团)云和学校（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": null,
+    "school_point_bd09": [
+      114.074306,
+      22.653247
+    ],
+    "source_map_marker_bd09": [
+      114.074306,
+      22.653247
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.0626370271272,
+      22.65025951550487
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16D265558E053BC09A8C0A5ED",
+    "school_name": "深圳实验学校坂田校区",
+    "source_school_id": "496FFFE16D265558E053BC09A8C0A5ED",
+    "map_school_name": "深圳实验学校坂田校区（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "龙岗区坂田街道杨美社区龙颈坳99号",
+    "school_point_bd09": [
+      114.091145,
+      22.637011
+    ],
+    "source_map_marker_bd09": [
+      114.091145,
+      22.637011
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.07950224646872,
+      22.63378529899613
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16D285558E053BC09A8C0A5ED",
+    "school_name": "六约学校",
+    "source_school_id": "496FFFE16D285558E053BC09A8C0A5ED",
+    "map_school_name": "横岗街道六约学校（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "深圳市龙岗区横岗街道六约学校",
+    "school_point_bd09": [
+      114.19624,
+      22.645682
+    ],
+    "source_map_marker_bd09": [
+      114.19624,
+      22.645682
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.18475117163686,
+      22.642766919107743
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16C795558E053BC09A8C0A5ED",
+    "school_name": "龙岗区第二外国语学校（集团）可园学校",
+    "source_school_id": "496FFFE16C795558E053BC09A8C0A5ED",
+    "map_school_name": "第二外国语学校（集团）可园学校（小学部）（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": null,
+    "school_point_bd09": [
+      114.141046,
+      22.602534
+    ],
+    "source_map_marker_bd09": [
+      114.141046,
+      22.602534
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.12949311514076,
+      22.598977905444507
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16C8C5558E053BC09A8C0A5ED",
+    "school_name": "深圳大学附属坂田学校",
+    "source_school_id": "496FFFE16C8C5558E053BC09A8C0A5ED",
+    "map_school_name": "坂田街道深圳大学附属坂田学校（公办）（小学部）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": null,
+    "school_point_bd09": [
+      114.08118,
+      22.66136
+    ],
+    "source_map_marker_bd09": [
+      114.08118,
+      22.66136
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.06951786705704,
+      22.658292933490447
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16C9D5558E053BC09A8C0A5ED",
+    "school_name": "龙岗区南湾教育集团康桥外国语小学",
+    "source_school_id": "496FFFE16C9D5558E053BC09A8C0A5ED",
+    "map_school_name": "南湾教育集团康桥外国语小学（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "南湾街道康桥花园内",
+    "school_point_bd09": [
+      114.149301,
+      22.630646
+    ],
+    "source_map_marker_bd09": [
+      114.149301,
+      22.630646
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.13776305466479,
+      22.62722279855749
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:fe2f34ce82a44f0f9e8543f46206722a",
+    "school_name": "守真小学",
+    "source_school_id": "fe2f34ce82a44f0f9e8543f46206722a",
+    "map_school_name": "平湖街道守真小学(公办)",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": null,
+    "school_point_bd09": [
+      114.133354,
+      22.696792
+    ],
+    "source_map_marker_bd09": [
+      114.133354,
+      22.696792
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.12180322736324,
+      22.693137830696756
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:3e0fdc78094340f5b26d6a5253dc67c7",
+    "school_name": "深圳市高级中学龙岗学校",
+    "source_school_id": "3e0fdc78094340f5b26d6a5253dc67c7",
+    "map_school_name": "高级中学龙岗学校（公办）（小学部）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": null,
+    "school_point_bd09": [
+      114.32226,
+      22.700656
+    ],
+    "source_map_marker_bd09": [
+      114.32226,
+      22.700656
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.31083593459485,
+      22.69766327496614
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:477efc3b15054d70bf5afe66ebb138b0",
+    "school_name": "龙城高级中学（教育集团）龙城创新学校",
+    "source_school_id": "477efc3b15054d70bf5afe66ebb138b0",
+    "map_school_name": "龙城高级中学（教育集团）龙城创新学校（公办）（小学部）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": null,
+    "school_point_bd09": [
+      114.223965,
+      22.738277
+    ],
+    "source_map_marker_bd09": [
+      114.223965,
+      22.738277
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.21259743965754,
+      22.734949461056374
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:b2822c8fdd43451382c99714fb1805fb",
+    "school_name": "横岗外国语学校",
+    "source_school_id": "b2822c8fdd43451382c99714fb1805fb",
+    "map_school_name": "横岗街道横岗外国语学校（小学部）（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": null,
+    "school_point_bd09": [
+      114.187892,
+      22.651821
+    ],
+    "source_map_marker_bd09": [
+      114.187892,
+      22.651821
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.17637415847561,
+      22.648932214423613
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:c6bb9d7857544432a0939efbcbc36247",
+    "school_name": "龙岗区宝龙实验学校（工程名：南约九年一贯制学校）",
+    "source_school_id": "c6bb9d7857544432a0939efbcbc36247",
+    "map_school_name": "宝龙实验学校（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": null,
+    "school_point_bd09": [
+      114.266332,
+      22.687661
+    ],
+    "source_map_marker_bd09": [
+      114.266332,
+      22.687661
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.2550356220762,
+      22.684329394582313
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:956211a281b6477d89b3cdffe7d95beb",
+    "school_name": "东兴外国语学校",
+    "source_school_id": "956211a281b6477d89b3cdffe7d95beb",
+    "map_school_name": "东兴外国语学校（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "龙岗",
+    "school_point_bd09": [
+      114.286118,
+      22.767113
+    ],
+    "source_map_marker_bd09": [
+      114.286118,
+      22.767113
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.27476826794081,
+      22.764091026137805
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:a2943eed6fdf49ed802e3cf225321247",
+    "school_name": "吉华实验学校",
+    "source_school_id": "a2943eed6fdf49ed802e3cf225321247",
+    "map_school_name": "吉华街道吉华实验学校（公办）（小学部）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": null,
+    "school_point_bd09": [
+      114.123899,
+      22.632795
+    ],
+    "source_map_marker_bd09": [
+      114.123899,
+      22.632795
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.11235863667814,
+      22.62913206337779
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:a2b9ddb0743649288fed0525a4d449f2",
+    "school_name": "龙岗区外国语学校(集团)行知学校",
+    "source_school_id": "a2b9ddb0743649288fed0525a4d449f2",
+    "map_school_name": "外国语学校(集团)行知学校（小学部）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": null,
+    "school_point_bd09": [
+      114.256903,
+      22.710975
+    ],
+    "source_map_marker_bd09": [
+      114.256903,
+      22.710975
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.24560599479085,
+      22.707515107471917
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16CE15558E053BC09A8C0A5ED",
+    "school_name": "龙岭学校公办班(民办学校)",
+    "source_school_id": "496FFFE16CE15558E053BC09A8C0A5ED",
+    "map_school_name": "布吉街道龙岭学校公办班(民办)",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "89796266",
+    "school_point_bd09": [
+      114.119598,
+      22.611717
+    ],
+    "source_map_marker_bd09": [
+      114.119598,
+      22.611717
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.10802955450926,
+      22.608070277155978
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16D015558E053BC09A8C0A5ED",
+    "school_name": "德兴小学",
+    "source_school_id": "496FFFE16D015558E053BC09A8C0A5ED",
+    "map_school_name": "布吉街道德兴小学（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "深圳市龙岗区布吉镇德兴花园内",
+    "school_point_bd09": [
+      114.117246,
+      22.59908
+    ],
+    "source_map_marker_bd09": [
+      114.117246,
+      22.59908
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.10566625828834,
+      22.595450317475095
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16D045558E053BC09A8C0A5ED",
+    "school_name": "龙岗区科创实验学校（集团）四联小学",
+    "source_school_id": "496FFFE16D045558E053BC09A8C0A5ED",
+    "map_school_name": "科创实验学校（集团）四联小学（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "广东省深圳市龙岗区横岗街道红棉路37号",
+    "school_point_bd09": [
+      114.205762,
+      22.657805
+    ],
+    "source_map_marker_bd09": [
+      114.205762,
+      22.657805
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.19432281904302,
+      22.654788651434423
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16D105558E053BC09A8C0A5ED",
+    "school_name": "龙岗区外国语学校(集团)新亚洲学校",
+    "source_school_id": "496FFFE16D105558E053BC09A8C0A5ED",
+    "map_school_name": "外国语学校（集团）新亚洲学校（公办）（小学部）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "中心城新亚洲花园内",
+    "school_point_bd09": [
+      114.241188,
+      22.724632
+    ],
+    "source_map_marker_bd09": [
+      114.241188,
+      22.724632
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.22988113139917,
+      22.721125145087775
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16D165558E053BC09A8C0A5ED",
+    "school_name": "坂田小学",
+    "source_school_id": "496FFFE16D165558E053BC09A8C0A5ED",
+    "map_school_name": "坂田街道坂田小学（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "深圳市龙岗区坂田街道坂田小学",
+    "school_point_bd09": [
+      114.07234,
+      22.638332
+    ],
+    "source_map_marker_bd09": [
+      114.07234,
+      22.638332
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.06066397624771,
+      22.635361374100587
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16D2A5558E053BC09A8C0A5ED",
+    "school_name": "天誉实验学校*",
+    "source_school_id": "496FFFE16D2A5558E053BC09A8C0A5ED",
+    "map_school_name": "天誉实验学校（政府资助）(小学部)",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "龙岗区中心城德政路",
+    "school_point_bd09": [
+      114.253477,
+      22.720967
+    ],
+    "source_map_marker_bd09": [
+      114.253477,
+      22.720967
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.2421817706152,
+      22.71747665564846
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:4de8828a16684f23a0f86a534cfa2549",
+    "school_name": "南京师范大学附属龙岗学校",
+    "source_school_id": "4de8828a16684f23a0f86a534cfa2549",
+    "map_school_name": "南京师范大学附属龙岗学校(公办)（小学部）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "1",
+    "school_point_bd09": [
+      114.12689,
+      22.634562
+    ],
+    "source_map_marker_bd09": [
+      114.12689,
+      22.634562
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.11535606223765,
+      22.63089793963643
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:534b7dc2be9f432ebb63346a29aa0f2c",
+    "school_name": "香港中文大学（深圳）附属道远学校",
+    "source_school_id": "534b7dc2be9f432ebb63346a29aa0f2c",
+    "map_school_name": "香港中文大学（深圳）附属道远学校（小学部）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": null,
+    "school_point_bd09": [
+      114.217222,
+      22.71433
+    ],
+    "source_map_marker_bd09": [
+      114.217222,
+      22.71433
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.20580620536165,
+      22.711115073359704
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16CA95558E053BC09A8C0A5ED",
+    "school_name": "龙岗区科创实验学校（集团）清林小学",
+    "source_school_id": "496FFFE16CA95558E053BC09A8C0A5ED",
+    "map_school_name": "科创实验学校（集团）清林小学（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": null,
+    "school_point_bd09": [
+      114.249967,
+      22.734843
+    ],
+    "source_map_marker_bd09": [
+      114.249967,
+      22.734843
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.23867890842953,
+      22.731332127529974
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16CAC5558E053BC09A8C0A5ED",
+    "school_name": "龙岗区科创实验学校（集团）平安里学校",
+    "source_school_id": "496FFFE16CAC5558E053BC09A8C0A5ED",
+    "map_school_name": "科创实验学校（集团）平安里学校（公办）（小学部）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": null,
+    "school_point_bd09": [
+      114.226683,
+      22.730768
+    ],
+    "source_map_marker_bd09": [
+      114.226683,
+      22.730768
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.21532371255691,
+      22.72740118010962
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:ee3005e048ca42bfaa228e2927283f96",
+    "school_name": "文理学校",
+    "source_school_id": "ee3005e048ca42bfaa228e2927283f96",
+    "map_school_name": "布吉街道文理学校（公办）（小学部）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": null,
+    "school_point_bd09": [
+      114.128613,
+      22.611672
+    ],
+    "source_map_marker_bd09": [
+      114.128613,
+      22.611672
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.11706078991756,
+      22.608010686457387
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:d0433805cdbb4a9d8c14bf956096e26f",
+    "school_name": "龙城高级中学（教育集团）宝龙外国语学校",
+    "source_school_id": "d0433805cdbb4a9d8c14bf956096e26f",
+    "map_school_name": "龙城高级中学（教育集团）宝龙外国语学校（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": null,
+    "school_point_bd09": [
+      114.300145,
+      22.689732
+    ],
+    "source_map_marker_bd09": [
+      114.300145,
+      22.689732
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.28873864096356,
+      22.686870516475363
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:9282b3c9f5e34aceaea9fa08ffeef24f",
+    "school_name": "立雪小学",
+    "source_school_id": "9282b3c9f5e34aceaea9fa08ffeef24f",
+    "map_school_name": "科技城外国语学校(集团)立雪小学（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": null,
+    "school_point_bd09": [
+      114.086354,
+      22.65659
+    ],
+    "source_map_marker_bd09": [
+      114.086354,
+      22.65659
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.07470463445196,
+      22.653445432467286
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:28c2c4c1554c497780ce84c689ca134f",
+    "school_name": "龙岗区信义外国语学校（原盛义九年一贯制学校）",
+    "source_school_id": "28c2c4c1554c497780ce84c689ca134f",
+    "map_school_name": "信义外国语学校（公办）（小学部）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": null,
+    "school_point_bd09": [
+      114.215076,
+      22.66096
+    ],
+    "source_map_marker_bd09": [
+      114.215076,
+      22.66096
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.20368968986288,
+      22.657800903865844
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16CB35558E053BC09A8C0A5ED",
+    "school_name": "南约小学",
+    "source_school_id": "496FFFE16CB35558E053BC09A8C0A5ED",
+    "map_school_name": "宝龙街道南约小学（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "深圳市龙岗区龙岗街道南约小学",
+    "school_point_bd09": [
+      114.284669,
+      22.702856
+    ],
+    "source_map_marker_bd09": [
+      114.284669,
+      22.702856
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.2732959142146,
+      22.699824268970303
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16CE45558E053BC09A8C0A5ED",
+    "school_name": "千林山小学",
+    "source_school_id": "496FFFE16CE45558E053BC09A8C0A5ED",
+    "map_school_name": "龙岗街道千林山小学（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "深圳市龙岗区五联社区万科清林径内千林山小学",
+    "school_point_bd09": [
+      114.2387,
+      22.755906
+    ],
+    "source_map_marker_bd09": [
+      114.2387,
+      22.755906
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.22741195342712,
+      22.752408439152358
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16CFD5558E053BC09A8C0A5ED",
+    "school_name": "坪地中心小学",
+    "source_school_id": "496FFFE16CFD5558E053BC09A8C0A5ED",
+    "map_school_name": "坪地街道中心小学（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "深圳市龙岗区坪地街道龙岗大道坪地段3001号",
+    "school_point_bd09": [
+      114.309961,
+      22.772767
+    ],
+    "source_map_marker_bd09": [
+      114.309961,
+      22.772767
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.29855978909575,
+      22.769885163340795
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16D195558E053BC09A8C0A5ED",
+    "school_name": "华中师范大学龙岗附属中学（集团）平湖中心学校",
+    "source_school_id": "496FFFE16D195558E053BC09A8C0A5ED",
+    "map_school_name": "华中师范大学龙岗附属中学（集团）平湖中心学校（公办）（小学部）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "2885430528855378",
+    "school_point_bd09": [
+      114.139628,
+      22.695629
+    ],
+    "source_map_marker_bd09": [
+      114.139628,
+      22.695629
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.12807880367029,
+      22.692037885190015
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+    "school_name": "贤义外国语学校",
+    "source_school_id": "496FFFE16D2C5558E053BC09A8C0A5ED",
+    "map_school_name": "布吉街道贤义外国语学校小学部(公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": null,
+    "school_point_bd09": [
+      114.134812,
+      22.597547
+    ],
+    "source_map_marker_bd09": [
+      114.134812,
+      22.597547
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.12325893434598,
+      22.5939218174196
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:58c59cc2ba13405a9372d2096e8db34c",
+    "school_name": "南湾实验小学",
+    "source_school_id": "58c59cc2ba13405a9372d2096e8db34c",
+    "map_school_name": "南湾街道南湾实验小学（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": null,
+    "school_point_bd09": [
+      114.145937,
+      22.629846
+    ],
+    "source_map_marker_bd09": [
+      114.145937,
+      22.629846
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.13440155900372,
+      22.626364252068743
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16C805558E053BC09A8C0A5ED",
+    "school_name": "龙岗区外国语学校(集团)致美学校",
+    "source_school_id": "496FFFE16C805558E053BC09A8C0A5ED",
+    "map_school_name": "外国语学校（集团）致美学校（公办）（小学部）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "深圳市龙岗区龙城街道如意路（老干部活动中心旁）",
+    "school_point_bd09": [
+      114.233446,
+      22.709128
+    ],
+    "source_map_marker_bd09": [
+      114.233446,
+      22.709128
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.22211441847537,
+      22.705682283454774
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16C965558E053BC09A8C0A5ED",
+    "school_name": "六联小学",
+    "source_school_id": "496FFFE16C965558E053BC09A8C0A5ED",
+    "map_school_name": "坪地街道六联小学（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "广东省深圳市龙岗区坪地街道六联小学",
+    "school_point_bd09": [
+      114.332577,
+      22.793536
+    ],
+    "source_map_marker_bd09": [
+      114.332577,
+      22.793536
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.32118985624724,
+      22.790338549804815
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16CAA5558E053BC09A8C0A5ED",
+    "school_name": "深圳中学龙岗学校（集团）依山郡小学",
+    "source_school_id": "496FFFE16CAA5558E053BC09A8C0A5ED",
+    "map_school_name": "深圳中学龙岗学校（集团）依山郡小学（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": null,
+    "school_point_bd09": [
+      114.229217,
+      22.737423
+    ],
+    "source_map_marker_bd09": [
+      114.229217,
+      22.737423
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.21787516065751,
+      22.73402083576538
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16CB15558E053BC09A8C0A5ED",
+    "school_name": "白坭坑小学",
+    "source_school_id": "496FFFE16CB15558E053BC09A8C0A5ED",
+    "map_school_name": "平湖街道白坭坑小学（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "8466236184018809",
+    "school_point_bd09": [
+      114.161789,
+      22.660571
+    ],
+    "source_map_marker_bd09": [
+      114.161789,
+      22.660571
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.15024990404376,
+      22.65738429632413
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16CB25558E053BC09A8C0A5ED",
+    "school_name": "安良小学",
+    "source_school_id": "496FFFE16CB25558E053BC09A8C0A5ED",
+    "map_school_name": "园山街道安良小学（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "深圳市龙岗区横岗街道安良路140号",
+    "school_point_bd09": [
+      114.227956,
+      22.63501
+    ],
+    "source_map_marker_bd09": [
+      114.227956,
+      22.63501
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.21663197051615,
+      22.631652554922262
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16CD55558E053BC09A8C0A5ED",
+    "school_name": "华南师范大学附属龙岗雅宝小学",
+    "source_school_id": "496FFFE16CD55558E053BC09A8C0A5ED",
+    "map_school_name": "华南师范大学附属龙岗雅宝小学（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "深圳市龙岗区坂田街道雅宝路1-18号",
+    "school_point_bd09": [
+      114.071832,
+      22.61041
+    ],
+    "source_map_marker_bd09": [
+      114.071832,
+      22.61041
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.06013182475394,
+      22.607442395986105
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16CD75558E053BC09A8C0A5ED",
+    "school_name": "沙塘布学校",
+    "source_school_id": "496FFFE16CD75558E053BC09A8C0A5ED",
+    "map_school_name": "南湾街道沙塘布学校小学部（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "南湾街道沙塘布路23号",
+    "school_point_bd09": [
+      114.162848,
+      22.618346
+    ],
+    "source_map_marker_bd09": [
+      114.162848,
+      22.618346
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.15128400590321,
+      22.61518173966703
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16D025558E053BC09A8C0A5ED",
+    "school_name": "龙岗区科创实验学校（集团）横岗中心学校",
+    "source_school_id": "496FFFE16D025558E053BC09A8C0A5ED",
+    "map_school_name": "科创实验学校（集团）横岗中心学校（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "深圳市龙岗区横岗镇",
+    "school_point_bd09": [
+      114.218052,
+      22.642453
+    ],
+    "source_map_marker_bd09": [
+      114.218052,
+      22.642453
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.20668010639397,
+      22.639247905596328
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16D145558E053BC09A8C0A5ED",
+    "school_name": "盛平小学",
+    "source_school_id": "496FFFE16D145558E053BC09A8C0A5ED",
+    "map_school_name": "龙城街道盛平小学（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "深圳市龙岗区龙城街道盛平居委盛华路19号",
+    "school_point_bd09": [
+      114.262923,
+      22.737365
+    ],
+    "source_map_marker_bd09": [
+      114.262923,
+      22.737365
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.25162495045893,
+      22.733969526579436
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16D175558E053BC09A8C0A5ED",
+    "school_name": "南岭小学",
+    "source_school_id": "496FFFE16D175558E053BC09A8C0A5ED",
+    "map_school_name": "南湾街道南岭小学（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "深圳市龙岗区南湾街道南岭村",
+    "school_point_bd09": [
+      114.152945,
+      22.615138
+    ],
+    "source_map_marker_bd09": [
+      114.152945,
+      22.615138
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.14138868362295,
+      22.61178239182847
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16D1A5558E053BC09A8C0A5ED",
+    "school_name": "辅城坳小学",
+    "source_school_id": "496FFFE16D1A5558E053BC09A8C0A5ED",
+    "map_school_name": "平湖街道辅城坳小学（公办，2025年秋季开始整体搬迁至平湖第二实验学校办学）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "84015573",
+    "school_point_bd09": [
+      114.11403,
+      22.701875
+    ],
+    "source_map_marker_bd09": [
+      114.11403,
+      22.701875
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.1024393130103,
+      22.698256124166715
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16D205558E053BC09A8C0A5ED",
+    "school_name": "聚英小学",
+    "source_school_id": "496FFFE16D205558E053BC09A8C0A5ED",
+    "map_school_name": "横岗街道聚英小学（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "深圳市龙岗区横岗街道牛始埔路43号",
+    "school_point_bd09": [
+      114.190021,
+      22.638526
+    ],
+    "source_map_marker_bd09": [
+      114.190021,
+      22.638526
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.1785035967564,
+      22.635637477198618
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16C7D5558E053BC09A8C0A5ED",
+    "school_name": "龙岗区外国语学校",
+    "source_school_id": "496FFFE16C7D5558E053BC09A8C0A5ED",
+    "map_school_name": "外国语学校（公办）(小学部)",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": null,
+    "school_point_bd09": [
+      114.227453,
+      22.705013
+    ],
+    "source_map_marker_bd09": [
+      114.227453,
+      22.705013
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.2160967324307,
+      22.70164191837031
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16C955558E053BC09A8C0A5ED",
+    "school_name": "水晶城小学",
+    "source_school_id": "496FFFE16C955558E053BC09A8C0A5ED",
+    "map_school_name": "园山街道水晶城小学（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": null,
+    "school_point_bd09": [
+      114.231669,
+      22.678749
+    ],
+    "source_map_marker_bd09": [
+      114.231669,
+      22.678749
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.22035761672274,
+      22.675335358864615
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:48b63aa47a8d4bc699170ca18264531e",
+    "school_name": "碧新小学",
+    "source_school_id": "48b63aa47a8d4bc699170ca18264531e",
+    "map_school_name": "宝龙科技城实验学校（集团）碧新小学（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": null,
+    "school_point_bd09": [
+      114.28182,
+      22.69601
+    ],
+    "source_map_marker_bd09": [
+      114.28182,
+      22.69601
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.27046300233013,
+      22.692935442492633
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:b4f7994665414818a2b73f1cd1e552b9",
+    "school_name": "平湖第二实验学校",
+    "source_school_id": "b4f7994665414818a2b73f1cd1e552b9",
+    "map_school_name": "平湖街道第二实验学校（公办）（小学部）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "深圳市龙岗区平湖街道山厦社区老琅路2号",
+    "school_point_bd09": [
+      114.111975,
+      22.71178
+    ],
+    "source_map_marker_bd09": [
+      114.111975,
+      22.71178
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.10037248229213,
+      22.70818121670909
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:e1e7b6362d054630acd689fabfc1eed0",
+    "school_name": "上海外国语大学附属龙岗学校",
+    "source_school_id": "e1e7b6362d054630acd689fabfc1eed0",
+    "map_school_name": "上海外国语大学附属龙岗学校（公办）（小学部）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "1",
+    "school_point_bd09": [
+      114.239195,
+      22.696409
+    ],
+    "source_map_marker_bd09": [
+      114.239195,
+      22.696409
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.22789209667962,
+      22.692921191879805
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:a241a4bce82940c79906fbca2d362f50",
+    "school_name": "深圳市云端学校",
+    "source_school_id": "a241a4bce82940c79906fbca2d362f50",
+    "map_school_name": "深圳市云端学校（公办）（小学部）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": null,
+    "school_point_bd09": [
+      114.085606,
+      22.63002
+    ],
+    "source_map_marker_bd09": [
+      114.085606,
+      22.63002
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.07394096282482,
+      22.62688964867027
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:25b2133f7c5f49cd950c340491e234ca",
+    "school_name": "宝荷学校",
+    "source_school_id": "25b2133f7c5f49cd950c340491e234ca",
+    "map_school_name": "宝龙街道宝荷学校（公办）（小学部）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": null,
+    "school_point_bd09": [
+      114.266364,
+      22.692928
+    ],
+    "source_map_marker_bd09": [
+      114.266364,
+      22.692928
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.25506195088226,
+      22.689594553833437
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16CD95558E053BC09A8C0A5ED",
+    "school_name": "华南师范大学附属乐城小学*",
+    "source_school_id": "496FFFE16CD95558E053BC09A8C0A5ED",
+    "map_school_name": "园山街道华南师范大学附属乐城小学（政府资助）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": null,
+    "school_point_bd09": [
+      114.225995,
+      22.674461
+    ],
+    "source_map_marker_bd09": [
+      114.225995,
+      22.674461
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.21466096956902,
+      22.671123597940905
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16CDA5558E053BC09A8C0A5ED",
+    "school_name": "华南师范大学附属龙岗大运学校*",
+    "source_school_id": "496FFFE16CDA5558E053BC09A8C0A5ED",
+    "map_school_name": "华南师范大学附属龙岗大运学校小学部（政府资助）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "深圳市龙岗区大运新城龙飞大道106号华南师范大学附属龙岗大运学校",
+    "school_point_bd09": [
+      114.227172,
+      22.695522
+    ],
+    "source_map_marker_bd09": [
+      114.227172,
+      22.695522
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.21582202535416,
+      22.692158673197948
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16CE65558E053BC09A8C0A5ED",
+    "school_name": "龙岗区第二外国语学校（集团）木棉湾学校",
+    "source_school_id": "496FFFE16CE65558E053BC09A8C0A5ED",
+    "map_school_name": "第二外国语 学校（集团）木棉湾学校（小学部）（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "深圳市龙岗区布吉街道木棉湾社区育苗路1号",
+    "school_point_bd09": [
+      114.138542,
+      22.604156
+    ],
+    "source_map_marker_bd09": [
+      114.138542,
+      22.604156
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.12699042254414,
+      22.600568120966642
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16CEF5558E053BC09A8C0A5ED",
+    "school_name": "吉祥小学",
+    "source_school_id": "496FFFE16CEF5558E053BC09A8C0A5ED",
+    "map_school_name": "布吉街道吉祥小学（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "龙岗区布吉街道吉政路70号",
+    "school_point_bd09": [
+      114.130625,
+      22.620185
+    ],
+    "source_map_marker_bd09": [
+      114.130625,
+      22.620185
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.11908180487256,
+      22.616531340922286
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16CFA5558E053BC09A8C0A5ED",
+    "school_name": "宝岗小学",
+    "source_school_id": "496FFFE16CFA5558E053BC09A8C0A5ED",
+    "map_school_name": "坂田街道宝岗小学（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "深圳市龙岗区坂田街道居里夫人大道160号",
+    "school_point_bd09": [
+      114.072317,
+      22.660388
+    ],
+    "source_map_marker_bd09": [
+      114.072317,
+      22.660388
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.060646761338,
+      22.65741461077507
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16CFE5558E053BC09A8C0A5ED",
+    "school_name": "同乐主力学校",
+    "source_school_id": "496FFFE16CFE5558E053BC09A8C0A5ED",
+    "map_school_name": "宝龙街道同乐主力学校（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "深圳市龙岗区龙岗街道同心社区阳和路51号",
+    "school_point_bd09": [
+      114.321122,
+      22.723971
+    ],
+    "source_map_marker_bd09": [
+      114.321122,
+      22.723971
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.30969075011596,
+      22.72098779317221
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16D115558E053BC09A8C0A5ED",
+    "school_name": "龙岗区第二实验学校（集团）新生小学",
+    "source_school_id": "496FFFE16D115558E053BC09A8C0A5ED",
+    "map_school_name": "第二实验学校（集团）新生小学（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "深圳市龙岗区龙岗街道新生大道3号",
+    "school_point_bd09": [
+      114.284741,
+      22.746033
+    ],
+    "source_map_marker_bd09": [
+      114.284741,
+      22.746033
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.27338003849627,
+      22.742993283604633
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16D155558E053BC09A8C0A5ED",
+    "school_name": "兰陵学校",
+    "source_school_id": "496FFFE16D155558E053BC09A8C0A5ED",
+    "map_school_name": "坪地街道兰陵学校（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "深圳市龙岗区坪地街道兴华路85号",
+    "school_point_bd09": [
+      114.310104,
+      22.777576
+    ],
+    "source_map_marker_bd09": [
+      114.310104,
+      22.777576
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.29870261340864,
+      22.774691931364412
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16D275558E053BC09A8C0A5ED",
+    "school_name": "沙西小学",
+    "source_school_id": "496FFFE16D275558E053BC09A8C0A5ED",
+    "map_school_name": "南湾街道沙西小学（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "深圳市龙岗区布吉镇南岭村8号",
+    "school_point_bd09": [
+      114.1595,
+      22.618631
+    ],
+    "source_map_marker_bd09": [
+      114.1595,
+      22.618631
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.14793934253456,
+      22.615402899917303
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16D2B5558E053BC09A8C0A5ED",
+    "school_name": "麓城外国语小学*",
+    "source_school_id": "496FFFE16D2B5558E053BC09A8C0A5ED",
+    "map_school_name": "吉华街道麓城外国语小学（政府资助）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "1",
+    "school_point_bd09": [
+      114.108877,
+      22.6297
+    ],
+    "source_map_marker_bd09": [
+      114.108877,
+      22.6297
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.09729207822303,
+      22.626165218182233
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:503fc307639d43b7a2925758ad174ce7",
+    "school_name": "华中师范大学龙岗附属中学（集团）龙园学校",
+    "source_school_id": "503fc307639d43b7a2925758ad174ce7",
+    "map_school_name": "华中师范大学龙岗附属中学（集团）龙园学校（公办）（小学部）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": null,
+    "school_point_bd09": [
+      114.272617,
+      22.747117
+    ],
+    "source_map_marker_bd09": [
+      114.272617,
+      22.747117
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.26130061694451,
+      22.743872516152265
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:59d042e7d2f84e8f987facfaee0954d6",
+    "school_name": "龙岗区教育科学研究院附属第一小学",
+    "source_school_id": "59d042e7d2f84e8f987facfaee0954d6",
+    "map_school_name": "教育科学研究院附属第一小学（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": null,
+    "school_point_bd09": [
+      114.243098,
+      22.749156
+    ],
+    "source_map_marker_bd09": [
+      114.243098,
+      22.749156
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.23181475077608,
+      22.745639736728275
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16C7A5558E053BC09A8C0A5ED",
+    "school_name": "龙岗区外国语学校(集团)星河学校",
+    "source_school_id": "496FFFE16C7A5558E053BC09A8C0A5ED",
+    "map_school_name": "外国语学校（集团）星河学校（公办）（小学部）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": null,
+    "school_point_bd09": [
+      114.236259,
+      22.699034
+    ],
+    "source_map_marker_bd09": [
+      114.236259,
+      22.699034
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.22494449045584,
+      22.6955659036382
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16C7E5558E053BC09A8C0A5ED",
+    "school_name": "龙岗区第二实验学校（集团）新梓学校",
+    "source_school_id": "496FFFE16C7E5558E053BC09A8C0A5ED",
+    "map_school_name": "第二实验学校（集团）新梓学校（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "深圳市龙岗区新生村丰田路",
+    "school_point_bd09": [
+      114.283642,
+      22.752227
+    ],
+    "source_map_marker_bd09": [
+      114.283642,
+      22.752227
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.27229084158955,
+      22.749169419369828
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16C815558E053BC09A8C0A5ED",
+    "school_name": "大康小学",
+    "source_school_id": "496FFFE16C815558E053BC09A8C0A5ED",
+    "map_school_name": "园山街道大康小学（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "龙岗区横岗街道大康小学",
+    "school_point_bd09": [
+      114.238965,
+      22.652971
+    ],
+    "source_map_marker_bd09": [
+      114.238965,
+      22.652971
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.22769367079987,
+      22.649500298718895
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16C8A5558E053BC09A8C0A5ED",
+    "school_name": "花城小学",
+    "source_school_id": "496FFFE16C8A5558E053BC09A8C0A5ED",
+    "map_school_name": "坂田街道花城小学（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": null,
+    "school_point_bd09": [
+      114.062882,
+      22.628505
+    ],
+    "source_map_marker_bd09": [
+      114.062882,
+      22.628505
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.05120728977299,
+      22.625561386783875
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16C925558E053BC09A8C0A5ED",
+    "school_name": "华中师范大学龙岗附属中学(集团)平湖实验学校",
+    "source_school_id": "496FFFE16C925558E053BC09A8C0A5ED",
+    "map_school_name": "华中师范大学龙岗附属中学(集团)平湖实验学校（公办）（小学部）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "深圳市龙岗区平湖街道坪龙大街69号",
+    "school_point_bd09": [
+      114.159227,
+      22.681031
+    ],
+    "source_map_marker_bd09": [
+      114.159227,
+      22.681031
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.14767499817268,
+      22.67778772713283
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:e9923aeba7d44e03a567c71a9eab2d0b",
+    "school_name": "深圳大学附属华南学校",
+    "source_school_id": "e9923aeba7d44e03a567c71a9eab2d0b",
+    "map_school_name": "深圳大学附属华南学校（公办）（小学部）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "平湖街道万福路33号",
+    "school_point_bd09": [
+      114.151099,
+      22.687738
+    ],
+    "source_map_marker_bd09": [
+      114.151099,
+      22.687738
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.13954890591658,
+      22.684334685371812
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:4258ecf9196344eda7729eb884bdcf5a",
+    "school_name": "深圳中学坂田学校（工程名：坂田南九年一贯制学校）",
+    "source_school_id": "4258ecf9196344eda7729eb884bdcf5a",
+    "map_school_name": "深圳中学坂田学校（公办）（小学部）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": null,
+    "school_point_bd09": [
+      114.082764,
+      22.642027
+    ],
+    "source_map_marker_bd09": [
+      114.082764,
+      22.642027
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.071102030368,
+      22.638940450224297
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:a052ff05f59a4e608445a71d5bf86dab",
+    "school_name": "华南师范大学附属平湖学校",
+    "source_school_id": "a052ff05f59a4e608445a71d5bf86dab",
+    "map_school_name": "华南师范大学附属平湖学校（小学部）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": null,
+    "school_point_bd09": [
+      114.168287,
+      22.678512
+    ],
+    "source_map_marker_bd09": [
+      114.168287,
+      22.678512
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.15673116326906,
+      22.67543498940043
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:02f11df45da0485a81366d7754c1c849",
+    "school_name": "深圳外国语学校(集团)龙岗学校",
+    "source_school_id": "02f11df45da0485a81366d7754c1c849",
+    "map_school_name": "深圳外国语学校(集团)龙岗学校（小学部）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": null,
+    "school_point_bd09": [
+      114.109166,
+      22.708685
+    ],
+    "source_map_marker_bd09": [
+      114.109166,
+      22.708685
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.09755507491009,
+      22.705124374707967
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16CDE5558E053BC09A8C0A5ED",
+    "school_name": "振新小学",
+    "source_school_id": "496FFFE16CDE5558E053BC09A8C0A5ED",
+    "map_school_name": "龙岗街道振新小学（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "深圳市龙岗镇龙岗村",
+    "school_point_bd09": [
+      114.275365,
+      22.741019
+    ],
+    "source_map_marker_bd09": [
+      114.275365,
+      22.741019
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.26403330640026,
+      22.737822628147473
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16CE35558E053BC09A8C0A5ED",
+    "school_name": "深圳科学高中龙岗五和学校",
+    "source_school_id": "496FFFE16CE35558E053BC09A8C0A5ED",
+    "map_school_name": "深圳科学高中龙岗五和学校（公办）（小学部）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": null,
+    "school_point_bd09": [
+      114.074164,
+      22.619434
+    ],
+    "source_map_marker_bd09": [
+      114.074164,
+      22.619434
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.0624712650976,
+      22.61644878191524
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16CF65558E053BC09A8C0A5ED",
+    "school_name": "石芽岭学校",
+    "source_school_id": "496FFFE16CF65558E053BC09A8C0A5ED",
+    "map_school_name": "南湾街道石芽岭学校（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": null,
+    "school_point_bd09": [
+      114.140176,
+      22.630565
+    ],
+    "source_map_marker_bd09": [
+      114.140176,
+      22.630565
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.12864487218803,
+      22.626997551404756
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16CF75558E053BC09A8C0A5ED",
+    "school_name": "龙园意境小学",
+    "source_school_id": "496FFFE16CF75558E053BC09A8C0A5ED",
+    "map_school_name": "布吉街道龙园意境小学（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "深圳市龙岗区布吉街道景芬路龙园意境花园内",
+    "school_point_bd09": [
+      114.132482,
+      22.627938
+    ],
+    "source_map_marker_bd09": [
+      114.132482,
+      22.627938
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.12094757228316,
+      22.62429495955882
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16D055558E053BC09A8C0A5ED",
+    "school_name": "深圳北理莫斯科大学附属龙岗园山学校",
+    "source_school_id": "496FFFE16D055558E053BC09A8C0A5ED",
+    "map_school_name": "深圳北理莫斯科大学附属龙岗园山学校（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "深圳市龙岗区园山街道保安社区育才路20号",
+    "school_point_bd09": [
+      114.222891,
+      22.66603
+    ],
+    "source_map_marker_bd09": [
+      114.222891,
+      22.66603
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.21154692976569,
+      22.66274254054824
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16D085558E053BC09A8C0A5ED",
+    "school_name": "龙岗区教育科学研究院附属实验学校（集团）龙西小学",
+    "source_school_id": "496FFFE16D085558E053BC09A8C0A5ED",
+    "map_school_name": "教育科学研究院附属实验学校（集团）龙西小学（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "深圳市龙岗区龙城龙西学园路12号",
+    "school_point_bd09": [
+      114.256159,
+      22.754284
+    ],
+    "source_map_marker_bd09": [
+      114.256159,
+      22.754284
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.24488728644224,
+      22.75081022351347
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16D0C5558E053BC09A8C0A5ED",
+    "school_name": "厚德小学",
+    "source_school_id": "496FFFE16D0C5558E053BC09A8C0A5ED",
+    "map_school_name": "园山街道厚德小学（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "深圳市龙岗区园山街道荷坳路46号",
+    "school_point_bd09": [
+      114.230298,
+      22.687003
+    ],
+    "source_map_marker_bd09": [
+      114.230298,
+      22.687003
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.21897175895128,
+      22.68360212340291
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16D185558E053BC09A8C0A5ED",
+    "school_name": "沙湾小学",
+    "source_school_id": "496FFFE16D185558E053BC09A8C0A5ED",
+    "map_school_name": "南湾街道沙湾小学（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "深圳市龙岗区南湾街道沙湾沙平北路41号",
+    "school_point_bd09": [
+      114.168822,
+      22.613847
+    ],
+    "source_map_marker_bd09": [
+      114.168822,
+      22.613847
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.15725114193401,
+      22.610787416338713
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16D1F5558E053BC09A8C0A5ED",
+    "school_name": "文景小学",
+    "source_school_id": "496FFFE16D1F5558E053BC09A8C0A5ED",
+    "map_school_name": "布吉街道文景小学（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "龙岗区布吉街道政和路6号",
+    "school_point_bd09": [
+      114.133111,
+      22.614015
+    ],
+    "source_map_marker_bd09": [
+      114.133111,
+      22.614015
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.1215642667652,
+      22.610375778115042
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16D2F5558E053BC09A8C0A5ED",
+    "school_name": "深圳未来天成学校（龙岗）（原天成学校）",
+    "source_school_id": "496FFFE16D2F5558E053BC09A8C0A5ED",
+    "map_school_name": "深圳未来天成学校（龙岗）（原天成学校）（公办）（小学部）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "深圳市龙岗区盛龙路10号天成学校",
+    "school_point_bd09": [
+      114.263695,
+      22.733666
+    ],
+    "source_map_marker_bd09": [
+      114.263695,
+      22.733666
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.25239222195893,
+      22.73028157073037
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16C865558E053BC09A8C0A5ED",
+    "school_name": "莲花小学",
+    "source_school_id": "496FFFE16C865558E053BC09A8C0A5ED",
+    "map_school_name": "布吉街道莲花小学（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "深圳市龙岗区布吉街道莲花路怡心南街4号",
+    "school_point_bd09": [
+      114.115381,
+      22.604079
+    ],
+    "source_map_marker_bd09": [
+      114.115381,
+      22.604079
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.10379714493695,
+      22.60046537313991
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16C8B5558E053BC09A8C0A5ED",
+    "school_name": "龙城小学",
+    "source_school_id": "496FFFE16C8B5558E053BC09A8C0A5ED",
+    "map_school_name": "龙城小学（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": null,
+    "school_point_bd09": [
+      114.250758,
+      22.730051
+    ],
+    "source_map_marker_bd09": [
+      114.250758,
+      22.730051
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.2394667474613,
+      22.72654393434883
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:f6df9dbc0bcd4d48982355c4459cf74e",
+    "school_name": "龙岗区第二实验学校（集团）仙田外国语学校",
+    "source_school_id": "f6df9dbc0bcd4d48982355c4459cf74e",
+    "map_school_name": "第二实验学校（集团）仙田外国语学校(公办)（小学部）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "1",
+    "school_point_bd09": [
+      114.279377,
+      22.757215
+    ],
+    "source_map_marker_bd09": [
+      114.279377,
+      22.757215
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.2680457011523,
+      22.75408621942938
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:3dded88438a44d07ae2a55afaff84fe5",
+    "school_name": "清林径实验小学",
+    "source_school_id": "3dded88438a44d07ae2a55afaff84fe5",
+    "map_school_name": "龙岗街道清林径实验小学（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "五联 社区朱古路",
+    "school_point_bd09": [
+      114.222657,
+      22.756957
+    ],
+    "source_map_marker_bd09": [
+      114.222657,
+      22.756957
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.21129957610461,
+      22.753647748572604
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:42f3fdd343ce46f3b000158c854d504f",
+    "school_name": "华中师范大学龙岗附属中学（集团）同心实验学校",
+    "source_school_id": "42f3fdd343ce46f3b000158c854d504f",
+    "map_school_name": "华中师范大学龙岗附属中学（集团）同心实验学校（公办）（小学部）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": null,
+    "school_point_bd09": [
+      114.313252,
+      22.727447
+    ],
+    "source_map_marker_bd09": [
+      114.313252,
+      22.727447
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.30181757298837,
+      22.724551101950006
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:44d24aa4278e4c4fb9a2ff16e8c2761f",
+    "school_name": "龙岗区外国语学校（集团）和美小学",
+    "source_school_id": "44d24aa4278e4c4fb9a2ff16e8c2761f",
+    "map_school_name": "外国语学校（集团）和美小学（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": null,
+    "school_point_bd09": [
+      114.073943,
+      22.631494
+    ],
+    "source_map_marker_bd09": [
+      114.073943,
+      22.631494
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.06226152409428,
+      22.628511010399873
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:b09cf70e03ed4b77b00b3b18a802107e",
+    "school_name": "广东实验中学深圳学校",
+    "source_school_id": "b09cf70e03ed4b77b00b3b18a802107e",
+    "map_school_name": "广东实验中学深圳学校（小学部）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": null,
+    "school_point_bd09": [
+      114.074742,
+      22.674352
+    ],
+    "source_map_marker_bd09": [
+      114.074742,
+      22.674352
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.06306363748594,
+      22.671354511861203
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:a4ac4043711d489fb93e753e80210509",
+    "school_name": "龙岗区教育科学研究院附属实验学校",
+    "source_school_id": "a4ac4043711d489fb93e753e80210509",
+    "map_school_name": "教育科学研究院附属实验学校（小学部）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": null,
+    "school_point_bd09": [
+      114.246188,
+      22.750427
+    ],
+    "source_map_marker_bd09": [
+      114.246188,
+      22.750427
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.23491103529523,
+      22.746907119451052
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16CDC5558E053BC09A8C0A5ED",
+    "school_name": "龙岗区南湾教育集团下李朗小学",
+    "source_school_id": "496FFFE16CDC5558E053BC09A8C0A5ED",
+    "map_school_name": "南湾教育集团下李朗小学（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "龙岗区南湾街道下李朗社区育才路1号",
+    "school_point_bd09": [
+      114.142934,
+      22.64673
+    ],
+    "source_map_marker_bd09": [
+      114.142934,
+      22.64673
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.13141321082689,
+      22.643200497777144
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16CE75558E053BC09A8C0A5ED",
+    "school_name": "水径小学",
+    "source_school_id": "496FFFE16CE75558E053BC09A8C0A5ED",
+    "map_school_name": "吉华街道水径小学（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "深圳市龙岗区吉华街道联水路口",
+    "school_point_bd09": [
+      114.116173,
+      22.626704
+    ],
+    "source_map_marker_bd09": [
+      114.116173,
+      22.626704
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.10460864450629,
+      22.623083179572717
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16CE85558E053BC09A8C0A5ED",
+    "school_name": "宝龙科技城实验学校",
+    "source_school_id": "496FFFE16CE85558E053BC09A8C0A5ED",
+    "map_school_name": "宝龙科技城实验学校（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": null,
+    "school_point_bd09": [
+      114.270349,
+      22.690541
+    ],
+    "source_map_marker_bd09": [
+      114.270349,
+      22.690541
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.25903778880021,
+      22.687272495703432
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16CEC5558E053BC09A8C0A5ED",
+    "school_name": "怡翠实验学校",
+    "source_school_id": "496FFFE16CEC5558E053BC09A8C0A5ED",
+    "map_school_name": "吉华街道怡翠实验学校(公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "深圳市龙岗区布吉镇中海怡翠山庄内",
+    "school_point_bd09": [
+      114.117241,
+      22.632144
+    ],
+    "source_map_marker_bd09": [
+      114.117241,
+      22.632144
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.10568476496184,
+      22.628514256797807
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16CED5558E053BC09A8C0A5ED",
+    "school_name": "雪象小学",
+    "source_school_id": "496FFFE16CED5558E053BC09A8C0A5ED",
+    "map_school_name": "科技城外国语学校(集团)雪象小学（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": null,
+    "school_point_bd09": [
+      114.084294,
+      22.656643
+    ],
+    "source_map_marker_bd09": [
+      114.084294,
+      22.656643
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.0726394597137,
+      22.653531429845163
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+    "school_name": "信义实验小学",
+    "source_school_id": "496FFFE16D0A5558E053BC09A8C0A5ED",
+    "map_school_name": "布吉街道信义实验小学（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": null,
+    "school_point_bd09": [
+      114.130452,
+      22.598345
+    ],
+    "source_map_marker_bd09": [
+      114.130452,
+      22.598345
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.11889640206535,
+      22.594691088471354
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16D0F5558E053BC09A8C0A5ED",
+    "school_name": "龙岗区实验学校",
+    "source_school_id": "496FFFE16D0F5558E053BC09A8C0A5ED",
+    "map_school_name": "实验学校（公办）（小学部）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "龙岗区中心城白湖路1号",
+    "school_point_bd09": [
+      114.236962,
+      22.730066
+    ],
+    "source_map_marker_bd09": [
+      114.236962,
+      22.730066
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.22564580116394,
+      22.72658348154566
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16D1B5558E053BC09A8C0A5ED",
+    "school_name": "梧桐学校",
+    "source_school_id": "496FFFE16D1B5558E053BC09A8C0A5ED",
+    "map_school_name": "横岗街道梧桐学校（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": null,
+    "school_point_bd09": [
+      114.18788,
+      22.645713
+    ],
+    "source_map_marker_bd09": [
+      114.18788,
+      22.645713
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.17636021927655,
+      22.642824951280105
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16D1D5558E053BC09A8C0A5ED",
+    "school_name": "科技城外国语学校",
+    "source_school_id": "496FFFE16D1D5558E053BC09A8C0A5ED",
+    "map_school_name": "科技城外国语学校（公办）（小学部）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": null,
+    "school_point_bd09": [
+      114.063131,
+      22.645032
+    ],
+    "source_map_marker_bd09": [
+      114.063131,
+      22.645032
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.0514685306217,
+      22.642088407939674
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16D2E5558E053BC09A8C0A5ED",
+    "school_name": "横岗中学小学部",
+    "source_school_id": "496FFFE16D2E5558E053BC09A8C0A5ED",
+    "map_school_name": "横岗街道横岗中学小学部（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "深圳市龙岗区横岗街道康乐路25号",
+    "school_point_bd09": [
+      114.191152,
+      22.655339
+    ],
+    "source_map_marker_bd09": [
+      114.191152,
+      22.655339
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.17964503836197,
+      22.65244654667335
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16C915558E053BC09A8C0A5ED",
+    "school_name": "深圳中学龙岗学校",
+    "source_school_id": "496FFFE16C915558E053BC09A8C0A5ED",
+    "map_school_name": "深圳中学龙岗学校（小学部）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": null,
+    "school_point_bd09": [
+      114.245726,
+      22.712631
+    ],
+    "source_map_marker_bd09": [
+      114.245726,
+      22.712631
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.23442686242663,
+      22.7091171917625
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16CA85558E053BC09A8C0A5ED",
+    "school_name": "鹅溪小学",
+    "source_school_id": "496FFFE16CA85558E053BC09A8C0A5ED",
+    "map_school_name": "平湖街道鹅溪小学（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "28213292",
+    "school_point_bd09": [
+      114.158597,
+      22.687975
+    ],
+    "source_map_marker_bd09": [
+      114.158597,
+      22.687975
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.14703811914802,
+      22.684716410722846
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16CB05558E053BC09A8C0A5ED",
+    "school_name": "深圳科学高中龙岗五园小学",
+    "source_school_id": "496FFFE16CB05558E053BC09A8C0A5ED",
+    "map_school_name": "深圳科学高中龙岗五园小学（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "龙岗区坂田街道环城南路1号",
+    "school_point_bd09": [
+      114.076762,
+      22.621337
+    ],
+    "source_map_marker_bd09": [
+      114.076762,
+      22.621337
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.06507280536681,
+      22.61832685756056
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:b7a487243d5d4142b8ad5479202da913",
+    "school_name": "龙城高级中学（教育集团）吉华学校（工程名：水径九年一贯制学校）",
+    "source_school_id": "b7a487243d5d4142b8ad5479202da913",
+    "map_school_name": "龙城高级中学（教育集团）吉华学校（公办）（小学部）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": null,
+    "school_point_bd09": [
+      114.111312,
+      22.622246
+    ],
+    "source_map_marker_bd09": [
+      114.111312,
+      22.622246
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.09972828315654,
+      22.618677990790644
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:da2a63b90b054376b90f7cd970396257",
+    "school_name": "香港中文大学（深圳）附属时进学校（工程名：新坡塘九年一贯制学校）",
+    "source_school_id": "da2a63b90b054376b90f7cd970396257",
+    "map_school_name": "香港中文大学（深圳）附属时进学校（公办）（小学部）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": null,
+    "school_point_bd09": [
+      114.225301,
+      22.661485
+    ],
+    "source_map_marker_bd09": [
+      114.225301,
+      22.661485
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.21397188876038,
+      22.65816215847683
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f",
+    "school_name": "百外世纪小学公办班（民办学校）",
+    "source_school_id": "c5cdd7a032ae4ee2b1224f6c75fc7c2f",
+    "map_school_name": "布吉街道百外世纪小学公办班（民办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": null,
+    "school_point_bd09": [
+      114.133422,
+      22.600782
+    ],
+    "source_map_marker_bd09": [
+      114.133422,
+      22.600782
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.12186874707356,
+      22.597145454798955
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+    "school_name": "龙岗区第二外国语学校（工程名：百鸽笼九年一贯制学校）",
+    "source_school_id": "6b6ba8affd9947a880726ca4122124d4",
+    "map_school_name": "第二外国语学校（公办）（小学部）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": null,
+    "school_point_bd09": [
+      114.137517,
+      22.602475
+    ],
+    "source_map_marker_bd09": [
+      114.137517,
+      22.602475
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.12596499741188,
+      22.598875664661026
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:0c4bca2cfd8548aeb750a7f2d65dddd4",
+    "school_name": "深圳未来双语学校（龙岗）",
+    "source_school_id": "0c4bca2cfd8548aeb750a7f2d65dddd4",
+    "map_school_name": "深圳未来双语学校（龙岗）（小学部）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": null,
+    "school_point_bd09": [
+      114.265147,
+      22.727184
+    ],
+    "source_map_marker_bd09": [
+      114.265147,
+      22.727184
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.25383659407503,
+      22.723821347477724
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16CD65558E053BC09A8C0A5ED",
+    "school_name": "丹竹头小学",
+    "source_school_id": "496FFFE16CD65558E053BC09A8C0A5ED",
+    "map_school_name": "南湾街道丹竹头小学（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "广东省深圳市龙岗区南湾街道沙平南路125号丹竹头小学",
+    "school_point_bd09": [
+      114.16412,
+      22.626434
+    ],
+    "source_map_marker_bd09": [
+      114.16412,
+      22.626434
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.15256263082657,
+      22.62329352237962
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16CE95558E053BC09A8C0A5ED",
+    "school_name": "深圳中学龙岗学校（集团）兰著学校",
+    "source_school_id": "496FFFE16CE95558E053BC09A8C0A5ED",
+    "map_school_name": "深圳中学龙岗学校（集团）兰著学校（公办）（小学部）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": null,
+    "school_point_bd09": [
+      114.244672,
+      22.740713
+    ],
+    "source_map_marker_bd09": [
+      114.244672,
+      22.740713
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.23338352362224,
+      22.737194709513332
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16CEB5558E053BC09A8C0A5ED",
+    "school_name": "甘李学校",
+    "source_school_id": "496FFFE16CEB5558E053BC09A8C0A5ED",
+    "map_school_name": "吉华街道甘李学校（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "深圳市龙岗区吉华街道甘李路4号",
+    "school_point_bd09": [
+      114.118087,
+      22.660524
+    ],
+    "source_map_marker_bd09": [
+      114.118087,
+      22.660524
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.10654412653629,
+      22.656884843201993
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16CFC5558E053BC09A8C0A5ED",
+    "school_name": "龙岗区南湾教育集团南湾学校",
+    "source_school_id": "496FFFE16CFC5558E053BC09A8C0A5ED",
+    "map_school_name": "南湾教育集团南湾学校（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "深圳市龙岗区布澜路6-2号",
+    "school_point_bd09": [
+      114.146906,
+      22.633039
+    ],
+    "source_map_marker_bd09": [
+      114.146906,
+      22.633039
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.13537263446757,
+      22.629573643920047
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16D005558E053BC09A8C0A5ED",
+    "school_name": "平湖外国语学校",
+    "source_school_id": "496FFFE16D005558E053BC09A8C0A5ED",
+    "map_school_name": "平湖街道外国语学校（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "深圳市龙岗区平湖街道新厦大道11号",
+    "school_point_bd09": [
+      114.126246,
+      22.711882
+    ],
+    "source_map_marker_bd09": [
+      114.126246,
+      22.711882
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.1146785893517,
+      22.708194587322254
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16D0D5558E053BC09A8C0A5ED",
+    "school_name": "华中师范大学龙岗附属中学（集团）南联学校",
+    "source_school_id": "496FFFE16D0D5558E053BC09A8C0A5ED",
+    "map_school_name": "华中师范大学龙岗附属中学（集团）南联学校（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "植物园路168号",
+    "school_point_bd09": [
+      114.275298,
+      22.715548
+    ],
+    "source_map_marker_bd09": [
+      114.275298,
+      22.715548
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.26395360456004,
+      22.712354817059342
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16D215558E053BC09A8C0A5ED",
+    "school_name": "阳光小学",
+    "source_school_id": "496FFFE16D215558E053BC09A8C0A5ED",
+    "map_school_name": "吉华街道阳光小学（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "1",
+    "school_point_bd09": [
+      114.120709,
+      22.622535
+    ],
+    "source_map_marker_bd09": [
+      114.120709,
+      22.622535
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.10915230826976,
+      22.618882508309188
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:570454dc28bc4fec90c5149c2a12ea37",
+    "school_name": "悦澜山实验小学",
+    "source_school_id": "570454dc28bc4fec90c5149c2a12ea37",
+    "map_school_name": "悦澜山实验小学（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": null,
+    "school_point_bd09": [
+      114.257994,
+      22.742271
+    ],
+    "source_map_marker_bd09": [
+      114.257994,
+      22.742271
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.24670895781287,
+      22.738816048796885
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16C6B5558E053BC09A8C0A5ED",
+    "school_name": "信德学校",
+    "source_school_id": "496FFFE16C6B5558E053BC09A8C0A5ED",
+    "map_school_name": "平湖街道信德学校（公办）（小学部）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": null,
+    "school_point_bd09": [
+      114.127719,
+      22.697552
+    ],
+    "source_map_marker_bd09": [
+      114.127719,
+      22.697552
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.11616255990299,
+      22.693871622921847
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16C905558E053BC09A8C0A5ED",
+    "school_name": "布吉中心小学",
+    "source_school_id": "496FFFE16C905558E053BC09A8C0A5ED",
+    "map_school_name": "布吉街道中心小学（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "深圳市龙岗区布吉路57号",
+    "school_point_bd09": [
+      114.122564,
+      22.605031
+    ],
+    "source_map_marker_bd09": [
+      114.122564,
+      22.605031
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.1109984554746,
+      22.60137100741316
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16C945558E053BC09A8C0A5ED",
+    "school_name": "西坑小学",
+    "source_school_id": "496FFFE16C945558E053BC09A8C0A5ED",
+    "map_school_name": "园山街道西坑小学（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "深圳市龙岗区园山街道西坑社区教育路25号",
+    "school_point_bd09": [
+      114.229836,
+      22.623149
+    ],
+    "source_map_marker_bd09": [
+      114.229836,
+      22.623149
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.21850971619362,
+      22.61976655257653
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:496FFFE16CAB5558E053BC09A8C0A5ED",
+    "school_name": "香港中文大学（深圳）附属知新学校",
+    "source_school_id": "496FFFE16CAB5558E053BC09A8C0A5ED",
+    "map_school_name": "香港中文大学（深圳）附属知新学校（小学部）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": null,
+    "school_point_bd09": [
+      114.221026,
+      22.717537
+    ],
+    "source_map_marker_bd09": [
+      114.221026,
+      22.717537
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.20963176200762,
+      22.714259145190073
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:e896e7934b2c422bb1eb1a929f6a1f82",
+    "school_name": "深圳科学高中龙岗分校",
+    "source_school_id": "e896e7934b2c422bb1eb1a929f6a1f82",
+    "map_school_name": "深圳科学高中龙岗分校（公办）（小学部）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": null,
+    "school_point_bd09": [
+      114.29821,
+      22.758084
+    ],
+    "source_map_marker_bd09": [
+      114.29821,
+      22.758084
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.28681868898704,
+      22.755195994737416
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:cecf915b0a7d4b038eb60bdd49a068de",
+    "school_name": "坂田实验学校",
+    "source_school_id": "cecf915b0a7d4b038eb60bdd49a068de",
+    "map_school_name": "坂田街道坂田实验学校（公办）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": "1",
+    "school_point_bd09": [
+      114.075524,
+      22.627766
+    ],
+    "source_map_marker_bd09": [
+      114.075524,
+      22.627766
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.06383988090705,
+      22.624768639304833
+    ]
+  },
+  {
+    "school_id": "sz:longgang:school:dbcdd331adff4e2db4cbbb7f95b9e508",
+    "school_name": "华中师范大学龙岗附属中学(集团)崇真学校",
+    "source_school_id": "dbcdd331adff4e2db4cbbb7f95b9e508",
+    "map_school_name": "华中师范大学龙岗附属中学(集团)崇真学校（小学部）",
+    "district": "龙岗区",
+    "stage": "小学",
+    "school_address": null,
+    "school_point_bd09": [
+      114.159535,
+      22.682778
+    ],
+    "source_map_marker_bd09": [
+      114.159535,
+      22.682778
+    ],
+    "point_role": "官方地图标记点，非独立测绘校址",
+    "source_url": "https://zsbm.lggov.cn/visitlggbxyxqdt",
+    "source_archive": "原始资料/龙岗区/public_map_data.json",
+    "campus_derivation": null,
+    "school_point_wgs84": [
+      114.14798080830523,
+      22.67953993719667
+    ]
+  }
+]

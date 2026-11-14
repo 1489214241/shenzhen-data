@@ -1,0 +1,57 @@
+Srivastava, N.; Hinton, G.; Krizhevsky, A.; Sutskever, I.; and        Zhang, Z.; Han, X.; Liu, Z.; Jiang, X.; Sun, M.; and Liu,
+Salakhutdinov, R. 2014. Dropout: A Simple Way to Pre-                 Q. 2019. ERNIE: Enhanced Language Representation with
+vent Neural Networks from Overfitting. Journal of Machine             Informative Entities. In ACL.
+Learning Research 15: 1929–1958.                                      Zheng, H.; Fu, J.; Zha, Z.-J.; and Luo, J. 2019. Learning
+Tang, H.; Cao, Y.; Zhang, Z.; Cao, J.; Fang, F.; Wang, S.;            Deep Bilinear Transformation for Fine-grained Image Repre-
+and Yin, P. 2020a. HIN: Hierarchical Inference Network for            sentation. In NeurIPS.
+Document-Level Relation Extraction. In PAKDD.
+Tang, Y.; Huang, J.; Wang, G.; He, X.; and Zhou, B. 2020b.
+Orthogonal Relation Transforms with Graph Context Model-
+ing for Knowledge Graph Embedding. In ACL.
+Tenney, I.; Das, D.; and Pavlick, E. 2019. BERT Rediscovers
+the Classical NLP Pipeline. In ACL.
+Vaswani, A.; Shazeer, N.; Parmar, N.; Uszkoreit, J.; Jones, L.;
+Gomez, A. N.; Kaiser, Ł.; and Polosukhin, I. 2017. Attention
+is All you Need. In NeurIPS.
+Verga, P.; Strubell, E.; and McCallum, A. 2018. Simulta-
+neously Self-Attending to All Mentions for Full-Abstract
+Biological Relation Extraction. In NAACL-HLT.
+Vig, J.; and Belinkov, Y. 2019. Analyzing the Structure of At-
+tention in a Transformer Language Model. In BlackboxNLP
+workshop.
+Wang, H.; Focke, C.; Sylvester, R.; Mishra, N.; and Wang,
+W. W. J. 2019a. Fine-tune Bert for DocRED with Two-step
+Process. ArXiv abs/1909.11898.
+Wang, H.; Tan, M.; Yu, M.; Chang, S.; Wang, D.; Xu, K.;
+Guo, X.; and Potdar, S. 2019b. Extracting Multiple-Relations
+in One-Pass with Pre-Trained Transformers. In ACL.
+Wang, L.; Cao, Z.; De Melo, G.; and Liu, Z. 2016. Relation
+Classification via Multi-Level Attention CNNs. In ACL.
+Wolf, T.; Debut, L.; Sanh, V.; Chaumond, J.; Delangue, C.;
+Moi, A.; Cistac, P.; Rault, T.; Louf, R.; Funtowicz, M.; et al.
+2019. HuggingFace’s Transformers: State-of-the-art Natural
+Language Processing. ArXiv arXiv–1910.
+Wu, F.; Zhang, T.; Souza, A.; Fifty, C.; Yu, T.; and Wein-
+berger, K. Q. 2019a. Simplifying Graph Convolutional Net-
+works. In ICML.
+Wu, Y.; Luo, R.; Leung, H. C.; Ting, H.-F.; and Lam, T.-W.
+2019b. RENET: A Deep Learning Approach for Extracting
+Gene-Disease Associations from Literature. In RECOMB.
+Yao, Y.; Ye, D.; Li, P.; Han, X.; Lin, Y.; Liu, Z.; Liu, Z.;
+Huang, L.; Zhou, J.; and Sun, M. 2019. DocRED: A Large-
+Scale Document-Level Relation Extraction Dataset. In ACL.
+Ye, D.; Lin, Y.; Du, J.; Liu, Z.; Sun, M.; and Liu, Z. 2020.
+Coreferential Reasoning Learning for Language Representa-
+tion. In EMNLP.
+Zeng, D.; Liu, K.; Lai, S.; Zhou, G.; and Zhao, J. 2014. Rela-
+tion Classification via Convolutional Deep Neural Network.
+In COLING.
+Zhang, Y.; Qi, P.; and Manning, C. D. 2018. Graph Con-
+volution over Pruned Dependency Trees Improves Relation
+Extraction. In EMNLP.
+Zhang, Y.; Zhong, V.; Chen, D.; Angeli, G.; and Manning,
+C. D. 2017. Position-aware Attention and Supervised Data
+Improve Slot Filling. In EMNLP.
+
+
+                                                              14620

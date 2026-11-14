@@ -1,0 +1,20 @@
+{
+  "summary": {
+    "龙华区": {
+      "schools": 71,
+      "changed_school_asts": 0,
+      "withdrawn_composed_positive_pairs": 0,
+      "explicit_named_terms_preserved": true,
+      "new_positive_pairs": 0
+    },
+    "龙岗区": {
+      "schools": 131,
+      "changed_school_asts": 3,
+      "withdrawn_composed_positive_pairs": 6,
+      "explicit_named_terms_preserved": true,
+      "new_positive_pairs": 0
+    }
+  },
+  "adopted": false,
+  "limitation": "Staged semantic repair; withdrawn estimates may retain independent named evidence. Existing frozen training inputs unchanged."
+}

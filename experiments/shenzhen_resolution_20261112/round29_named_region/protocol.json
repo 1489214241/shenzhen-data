@@ -1,0 +1,40 @@
+{
+  "round": 29,
+  "arms": [
+    "round07",
+    "round12"
+  ],
+  "objectives": [
+    "micro_exact",
+    "balanced_exact"
+  ],
+  "labels": [
+    "ensemble",
+    "20261131",
+    "20261132",
+    "20261133",
+    "20261134",
+    "20261135",
+    "20261136",
+    "20261137",
+    "20261138",
+    "20261139",
+    "20261140"
+  ],
+  "primary": "round27/round07/balanced_exact/ensemble",
+  "hypothesis": "Explicit named housing within a complete source region can support another school whose scope contains that same region.",
+  "intervention": "Two mixed-range syntax repairs plus source-named region witnesses; preserve road qualifiers, exclusions and eligibility restrictions.",
+  "population": "All202 source school scopes, all1802 site groups; exact original1761 scored and41 unscored.",
+  "prediction_trigger_used": false,
+  "transitive_expansion": false,
+  "training_steps": 0,
+  "model_probabilities_unchanged": true,
+  "references_unchanged": true,
+  "thresholds_unchanged": true,
+  "target_gold_read": false,
+  "target_polygon_read": false,
+  "complete_school_set": false,
+  "enrollment_eligibility": false,
+  "independent_validation": false,
+  "adopted": false
+}

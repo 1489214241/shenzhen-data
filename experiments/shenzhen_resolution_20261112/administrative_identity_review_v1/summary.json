@@ -1,0 +1,21 @@
+{
+  "coverage": {
+    "龙华区": {
+      "memberships": 54,
+      "old_relations": 79,
+      "reviewed_relations": 83,
+      "added_relations": 4,
+      "added_sites": 2
+    },
+    "龙岗区": {
+      "memberships": 173,
+      "old_relations": 84,
+      "reviewed_relations": 84,
+      "added_relations": 0,
+      "added_sites": 0
+    }
+  },
+  "no_new_model_training": true,
+  "current_registry_used": false,
+  "adopted": false
+}

@@ -1,0 +1,86 @@
+{
+  "round": 3,
+  "date": "2026-11-12",
+  "sources": [
+    "天心区",
+    "芙蓉区",
+    "雨花区",
+    "开福区",
+    "拱墅区",
+    "萧山区",
+    "富阳区",
+    "临安区"
+  ],
+  "targets": [
+    "龙华区",
+    "龙岗区"
+  ],
+  "arms": [
+    "masked_bce",
+    "assume_negative"
+  ],
+  "seeds": [
+    20261131,
+    20261132,
+    20261133,
+    20261134,
+    20261135,
+    20261136,
+    20261137,
+    20261138,
+    20261139,
+    20261140
+  ],
+  "warm_steps": 100,
+  "warm_lr": 0.04,
+  "steps": 40,
+  "lr": 0.003,
+  "reg": 0.01,
+  "width": 32,
+  "chunk": 64,
+  "model": "Native 41/27 feature retrieval logits; per-school log-sum-exp then independent sigmoid, one shared binary bias.",
+  "primary": "masked_bce: source complete sets, target observed-positive estimates, no target unknown negatives",
+  "control": "assume_negative: same model/data/budget; target and any source missing labels become negatives only in this control",
+  "train_weight": "sum BCE over school cells; each property group equal; global weighted average scaled by number of active district batches",
+  "source_validation": "20% spatial cells via fixed SHA256 modulo5; all same-property rows share fold; calibration only, no unseen-city validation claim; no buffer",
+  "source_references": "Independent rule-derived references remain available, including source validation locations; query own property group is masked.",
+  "warm_start": "100 steps on all training districts with linear-only masked/AN objective; reset regularization anchor then 40 nonlinear steps. Same budget for both arms; differs from old target-only singleton warm-start.",
+  "threshold_grid": [
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6,
+    0.65,
+    0.7,
+    0.75,
+    0.8,
+    0.85,
+    0.9
+  ],
+  "threshold_selection": "source validation exact set, then fewer FP, then higher threshold; all-seed ensemble; same selected threshold for seed reports",
+  "prediction": "Independent school membership threshold, fallback argmax if empty; partial positive lower bound retained; source scope implication once; university predicted base only",
+  "target_gold_read": false,
+  "target_cardinality_used": false,
+  "target_negative_rule_estimates_as_supervision": false,
+  "independently_verified_target_support_budget": 0,
+  "independent_validation": false,
+  "adopted": false,
+  "comparison_limit": "Old round02 used 100% source supervision and different single-label objective/warm-start. Matched comparison is masked versus assume-negative; round02 is the existing performance baseline.",
+  "sources_read": [
+    {
+      "url": "https://arxiv.org/html/2106.09708v1",
+      "use": "Sections4.1/4.2/4.3 and author code: complete/partial/unknown label distinction; IU collapses with positive-only data, hence source negatives."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/elijahcole/single-positive-multi-label/main/losses.py",
+      "use": "Reviewed loss_bce, loss_iu, loss_an; sum-over-classes scaling here is documented, not exact reproduction."
+    }
+  ]
+}

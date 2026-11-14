@@ -1,0 +1,33 @@
+{
+  "districts": {
+    "龙华区": {
+      "schools": 71,
+      "witness_clauses": 0,
+      "matched_sites": 0,
+      "school_relations": 0,
+      "changed_asts": 0
+    },
+    "龙岗区": {
+      "schools": 131,
+      "witness_clauses": 11,
+      "matched_sites": 33,
+      "school_relations": 57,
+      "changed_asts": 11
+    }
+  },
+  "target_gold_read": false,
+  "target_polygon_read": false,
+  "model_predictions_read": false,
+  "road_aliases_substituted": false,
+  "unknown_negative_labels": false,
+  "official_pdf_pages_reviewed": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "independent_validation": false,
+  "adopted": false
+}

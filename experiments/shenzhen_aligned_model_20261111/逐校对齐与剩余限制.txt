@@ -1,0 +1,1551 @@
+逐校规则对齐与剩余限制台账（冻结输入；未使用目标评分）
+unknown 是执行状态，不是官方文字缺失。行政边界来自独立 OSM，不是学区面。
+参照是政策规则产生的输入估计；不是额外人工核验标签。学校数按目录校区计。
+
+龙华区
+{'reference_sites_before': 21, 'reference_sites_after': 37, 'school_coverage_before': 12, 'school_coverage_after': 17, 'new_reference_sites': 16, 'withdrawn_reference_sites': 0, 'changed_reference_sets': 0}
+
+1. 龙华区虔贞学校（小学部）
+原文：华昌路以东、华旺路以南、大浪南路以东、石清大道以南、龙澜大道以北范围。
+结构类型：road；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第81行
+
+2. 龙华区教育科学研究院附属外国语学校（小学部）
+原文：民清路以东、东环一路以北、龙华大道以东、清秀路以南范围。
+结构类型：road；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：3；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第63行
+
+3. 龙华区行知学校（小学部）
+原文：茜坑社区，福民社区，丹湖社区福安居委会，九龙山社区，桔塘社区。
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第88行
+无唯一独立行政边界：茜坑社区；社区点仅为代理线索
+无唯一独立行政边界：福民社区；社区点仅为代理线索
+无唯一独立行政边界：丹湖社区福安居委会；社区点仅为代理线索
+无唯一独立行政边界：九龙山社区；社区点仅为代理线索
+无唯一独立行政边界：桔塘社区；社区点仅为代理线索
+
+4. 龙华区清湖小学
+原文：大浪南路以东，龙观路、清龙路、龙华大道、清秀路以北范围。
+结构类型：road；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第67行
+道路几何缺失：龙观路以北
+
+5. 华东师范大学附属深圳龙华学校教育集团未来小学
+原文：福龙大道以东，向荣路以西、民塘路以东、佳民路以西、布龙路以东、人民路以西范围。
+结构类型：road；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第41行
+道路几何缺失：福龙大道以东
+
+6. 龙华区广培小学
+原文：牛湖社区，广培社区，大水田社区。
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第105行
+无唯一独立行政边界：牛湖社区；社区点仅为代理线索
+无唯一独立行政边界：广培社区；社区点仅为代理线索
+无唯一独立行政边界：大水田社区；社区点仅为代理线索
+
+7. 龙华区龙腾学校（小学部）
+原文：金龙路以北、民治大道以西、民乐路以南、龙华大道以西、玉龙路以南范围。
+结构类型：road；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第37行
+
+8. 龙华区第二实验学校教育集团华育小学
+原文：范围一：龙华大道以东、东环一路以南、民清路以西、工业路以北范围。
+范围二：建设西路以东、侨龙路以西、鸿尚路以南、东环一路以南、龙华大道以西、工业路以北范围。
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：6；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第60行
+道路几何缺失：建设西路以东
+
+9. 深圳高级中学（集团）北校区（小学部）
+原文：中梅路以南、民塘路以西、民兴街以南、龙华大道以西、平南铁路以北、福龙大道以东、人民路以东、新区大道以西范围。
+结构类型：road；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第26行
+道路几何缺失：平南铁路以北
+道路几何缺失：福龙大道以东
+
+10. 龙华高级中学教育集团龙华区第三实验学校（小学部）
+原文：新石社区新围居委会、新石社区石凹居委会（新岭路以西、永乐路以北、大浪北路以西、沈海高速以北范围）。
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第78行
+无唯一独立行政边界：新石社区新围居委会；社区点仅为代理线索
+无唯一独立行政边界：新石社区石凹居委会；社区点仅为代理线索
+道路几何缺失：新岭路以西
+道路几何缺失：永乐路以北
+
+11. 龙华区第三外国语学校（小学部）
+原文：丹湖社区，新和社区，四和社区，福民社区悦兴围居委会，珑门。
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：2；名称命中数：2
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第89行
+无唯一独立行政边界：丹湖社区；社区点仅为代理线索
+无唯一独立行政边界：新和社区；社区点仅为代理线索
+无唯一独立行政边界：四和社区；社区点仅为代理线索
+无唯一独立行政边界：福民社区悦兴围居委会；社区点仅为代理线索
+
+12. 龙华区创新实验学校（小学部）
+原文：和平路以东、东环一路以南、鸿尚路以北、侨龙路以东、建设西路以北范围。
+结构类型：road；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第61行
+道路几何缺失：和平路以东
+道路几何缺失：建设西路以北
+
+13. 龙华区第二外国语学校（小学部）
+原文：赖屋山社区居委会、华荣社区谭罗居委会、华荣社区三合居委会、浪口社区居委会（华昌路以西部分）、高峰社区鹊山居委会（龙观大道以东部分）、高峰社区下早居委会（龙观大道以东部分）。
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：3；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第79行
+无唯一独立行政边界：华荣社区谭罗居委会；社区点仅为代理线索
+无唯一独立行政边界：华荣社区三合居委会；社区点仅为代理线索
+无唯一独立行政边界：高峰社区鹊山居委会；社区点仅为代理线索
+无唯一独立行政边界：高峰社区下早居委会；社区点仅为代理线索
+
+14. 龙华区龙华第三小学
+原文：大浪南路以西、东环一路以西、和平路以北范围。
+结构类型：road；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第69行
+道路几何缺失：和平路以北
+
+15. 艺术高中民治学校（小学部）
+原文：福龙大道以东、向荣路以西、民塘路以东、佳民路以西、布龙路以东、人民路以西、工业路以南、建设路以南范围。
+结构类型：road；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第45行
+道路几何缺失：福龙大道以东
+道路几何缺失：建设路以南
+
+16. 深圳外国语学校龙华学校（小学部）
+原文：平南铁路以南、龙华大道以西、玉龙路以北、新区大道以西、白龙路以北、金龙路以西的范围。
+结构类型：road；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第33行
+道路几何缺失：平南铁路以南
+
+17. 龙华区民治中学教育集团民新学校（小学部）
+原文：龙华大道以东、布龙路以南、民治大道以西、通菜路以北范围。
+结构类型：road；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：3；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第19行
+
+18. 龙华区振能学校（小学部）
+原文：松元厦社区，松轩社区。
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：2；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第6行
+无唯一独立行政边界：松元厦社区；社区点仅为代理线索
+无唯一独立行政边界：松轩社区；社区点仅为代理线索
+
+19. 龙华区松和学校（小学部）
+原文：民清路以东、东环一路以北、龙华大道以东、清秀路以南范围。
+结构类型：road；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：3；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第57行
+
+20. 龙华区教育科学研究院附属小学
+原文：新田社区，新源社区，樟坑径社区，樟溪社区。
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第15行
+无唯一独立行政边界：新田社区；社区点仅为代理线索
+无唯一独立行政边界：新源社区；社区点仅为代理线索
+无唯一独立行政边界：樟坑径社区；社区点仅为代理线索
+无唯一独立行政边界：樟溪社区；社区点仅为代理线索
+
+21. 华东师范大学附属深圳龙华学校教育集团（小学部）
+原文：洁玉街以北、民塘路以西、腾龙路以东、建设东路以南的范围。
+结构类型：road；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第39行
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第40行
+
+22. 龙华区鹭湖实验学校（小学部）
+原文：面向观湖街道招生。
+结构类型：admin；目录状态：broad_scope_pending
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第13行
+无唯一独立行政边界：观湖街道；社区点仅为代理线索
+
+23. 龙华区同胜学校（小学部）
+原文：上横朗社区居委会、同胜社区居委会、水围社区居委会（华旺路以北部分）。
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：6；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第75行
+
+24. 深圳中学龙华学校（小学部）
+原文：工业路以南、油松路以西、布龙路以北、人民路以东范围。
+结构类型：road；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第27行
+
+25. 龙华区观湖外国语学校（小学部）
+原文：面向观湖街道招生。
+结构类型：admin；目录状态：broad_scope_pending
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第14行
+无唯一独立行政边界：观湖街道；社区点仅为代理线索
+
+26. 龙华高级中学教育集团大浪校区（小学部）
+原文：赖屋山社区居委会、华荣社区谭罗居委会、华荣社区三合居委会、浪口社区居委会（华昌路以西部分）、高峰社区鹊山居委会（龙观大道以东部分）、高峰社区下早居委会（龙观大道以东部分）。
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：3；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第80行
+无唯一独立行政边界：华荣社区谭罗居委会；社区点仅为代理线索
+无唯一独立行政边界：华荣社区三合居委会；社区点仅为代理线索
+无唯一独立行政边界：高峰社区鹊山居委会；社区点仅为代理线索
+无唯一独立行政边界：高峰社区下早居委会；社区点仅为代理线索
+
+27. 龙华区龙华中学弘毅校区（小学部）
+原文：高峰社区鹊山居委会（龙观大道以西部分）、高峰社区下早居委会（龙观大道以西部分）、高峰社区上早居委会、高峰社区赤岭头居委会、陶元社区居委会、龙胜社区居委会。
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：3；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第74行
+无唯一独立行政边界：高峰社区鹊山居委会；社区点仅为代理线索
+无唯一独立行政边界：高峰社区下早居委会；社区点仅为代理线索
+无唯一独立行政边界：高峰社区上早居委会；社区点仅为代理线索
+无唯一独立行政边界：高峰社区赤岭头居委会；社区点仅为代理线索
+无唯一独立行政边界：陶元社区居委会；社区点仅为代理线索
+无唯一独立行政边界：龙胜社区居委会；社区点仅为代理线索
+
+28. 龙华区桂花学校
+原文：桂花社区，桂香社区。
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第107行
+无唯一独立行政边界：桂花社区；社区点仅为代理线索
+无唯一独立行政边界：桂香社区；社区点仅为代理线索
+
+29. 龙华区丹堤实验学校（小学部）
+原文：梅观高速以东、民乐路以南的范围。
+结构类型：road；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第34行
+道路几何缺失：梅观高速以东
+
+30. 龙华区书香小学
+原文：金龙路以东、新区大道以东、白石龙路以南、民治大道、梅观高速以西的范围。
+结构类型：road；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第49行
+道路几何缺失：梅观高速以西
+
+31. 龙华区博雅实验学校（小学部）
+原文：上横朗社区居委会、同胜社区居委会、水围社区居委会（华旺路以北部分）。
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：6；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第76行
+
+32. 龙华区民治中学教育集团小学部
+原文：人民路以东、布龙路以南、龙华大道以西、民兴街以北、民塘路以东范围。
+结构类型：road；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第20行
+
+33. 龙华区外国语学校教育集团新和校区（小学部）
+原文：丹湖社区丹湖居委会，新和社区，四和社区。
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第94行
+无唯一独立行政边界：丹湖社区丹湖居委会；社区点仅为代理线索
+无唯一独立行政边界：新和社区；社区点仅为代理线索
+无唯一独立行政边界：四和社区；社区点仅为代理线索
+
+34. 龙华区和平实验小学
+原文：龙平社区。
+结构类型：membership；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：1；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第85行
+无唯一独立行政边界：龙平社区；社区点仅为代理线索
+
+35. 龙华区新华中学教育集团龙为小学
+原文：范围一：东环二路以东，龙观路、清泉路以南，和平路以西范围。
+范围二：东环一路以东，龙观路、东环二路以南，建设东路以北范围。
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第55行
+道路几何缺失：龙观路以南
+道路几何缺失：和平路以西
+
+36. 龙华区高峰学校（小学部）
+原文：高峰社区鹊山居委会（龙观大道以西部分）、高峰社区下早居委会（龙观大道以西部分）、高峰社区上早居委会、高峰社区赤岭头居委会、陶元社区居委会、龙胜社区居委会。
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：3；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第72行
+无唯一独立行政边界：高峰社区鹊山居委会；社区点仅为代理线索
+无唯一独立行政边界：高峰社区下早居委会；社区点仅为代理线索
+无唯一独立行政边界：高峰社区上早居委会；社区点仅为代理线索
+无唯一独立行政边界：高峰社区赤岭头居委会；社区点仅为代理线索
+无唯一独立行政边界：陶元社区居委会；社区点仅为代理线索
+无唯一独立行政边界：龙胜社区居委会；社区点仅为代理线索
+
+37. 龙华区潜龙学校（小学部）
+原文：龙华大道以东、平南铁路以南、民治大道以西、民乐路以北的范围。
+结构类型：road；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第29行
+道路几何缺失：平南铁路以南
+
+38. 龙华区外国语学校教育集团观湖校区（小学部）
+原文：大和社区，润城社区，鹭湖社区。
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第8行
+无唯一独立行政边界：大和社区；社区点仅为代理线索
+无唯一独立行政边界：润城社区；社区点仅为代理线索
+无唯一独立行政边界：鹭湖社区；社区点仅为代理线索
+
+39. 龙华区外国语学校教育集团高新校区（小学部）
+原文：大和社区，润城社区，鹭湖社区。
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第10行
+无唯一独立行政边界：大和社区；社区点仅为代理线索
+无唯一独立行政边界：润城社区；社区点仅为代理线索
+无唯一独立行政边界：鹭湖社区；社区点仅为代理线索
+
+40. 龙华区实验学校教育集团（小学部）
+原文：福龙路以东、向荣路以南、佳民路以东、布龙路以南、人民路以西、民塘路以西、中梅路以北、新区大道以东范围。
+结构类型：road；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第25行
+
+41. 龙华区行知外国语学校（小学部）（原行知中学）
+原文：库坑社区，大富社区，黎光社区。
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第98行
+无唯一独立行政边界：库坑社区；社区点仅为代理线索
+无唯一独立行政边界：大富社区；社区点仅为代理线索
+无唯一独立行政边界：黎光社区；社区点仅为代理线索
+
+42. 龙华区第二实验学校教育集团华美校区（小学部）
+原文：建设西路以东、侨龙路以西、鸿尚路以南、东环一路以南、龙华大道以西、工业路以北范围。
+结构类型：road；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第59行
+道路几何缺失：建设西路以东
+
+43. 龙华区新华中学教育集团（小学部）
+原文：范围一：东环二路以南、龙华大道以西、东环一路以北、建设路以东范围。
+范围二：和平路以东、东环一路以南、鸿尚路以北、侨龙路以东、建设西路以北范围。
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第54行
+道路几何缺失：建设路以东
+道路几何缺失：和平路以东
+道路几何缺失：建设西路以北
+
+44. 龙华区行知实验小学
+原文：民治大道以东、平南铁路以南、梅观高速以西、岭南路以北的范围。
+结构类型：road；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第48行
+道路几何缺失：平南铁路以南
+道路几何缺失：梅观高速以西
+
+45. 龙华区华南实验学校（小学部）
+原文：平南铁路以南、梅观高速以东、民乐路以北的范围。
+结构类型：road；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第35行
+道路几何缺失：平南铁路以南
+道路几何缺失：梅观高速以东
+
+46. 格致中学民治校区（小学部）
+原文：金龙路以北、民治大道以西、民乐路以南、龙华大道以西、玉龙路以南范围。
+结构类型：road；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第22行
+
+47. 龙华区大浪实验学校（小学部）
+原文：大浪社区下岭排居委会居委会、大浪社区上岭排居委会、大浪社区黄麻埔居委会、大浪社区罗屋围居委会（石清大道以北部分）、浪口社区居委会（石清大道以北部分）。
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第77行
+无唯一独立行政边界：大浪社区下岭排居委会；社区点仅为代理线索
+无唯一独立行政边界：大浪社区上岭排居委会；社区点仅为代理线索
+无唯一独立行政边界：大浪社区黄麻埔居委会；社区点仅为代理线索
+无唯一独立行政边界：大浪社区罗屋围居委会；社区点仅为代理线索
+
+48. 龙华区观澜第二中学教育集团观澜第二小学
+原文：丹湖社区丹湖居委会，新和社区，四和社区。
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第95行
+无唯一独立行政边界：丹湖社区丹湖居委会；社区点仅为代理线索
+无唯一独立行政边界：新和社区；社区点仅为代理线索
+无唯一独立行政边界：四和社区；社区点仅为代理线索
+
+49. 龙华区民治小学
+原文：平南铁路以北、龙华大道以东、民旺路以南、民福路以东、通菜街以东、民安路以南、民治大道以东、布龙路以南的范围。
+结构类型：road；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第47行
+道路几何缺失：平南铁路以北
+道路几何缺失：通菜街以东
+
+50. 龙华区碧澜外国语小学
+原文：库坑社区，大富社区，黎光社区。
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第104行
+无唯一独立行政边界：库坑社区；社区点仅为代理线索
+无唯一独立行政边界：大富社区；社区点仅为代理线索
+无唯一独立行政边界：黎光社区；社区点仅为代理线索
+
+51. 龙华区福城实验学校（小学部）
+原文：茜坑社区，福民社区，丹湖社区福安居委会，桔塘社区，九龙山社区。
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第91行
+无唯一独立行政边界：茜坑社区；社区点仅为代理线索
+无唯一独立行政边界：福民社区；社区点仅为代理线索
+无唯一独立行政边界：丹湖社区福安居委会；社区点仅为代理线索
+无唯一独立行政边界：桔塘社区；社区点仅为代理线索
+无唯一独立行政边界：九龙山社区；社区点仅为代理线索
+
+52. 龙华区教育科学研究院附属学校（小学部）
+原文：丹湖社区福安居委会，福民社区悦兴围居委会，珑门
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：2；名称命中数：2
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第86行
+无唯一独立行政边界：丹湖社区福安居委会；社区点仅为代理线索
+无唯一独立行政边界：福民社区悦兴围居委会；社区点仅为代理线索
+
+53. 红山中学民治校区（小学部）
+原文：平南铁路以南、梅观大道（现珠三角环线高速）以东。
+结构类型：road；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第23行
+道路几何缺失：平南铁路以南
+
+54. 龙华区观湖实验学校（小学部）
+原文：大和社区，润城社区，鹭湖社区，樟坑径社区，樟溪社区环观南路以南部分。
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第12行
+无唯一独立行政边界：大和社区；社区点仅为代理线索
+无唯一独立行政边界：润城社区；社区点仅为代理线索
+无唯一独立行政边界：鹭湖社区；社区点仅为代理线索
+无唯一独立行政边界：樟坑径社区；社区点仅为代理线索
+无唯一独立行政边界：樟溪社区；社区点仅为代理线索
+
+55. 龙华区行知小学
+原文：工业路以南、油松路以西、布龙路以北、人民路以东范围。
+结构类型：road；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第46行
+
+56. 龙华区龙华第二小学
+原文：东环一路以东，龙观路、东环二路以南，建设东路以北范围。
+结构类型：road；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第68行
+道路几何缺失：龙观路以南
+
+57. 龙华区观澜第二中学教育集团龙澜学校（小学部）
+原文：章阁社区，大水坑社区，桔塘社区，兴富社区、九龙山社区。
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：2；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第92行
+无唯一独立行政边界：章阁社区；社区点仅为代理线索
+无唯一独立行政边界：大水坑社区；社区点仅为代理线索
+无唯一独立行政边界：桔塘社区；社区点仅为代理线索
+无唯一独立行政边界：兴富社区；社区点仅为代理线索
+无唯一独立行政边界：九龙山社区；社区点仅为代理线索
+
+58. 龙华区外国语学校教育集团福城校区（小学部）
+原文：丹湖社区丹湖居委会，新和社区，四和社区。
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第93行
+无唯一独立行政边界：丹湖社区丹湖居委会；社区点仅为代理线索
+无唯一独立行政边界：新和社区；社区点仅为代理线索
+无唯一独立行政边界：四和社区；社区点仅为代理线索
+
+59. 龙华区第二实验学校教育集团华仁校区（小学部）
+原文：建设西路以东、侨龙路以西、鸿尚路以南、东环一路以南、龙华大道以西、工业路以北范围。
+结构类型：road；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第58行
+道路几何缺失：建设西路以东
+
+60. 龙华区鹭湖外国语小学
+原文：大和社区，润城社区，鹭湖社区。
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第16行
+无唯一独立行政边界：大和社区；社区点仅为代理线索
+无唯一独立行政边界：润城社区；社区点仅为代理线索
+无唯一独立行政边界：鹭湖社区；社区点仅为代理线索
+
+61. 龙华区玉龙学校（小学部）
+原文：平南铁路以南、龙华大道以西、玉龙路以北、新区大道以西、白龙路以北、金龙路以西的范围。
+结构类型：road；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第31行
+道路几何缺失：平南铁路以南
+
+62. 龙华区观澜实验学校（小学部）
+原文：君子布社区，新田社区，新源社区，樟坑径社区，樟溪社区。
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第102行
+无唯一独立行政边界：君子布社区；社区点仅为代理线索
+无唯一独立行政边界：新田社区；社区点仅为代理线索
+无唯一独立行政边界：新源社区；社区点仅为代理线索
+无唯一独立行政边界：樟坑径社区；社区点仅为代理线索
+无唯一独立行政边界：樟溪社区；社区点仅为代理线索
+
+63. 龙华区德风小学
+原文：君子布社区。
+结构类型：membership；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第106行
+无唯一独立行政边界：君子布社区；社区点仅为代理线索
+
+64. 龙华区观澜中心学校（小学部）
+原文：新澜社区，观城社区。
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第103行
+无唯一独立行政边界：新澜社区；社区点仅为代理线索
+无唯一独立行政边界：观城社区；社区点仅为代理线索
+
+65. 龙华区龙华中心小学
+原文：大浪南路以西、东环一路以西、和平路以北范围。
+结构类型：road；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第66行
+道路几何缺失：和平路以北
+
+66. 龙华区龙胜实验学校（小学部）
+原文：龙平社区。
+结构类型：membership；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：1；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第84行
+无唯一独立行政边界：龙平社区；社区点仅为代理线索
+
+67. 龙华区教育科学研究院附属实验学校（小学部）
+原文：龙华大道以东、民兴街以南、民福路以西、民旺路以北范围，含世纪春城小区。
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：6；名称命中数：6
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第43行
+
+68. 龙华区龙飞小学
+原文：岭南路以南、民治大道以东、梅观高速以西的范围。
+结构类型：road；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第50行
+道路几何缺失：梅观高速以西
+
+69. 龙华区清泉外国语学校（小学部）
+原文：清泉路以东，龙观路、清龙路以南，龙华大道以西，东环二路以东，和平路以南范围。
+结构类型：road；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第65行
+道路几何缺失：龙观路以南
+道路几何缺失：和平路以南
+
+70. 龙华区华盛学校（小学部）
+原文：华昌路以东、华旺路以南、大浪南路以东、石清大道以南、龙澜大道以北范围。
+结构类型：road；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第82行
+
+71. 龙华区教育科学研究院第二附属学校（小学部）
+原文：君子布社区、新田社区、新源社区、樟溪社区环观南路以北部分。
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.szlhq.gov.cn/attachment/1/1720/1720520/12826919.xlsx Sheet1 第100行
+无唯一独立行政边界：君子布社区；社区点仅为代理线索
+无唯一独立行政边界：新田社区；社区点仅为代理线索
+无唯一独立行政边界：新源社区；社区点仅为代理线索
+无唯一独立行政边界：樟溪社区；社区点仅为代理线索
+
+龙岗区
+{'reference_sites_before': 113, 'reference_sites_after': 303, 'school_coverage_before': 39, 'school_coverage_after': 63, 'new_reference_sites': 190, 'withdrawn_reference_sites': 0, 'changed_reference_sets': 12}
+
+1. 扬美实验学校
+原文：贝尔路以南—坂雪岗大道以东—布龙路以北（不含中海日辉台及深圳实验学校坂田校区招生片区）
+结构类型：minus；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第11页
+
+2. 凤凰山小学
+原文：平湖社区（由铁路、富安大道、平湖大街、良白路围合的熙璟城及富民工业区等片区除外）、九号院馆、坤宜福苑
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：2；名称命中数：2
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第12页
+无唯一独立行政边界：平湖社区；社区点仅为代理线索
+未完整执行：由铁路、富安大道、平湖大街、良白路围合的熙璟城及富民工业区等片区；原因：qualified_ring_requires_scoped_parse
+
+3. 龙岗中心学校
+原文：摩尔城、聚龙苑、德沁苑、翠竹村、建新村、创富时代，华兴苑、庆丰楼、市区新村、沁园、一城风景(颐景峰苑）、怡龙枫景、巫屋村、东一村、东二村、东三村、三和村、运河蓝湾家园、满京华喜悦里华庭、海航国兴花园、富基置地、恒裕珑城
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：6；名称命中数：6
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第13页
+
+4. 乐淮实验学校
+原文：年丰社区、四方埔社区、坪东社区、龙岗大道以南与同心路以东、湖田路（黄沙河）以西
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第14页
+无唯一独立行政边界：年丰社区；社区点仅为代理线索
+无唯一独立行政边界：四方埔社区；社区点仅为代理线索
+无唯一独立行政边界：坪东社区；社区点仅为代理线索
+未完整执行：湖田路(黄沙河)以西；原因：unsupported_spatial_or_identity_qualifier
+
+5. 育贤小学
+原文：龙东社区、龙新社区（爱南路以西居民小组）、风临四季、鸿景春天、东鸿雅居、金汐府
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：3；名称命中数：3
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第14页
+无唯一独立行政边界：龙东社区；社区点仅为代理线索
+无唯一独立行政边界：龙新社区；社区点仅为代理线索
+
+6. 龙岗区外国语学校(集团)爱联小学
+原文：1.龙翔大道、黄阁路、龙岗大道、怡翠路围成区域（雅庭名苑、龙城华府、海逸雅居、星河时代花园除外）；2.新联社区、嶂背社区及龙岗大道、怡翠路、龙岗河围成区域。
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第9页
+围合未唯一执行：龙翔大道、黄阁路、龙岗大道、怡翠路；ring_missing_or_ambiguous
+未完整执行：新联社区、嶂背社区及龙岗大道、怡翠路、龙岗河围成区域；原因：mixed_ring_requires_clause_segmentation
+
+7. 龙岗区外国语学校(集团)云和学校
+原文：万科城小区、中海日辉台小区、联发天境雅居
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：6；名称命中数：6
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第11页
+
+8. 深圳实验学校坂田校区
+原文：上品雅园、万科金色半山、佳兆业悦峰、旺塘上段小区、金竹小区、荔枝苑、风清林苑、和成金竹家园、信城缙华府
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：5；名称命中数：5
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第11页
+
+9. 六约学校
+原文：深坑、龙塘、埔厦居民小组、六约新村、六约南社区、塘坑社区、锦冠华城、新亚洲广场、雅景苑、六联园艺场、湛宝信义广场、瑞泽佳园、梧桐花园、振业城（一至五期）、和悦居、中海怡美山庄、天颂雅苑、东城中心花园、地铁锦上花园、恒地悦山湖、正大时代华庭
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：12；名称命中数：11
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第12页
+无唯一独立行政边界：埔厦居民小组；社区点仅为代理线索
+无唯一独立行政边界：六约南社区；社区点仅为代理线索
+无唯一独立行政边界：塘坑社区；社区点仅为代理线索
+
+10. 龙岗区第二外国语学校（集团）可园学校
+原文：可园花园
+结构类型：named；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第9页
+
+11. 深圳大学附属坂田学校
+原文：佳兆业城市广场小区、呈祥花园、象角塘居民小组所辖地域（即东至规划6号路，南至稼先路，北至环城路，西至坂雪岗大道）
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：3；名称命中数：3
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第11页
+未完整执行：象角塘居民小组所辖地域；原因：unsupported_spatial_or_identity_qualifier
+道路几何缺失：规划6号路以西
+
+12. 龙岗区南湾教育集团康桥外国语小学
+原文：宝岭社区的桂芳园（1—6期）、和通花园、泰雅园、中兆花园、龙泉别墅，南岭社区的金龙豪庭、岭南苑、宝岭花园，康乐社区的康桥花园、紫郡、左庭右院、怡乐花园、丹翠欣苑。
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：15；名称命中数：15
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第11页
+
+13. 守真小学
+原文：佳兆业一、二、三期（即君汇公馆、金御雅园、金御佳园）以及新南社区中由平龙东路、铁路、守珍街、平湖大街围合的区域
+结构类型：unknown；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第12页
+未完整执行：佳兆业一、二、三期（即君汇公馆、金御雅园、金御佳园）以及新南社区中由平龙东路、铁路、守珍街、平湖大街围合的区域；原因：mixed_ring_requires_clause_segmentation
+
+14. 深圳市高级中学龙岗学校
+原文：宝龙社区比宝二路以东、同乐社区
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第13页
+无唯一独立行政边界：宝龙社区；社区点仅为代理线索
+道路几何缺失：比宝二路以东
+无唯一独立行政边界：同乐社区；社区点仅为代理线索
+
+15. 龙城高级中学（教育集团）龙城创新学校
+原文：南至龙平西路、东至万科翰邻城、西和北至龙城街道行政区域界线。
+结构类型：and；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第9页
+道路几何缺失：万科翰邻城以西
+
+16. 横岗外国语学校
+原文：恒心路—水官高速—武深高速—红棉路围合区域
+结构类型：ring；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第12页
+围合未唯一执行：恒心路、水官高速、武深高速、红棉路；ring_missing_or_ambiguous
+
+17. 龙岗区宝龙实验学校（工程名：南约九年一贯制学校）
+原文：宝龙社区宝坪路（比宝二路）以西片区，及宝荷路—积谷田路—南约河（水二支流）—沙荷路围合区域
+结构类型：unknown；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第14页
+未完整执行：宝龙社区宝坪路（比宝二路）以西片区，及宝荷路—积谷田路—南约河（水二支流）—沙荷路围合区域；原因：mixed_ring_requires_clause_segmentation
+
+18. 东兴外国语学校
+原文：坪西社区、高桥社区
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第14页
+无唯一独立行政边界：坪西社区；社区点仅为代理线索
+无唯一独立行政边界：高桥社区；社区点仅为代理线索
+
+19. 吉华实验学校
+原文：吉华街道水官高速以南、布龙路以北、广深铁路以西区域
+结构类型：and；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第10页
+道路几何缺失：广深铁路以西
+
+20. 龙岗区外国语学校(集团)行知学校
+原文：北至龙岗大道、东至向银路、西和南至龙岗街道行政区域界线
+结构类型：and；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：8；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第13页
+
+21. 龙岭学校公办班(民办学校)
+原文：包含布吉街道和吉华街道部分地段，含一村、大靓、细靓、大陂头、国都花园、宝龙大厦、佳兆业壹都汇、长龙花园、长发楼、水晶花园、长龙（1-7区）、石龙坑、三村、美杜兰华庭、德兴城、龙岭山庄、东心岭、文博宫、荣华楼的深户生
+结构类型：conditional；目录状态：population_condition_pending
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第10页
+未完整执行：包含布吉街道和吉华街道部分地段，含一村、大靓、细靓、大陂头、国都花园、宝龙大厦、佳兆业壹都汇、长龙花园、长发楼、水晶花园、长龙（1-7区）、石龙坑、三村、美杜兰华庭、德兴城、龙岭山庄、东心岭、文博宫、荣华楼的深户生；原因：population_or_integrated_qualification_requires_facts
+
+22. 德兴小学
+原文：宝丽路（自粤宝路宝丽路口起——西环路德福花园）以南片区（含德兴花园、钱排村、马安山、宝丽花园、泽润华庭、粤宝花园）、德福花园、半山道1号
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：6；名称命中数：6
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第10页
+未完整执行：宝丽路(自粤宝路宝丽路口起——西环路德福花园)以南片区；原因：unsupported_spatial_or_identity_qualifier
+
+23. 龙岗区科创实验学校（集团）四联小学
+原文：四联社区、卓越城市中心花园、隆盛花园、华侨西村、康乐五区
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：3；名称命中数：3
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第12页
+无唯一独立行政边界：四联社区；社区点仅为代理线索
+
+24. 龙岗区外国语学校(集团)新亚洲学校
+原文：新亚洲花园、公园大地、俪景鸿都、鸿基花园、鸿进花园、东都花园、龙翔花园、余岭山庄、吉祥来花园、风临国际
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：18；名称命中数：18
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第9页
+
+25. 坂田小学
+原文：贝尔路以南—五和大道以东—布龙路以北—坂雪岗大道以西
+结构类型：road；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：9；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第11页
+
+26. 天誉实验学校*
+原文：万科天誉花园
+结构类型：named；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第9页
+
+27. 南京师范大学附属龙岗学校
+原文：万科麓城、中海怡翠社区、丽湖社区、三联社区部分区域（布龙路以北、广深铁路以西区域）。
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：3；名称命中数：3
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第10页
+无唯一独立行政边界：中海怡翠社区；社区点仅为代理线索
+无唯一独立行政边界：丽湖社区；社区点仅为代理线索
+未完整执行：三联社区部分区域；原因：unsupported_spatial_or_identity_qualifier
+道路几何缺失：广深铁路以西
+
+28. 香港中文大学（深圳）附属道远学校
+原文：清林路、如意路、黄阁路及盐龙大道围合范围内的住宅区域：黄阁坑村、大围村和麻沙村地段、中海康城、睿智华庭、体育新城安置小区（天昊华庭）、龙红格社区、黄阁翠苑、嘉欣园、嘉亿爵悦、京基御景中央、佳兆业未来城、泰瑞府、美域蓝湾，及香港中文大学（深圳）。（注：两校实行一体化办学，依实际情况统筹开班。）
+结构类型：conditional；目录状态：integrated_school_pending
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第9页
+未完整执行：清林路、如意路、黄阁路及盐龙大道围合范围内的住宅区域：黄阁坑村、大围村和麻沙村地段、中海康城、睿智华庭、体育新城安置小区（天昊华庭）、龙红格社区、黄阁翠苑、嘉欣园、嘉亿爵悦、京基御景中央、佳兆业未来城、泰瑞府、美域蓝湾，及香港中文大学（深圳）。（注：两校实行一体化办学，依实际情况统筹开班。）；原因：population_or_integrated_qualification_requires_facts
+
+29. 龙岗区科创实验学校（集团）清林小学
+原文：吉祥路、龙平西路、龙城大道、龙福路围成区域。
+结构类型：ring；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第9页
+围合未唯一执行：吉祥路、龙平西路、龙城大道、龙福路；independent_boundary_geometry_missing
+
+30. 龙岗区科创实验学校（集团）平安里学校
+原文：留学生创业园、天健现代城、香林玫瑰、和兴花园(三、四期)、白灰围社区、君悦龙庭、东方沁园、美利达新村、水蓝湾、爱地花园、徽王府、吉祥里花园、龙平紫园（龙城一号）、御景蓝湾公馆、黄阁社区清林路以北
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：10；名称命中数：10
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第9页
+无唯一独立行政边界：白灰围社区；社区点仅为代理线索
+未完整执行：龙平紫园(龙城一号)；原因：unresolved_parenthetical_condition
+无唯一独立行政边界：黄阁社区；社区点仅为代理线索
+
+31. 文理学校
+原文：1.吉祥小学、文景小学招生范围；2.龙珠社区；3.中兴路-铁西路-吉华路围合区域。
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：25；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第10页
+无唯一独立行政边界：龙珠社区；社区点仅为代理线索
+围合未唯一执行：中兴路、铁西路、吉华路；ring_missing_or_ambiguous
+
+32. 龙城高级中学（教育集团）宝龙外国语学校
+原文：宝龙社区
+结构类型：membership；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第13页
+无唯一独立行政边界：宝龙社区；社区点仅为代理线索
+
+33. 立雪小学
+原文：新雪社区、象角塘社区（稼先路以北，不含深圳大学附属坂田学校小学招生片区）
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：1；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第11页
+无唯一独立行政边界：新雪社区；社区点仅为代理线索
+无唯一独立行政边界：象角塘社区；社区点仅为代理线索
+
+34. 龙岗区信义外国语学校（原盛义九年一贯制学校）
+原文：北至红棉路，东北至广达路、广宁路和广安路，东南至龙岗大道，西南至园山街道区域界线
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第12页
+未完整执行：东北至广达路；原因：unsupported_spatial_or_identity_qualifier
+未完整执行：东南至龙岗大道；原因：unsupported_spatial_or_identity_qualifier
+
+35. 南约小学
+原文：南约社区、南联社区（南通道以南片区）
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第14页
+无唯一独立行政边界：南约社区；社区点仅为代理线索
+无唯一独立行政边界：南联社区；社区点仅为代理线索
+道路几何缺失：南通道以南
+
+36. 千林山小学
+原文：五联社区（不含朱古石、将军帽、鸿威的森林、清林半山）
+结构类型：minus；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第13页
+无唯一独立行政边界：五联社区；社区点仅为代理线索
+
+37. 坪地中心小学
+原文：1.龙岗大道以南，同心路以西，长美岭以北，惠盐高速以西；2.龙岗大道以北，发展路以西，兴华路以南，教育中路以东；3.龙岗大道以北，香元排路以西，兴华路以南，新园路往龙岗大道方向的延长线以东。
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第14页
+未完整执行：长美岭以北；原因：unsupported_spatial_or_identity_qualifier
+道路几何缺失：教育中路以东
+道路几何缺失：香元排路以西
+未完整执行：新园路往龙岗大道方向的延长线以东；原因：unsupported_spatial_or_identity_qualifier
+
+38. 华中师范大学龙岗附属中学（集团）平湖中心学校
+原文：新南社区（平湖佳兆业花园一、二、三期以及由平龙东路、铁路、守珍街、平湖大街围合的区域除外）、凤凰社区（九号院馆除外）
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：1；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第12页
+无唯一独立行政边界：新南社区；社区点仅为代理线索
+未完整执行：平湖佳兆业花园一、二、三期以及由平龙东路、铁路、守珍街、平湖大街围合的区域；原因：mixed_ring_requires_clause_segmentation
+无唯一独立行政边界：凤凰社区；社区点仅为代理线索
+
+39. 贤义外国语学校
+原文：国展社区、罗岗社区、金排社区。
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：5；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第9页
+无唯一独立行政边界：国展社区；社区点仅为代理线索
+无唯一独立行政边界：罗岗社区；社区点仅为代理线索
+无唯一独立行政边界：金排社区；社区点仅为代理线索
+
+40. 南湾实验小学
+原文：1.与石芽岭学校共享区域：和谐家园、银领公馆、特发香阅四季、阅景花园、尚峰花园、健康花城；2.与南湾学校共享区域：桂芳园1-6期、和通花园、中兆花园、泰雅园、龙泉别墅。
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：13；名称命中数：13
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第12页
+
+41. 龙岗区外国语学校(集团)致美学校
+原文：1.龙城公园东南方向、黄阁路、龙翔大道、怡翠路围成区域（区外国语学校招生地段除外）；2.龙翔大道、黄阁路、龙岗大道、怡翠路围成区域（星河时代花园除外）。
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第9页
+未完整执行：龙城公园东南方向、黄阁路、龙翔大道、怡翠路围成区域；原因：mixed_ring_requires_clause_segmentation
+未完整执行：区外国语学校；原因：school_reference_identity_unresolved
+围合未唯一执行：龙翔大道、黄阁路、龙岗大道、怡翠路；ring_missing_or_ambiguous
+
+42. 六联小学
+原文：六联社区
+结构类型：membership；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第14页
+无唯一独立行政边界：六联社区；社区点仅为代理线索
+
+43. 深圳中学龙岗学校（集团）依山郡小学
+原文：招商依山郡、平安里家园（壹锦园）、长江花园、万科翰邻城、麓园、回龙雅苑。
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：4；名称命中数：4
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第9页
+
+44. 白坭坑小学
+原文：白坭坑社区
+结构类型：membership；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第12页
+无唯一独立行政边界：白坭坑社区；社区点仅为代理线索
+
+45. 安良小学
+原文：安良社区
+结构类型：membership；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第13页
+无唯一独立行政边界：安良社区；社区点仅为代理线索
+
+46. 华南师范大学附属龙岗雅宝小学
+原文：南坑社区（含星河银湖谷、星光之约、家和花园）
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：3；名称命中数：2
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第11页
+无唯一独立行政边界：南坑社区；社区点仅为代理线索
+
+47. 沙塘布学校
+原文：樟树布社区（布沙路以北）、大族河山、沙塘布社区、万科公园里
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：4；名称命中数：4
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第11页
+无唯一独立行政边界：樟树布社区；社区点仅为代理线索
+无唯一独立行政边界：沙塘布社区；社区点仅为代理线索
+
+48. 龙岗区科创实验学校（集团）横岗中心学校
+原文：松柏社区、横岗社区（不含华侨西村）、马五、马六、华侨新村社区、翠湖山庄、联建楼、志健广场、康乐花园、职工新村、悦心园、卓越弥敦道名苑
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：3；名称命中数：3
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第12页
+无唯一独立行政边界：松柏社区；社区点仅为代理线索
+无唯一独立行政边界：横岗社区；社区点仅为代理线索
+无唯一独立行政边界：华侨新村社区；社区点仅为代理线索
+
+49. 盛平小学
+原文：盛平社区（兰著学校招生地段除外）
+结构类型：minus；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第9页
+无唯一独立行政边界：盛平社区；社区点仅为代理线索
+
+50. 南岭小学
+原文：南岭社区（除南湾学校和沙西小学招生范围外），南龙社区的南岭花园、阳光翠园、水山缘、南威中心、锦绣山庄、一半山
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：4；名称命中数：4
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第11页
+无唯一独立行政边界：南岭社区；社区点仅为代理线索
+
+51. 辅城坳小学
+原文：辅城坳社区（不含信德学校招生片区）、顺明园。注：从2025年秋季开始，该校整体搬迁至平湖第二实验学校办学。
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第12页
+无唯一独立行政边界：辅城坳社区；社区点仅为代理线索
+
+52. 聚英小学
+原文：和悦居
+结构类型：named；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第12页
+
+53. 龙岗区外国语学校
+原文：奥林华府、阳光天健城、城市立方花园（绿景大公馆）、中森•双子座、星龙园
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：3；名称命中数：3
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第9页
+未完整执行：城市立方花园(绿景大公馆)；原因：unresolved_parenthetical_condition
+
+54. 水晶城小学
+原文：银荷社区、星河智荟
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：2；名称命中数：1
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第13页
+无唯一独立行政边界：银荷社区；社区点仅为代理线索
+
+55. 碧新小学
+原文：南约社区、南联社区（南通道以南片区）
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第14页
+无唯一独立行政边界：南约社区；社区点仅为代理线索
+无唯一独立行政边界：南联社区；社区点仅为代理线索
+道路几何缺失：南通道以南
+
+56. 平湖第二实验学校
+原文：平大路、清平高速、平龙西路、杉坑内环路、惠华路、中环大道围合区域（包括融悦山居、金穗花园、南油花园等）
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：2；名称命中数：2
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第12页
+围合未唯一执行：平大路、清平高速、平龙西路、杉坑内环路、惠华路、中环大道；ring_missing_or_ambiguous
+
+57. 上海外国语大学附属龙岗学校
+原文：1.新联社区、嶂背社区；2.龙岗大道、怡翠路、龙岗河围成区域。
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：4；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第9页
+无唯一独立行政边界：新联社区；社区点仅为代理线索
+无唯一独立行政边界：嶂背社区；社区点仅为代理线索
+围合未唯一执行：龙岗大道、怡翠路、龙岗河；ring_missing_or_ambiguous
+
+58. 深圳市云端学校
+原文：五和大道以东—布龙路以南—永香路以北—坂雪岗大道以西（含珠江旭景佳园、富豪花园、十二橡树庄园、和成世纪、德润荣君府、大族云峰、荷棠里等）、马安堂社区（含诺德中央道、华晖瑞禧、儒骏城立方、碧桂园荣汇、恒大都会广场、深汇大厦等）
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：13；名称命中数：12
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第11页
+无唯一独立行政边界：马安堂社区；社区点仅为代理线索
+
+59. 宝荷学校
+原文：宝龙社区比宝二路以西、宝荷路—积谷田路—南约河（水二支流）—沙荷路围合区域
+结构类型：unknown；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第14页
+未完整执行：宝龙社区比宝二路以西、宝荷路—积谷田路—南约河（水二支流）—沙荷路围合区域；原因：mixed_ring_requires_clause_segmentation
+
+60. 华南师范大学附属乐城小学*
+原文：荷康花园、雍悦华府、乐宸花园
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第13页
+
+61. 华南师范大学附属龙岗大运学校*
+原文：颐安都会中央、大学城片区（深圳信息职业技术大学、深圳北理莫斯科大学）、深铁阅云境
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：5；名称命中数：5
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第9页
+未完整执行：大学城片区(深圳信息职业技术大学、深圳北理莫斯科大学)；原因：unresolved_parenthetical_condition
+
+62. 龙岗区第二外国语学校（集团）木棉湾学校
+原文：龙珠社区、木棉湾社区、大芬社区[龙岗大道以北区域（蝴蝶堡、桔子坑、大芬新村）除外；含：新都汇、超群大厦、大都汇、大芬艺术大厦、大芬油画苑、翡翠星光园（又名80后街）、龙威花园（龙威豪庭）、桂芳园（7-8期）、兴和苑、沃尔玛购物广场、盈翠家园、中翠花园、中房怡芬花园、可园花园、龙岗大道1号（佳兆业新都汇家园）、新都豪庭等]
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：15；名称命中数：11
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第9页
+无唯一独立行政边界：龙珠社区；社区点仅为代理线索
+无唯一独立行政边界：木棉湾社区；社区点仅为代理线索
+无唯一独立行政边界：大芬社区；社区点仅为代理线索
+未完整执行：龙岗大道以北区域(蝴蝶堡、桔子坑、大芬新村)；原因：unresolved_parenthetical_condition
+未完整执行：翡翠星光园(又名80后街)；原因：unresolved_parenthetical_condition
+
+63. 吉祥小学
+原文：1.龙岗大道李朗路口往西—吉政路口、龙岗大道李朗路口往北—布澜路东西干道路口往西—布龙路片区：①蝴蝶堡、大芬新村、桔子坑、东方半岛、半岛苑；②中心花园、鸿灏豪苑、诚信华庭、诚宇大厦；2.东西干道—布龙路—布龙路铁路桥往南沿铁路往南—中兴桥往东—中兴路以北区域，含：文景社区：金运花园、金运家园、金运路、储运路、杓麻岭、百和苑、富丽新村、华昱花园、世纪华厦、大世纪、文雅豪庭、鸿景豪苑、灏景明苑、豪展苑、怡和园、教育新村、福永楼、怡馨苑、新利苑、吉祥别墅、杰座；3.茂业社区：含康达尔花园、信和花园、爱琴居、汇福花园、万山花园、友联花园、名城国际广场、茂业城、怡康家园、知春理花园；4、南三社区（锦绣新村、三村除外）
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：25；名称命中数：25
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第10页
+未完整执行：龙岗大道李朗路口往西—吉政路口；原因：unsupported_spatial_or_identity_qualifier
+未完整执行：龙岗大道李朗路口往北—布澜路东西干道路口往西—布龙路片区；原因：unsupported_spatial_or_identity_qualifier
+未完整执行：东西干道—布龙路—布龙路铁路桥往南沿铁路往南—中兴桥往东—中兴路以北区域；原因：turning_route_requires_segment_geometry
+无唯一独立行政边界：南三社区；社区点仅为代理线索
+
+64. 宝岗小学
+原文：岗头社区
+结构类型：membership；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第11页
+无唯一独立行政边界：岗头社区；社区点仅为代理线索
+
+65. 同乐主力学校
+原文：同乐社区、同德社区、同心社区（不含华中师范大学龙岗附属中学（集团）同心实验学校招生片区）
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第13页
+无唯一独立行政边界：同乐社区；社区点仅为代理线索
+无唯一独立行政边界：同德社区；社区点仅为代理线索
+无唯一独立行政边界：同心社区；社区点仅为代理线索
+
+66. 龙岗区第二实验学校（集团）新生小学
+原文：新生社区（不含水岸新都）、龙岗社区（只含利民市场、洪围、梨一、梨园）、龙岗墟社区（龙岗街道中心小学招生地段除外）。
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第13页
+无唯一独立行政边界：新生社区；社区点仅为代理线索
+无唯一独立行政边界：龙岗墟社区；社区点仅为代理线索
+未完整执行：龙岗街道中心小学；原因：school_reference_identity_unresolved
+
+67. 兰陵学校
+原文：富坪路以西；山塘尾及其以东、教育路以西的兴华路两侧非坪西地块；文明路以北（文明路往东延长至坪地大酒店、龙岗大道和富坪路交界处）的非坪西社区地块
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第14页
+道路几何缺失：富坪路以西
+未完整执行：山塘尾及其以东；原因：unsupported_spatial_or_identity_qualifier
+未完整执行：教育路以西的兴华路两侧非坪西地块；原因：unsupported_spatial_or_identity_qualifier
+未完整执行：文明路以北(文明路往东延长至坪地大酒店、龙岗大道和富坪路交界处)的非坪西社区地块；原因：unsupported_spatial_or_identity_qualifier
+
+68. 沙西小学
+原文：吉厦社区、南新社区的南和新村、玉岭花园、普强花园、新塘西，宝岭社区的祥云苑、颂雅苑、南景豪廷、黄金坑，南岭社区的富景大厦、阳光雅苑、富源居。大坑上村、南和花园、百门前工业区、南景豪苑
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：9；名称命中数：8
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第11页
+无唯一独立行政边界：吉厦社区；社区点仅为代理线索
+
+69. 麓城外国语小学*
+原文：万科麓城、中海怡翠社区、丽湖社区。
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：3；名称命中数：3
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第11页
+无唯一独立行政边界：中海怡翠社区；社区点仅为代理线索
+无唯一独立行政边界：丽湖社区；社区点仅为代理线索
+
+70. 华中师范大学龙岗附属中学（集团）龙园学校
+原文：龙园大观、杨梅岗
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第13页
+
+71. 龙岗区教育科学研究院附属第一小学
+原文：五联社区、龙西社区
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第13页
+无唯一独立行政边界：五联社区；社区点仅为代理线索
+无唯一独立行政边界：龙西社区；社区点仅为代理线索
+
+72. 龙岗区外国语学校(集团)星河学校
+原文：星河时代花园
+结构类型：named；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第9页
+
+73. 龙岗区第二实验学校（集团）新梓学校
+原文：水岸新都、锦城星苑、新城花园、传麒尚林花园、翠林苑、君华天第、君华时代、桑泰龙樾府、新霖荟邑、颐翠名庭、颐璟名庭、颐峰名庭、学校附近及新城路两侧住户等。
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：11；名称命中数：11
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第13页
+未完整执行：学校附近及新城路两侧住户等；原因：unsupported_spatial_or_identity_qualifier
+
+74. 大康小学
+原文：大康社区
+结构类型：membership；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第13页
+无唯一独立行政边界：大康社区；社区点仅为代理线索
+
+75. 花城小学
+原文：四季花城小区
+结构类型：named；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第11页
+
+76. 华中师范大学龙岗附属中学(集团)平湖实验学校
+原文：鹅公岭社区（不含华南师范大学附属平湖学校招生片区）、良安田社区以及平湖社区中由铁路、富安大道、平湖大街、良白路围合的片区（即熙璟城及富民工业区等区域）。
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第12页
+无唯一独立行政边界：鹅公岭社区；社区点仅为代理线索
+未完整执行：良白路围合的片区；原因：qualified_ring_requires_scoped_parse
+
+77. 深圳大学附属华南学校
+原文：平湖社区
+结构类型：membership；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第12页
+无唯一独立行政边界：平湖社区；社区点仅为代理线索
+
+78. 深圳中学坂田学校（工程名：坂田南九年一贯制学校）
+原文：坂田街道与吉华街道交界线、吉华路、坂雪岗大道、布龙路围合区域
+结构类型：ring；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第11页
+围合未唯一执行：坂田街道与吉华街道交界线、吉华路、坂雪岗大道、布龙路；independent_boundary_geometry_missing
+
+79. 华南师范大学附属平湖学校
+原文：天鹅湖畔花园
+结构类型：named；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第12页
+
+80. 深圳外国语学校(集团)龙岗学校
+原文：平湖第二实验学校和辅城坳小学的招生范围
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：2；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第12页
+
+81. 振新小学
+原文：龙岗社区（不含杨梅岗、龙园大观）、平南社区（九州家园、榭丽花园、东方明珠、东方瑞景苑）、远洋新干线（此楼盘为振新小学、南联学校共享招生地段）
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：6；名称命中数：6
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第13页
+无唯一独立行政边界：龙岗社区；社区点仅为代理线索
+
+82. 深圳科学高中龙岗五和学校
+原文：北至永香路，西至永甘路，东至坂雪岗大道，南至五和社区南端（含中海月朗苑、阳光第五季、万科第五园四期）
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：3；名称命中数：3
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第11页
+道路几何缺失：五和社区南端以北
+
+83. 石芽岭学校
+原文：1.和谐家园、阅景花园、大龙山物流园、岭宏健康家园、尚峰、银领公馆、特发香阅四季；2.承翰来座山（布吉街道）。
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：3；名称命中数：3
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第11页
+未完整执行：承翰来座山(布吉街道)；原因：unresolved_parenthetical_condition
+
+84. 龙园意境小学
+原文：1.东方半岛社区（不含半岛苑、东方半岛花园），含以下花园：龙园意境华府、中海怡瑞山居、慢城（包括一、二、三期，不含来座山）、华浩源（景园）、万隆苑、龙基新村、依山别苑、观山大卫华庭；2.三联村（广深铁路以东部分区域）：含祺润家园、润祥家园、嘉隆苑、塘园新村、松园新村、长庆小时代
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：3；名称命中数：3
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第10页
+无唯一独立行政边界：东方半岛社区；社区点仅为代理线索
+道路几何缺失：广深铁路以东
+
+85. 深圳北理莫斯科大学附属龙岗园山学校
+原文：保安社区（不含马五和马六）、228工业区、星河智荟、卓弘星辰花园等
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：1；名称命中数：1
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第12页
+无唯一独立行政边界：保安社区；社区点仅为代理线索
+
+86. 龙岗区教育科学研究院附属实验学校（集团）龙西小学
+原文：龙西社区
+结构类型：membership；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第13页
+无唯一独立行政边界：龙西社区；社区点仅为代理线索
+
+87. 厚德小学
+原文：荷坳社区(不含颐安都会中央三期)
+结构类型：minus；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第13页
+无唯一独立行政边界：荷坳社区；社区点仅为代理线索
+
+88. 沙湾小学
+原文：沙湾社区，厦村社区，樟树布社区（布沙路以南），南新社区的金橘苑和鸿润豪苑
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第11页
+无唯一独立行政边界：沙湾社区；社区点仅为代理线索
+无唯一独立行政边界：厦村社区；社区点仅为代理线索
+无唯一独立行政边界：樟树布社区；社区点仅为代理线索
+
+89. 文景小学
+原文：1.龙岗大道李朗路口往西—吉政路口、龙岗大道李朗路口往北—布澜路东西干道路口往西—布龙路片区：①蝴蝶堡、大芬新村、桔子坑、东方半岛、半岛苑；②中心花园、鸿灏豪苑、诚信华庭、诚宇大厦；2.东西干道—布龙路—布龙路铁路桥往南沿铁路往南—中兴桥往东—中兴路以北区域，含：文景社区：金运花园、金运家园、金运路、储运路、杓麻岭、百和苑、富丽新村、华昱花园、世纪华厦、大世纪、文雅豪庭、鸿景豪苑、灏景明苑、豪展苑、怡和园、教育新村、福永楼、怡馨苑、新利苑、吉祥别墅、杰座；3.茂业社区：含康达尔花园、信和花园、爱琴居、汇福花园、万山花园、友联花园、名城国际广场、茂业城、怡康家园、知春理花园；4、南三社区（锦绣新村、三村除外）
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：25；名称命中数：25
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第10页
+未完整执行：龙岗大道李朗路口往西—吉政路口；原因：unsupported_spatial_or_identity_qualifier
+未完整执行：龙岗大道李朗路口往北—布澜路东西干道路口往西—布龙路片区；原因：unsupported_spatial_or_identity_qualifier
+未完整执行：东西干道—布龙路—布龙路铁路桥往南沿铁路往南—中兴桥往东—中兴路以北区域；原因：turning_route_requires_segment_geometry
+无唯一独立行政边界：南三社区；社区点仅为代理线索
+
+90. 深圳未来天成学校（龙岗）（原天成学校）
+原文：盛龙花园、万象天成、富康苑、远洋新天地
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：3；名称命中数：3
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第9页
+
+91. 莲花小学
+原文：一村的百花一路和横向北街到西环路中段片区，盘龙村，龙岭山庄、东心岭、荣华楼的非深户生、半山道1号
+结构类型：conditional；目录状态：population_condition_pending
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第10页
+未完整执行：一村的百花一路和横向北街到西环路中段片区，盘龙村，龙岭山庄、东心岭、荣华楼的非深户生、半山道1号；原因：population_or_integrated_qualification_requires_facts
+
+92. 龙城小学
+原文：吉祥路、龙福路、龙城大道、龙翔大道围成区域。
+结构类型：ring；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第9页
+围合未唯一执行：吉祥路、龙福路、龙城大道、龙翔大道；independent_boundary_geometry_missing
+
+93. 龙岗区第二实验学校（集团）仙田外国语学校
+原文：新生社区
+结构类型：membership；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第13页
+无唯一独立行政边界：新生社区；社区点仅为代理线索
+
+94. 清林径实验小学
+原文：五联社区
+结构类型：membership；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第13页
+无唯一独立行政边界：五联社区；社区点仅为代理线索
+
+95. 华中师范大学龙岗附属中学（集团）同心实验学校
+原文：龙新社区（爱南路以东居民小组）、中骏蓝湾翠岭花园、中骏四季阳光、恒裕嘉城花园、中信龙盛广场、中骏云景华府、阳光新都荟花园
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：4；名称命中数：4
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第13页
+无唯一独立行政边界：龙新社区；社区点仅为代理线索
+
+96. 龙岗区外国语学校（集团）和美小学
+原文：五和大道以东—布龙路以南—永香路以北—坂雪岗大道以西围成区域（含珠江旭景佳园、富豪花园、十二橡树庄园、和成世纪、德润荣君府、大族云峰、荷棠里）。该招生范围与坂田实验学校共享。
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：8；名称命中数：8
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第11页
+
+97. 广东实验中学深圳学校
+原文：五和大道—环城北路—坂澜大道—沈海高速围合区域。
+结构类型：ring；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第11页
+围合未唯一执行：五和大道、环城北路、坂澜大道、沈海高速；independent_boundary_geometry_missing
+
+98. 龙岗区教育科学研究院附属实验学校
+原文：五联社区、龙西社区
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第13页
+无唯一独立行政边界：五联社区；社区点仅为代理线索
+无唯一独立行政边界：龙西社区；社区点仅为代理线索
+
+99. 龙岗区南湾教育集团下李朗小学
+原文：下李朗社区、宝盛路以北
+结构类型：and；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第11页
+无唯一独立行政边界：下李朗社区；社区点仅为代理线索
+道路几何缺失：宝盛路以北
+
+100. 水径小学
+原文：水径社区，翠湖社区，三联社区，[大靓、细靓、大陂头、石龙坑、长龙（1—5区）、德兴城、美杜兰华庭、三村、文博宫]的非深户生、海心汇福园、尚水天成、中南明珠香悦
+结构类型：conditional；目录状态：population_condition_pending
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第11页
+未完整执行：水径社区，翠湖社区，三联社区，[大靓、细靓、大陂头、石龙坑、长龙（1—5区）、德兴城、美杜兰华庭、三村、文博宫]的非深户生、海心汇福园、尚水天成、中南明珠香悦；原因：population_or_integrated_qualification_requires_facts
+
+101. 宝龙科技城实验学校
+原文：宝龙社区范围内比宝二路以西住宅（含峦山谷一期、峦山谷二期、金地名峰、宝荷欣苑等楼盘），卓弘高尔夫、仁恒峦山美地
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：3；名称命中数：3
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第13页
+无唯一独立行政边界：宝龙社区；社区点仅为代理线索
+道路几何缺失：比宝二路以西
+
+102. 怡翠实验学校
+原文：中海怡翠社区、丽湖社区、三联社区（不包含广深铁路以东及布龙路以南区域）、万科麓城。
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：3；名称命中数：3
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第10页
+无唯一独立行政边界：中海怡翠社区；社区点仅为代理线索
+无唯一独立行政边界：丽湖社区；社区点仅为代理线索
+无唯一独立行政边界：三联社区；社区点仅为代理线索
+道路几何缺失：广深铁路以东
+
+103. 雪象小学
+原文：新雪社区、象角塘社区（稼先路以北，不含深圳大学附属坂田学校小学招生片区）
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：1；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第11页
+无唯一独立行政边界：新雪社区；社区点仅为代理线索
+无唯一独立行政边界：象角塘社区；社区点仅为代理线索
+
+104. 信义实验小学
+原文：国展社区、罗岗社区、金排社区。
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：5；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第9页
+无唯一独立行政边界：国展社区；社区点仅为代理线索
+无唯一独立行政边界：罗岗社区；社区点仅为代理线索
+无唯一独立行政边界：金排社区；社区点仅为代理线索
+
+105. 龙岗区实验学校
+原文：爱心路、龙平西路、吉祥路、清林路围成区域
+结构类型：ring；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：26；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第9页
+
+106. 梧桐学校
+原文：深坑居民小组、六约新村、梧桐花园、振业城、中海大山地、信义锦绣花园、中海怡美山庄、乐清小区、泉井湖、腾昌花园、天颂雅苑、瑞泽佳园、地铁锦上花园、东城中心花园、和悦居、翠湖山庄、联建楼、恒地悦山湖、正大时代华庭
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：14；名称命中数：14
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第12页
+无唯一独立行政边界：深坑居民小组；社区点仅为代理线索
+
+107. 科技城外国语学校
+原文：信义嘉御山小区、大发埔社区
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：3；名称命中数：2
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第11页
+无唯一独立行政边界：大发埔社区；社区点仅为代理线索
+
+108. 横岗中学小学部
+原文：中海怡美山庄、天颂雅苑、恒地悦山湖
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：2；名称命中数：2
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第12页
+
+109. 深圳中学龙岗学校
+原文：龙翔大道、龙岗大道、怡翠路、吉祥路围成的区域（不含新亚洲学校招生范围中的龙翔花园、余岭山庄、吉祥来花园）
+结构类型：minus；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第9页
+
+110. 鹅溪小学
+原文：鹅公岭社区（不含华南师范大学附属平湖学校招生片区）、良安田社区以及平湖社区中由铁路、富安大道、平湖大街、良白路围合的片区（即熙璟城及富民工业区等区域）。
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第12页
+无唯一独立行政边界：鹅公岭社区；社区点仅为代理线索
+未完整执行：良白路围合的片区；原因：qualified_ring_requires_scoped_parse
+
+111. 深圳科学高中龙岗五园小学
+原文：五园社区(除万科第五园四期外)
+结构类型：minus；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第11页
+无唯一独立行政边界：五园社区；社区点仅为代理线索
+
+112. 龙城高级中学（教育集团）吉华学校（工程名：水径九年一贯制学校）
+原文：吉华街道布龙路西南区域
+结构类型：and；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第10页
+未完整执行：布龙路西南区域；原因：unsupported_spatial_or_identity_qualifier
+
+113. 香港中文大学（深圳）附属时进学校（工程名：新坡塘九年一贯制学校）
+原文：龙岗大道、梧桐山河（园山段）、惠盐路、龙岗大道、广安路—广宁路—广达路、红棉路、南坪快速围合区域
+结构类型：ring；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第13页
+围合未唯一执行：龙岗大道、梧桐山河(园山段)、惠盐路、龙岗大道、广安路、广宁路、广达路、红棉路、南坪快速；independent_boundary_geometry_missing
+
+114. 百外世纪小学公办班（民办学校）
+原文：国展社区、罗岗社区、金排社区
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：5；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第10页
+无唯一独立行政边界：国展社区；社区点仅为代理线索
+无唯一独立行政边界：罗岗社区；社区点仅为代理线索
+无唯一独立行政边界：金排社区；社区点仅为代理线索
+
+115. 龙岗区第二外国语学校（工程名：百鸽笼九年一贯制学校）
+原文：布吉街道龙岗大道东南区域
+结构类型：and；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第10页
+未完整执行：龙岗大道东南区域；原因：unsupported_spatial_or_identity_qualifier
+
+116. 深圳未来双语学校（龙岗）
+原文：龙岗大道、龙岗河、梅园路、罗瑞合南街、龙岗大道、植物园路、银翠路、向银路围合区域
+结构类型：ring；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第13页
+围合未唯一执行：龙岗大道、龙岗河、梅园路、罗瑞合南街、龙岗大道、植物园路、银翠路、向银路；independent_boundary_geometry_missing
+
+117. 丹竹头小学
+原文：丹竹头社区（包括阳基.春天里）、丹平社区、英郡年华
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第11页
+无唯一独立行政边界：丹竹头社区；社区点仅为代理线索
+无唯一独立行政边界：丹平社区；社区点仅为代理线索
+
+118. 深圳中学龙岗学校（集团）兰著学校
+原文：爱心路、龙平西路、龙城大道、盐龙大道围成的区域（含中央悦城、阅山华府、深业紫麟山花园、荔枝园、华业玫瑰郡、宝能悦澜山、同创九著、万科翰邻城、长江花园、全盛紫云庭、全盛紫悦龙庭、阅山公馆、天集雅苑、万科金域学府、华侨城东岸雅居等）
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：11；名称命中数：11
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第9页
+围合未唯一执行：爱心路、龙平西路、龙城大道、盐龙大道；independent_boundary_geometry_missing
+
+119. 甘李学校
+原文：上李朗社区（包括：金达豪、上李朗统建楼）、甘坑新村社区
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：1；名称命中数：1
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第10页
+无唯一独立行政边界：上李朗社区；社区点仅为代理线索
+无唯一独立行政边界：甘坑新村社区；社区点仅为代理线索
+
+120. 龙岗区南湾教育集团南湾学校
+原文：宝岭社区的桂芳园（1—6期）、和通花园、泰雅园、中兆花园、龙泉别墅，南岭社区的金龙豪庭、岭南苑、宝岭花园，康乐社区的康桥花园、紫郡、左庭右院、怡乐花园、丹翠欣苑。
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：15；名称命中数：15
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第11页
+
+121. 平湖外国语学校
+原文：力昌社区、山厦社区（不含辅城坳小学和平湖第二实验学校小学招生片区）、昊龙华庭、东都雅苑、方直星云里
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：2；名称命中数：2
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第12页
+无唯一独立行政边界：力昌社区；社区点仅为代理线索
+无唯一独立行政边界：山厦社区；社区点仅为代理线索
+
+122. 华中师范大学龙岗附属中学（集团）南联学校
+原文：南联社区（南通道以北的居民小组、竹湾村、长海花园、龙富花园、叠翠新峰、鹏达花园、锦龙名苑、远洋新干线、旭源瑞景轩、旭源怡景轩、仙岭居、城南雅筑、金地龙城中央、公园花半里、南联公馆、合正方洲、和昌拾里华府、和昌拾里悦府、领峰杰筑）
+结构类型：and；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第13页
+无唯一独立行政边界：南联社区；社区点仅为代理线索
+道路几何缺失：南通道以北
+
+123. 阳光小学
+原文：阳光花园、锦绣新村、华龙新村、花语岸、花语馨花园，[国都花园、宝龙大厦、长龙花园、长发楼、水晶花园、长龙（6-7区）、佳兆业壹都汇]的非深户生
+结构类型：conditional；目录状态：population_condition_pending
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第10页
+未完整执行：阳光花园、锦绣新村、华龙新村、花语岸、花语馨花园，[国都花园、宝龙大厦、长龙花园、长发楼、水晶花园、长龙（6-7区）、佳兆业壹都汇]的非深户生；原因：population_or_integrated_qualification_requires_facts
+
+124. 悦澜山实验小学
+原文：龙城大道、回龙路、长兴北路、盐龙大道围成区域。该招生范围与兰著学校共享招生地段。
+结构类型：ring；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第9页
+围合未唯一执行：龙城大道、回龙路、长兴北路、盐龙大道；independent_boundary_geometry_missing
+
+125. 信德学校
+原文：禾花社区、上木古社区、新木社区、平吉上苑、四海锦园、融湖中心城、融湖时代花园、融湖盛世花园、融湖盛景花园等。
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：5；名称命中数：5
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第12页
+无唯一独立行政边界：禾花社区；社区点仅为代理线索
+无唯一独立行政边界：上木古社区；社区点仅为代理线索
+无唯一独立行政边界：新木社区；社区点仅为代理线索
+
+126. 布吉中心小学
+原文：老圩村、何屋村、李屋村、格塘村、一村部分地段（莲花小学和龙岭学校招生范围除外）。[范围：吉华路街口(穿孔桥)红绿灯起，西：至布吉派出所（含布吉中心广场、吉信大厦）；南：粤宝路宝丽路口起——宝丽路——百花一街路口以北片区；莲花路从1至100号；莲花路以北,横向北街双号至26号以东,格塘路1至73号以西；布吉会堂后面联兴街、格塘一巷（不含和兴街）；一村路以东,乐民路两侧]
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：1；名称命中数：1
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第10页
+未完整执行：一村部分地段(莲花小学和龙岭学校招生范围除外)(范围：吉华路街口(穿孔桥)红绿灯起，西：至布吉派出所(含布吉中心广场、吉信大厦)；南：粤宝路宝丽路口起——宝丽路——百花一街路口以北片区；莲花路从1至100号；莲花路以北,横向北街双号至26号以东,格塘路1至73号以西；布吉会堂后面联兴街、格塘一巷(不含和兴街)；一村路以东,乐民路两侧)；原因：unresolved_parenthetical_condition
+
+127. 西坑小学
+原文：西坑社区
+结构类型：membership；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第13页
+无唯一独立行政边界：西坑社区；社区点仅为代理线索
+
+128. 香港中文大学（深圳）附属知新学校
+原文：清林路、如意路、黄阁路及盐龙大道围合范围内的住宅区域：黄阁坑村、大围村和麻沙村地段、中海康城、睿智华庭、体育新城安置小区（天昊华庭）、龙红格社区、黄阁翠苑、嘉欣园、嘉亿爵悦、京基御景中央、佳兆业未来城、泰瑞府、美域蓝湾，及香港中文大学（深圳）。（注：两校实行一体化办学，依实际情况统筹开班。）
+结构类型：conditional；目录状态：integrated_school_pending
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第9页
+未完整执行：清林路、如意路、黄阁路及盐龙大道围合范围内的住宅区域：黄阁坑村、大围村和麻沙村地段、中海康城、睿智华庭、体育新城安置小区（天昊华庭）、龙红格社区、黄阁翠苑、嘉欣园、嘉亿爵悦、京基御景中央、佳兆业未来城、泰瑞府、美域蓝湾，及香港中文大学（深圳）。（注：两校实行一体化办学，依实际情况统筹开班。）；原因：population_or_integrated_qualification_requires_facts
+
+129. 深圳科学高中龙岗分校
+原文：坪西社区，包含君胜熙珑山、今日香沙御景园、吉祥悦府、嘉豪盛世、利德悦府、香林世纪华府、天祺苑等住宅区域
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：4；名称命中数：4
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第14页
+无唯一独立行政边界：坪西社区；社区点仅为代理线索
+
+130. 坂田实验学校
+原文：五和大道以东—布龙路以南—永香路以北—坂雪岗大道以西（含珠江旭景佳园、富豪花园、十二橡树庄园、和成世纪、德润荣君府、大族云峰、荷棠里等）、马安堂社区（含诺德中央道、华晖瑞禧、儒骏城立方、碧桂园荣汇、恒大都会广场、深汇大厦等）
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：13；名称命中数：12
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第11页
+无唯一独立行政边界：马安堂社区；社区点仅为代理线索
+
+131. 华中师范大学龙岗附属中学(集团)崇真学校
+原文：鹅公岭社区（不含华南师范大学附属平湖学校招生片区）、良安田社区以及平湖社区中由铁路、富安大道、平湖大街、良白路围合的片区（即熙璟城及富民工业区等区域）。
+结构类型：or；目录状态：individual_scope_requires_site_applicability
+作为参照涉及的位置数：0；名称命中数：0
+来源：https://www.lg.gov.cn/attachment/1/1722/1722313/12839768.pdf 第12页
+无唯一独立行政边界：鹅公岭社区；社区点仅为代理线索
+未完整执行：良白路围合的片区；原因：qualified_ring_requires_scoped_parse
+

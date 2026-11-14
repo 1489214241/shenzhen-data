@@ -1,0 +1,49 @@
+{
+  "date": "2026-11-14",
+  "targets": [
+    "龙华区",
+    "龙岗区"
+  ],
+  "seeds": [
+    20261231,
+    20261232,
+    20261233
+  ],
+  "sources": [
+    "天心区",
+    "芙蓉区",
+    "雨花区",
+    "开福区",
+    "拱墅区",
+    "萧山区",
+    "富阳区",
+    "临安区"
+  ],
+  "arms": [
+    "full_text_minimum",
+    "full_scope_minimum",
+    "full_prior_single_condition",
+    "full_prior_composed"
+  ],
+  "primary": "full_prior_composed minus baseline_current",
+  "training_steps": 0,
+  "population": "Every1802coordinate group and every202school across Longhua/Longgang; no target-Gold subset selection; Futian/Nanshan remain historical.",
+  "inputs": "Same frozen Modern/native/admission scores and full202official scope inventory. New encoding uses direct scope graph plus sufficient conditional cells and independently sourced admin identities.",
+  "hypotheses": "Every single-root scope and shared/conditional group. Composition considers union of any two independently documented conditions; applicability is estimated, never transitive implication. Also retain original output, model-only output and whole-scope-positive hypothesis.",
+  "constraints": "Text-proved positive lower bounds required; explicit exclusions retained. No complete-set assumption. University membership never expands; co-members allowed only by independent shared/base scopes.",
+  "exact_selection": "Maximize sum of source-threshold-centered membership log odds over final set. Frozen routed_BCE source threshold. No new parameter selection, fitting, or Shenzhen calibration. Ties fewer schools then sorted IDs.",
+  "ablation": "full_prior_single_condition has identical objective and inputs without pairwise composition. Text/scope-minimum arms retain prior baseline and add respective evidence.",
+  "weak_evidence": "Whole-scope states from geocoded points/roads are estimates, not administrative membership facts. Never add unknown or negative state as positive.",
+  "complete_syntax": false,
+  "new_external_documents": false,
+  "prior_target_results_seen": true,
+  "target_gold_read": false,
+  "target_polygon_read": false,
+  "adopted": false,
+  "independent_validation": false,
+  "limits": "Frozen encoder; two-condition composition not arbitrary high-order exhaustive search; unsupported scope syntax and unknown applicability remain unresolved. No claim to know true school count for every site.",
+  "previous_full_run": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\modern_shenzhen_full_prior_20261114",
+  "previous_full_target_results_seen": true,
+  "integration_repair": "Expand ORIGINAL model raw roots once by the same direct scope graph/shared rules before adding that hypothesis. Previously a free raw candidate bypassed scope constraints and dominated additive utility.",
+  "no_new_fitting_or_threshold": true
+}

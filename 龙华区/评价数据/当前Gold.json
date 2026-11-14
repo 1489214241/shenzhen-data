@@ -1,0 +1,8 @@
+{
+  "available": true,
+  "schema": "shenzhen_current_point_gold_v2",
+  "path": "../Gold/小区_学校Gold.json",
+  "label_kind": "official_map_point_membership",
+  "full_enrollment_truth": false,
+  "base_scope_fully_verified": false
+}

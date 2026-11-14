@@ -1,0 +1,50 @@
+{
+  "sources": [
+    "天心区",
+    "芙蓉区",
+    "雨花区",
+    "开福区",
+    "拱墅区",
+    "萧山区",
+    "富阳区",
+    "临安区"
+  ],
+  "targets": [
+    "龙华区",
+    "龙岗区"
+  ],
+  "features": [
+    "mean",
+    "local"
+  ],
+  "modes": [
+    "balanced",
+    "protected"
+  ],
+  "primary": "local_balanced_legacy minus baseline_current",
+  "mechanism": "All-school independent membership; model can correct original top1. Compare mean-reference summary vs added nearest two per-school legal reference evidence.",
+  "model": "sklearn HistGradientBoostingClassifier; engineering pilot using existing project GBT family, not an XGBoost reproduction or novel architecture claim.",
+  "hp": {
+    "learning_rate": 0.05,
+    "max_leaf_nodes": 31,
+    "max_iter": 300,
+    "l2_regularization": 1.0,
+    "early_stopping": false,
+    "random_state": 20261114
+  },
+  "candidate_scope": "Every school; no top10/topk school filtering or known answer count; no school or site ID feature.",
+  "supervision": "Same original full/partial source labels and verified Shenzhen partial labels as routed snapshot. Restore native top1 as an ordinary supervised candidate. Unknown -1 excluded, not negative. Same teacher per-property weights, mean over observed labels.",
+  "reference_scope": "All existing legal references retained; mean arm reuses139 features; local adds closest two reference feature vectors per school, distances/counts/availability/rank, same query-property exclusion.",
+  "threshold": "Source1246 rows only: balanced exact averages singleton and multi exact; protected retains native source singleton accuracy within0.5pp where possible. Threshold and mode fixed before target scores.",
+  "protected_failure": "If no protected candidate exists, retain source-best micro threshold for diagnosis, flag failure; never relabel fallback as passing.",
+  "decode": "Same legacy policy postprocessing as Modern applied to newly selected roots; verified-only ablation also reported. University member-list expansion forbidden. Hard text exclusions/positives enforced.",
+  "modern": "Frozen three-teacher ensemble features; one deterministic tree fit per feature arm. No new Modern training or independent model-seed validation.",
+  "source_scores": "Training-source Modern scores can be in-sample; source validation remains held out from tree fit. This is a pilot, not out-of-fold stacking confirmation.",
+  "evaluation": "All1802groups output;1761scored;41output-only;242semantic-pending retained. Exact sets,FP,FN,precision,recall,corrected/harmed,1km bootstrap3000.",
+  "target_gold_read": false,
+  "target_polygon_read": false,
+  "prior_target_results_seen": true,
+  "new_verified_reference_budget": 0,
+  "adopted": false,
+  "independent_validation": false
+}

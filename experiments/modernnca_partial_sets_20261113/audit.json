@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "target_probability_arrays_bitwise_replayed": 12,
+  "output_rows_independently_recounted": 21624,
+  "teacher_latent_rows_bitwise_replayed": 1920,
+  "source_selection_and_final_ensemble_recounted": true,
+  "hashes_verified": true,
+  "gold_unchanged": true,
+  "semantic_pending_retained": 242,
+  "partial_label_compatibility_independently_checked": {
+    "龙华区": {
+      "partial_rows": 37,
+      "three_positive_rows": 0,
+      "no_complete_labels_created": true
+    },
+    "龙岗区": {
+      "partial_rows": 303,
+      "three_positive_rows": 53,
+      "no_complete_labels_created": true
+    }
+  }
+}

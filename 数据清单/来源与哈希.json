@@ -1,0 +1,107 @@
+[
+  {
+    "path": "原始资料/小区目录/fdc_shenzhen_original.json",
+    "sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "source_workspace_path": "深圳市\\四区数据集_20261103_v1\\原始资料\\小区目录\\fdc_shenzhen_original.json"
+  },
+  {
+    "path": "原始资料/小区目录/既有用户坐标更正.json",
+    "sha256": "45e87022584544bb83feb538d357a0079dc51b38547075590b90f86f74b33400",
+    "source_workspace_path": "深圳市\\四区数据集_20261103_v1\\原始资料\\小区目录\\既有用户坐标更正.json"
+  },
+  {
+    "path": "构建工具/coordinates.py",
+    "sha256": "4b031eeedb890d66decac365528f876aef97475a40c1c49a1b4e1fb8a02ee820",
+    "source_workspace_path": "深圳市\\四区数据集_20261103_v1\\构建工具\\coordinates.py"
+  },
+  {
+    "path": "原始资料/校区核实/五条身份核查.json",
+    "sha256": "9d6d836cdf8e3634e4fe9ffd951b62e9479aa8aaf95c8f23756138e6796df403",
+    "source_workspace_path": "学区归属模型_代码库\\data\\规则核查_20261111\\龙华学校身份核查\\五条身份核查.json"
+  },
+  {
+    "path": "原始资料/校区核实/拆分说明.json",
+    "sha256": "92a516d80cf3355b41057e950d285a8b0c781a354555bf945e8ec53a3f7926f6",
+    "source_workspace_path": "学区归属模型_代码库\\data\\深圳市\\校区拆分_20261111\\拆分说明.json"
+  },
+  {
+    "path": "原始资料/校区核实/民乐排除.json",
+    "sha256": "a248d326c3b4cde5c1eb3ea56e9ee3e00ce78de277e75b7ca7efa1e1d61de1f1",
+    "source_workspace_path": "学区归属模型_代码库\\data\\深圳市\\使用排除\\民乐实验小学_20261111.json"
+  },
+  {
+    "path": "原始资料/政策核查/基础划片规则.json",
+    "sha256": "342d4f25a8e96ada50cfafd2604246d05b4269846f458da2b1441f091c8e25b8",
+    "source_workspace_path": "学区归属模型_代码库\\data\\规则核查_20261111\\基础划片规则.json"
+  },
+  {
+    "path": "原始资料/政策核查/龙华大学区核查.json",
+    "sha256": "77df61cfdd0bec56b9fa83d1cdfb1979275c3e84c0c86a4385ff8e3b221a1eb8",
+    "source_workspace_path": "学区归属模型_代码库\\data\\规则核查_20261111\\龙华大学区专项核查\\核查证据.json"
+  },
+  {
+    "path": "原始资料/年度政策/附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx",
+    "sha256": "7820dfe2bef568ba908597fb3e3bbe4ecdd79bc4b99138153d6b134f8c598820",
+    "source_workspace_path": "学区归属模型_代码库\\data\\深圳市\\来源存档\\四区数据集_20261103_v1\\原始资料\\年度政策\\附件\\附件7：深圳市龙华区2026年秋季公办学校招生范围、接受申请学位类型、咨询电话一览表.xlsx_76160b725e.xlsx"
+  },
+  {
+    "path": "原始资料/年度政策/附件1：龙岗区2026年义务教育阶段小学一年级学位申请指南.pdf_dd40f1d9af.pdf",
+    "sha256": "d5d719ee5dfc9d974b99943cc88db82673aa020f628c55f0346e57192ea40ee2",
+    "source_workspace_path": "学区归属模型_代码库\\data\\深圳市\\来源存档\\四区数据集_20261103_v1\\原始资料\\年度政策\\附件\\附件1：龙岗区2026年义务教育阶段小学一年级学位申请指南.pdf_dd40f1d9af.pdf"
+  },
+  {
+    "path": "原始资料/龙华区/public_map_data.json",
+    "sha256": "8b28f77ad0128745b98e3f42777ef819e021e4bb1c66bc3d54f89c4c0bf89791",
+    "source_workspace_path": "学区归属模型_代码库\\data\\深圳市\\来源存档\\四区数据集_20261103_v1\\原始资料\\官方地图\\longhua\\public_map_data.json"
+  },
+  {
+    "path": "原始资料/龙华区/receipt.json",
+    "sha256": "d06e15938de7cc17804a02739e6789f930c19178df4a796d3a1eb2f44d006450",
+    "source_workspace_path": "学区归属模型_代码库\\data\\深圳市\\来源存档\\四区数据集_20261103_v1\\原始资料\\官方地图\\longhua\\receipt.json"
+  },
+  {
+    "path": "原始资料/龙华区/候选小区原表.json",
+    "sha256": "34e8f4fffd829d1fb4e7bac78425b650835eaed29f7b348075d9ecde2d8c60f8",
+    "source_workspace_path": "深圳市\\四区数据集_20261103_v1\\龙华区\\小区数据\\buildings.json"
+  },
+  {
+    "path": "原始资料/龙华区/坐标组原表.json",
+    "sha256": "23b91ae9e00532d7a19eeae4b6cb15c7e9dcc6562fd4c924518e91fbc8c01a4f",
+    "source_workspace_path": "深圳市\\四区数据集_20261103_v1\\龙华区\\小区数据\\坐标组.json"
+  },
+  {
+    "path": "原始资料/龙岗区/public_map_data.json",
+    "sha256": "eff55a4c8c0f5db592b20f8b76c8e681310f1d83517f88b74a14fe6b9bfabc79",
+    "source_workspace_path": "学区归属模型_代码库\\data\\深圳市\\来源存档\\龙岗polygon核查_20261104\\用户导出核验\\龙岗小学官方学区原始数据.json"
+  },
+  {
+    "path": "原始资料/龙岗区/核验汇总.json",
+    "sha256": "4aa886a287ea8c9e49a9ada9a191f485d94f54c159f9e8a86b950e0adbf6df65",
+    "source_workspace_path": "学区归属模型_代码库\\data\\深圳市\\来源存档\\龙岗polygon核查_20261104\\用户导出核验\\核验汇总.json"
+  },
+  {
+    "path": "原始资料/龙岗区/逐校边界核验.json",
+    "sha256": "0eadb4a3d1540ec9d76f73df56502f76fd89642b89ff38505a70463c3f137e62",
+    "source_workspace_path": "学区归属模型_代码库\\data\\深圳市\\来源存档\\龙岗polygon核查_20261104\\用户导出核验\\逐校边界核验.json"
+  },
+  {
+    "path": "原始资料/龙岗区/候选小区原表.json",
+    "sha256": "473465480b549046e8ebcbc5f7dd2239a302423c0675ab4b38442bcb637fff5b",
+    "source_workspace_path": "深圳市\\四区数据集_20261103_v1\\龙岗区\\小区数据\\buildings.json"
+  },
+  {
+    "path": "原始资料/龙岗区/坐标组原表.json",
+    "sha256": "10cc734a6cf5888e9f0f563a882197b7be5fd78a48eab218f42a3bff1d2f00cb",
+    "source_workspace_path": "深圳市\\四区数据集_20261103_v1\\龙岗区\\小区数据\\坐标组.json"
+  },
+  {
+    "path": "构建工具/build_shenzhen_standard_dataset.py",
+    "sha256": "46cd15c69c17a97d01f209bc01882fa8a411e0883a07b760a139c139a94679f4",
+    "source_workspace_path": "学区归属模型_代码库\\scripts\\build_shenzhen_standard_dataset.py"
+  },
+  {
+    "path": "构建工具/compute_shenzhen_membership.cjs",
+    "sha256": "039c1b2ab49d15d3ba7c0980d3a0404d6707325b12911a238b52911ea06d285f",
+    "source_workspace_path": "学区归属模型_代码库\\scripts\\compute_shenzhen_membership.cjs"
+  }
+]

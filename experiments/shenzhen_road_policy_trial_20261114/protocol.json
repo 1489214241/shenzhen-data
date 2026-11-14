@@ -1,0 +1,33 @@
+{
+  "targets": [
+    "龙华区",
+    "龙岗区"
+  ],
+  "seeds": [
+    20261231,
+    20261232,
+    20261233
+  ],
+  "arms": [
+    "direct_model_roots",
+    "direct_model_and_text_roots",
+    "road_alias_hypothesis",
+    "direct_plus_road_hypothesis"
+  ],
+  "primary": "direct_model_roots vs baseline_current",
+  "training_steps": 0,
+  "frozen_model": "Modern routed_bce_legacy; identical predictions and source training",
+  "direct": "Original decision.raw_school_ids trigger all direct Boolean full-scope implication edges and reviewed shared rules ONCE. Added schools never become roots.",
+  "direct_text": "Secondary: independently verified constraints.positive may also be roots. Existing final predictions and newly added predictions are not roots.",
+  "road": "Exploratory UNVERIFIED alias 龙城大道 = 龙城北路 plus 龙城北桥; unique interior outside 50m OSM road corridors; inside adds LG03 schools only. Outside and boundary remain unknown; no deletion.",
+  "road_limits": "Not independently verified road naming or cadastral boundary. Geometry parameter chosen using label-free topology. Cannot claim deployable improvement even if scores improve.",
+  "university": "No university member-list expansion. Graph already excludes university/eligibility/pending school scopes.",
+  "exclusions": "Never add explicitly excluded school; record blocked additions; preserve baseline.",
+  "population": "1802 output groups,1761 scored,41 output-only,242 semantic-pending retained",
+  "scoring": "Full exact-set equality; same frozen Gold, precision/recall and 1km spatial bootstrap3000",
+  "prior_results_seen": true,
+  "independent_validation": false,
+  "adopted": false,
+  "target_gold_read": false,
+  "target_polygon_read": false
+}

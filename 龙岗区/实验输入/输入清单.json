@@ -1,0 +1,16 @@
+{
+  "buildings": "../小区数据/buildings.json",
+  "schools": "../学校数据/schools.json",
+  "policy_texts": "../政策文本/texts.json",
+  "evaluation_data_forbidden": [
+    "../Gold",
+    "../评价数据"
+  ],
+  "school_map_marker_not_polygon": true,
+  "rule_observations_ready": false,
+  "model_arrays_ready": false,
+  "base_scope_policy_rules": "../政策规则/规则包.json",
+  "policy_rule_decisions": "../政策规则/逐小区规则结果.json",
+  "policy_rule_engine_ready": true,
+  "spatial_clause_observations_complete": false
+}

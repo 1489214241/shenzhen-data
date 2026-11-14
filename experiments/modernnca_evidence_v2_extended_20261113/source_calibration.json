@@ -1,0 +1,28 @@
+{
+  "control": {
+    "n": 1246,
+    "correct": 967,
+    "fp": 228,
+    "fn": 288,
+    "single_correct": 967,
+    "multi_correct": 0,
+    "threshold": 1.0,
+    "native_single_correct": 964,
+    "singleton_floor": 958.07,
+    "source_gate_passed": true,
+    "candidate_thresholds": 1009
+  },
+  "routed": {
+    "n": 1246,
+    "correct": 967,
+    "fp": 228,
+    "fn": 288,
+    "single_correct": 967,
+    "multi_correct": 0,
+    "threshold": 1.0,
+    "native_single_correct": 964,
+    "singleton_floor": 958.07,
+    "source_gate_passed": true,
+    "candidate_thresholds": 1009
+  }
+}

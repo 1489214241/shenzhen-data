@@ -1,0 +1,2715 @@
+[
+  {
+    "school_id": "sz:futian:school:496FFFE16E395558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E395558E053BC09A8C0A5ED",
+    "school_name": "福田区荔园小学（通新岭）",
+    "district": "福田区",
+    "map_scope_text": "阁林网苑、深勘大院1-5栋、深勘单身公寓、警备区家属楼、地质局综合楼、地质局1-7栋、中泰燕南名庭、中电器材、中核大厦、科技大厦、桑达新村、电子设计院住宅楼、君悦阁、美然大院、士必达、桑达南区、工艺大厦、家乐大厦、宝树台、豪宫大厦、兴华宾馆附楼、钻雅艺华银海楼、现代之B座(商住) 、京华10栋、现代之窗附楼(商住) 、国利大厦A、 B座、航苑大厦东、西座(商住两用) 、中航公寓、都会100A、 B座(商住两用)、云尚公馆、通新岭新村、通心岭小区、、华强广场B.C、D座(商住两用) ",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2021-02-24 09:01:30",
+    "independent_texts": [
+      {
+        "scope_text": "01：阁林网苑，深勘大院1-5栋，深勘单身公寓，警备区家属楼，地质局综合楼，地质局1-7栋，中泰燕南名庭，中电器材，中核大厦，科技大厦，桑达新村，电子设计院住宅楼，君悦阁，美然大院，士必达，华懋达公寓，华胜公司住宅楼，华胜公司，桑达南区，华乐楼，工艺大厦，家乐大厦，家乐大院789栋，豪宫大厦，兴华宾馆附楼，钻雅艺华银海楼，天天渔港酒店，华强广场B、C、D座（商住两用），国利大厦A、B座 ，航苑大厦东，西座（商住两用），中航公寓，都会100A、B座（商住两用），现代之窗B座（商住），京华10栋，现代之窗附楼（商住），通新岭小区，同心路4号大院（旧特区报社），荔香坊，城投荔香坊，荔枝公园宿舍楼，青少年活动中心宿舍，荔湖新村，荔园小学宿舍楼，市统计信息局宿舍",
+        "school_name_raw": "荔园小学南校区",
+        "year": 2015,
+        "source_url": "https://lyxx.szftedu.cn/hdpt/201704/t20170425_27381.html",
+        "source_title": "荔园小学南、北、西校区招生地段范围",
+        "source_position": "南校区学区楼盘01，L138-L145",
+        "source_archive": "福田区/文字补查_20261111/网络记录/read_next.json",
+        "supplement_run": "futian_web_20261111",
+        "identity_status": "2019-02-18南方都市报具名报道明确南→通新岭、北→百花、西→玮鹏；属于媒体佐证的历史校名映射，非2026范围确认",
+        "applicability": "历史学校正式发布范围；2026是否完整沿用及与polygon一致性尚待核对；正文日期2015-03-24；附图未转为文字；北校区正文两处排除住宅分别写长东、长乐，冲突未消解",
+        "publication_status": "historical_official",
+        "formal_gold_eligible": false,
+        "identity_evidence_url": "https://www.sohu.com/a/295408520_161795",
+        "identity_evidence_archive": "福田区/文字补查_20261111/网络记录/alias_identity.json",
+        "scope_completeness": "已保存正文；附图未转录，不能称完整边界核验"
+      }
+    ],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2021,
+        "title": "2021福田公办小学范围汇总：福田区荔园小学（荔园教育集团）通新岭校区",
+        "url": "https://m.shenchuang.com/show/1598576.shtml",
+        "status": "第三方历史汇总；59项，不是2026全区全集",
+        "detail": "2021表第27项：福田区荔园小学（荔园教育集团）通新岭校区。同名或历史名候选关联；并未逐条完成更名与范围沿用核查。第三方注明深窗综合，未给逐校官方原文链接；不能当作独立官方文本。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/aliases_and_table_end.json",
+        "supplement_run": "futian_web_20261111"
+      },
+      {
+        "district": "福田",
+        "year": "以原页为准",
+        "title": "本地宝范围资料：福田区荔园小学（通新岭）",
+        "url": "https://m.bendibao.com/show923798.html",
+        "status": "第三方历史资料；已打开原页",
+        "detail": "部分文章注明福田教育网，但未链接逐校政策原文；可能转录地图XQ，不能新增官方独立证据。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/thirdparty_0.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": false
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E1B5558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E1B5558E053BC09A8C0A5ED",
+    "school_name": "福田区园岭教育集团园岭小学",
+    "district": "福田区",
+    "map_scope_text": "园岭新村1—62栋（新），园岭新村92—97栋（新），荔湖花苑A-B栋，红岭中学1-3栋",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2021-03-12 09:31:10",
+    "independent_texts": [],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2021,
+        "title": "2021福田公办小学范围汇总：福田区园岭小学",
+        "url": "https://m.shenchuang.com/show/1598576.shtml",
+        "status": "第三方历史汇总；59项，不是2026全区全集",
+        "detail": "2021表第29项：福田区园岭小学。同名或历史名候选关联；并未逐条完成更名与范围沿用核查。第三方注明深窗综合，未给逐校官方原文链接；不能当作独立官方文本。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/aliases_and_table_end.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": true
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E3A5558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E3A5558E053BC09A8C0A5ED",
+    "school_name": "福田区新洲小学",
+    "district": "福田区",
+    "map_scope_text": "新洲大厦、新洲花园大厦、新洲北村、新洲中心村大于等于56号的楼栋、嘉葆润金座A、B单元",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2021-03-04 10:34:33",
+    "independent_texts": [],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2021,
+        "title": "2021福田公办小学范围汇总：福田区新洲小学",
+        "url": "https://m.shenchuang.com/show/1598576.shtml",
+        "status": "第三方历史汇总；59项，不是2026全区全集",
+        "detail": "2021表第15项：福田区新洲小学。同名或历史名候选关联；并未逐条完成更名与范围沿用核查。第三方注明深窗综合，未给逐校官方原文链接；不能当作独立官方文本。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/aliases_and_table_end.json",
+        "supplement_run": "futian_web_20261111"
+      },
+      {
+        "district": "福田",
+        "year": "以原页为准",
+        "title": "本地宝范围资料：福田区新洲小学",
+        "url": "https://m.bendibao.com/show923736.html",
+        "status": "第三方历史资料；已打开原页",
+        "detail": "部分文章注明福田教育网，但未链接逐校政策原文；可能转录地图XQ，不能新增官方独立证据。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/thirdparty_0.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": true
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E375558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E375558E053BC09A8C0A5ED",
+    "school_name": "福田区园岭教育集团园岭实验小学",
+    "district": "福田区",
+    "map_scope_text": "园岭小区77-91栋，98-112栋，园东花园A-C栋，园岭花园，翠林阁，翠华阁，新华楼",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2022-05-06 15:57:26",
+    "independent_texts": [],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2021,
+        "title": "2021福田公办小学范围汇总：福田区园岭实验小学",
+        "url": "https://m.shenchuang.com/show/1598576.shtml",
+        "status": "第三方历史汇总；59项，不是2026全区全集",
+        "detail": "2021表第34项：福田区园岭实验小学。同名或历史名候选关联；并未逐条完成更名与范围沿用核查。第三方注明深窗综合，未给逐校官方原文链接；不能当作独立官方文本。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/aliases_and_table_end.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": true
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E315558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E315558E053BC09A8C0A5ED",
+    "school_name": "福田区园岭教育集团园岭外国语学校（小学部）",
+    "district": "福田区",
+    "map_scope_text": "园岭小区63-76栋，园中花园A-E栋，圆龙园A、B栋",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2022-05-06 16:02:07",
+    "independent_texts": [],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2021,
+        "title": "2021福田公办小学范围汇总：福田区园岭外国语小学",
+        "url": "https://m.shenchuang.com/show/1598576.shtml",
+        "status": "第三方历史汇总；59项，不是2026全区全集",
+        "detail": "2021表第35项：福田区园岭外国语小学。同名或历史名候选关联；并未逐条完成更名与范围沿用核查。第三方注明深窗综合，未给逐校官方原文链接；不能当作独立官方文本。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/aliases_and_table_end.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": true
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E185558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E185558E053BC09A8C0A5ED",
+    "school_name": "福田区上步小学",
+    "district": "福田区",
+    "map_scope_text": "巴登村、东园新村、埔尾村、万德居、新城大厦、佳兆业、红岭大厦、台湾花园、滨江新村、富豪花园、中信广场（新城市广场）、平安银行大厦、国企大厦、御河堤花园(城滨雅苑)、明苑大厦（河畔明居）、向东围东16号以后",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2021-02-24 08:51:53",
+    "independent_texts": [],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2021,
+        "title": "2021福田公办小学范围汇总：福田区上步小学",
+        "url": "https://m.shenchuang.com/show/1598576.shtml",
+        "status": "第三方历史汇总；59项，不是2026全区全集",
+        "detail": "2021表第25项：福田区上步小学。同名或历史名候选关联；并未逐条完成更名与范围沿用核查。第三方注明深窗综合，未给逐校官方原文链接；不能当作独立官方文本。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/aliases_and_table_end.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": true
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E335558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E335558E053BC09A8C0A5ED",
+    "school_name": "福田区南园小学",
+    "district": "福田区",
+    "map_scope_text": "南园新村，爱华大院（爱华小区），沙埔头村，沙埔头大厦，动力小区（动力公司宿舍），旧圩（墟）村，上步祠堂村，中电大院，锦峰大厦，深南路统建楼，五邑大厦，燃气集团住宅楼，赛格苑，金宝城大厦，飞扬时代，锦龙新村，长虹楼，沙埔头综合楼，锦绣新居，燃气公司宿舍，向东围1-15号，玉丰楼，锦峰大厦，统建商住楼，中电怡静苑",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2021-03-12 11:50:38",
+    "independent_texts": [],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2021,
+        "title": "2021福田公办小学范围汇总：福田区南园小学",
+        "url": "https://m.shenchuang.com/show/1598576.shtml",
+        "status": "第三方历史汇总；59项，不是2026全区全集",
+        "detail": "2021表第26项：福田区南园小学。同名或历史名候选关联；并未逐条完成更名与范围沿用核查。第三方注明深窗综合，未给逐校官方原文链接；不能当作独立官方文本。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/aliases_and_table_end.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": true
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E175558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E175558E053BC09A8C0A5ED",
+    "school_name": "福田区南华小学",
+    "district": "福田区",
+    "map_scope_text": "南华花园，南华村，光华园，赤尾村，鹏丽大厦，御景华城，汇港名苑，上步码头，怡兴苑，福龙楼，上步建筑公司，深华宿舍，武警综合楼，福滨南小区，水畔紫云阁，先先阁，先虹楼，治河办宿舍，排水工区宿舍，下步庙北区",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2021-03-12 12:34:30",
+    "independent_texts": [],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2021,
+        "title": "2021福田公办小学范围汇总：福田区南华小学",
+        "url": "https://m.shenchuang.com/show/1598576.shtml",
+        "status": "第三方历史汇总；59项，不是2026全区全集",
+        "detail": "2021表第24项：福田区南华小学。同名或历史名候选关联；并未逐条完成更名与范围沿用核查。第三方注明深窗综合，未给逐校官方原文链接；不能当作独立官方文本。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/aliases_and_table_end.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": true
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E355558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E355558E053BC09A8C0A5ED",
+    "school_name": "福田区文天祥小学（岗厦）",
+    "district": "福田区",
+    "map_scope_text": "岗厦村、海鹰大厦、彩虹新都、彩天名苑、高科利大厦、深大新村、福鑫苑",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2021-03-04 11:19:16",
+    "independent_texts": [
+      {
+        "scope_text": "深南路南、福华路以北、福田路以西、彩田路以东。",
+        "school_name_raw": "福田区文天祥小学（岗厦）",
+        "year": 2022,
+        "source_url": "https://gxxx.szftedu.cn/xyzx_474/xxxw_475/202205/t20220531_139894.html",
+        "source_title": "文天祥小学（岗厦）2022年小一招生简章",
+        "source_position": "二、招生地段，网页L36-L38",
+        "source_archive": "福田区/文字补查_20261111/网络记录/read_0.json",
+        "supplement_run": "futian_web_20261111",
+        "identity_status": "原文学校名与地图记录直接对应",
+        "applicability": "历史学校正式发布范围；2026是否完整沿用及与polygon一致性尚待核对",
+        "publication_status": "historical_official",
+        "formal_gold_eligible": false
+      }
+    ],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2022,
+        "title": "文天祥小学（岗厦）2022年小一招生简章",
+        "url": "https://gxxx.szftedu.cn/xyzx_474/xxxw_475/202205/t20220531_139894.html",
+        "status": "2026-11-11已核读并配对历史文字；现行适用待核",
+        "schools": [
+          "文天祥小学（岗厦）"
+        ],
+        "detail": "四至由深南路、福华路、福田路和彩田路构成。另有同年转学公告相互印证。",
+        "use": "历史学校正式发布范围；2026是否完整沿用及与polygon一致性尚待核对",
+        "previous_status": "学校正式招生公告；地段段落已读取"
+      },
+      {
+        "district": "福田",
+        "year": 2022,
+        "title": "文天祥小学（岗厦）2022年秋季转学插班工作公告",
+        "url": "https://gxxx.szftedu.cn/xyzx_474/xxxw_475/202207/t20220705_140478.html",
+        "status": "学校正式转学公告；地段段落已读取",
+        "schools": [
+          "文天祥小学（岗厦）"
+        ],
+        "detail": "同年小一简章的四至复核来源，不重复计学校数。",
+        "use": "历史佐证。"
+      },
+      {
+        "district": "福田",
+        "year": 2021,
+        "title": "2021福田公办小学范围汇总：福田区岗厦小学",
+        "url": "https://m.shenchuang.com/show/1598576.shtml",
+        "status": "第三方历史汇总；59项，不是2026全区全集",
+        "detail": "2021表第22项：福田区岗厦小学。同名或历史名候选关联；并未逐条完成更名与范围沿用核查。第三方注明深窗综合，未给逐校官方原文链接；不能当作独立官方文本。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/aliases_and_table_end.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": false
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E365558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E365558E053BC09A8C0A5ED",
+    "school_name": "福田区皇岗小学",
+    "district": "福田区",
+    "map_scope_text": "皇岗村上围、下围，吉龙、三龙及皇岗新村一、二期，皇都广场，皇庭世纪，东方雅苑,云顶翠峰，共和世家，皇庭彩园，高发城驰、皇安大厦",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2021-02-24 09:54:45",
+    "independent_texts": [],
+    "candidate_policy_texts": [],
+    "source_leads": [],
+    "map_text_missing": false,
+    "independent_text_missing": true
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E385558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E385558E053BC09A8C0A5ED",
+    "school_name": "福田区荔园外国语小学（水围）",
+    "district": "福田区",
+    "map_scope_text": "水围村，金怡华庭，时代星居，福民佳园，福雅园，萱嘉华庭，福涛东园，绿茵阁，金港豪庭，晨晖家园，水围新家园，御庭园，福昇楼，嘉意台，银庄大厦，高发城驰，龙轩豪庭，华嵘榕公馆，云顶翠峰，共和世家，皇庭彩园",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2021-02-24 11:11:36",
+    "independent_texts": [],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2021,
+        "title": "2021福田公办小学范围汇总：福田区荔园外国语小学（水围）",
+        "url": "https://m.shenchuang.com/show/1598576.shtml",
+        "status": "第三方历史汇总；59项，不是2026全区全集",
+        "detail": "2021表第10项：福田区荔园外国语小学（水围）。同名或历史名候选关联；并未逐条完成更名与范围沿用核查。第三方注明深窗综合，未给逐校官方原文链接；不能当作独立官方文本。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/aliases_and_table_end.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": true
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E3B5558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E3B5558E053BC09A8C0A5ED",
+    "school_name": "福田区荔园小学（众孚）",
+    "district": "福田区",
+    "map_scope_text": "众孚花园、石厦村、星河名居、益田名园、物业时代，众孚新村，众孚大厦，时尚名居，石厦花园、新天时代",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2021-02-23 17:03:22",
+    "independent_texts": [],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2021,
+        "title": "2021福田公办小学范围汇总：福田区荔园小学（荔园教育集团）众孚校区",
+        "url": "https://m.shenchuang.com/show/1598576.shtml",
+        "status": "第三方历史汇总；59项，不是2026全区全集",
+        "detail": "2021表第12项：福田区荔园小学（荔园教育集团）众孚校区。同名或历史名候选关联；并未逐条完成更名与范围沿用核查。第三方注明深窗综合，未给逐校官方原文链接；不能当作独立官方文本。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/aliases_and_table_end.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": true
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E3C5558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E3C5558E053BC09A8C0A5ED",
+    "school_name": "福田区新沙小学",
+    "district": "福田区",
+    "map_scope_text": "朗晴馨洲，嘉洲豪园，嘉洲富苑，绿景新洋房，锦洲花园，工商宿舍楼，新洲苑，绿景新苑，骏皇嘉园，星河雅居，湖北宝丰花园，康达尔公寓，锦滨苑，福昌苑，国税综合大楼，沙尾综合楼，润福园，金福苑，新洲祠堂村，祥云天都世纪，南溪新苑，中城天邑，新洲南村，新洲中心村1-55号，雄鹰大厦、新南苑、嘉葆润金座C单元",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2021-02-23 17:08:58",
+    "independent_texts": [
+      {
+        "scope_text": "15区\n方位：滨河路以南，新洲路转市场路再转新洲二街以西，福强路以北，沙嘴路口转新洲九街再转新洲三街以东。\n住宅名称：朗晴馨洲、嘉洲豪园、嘉洲富苑、绿景新洋房、锦洲花园、工商宿舍楼、新洲苑、绿景新苑、骏皇嘉园、星河雅居、湖北宝丰花园、康达尔公寓、锦滨苑、福昌苑、国税综合大楼、沙尾综合楼（沙尾机楼）、润福园、金福苑、新洲祠堂村、祥云天都世纪、南溪新苑、中城天邑、新洲南村、新洲中心村（1-55号）、嘉堡润金座C栋、新南苑、雄鹰大厦、香江东苑",
+        "school_name_raw": "福田区新沙小学",
+        "year": 2023,
+        "source_url": "https://ftxs.szftedu.cn/xx/tzgg/202305/t20230529_158616.html",
+        "source_title": "新沙小学2023年小一招生公告中的范围图片",
+        "source_position": "三、新沙小学招生范围；附图下半部15区表格，人工逐字转录",
+        "source_archive": "福田区/文字补查_20261111/原始附件/新沙小学_2023招生范围.png",
+        "supplement_run": "futian_web_20261111",
+        "identity_status": "原文学校名与地图记录直接对应",
+        "applicability": "历史学校正式发布范围；2026是否完整沿用及与polygon一致性尚待核对；图中文字原样保留，嘉堡润等名称不擅自按地图改写；图片URL见已核读来源",
+        "publication_status": "historical_official",
+        "formal_gold_eligible": false,
+        "image_url": "https://ftxs.szftedu.cn/xx/tzgg/202305/W020230529374184353898.png"
+      }
+    ],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2021,
+        "title": "2021福田公办小学范围汇总：福田区新沙小学",
+        "url": "https://m.shenchuang.com/show/1598576.shtml",
+        "status": "第三方历史汇总；59项，不是2026全区全集",
+        "detail": "2021表第13项：福田区新沙小学。同名或历史名候选关联；并未逐条完成更名与范围沿用核查。第三方注明深窗综合，未给逐校官方原文链接；不能当作独立官方文本。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/aliases_and_table_end.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": false
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E3D5558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E3D5558E053BC09A8C0A5ED",
+    "school_name": "西交利物浦大学基础教育集团外国语学校（下沙明远）小学部",
+    "district": "福田区",
+    "map_scope_text": "下沙村、碧海红树园、金域蓝湾、下沙花好园、滨河时代、泰然广场、红树家邻、鸿景湾名苑、惠发花园、泰然科技园泰安轩、泰康轩、都市阳光名苑",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2026-04-17 15:48:15",
+    "independent_texts": [],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2021,
+        "title": "2021福田公办小学范围汇总：福田区下沙小学",
+        "url": "https://m.shenchuang.com/show/1598576.shtml",
+        "status": "第三方历史汇总；59项，不是2026全区全集",
+        "detail": "2021表第16项：福田区下沙小学。同名或历史名候选关联；并未逐条完成更名与范围沿用核查。第三方注明深窗综合，未给逐校官方原文链接；不能当作独立官方文本。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/aliases_and_table_end.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": true
+  },
+  {
+    "school_id": "sz:futian:school:2ea8f73c686a4beaa88410a90916e59b",
+    "source_school_id": "2ea8f73c686a4beaa88410a90916e59b",
+    "school_name": "福田区荔园外国语小学（天骄）",
+    "district": "福田区",
+    "map_scope_text": "缔梦园、万托家园、碧景园、景田翠景园、擎天华庭、天健天骄、香丽大厦、景发花园、机场小区、巴士集团龙塘住宅区、香蜜新村西区、市政大院小区",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2022-05-23 14:53:36",
+    "independent_texts": [],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2021,
+        "title": "2021福田公办小学范围汇总：福田区荔园外国语小学（天骄）",
+        "url": "https://m.shenchuang.com/show/1598576.shtml",
+        "status": "第三方历史汇总；59项，不是2026全区全集",
+        "detail": "2021表第44项：福田区荔园外国语小学（天骄）。同名或历史名候选关联；并未逐条完成更名与范围沿用核查。第三方注明深窗综合，未给逐校官方原文链接；不能当作独立官方文本。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/aliases_and_table_end.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": true
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E405558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E405558E053BC09A8C0A5ED",
+    "school_name": "福田区梅林小学",
+    "district": "福田区",
+    "map_scope_text": "宝翠居，叠翠居，鸿浩阁，文伟阁，润裕花园，大众公寓，美塑公寓，嘉梅宿舍楼，新世界四季山水花园，山水居，阳光天下花园，福兴花园，新活力花园，润华苑，咏山名苑，嘉鑫阳光雅居，深华科技园，碧华庭居，金帝食品厂宿舍，合正园，安通大厦宿舍，迷你新居，三洋华强宿舍，金梅花园，梅林小学宿舍，梅林二村，宏安花园，河背村，富盛花园，围面村，锦安楼，裕林花园，下梅林综合市场楼，裕田花园，安平阁，天心花园一期，恒盛居，嘉梅花园，碧荔花园，梅林邮政综合楼，梅林中学宿舍楼",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2021-03-12 17:58:41",
+    "independent_texts": [],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2021,
+        "title": "2021福田公办小学范围汇总：福田区梅林小学",
+        "url": "https://m.shenchuang.com/show/1598576.shtml",
+        "status": "第三方历史汇总；59项，不是2026全区全集",
+        "detail": "2021表第57项：福田区梅林小学。同名或历史名候选关联；并未逐条完成更名与范围沿用核查。第三方注明深窗综合，未给逐校官方原文链接；不能当作独立官方文本。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/aliases_and_table_end.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": true
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E3F5558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E3F5558E053BC09A8C0A5ED",
+    "school_name": "福田区东海实验小学（竹园）",
+    "district": "福田区",
+    "map_scope_text": "香蜜湖街道社区中心（北座、东座、南座）、鑫竹苑、竹园小区、建业大厦、建业小区（南北区）、香山美树苑、宝能公馆、风临左岸小区、佳泰兴苑小区、明福居",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2021-02-23 17:38:46",
+    "independent_texts": [],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2024,
+        "title": "福田区2024年新学校学位优化供给方案",
+        "url": "https://www.szftedu.cn/xxgk/tzgg/202405/P020240528579517653311.pdf",
+        "status": "前轮取得的正式历史方案；本轮搜索再次检出",
+        "schools": [
+          "五洲小学（暂定名）",
+          "深圳外国语小学",
+          "东海实验小学"
+        ],
+        "detail": "含3所小学基础地段文字，已列入此前独立来源清单。",
+        "use": "按2024来源保存，与2026范围的持续性另核。"
+      },
+      {
+        "district": "福田",
+        "year": 2021,
+        "title": "2021福田公办小学范围汇总：福田区教科院第二附小",
+        "url": "https://m.shenchuang.com/show/1598576.shtml",
+        "status": "第三方历史汇总；59项，不是2026全区全集",
+        "detail": "2021表第52项：福田区教科院第二附小。同名或历史名候选关联；并未逐条完成更名与范围沿用核查。第三方注明深窗综合，未给逐校官方原文链接；不能当作独立官方文本。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/aliases_and_table_end.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": true
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E415558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E415558E053BC09A8C0A5ED",
+    "school_name": "福田区外国语小学（竹林）",
+    "district": "福田区",
+    "map_scope_text": "动力公司综合楼、荣耀园、博林贡院、驾培中心综合楼、珍奇景苑、蝴蝶谷、红树林海景花园、地铁人才公寓、福安大厦、越众小区、金众小区、竹林花园、金海花园、香诗美林、竹盛花园、越海家园、育星苑、国土局宿舍、邮政综合大楼宿舍",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2021-02-23 17:44:27",
+    "independent_texts": [],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2021,
+        "title": "2021福田公办小学范围汇总：福田区教科院附小",
+        "url": "https://m.shenchuang.com/show/1598576.shtml",
+        "status": "第三方历史汇总；59项，不是2026全区全集",
+        "detail": "2021表第18项：福田区教科院附小。同名或历史名候选关联；并未逐条完成更名与范围沿用核查。第三方注明深窗综合，未给逐校官方原文链接；不能当作独立官方文本。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/aliases_and_table_end.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": true
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E425558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E425558E053BC09A8C0A5ED",
+    "school_name": "福田区园岭教育集团百花小学",
+    "district": "福田区",
+    "map_scope_text": "长城大厦1-9栋，长泰花园，长安花园，长乐花园，长怡花园，群星广场，红荔村住宅区，体委宿舍，桑达雅苑，桑达大厦，金茂礼都，赛格科技园",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2021-04-16 17:17:09",
+    "independent_texts": [],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2021,
+        "title": "2021福田公办小学范围汇总：福田区百花小学",
+        "url": "https://m.shenchuang.com/show/1598576.shtml",
+        "status": "第三方历史汇总；59项，不是2026全区全集",
+        "detail": "2021表第32项：福田区百花小学。同名或历史名候选关联；并未逐条完成更名与范围沿用核查。第三方注明深窗综合，未给逐校官方原文链接；不能当作独立官方文本。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/aliases_and_table_end.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": true
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E435558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E435558E053BC09A8C0A5ED",
+    "school_name": "福田区红岭教育集团华富实验学校（小学部）",
+    "district": "福田区",
+    "map_scope_text": "黄木岗东西区、华新村、海馨苑、海外装饰华强综合楼、中航北苑、东方时代广场",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2021-03-12 08:56:07",
+    "independent_texts": [],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2021,
+        "title": "2021福田公办小学范围汇总：福田区华富小学",
+        "url": "https://m.shenchuang.com/show/1598576.shtml",
+        "status": "第三方历史汇总；59项，不是2026全区全集",
+        "detail": "2021表第33项：福田区华富小学。同名或历史名候选关联；并未逐条完成更名与范围沿用核查。第三方注明深窗综合，未给逐校官方原文链接；不能当作独立官方文本。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/aliases_and_table_end.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": true
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E445558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E445558E053BC09A8C0A5ED",
+    "school_name": "福田区莲花小学",
+    "district": "福田区",
+    "map_scope_text": "振业花园、福莲花园、现代苑、集福居、宿舍楼、长福花园、紫玉花园、皇家翠苑、福田公安分局宿舍、行政楼、橄榄鹏苑、春晖苑、勘察研究院、福景大厦、海连大厦、边防分局、电子技校生活区、宿舍楼、岗厦邮电局宿舍",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2021-03-12 08:37:43",
+    "independent_texts": [],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2021,
+        "title": "2021福田公办小学范围汇总：福田区莲花小学",
+        "url": "https://m.shenchuang.com/show/1598576.shtml",
+        "status": "第三方历史汇总；59项，不是2026全区全集",
+        "detail": "2021表第38项：福田区莲花小学。同名或历史名候选关联；并未逐条完成更名与范围沿用核查。第三方注明深窗综合，未给逐校官方原文链接；不能当作独立官方文本。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/aliases_and_table_end.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": true
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E455558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E455558E053BC09A8C0A5ED",
+    "school_name": "福田区景鹏小学",
+    "district": "福田区",
+    "map_scope_text": "安柏丽晶、东方玫瑰花园、合正名园、华泰小区、金色假日名苑、侨福大厦、锦文阁、缇香名苑、香蜜二村、香逸名园、东景花园、橄榄绿洲绿洲家园、国泰豪园、华富大厦、华茂欣园、景鹏综合楼、聚豪园、华丰大厦、特区报社公寓、时代华庭、天健名苑、五洲星苑、香蜜三村、业城阁、长景阁、紫荆苑、香蜜湖家属楼、香蜜楼、瑞达苑、惠翔苑、景苑大厦",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2021-02-25 11:22:26",
+    "independent_texts": [
+      {
+        "scope_text": "红荔西路以南，新洲路以西，深南大道以北，香蜜湖路以东，主要包括紫荆、香蜜、梅岭等社区。",
+        "school_name_raw": "福田区景鹏小学",
+        "year": 2018,
+        "source_url": "https://jpxx.szftedu.cn/xwgk_421/fwck/201801/t20180118_95736.html",
+        "source_title": "景鹏小学2018秋季一年级招生学位预警信息",
+        "source_position": "景鹏小学招生地段，网页L40-L42",
+        "source_archive": "福田区/文字补查_20261111/网络记录/read_next.json",
+        "supplement_run": "futian_web_20261111",
+        "identity_status": "原文学校名与地图记录直接对应",
+        "applicability": "历史学校正式发布范围；2026是否完整沿用及与polygon一致性尚待核对；2026报名指南另有景田南片共享招生安排，不能仅凭旧四至认定现行完整范围",
+        "publication_status": "historical_official",
+        "formal_gold_eligible": false
+      }
+    ],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2018,
+        "title": "景鹏小学2018秋季一年级招生学位预警信息",
+        "url": "https://jpxx.szftedu.cn/xwgk_421/fwck/201801/t20180118_95736.html",
+        "status": "2026-11-11已核读并配对历史文字；现行适用待核",
+        "schools": [
+          "景鹏小学"
+        ],
+        "detail": "给出红荔西路、新洲路、深南大道、香蜜湖路四至，并提及紫荆、香蜜、梅岭等社区。",
+        "use": "历史学校正式发布范围；2026是否完整沿用及与polygon一致性尚待核对；2026报名指南另有景田南片共享招生安排，不能仅凭旧四至认定现行完整范围",
+        "previous_status": "学校学位预警公告；范围已读取"
+      },
+      {
+        "district": "福田",
+        "year": 2021,
+        "title": "2021福田公办小学范围汇总：福田区景鹏小学",
+        "url": "https://m.shenchuang.com/show/1598576.shtml",
+        "status": "第三方历史汇总；59项，不是2026全区全集",
+        "detail": "2021表第42项：福田区景鹏小学。同名或历史名候选关联；并未逐条完成更名与范围沿用核查。第三方注明深窗综合，未给逐校官方原文链接；不能当作独立官方文本。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/aliases_and_table_end.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": false
+  },
+  {
+    "school_id": "sz:futian:school:e45111150df349b7b99b40b029771a0f",
+    "source_school_id": "e45111150df349b7b99b40b029771a0f",
+    "school_name": "福田区荔园外国语小学（景田）",
+    "district": "福田区",
+    "map_scope_text": "安柏丽晶、东方玫瑰花园、合正名园、华泰小区、金色假日名苑、侨福大厦、锦文阁、缇香名苑、香蜜二村、香逸名园、东景花园、橄榄绿洲绿洲家园、国泰豪园、华富大厦、华茂欣园、景鹏综合楼、聚豪园、华丰大厦、特区报社公寓、时代华庭、天健名苑、五洲星苑、香蜜三村、业城阁、长景阁、紫荆苑、香蜜湖家属楼、香蜜楼、瑞达苑、惠翔苑、景苑大厦",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2023-05-24 14:49:00",
+    "independent_texts": [],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": "以原页为准",
+        "title": "本地宝范围资料：福田区荔园外国语小学（景田）",
+        "url": "https://m.bendibao.com/show924993.html",
+        "status": "第三方历史资料；已打开原页",
+        "detail": "部分文章注明福田教育网，但未链接逐校政策原文；可能转录地图XQ，不能新增官方独立证据。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/thirdparty_1.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": true
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E4D5558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E4D5558E053BC09A8C0A5ED",
+    "school_name": "福田区福华小学",
+    "district": "福田区",
+    "map_scope_text": "福华新村，福田新村，皇洲花园，岗厦变电综合楼，华厦新居，万景花园，福源大厦，东怡大厦，福建大厦，润恒大厦，装饰集团宿舍，华景花园，东华大厦，海天大厦，国际村，中深花园",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2021-03-12 14:15:02",
+    "independent_texts": [],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2021,
+        "title": "2021福田公办小学范围汇总：福田区福华小学",
+        "url": "https://m.shenchuang.com/show/1598576.shtml",
+        "status": "第三方历史汇总；59项，不是2026全区全集",
+        "detail": "2021表第21项：福田区福华小学。同名或历史名候选关联；并未逐条完成更名与范围沿用核查。第三方注明深窗综合，未给逐校官方原文链接；不能当作独立官方文本。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/aliases_and_table_end.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": true
+  },
+  {
+    "school_id": "sz:futian:school:e3cdd8eb7adb400abba22c2808650516",
+    "source_school_id": "e3cdd8eb7adb400abba22c2808650516",
+    "school_name": "福田区荔园外国语小学（海滨）",
+    "district": "福田区",
+    "map_scope_text": "海滨广场，深荣大厦，天泽花园，渔农村，海悦华城，金地名津，裕亨花园，港田花园，水立方，皇岗码头，港城华庭，港城阁，港华阁，港庭阁，福民大厦，福昌大厦，星河华居，阳光城市，知本大厦，皇庭居，紫光名苑，景源华庭，南国宾馆，辛盛苑，福民新村，富强花园，卫检大厦，阑亭居，皇御苑，御花园，皇溪苑，皇丹苑，深港1号，深物业廊桥国际（廊桥花园），金领假日",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": null,
+    "independent_texts": [
+      {
+        "scope_text": "金田路和福强路及国花路以东、滨河大道以南、福田南路以西、深圳河及福民路以北合围区域。",
+        "school_name_raw": "福田区荔园外国语小学（海滨）",
+        "year": 2026,
+        "source_url": "https://www.szftedu.cn/xxgk/tzgg/202606/P020260608537815465240.pdf",
+        "source_position": "第7页；存档 L88-L99，四校成员及共同地段",
+        "identity_status": "按正式文件福民片区四校逐项关联，完整地图原名保留",
+        "applicability": "2026正式共同范围；四校各自原始polygon全部保留，尚未逐边核对"
+      }
+    ],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2026,
+        "title": "福田区2026年新学校学位优化供给方案",
+        "url": "https://www.szftedu.cn/xxgk/tzgg/202606/P020260608537815465240.pdf",
+        "notice": "https://www.szftedu.cn/xxgk/tzgg/202606/t20260608_176690.html",
+        "status": "正式方案；全文已读取",
+        "schools": [
+          "绿洲小学",
+          "红树林实验学校小学部",
+          "红岭实验学校（上沙）小学部",
+          "深圳莲花山学校",
+          "美莲小学",
+          "福民小学",
+          "皇岗创新实验学校小学部",
+          "皇御苑实验学校小学部",
+          "荔园外国语小学（海滨）"
+        ],
+        "detail": "前5所分别给出招生地段；福民片区4所共同地段也有独立文字。小学共9个学校条目。",
+        "use": "可开展2026文字与同年官方polygon核对；不将跨校申请资格作为范围扩张。"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": false
+  },
+  {
+    "school_id": "sz:futian:school:02b71857c30e4c3abc42fcfb8e08697f",
+    "source_school_id": "02b71857c30e4c3abc42fcfb8e08697f",
+    "school_name": "福田中学教育集团皇御苑实验学校（小学部）",
+    "district": "福田区",
+    "map_scope_text": "海滨广场，深荣大厦，天泽花园，渔农村，海悦华城，金地名津，裕亨花园，港田花园，水立方，皇岗码头，港城华庭，港城阁，港华阁，港庭阁，福民大厦，福昌大厦，星河华居，阳光城市，知本大厦，皇庭居，紫光名苑，景源华庭，南国宾馆，辛盛苑，福民新村，富强花园，卫检大厦，阑亭居，皇御苑，御花园，皇溪苑，皇丹苑，深港1号",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": null,
+    "independent_texts": [
+      {
+        "scope_text": "金田路和福强路及国花路以东、滨河大道以南、福田南路以西、深圳河及福民路以北合围区域。",
+        "school_name_raw": "福田中学教育集团皇御苑实验学校（小学部）",
+        "year": 2026,
+        "source_url": "https://www.szftedu.cn/xxgk/tzgg/202606/P020260608537815465240.pdf",
+        "source_position": "第7页；存档 L88-L99，四校成员及共同地段",
+        "identity_status": "按正式文件福民片区四校逐项关联，完整地图原名保留",
+        "applicability": "2026正式共同范围；四校各自原始polygon全部保留，尚未逐边核对"
+      }
+    ],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": "以原页为准",
+        "title": "本地宝范围资料：福田中学教育集团皇御苑实验学校（小学部）",
+        "url": "https://sz.bendibao.com/qinzi/2023421/918550.shtm",
+        "status": "第三方历史资料；已打开原页",
+        "detail": "部分文章注明福田教育网，但未链接逐校政策原文；可能转录地图XQ，不能新增官方独立证据。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/thirdparty_2.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": false
+  },
+  {
+    "school_id": "sz:futian:school:864eec1097e74b31b632772806c116dc",
+    "source_school_id": "864eec1097e74b31b632772806c116dc",
+    "school_name": "福田区皇岗创新实验学校（小学部）",
+    "district": "福田区",
+    "map_scope_text": "海滨广场，深荣大厦，天泽花园，渔农村，海悦华城，金地名津，裕亨花园，港田花园，水立方，皇岗码头，港城华庭，港城阁，港华阁，港庭阁，福民大厦，福昌大厦，星河华居，阳光城市，知本大厦，皇庭居，紫光名苑，景源华庭，南国宾馆，辛盛苑，福民新村，富强花园，卫检大厦，阑亭居，皇御苑，御花园，皇溪苑，皇丹苑，深港1号",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": null,
+    "independent_texts": [
+      {
+        "scope_text": "金田路和福强路及国花路以东、滨河大道以南、福田南路以西、深圳河及福民路以北合围区域。",
+        "school_name_raw": "福田区皇岗创新实验学校（小学部）",
+        "year": 2026,
+        "source_url": "https://www.szftedu.cn/xxgk/tzgg/202606/P020260608537815465240.pdf",
+        "source_position": "第7页；存档 L88-L99，四校成员及共同地段",
+        "identity_status": "按正式文件福民片区四校逐项关联，完整地图原名保留",
+        "applicability": "2026正式共同范围；四校各自原始polygon全部保留，尚未逐边核对"
+      }
+    ],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": "以原页为准",
+        "title": "本地宝范围资料：福田区皇岗创新实验学校（小学部）",
+        "url": "https://m.bendibao.com/show897342.html",
+        "status": "第三方历史资料；已打开原页",
+        "detail": "部分文章注明福田教育网，但未链接逐校政策原文；可能转录地图XQ，不能新增官方独立证据。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/thirdparty_2.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": false
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E485558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E485558E053BC09A8C0A5ED",
+    "school_name": "福田区福民小学",
+    "district": "福田区",
+    "map_scope_text": "海滨广场，深荣大厦，天泽花园，渔农村，海悦华城，金地名津，裕亨花园，港田花园，水立方，皇岗码头，港城华庭，港城阁，港华阁，港庭阁，福民大厦，福昌大厦，星河华居，阳光城市，知本大厦，皇庭居，紫光名苑，景源华庭，南国宾馆，辛盛苑，福民新村，富强花园，卫检大厦，阑亭居，皇御苑，御花园，皇溪苑，皇丹苑，深港1号",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2022-04-12 09:00:49",
+    "independent_texts": [
+      {
+        "scope_text": "金田路和福强路及国花路以东、滨河大道以南、福田南路以西、深圳河及福民路以北合围区域。",
+        "school_name_raw": "福田区福民小学",
+        "year": 2026,
+        "source_url": "https://www.szftedu.cn/xxgk/tzgg/202606/P020260608537815465240.pdf",
+        "source_position": "第7页；存档 L88-L99，四校成员及共同地段",
+        "identity_status": "按正式文件福民片区四校逐项关联，完整地图原名保留",
+        "applicability": "2026正式共同范围；四校各自原始polygon全部保留，尚未逐边核对"
+      }
+    ],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2026,
+        "title": "福田区2026年新学校学位优化供给方案",
+        "url": "https://www.szftedu.cn/xxgk/tzgg/202606/P020260608537815465240.pdf",
+        "notice": "https://www.szftedu.cn/xxgk/tzgg/202606/t20260608_176690.html",
+        "status": "正式方案；全文已读取",
+        "schools": [
+          "绿洲小学",
+          "红树林实验学校小学部",
+          "红岭实验学校（上沙）小学部",
+          "深圳莲花山学校",
+          "美莲小学",
+          "福民小学",
+          "皇岗创新实验学校小学部",
+          "皇御苑实验学校小学部",
+          "荔园外国语小学（海滨）"
+        ],
+        "detail": "前5所分别给出招生地段；福民片区4所共同地段也有独立文字。小学共9个学校条目。",
+        "use": "可开展2026文字与同年官方polygon核对；不将跨校申请资格作为范围扩张。"
+      },
+      {
+        "district": "福田",
+        "year": 2021,
+        "title": "2021福田公办小学范围汇总：福田区福民小学",
+        "url": "https://m.shenchuang.com/show/1598576.shtml",
+        "status": "第三方历史汇总；59项，不是2026全区全集",
+        "detail": "2021表第9项：福田区福民小学。同名或历史名候选关联；并未逐条完成更名与范围沿用核查。第三方注明深窗综合，未给逐校官方原文链接；不能当作独立官方文本。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/aliases_and_table_end.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": false
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E475558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E475558E053BC09A8C0A5ED",
+    "school_name": "福田区华新小学",
+    "district": "福田区",
+    "map_scope_text": "华富北屋村、笔架山庄、阳明山庄、依山居、银华大厦、依岚花园、市二医院职工宿舍",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2021-03-12 09:12:19",
+    "independent_texts": [],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2021,
+        "title": "2021福田公办小学范围汇总：福田区华新小学",
+        "url": "https://m.shenchuang.com/show/1598576.shtml",
+        "status": "第三方历史汇总；59项，不是2026全区全集",
+        "detail": "2021表第36项：福田区华新小学。同名或历史名候选关联；并未逐条完成更名与范围沿用核查。第三方注明深窗综合，未给逐校官方原文链接；不能当作独立官方文本。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/aliases_and_table_end.json",
+        "supplement_run": "futian_web_20261111"
+      },
+      {
+        "district": "福田",
+        "year": 2026,
+        "title": "学校官网链接的2026招生/转学公告",
+        "url": "https://mp.weixin.qq.com/s?__biz=Mzg3NTcxOTc1NQ==&mid=2247700185&idx=1&sn=1098ca6e8a8749bc0b390805db061079&chksm=ce6dff7b830ac0a76a7515450366f7cdcac9f6b57a8b0e19303efcb49444e07fcbf34df7450e&scene=126&sessionid=1788341852#rd",
+        "status": "官网确认发布链接；微信验证码页，正文未取得",
+        "detail": "已从学校官网追溯至公众号；HTTP200返回验证码页面，不算取得公告全文。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网页原件/50e00bf4324b25d3.metadata.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": true
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E465558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E465558E053BC09A8C0A5ED",
+    "school_name": "福田区美莲小学",
+    "district": "福田区",
+    "map_scope_text": "莲花一村1—48栋，华富楼，星馨苑，星光苑，中建宿舍A、B、C、D共4栋，宏安苑，美莲小学宿舍，莲花二村1—46栋，二村莲花楼，莲花中学综合楼，园心苑1—3 栋，田面新村1—51栋，田面花园1—5栋，富荔花园1—7栋，设计院1—2栋，田兴楼，田达楼，田发楼，上村28号，上村45号，福河楼，城市绿洲花园1—9栋，中心公园管理处1—2栋，设计之都1栋和3栋",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2026-06-10 09:29:20",
+    "independent_texts": [
+      {
+        "scope_text": "皇岗路及彩田路以东、笋岗西路以南、福田河以西、深南大道及红荔路以北合围区域。",
+        "school_name_raw": "福田区美莲小学",
+        "year": 2026,
+        "source_url": "https://www.szftedu.cn/xxgk/tzgg/202606/P020260608537815465240.pdf",
+        "source_position": "第5页",
+        "identity_status": "沿用既有逐校核查对应",
+        "applicability": "2026正式方案；已有局部空间诊断，不代表全边界已核准"
+      }
+    ],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2026,
+        "title": "福田区2026年新学校学位优化供给方案",
+        "url": "https://www.szftedu.cn/xxgk/tzgg/202606/P020260608537815465240.pdf",
+        "notice": "https://www.szftedu.cn/xxgk/tzgg/202606/t20260608_176690.html",
+        "status": "正式方案；全文已读取",
+        "schools": [
+          "绿洲小学",
+          "红树林实验学校小学部",
+          "红岭实验学校（上沙）小学部",
+          "深圳莲花山学校",
+          "美莲小学",
+          "福民小学",
+          "皇岗创新实验学校小学部",
+          "皇御苑实验学校小学部",
+          "荔园外国语小学（海滨）"
+        ],
+        "detail": "前5所分别给出招生地段；福民片区4所共同地段也有独立文字。小学共9个学校条目。",
+        "use": "可开展2026文字与同年官方polygon核对；不将跨校申请资格作为范围扩张。"
+      },
+      {
+        "district": "福田",
+        "year": 2021,
+        "title": "2021福田公办小学范围汇总：福田区美莲小学",
+        "url": "https://m.shenchuang.com/show/1598576.shtml",
+        "status": "第三方历史汇总；59项，不是2026全区全集",
+        "detail": "2021表第37项：福田区美莲小学。同名或历史名候选关联；并未逐条完成更名与范围沿用核查。第三方注明深窗综合，未给逐校官方原文链接；不能当作独立官方文本。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/aliases_and_table_end.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": false
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E4B5558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E4B5558E053BC09A8C0A5ED",
+    "school_name": "福田区新莲小学",
+    "district": "福田区",
+    "map_scope_text": "莲花北村东、新莲大厦、富莲大厦",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2023-02-16 10:24:41",
+    "independent_texts": [],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2021,
+        "title": "2021福田公办小学范围汇总：福田区新莲小学",
+        "url": "https://m.shenchuang.com/show/1598576.shtml",
+        "status": "第三方历史汇总；59项，不是2026全区全集",
+        "detail": "2021表第46项：福田区新莲小学。同名或历史名候选关联；并未逐条完成更名与范围沿用核查。第三方注明深窗综合，未给逐校官方原文链接；不能当作独立官方文本。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/aliases_and_table_end.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": true
+  },
+  {
+    "school_id": "sz:futian:school:30b32321534b4c20bff1917d6566e98e",
+    "source_school_id": "30b32321534b4c20bff1917d6566e98e",
+    "school_name": "深圳莲花山学校",
+    "district": "福田区",
+    "map_scope_text": "神彩苑，深科技公寓宿舍，深业上城",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": null,
+    "independent_texts": [
+      {
+        "scope_text": "彩田路以东、北环大道以南、皇岗路以西、笋岗西路以北合围区域。",
+        "school_name_raw": "深圳莲花山学校",
+        "year": 2026,
+        "source_url": "https://www.szftedu.cn/xxgk/tzgg/202606/P020260608537815465240.pdf",
+        "source_position": "第5页",
+        "identity_status": "沿用既有逐校核查对应",
+        "applicability": "2026正式方案；已有局部空间诊断，不代表全边界已核准"
+      }
+    ],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2026,
+        "title": "福田区2026年新学校学位优化供给方案",
+        "url": "https://www.szftedu.cn/xxgk/tzgg/202606/P020260608537815465240.pdf",
+        "notice": "https://www.szftedu.cn/xxgk/tzgg/202606/t20260608_176690.html",
+        "status": "正式方案；全文已读取",
+        "schools": [
+          "绿洲小学",
+          "红树林实验学校小学部",
+          "红岭实验学校（上沙）小学部",
+          "深圳莲花山学校",
+          "美莲小学",
+          "福民小学",
+          "皇岗创新实验学校小学部",
+          "皇御苑实验学校小学部",
+          "荔园外国语小学（海滨）"
+        ],
+        "detail": "前5所分别给出招生地段；福民片区4所共同地段也有独立文字。小学共9个学校条目。",
+        "use": "可开展2026文字与同年官方polygon核对；不将跨校申请资格作为范围扩张。"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": false
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E4A5558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E4A5558E053BC09A8C0A5ED",
+    "school_name": "西交利物浦大学基础教育集团外国语学校（景龙）小学部",
+    "district": "福田区",
+    "map_scope_text": "怡枫园、怡枫尚品、润丰园、景莲花园、安通花园、莲兴苑、景桦花园、富霖花园、香荔新村、凯旋豪庭、新景苑、新狮村、天健综合楼（魔方公寓等）、商报宿舍楼（已拆除重建）、第一世界广场、景丽花园、振业景洲大厦",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2021-02-23 17:57:32",
+    "independent_texts": [],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2021,
+        "title": "2021福田公办小学范围汇总：福田区景龙小学",
+        "url": "https://m.shenchuang.com/show/1598576.shtml",
+        "status": "第三方历史汇总；59项，不是2026全区全集",
+        "detail": "2021表第43项：福田区景龙小学。同名或历史名候选关联；并未逐条完成更名与范围沿用核查。第三方注明深窗综合，未给逐校官方原文链接；不能当作独立官方文本。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/aliases_and_table_end.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": true
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E4C5558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E4C5558E053BC09A8C0A5ED",
+    "school_name": "福田区景莲小学",
+    "district": "福田区",
+    "map_scope_text": "莲花北村1-36栋 ，吉莲大厦，宝莲大厦，莲花北村电话机房宿舍",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2021-02-24 08:52:57",
+    "independent_texts": [
+      {
+        "scope_text": "雨田路以西，新洲路以东，北环路以南，莲花路以北的莲花北住宅区1——36栋，吉莲大厦1-4栋和宝莲大厦1-3栋。",
+        "school_name_raw": "福田区景莲小学",
+        "year": 2021,
+        "source_url": "https://jlxx.szftedu.cn/zjjl/xxgk_8845/202107/t20210705_133934.html",
+        "source_title": "景莲小学关于2021年秋季接收插班生工作的公告",
+        "source_position": "1.招生范围，网页L29-L31",
+        "source_archive": "福田区/文字补查_20261111/网络记录/read_more.json",
+        "supplement_run": "futian_web_20261111",
+        "identity_status": "原文学校名与地图记录直接对应",
+        "applicability": "历史学校正式发布范围；2026是否完整沿用及与polygon一致性尚待核对；楼栋限制完整保留；2024转学公告未列出范围，不能据此证明沿用",
+        "publication_status": "historical_official",
+        "formal_gold_eligible": false
+      }
+    ],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2021,
+        "title": "景莲小学关于2021年秋季接收插班生工作的公告",
+        "url": "https://jlxx.szftedu.cn/zjjl/xxgk_8845/202107/t20210705_133934.html",
+        "status": "2026-11-11已核读并配对历史文字；现行适用待核",
+        "schools": [
+          "景莲小学"
+        ],
+        "detail": "明确道路方向，同时限定莲花北住宅区1—36栋、吉莲大厦1—4栋和宝莲大厦1—3栋；不能只保留道路矩形而丢掉楼栋限定。",
+        "use": "历史学校正式发布范围；2026是否完整沿用及与polygon一致性尚待核对；楼栋限制完整保留；2024转学公告未列出范围，不能据此证明沿用",
+        "previous_status": "学校正式转学公告；范围段落已读取"
+      },
+      {
+        "district": "福田",
+        "year": 2021,
+        "title": "2021福田公办小学范围汇总：福田区景莲小学",
+        "url": "https://m.shenchuang.com/show/1598576.shtml",
+        "status": "第三方历史汇总；59项，不是2026全区全集",
+        "detail": "2021表第47项：福田区景莲小学。同名或历史名候选关联；并未逐条完成更名与范围沿用核查。第三方注明深窗综合，未给逐校官方原文链接；不能当作独立官方文本。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/aliases_and_table_end.json",
+        "supplement_run": "futian_web_20261111"
+      },
+      {
+        "district": "福田",
+        "year": 2024,
+        "title": "景莲小学2024转学公告",
+        "url": "https://jlxx.szftedu.cn/xyzx_8847/xxgg_8849/202407/t20240705_164851.html",
+        "status": "已读；不含可补录的本校范围",
+        "detail": "全文没有列出具体范围，不能证明旧地段沿用",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/read_more.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": false
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E565558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E565558E053BC09A8C0A5ED",
+    "school_name": "福田区益田小学",
+    "district": "福田区",
+    "map_scope_text": "益田村1-43栋，益强居1、2栋，益荣居1、2栋，益田村101、102栋",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2021-04-16 17:15:14",
+    "independent_texts": [],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2021,
+        "title": "2021福田公办小学范围汇总：福田区益田小学",
+        "url": "https://m.shenchuang.com/show/1598576.shtml",
+        "status": "第三方历史汇总；59项，不是2026全区全集",
+        "detail": "2021表第4项：福田区益田小学。同名或历史名候选关联；并未逐条完成更名与范围沿用核查。第三方注明深窗综合，未给逐校官方原文链接；不能当作独立官方文本。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/aliases_and_table_end.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": true
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E4E5558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E4E5558E053BC09A8C0A5ED",
+    "school_name": "福田区梅丽小学",
+    "district": "福田区",
+    "map_scope_text": "民浩楼，鸿运大楼，东梅公寓，鸿运出租公司，梅林居，梅林医院，赛格三星单身宿舍楼， 梅林三村，梅林四村，梅林阁，福星阁， 上梅林祠堂村，上梅林新村，上梅林市场，华景花园， 华茂苑，百兴苑，万众城，东方富苑，上梅林街道办综合楼，消防中队综合楼， 多丽工业区，汉光电子公司， 红梅苑，梅兴苑，荔园阁，香山花园，新世界花园",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2022-04-11 17:01:58",
+    "independent_texts": [],
+    "candidate_policy_texts": [
+      {
+        "scope_text": "梅秀路及梅村路以东、梅林路以南、中康路以西、梅华路及北环大道以北合围区域。",
+        "school_name_raw": "福田区梅丽小学",
+        "year": 2025,
+        "source_url": "https://www.szftedu.cn/xxgk/tzgg/202505/t20250514_168847.html",
+        "source_title": "福田区2025年新学校学位优化供给方案（征求意见稿）",
+        "source_position": "小学部分L72",
+        "source_archive": "福田区/文字补查_20261111/网络记录/current_and_draft.json",
+        "supplement_run": "futian_web_20261111",
+        "identity_status": "原文学校名与地图记录直接对应",
+        "applicability": "征求意见稿，不作正式现行范围；本轮未找到正式定稿原文；初中范围不混入小学",
+        "publication_status": "draft",
+        "formal_gold_eligible": false
+      }
+    ],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2025,
+        "title": "福田区2025年新学校学位优化供给方案（征求意见稿）",
+        "url": "https://www.szftedu.cn/xxgk/tzgg/202505/t20250514_168847.html",
+        "status": "2026-11-11已核读并配对历史文字；现行适用待核",
+        "schools": [
+          "梅丽小学",
+          "梅华小学"
+        ],
+        "detail": "分别给出梅丽小学和梅华小学自身招生地段；梅红小学部分享申请政策另列。",
+        "use": "征求意见稿，不作正式现行范围；本轮未找到正式定稿原文；初中范围不混入小学",
+        "previous_status": "征求意见稿；正文已读取"
+      },
+      {
+        "district": "福田",
+        "year": 2021,
+        "title": "2021福田公办小学范围汇总：福田区梅丽小学",
+        "url": "https://m.shenchuang.com/show/1598576.shtml",
+        "status": "第三方历史汇总；59项，不是2026全区全集",
+        "detail": "2021表第56项：福田区梅丽小学。同名或历史名候选关联；并未逐条完成更名与范围沿用核查。第三方注明深窗综合，未给逐校官方原文链接；不能当作独立官方文本。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/aliases_and_table_end.json",
+        "supplement_run": "futian_web_20261111"
+      },
+      {
+        "district": "福田",
+        "year": 2025,
+        "title": "梅丽小学2025转学公告",
+        "url": "https://ftml.szftedu.cn/xyzx_532/gg/tzgg_537/202507/t20250707_169663.html",
+        "status": "已读；不含可补录的本校范围",
+        "detail": "全文没有列出具体范围，不能代替2025草案的正式定稿",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/targeted_04.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": true
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E4F5558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E4F5558E053BC09A8C0A5ED",
+    "school_name": "福田区梅园小学",
+    "district": "福田区",
+    "map_scope_text": "梅林一村",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2021-03-05 10:56:54",
+    "independent_texts": [],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2021,
+        "title": "2021福田公办小学范围汇总：福田区梅园小学",
+        "url": "https://m.shenchuang.com/show/1598576.shtml",
+        "status": "第三方历史汇总；59项，不是2026全区全集",
+        "detail": "2021表第58项：福田区梅园小学。同名或历史名候选关联；并未逐条完成更名与范围沿用核查。第三方注明深窗综合，未给逐校官方原文链接；不能当作独立官方文本。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/aliases_and_table_end.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": true
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E515558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E515558E053BC09A8C0A5ED",
+    "school_name": "福田区梅山小学",
+    "district": "福田区",
+    "map_scope_text": "下梅林村，成丰电子厂，锦林新居，尚书苑，高达苑，鸿达苑，碧云天，市外事办服务处，林海山庄，梅山苑（一、二期），通业花园，颂德国际",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2022-04-28 15:57:15",
+    "independent_texts": [
+      {
+        "scope_text": "边防二线以南，福田-南山区界以东，北环大道以北，梅丽路以西，西转接梅林路，接梅山街以南，接梅林一村围墙以北，接边防二线。\n小区名称：梅山苑一期、梅山苑二期、颂德花园；林海山庄、尚书苑、高达苑、鸿达苑、碧云天、锦林新居、裕林花园、通业花园、绿景虹湾、景源会所；劳教所干警生活基地、红岭中学宿舍、梅山中学宿舍、市外事办服务处宿舍、水务局宿舍、华港公寓、道路公司宿舍、建安集团宿舍；下梅林村、丰田村。",
+        "school_name_raw": "福田区梅山小学",
+        "year": 2022,
+        "source_url": "https://msxx.szftedu.cn/xxgk_579/xzfc_585/202207/t20220705_140502.html",
+        "source_title": "梅山小学2022年秋季转学插班工作公告",
+        "source_position": "三、招生范围表；网页打开超时，搜索工具返回该公告全文",
+        "source_archive": "福田区/文字补查_20261111/网络记录/targeted_04.json",
+        "supplement_run": "futian_web_20261111",
+        "identity_status": "原文学校名与地图记录直接对应",
+        "applicability": "历史学校正式发布范围；2026是否完整沿用及与polygon一致性尚待核对；标题/落款为2022，申报时间却写2021；日期冲突保留，不自行纠正",
+        "publication_status": "historical_official",
+        "formal_gold_eligible": false
+      }
+    ],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2022,
+        "title": "梅山小学2022年秋季转学插班工作公告",
+        "url": "https://msxx.szftedu.cn/xxgk_579/xzfc_585/202207/t20220705_140502.html",
+        "status": "2026-11-11已核读并配对历史文字；现行适用待核",
+        "schools": [
+          "梅山小学"
+        ],
+        "detail": "同时提供复杂四至和住宅名单，边界涉及边防二线、福田与南山区界、北环大道、梅丽路、梅林路、梅山街及梅林一村围墙。",
+        "use": "历史学校正式发布范围；2026是否完整沿用及与polygon一致性尚待核对；标题/落款为2022，申报时间却写2021；日期冲突保留，不自行纠正",
+        "previous_status": "学校正式转学公告；范围段落已读取"
+      },
+      {
+        "district": "福田",
+        "year": 2021,
+        "title": "2021福田公办小学范围汇总：福田区梅山小学",
+        "url": "https://m.shenchuang.com/show/1598576.shtml",
+        "status": "第三方历史汇总；59项，不是2026全区全集",
+        "detail": "2021表第59项：福田区梅山小学。同名或历史名候选关联；并未逐条完成更名与范围沿用核查。第三方注明深窗综合，未给逐校官方原文链接；不能当作独立官方文本。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/aliases_and_table_end.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": false
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E505558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E505558E053BC09A8C0A5ED",
+    "school_name": "福田区外国语小学（景秀）",
+    "district": "福田区",
+    "map_scope_text": "俊景豪园、香景大厦、赛格景苑、宏浩花园、康欣园、翔名苑、景蜜村、景雅居、天健时尚新天地、燃气公司、科技中学宿舍楼、布尾村1一67栋、景田南、景新花园、景林花园、天一名居、景鹏大厦、金色家园、茶宫（茗香苑）、景茗苑、景诚园综合楼、科技小学宿舍楼",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2021-02-24 09:14:25",
+    "independent_texts": [],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2021,
+        "title": "2021福田公办小学范围汇总：福田区景秀小学",
+        "url": "https://m.shenchuang.com/show/1598576.shtml",
+        "status": "第三方历史汇总；59项，不是2026全区全集",
+        "detail": "2021表第48项：福田区景秀小学。同名或历史名候选关联；并未逐条完成更名与范围沿用核查。第三方注明深窗综合，未给逐校官方原文链接；不能当作独立官方文本。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/aliases_and_table_end.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": true
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E535558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E535558E053BC09A8C0A5ED",
+    "school_name": "福田区红岭实验学校（上沙）小学部",
+    "district": "福田区",
+    "map_scope_text": "上沙创新科技园1-3栋、5-15栋，上沙龙秋村1-18巷，上沙花园C座，上沙商业综合楼，上沙村安居楼，上沙花园A、B座，上沙村福民新苑A-E座，上沙九园村1巷，上沙村西苑，上沙小商品市场B、C座，上沙新村1-4巷，上沙塘晏村7-23巷，上沙村48栋1-7巷，上沙村东苑1-29栋，上沙小学宿舍楼，上沙中学宿舍楼，金海湾花园小区，金地花园小区，上沙红旗岭小区",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2026-04-17 15:45:38",
+    "independent_texts": [
+      {
+        "scope_text": "福荣路以北、上下沙路及银沙路以东及以北、滨河路及福强路以南、沙嘴路以西合围区域。",
+        "school_name_raw": "福田区红岭实验学校（上沙）小学部",
+        "year": 2026,
+        "source_url": "https://www.szftedu.cn/xxgk/tzgg/202606/P020260608537815465240.pdf",
+        "source_position": "第2页",
+        "identity_status": "沿用既有逐校核查对应",
+        "applicability": "2026正式方案；已有局部空间诊断，不代表全边界已核准"
+      }
+    ],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2026,
+        "title": "福田区2026年新学校学位优化供给方案",
+        "url": "https://www.szftedu.cn/xxgk/tzgg/202606/P020260608537815465240.pdf",
+        "notice": "https://www.szftedu.cn/xxgk/tzgg/202606/t20260608_176690.html",
+        "status": "正式方案；全文已读取",
+        "schools": [
+          "绿洲小学",
+          "红树林实验学校小学部",
+          "红岭实验学校（上沙）小学部",
+          "深圳莲花山学校",
+          "美莲小学",
+          "福民小学",
+          "皇岗创新实验学校小学部",
+          "皇御苑实验学校小学部",
+          "荔园外国语小学（海滨）"
+        ],
+        "detail": "前5所分别给出招生地段；福民片区4所共同地段也有独立文字。小学共9个学校条目。",
+        "use": "可开展2026文字与同年官方polygon核对；不将跨校申请资格作为范围扩张。"
+      },
+      {
+        "district": "福田",
+        "year": 2021,
+        "title": "2021福田公办小学范围汇总：福田区上沙小学",
+        "url": "https://m.shenchuang.com/show/1598576.shtml",
+        "status": "第三方历史汇总；59项，不是2026全区全集",
+        "detail": "2021表第7项：福田区上沙小学。同名或历史名候选关联；并未逐条完成更名与范围沿用核查。第三方注明深窗综合，未给逐校官方原文链接；不能当作独立官方文本。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/aliases_and_table_end.json",
+        "supplement_run": "futian_web_20261111"
+      },
+      {
+        "district": "福田",
+        "year": 2026,
+        "title": "上沙学校招生入口",
+        "url": "https://sszx.szftedu.cn/xxzs/xxzs/202603/t20260324_172675.html",
+        "status": "已读；不含可补录的本校范围",
+        "detail": "仅列招生咨询电话，没有范围文字",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/read_deep.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": false
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E545558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E545558E053BC09A8C0A5ED",
+    "school_name": "福田区绿洲小学",
+    "district": "福田区",
+    "map_scope_text": "金沙花园，锦河苑，绿洲花园，福瑞阁，香江西苑，绿景花园，宝鸿苑，凯欣园，新中苑，蜜园，韵动家园，荔树人家，椰树花园，怡和楼",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2026-06-10 09:31:44",
+    "independent_texts": [
+      {
+        "scope_text": "福强路以东及以北、滨河路及新洲九街以南、新洲三街及沙嘴路以西合围区域。",
+        "school_name_raw": "福田区绿洲小学",
+        "year": 2026,
+        "source_url": "https://www.szftedu.cn/xxgk/tzgg/202606/P020260608537815465240.pdf",
+        "source_position": "第2页",
+        "identity_status": "沿用既有逐校核查对应",
+        "applicability": "2026正式方案；已有局部空间诊断，不代表全边界已核准"
+      }
+    ],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2026,
+        "title": "福田区2026年新学校学位优化供给方案",
+        "url": "https://www.szftedu.cn/xxgk/tzgg/202606/P020260608537815465240.pdf",
+        "notice": "https://www.szftedu.cn/xxgk/tzgg/202606/t20260608_176690.html",
+        "status": "正式方案；全文已读取",
+        "schools": [
+          "绿洲小学",
+          "红树林实验学校小学部",
+          "红岭实验学校（上沙）小学部",
+          "深圳莲花山学校",
+          "美莲小学",
+          "福民小学",
+          "皇岗创新实验学校小学部",
+          "皇御苑实验学校小学部",
+          "荔园外国语小学（海滨）"
+        ],
+        "detail": "前5所分别给出招生地段；福民片区4所共同地段也有独立文字。小学共9个学校条目。",
+        "use": "可开展2026文字与同年官方polygon核对；不将跨校申请资格作为范围扩张。"
+      },
+      {
+        "district": "福田",
+        "year": 2021,
+        "title": "2021福田公办小学范围汇总：福田区绿洲小学",
+        "url": "https://m.shenchuang.com/show/1598576.shtml",
+        "status": "第三方历史汇总；59项，不是2026全区全集",
+        "detail": "2021表第6项：福田区绿洲小学。同名或历史名候选关联；并未逐条完成更名与范围沿用核查。第三方注明深窗综合，未给逐校官方原文链接；不能当作独立官方文本。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/aliases_and_table_end.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": false
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E1E5558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E1E5558E053BC09A8C0A5ED",
+    "school_name": "福田区荔园小学（百花）",
+    "district": "福田区",
+    "map_scope_text": "百花公寓，百花园，南天一花园，长城大厦15栋、16栋",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2021-04-16 17:18:10",
+    "independent_texts": [
+      {
+        "scope_text": "        北校区小学一年级就近入学服务范围为：上埗路以西，百花一路、二路以北，百花四路以南、百花五路以东。（百花四路的长安、长东花园除外）。\n40：百花园一期（牡丹阁，紫荆阁，百合阁），百花园二期（芙蓉阁，玫瑰阁，海棠阁），南天一花园1栋、2栋、3栋，百花公寓1-5栋，长城大厦（核电大厦）15栋、16栋\n原文另注：（百花四路边的长安、长乐花园除外）",
+        "school_name_raw": "荔园小学北校区",
+        "year": 2015,
+        "source_url": "https://lyxx.szftedu.cn/hdpt/201704/t20170425_27381.html",
+        "source_title": "荔园小学南、北、西校区招生地段范围",
+        "source_position": "北校区L151-L163",
+        "source_archive": "福田区/文字补查_20261111/网络记录/read_next.json",
+        "supplement_run": "futian_web_20261111",
+        "identity_status": "2019-02-18南方都市报具名报道明确南→通新岭、北→百花、西→玮鹏；属于媒体佐证的历史校名映射，非2026范围确认",
+        "applicability": "历史学校正式发布范围；2026是否完整沿用及与polygon一致性尚待核对；正文日期2015-03-24；附图未转为文字；北校区正文两处排除住宅分别写长东、长乐，冲突未消解",
+        "publication_status": "historical_official",
+        "formal_gold_eligible": false,
+        "identity_evidence_url": "https://www.sohu.com/a/295408520_161795",
+        "identity_evidence_archive": "福田区/文字补查_20261111/网络记录/alias_identity.json",
+        "scope_completeness": "已保存正文；附图未转录，不能称完整边界核验"
+      }
+    ],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2021,
+        "title": "2021福田公办小学范围汇总：福田区荔园小学（荔园教育集团）百花校区",
+        "url": "https://m.shenchuang.com/show/1598576.shtml",
+        "status": "第三方历史汇总；59项，不是2026全区全集",
+        "detail": "2021表第31项：福田区荔园小学（荔园教育集团）百花校区。同名或历史名候选关联；并未逐条完成更名与范围沿用核查。第三方注明深窗综合，未给逐校官方原文链接；不能当作独立官方文本。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/aliases_and_table_end.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": false
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E525558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E525558E053BC09A8C0A5ED",
+    "school_name": "福田区石厦学校（小学部）",
+    "district": "福田区",
+    "map_scope_text": "宏轩大厦、绿洲丰和家园、阳光四季、丽阳天下、缔馨苑、葵花公寓、高发住宅楼、信托花园、中央花园、宏欣豪园、泰美园、祥韵苑、恒冠豪园、金地翠园、东方欣悦居、碧馨苑、南方国际广场、星座传奇、合正佳园、天健阳光华苑、雅云轩、明月花园、博伦花园、瑞和园",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2021-02-24 10:14:15",
+    "independent_texts": [],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2021,
+        "title": "2021福田公办小学范围汇总：福田区石厦学校小学部",
+        "url": "https://m.shenchuang.com/show/1598576.shtml",
+        "status": "第三方历史汇总；59项，不是2026全区全集",
+        "detail": "2021表第14项：福田区石厦学校小学部。同名或历史名候选关联；并未逐条完成更名与范围沿用核查。第三方注明深窗综合，未给逐校官方原文链接；不能当作独立官方文本。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/aliases_and_table_end.json",
+        "supplement_run": "futian_web_20261111"
+      },
+      {
+        "district": "福田",
+        "year": 2022,
+        "title": "石厦学校转载2022报名指南",
+        "url": "https://sxxx.szftedu.cn/zszp/202205/t20220530_139870.html",
+        "status": "已读；不含可补录的本校范围",
+        "detail": "指向地段代码图，没有单独列出本校范围",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/read_deep.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": true
+  },
+  {
+    "school_id": "sz:futian:school:326b3e20cb7f47af9ddd5f94ab5cf878",
+    "source_school_id": "326b3e20cb7f47af9ddd5f94ab5cf878",
+    "school_name": "深圳明德实验学校（集团）福田五洲小学",
+    "district": "福田区",
+    "map_scope_text": "都市花园，揽翠阁，新光活力小区，天安高尔夫花园，华海小区，福宇轩，国都高尔夫花园，君临天下，嘉洲华苑",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2024-05-29 17:37:10",
+    "independent_texts": [
+      {
+        "scope_text": "五洲小学招生地段：香蜜湖路以东、深南大道以南、新洲路以西、滨河大道以北合围区域。",
+        "school_name_raw": "深圳明德实验学校（集团）福田五洲小学",
+        "year": 2024,
+        "source_url": "https://www.szftedu.cn/xxgk/tzgg/202405/P020240528579517653311.pdf",
+        "source_position": "第1页；存档 L10-L11",
+        "identity_status": "名称人工对应；保留来源中的历史名称",
+        "applicability": "历史正式范围；与当前地图及后续调整的承接待核"
+      }
+    ],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2024,
+        "title": "福田区2024年新学校学位优化供给方案",
+        "url": "https://www.szftedu.cn/xxgk/tzgg/202405/P020240528579517653311.pdf",
+        "status": "前轮取得的正式历史方案；本轮搜索再次检出",
+        "schools": [
+          "五洲小学（暂定名）",
+          "深圳外国语小学",
+          "东海实验小学"
+        ],
+        "detail": "含3所小学基础地段文字，已列入此前独立来源清单。",
+        "use": "按2024来源保存，与2026范围的持续性另核。"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": false
+  },
+  {
+    "school_id": "sz:futian:school:dfc94f0fd01a474e82b707ae40d13dd1",
+    "source_school_id": "dfc94f0fd01a474e82b707ae40d13dd1",
+    "school_name": "深圳外国语小学",
+    "district": "福田区",
+    "map_scope_text": "东海花园，东海花园福禄居，东海花园君豪阁，雍祥居，东海十八居，香荔绿洲，深业中城，阳光高尔夫大厦，财富广场",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": null,
+    "independent_texts": [
+      {
+        "scope_text": "深圳外国语小学招生地段：农轩路以东、红荔西路以南、香蜜湖路以西、深南大道以北合围区域。",
+        "school_name_raw": "深圳外国语小学",
+        "year": 2024,
+        "source_url": "https://www.szftedu.cn/xxgk/tzgg/202405/P020240528579517653311.pdf",
+        "source_position": "第3页；存档 L43-L44",
+        "identity_status": "名称人工对应；保留来源中的历史名称",
+        "applicability": "历史正式范围；与当前地图及后续调整的承接待核"
+      }
+    ],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2024,
+        "title": "福田区2024年新学校学位优化供给方案",
+        "url": "https://www.szftedu.cn/xxgk/tzgg/202405/P020240528579517653311.pdf",
+        "status": "前轮取得的正式历史方案；本轮搜索再次检出",
+        "schools": [
+          "五洲小学（暂定名）",
+          "深圳外国语小学",
+          "东海实验小学"
+        ],
+        "detail": "含3所小学基础地段文字，已列入此前独立来源清单。",
+        "use": "按2024来源保存，与2026范围的持续性另核。"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": false
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E555558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E555558E053BC09A8C0A5ED",
+    "school_name": "福田区福强小学",
+    "district": "福田区",
+    "map_scope_text": "益田村103—118栋，益田村120栋",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2021-04-16 17:14:08",
+    "independent_texts": [],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2021,
+        "title": "2021福田公办小学范围汇总：福田区福强小学",
+        "url": "https://m.shenchuang.com/show/1598576.shtml",
+        "status": "第三方历史汇总；59项，不是2026全区全集",
+        "detail": "2021表第2项：福田区福强小学。同名或历史名候选关联；并未逐条完成更名与范围沿用核查。第三方注明深窗综合，未给逐校官方原文链接；不能当作独立官方文本。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/aliases_and_table_end.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": true
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E575558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E575558E053BC09A8C0A5ED",
+    "school_name": "西交利物浦大学基础教育集团外国语学校（全海）小学部",
+    "district": "福田区",
+    "map_scope_text": "益田村44—82栋，高层119栋，121栋，益荣居3，4栋，石厦南总站，益田市场，高发佳苑，福田花园，全海花园，绿景蓝湾半岛，金地海景，金地翠堤湾，金海丽名居",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2023-03-17 17:52:10",
+    "independent_texts": [],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2021,
+        "title": "2021福田公办小学范围汇总：福田区全海小学",
+        "url": "https://m.shenchuang.com/show/1598576.shtml",
+        "status": "第三方历史汇总；59项，不是2026全区全集",
+        "detail": "2021表第5项：福田区全海小学。同名或历史名候选关联；并未逐条完成更名与范围沿用核查。第三方注明深窗综合，未给逐校官方原文链接；不能当作独立官方文本。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/aliases_and_table_end.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": true
+  },
+  {
+    "school_id": "sz:futian:school:b6d1db1ce1ba4d1ab4f6e2723ee5af72",
+    "source_school_id": "b6d1db1ce1ba4d1ab4f6e2723ee5af72",
+    "school_name": "福田区红树林实验学校小学部",
+    "district": "福田区",
+    "map_scope_text": "金地名轩，元盛兴苑，星河锦居，好景豪园，绿景尚悦府，红树湾壹号，环湾名苑，沙尾村，沙嘴村，边防分局新沙干部楼",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": null,
+    "independent_texts": [
+      {
+        "scope_text": "沙嘴路以东、福强路以南、新洲路以西、福荣路以北合围区域；不含全海花园、绿景蓝湾半岛、金地海景花园、金海丽名居等小区。",
+        "school_name_raw": "福田区红树林实验学校小学部",
+        "year": 2026,
+        "source_url": "https://www.szftedu.cn/xxgk/tzgg/202606/P020260608537815465240.pdf",
+        "source_position": "第2页",
+        "identity_status": "沿用既有逐校核查对应",
+        "applicability": "2026正式方案；已有局部空间诊断，不代表全边界已核准"
+      }
+    ],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2026,
+        "title": "福田区2026年新学校学位优化供给方案",
+        "url": "https://www.szftedu.cn/xxgk/tzgg/202606/P020260608537815465240.pdf",
+        "notice": "https://www.szftedu.cn/xxgk/tzgg/202606/t20260608_176690.html",
+        "status": "正式方案；全文已读取",
+        "schools": [
+          "绿洲小学",
+          "红树林实验学校小学部",
+          "红岭实验学校（上沙）小学部",
+          "深圳莲花山学校",
+          "美莲小学",
+          "福民小学",
+          "皇岗创新实验学校小学部",
+          "皇御苑实验学校小学部",
+          "荔园外国语小学（海滨）"
+        ],
+        "detail": "前5所分别给出招生地段；福民片区4所共同地段也有独立文字。小学共9个学校条目。",
+        "use": "可开展2026文字与同年官方polygon核对；不将跨校申请资格作为范围扩张。"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": false
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E5F5558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E5F5558E053BC09A8C0A5ED",
+    "school_name": "香港中文大学（深圳）附属彩田学校（小学部）",
+    "district": "福田区",
+    "map_scope_text": "水源大厦（员工宿舍），彩田村，彩田居，润鹏花园，民宁园，天威视讯（员工宿舍），城管大厦（员工宿舍），公安局交通警察局（员工宿舍），逸庭苑宾馆（员工宿舍），长城盛世，翡翠名园，彩天怡色，茂恒园，中级法院（员工宿舍），书画院（员工宿舍），雨田村，莲丰花园，莲丰雅苑，青莲公寓，岭秀名苑，梅林海关生活区，莲花天心楼，京明会所（员工宿舍），宏威花园，月鸣轩，山水轩，山月居，公交大厦（员工宿舍）、莲丰大厦、天威花园",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2021-02-24 11:08:47",
+    "independent_texts": [],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2021,
+        "title": "2021福田公办小学范围汇总：福田区彩田学校小学部",
+        "url": "https://m.shenchuang.com/show/1598576.shtml",
+        "status": "第三方历史汇总；59项，不是2026全区全集",
+        "detail": "2021表第41项：福田区彩田学校小学部。同名或历史名候选关联；并未逐条完成更名与范围沿用核查。第三方注明深窗综合，未给逐校官方原文链接；不能当作独立官方文本。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/aliases_and_table_end.json",
+        "supplement_run": "futian_web_20261111"
+      },
+      {
+        "district": "福田",
+        "year": "以原页为准",
+        "title": "本地宝范围资料：香港中文大学（深圳）附属彩田学校（小学部）",
+        "url": "https://m.bendibao.com/show923790.html",
+        "status": "第三方历史资料；已打开原页",
+        "detail": "部分文章注明福田教育网，但未链接逐校政策原文；可能转录地图XQ，不能新增官方独立证据。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/thirdparty_1.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": true
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E5D5558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E5D5558E053BC09A8C0A5ED",
+    "school_name": "北京大学附属中学深圳学校（集团）黄埔学校（小学部）",
+    "district": "福田区",
+    "map_scope_text": "黄埔雅苑，儿童医院，深交所，江苏大厦",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2021-02-24 10:27:46",
+    "independent_texts": [],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2021,
+        "title": "2021福田公办小学范围汇总：福田区黄埔学校小学部",
+        "url": "https://m.shenchuang.com/show/1598576.shtml",
+        "status": "第三方历史汇总；59项，不是2026全区全集",
+        "detail": "2021表第40项：福田区黄埔学校小学部。同名或历史名候选关联；并未逐条完成更名与范围沿用核查。第三方注明深窗综合，未给逐校官方原文链接；不能当作独立官方文本。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/aliases_and_table_end.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": true
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E495558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E495558E053BC09A8C0A5ED",
+    "school_name": "福田区梅华小学",
+    "district": "福田区",
+    "map_scope_text": "汇龙花园、建龙苑、富国工业区、艺丰花园、银海苑、先科花园、振业梅苑、凯伦花园、逸园、安居苑、福丰楼、中康生活区、金燕园、绅宝花园、蓝宝石名庭、雕塑家园、福茂花园、颐林雅苑、大围坊、海康大厦、万科大厦、华府馨居、合旺阁、华安园、鼎业大厦、怡景大厦、捷顺大厦、凡恩大楼、深港建筑大厦、满京华商业大厦、奥士达大厦、公安特警支队宿舍、理想公馆",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2021-03-11 17:40:26",
+    "independent_texts": [],
+    "candidate_policy_texts": [
+      {
+        "scope_text": "梅林山及中康路以东、梅林山以南、彩田路以西、梅林路及北环大道以北合围区域。",
+        "school_name_raw": "福田区梅华小学",
+        "year": 2025,
+        "source_url": "https://www.szftedu.cn/xxgk/tzgg/202505/t20250514_168847.html",
+        "source_title": "福田区2025年新学校学位优化供给方案（征求意见稿）",
+        "source_position": "小学部分L73",
+        "source_archive": "福田区/文字补查_20261111/网络记录/current_and_draft.json",
+        "supplement_run": "futian_web_20261111",
+        "identity_status": "原文学校名与地图记录直接对应",
+        "applicability": "征求意见稿，不作正式现行范围；本轮未找到正式定稿原文；初中范围不混入小学",
+        "publication_status": "draft",
+        "formal_gold_eligible": false
+      }
+    ],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2025,
+        "title": "福田区2025年新学校学位优化供给方案（征求意见稿）",
+        "url": "https://www.szftedu.cn/xxgk/tzgg/202505/t20250514_168847.html",
+        "status": "2026-11-11已核读并配对历史文字；现行适用待核",
+        "schools": [
+          "梅丽小学",
+          "梅华小学"
+        ],
+        "detail": "分别给出梅丽小学和梅华小学自身招生地段；梅红小学部分享申请政策另列。",
+        "use": "征求意见稿，不作正式现行范围；本轮未找到正式定稿原文；初中范围不混入小学",
+        "previous_status": "征求意见稿；正文已读取"
+      },
+      {
+        "district": "福田",
+        "year": 2021,
+        "title": "2021福田公办小学范围汇总：福田区梅华小学",
+        "url": "https://m.shenchuang.com/show/1598576.shtml",
+        "status": "第三方历史汇总；59项，不是2026全区全集",
+        "detail": "2021表第55项：福田区梅华小学。同名或历史名候选关联；并未逐条完成更名与范围沿用核查。第三方注明深窗综合，未给逐校官方原文链接；不能当作独立官方文本。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/aliases_and_table_end.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": true
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E585558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E585558E053BC09A8C0A5ED",
+    "school_name": "福田区外国语小学",
+    "district": "福田区",
+    "map_scope_text": "布尾村68至171栋；梅富村1至134栋；景田西1至17栋；景田北小区31至38栋；景西大厦；景龙大厦； 必好花园；紫薇阁，万科城市花园；天健花园；景秀年华；七街公馆（哈尔滨大厦）；青海大厦；武警大厦（景华苑）；景尚雅苑；华盛领寓；福田外国语小学宿舍；幸福家园；馨庭苑；怡华苑;福田外国语学校宿舍、传麒景苑，梅林水厂宿舍；特发小区；嘉 隆星苑；公交集团宿舍，天然居、天明居。",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2022-07-07 14:36:31",
+    "independent_texts": [],
+    "candidate_policy_texts": [],
+    "source_leads": [],
+    "map_text_missing": false,
+    "independent_text_missing": true
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E195558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E195558E053BC09A8C0A5ED",
+    "school_name": "福田区荔园外国语小学（香蜜湖）",
+    "district": "福田区",
+    "map_scope_text": "港中旅花园（中旅国际公馆），香域中央花园，翠海花园",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2021-02-24 10:46:37",
+    "independent_texts": [],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2021,
+        "title": "2021福田公办小学范围汇总：福田区荔园外国语小学（香蜜湖)(原西校区）",
+        "url": "https://m.shenchuang.com/show/1598576.shtml",
+        "status": "第三方历史汇总；59项，不是2026全区全集",
+        "detail": "2021表第51项：福田区荔园外国语小学（香蜜湖)(原西校区）。同名或历史名候选关联；并未逐条完成更名与范围沿用核查。第三方注明深窗综合，未给逐校官方原文链接；不能当作独立官方文本。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/aliases_and_table_end.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": true
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E595558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E595558E053BC09A8C0A5ED",
+    "school_name": "香港中文大学（深圳）附属天健小学",
+    "district": "福田区",
+    "map_scope_text": "天健世纪花园、中银花园、雅颂居、深业花园",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2021-02-25 11:28:15",
+    "independent_texts": [],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2021,
+        "title": "2021福田公办小学范围汇总：福田区天健小学",
+        "url": "https://m.shenchuang.com/show/1598576.shtml",
+        "status": "第三方历史汇总；59项，不是2026全区全集",
+        "detail": "2021表第39项：福田区天健小学。同名或历史名候选关联；并未逐条完成更名与范围沿用核查。第三方注明深窗综合，未给逐校官方原文链接；不能当作独立官方文本。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/aliases_and_table_end.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": true
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E5A5558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E5A5558E053BC09A8C0A5ED",
+    "school_name": "福田区东海实验小学",
+    "district": "福田区",
+    "map_scope_text": "俊安苑，龙溪花园，香榭里花园，荔林苑，天宝物华，花卉中心，香珠花园，高级中学初中部宿舍，香蜜湖街道办宿舍，香蜜湖医院宿舍，东海公寓，天御香山花园，香榭茗园",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2024-05-29 17:41:03",
+    "independent_texts": [
+      {
+        "scope_text": "东海实验小学招生地段：农林路以东、泽田路及侨香路以南、香蜜湖路及农轩路以西、红荔西路及深南大道以北合围区域。",
+        "school_name_raw": "福田区东海实验小学",
+        "year": 2024,
+        "source_url": "https://www.szftedu.cn/xxgk/tzgg/202405/P020240528579517653311.pdf",
+        "source_position": "第3页；存档 L45-L47",
+        "identity_status": "名称人工对应；保留来源中的历史名称",
+        "applicability": "历史正式范围；与当前地图及后续调整的承接待核"
+      }
+    ],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2024,
+        "title": "福田区2024年新学校学位优化供给方案",
+        "url": "https://www.szftedu.cn/xxgk/tzgg/202405/P020240528579517653311.pdf",
+        "status": "前轮取得的正式历史方案；本轮搜索再次检出",
+        "schools": [
+          "五洲小学（暂定名）",
+          "深圳外国语小学",
+          "东海实验小学"
+        ],
+        "detail": "含3所小学基础地段文字，已列入此前独立来源清单。",
+        "use": "按2024来源保存，与2026范围的持续性另核。"
+      },
+      {
+        "district": "福田",
+        "year": 2021,
+        "title": "2021福田公办小学范围汇总：福田区东海实验小学",
+        "url": "https://m.shenchuang.com/show/1598576.shtml",
+        "status": "第三方历史汇总；59项，不是2026全区全集",
+        "detail": "2021表第50项：福田区东海实验小学。同名或历史名候选关联；并未逐条完成更名与范围沿用核查。第三方注明深窗综合，未给逐校官方原文链接；不能当作独立官方文本。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/aliases_and_table_end.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": false
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E1D5558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E1D5558E053BC09A8C0A5ED",
+    "school_name": "福田区实验教育集团侨香学校（南校）小学部",
+    "district": "福田区",
+    "map_scope_text": "枫丹雅苑，恒星园，国土局住宅，瀚盛花园（瀚城），香雅园，嘉园，豪峰园，万科温馨家园，金地香蜜山，侨香村，香格丽苑，君明府，听泉居，鸣泉居，三九龙井小区，裕和大厦，安岚苑，鸿运阁，国华大厦，安侨苑，香蜜时代，香蜜原著",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2021-09-22 16:59:20",
+    "independent_texts": [],
+    "candidate_policy_texts": [],
+    "source_leads": [],
+    "map_text_missing": false,
+    "independent_text_missing": true
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E615558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E615558E053BC09A8C0A5ED",
+    "school_name": "福田区益强小学",
+    "district": "福田区",
+    "map_scope_text": "新新家园，驻港部队，61377部队，中港城",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2021-02-24 14:21:36",
+    "independent_texts": [],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2021,
+        "title": "2021福田公办小学范围汇总：福田区益强小学",
+        "url": "https://m.shenchuang.com/show/1598576.shtml",
+        "status": "第三方历史汇总；59项，不是2026全区全集",
+        "detail": "2021表第11项：福田区益强小学。同名或历史名候选关联；并未逐条完成更名与范围沿用核查。第三方注明深窗综合，未给逐校官方原文链接；不能当作独立官方文本。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/aliases_and_table_end.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": true
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E5E5558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E5E5558E053BC09A8C0A5ED",
+    "school_name": "福田区荔园外国语小学",
+    "district": "福田区",
+    "map_scope_text": "水榭花都、香蜜湖第一生态苑",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2021-02-24 14:26:07",
+    "independent_texts": [],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2021,
+        "title": "2021福田公办小学范围汇总：福田区荔园外国语小学（原东校区）",
+        "url": "https://m.shenchuang.com/show/1598576.shtml",
+        "status": "第三方历史汇总；59项，不是2026全区全集",
+        "detail": "2021表第45项：福田区荔园外国语小学（原东校区）。同名或历史名候选关联；并未逐条完成更名与范围沿用核查。第三方注明深窗综合，未给逐校官方原文链接；不能当作独立官方文本。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/aliases_and_table_end.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": true
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E5B5558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E5B5558E053BC09A8C0A5ED",
+    "school_name": "深圳明德实验学校（集团）碧海校区小学部",
+    "district": "福田区",
+    "map_scope_text": "金海燕、碧海云天、新浩城花园",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2021-02-24 14:30:10",
+    "independent_texts": [],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2021,
+        "title": "2021福田公办小学范围汇总：福田区明德实验学校碧海校区(小学部)",
+        "url": "https://m.shenchuang.com/show/1598576.shtml",
+        "status": "第三方历史汇总；59项，不是2026全区全集",
+        "detail": "2021表第17项：福田区明德实验学校碧海校区(小学部)。同名或历史名候选关联；并未逐条完成更名与范围沿用核查。第三方注明深窗综合，未给逐校官方原文链接；不能当作独立官方文本。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/aliases_and_table_end.json",
+        "supplement_run": "futian_web_20261111"
+      },
+      {
+        "district": "福田",
+        "year": 2026,
+        "title": "学校官网链接的2026招生/转学公告",
+        "url": "https://mp.weixin.qq.com/s/_qSyJd34ogOjKTpRKSMe6g",
+        "status": "官网确认发布链接；微信验证码页，正文未取得",
+        "detail": "已从学校官网追溯至公众号；HTTP200返回验证码页面，不算取得公告全文。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网页原件/dd41665b370868a2.metadata.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": true
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E605558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E605558E053BC09A8C0A5ED",
+    "school_name": "福田区实验教育集团翰林学校（小学部）",
+    "district": "福田区",
+    "map_scope_text": "翰岭苑、花里林居、半山御景、水木澜山、健君园、蓝天绿都、金丰花园、深新大厦、中南名苑、梅林派出所、机电公司宿舍、合正逸园、建材公司宿舍、御景华庭、艺丰花园B.C.D区、新阁小区、银麓公寓、华海工业区、华天公寓、人武大厦、岭南公司宿舍、搪瓷公司住宅楼、广通大厦、笔架山公馆、集镇综合楼",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2021-02-25 11:51:10",
+    "independent_texts": [],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2021,
+        "title": "2021福田公办小学范围汇总：福田区翰林实验学校小学部",
+        "url": "https://m.shenchuang.com/show/1598576.shtml",
+        "status": "第三方历史汇总；59项，不是2026全区全集",
+        "detail": "2021表第54项：福田区翰林实验学校小学部。同名或历史名候选关联；并未逐条完成更名与范围沿用核查。第三方注明深窗综合，未给逐校官方原文链接；不能当作独立官方文本。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/aliases_and_table_end.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": true
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E5C5558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E5C5558E053BC09A8C0A5ED",
+    "school_name": "福田区福新小学",
+    "district": "福田区",
+    "map_scope_text": "东山小区，发展兴苑，星河国际，中海华庭，城中雅苑",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2024-05-29 09:07:02",
+    "independent_texts": [
+      {
+        "scope_text": "深南路以南，滨河路以北，新洲路以东，金田路以西。（学区代码为60）。",
+        "school_name_raw": "福田区福新小学",
+        "year": 2025,
+        "source_url": "https://fxxx.szftedu.cn/xydt_6489/xxgg_6490/202507/P020250703353232451586.pdf",
+        "source_title": "福新小学2025年秋季转学插班公告",
+        "source_position": "PDF第1页，一、招生范围；已目视核对原页",
+        "source_archive": "福田区/文字补查_20261111/网页原件/38c23919ac1665dc.pdf",
+        "supplement_run": "futian_web_20261111",
+        "identity_status": "原文学校名与地图记录直接对应",
+        "applicability": "历史学校正式发布范围；2026是否完整沿用及与polygon一致性尚待核对；PDF元数据标题残留2010，正文标题/落款是2025；按正文记录",
+        "publication_status": "historical_official",
+        "formal_gold_eligible": false
+      }
+    ],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2025,
+        "title": "福新小学2025年秋季转学插班公告",
+        "url": "https://fxxx.szftedu.cn/xydt_6489/xxgg_6490/202507/P020250703353232451586.pdf",
+        "notice": "https://fxxx.szftedu.cn/xydt_6489/xxgg_6490/",
+        "status": "2026-11-11已核读并配对历史文字；现行适用待核",
+        "schools": [
+          "福新小学"
+        ],
+        "detail": "摘录涉及深南路、滨河路、新洲路、金田路；后接括号内容未取得，不能当成完整范围。",
+        "use": "历史学校正式发布范围；2026是否完整沿用及与polygon一致性尚待核对；PDF元数据标题残留2010，正文标题/落款是2025；按正文记录",
+        "previous_status": "官方目录确认附件；仅搜索摘录，全文读取/下载失败"
+      },
+      {
+        "district": "福田",
+        "year": 2021,
+        "title": "2021福田公办小学范围汇总：福田区福新小学",
+        "url": "https://m.shenchuang.com/show/1598576.shtml",
+        "status": "第三方历史汇总；59项，不是2026全区全集",
+        "detail": "2021表第19项：福田区福新小学。同名或历史名候选关联；并未逐条完成更名与范围沿用核查。第三方注明深窗综合，未给逐校官方原文链接；不能当作独立官方文本。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/aliases_and_table_end.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": false
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E625558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E625558E053BC09A8C0A5ED",
+    "school_name": "深圳明德实验学校（集团）香蜜校区小学部",
+    "district": "福田区",
+    "map_scope_text": "熙园、新天国际名苑、香蜜湖豪庭、九号大院、香荟雅苑",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2021-02-24 14:45:15",
+    "independent_texts": [],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2021,
+        "title": "2021福田公办小学范围汇总：福田区明德实验学校香蜜校区(小学部)",
+        "url": "https://m.shenchuang.com/show/1598576.shtml",
+        "status": "第三方历史汇总；59项，不是2026全区全集",
+        "detail": "2021表第49项：福田区明德实验学校香蜜校区(小学部)。同名或历史名候选关联；并未逐条完成更名与范围沿用核查。第三方注明深窗综合，未给逐校官方原文链接；不能当作独立官方文本。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/aliases_and_table_end.json",
+        "supplement_run": "futian_web_20261111"
+      },
+      {
+        "district": "福田",
+        "year": "以原页为准",
+        "title": "本地宝范围资料：深圳明德实验学校（集团）香蜜校区小学部",
+        "url": "https://m.bendibao.com/show923665.html",
+        "status": "第三方历史资料；已打开原页",
+        "detail": "部分文章注明福田教育网，但未链接逐校政策原文；可能转录地图XQ，不能新增官方独立证据。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/thirdparty_1.json",
+        "supplement_run": "futian_web_20261111"
+      },
+      {
+        "district": "福田",
+        "year": 2026,
+        "title": "学校官网链接的2026招生/转学公告",
+        "url": "https://mp.weixin.qq.com/s/g_fGM4iAbiwwoTLzZWoDSg",
+        "status": "官网确认发布链接；微信验证码页，正文未取得",
+        "detail": "已从学校官网追溯至公众号；HTTP200返回验证码页面，不算取得公告全文。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网页原件/9d43df16d4077e20.metadata.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": true
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E6A5558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E6A5558E053BC09A8C0A5ED",
+    "school_name": "福田区荔园小学（玮鹏）",
+    "district": "福田区",
+    "map_scope_text": "东风大厦、雍怡阁，东风大院，航天立业华庭，玮鹏花园，富怡雅居，南方日报大厦宿舍，工会住宅楼，税务局宿舍，财经学院宿舍，汽配宿舍，汽车大厦，汽车大院，东风汽车公司简易楼",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2021-02-25 12:11:43",
+    "independent_texts": [
+      {
+        "scope_text": "西校区的招生范围在深南中路以北，振华路以南，上步中路以西，燕南路以东。",
+        "school_name_raw": "荔园小学西校区",
+        "year": 2015,
+        "source_url": "https://lyxx.szftedu.cn/hdpt/201704/t20170425_27381.html",
+        "source_title": "荔园小学南、北、西校区招生地段范围",
+        "source_position": "西校区L167-L173",
+        "source_archive": "福田区/文字补查_20261111/网络记录/read_next.json",
+        "supplement_run": "futian_web_20261111",
+        "identity_status": "2019-02-18南方都市报具名报道明确南→通新岭、北→百花、西→玮鹏；属于媒体佐证的历史校名映射，非2026范围确认",
+        "applicability": "历史学校正式发布范围；2026是否完整沿用及与polygon一致性尚待核对；正文日期2015-03-24；附图未转为文字；北校区正文两处排除住宅分别写长东、长乐，冲突未消解",
+        "publication_status": "historical_official",
+        "formal_gold_eligible": false,
+        "identity_evidence_url": "https://www.sohu.com/a/295408520_161795",
+        "identity_evidence_archive": "福田区/文字补查_20261111/网络记录/alias_identity.json",
+        "scope_completeness": "已保存正文；附图未转录，不能称完整边界核验"
+      }
+    ],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2021,
+        "title": "2021福田公办小学范围汇总：福田区荔园小学（荔园教育集团）玮鹏校区",
+        "url": "https://m.shenchuang.com/show/1598576.shtml",
+        "status": "第三方历史汇总；59项，不是2026全区全集",
+        "detail": "2021表第28项：福田区荔园小学（荔园教育集团）玮鹏校区。同名或历史名候选关联；并未逐条完成更名与范围沿用核查。第三方注明深窗综合，未给逐校官方原文链接；不能当作独立官方文本。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/aliases_and_table_end.json",
+        "supplement_run": "futian_web_20261111"
+      },
+      {
+        "district": "福田",
+        "year": "以原页为准",
+        "title": "本地宝范围资料：福田区荔园小学（玮鹏）",
+        "url": "https://m.bendibao.com/show923799.html",
+        "status": "第三方历史资料；已打开原页",
+        "detail": "部分文章注明福田教育网，但未链接逐校政策原文；可能转录地图XQ，不能新增官方独立证据。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/thirdparty_0.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": false
+  },
+  {
+    "school_id": "sz:futian:school:92f6461fa6ba4f679c69afd8c4093834",
+    "source_school_id": "92f6461fa6ba4f679c69afd8c4093834",
+    "school_name": "福田区外国语学校（福苑）小学部",
+    "district": "福田区",
+    "map_scope_text": "福保桂花苑，红树福苑，红树绿洲，福源花园，帝港海湾豪园，自由港湾公寓，城市3米6公寓，天健时尚名苑",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2021-03-10 16:21:47",
+    "independent_texts": [],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2021,
+        "title": "2021福田公办小学范围汇总：福田区福苑小学",
+        "url": "https://m.shenchuang.com/show/1598576.shtml",
+        "status": "第三方历史汇总；59项，不是2026全区全集",
+        "detail": "2021表第1项：福田区福苑小学。同名或历史名候选关联；并未逐条完成更名与范围沿用核查。第三方注明深窗综合，未给逐校官方原文链接；不能当作独立官方文本。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/aliases_and_table_end.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": true
+  },
+  {
+    "school_id": "sz:futian:school:1e873e7609754306915e197427d5fde9",
+    "source_school_id": "1e873e7609754306915e197427d5fde9",
+    "school_name": "福田区外国语学校（福保）小学部",
+    "district": "福田区",
+    "map_scope_text": "嘉福花园，南名仕苑（南光名仕苑），银泰苑，金桂大厦，新桂花村，益田花园，京隆苑，宝田苑，美晨苑，骏皇名居、宝瑞轩，朗庭豪园，丽港湾，长宝大厦，帝港豪庭（帝涛豪园），圆梦园，江南名苑，居雅苑，加福广场华尔登府邸，南光紫荆苑",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2022-04-12 11:50:01",
+    "independent_texts": [],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2021,
+        "title": "2021福田公办小学范围汇总：福田区外国语学校南校区小学部",
+        "url": "https://m.shenchuang.com/show/1598576.shtml",
+        "status": "第三方历史汇总；59项，不是2026全区全集",
+        "detail": "2021表第3项：福田区外国语学校南校区小学部。同名或历史名候选关联；并未逐条完成更名与范围沿用核查。第三方注明深窗综合，未给逐校官方原文链接；不能当作独立官方文本。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/aliases_and_table_end.json",
+        "supplement_run": "futian_web_20261111"
+      },
+      {
+        "district": "福田",
+        "year": "以原页为准",
+        "title": "本地宝范围资料：福田区外国语学校（福保）小学部",
+        "url": "https://m.bendibao.com/show923730.html",
+        "status": "第三方历史资料；已打开原页",
+        "detail": "部分文章注明福田教育网，但未链接逐校政策原文；可能转录地图XQ，不能新增官方独立证据。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/thirdparty_1.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": true
+  },
+  {
+    "school_id": "sz:futian:school:9be177e2a1e04caaa5b4a41d581f4dff",
+    "source_school_id": "9be177e2a1e04caaa5b4a41d581f4dff",
+    "school_name": "福田区文天祥小学",
+    "district": "福田区",
+    "map_scope_text": "嘉麟豪庭、星河世纪大厦、福岗园、岗厦天元花园、彩福大厦、恒运豪庭、辛城花园、港丽豪园、中心天元、金田新村",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2021-03-12 14:18:02",
+    "independent_texts": [],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2021,
+        "title": "2021福田公办小学范围汇总：福田区文天祥小学",
+        "url": "https://m.shenchuang.com/show/1598576.shtml",
+        "status": "第三方历史汇总；59项，不是2026全区全集",
+        "detail": "2021表第20项：福田区文天祥小学。同名或历史名候选关联；并未逐条完成更名与范围沿用核查。第三方注明深窗综合，未给逐校官方原文链接；不能当作独立官方文本。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/aliases_and_table_end.json",
+        "supplement_run": "futian_web_20261111"
+      },
+      {
+        "district": "福田",
+        "year": "以原页为准",
+        "title": "本地宝范围资料：福田区文天祥小学",
+        "url": "https://sz.bendibao.com/qinzi/202161/865428.shtm",
+        "status": "第三方历史资料；已打开原页",
+        "detail": "部分文章注明福田教育网，但未链接逐校政策原文；可能转录地图XQ，不能新增官方独立证据。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/thirdparty_0.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": true
+  },
+  {
+    "school_id": "sz:futian:school:a24645880e734a80b52f729a4b42b166",
+    "source_school_id": "a24645880e734a80b52f729a4b42b166",
+    "school_name": "福田区红岭实验小学",
+    "district": "福田区",
+    "map_scope_text": "安峦公馆、万科臻山府、海德园、天健公馆、雅福居、锦卢花园、侨香公馆、鸿新花园",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2026-10-09 16:59:53",
+    "independent_texts": [],
+    "candidate_policy_texts": [],
+    "source_leads": [],
+    "map_text_missing": false,
+    "independent_text_missing": true
+  },
+  {
+    "school_id": "sz:futian:school:6f43d9c8ed204a7791477f3a7b094aa1",
+    "source_school_id": "6f43d9c8ed204a7791477f3a7b094aa1",
+    "school_name": "福田区红岭教育集团深康学校（小学部）",
+    "district": "福田区",
+    "map_scope_text": "深康村、一冶广场",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2026-10-09 16:59:01",
+    "independent_texts": [],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2021,
+        "title": "2021福田公办小学范围汇总：福田区红岭中学（集团）深康实验学校小学部",
+        "url": "https://m.shenchuang.com/show/1598576.shtml",
+        "status": "第三方历史汇总；59项，不是2026全区全集",
+        "detail": "2021表第53项：福田区红岭中学（集团）深康实验学校小学部。同名或历史名候选关联；并未逐条完成更名与范围沿用核查。第三方注明深窗综合，未给逐校官方原文链接；不能当作独立官方文本。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/aliases_and_table_end.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": true
+  },
+  {
+    "school_id": "sz:futian:school:9c0cb9995d974c86a163058e12cb6a01",
+    "source_school_id": "9c0cb9995d974c86a163058e12cb6a01",
+    "school_name": "福田区荔园小学（八卦岭）",
+    "district": "福田区",
+    "map_scope_text": "盛世鹏程1-7栋，城市主场A、B栋，鹏益花园1-6栋，岭尚时代ABC三栋，远东大厦，庆安航空大厦，经理大厦，八卦岭工业区部分住宅楼（431栋和534栋）、鹏盛村1—10栋，鹏盛年华A、B栋，旭飞花园A、B、C、A1、A2栋，八卦岭宿舍区1—48栋，光纤小区1栋，荣生住宅楼，先科机电大厦，合正瑞园，深大公寓，翠馨居小区，意馨居小区，新阳住宅楼，鹏基公寓",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2022-04-11 16:42:15",
+    "independent_texts": [],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": "以原页为准",
+        "title": "本地宝范围资料：福田区荔园小学（八卦岭）",
+        "url": "https://m.bendibao.com/show893428.html",
+        "status": "第三方历史资料；已打开原页",
+        "detail": "部分文章注明福田教育网，但未链接逐校政策原文；可能转录地图XQ，不能新增官方独立证据。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/thirdparty_2.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": true
+  },
+  {
+    "school_id": "sz:futian:school:839499bb0577439eb7edf3593cbd29c6",
+    "source_school_id": "839499bb0577439eb7edf3593cbd29c6",
+    "school_name": "福田区实验教育集团侨香学校（北校）小学部",
+    "district": "福田区",
+    "map_scope_text": "北环九街劳教二所干警生活基地(红岭中学旁)、兰江山第、山语清晖、栖棠映山、万泽云顶",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2022-04-11 16:56:06",
+    "independent_texts": [],
+    "candidate_policy_texts": [],
+    "source_leads": [],
+    "map_text_missing": false,
+    "independent_text_missing": true
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E1C5558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E1C5558E053BC09A8C0A5ED",
+    "school_name": "深圳实验学校小学部",
+    "district": "福田区",
+    "map_scope_text": "百花一路，百花二路 蓝天二花园4、5、6栋，国城花园1、2栋",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2021-03-12 09:34:50",
+    "independent_texts": [],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2021,
+        "title": "2021福田公办小学范围汇总：实验学校小学部(公办）",
+        "url": "https://m.shenchuang.com/show/1598576.shtml",
+        "status": "第三方历史汇总；59项，不是2026全区全集",
+        "detail": "2021表第30项：实验学校小学部(公办）。同名或历史名候选关联；并未逐条完成更名与范围沿用核查。第三方注明深窗综合，未给逐校官方原文链接；不能当作独立官方文本。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/aliases_and_table_end.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": true
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E3E5558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E3E5558E053BC09A8C0A5ED",
+    "school_name": "福田区荔园外国语小学（狮岭）",
+    "district": "福田区",
+    "map_scope_text": "\t缔梦园、万托家园、碧景园、景田翠景园、擎天华庭、天健天骄、香丽大厦、景发花园、机场小区、巴士集团龙塘住宅区、香蜜新村西区、市政大院小区",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": null,
+    "independent_texts": [],
+    "candidate_policy_texts": [],
+    "source_leads": [],
+    "map_text_missing": false,
+    "independent_text_missing": true
+  },
+  {
+    "school_id": "sz:futian:school:6e2617eee765494790b619cbf875e02d",
+    "source_school_id": "6e2617eee765494790b619cbf875e02d",
+    "school_name": "福田区深圳中学梅香学校（小学部）",
+    "district": "福田区",
+    "map_scope_text": "梅林一村、梅林二村、新世界四季山水等",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2021-03-15 09:12:37",
+    "independent_texts": [],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": "以原页为准",
+        "title": "本地宝范围资料：福田区深圳中学梅香学校（小学部）",
+        "url": "https://sz.bendibao.com/qinzi/2022512/889452.shtm",
+        "status": "第三方历史资料；已打开原页",
+        "detail": "部分文章注明福田教育网，但未链接逐校政策原文；可能转录地图XQ，不能新增官方独立证据。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/thirdparty_2.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": true
+  },
+  {
+    "school_id": "sz:futian:school:7e22bc5b03a94c43b41c10bfbdff133d",
+    "source_school_id": "7e22bc5b03a94c43b41c10bfbdff133d",
+    "school_name": "福田区外国语学校（梅红）小学部",
+    "district": "福田区",
+    "map_scope_text": "梅林三村、梅兴苑、新世界荔园阁、中康生活区、梅林四村等",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": null,
+    "independent_texts": [],
+    "candidate_policy_texts": [],
+    "source_leads": [],
+    "map_text_missing": false,
+    "independent_text_missing": true
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E165558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E165558E053BC09A8C0A5ED",
+    "school_name": "福田中学教育集团第二实验学校（小学部）",
+    "district": "福田区",
+    "map_scope_text": "03，10\r\n皇岗口岸生活区，皇岗口岸生活区皇福苑，福滨新村，福滨苑，福宁街桐林广场，福南小学综合楼，福田村大门坊，牛巷坊，西头坊，岗边坊，福星路赤尾坊，福田村福成楼，福荣楼，福宝楼，福满楼，福艺楼，福宇楼，福力楼，福中楼，环庆大厦，福舍楼，福合楼，福永楼，福乐楼，福海楼，福生楼，福舍楼B座，福群楼1-13座，福民楼A-F座，景福大厦景荣阁，景华阁，景蕙阁，福祥街1栋、2栋，福星路深华汽修厂，福祥街2号楼，4号楼，福田路26号新星大厦，税务稽查局",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2021-03-16 16:04:28",
+    "independent_texts": [],
+    "candidate_policy_texts": [],
+    "source_leads": [],
+    "map_text_missing": false,
+    "independent_text_missing": true
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E325558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E325558E053BC09A8C0A5ED",
+    "school_name": "福田中学教育集团福田小学",
+    "district": "福田区",
+    "map_scope_text": "03、10\r\n彩云居，祠堂坊，福安街，税务局，贝底田，漾福居，聚福楼，文化楼，鸿图大厦，京海花园，庆福园，福星路教育新苑1-3栋，城市春天，福学楼，福星大厦，边防大厦，建行宿舍，武警大院，中医院员工住宅，蔬菜公司员工宿舍，福侨大厦，福田中学宿舍，城市杰座，福田医院，捷佳大厦，雷圳大厦，福田文化楼，嘉汇新城，广业大厦，巴士集团员工宿舍，福田大厦，福星北住宅，世贸大厦，华强花园（高层），华强住宅区（低层），华粤电子",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2021-03-12 12:58:20",
+    "independent_texts": [],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2021,
+        "title": "2021福田公办小学范围汇总：福田区福田小学",
+        "url": "https://m.shenchuang.com/show/1598576.shtml",
+        "status": "第三方历史汇总；59项，不是2026全区全集",
+        "detail": "2021表第23项：福田区福田小学。同名或历史名候选关联；并未逐条完成更名与范围沿用核查。第三方注明深窗综合，未给逐校官方原文链接；不能当作独立官方文本。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/aliases_and_table_end.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": true
+  },
+  {
+    "school_id": "sz:futian:school:b56e1500ee754a3eb0fa4604c767ceaf",
+    "source_school_id": "b56e1500ee754a3eb0fa4604c767ceaf",
+    "school_name": "福田区外国语学校（香蜜）",
+    "district": "福田区",
+    "map_scope_text": null,
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2021-09-22 17:00:04",
+    "independent_texts": [],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2026,
+        "title": "2026报名指南：香梅片区共享招生规则",
+        "url": "https://mlzx.szftedu.cn/jyfw/tzgg_111/202606/t20260608_176689.html",
+        "status": "正式招生关系；不是本校独立四至",
+        "detail": "侨香南校地段可将侨香南校或香蜜作为第一志愿；福田区外国语小学地段先以原校为第一志愿，可选侨香南校或香蜜为提前志愿。香蜜原始XQ仍为空，不用申请资格拼造本校范围。",
+        "use": "保留条件式招生关系；不修改polygon或填补XQ",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/targeted_2.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": true,
+    "independent_text_missing": true
+  },
+  {
+    "school_id": "sz:futian:school:496FFFE16E345558E053BC09A8C0A5ED",
+    "source_school_id": "496FFFE16E345558E053BC09A8C0A5ED",
+    "school_name": "福田中学教育集团福南小学",
+    "district": "福田区",
+    "map_scope_text": "03、10\r\n皇岗口岸生活区，皇岗口岸生活区皇福苑，福滨新村，福滨苑，福宁街桐林广场，福南小学综合楼，福田村大门坊，牛巷坊，西头坊，岗边坊，福星路赤尾坊，福田村福成楼，福荣楼，福宝楼，福满楼，福艺楼，福宇楼，福力楼，福中楼，环庆大厦，福舍楼，福合楼，福永楼，福乐楼，福海楼，福生楼，福舍楼B座，福群楼1-13座，福民楼A-F座，景福大厦景荣阁，景华阁，景蕙阁，福祥街1栋、2栋，福星路深华汽修厂，福祥街2号楼，4号楼，福田路26号新星大厦，税务稽查局，大康福盈门，桐林广场",
+    "map_source_url": "https://zs.szft.gov.cn/visitftgbxyxqdt",
+    "snapshot_time": "2026-11-03T13:37:17.430Z",
+    "map_record_update_not_policy_year": "2021-03-12 13:02:09",
+    "independent_texts": [],
+    "candidate_policy_texts": [],
+    "source_leads": [
+      {
+        "district": "福田",
+        "year": 2021,
+        "title": "2021福田公办小学范围汇总：福田区福南小学",
+        "url": "https://m.shenchuang.com/show/1598576.shtml",
+        "status": "第三方历史汇总；59项，不是2026全区全集",
+        "detail": "2021表第8项：福田区福南小学。同名或历史名候选关联；并未逐条完成更名与范围沿用核查。第三方注明深窗综合，未给逐校官方原文链接；不能当作独立官方文本。",
+        "use": "仅作追溯线索，不计入独立官方范围文字覆盖",
+        "local_evidence": "福田区/文字补查_20261111/网络记录/aliases_and_table_end.json",
+        "supplement_run": "futian_web_20261111"
+      }
+    ],
+    "map_text_missing": false,
+    "independent_text_missing": true
+  }
+]

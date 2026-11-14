@@ -1,0 +1,25 @@
+62未完成范围分块续取说明：显式采集变更，有限恢复
+
+原状态
+原tile0和tile1已成功，原字节及收据保留。原tile2在初始请求与一次完全相同query恢复中均失败；原tile3尚未成功请求。原两轮所有失败记录保留。原acquisition_complete.json保持不存在。
+
+固定变更
+只将原tile2和tile3分别按经纬度中点四等分，总8个子块。每组子块的联合严格等于原父块，8子块加原0/1严格覆盖原WGS84矩形[113.86,22.46,114.11,22.64]，不扩缩既定源人口与范围。父块2先于3；各父块内顺序西南、东南、西北、东北。
+这改变了请求分块，不冒称原4个query均成功。旧0/1只核验SHA后续用，不重下、不挑选响应。
+
+保持项
+历史快照2026-10-23T00:00:00Z；全部highway、railway=rail、waterway为river或canal；out meta geom；服务端timeout40；客户端timeout50秒。端点顺序仍为overpass-api.de后overpass.kumi.systems。无Gold、MAPDATA、候选命中、政策参照、模型得分或环境特征作为范围选择输入。
+
+执行顺序与尝试上限
+root先审查subdivide_remaining.py和本说明，再执行freeze。recovery2_freeze.json一次固定全部8个query及SHA、父子范围、原计划代码、原请求冻结、前次恢复冻结、所有旧成功/失败文件SHA。
+随后run为每个未完成子块至多尝试原两个端点各一次，总新请求最多16次。遇一个子块失败继续其余独立子块；同一冻结attempt不重复。中断后只允许继续未记录attempt，已有成功缓存不覆盖。不进行无限重试。
+若发现没有收据的raw，保留并将该子块列为manual review，继续其他独立子块，不覆盖原响应。
+
+输出
+新原响应、收据、尝试日志仅在v1/recovery2；总状态为v1/recovery2/acquisition_status.json。
+只有原0/1和8个子块都成功才新写v1/acquisition_recovery2_complete.json，语义为10个叶块收齐原footprint。原acquisition_complete.json仍不创建。
+若任何子块失败则状态明确partial，保留已获取数据与全部失败，无“缺口就是无道路”的推断。最终partial后不再执行本轮run。
+
+验收边界
+独立审查应验证父子范围联合、历史参数和类别未变、请求先冻结、旧成功/失败字节未变、新原响应与收据SHA，以及全way geometry/nodes对应与跨块重复一致。即使原范围全部收齐，也只表示来源获取完成，不证明现实道路全集。
+本阶段不计算cross六列、不构建路网、不加载模型、不训练、预测或评分。投影与几何适配另行冻结。

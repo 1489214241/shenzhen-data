@@ -1,0 +1,62 @@
+{
+  "sources": [
+    "天心区",
+    "芙蓉区",
+    "雨花区",
+    "开福区",
+    "拱墅区",
+    "萧山区",
+    "富阳区",
+    "临安区"
+  ],
+  "targets": [
+    "龙华区",
+    "龙岗区"
+  ],
+  "seeds": [
+    20261131,
+    20261132,
+    20261133,
+    20261134,
+    20261135,
+    20261136,
+    20261137,
+    20261138,
+    20261139,
+    20261140
+  ],
+  "steps": 40,
+  "lr": 0.003,
+  "reg": 0.01,
+  "width": 32,
+  "chunk": 64,
+  "ranking_coefficient": 1.0,
+  "source_gate": {
+    "min_multi_correct": 8,
+    "min_single_correct": 901,
+    "min_attainable_multi": 18,
+    "objective": "balanced_exact",
+    "purpose": "Only determines whether to proceed to a separately frozen target test."
+  },
+  "arms": [
+    "scalar_control",
+    "features_only",
+    "features_labels"
+  ],
+  "primary_decoder": "relative",
+  "primary_objective": "balanced_exact",
+  "control": "Reuse audited round24 scalar_control; identical source full-reference bank, round06 parent,40steps,10seeds,optimizer and model capacity.",
+  "features_only": "Four previously missing negative flags in target school-policy columns; labels unchanged.",
+  "features_labels": "Same repaired flags plus7 source-proven negative labels. Six rows already have observed positive labels; one new negative-only row. No unknown assumed negative.",
+  "loss": "Unchanged masked BCE plus LSEP over observed positive-negative pairs only. Six target rows acquire ranking supervision; negative-only row gets BCE only.",
+  "weights": "Original denominator5211 and10active districts; old source and target weights exactly preserved; new independent property receives10/5211.",
+  "source_selection": "Only features_labels may advance: original source gate AND balanced_exact >= BOTH scalar_control and features_only AND both stress exact counts >= BOTH controls. No fallback to features_only or absolute decoder.",
+  "target_rule": "Only after source pass, separately freeze target predictions with identical round31 factual supplements and exclusions for all comparators; compare matched controls and959/1761 development incumbent.",
+  "source_validation": "Original1246development rows,1186single60multi. Reused, not independent confirmation.",
+  "no_target_gold": true,
+  "no_target_polygon": true,
+  "no_target_cardinality": true,
+  "target_predictions_generated": false,
+  "independent_validation": false,
+  "adopted": false
+}

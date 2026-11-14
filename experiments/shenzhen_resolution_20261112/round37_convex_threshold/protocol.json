@@ -1,0 +1,71 @@
+{
+  "sources": [
+    "天心区",
+    "芙蓉区",
+    "雨花区",
+    "开福区",
+    "拱墅区",
+    "萧山区",
+    "富阳区",
+    "临安区"
+  ],
+  "targets": [
+    "龙华区",
+    "龙岗区"
+  ],
+  "seeds": [
+    20261131,
+    20261132,
+    20261133,
+    20261134,
+    20261135,
+    20261136,
+    20261137,
+    20261138,
+    20261139,
+    20261140
+  ],
+  "steps": 100,
+  "lr": 0.003,
+  "reg": 0.01,
+  "width": null,
+  "chunk": 64,
+  "source_gate": {
+    "min_multi_correct": 8,
+    "min_single_correct": 901,
+    "min_attainable_multi": 18,
+    "objective": "balanced_exact",
+    "purpose": "Only determines whether to proceed to a separately frozen target test."
+  },
+  "arms": [
+    "constant_head",
+    "adaptive_head"
+  ],
+  "base": "round32/features_labels frozen scorer, no continued scorer training",
+  "training": "Complete source training rows only; retain original weights; no partial labels used to learn stopping boundary.",
+  "input": "35d: softmax-weighted33d anchor/context, normalized entropy, top2 logit gap. Train-only weighted mean/std.",
+  "initializer": "Intercept=-1; feature coefficients=0. Train-only frozen normalization from round34.",
+  "loss": "ATLOP virtual threshold two categorical terms, all observed positive/negative classes, fixed school logits.",
+  "primary": "adaptive_head: mean per-seed school logit minus mean learned TH >0; no validation threshold fitting; empty falls back to argmax.",
+  "controls": "Same source data, loss, ridge coefficient and solver for constant and linear heads; original relative-probability strong control retained.",
+  "source_gate_rule": "Original single/multi/attainable gate AND balanced_exact >= both controls AND each stress exact >= both controls; only adaptive_head may advance.",
+  "checkpoint": "Final training iterate only; no fit or early stopping on source validation or Shenzhen.",
+  "complete_population": "Original1246source development validation; no target inference before pass. Later target trial must include all cumulative facts identically for controls.",
+  "target_gold_read": false,
+  "target_polygon_read": false,
+  "target_cardinality_used": false,
+  "target_predictions_generated": false,
+  "independent_validation": false,
+  "adopted": false,
+  "head": "adaptive_head is a LINEAR35d query function plus intercept; constant_head is intercept only.",
+  "hypothesis_change": "Changes head class from nonlinear35->32->1 to linear35->1; not capacity matched. Does not alter or rescue round36.",
+  "optimizer": "float64 full Newton analytic Hessian, Armijo1e-4 backtracking; at most100steps, at most60line-search halvings.",
+  "stopping": "Training gradient infinity norm<=1e-6; no validation checkpoint selection.",
+  "gradient_tolerance": 1e-06,
+  "max_steps": 100,
+  "regularization": "0.01*((intercept+1)^2+mean(feature_weights^2)); no feature term for constant head.",
+  "convergence_gate": "All10linear adaptive heads must reach gradient_inf<=1e-6; source predictive gates unchanged.",
+  "certificate": "Strong convexity m>=2*reg/max(1,number_of_feature_weights); training objective gap <= ||gradient||_2^2/(2*m).",
+  "parameter_matching": false,
+  "research_basis": "Reviewed ATLOP two categorical terms; affine threshold and strictly positive quadratic regularization make the objective strongly convex. Local probe, not ATLOP reproduction."
+}

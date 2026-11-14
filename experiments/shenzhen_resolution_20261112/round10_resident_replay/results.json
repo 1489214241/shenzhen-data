@@ -1,0 +1,2584 @@
+{
+  "reports": {
+    "micro_exact": {
+      "ensemble": {
+        "all": {
+          "after": {
+            "n": 1761,
+            "correct": 923,
+            "exact_accuracy": 0.5241340147643384,
+            "fp": 593,
+            "fn": 1194
+          },
+          "before": {
+            "n": 1761,
+            "correct": 923,
+            "exact_accuracy": 0.5241340147643384,
+            "fp": 593,
+            "fn": 1194
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "龙华区": {
+          "after": {
+            "n": 627,
+            "correct": 320,
+            "exact_accuracy": 0.5103668261562998,
+            "fp": 316,
+            "fn": 531
+          },
+          "before": {
+            "n": 627,
+            "correct": 320,
+            "exact_accuracy": 0.5103668261562998,
+            "fp": 316,
+            "fn": 531
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "龙岗区": {
+          "after": {
+            "n": 1134,
+            "correct": 603,
+            "exact_accuracy": 0.5317460317460317,
+            "fp": 277,
+            "fn": 663
+          },
+          "before": {
+            "n": 1134,
+            "correct": 603,
+            "exact_accuracy": 0.5317460317460317,
+            "fp": 277,
+            "fn": 663
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "single": {
+          "after": {
+            "n": 803,
+            "correct": 607,
+            "exact_accuracy": 0.7559153175591532,
+            "fp": 262,
+            "fn": 173
+          },
+          "before": {
+            "n": 803,
+            "correct": 607,
+            "exact_accuracy": 0.7559153175591532,
+            "fp": 262,
+            "fn": 173
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "multi": {
+          "after": {
+            "n": 958,
+            "correct": 316,
+            "exact_accuracy": 0.3298538622129436,
+            "fp": 331,
+            "fn": 1021
+          },
+          "before": {
+            "n": 958,
+            "correct": 316,
+            "exact_accuracy": 0.3298538622129436,
+            "fp": 331,
+            "fn": 1021
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "20261131": {
+        "all": {
+          "after": {
+            "n": 1761,
+            "correct": 933,
+            "exact_accuracy": 0.5298126064735945,
+            "fp": 572,
+            "fn": 1175
+          },
+          "before": {
+            "n": 1761,
+            "correct": 933,
+            "exact_accuracy": 0.5298126064735945,
+            "fp": 572,
+            "fn": 1175
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "龙华区": {
+          "after": {
+            "n": 627,
+            "correct": 326,
+            "exact_accuracy": 0.5199362041467305,
+            "fp": 301,
+            "fn": 520
+          },
+          "before": {
+            "n": 627,
+            "correct": 326,
+            "exact_accuracy": 0.5199362041467305,
+            "fp": 301,
+            "fn": 520
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "龙岗区": {
+          "after": {
+            "n": 1134,
+            "correct": 607,
+            "exact_accuracy": 0.5352733686067019,
+            "fp": 271,
+            "fn": 655
+          },
+          "before": {
+            "n": 1134,
+            "correct": 607,
+            "exact_accuracy": 0.5352733686067019,
+            "fp": 271,
+            "fn": 655
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "single": {
+          "after": {
+            "n": 803,
+            "correct": 614,
+            "exact_accuracy": 0.7646326276463262,
+            "fp": 247,
+            "fn": 164
+          },
+          "before": {
+            "n": 803,
+            "correct": 614,
+            "exact_accuracy": 0.7646326276463262,
+            "fp": 247,
+            "fn": 164
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "multi": {
+          "after": {
+            "n": 958,
+            "correct": 319,
+            "exact_accuracy": 0.33298538622129437,
+            "fp": 325,
+            "fn": 1011
+          },
+          "before": {
+            "n": 958,
+            "correct": 319,
+            "exact_accuracy": 0.33298538622129437,
+            "fp": 325,
+            "fn": 1011
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "20261132": {
+        "all": {
+          "after": {
+            "n": 1761,
+            "correct": 919,
+            "exact_accuracy": 0.521862578080636,
+            "fp": 587,
+            "fn": 1190
+          },
+          "before": {
+            "n": 1761,
+            "correct": 919,
+            "exact_accuracy": 0.521862578080636,
+            "fp": 587,
+            "fn": 1190
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "龙华区": {
+          "after": {
+            "n": 627,
+            "correct": 321,
+            "exact_accuracy": 0.5119617224880383,
+            "fp": 311,
+            "fn": 528
+          },
+          "before": {
+            "n": 627,
+            "correct": 321,
+            "exact_accuracy": 0.5119617224880383,
+            "fp": 311,
+            "fn": 528
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "龙岗区": {
+          "after": {
+            "n": 1134,
+            "correct": 598,
+            "exact_accuracy": 0.527336860670194,
+            "fp": 276,
+            "fn": 662
+          },
+          "before": {
+            "n": 1134,
+            "correct": 598,
+            "exact_accuracy": 0.527336860670194,
+            "fp": 276,
+            "fn": 662
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "single": {
+          "after": {
+            "n": 803,
+            "correct": 600,
+            "exact_accuracy": 0.7471980074719801,
+            "fp": 267,
+            "fn": 176
+          },
+          "before": {
+            "n": 803,
+            "correct": 600,
+            "exact_accuracy": 0.7471980074719801,
+            "fp": 267,
+            "fn": 176
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "multi": {
+          "after": {
+            "n": 958,
+            "correct": 319,
+            "exact_accuracy": 0.33298538622129437,
+            "fp": 320,
+            "fn": 1014
+          },
+          "before": {
+            "n": 958,
+            "correct": 319,
+            "exact_accuracy": 0.33298538622129437,
+            "fp": 320,
+            "fn": 1014
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "20261133": {
+        "all": {
+          "after": {
+            "n": 1761,
+            "correct": 916,
+            "exact_accuracy": 0.5201590005678591,
+            "fp": 599,
+            "fn": 1193
+          },
+          "before": {
+            "n": 1761,
+            "correct": 916,
+            "exact_accuracy": 0.5201590005678591,
+            "fp": 599,
+            "fn": 1193
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "龙华区": {
+          "after": {
+            "n": 627,
+            "correct": 321,
+            "exact_accuracy": 0.5119617224880383,
+            "fp": 314,
+            "fn": 528
+          },
+          "before": {
+            "n": 627,
+            "correct": 321,
+            "exact_accuracy": 0.5119617224880383,
+            "fp": 314,
+            "fn": 528
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "龙岗区": {
+          "after": {
+            "n": 1134,
+            "correct": 595,
+            "exact_accuracy": 0.5246913580246914,
+            "fp": 285,
+            "fn": 665
+          },
+          "before": {
+            "n": 1134,
+            "correct": 595,
+            "exact_accuracy": 0.5246913580246914,
+            "fp": 285,
+            "fn": 665
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "single": {
+          "after": {
+            "n": 803,
+            "correct": 603,
+            "exact_accuracy": 0.75093399750934,
+            "fp": 264,
+            "fn": 174
+          },
+          "before": {
+            "n": 803,
+            "correct": 603,
+            "exact_accuracy": 0.75093399750934,
+            "fp": 264,
+            "fn": 174
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "multi": {
+          "after": {
+            "n": 958,
+            "correct": 313,
+            "exact_accuracy": 0.3267223382045929,
+            "fp": 335,
+            "fn": 1019
+          },
+          "before": {
+            "n": 958,
+            "correct": 313,
+            "exact_accuracy": 0.3267223382045929,
+            "fp": 335,
+            "fn": 1019
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "20261134": {
+        "all": {
+          "after": {
+            "n": 1761,
+            "correct": 917,
+            "exact_accuracy": 0.5207268597387847,
+            "fp": 606,
+            "fn": 1199
+          },
+          "before": {
+            "n": 1761,
+            "correct": 917,
+            "exact_accuracy": 0.5207268597387847,
+            "fp": 606,
+            "fn": 1199
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "龙华区": {
+          "after": {
+            "n": 627,
+            "correct": 316,
+            "exact_accuracy": 0.5039872408293461,
+            "fp": 331,
+            "fn": 538
+          },
+          "before": {
+            "n": 627,
+            "correct": 316,
+            "exact_accuracy": 0.5039872408293461,
+            "fp": 331,
+            "fn": 538
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "龙岗区": {
+          "after": {
+            "n": 1134,
+            "correct": 601,
+            "exact_accuracy": 0.5299823633156967,
+            "fp": 275,
+            "fn": 661
+          },
+          "before": {
+            "n": 1134,
+            "correct": 601,
+            "exact_accuracy": 0.5299823633156967,
+            "fp": 275,
+            "fn": 661
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "single": {
+          "after": {
+            "n": 803,
+            "correct": 605,
+            "exact_accuracy": 0.7534246575342466,
+            "fp": 268,
+            "fn": 174
+          },
+          "before": {
+            "n": 803,
+            "correct": 605,
+            "exact_accuracy": 0.7534246575342466,
+            "fp": 268,
+            "fn": 174
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "multi": {
+          "after": {
+            "n": 958,
+            "correct": 312,
+            "exact_accuracy": 0.325678496868476,
+            "fp": 338,
+            "fn": 1025
+          },
+          "before": {
+            "n": 958,
+            "correct": 312,
+            "exact_accuracy": 0.325678496868476,
+            "fp": 338,
+            "fn": 1025
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "20261135": {
+        "all": {
+          "after": {
+            "n": 1761,
+            "correct": 921,
+            "exact_accuracy": 0.5229982964224872,
+            "fp": 585,
+            "fn": 1187
+          },
+          "before": {
+            "n": 1761,
+            "correct": 921,
+            "exact_accuracy": 0.5229982964224872,
+            "fp": 585,
+            "fn": 1187
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "龙华区": {
+          "after": {
+            "n": 627,
+            "correct": 321,
+            "exact_accuracy": 0.5119617224880383,
+            "fp": 314,
+            "fn": 526
+          },
+          "before": {
+            "n": 627,
+            "correct": 321,
+            "exact_accuracy": 0.5119617224880383,
+            "fp": 314,
+            "fn": 526
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "龙岗区": {
+          "after": {
+            "n": 1134,
+            "correct": 600,
+            "exact_accuracy": 0.5291005291005291,
+            "fp": 271,
+            "fn": 661
+          },
+          "before": {
+            "n": 1134,
+            "correct": 600,
+            "exact_accuracy": 0.5291005291005291,
+            "fp": 271,
+            "fn": 661
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "single": {
+          "after": {
+            "n": 803,
+            "correct": 605,
+            "exact_accuracy": 0.7534246575342466,
+            "fp": 264,
+            "fn": 175
+          },
+          "before": {
+            "n": 803,
+            "correct": 605,
+            "exact_accuracy": 0.7534246575342466,
+            "fp": 264,
+            "fn": 175
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "multi": {
+          "after": {
+            "n": 958,
+            "correct": 316,
+            "exact_accuracy": 0.3298538622129436,
+            "fp": 321,
+            "fn": 1012
+          },
+          "before": {
+            "n": 958,
+            "correct": 316,
+            "exact_accuracy": 0.3298538622129436,
+            "fp": 321,
+            "fn": 1012
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "20261136": {
+        "all": {
+          "after": {
+            "n": 1761,
+            "correct": 920,
+            "exact_accuracy": 0.5224304372515616,
+            "fp": 597,
+            "fn": 1202
+          },
+          "before": {
+            "n": 1761,
+            "correct": 920,
+            "exact_accuracy": 0.5224304372515616,
+            "fp": 597,
+            "fn": 1202
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "龙华区": {
+          "after": {
+            "n": 627,
+            "correct": 320,
+            "exact_accuracy": 0.5103668261562998,
+            "fp": 321,
+            "fn": 534
+          },
+          "before": {
+            "n": 627,
+            "correct": 320,
+            "exact_accuracy": 0.5103668261562998,
+            "fp": 321,
+            "fn": 534
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "龙岗区": {
+          "after": {
+            "n": 1134,
+            "correct": 600,
+            "exact_accuracy": 0.5291005291005291,
+            "fp": 276,
+            "fn": 668
+          },
+          "before": {
+            "n": 1134,
+            "correct": 600,
+            "exact_accuracy": 0.5291005291005291,
+            "fp": 276,
+            "fn": 668
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "single": {
+          "after": {
+            "n": 803,
+            "correct": 608,
+            "exact_accuracy": 0.7571606475716065,
+            "fp": 257,
+            "fn": 172
+          },
+          "before": {
+            "n": 803,
+            "correct": 608,
+            "exact_accuracy": 0.7571606475716065,
+            "fp": 257,
+            "fn": 172
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "multi": {
+          "after": {
+            "n": 958,
+            "correct": 312,
+            "exact_accuracy": 0.325678496868476,
+            "fp": 340,
+            "fn": 1030
+          },
+          "before": {
+            "n": 958,
+            "correct": 312,
+            "exact_accuracy": 0.325678496868476,
+            "fp": 340,
+            "fn": 1030
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "20261137": {
+        "all": {
+          "after": {
+            "n": 1761,
+            "correct": 925,
+            "exact_accuracy": 0.5252697331061896,
+            "fp": 584,
+            "fn": 1187
+          },
+          "before": {
+            "n": 1761,
+            "correct": 925,
+            "exact_accuracy": 0.5252697331061896,
+            "fp": 584,
+            "fn": 1187
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "龙华区": {
+          "after": {
+            "n": 627,
+            "correct": 324,
+            "exact_accuracy": 0.5167464114832536,
+            "fp": 306,
+            "fn": 523
+          },
+          "before": {
+            "n": 627,
+            "correct": 324,
+            "exact_accuracy": 0.5167464114832536,
+            "fp": 306,
+            "fn": 523
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "龙岗区": {
+          "after": {
+            "n": 1134,
+            "correct": 601,
+            "exact_accuracy": 0.5299823633156967,
+            "fp": 278,
+            "fn": 664
+          },
+          "before": {
+            "n": 1134,
+            "correct": 601,
+            "exact_accuracy": 0.5299823633156967,
+            "fp": 278,
+            "fn": 664
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "single": {
+          "after": {
+            "n": 803,
+            "correct": 608,
+            "exact_accuracy": 0.7571606475716065,
+            "fp": 259,
+            "fn": 172
+          },
+          "before": {
+            "n": 803,
+            "correct": 608,
+            "exact_accuracy": 0.7571606475716065,
+            "fp": 259,
+            "fn": 172
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "multi": {
+          "after": {
+            "n": 958,
+            "correct": 317,
+            "exact_accuracy": 0.33089770354906056,
+            "fp": 325,
+            "fn": 1015
+          },
+          "before": {
+            "n": 958,
+            "correct": 317,
+            "exact_accuracy": 0.33089770354906056,
+            "fp": 325,
+            "fn": 1015
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "20261138": {
+        "all": {
+          "after": {
+            "n": 1761,
+            "correct": 917,
+            "exact_accuracy": 0.5207268597387847,
+            "fp": 599,
+            "fn": 1200
+          },
+          "before": {
+            "n": 1761,
+            "correct": 917,
+            "exact_accuracy": 0.5207268597387847,
+            "fp": 599,
+            "fn": 1200
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "龙华区": {
+          "after": {
+            "n": 627,
+            "correct": 320,
+            "exact_accuracy": 0.5103668261562998,
+            "fp": 322,
+            "fn": 533
+          },
+          "before": {
+            "n": 627,
+            "correct": 320,
+            "exact_accuracy": 0.5103668261562998,
+            "fp": 322,
+            "fn": 533
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "龙岗区": {
+          "after": {
+            "n": 1134,
+            "correct": 597,
+            "exact_accuracy": 0.5264550264550265,
+            "fp": 277,
+            "fn": 667
+          },
+          "before": {
+            "n": 1134,
+            "correct": 597,
+            "exact_accuracy": 0.5264550264550265,
+            "fp": 277,
+            "fn": 667
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "single": {
+          "after": {
+            "n": 803,
+            "correct": 607,
+            "exact_accuracy": 0.7559153175591532,
+            "fp": 259,
+            "fn": 171
+          },
+          "before": {
+            "n": 803,
+            "correct": 607,
+            "exact_accuracy": 0.7559153175591532,
+            "fp": 259,
+            "fn": 171
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "multi": {
+          "after": {
+            "n": 958,
+            "correct": 310,
+            "exact_accuracy": 0.3235908141962422,
+            "fp": 340,
+            "fn": 1029
+          },
+          "before": {
+            "n": 958,
+            "correct": 310,
+            "exact_accuracy": 0.3235908141962422,
+            "fp": 340,
+            "fn": 1029
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "20261139": {
+        "all": {
+          "after": {
+            "n": 1761,
+            "correct": 919,
+            "exact_accuracy": 0.521862578080636,
+            "fp": 592,
+            "fn": 1190
+          },
+          "before": {
+            "n": 1761,
+            "correct": 919,
+            "exact_accuracy": 0.521862578080636,
+            "fp": 592,
+            "fn": 1190
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "龙华区": {
+          "after": {
+            "n": 627,
+            "correct": 323,
+            "exact_accuracy": 0.5151515151515151,
+            "fp": 308,
+            "fn": 523
+          },
+          "before": {
+            "n": 627,
+            "correct": 323,
+            "exact_accuracy": 0.5151515151515151,
+            "fp": 308,
+            "fn": 523
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "龙岗区": {
+          "after": {
+            "n": 1134,
+            "correct": 596,
+            "exact_accuracy": 0.5255731922398589,
+            "fp": 284,
+            "fn": 667
+          },
+          "before": {
+            "n": 1134,
+            "correct": 596,
+            "exact_accuracy": 0.5255731922398589,
+            "fp": 284,
+            "fn": 667
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "single": {
+          "after": {
+            "n": 803,
+            "correct": 601,
+            "exact_accuracy": 0.7484433374844334,
+            "fp": 268,
+            "fn": 175
+          },
+          "before": {
+            "n": 803,
+            "correct": 601,
+            "exact_accuracy": 0.7484433374844334,
+            "fp": 268,
+            "fn": 175
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "multi": {
+          "after": {
+            "n": 958,
+            "correct": 318,
+            "exact_accuracy": 0.33194154488517746,
+            "fp": 324,
+            "fn": 1015
+          },
+          "before": {
+            "n": 958,
+            "correct": 318,
+            "exact_accuracy": 0.33194154488517746,
+            "fp": 324,
+            "fn": 1015
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "20261140": {
+        "all": {
+          "after": {
+            "n": 1761,
+            "correct": 913,
+            "exact_accuracy": 0.5184554230550823,
+            "fp": 604,
+            "fn": 1203
+          },
+          "before": {
+            "n": 1761,
+            "correct": 913,
+            "exact_accuracy": 0.5184554230550823,
+            "fp": 604,
+            "fn": 1203
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "龙华区": {
+          "after": {
+            "n": 627,
+            "correct": 318,
+            "exact_accuracy": 0.507177033492823,
+            "fp": 327,
+            "fn": 537
+          },
+          "before": {
+            "n": 627,
+            "correct": 318,
+            "exact_accuracy": 0.507177033492823,
+            "fp": 327,
+            "fn": 537
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "龙岗区": {
+          "after": {
+            "n": 1134,
+            "correct": 595,
+            "exact_accuracy": 0.5246913580246914,
+            "fp": 277,
+            "fn": 666
+          },
+          "before": {
+            "n": 1134,
+            "correct": 595,
+            "exact_accuracy": 0.5246913580246914,
+            "fp": 277,
+            "fn": 666
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "single": {
+          "after": {
+            "n": 803,
+            "correct": 601,
+            "exact_accuracy": 0.7484433374844334,
+            "fp": 274,
+            "fn": 179
+          },
+          "before": {
+            "n": 803,
+            "correct": 601,
+            "exact_accuracy": 0.7484433374844334,
+            "fp": 274,
+            "fn": 179
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "multi": {
+          "after": {
+            "n": 958,
+            "correct": 312,
+            "exact_accuracy": 0.325678496868476,
+            "fp": 330,
+            "fn": 1024
+          },
+          "before": {
+            "n": 958,
+            "correct": 312,
+            "exact_accuracy": 0.325678496868476,
+            "fp": 330,
+            "fn": 1024
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "balanced_exact": {
+      "ensemble": {
+        "all": {
+          "after": {
+            "n": 1761,
+            "correct": 924,
+            "exact_accuracy": 0.524701873935264,
+            "fp": 600,
+            "fn": 1183
+          },
+          "before": {
+            "n": 1761,
+            "correct": 924,
+            "exact_accuracy": 0.524701873935264,
+            "fp": 600,
+            "fn": 1183
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "龙华区": {
+          "after": {
+            "n": 627,
+            "correct": 322,
+            "exact_accuracy": 0.5135566188197768,
+            "fp": 317,
+            "fn": 524
+          },
+          "before": {
+            "n": 627,
+            "correct": 322,
+            "exact_accuracy": 0.5135566188197768,
+            "fp": 317,
+            "fn": 524
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "龙岗区": {
+          "after": {
+            "n": 1134,
+            "correct": 602,
+            "exact_accuracy": 0.5308641975308642,
+            "fp": 283,
+            "fn": 659
+          },
+          "before": {
+            "n": 1134,
+            "correct": 602,
+            "exact_accuracy": 0.5308641975308642,
+            "fp": 283,
+            "fn": 659
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "single": {
+          "after": {
+            "n": 803,
+            "correct": 606,
+            "exact_accuracy": 0.7546699875466999,
+            "fp": 264,
+            "fn": 171
+          },
+          "before": {
+            "n": 803,
+            "correct": 606,
+            "exact_accuracy": 0.7546699875466999,
+            "fp": 264,
+            "fn": 171
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "multi": {
+          "after": {
+            "n": 958,
+            "correct": 318,
+            "exact_accuracy": 0.33194154488517746,
+            "fp": 336,
+            "fn": 1012
+          },
+          "before": {
+            "n": 958,
+            "correct": 318,
+            "exact_accuracy": 0.33194154488517746,
+            "fp": 336,
+            "fn": 1012
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "20261131": {
+        "all": {
+          "after": {
+            "n": 1761,
+            "correct": 934,
+            "exact_accuracy": 0.5303804656445201,
+            "fp": 580,
+            "fn": 1163
+          },
+          "before": {
+            "n": 1761,
+            "correct": 934,
+            "exact_accuracy": 0.5303804656445201,
+            "fp": 580,
+            "fn": 1163
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "龙华区": {
+          "after": {
+            "n": 627,
+            "correct": 329,
+            "exact_accuracy": 0.5247208931419458,
+            "fp": 302,
+            "fn": 512
+          },
+          "before": {
+            "n": 627,
+            "correct": 329,
+            "exact_accuracy": 0.5247208931419458,
+            "fp": 302,
+            "fn": 512
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "龙岗区": {
+          "after": {
+            "n": 1134,
+            "correct": 605,
+            "exact_accuracy": 0.5335097001763669,
+            "fp": 278,
+            "fn": 651
+          },
+          "before": {
+            "n": 1134,
+            "correct": 605,
+            "exact_accuracy": 0.5335097001763669,
+            "fp": 278,
+            "fn": 651
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "single": {
+          "after": {
+            "n": 803,
+            "correct": 612,
+            "exact_accuracy": 0.7621419676214197,
+            "fp": 250,
+            "fn": 162
+          },
+          "before": {
+            "n": 803,
+            "correct": 612,
+            "exact_accuracy": 0.7621419676214197,
+            "fp": 250,
+            "fn": 162
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "multi": {
+          "after": {
+            "n": 958,
+            "correct": 322,
+            "exact_accuracy": 0.33611691022964507,
+            "fp": 330,
+            "fn": 1001
+          },
+          "before": {
+            "n": 958,
+            "correct": 322,
+            "exact_accuracy": 0.33611691022964507,
+            "fp": 330,
+            "fn": 1001
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "20261132": {
+        "all": {
+          "after": {
+            "n": 1761,
+            "correct": 919,
+            "exact_accuracy": 0.521862578080636,
+            "fp": 592,
+            "fn": 1179
+          },
+          "before": {
+            "n": 1761,
+            "correct": 919,
+            "exact_accuracy": 0.521862578080636,
+            "fp": 592,
+            "fn": 1179
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "龙华区": {
+          "after": {
+            "n": 627,
+            "correct": 323,
+            "exact_accuracy": 0.5151515151515151,
+            "fp": 312,
+            "fn": 521
+          },
+          "before": {
+            "n": 627,
+            "correct": 323,
+            "exact_accuracy": 0.5151515151515151,
+            "fp": 312,
+            "fn": 521
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "龙岗区": {
+          "after": {
+            "n": 1134,
+            "correct": 596,
+            "exact_accuracy": 0.5255731922398589,
+            "fp": 280,
+            "fn": 658
+          },
+          "before": {
+            "n": 1134,
+            "correct": 596,
+            "exact_accuracy": 0.5255731922398589,
+            "fp": 280,
+            "fn": 658
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "single": {
+          "after": {
+            "n": 803,
+            "correct": 598,
+            "exact_accuracy": 0.7447073474470735,
+            "fp": 269,
+            "fn": 174
+          },
+          "before": {
+            "n": 803,
+            "correct": 598,
+            "exact_accuracy": 0.7447073474470735,
+            "fp": 269,
+            "fn": 174
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "multi": {
+          "after": {
+            "n": 958,
+            "correct": 321,
+            "exact_accuracy": 0.33507306889352817,
+            "fp": 323,
+            "fn": 1005
+          },
+          "before": {
+            "n": 958,
+            "correct": 321,
+            "exact_accuracy": 0.33507306889352817,
+            "fp": 323,
+            "fn": 1005
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "20261133": {
+        "all": {
+          "after": {
+            "n": 1761,
+            "correct": 918,
+            "exact_accuracy": 0.5212947189097104,
+            "fp": 605,
+            "fn": 1179
+          },
+          "before": {
+            "n": 1761,
+            "correct": 918,
+            "exact_accuracy": 0.5212947189097104,
+            "fp": 605,
+            "fn": 1179
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "龙华区": {
+          "after": {
+            "n": 627,
+            "correct": 324,
+            "exact_accuracy": 0.5167464114832536,
+            "fp": 315,
+            "fn": 520
+          },
+          "before": {
+            "n": 627,
+            "correct": 324,
+            "exact_accuracy": 0.5167464114832536,
+            "fp": 315,
+            "fn": 520
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "龙岗区": {
+          "after": {
+            "n": 1134,
+            "correct": 594,
+            "exact_accuracy": 0.5238095238095238,
+            "fp": 290,
+            "fn": 659
+          },
+          "before": {
+            "n": 1134,
+            "correct": 594,
+            "exact_accuracy": 0.5238095238095238,
+            "fp": 290,
+            "fn": 659
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "single": {
+          "after": {
+            "n": 803,
+            "correct": 601,
+            "exact_accuracy": 0.7484433374844334,
+            "fp": 267,
+            "fn": 172
+          },
+          "before": {
+            "n": 803,
+            "correct": 601,
+            "exact_accuracy": 0.7484433374844334,
+            "fp": 267,
+            "fn": 172
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "multi": {
+          "after": {
+            "n": 958,
+            "correct": 317,
+            "exact_accuracy": 0.33089770354906056,
+            "fp": 338,
+            "fn": 1007
+          },
+          "before": {
+            "n": 958,
+            "correct": 317,
+            "exact_accuracy": 0.33089770354906056,
+            "fp": 338,
+            "fn": 1007
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "20261134": {
+        "all": {
+          "after": {
+            "n": 1761,
+            "correct": 918,
+            "exact_accuracy": 0.5212947189097104,
+            "fp": 613,
+            "fn": 1187
+          },
+          "before": {
+            "n": 1761,
+            "correct": 918,
+            "exact_accuracy": 0.5212947189097104,
+            "fp": 613,
+            "fn": 1187
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "龙华区": {
+          "after": {
+            "n": 627,
+            "correct": 318,
+            "exact_accuracy": 0.507177033492823,
+            "fp": 332,
+            "fn": 531
+          },
+          "before": {
+            "n": 627,
+            "correct": 318,
+            "exact_accuracy": 0.507177033492823,
+            "fp": 332,
+            "fn": 531
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "龙岗区": {
+          "after": {
+            "n": 1134,
+            "correct": 600,
+            "exact_accuracy": 0.5291005291005291,
+            "fp": 281,
+            "fn": 656
+          },
+          "before": {
+            "n": 1134,
+            "correct": 600,
+            "exact_accuracy": 0.5291005291005291,
+            "fp": 281,
+            "fn": 656
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "single": {
+          "after": {
+            "n": 803,
+            "correct": 604,
+            "exact_accuracy": 0.7521793275217933,
+            "fp": 270,
+            "fn": 172
+          },
+          "before": {
+            "n": 803,
+            "correct": 604,
+            "exact_accuracy": 0.7521793275217933,
+            "fp": 270,
+            "fn": 172
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "multi": {
+          "after": {
+            "n": 958,
+            "correct": 314,
+            "exact_accuracy": 0.3277661795407098,
+            "fp": 343,
+            "fn": 1015
+          },
+          "before": {
+            "n": 958,
+            "correct": 314,
+            "exact_accuracy": 0.3277661795407098,
+            "fp": 343,
+            "fn": 1015
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "20261135": {
+        "all": {
+          "after": {
+            "n": 1761,
+            "correct": 924,
+            "exact_accuracy": 0.524701873935264,
+            "fp": 592,
+            "fn": 1174
+          },
+          "before": {
+            "n": 1761,
+            "correct": 924,
+            "exact_accuracy": 0.524701873935264,
+            "fp": 592,
+            "fn": 1174
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "龙华区": {
+          "after": {
+            "n": 627,
+            "correct": 325,
+            "exact_accuracy": 0.518341307814992,
+            "fp": 315,
+            "fn": 517
+          },
+          "before": {
+            "n": 627,
+            "correct": 325,
+            "exact_accuracy": 0.518341307814992,
+            "fp": 315,
+            "fn": 517
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "龙岗区": {
+          "after": {
+            "n": 1134,
+            "correct": 599,
+            "exact_accuracy": 0.5282186948853616,
+            "fp": 277,
+            "fn": 657
+          },
+          "before": {
+            "n": 1134,
+            "correct": 599,
+            "exact_accuracy": 0.5282186948853616,
+            "fp": 277,
+            "fn": 657
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "single": {
+          "after": {
+            "n": 803,
+            "correct": 604,
+            "exact_accuracy": 0.7521793275217933,
+            "fp": 266,
+            "fn": 173
+          },
+          "before": {
+            "n": 803,
+            "correct": 604,
+            "exact_accuracy": 0.7521793275217933,
+            "fp": 266,
+            "fn": 173
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "multi": {
+          "after": {
+            "n": 958,
+            "correct": 320,
+            "exact_accuracy": 0.33402922755741127,
+            "fp": 326,
+            "fn": 1001
+          },
+          "before": {
+            "n": 958,
+            "correct": 320,
+            "exact_accuracy": 0.33402922755741127,
+            "fp": 326,
+            "fn": 1001
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "20261136": {
+        "all": {
+          "after": {
+            "n": 1761,
+            "correct": 923,
+            "exact_accuracy": 0.5241340147643384,
+            "fp": 608,
+            "fn": 1185
+          },
+          "before": {
+            "n": 1761,
+            "correct": 923,
+            "exact_accuracy": 0.5241340147643384,
+            "fp": 608,
+            "fn": 1185
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "龙华区": {
+          "after": {
+            "n": 627,
+            "correct": 324,
+            "exact_accuracy": 0.5167464114832536,
+            "fp": 322,
+            "fn": 523
+          },
+          "before": {
+            "n": 627,
+            "correct": 324,
+            "exact_accuracy": 0.5167464114832536,
+            "fp": 322,
+            "fn": 523
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "龙岗区": {
+          "after": {
+            "n": 1134,
+            "correct": 599,
+            "exact_accuracy": 0.5282186948853616,
+            "fp": 286,
+            "fn": 662
+          },
+          "before": {
+            "n": 1134,
+            "correct": 599,
+            "exact_accuracy": 0.5282186948853616,
+            "fp": 286,
+            "fn": 662
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "single": {
+          "after": {
+            "n": 803,
+            "correct": 606,
+            "exact_accuracy": 0.7546699875466999,
+            "fp": 260,
+            "fn": 170
+          },
+          "before": {
+            "n": 803,
+            "correct": 606,
+            "exact_accuracy": 0.7546699875466999,
+            "fp": 260,
+            "fn": 170
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "multi": {
+          "after": {
+            "n": 958,
+            "correct": 317,
+            "exact_accuracy": 0.33089770354906056,
+            "fp": 348,
+            "fn": 1015
+          },
+          "before": {
+            "n": 958,
+            "correct": 317,
+            "exact_accuracy": 0.33089770354906056,
+            "fp": 348,
+            "fn": 1015
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "20261137": {
+        "all": {
+          "after": {
+            "n": 1761,
+            "correct": 926,
+            "exact_accuracy": 0.5258375922771152,
+            "fp": 592,
+            "fn": 1176
+          },
+          "before": {
+            "n": 1761,
+            "correct": 926,
+            "exact_accuracy": 0.5258375922771152,
+            "fp": 592,
+            "fn": 1176
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "龙华区": {
+          "after": {
+            "n": 627,
+            "correct": 326,
+            "exact_accuracy": 0.5199362041467305,
+            "fp": 307,
+            "fn": 516
+          },
+          "before": {
+            "n": 627,
+            "correct": 326,
+            "exact_accuracy": 0.5199362041467305,
+            "fp": 307,
+            "fn": 516
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "龙岗区": {
+          "after": {
+            "n": 1134,
+            "correct": 600,
+            "exact_accuracy": 0.5291005291005291,
+            "fp": 285,
+            "fn": 660
+          },
+          "before": {
+            "n": 1134,
+            "correct": 600,
+            "exact_accuracy": 0.5291005291005291,
+            "fp": 285,
+            "fn": 660
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "single": {
+          "after": {
+            "n": 803,
+            "correct": 607,
+            "exact_accuracy": 0.7559153175591532,
+            "fp": 261,
+            "fn": 170
+          },
+          "before": {
+            "n": 803,
+            "correct": 607,
+            "exact_accuracy": 0.7559153175591532,
+            "fp": 261,
+            "fn": 170
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "multi": {
+          "after": {
+            "n": 958,
+            "correct": 319,
+            "exact_accuracy": 0.33298538622129437,
+            "fp": 331,
+            "fn": 1006
+          },
+          "before": {
+            "n": 958,
+            "correct": 319,
+            "exact_accuracy": 0.33298538622129437,
+            "fp": 331,
+            "fn": 1006
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "20261138": {
+        "all": {
+          "after": {
+            "n": 1761,
+            "correct": 918,
+            "exact_accuracy": 0.5212947189097104,
+            "fp": 605,
+            "fn": 1188
+          },
+          "before": {
+            "n": 1761,
+            "correct": 918,
+            "exact_accuracy": 0.5212947189097104,
+            "fp": 605,
+            "fn": 1188
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "龙华区": {
+          "after": {
+            "n": 627,
+            "correct": 323,
+            "exact_accuracy": 0.5151515151515151,
+            "fp": 323,
+            "fn": 525
+          },
+          "before": {
+            "n": 627,
+            "correct": 323,
+            "exact_accuracy": 0.5151515151515151,
+            "fp": 323,
+            "fn": 525
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "龙岗区": {
+          "after": {
+            "n": 1134,
+            "correct": 595,
+            "exact_accuracy": 0.5246913580246914,
+            "fp": 282,
+            "fn": 663
+          },
+          "before": {
+            "n": 1134,
+            "correct": 595,
+            "exact_accuracy": 0.5246913580246914,
+            "fp": 282,
+            "fn": 663
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "single": {
+          "after": {
+            "n": 803,
+            "correct": 605,
+            "exact_accuracy": 0.7534246575342466,
+            "fp": 262,
+            "fn": 169
+          },
+          "before": {
+            "n": 803,
+            "correct": 605,
+            "exact_accuracy": 0.7534246575342466,
+            "fp": 262,
+            "fn": 169
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "multi": {
+          "after": {
+            "n": 958,
+            "correct": 313,
+            "exact_accuracy": 0.3267223382045929,
+            "fp": 343,
+            "fn": 1019
+          },
+          "before": {
+            "n": 958,
+            "correct": 313,
+            "exact_accuracy": 0.3267223382045929,
+            "fp": 343,
+            "fn": 1019
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "20261139": {
+        "all": {
+          "after": {
+            "n": 1761,
+            "correct": 921,
+            "exact_accuracy": 0.5229982964224872,
+            "fp": 595,
+            "fn": 1182
+          },
+          "before": {
+            "n": 1761,
+            "correct": 921,
+            "exact_accuracy": 0.5229982964224872,
+            "fp": 595,
+            "fn": 1182
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "龙华区": {
+          "after": {
+            "n": 627,
+            "correct": 325,
+            "exact_accuracy": 0.518341307814992,
+            "fp": 309,
+            "fn": 518
+          },
+          "before": {
+            "n": 627,
+            "correct": 325,
+            "exact_accuracy": 0.518341307814992,
+            "fp": 309,
+            "fn": 518
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "龙岗区": {
+          "after": {
+            "n": 1134,
+            "correct": 596,
+            "exact_accuracy": 0.5255731922398589,
+            "fp": 286,
+            "fn": 664
+          },
+          "before": {
+            "n": 1134,
+            "correct": 596,
+            "exact_accuracy": 0.5255731922398589,
+            "fp": 286,
+            "fn": 664
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "single": {
+          "after": {
+            "n": 803,
+            "correct": 601,
+            "exact_accuracy": 0.7484433374844334,
+            "fp": 268,
+            "fn": 173
+          },
+          "before": {
+            "n": 803,
+            "correct": 601,
+            "exact_accuracy": 0.7484433374844334,
+            "fp": 268,
+            "fn": 173
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "multi": {
+          "after": {
+            "n": 958,
+            "correct": 320,
+            "exact_accuracy": 0.33402922755741127,
+            "fp": 327,
+            "fn": 1009
+          },
+          "before": {
+            "n": 958,
+            "correct": 320,
+            "exact_accuracy": 0.33402922755741127,
+            "fp": 327,
+            "fn": 1009
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "20261140": {
+        "all": {
+          "after": {
+            "n": 1761,
+            "correct": 917,
+            "exact_accuracy": 0.5207268597387847,
+            "fp": 608,
+            "fn": 1193
+          },
+          "before": {
+            "n": 1761,
+            "correct": 917,
+            "exact_accuracy": 0.5207268597387847,
+            "fp": 608,
+            "fn": 1193
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "龙华区": {
+          "after": {
+            "n": 627,
+            "correct": 320,
+            "exact_accuracy": 0.5103668261562998,
+            "fp": 328,
+            "fn": 532
+          },
+          "before": {
+            "n": 627,
+            "correct": 320,
+            "exact_accuracy": 0.5103668261562998,
+            "fp": 328,
+            "fn": 532
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "龙岗区": {
+          "after": {
+            "n": 1134,
+            "correct": 597,
+            "exact_accuracy": 0.5264550264550265,
+            "fp": 280,
+            "fn": 661
+          },
+          "before": {
+            "n": 1134,
+            "correct": 597,
+            "exact_accuracy": 0.5264550264550265,
+            "fp": 280,
+            "fn": 661
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "single": {
+          "after": {
+            "n": 803,
+            "correct": 601,
+            "exact_accuracy": 0.7484433374844334,
+            "fp": 275,
+            "fn": 177
+          },
+          "before": {
+            "n": 803,
+            "correct": 601,
+            "exact_accuracy": 0.7484433374844334,
+            "fp": 275,
+            "fn": 177
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "multi": {
+          "after": {
+            "n": 958,
+            "correct": 316,
+            "exact_accuracy": 0.3298538622129436,
+            "fp": 333,
+            "fn": 1016
+          },
+          "before": {
+            "n": 958,
+            "correct": 316,
+            "exact_accuracy": 0.3298538622129436,
+            "fp": 333,
+            "fn": 1016
+          },
+          "corrected": 0,
+          "harmed": 0,
+          "delta_pp": 0.0,
+          "delta_95_pp": [
+            0.0,
+            0.0
+          ]
+        }
+      }
+    }
+  },
+  "adopted": false,
+  "independent_validation": false
+}

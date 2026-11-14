@@ -1,0 +1,2864 @@
+{
+  "district": "南山区",
+  "local_paths_relative_to": "data/深圳市/",
+  "sources": [
+    {
+      "source_id": "source_d98306251d3d",
+      "url": "https://www.szns.gov.cn/attachment/0/589/589987/7379282.pdf",
+      "districts": [
+        "南山区",
+        "福田区"
+      ],
+      "title": "南山区2020年新增义务教育阶段公办学校学区划分、调整方案",
+      "roles": [
+        "独立文字或待核线索",
+        "核验/历史承接依据"
+      ],
+      "status_notes": [
+        "官网历史方案附件；检索读取首节完整段落，原PDF及正式公告未成功取得；历史独立范围文字线索；不将临时选报南海小学并入范围；不能据此认定2026一致。",
+        "作为核验或发布链依据，不自动视为逐校现行文字"
+      ],
+      "years": [
+        2020
+      ],
+      "linked_school_ids": [],
+      "local_evidence": [
+        "来源存档/福田南山独立学区文字续查_20261107/查阅索引.md",
+        "来源存档/福田南山独立学区文字续查_20261107/来源清单.json",
+        "来源存档/福田南山独立学区文字续查_20261107/网页检索与读取记录.json",
+        "来源存档/福田南山独立学区文字续查_20261107/补充网页记录.json",
+        "来源存档/南山福田文字_polygon一致性核验_20261104/独立官方来源/来源清单.json",
+        "来源存档/南山福田文字_polygon一致性核验_20261104/独立官方来源/补充附件_网页读取存档.json"
+      ],
+      "linked_school_count": 0,
+      "local_evidence_types": [
+        ".json",
+        ".md"
+      ]
+    },
+    {
+      "source_id": "source_144751183d9a",
+      "url": "https://www.sz.gov.cn/attachment/1/1287/1287594/10547303.pdf",
+      "districts": [
+        "南山区",
+        "福田区"
+      ],
+      "title": "南山区2023年秋季义务教育阶段新增公办学校招生范围（征求意见稿）",
+      "roles": [
+        "独立文字或待核线索",
+        "核验/历史承接依据"
+      ],
+      "status_notes": [
+        "征求意见稿；前轮网页读取存档，本轮再次检出官方链接；草案及历史范围证据。",
+        "作为核验或发布链依据，不自动视为逐校现行文字"
+      ],
+      "years": [
+        2023
+      ],
+      "linked_school_ids": [],
+      "local_evidence": [
+        "来源存档/福田南山独立学区文字续查_20261107/查阅索引.md",
+        "来源存档/福田南山独立学区文字续查_20261107/来源清单.json",
+        "来源存档/福田南山独立学区文字续查_20261107/网页检索与读取记录.json",
+        "来源存档/福田南山独立学区文字续查_20261107/补充网页记录.json"
+      ],
+      "linked_school_count": 0,
+      "local_evidence_types": [
+        ".json",
+        ".md"
+      ]
+    },
+    {
+      "source_id": "source_62ece280dadc",
+      "url": "https://www.sz.gov.cn/szzt2010/wgkzl/jcgk/jcygk/zdzcjc/content/post_10547303.html",
+      "districts": [
+        "南山区",
+        "福田区"
+      ],
+      "title": "南山区2023年秋季义务教育阶段新增公办学校招生范围（征求意见稿）：发布页/目录",
+      "roles": [
+        "发布依据",
+        "核验/历史承接依据"
+      ],
+      "status_notes": [
+        "征求意见稿；前轮网页读取存档，本轮再次检出官方链接",
+        "作为核验或发布链依据，不自动视为逐校现行文字"
+      ],
+      "years": [
+        2023
+      ],
+      "linked_school_ids": [],
+      "local_evidence": [
+        "来源存档/福田南山独立学区文字续查_20261107/查阅索引.md",
+        "来源存档/福田南山独立学区文字续查_20261107/来源清单.json",
+        "来源存档/福田南山独立学区文字续查_20261107/网页检索与读取记录.json",
+        "来源存档/福田南山独立学区文字续查_20261107/补充网页记录.json"
+      ],
+      "linked_school_count": 0,
+      "local_evidence_types": [
+        ".json",
+        ".md"
+      ]
+    },
+    {
+      "source_id": "source_b12441f93581",
+      "url": "https://www.szns.gov.cn/attachment/1/1444/1444452/11284165.pdf",
+      "districts": [
+        "南山区",
+        "福田区"
+      ],
+      "title": "南山区2024年秋季义务教育阶段新增公办学校招生范围（征求意见稿）",
+      "roles": [
+        "独立文字或待核线索",
+        "核验/历史承接依据"
+      ],
+      "status_notes": [
+        "征求意见稿；前轮网页读取存档；草案证据；当前正式范围待核。",
+        "作为核验或发布链依据，不自动视为逐校现行文字"
+      ],
+      "years": [
+        2024
+      ],
+      "linked_school_ids": [],
+      "local_evidence": [
+        "来源存档/福田南山独立学区文字续查_20261107/查阅索引.md",
+        "来源存档/福田南山独立学区文字续查_20261107/来源清单.json",
+        "来源存档/南山福田文字_polygon一致性核验_20261104/独立官方来源/来源清单.json",
+        "来源存档/南山福田文字_polygon一致性核验_20261104/独立官方来源/补充附件_网页读取存档.json"
+      ],
+      "linked_school_count": 0,
+      "local_evidence_types": [
+        ".json",
+        ".md"
+      ]
+    },
+    {
+      "source_id": "source_5d76f74adcd0",
+      "url": "https://www.sz.gov.cn/attachment/1/1582/1582352/12197792.pdf",
+      "districts": [
+        "南山区",
+        "福田区"
+      ],
+      "title": "南山区2025年秋季义务教育阶段新增公办学校招生范围（征求意见稿）",
+      "roles": [
+        "独立文字或待核线索",
+        "学校相关线索（不作已核验对应）",
+        "核验/历史承接依据"
+      ],
+      "status_notes": [
+        "征求意见稿；前轮5页全文读取存档，本轮复访超时；不能把明远互选条款当作自身范围，也不能把草案当正式定稿。",
+        "征求意见稿；前轮5页全文读取存档，本轮复访超时",
+        "作为核验或发布链依据，不自动视为逐校现行文字"
+      ],
+      "years": [
+        2025
+      ],
+      "linked_school_ids": [
+        "sz:nanshan:school:ce9b97573e294ae29e6347d6382e6dbc"
+      ],
+      "local_evidence": [
+        "来源存档/福田南山独立学区文字续查_20261107/查阅索引.md",
+        "来源存档/福田南山独立学区文字续查_20261107/来源清单.json",
+        "来源存档/福田南山独立学区文字续查_20261107/网页检索与读取记录.json",
+        "来源存档/福田南山独立学区文字续查_20261107/补充网页记录.json",
+        "来源存档/南山福田文字_polygon一致性核验_20261104/独立官方来源/南山2025市政府转载附件_网页读取存档.json"
+      ],
+      "linked_school_count": 1,
+      "local_evidence_types": [
+        ".json",
+        ".md"
+      ]
+    },
+    {
+      "source_id": "source_8d62baeae9a2",
+      "url": "https://www.sz.gov.cn/school/tzgg/content/post_12197792.html",
+      "districts": [
+        "南山区",
+        "福田区"
+      ],
+      "title": "南山区2025年秋季义务教育阶段新增公办学校招生范围（征求意见稿）：发布页/目录",
+      "roles": [
+        "发布依据",
+        "核验/历史承接依据"
+      ],
+      "status_notes": [
+        "征求意见稿；前轮5页全文读取存档，本轮复访超时",
+        "作为核验或发布链依据，不自动视为逐校现行文字"
+      ],
+      "years": [
+        2025
+      ],
+      "linked_school_ids": [],
+      "local_evidence": [
+        "来源存档/福田南山独立学区文字续查_20261107/查阅索引.md",
+        "来源存档/福田南山独立学区文字续查_20261107/来源清单.json",
+        "来源存档/福田南山独立学区文字续查_20261107/网页检索与读取记录.json",
+        "来源存档/福田南山独立学区文字续查_20261107/补充网页记录.json"
+      ],
+      "linked_school_count": 0,
+      "local_evidence_types": [
+        ".json",
+        ".md"
+      ]
+    },
+    {
+      "source_id": "source_e98d8c5545ea",
+      "url": "https://www.szns.gov.cn/nsqjyj/attachment/1/1717/1717081/12808066.pdf",
+      "districts": [
+        "南山区",
+        "福田区"
+      ],
+      "title": "南山区2026年新增公办学校招生范围（征求意见稿）",
+      "roles": [
+        "独立文字或待核线索",
+        "核验/历史承接依据"
+      ],
+      "status_notes": [
+        "征求意见稿；前轮网页读取存档；尚不是已核验的正式2026逐校范围全集。",
+        "作为核验或发布链依据，不自动视为逐校现行文字"
+      ],
+      "years": [
+        2026
+      ],
+      "linked_school_ids": [],
+      "local_evidence": [
+        "来源存档/福田南山独立学区文字续查_20261107/查阅索引.md",
+        "来源存档/南山福田文字_polygon一致性核验_20261104/独立官方来源/官方附件_网页读取存档.json",
+        "来源存档/福田南山独立学区文字续查_20261107/来源清单.json",
+        "来源存档/南山福田文字_polygon一致性核验_20261104/独立官方来源/来源清单.json"
+      ],
+      "linked_school_count": 0,
+      "local_evidence_types": [
+        ".json",
+        ".md"
+      ]
+    },
+    {
+      "source_id": "source_aab6f9ab3cd4",
+      "url": "https://www.szns.gov.cn/nsqjyj/gkmlpt/content/12/12808/post_12808066.html",
+      "districts": [
+        "南山区",
+        "福田区"
+      ],
+      "title": "南山区2026年新增公办学校招生范围（征求意见稿）：发布页/目录",
+      "roles": [
+        "发布依据",
+        "核验/历史承接依据"
+      ],
+      "status_notes": [
+        "征求意见稿；前轮网页读取存档",
+        "作为核验或发布链依据，不自动视为逐校现行文字"
+      ],
+      "years": [
+        2026
+      ],
+      "linked_school_ids": [],
+      "local_evidence": [
+        "来源存档/福田南山独立学区文字续查_20261107/查阅索引.md",
+        "来源存档/福田南山独立学区文字续查_20261107/来源清单.json"
+      ],
+      "linked_school_count": 0,
+      "local_evidence_types": [
+        ".json",
+        ".md"
+      ]
+    },
+    {
+      "source_id": "source_b6a06ace8e6f",
+      "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+      "districts": [
+        "南山区"
+      ],
+      "title": "南山区官方小学学区地图",
+      "roles": [
+        "polygon：学校记录MAPDATA",
+        "地图文字：同一学校记录XQ"
+      ],
+      "status_notes": [
+        "2026-11-03正常浏览器采集的官方地图学校记录",
+        "图文同平台，不能算两份独立证据"
+      ],
+      "years": [],
+      "linked_school_ids": [
+        "sz:nanshan:school:496FFFE16D805558E053BC09A8C0A5ED",
+        "sz:nanshan:school:496FFFE16D7F5558E053BC09A8C0A5ED",
+        "sz:nanshan:school:496FFFE16D8A5558E053BC09A8C0A5ED",
+        "sz:nanshan:school:496FFFE16D925558E053BC09A8C0A5ED",
+        "sz:nanshan:school:496FFFE16DA85558E053BC09A8C0A5ED",
+        "sz:nanshan:school:496FFFE16D8F5558E053BC09A8C0A5ED",
+        "sz:nanshan:school:496FFFE16D965558E053BC09A8C0A5ED",
+        "sz:nanshan:school:496FFFE16D8C5558E053BC09A8C0A5ED",
+        "sz:nanshan:school:f440f1c022f44439bfe871058887cdcf",
+        "sz:nanshan:school:bcdceade8fb34f0a80a9d96c8f07d987",
+        "sz:nanshan:school:496FFFE16D9A5558E053BC09A8C0A5ED",
+        "sz:nanshan:school:496FFFE16DAA5558E053BC09A8C0A5ED",
+        "sz:nanshan:school:496FFFE16DCB5558E053BC09A8C0A5ED",
+        "sz:nanshan:school:496FFFE16D835558E053BC09A8C0A5ED",
+        "sz:nanshan:school:496FFFE16D6D5558E053BC09A8C0A5ED",
+        "sz:nanshan:school:496FFFE16D955558E053BC09A8C0A5ED",
+        "sz:nanshan:school:496FFFE16D885558E053BC09A8C0A5ED",
+        "sz:nanshan:school:496FFFE16D8D5558E053BC09A8C0A5ED",
+        "sz:nanshan:school:496FFFE16D7C5558E053BC09A8C0A5ED",
+        "sz:nanshan:school:496FFFE16DCC5558E053BC09A8C0A5ED",
+        "sz:nanshan:school:496FFFE16DC35558E053BC09A8C0A5ED",
+        "sz:nanshan:school:496FFFE16DB35558E053BC09A8C0A5ED",
+        "sz:nanshan:school:496FFFE16DAE5558E053BC09A8C0A5ED",
+        "sz:nanshan:school:496FFFE16D775558E053BC09A8C0A5ED",
+        "sz:nanshan:school:496FFFE16D6E5558E053BC09A8C0A5ED",
+        "sz:nanshan:school:496FFFE16D715558E053BC09A8C0A5ED",
+        "sz:nanshan:school:496FFFE16DBF5558E053BC09A8C0A5ED",
+        "sz:nanshan:school:496FFFE16D745558E053BC09A8C0A5ED",
+        "sz:nanshan:school:496FFFE16D905558E053BC09A8C0A5ED",
+        "sz:nanshan:school:496FFFE16DC25558E053BC09A8C0A5ED",
+        "sz:nanshan:school:496FFFE16DC05558E053BC09A8C0A5ED",
+        "sz:nanshan:school:496FFFE16D895558E053BC09A8C0A5ED",
+        "sz:nanshan:school:496FFFE16D935558E053BC09A8C0A5ED",
+        "sz:nanshan:school:496FFFE16D725558E053BC09A8C0A5ED",
+        "sz:nanshan:school:496FFFE16D825558E053BC09A8C0A5ED",
+        "sz:nanshan:school:496FFFE16D6F5558E053BC09A8C0A5ED",
+        "sz:nanshan:school:496FFFE16D7D5558E053BC09A8C0A5ED",
+        "sz:nanshan:school:496FFFE16D705558E053BC09A8C0A5ED",
+        "sz:nanshan:school:496FFFE16D6C5558E053BC09A8C0A5ED",
+        "sz:nanshan:school:496FFFE16DC15558E053BC09A8C0A5ED",
+        "sz:nanshan:school:496FFFE16D755558E053BC09A8C0A5ED",
+        "sz:nanshan:school:496FFFE16D765558E053BC09A8C0A5ED",
+        "sz:nanshan:school:496FFFE16D845558E053BC09A8C0A5ED",
+        "sz:nanshan:school:496FFFE16D945558E053BC09A8C0A5ED",
+        "sz:nanshan:school:496FFFE16D915558E053BC09A8C0A5ED",
+        "sz:nanshan:school:496FFFE16D7A5558E053BC09A8C0A5ED",
+        "sz:nanshan:school:496FFFE16D8B5558E053BC09A8C0A5ED",
+        "sz:nanshan:school:496FFFE16D815558E053BC09A8C0A5ED",
+        "sz:nanshan:school:496FFFE16D795558E053BC09A8C0A5ED",
+        "sz:nanshan:school:496FFFE16D735558E053BC09A8C0A5ED",
+        "sz:nanshan:school:496FFFE16D6B5558E053BC09A8C0A5ED",
+        "sz:nanshan:school:496FFFE16D865558E053BC09A8C0A5ED",
+        "sz:nanshan:school:496FFFE16D875558E053BC09A8C0A5ED",
+        "sz:nanshan:school:496FFFE16DAF5558E053BC09A8C0A5ED",
+        "sz:nanshan:school:496FFFE16DB05558E053BC09A8C0A5ED",
+        "sz:nanshan:school:496FFFE16D8E5558E053BC09A8C0A5ED",
+        "sz:nanshan:school:496FFFE16D855558E053BC09A8C0A5ED",
+        "sz:nanshan:school:2d32d04cc964468592b12be15827cd7d",
+        "sz:nanshan:school:20fcac535b94452a9190d3149806fc02",
+        "sz:nanshan:school:496FFFE16DCE5558E053BC09A8C0A5ED",
+        "sz:nanshan:school:762d4b2c2d5f498390781cf7c31e9bed",
+        "sz:nanshan:school:21a89e499f0f478f8aea0ca490803375",
+        "sz:nanshan:school:16ff265448224e4b98e14a49e1fe3b6a",
+        "sz:nanshan:school:1f92a8ebcde84c928a45497edb7aa5b4",
+        "sz:nanshan:school:309f2ba7fa364ae7814699f6400abdfd",
+        "sz:nanshan:school:313e301e260644d3bb6291c275344d3c",
+        "sz:nanshan:school:496FFFE16D785558E053BC09A8C0A5ED",
+        "sz:nanshan:school:4d2236c8bc874fa4b0d3d887ea5f4ad5",
+        "sz:nanshan:school:5d26cdbb9d354feeaae73fd53c38188d",
+        "sz:nanshan:school:62322df6c5464cf9afdaa4226b249126",
+        "sz:nanshan:school:7b593143fc9340e8bab457cb946e00bf",
+        "sz:nanshan:school:7f093f1789e546ad82638b81bba3b569",
+        "sz:nanshan:school:8493e363b2484f90bd5e5ccd359c676a",
+        "sz:nanshan:school:aa66e679311b478584d00e100393284a",
+        "sz:nanshan:school:b4ef7e6cd3ce488cb2c7cb7d98abe286",
+        "sz:nanshan:school:be0d651a3cf14007b6359cc07bea7f3a",
+        "sz:nanshan:school:ce9b97573e294ae29e6347d6382e6dbc",
+        "sz:nanshan:school:cf41a6a6b41245c0b434cf29ae8d620b",
+        "sz:nanshan:school:f387eb3a551d4330b75c1fa456c825e8",
+        "sz:nanshan:school:fdd389daa0fe40ea8c04e2eee66d6f9a"
+      ],
+      "local_evidence": [
+        "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "来源存档/四区数据集_20261103_v1/南山区/政策文本/招生政策.json",
+        "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/receipt.json"
+      ],
+      "linked_school_count": 80,
+      "local_evidence_types": [
+        ".json"
+      ]
+    }
+  ],
+  "schools": [
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:496FFFE16D805558E053BC09A8C0A5ED",
+      "school_name": "蛇口育才教育集团育才一小",
+      "map_school_name": "蛇口育才教育集团育才一小",
+      "source_school_id": "496FFFE16D805558E053BC09A8C0A5ED",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D805558E053BC09A8C0A5ED",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D805558E053BC09A8C0A5ED",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:496FFFE16D7F5558E053BC09A8C0A5ED",
+      "school_name": "蛇口育才教育集团育才二小",
+      "map_school_name": "蛇口育才教育集团育才二小",
+      "source_school_id": "496FFFE16D7F5558E053BC09A8C0A5ED",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D7F5558E053BC09A8C0A5ED",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D7F5558E053BC09A8C0A5ED",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:496FFFE16D8A5558E053BC09A8C0A5ED",
+      "school_name": "蛇口育才教育集团育才三小",
+      "map_school_name": "蛇口育才教育集团育才三小",
+      "source_school_id": "496FFFE16D8A5558E053BC09A8C0A5ED",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D8A5558E053BC09A8C0A5ED",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D8A5558E053BC09A8C0A5ED",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:496FFFE16D925558E053BC09A8C0A5ED",
+      "school_name": "蛇口育才教育集团育才四小",
+      "map_school_name": "蛇口育才教育集团育才四小",
+      "source_school_id": "496FFFE16D925558E053BC09A8C0A5ED",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D925558E053BC09A8C0A5ED",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D925558E053BC09A8C0A5ED",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:496FFFE16DA85558E053BC09A8C0A5ED",
+      "school_name": "南山实验教育集团南头小学",
+      "map_school_name": "南山实验教育集团南头小学",
+      "source_school_id": "496FFFE16DA85558E053BC09A8C0A5ED",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16DA85558E053BC09A8C0A5ED",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16DA85558E053BC09A8C0A5ED",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:496FFFE16D8F5558E053BC09A8C0A5ED",
+      "school_name": "南山实验教育集团麒麟小学",
+      "map_school_name": "南山实验教育集团麒麟小学",
+      "source_school_id": "496FFFE16D8F5558E053BC09A8C0A5ED",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D8F5558E053BC09A8C0A5ED",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D8F5558E053BC09A8C0A5ED",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:496FFFE16D965558E053BC09A8C0A5ED",
+      "school_name": "南山实验教育集团荔林小学",
+      "map_school_name": "南山实验教育集团荔林小学",
+      "source_school_id": "496FFFE16D965558E053BC09A8C0A5ED",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D965558E053BC09A8C0A5ED",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D965558E053BC09A8C0A5ED",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:496FFFE16D8C5558E053BC09A8C0A5ED",
+      "school_name": "南山实验教育集团鼎太小学",
+      "map_school_name": "南山实验教育集团鼎太小学",
+      "source_school_id": "496FFFE16D8C5558E053BC09A8C0A5ED",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D8C5558E053BC09A8C0A5ED",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D8C5558E053BC09A8C0A5ED",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:f440f1c022f44439bfe871058887cdcf",
+      "school_name": "南山实验教育集团荔湾小学",
+      "map_school_name": "南山实验教育集团荔湾小学",
+      "source_school_id": "f440f1c022f44439bfe871058887cdcf",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "f440f1c022f44439bfe871058887cdcf",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "f440f1c022f44439bfe871058887cdcf",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:bcdceade8fb34f0a80a9d96c8f07d987",
+      "school_name": "南山实验教育集团园丁学校（小学部）",
+      "map_school_name": "南山实验教育集团园丁学校（小学部）",
+      "source_school_id": "bcdceade8fb34f0a80a9d96c8f07d987",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "bcdceade8fb34f0a80a9d96c8f07d987",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "bcdceade8fb34f0a80a9d96c8f07d987",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:496FFFE16D9A5558E053BC09A8C0A5ED",
+      "school_name": "南山外国语学校（集团）文华学校（小学部）",
+      "map_school_name": "南山外国语学校（集团）文华学校（小学部）",
+      "source_school_id": "496FFFE16D9A5558E053BC09A8C0A5ED",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D9A5558E053BC09A8C0A5ED",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D9A5558E053BC09A8C0A5ED",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:496FFFE16DAA5558E053BC09A8C0A5ED",
+      "school_name": "南山外国语学校（集团）科苑小学",
+      "map_school_name": "南山外国语学校（集团）科苑小学",
+      "source_school_id": "496FFFE16DAA5558E053BC09A8C0A5ED",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16DAA5558E053BC09A8C0A5ED",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16DAA5558E053BC09A8C0A5ED",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:496FFFE16DCB5558E053BC09A8C0A5ED",
+      "school_name": "南山外国语学校（集团）滨海小学",
+      "map_school_name": "南山外国语学校（集团）滨海小学",
+      "source_school_id": "496FFFE16DCB5558E053BC09A8C0A5ED",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16DCB5558E053BC09A8C0A5ED",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16DCB5558E053BC09A8C0A5ED",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:496FFFE16D835558E053BC09A8C0A5ED",
+      "school_name": "南山外国语学校（集团）大冲学校（小学部）",
+      "map_school_name": "南山外国语学校（集团）大冲学校（小学部）",
+      "source_school_id": "496FFFE16D835558E053BC09A8C0A5ED",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D835558E053BC09A8C0A5ED",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D835558E053BC09A8C0A5ED",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:496FFFE16D6D5558E053BC09A8C0A5ED",
+      "school_name": "南山区海滨实验小学",
+      "map_school_name": "南山区海滨实验小学",
+      "source_school_id": "496FFFE16D6D5558E053BC09A8C0A5ED",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D6D5558E053BC09A8C0A5ED",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D6D5558E053BC09A8C0A5ED",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:496FFFE16D955558E053BC09A8C0A5ED",
+      "school_name": "南山实验教育集团深湾小学",
+      "map_school_name": "南山实验教育集团深湾小学",
+      "source_school_id": "496FFFE16D955558E053BC09A8C0A5ED",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D955558E053BC09A8C0A5ED",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D955558E053BC09A8C0A5ED",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:496FFFE16D885558E053BC09A8C0A5ED",
+      "school_name": "南山区第二外国语学校（集团）学府一小",
+      "map_school_name": "南山区第二外国语学校（集团）学府一小",
+      "source_school_id": "496FFFE16D885558E053BC09A8C0A5ED",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D885558E053BC09A8C0A5ED",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D885558E053BC09A8C0A5ED",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:496FFFE16D8D5558E053BC09A8C0A5ED",
+      "school_name": "南山区第二外国语学校（集团）学府二小",
+      "map_school_name": "南山区第二外国语学校（集团）学府二小",
+      "source_school_id": "496FFFE16D8D5558E053BC09A8C0A5ED",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D8D5558E053BC09A8C0A5ED",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D8D5558E053BC09A8C0A5ED",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:496FFFE16D7C5558E053BC09A8C0A5ED",
+      "school_name": "南山区西丽小学",
+      "map_school_name": "南山区西丽小学",
+      "source_school_id": "496FFFE16D7C5558E053BC09A8C0A5ED",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D7C5558E053BC09A8C0A5ED",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D7C5558E053BC09A8C0A5ED",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:496FFFE16DCC5558E053BC09A8C0A5ED",
+      "school_name": "南山区深圳大学城丽湖实验学校（小学部）",
+      "map_school_name": "南山区深圳大学城丽湖实验学校（小学部）",
+      "source_school_id": "496FFFE16DCC5558E053BC09A8C0A5ED",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16DCC5558E053BC09A8C0A5ED",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16DCC5558E053BC09A8C0A5ED",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:496FFFE16DC35558E053BC09A8C0A5ED",
+      "school_name": "南山区哈尔滨工业大学（深圳）实验学校（小学部）",
+      "map_school_name": "南山区哈尔滨工业大学（深圳）实验学校（小学部）",
+      "source_school_id": "496FFFE16DC35558E053BC09A8C0A5ED",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16DC35558E053BC09A8C0A5ED",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16DC35558E053BC09A8C0A5ED",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:496FFFE16DB35558E053BC09A8C0A5ED",
+      "school_name": "南山区南方科技大学教育集团（南山）实验一小",
+      "map_school_name": "南山区南方科技大学教育集团（南山）实验一小",
+      "source_school_id": "496FFFE16DB35558E053BC09A8C0A5ED",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16DB35558E053BC09A8C0A5ED",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16DB35558E053BC09A8C0A5ED",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:496FFFE16DAE5558E053BC09A8C0A5ED",
+      "school_name": "南山区南方科技大学教育集团（南山）实验二小",
+      "map_school_name": "南山区南方科技大学教育集团（南山）实验二小",
+      "source_school_id": "496FFFE16DAE5558E053BC09A8C0A5ED",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16DAE5558E053BC09A8C0A5ED",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16DAE5558E053BC09A8C0A5ED",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:496FFFE16D775558E053BC09A8C0A5ED",
+      "school_name": "南山区蛇口学校（小学部）",
+      "map_school_name": "南山区蛇口学校（小学部）",
+      "source_school_id": "496FFFE16D775558E053BC09A8C0A5ED",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D775558E053BC09A8C0A5ED",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D775558E053BC09A8C0A5ED",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:496FFFE16D6E5558E053BC09A8C0A5ED",
+      "school_name": "蛇口育才教育集团太子湾学校（小学部）",
+      "map_school_name": "蛇口育才教育集团太子湾学校（小学部）",
+      "source_school_id": "496FFFE16D6E5558E053BC09A8C0A5ED",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D6E5558E053BC09A8C0A5ED",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D6E5558E053BC09A8C0A5ED",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:496FFFE16D715558E053BC09A8C0A5ED",
+      "school_name": "南山区深圳大学附属教育集团后海小学",
+      "map_school_name": "南山区深圳大学附属教育集团后海小学",
+      "source_school_id": "496FFFE16D715558E053BC09A8C0A5ED",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D715558E053BC09A8C0A5ED",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D715558E053BC09A8C0A5ED",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:496FFFE16DBF5558E053BC09A8C0A5ED",
+      "school_name": "南山区第二外国语学校（集团）赤湾学校（小学部）",
+      "map_school_name": "南山区第二外国语学校（集团）赤湾学校（小学部）",
+      "source_school_id": "496FFFE16DBF5558E053BC09A8C0A5ED",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16DBF5558E053BC09A8C0A5ED",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16DBF5558E053BC09A8C0A5ED",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:496FFFE16D745558E053BC09A8C0A5ED",
+      "school_name": "南山区第二外国语学校（集团）前海小学",
+      "map_school_name": "南山区第二外国语学校（集团）前海小学",
+      "source_school_id": "496FFFE16D745558E053BC09A8C0A5ED",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D745558E053BC09A8C0A5ED",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D745558E053BC09A8C0A5ED",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:496FFFE16D905558E053BC09A8C0A5ED",
+      "school_name": "南山区第二外国语学校（集团）前海学校（小学部）",
+      "map_school_name": "南山区第二外国语学校（集团）前海学校（小学部）",
+      "source_school_id": "496FFFE16D905558E053BC09A8C0A5ED",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D905558E053BC09A8C0A5ED",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D905558E053BC09A8C0A5ED",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:496FFFE16DC25558E053BC09A8C0A5ED",
+      "school_name": "南山区第二外国语学校（集团）海德学校（小学部）",
+      "map_school_name": "南山区第二外国语学校（集团）海德学校（小学部）",
+      "source_school_id": "496FFFE16DC25558E053BC09A8C0A5ED",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16DC25558E053BC09A8C0A5ED",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16DC25558E053BC09A8C0A5ED",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:496FFFE16DC05558E053BC09A8C0A5ED",
+      "school_name": "南山外国语学校（集团）第二实验学校（小学部）",
+      "map_school_name": "南山外国语学校（集团）第二实验学校（小学部）",
+      "source_school_id": "496FFFE16DC05558E053BC09A8C0A5ED",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16DC05558E053BC09A8C0A5ED",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16DC05558E053BC09A8C0A5ED",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:496FFFE16D895558E053BC09A8C0A5ED",
+      "school_name": " 前海创新教育集团月亮湾小学",
+      "map_school_name": " 前海创新教育集团月亮湾小学",
+      "source_school_id": "496FFFE16D895558E053BC09A8C0A5ED",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D895558E053BC09A8C0A5ED",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D895558E053BC09A8C0A5ED",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:496FFFE16D935558E053BC09A8C0A5ED",
+      "school_name": "南山区南海小学",
+      "map_school_name": "南山区南海小学",
+      "source_school_id": "496FFFE16D935558E053BC09A8C0A5ED",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D935558E053BC09A8C0A5ED",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D935558E053BC09A8C0A5ED",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:496FFFE16D725558E053BC09A8C0A5ED",
+      "school_name": "南山区南油小学",
+      "map_school_name": "南山区南油小学",
+      "source_school_id": "496FFFE16D725558E053BC09A8C0A5ED",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D725558E053BC09A8C0A5ED",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D725558E053BC09A8C0A5ED",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:496FFFE16D825558E053BC09A8C0A5ED",
+      "school_name": "南山区第二外国语学校（集团）阳光小学",
+      "map_school_name": "南山区第二外国语学校（集团）阳光小学",
+      "source_school_id": "496FFFE16D825558E053BC09A8C0A5ED",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D825558E053BC09A8C0A5ED",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D825558E053BC09A8C0A5ED",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:496FFFE16D6F5558E053BC09A8C0A5ED",
+      "school_name": "南山区南山小学",
+      "map_school_name": "南山区南山小学",
+      "source_school_id": "496FFFE16D6F5558E053BC09A8C0A5ED",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D6F5558E053BC09A8C0A5ED",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D6F5558E053BC09A8C0A5ED",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:496FFFE16D7D5558E053BC09A8C0A5ED",
+      "school_name": "南山区向南小学",
+      "map_school_name": "南山区向南小学",
+      "source_school_id": "496FFFE16D7D5558E053BC09A8C0A5ED",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D7D5558E053BC09A8C0A5ED",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D7D5558E053BC09A8C0A5ED",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:496FFFE16D705558E053BC09A8C0A5ED",
+      "school_name": "南山区教育科学研究院附属学校教育集团南头城学校（小学部）",
+      "map_school_name": "南山区教育科学研究院附属学校教育集团南头城学校（小学部）",
+      "source_school_id": "496FFFE16D705558E053BC09A8C0A5ED",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D705558E053BC09A8C0A5ED",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D705558E053BC09A8C0A5ED",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:496FFFE16D6C5558E053BC09A8C0A5ED",
+      "school_name": "南山区教育科学研究院附属学校教育集团大新小学",
+      "map_school_name": "南山区教育科学研究院附属学校教育集团大新小学",
+      "source_school_id": "496FFFE16D6C5558E053BC09A8C0A5ED",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D6C5558E053BC09A8C0A5ED",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D6C5558E053BC09A8C0A5ED",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:496FFFE16DC15558E053BC09A8C0A5ED",
+      "school_name": "南山区教育科学研究院附属学校教育集团同乐实验学校（小学部）",
+      "map_school_name": "南山区教育科学研究院附属学校教育集团同乐实验学校（小学部）",
+      "source_school_id": "496FFFE16DC15558E053BC09A8C0A5ED",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16DC15558E053BC09A8C0A5ED",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16DC15558E053BC09A8C0A5ED",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:496FFFE16D755558E053BC09A8C0A5ED",
+      "school_name": "南山外国语学校（集团）华侨城小学",
+      "map_school_name": "南山外国语学校（集团）华侨城小学",
+      "source_school_id": "496FFFE16D755558E053BC09A8C0A5ED",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D755558E053BC09A8C0A5ED",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D755558E053BC09A8C0A5ED",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:496FFFE16D765558E053BC09A8C0A5ED",
+      "school_name": "南山外国语学校（集团）沙河小学",
+      "map_school_name": "南山外国语学校（集团）沙河小学",
+      "source_school_id": "496FFFE16D765558E053BC09A8C0A5ED",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D765558E053BC09A8C0A5ED",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D765558E053BC09A8C0A5ED",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:496FFFE16D845558E053BC09A8C0A5ED",
+      "school_name": "南山区教育科学研究院附属学校教育集团松坪学校（小学部）",
+      "map_school_name": "南山区教育科学研究院附属学校教育集团松坪学校（小学部）",
+      "source_school_id": "496FFFE16D845558E053BC09A8C0A5ED",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D845558E053BC09A8C0A5ED",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D845558E053BC09A8C0A5ED",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:496FFFE16D945558E053BC09A8C0A5ED",
+      "school_name": "南山区教育科学研究院附属学校教育集团松坪第二小学",
+      "map_school_name": "南山区教育科学研究院附属学校教育集团松坪第二小学",
+      "source_school_id": "496FFFE16D945558E053BC09A8C0A5ED",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D945558E053BC09A8C0A5ED",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D945558E053BC09A8C0A5ED",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:496FFFE16D915558E053BC09A8C0A5ED",
+      "school_name": "南山区文理实验学校（集团）文理二小",
+      "map_school_name": "南山区文理实验学校（集团）文理二小",
+      "source_school_id": "496FFFE16D915558E053BC09A8C0A5ED",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D915558E053BC09A8C0A5ED",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D915558E053BC09A8C0A5ED",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:496FFFE16D7A5558E053BC09A8C0A5ED",
+      "school_name": "南山区桃源小学",
+      "map_school_name": "南山区桃源小学",
+      "source_school_id": "496FFFE16D7A5558E053BC09A8C0A5ED",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D7A5558E053BC09A8C0A5ED",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D7A5558E053BC09A8C0A5ED",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:496FFFE16D8B5558E053BC09A8C0A5ED",
+      "school_name": "南山区卓雅小学",
+      "map_school_name": "南山区卓雅小学",
+      "source_school_id": "496FFFE16D8B5558E053BC09A8C0A5ED",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D8B5558E053BC09A8C0A5ED",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D8B5558E053BC09A8C0A5ED",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:496FFFE16D815558E053BC09A8C0A5ED",
+      "school_name": "南山区珠光小学",
+      "map_school_name": "南山区珠光小学",
+      "source_school_id": "496FFFE16D815558E053BC09A8C0A5ED",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D815558E053BC09A8C0A5ED",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D815558E053BC09A8C0A5ED",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:496FFFE16D795558E053BC09A8C0A5ED",
+      "school_name": "南山区深圳大学附属教育集团实验小学",
+      "map_school_name": "南山区深圳大学附属教育集团实验小学",
+      "source_school_id": "496FFFE16D795558E053BC09A8C0A5ED",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D795558E053BC09A8C0A5ED",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D795558E053BC09A8C0A5ED",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:496FFFE16D735558E053BC09A8C0A5ED",
+      "school_name": "南山区第二外国语学校（集团）平山学校（小学部）",
+      "map_school_name": "南山区第二外国语学校（集团）平山学校（小学部）",
+      "source_school_id": "496FFFE16D735558E053BC09A8C0A5ED",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D735558E053BC09A8C0A5ED",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D735558E053BC09A8C0A5ED",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:496FFFE16D6B5558E053BC09A8C0A5ED",
+      "school_name": "南山区第二外国语学校（集团）大磡小学",
+      "map_school_name": "南山区第二外国语学校（集团）大磡小学",
+      "source_school_id": "496FFFE16D6B5558E053BC09A8C0A5ED",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D6B5558E053BC09A8C0A5ED",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D6B5558E053BC09A8C0A5ED",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:496FFFE16D865558E053BC09A8C0A5ED",
+      "school_name": "南山实验教育集团白芒小学",
+      "map_school_name": "南山实验教育集团白芒小学",
+      "source_school_id": "496FFFE16D865558E053BC09A8C0A5ED",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D865558E053BC09A8C0A5ED",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D865558E053BC09A8C0A5ED",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:496FFFE16D875558E053BC09A8C0A5ED",
+      "school_name": "南山区文理实验学校（集团）文理一小",
+      "map_school_name": "南山区文理实验学校（集团）文理一小",
+      "source_school_id": "496FFFE16D875558E053BC09A8C0A5ED",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D875558E053BC09A8C0A5ED",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D875558E053BC09A8C0A5ED",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:496FFFE16DAF5558E053BC09A8C0A5ED",
+      "school_name": "南山区文理实验学校（集团）文理学校（小学部）",
+      "map_school_name": "南山区文理实验学校（集团）文理学校（小学部）",
+      "source_school_id": "496FFFE16DAF5558E053BC09A8C0A5ED",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16DAF5558E053BC09A8C0A5ED",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16DAF5558E053BC09A8C0A5ED",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:496FFFE16DB05558E053BC09A8C0A5ED",
+      "school_name": "前海创新教育集团港湾小学",
+      "map_school_name": "前海创新教育集团港湾小学",
+      "source_school_id": "496FFFE16DB05558E053BC09A8C0A5ED",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16DB05558E053BC09A8C0A5ED",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16DB05558E053BC09A8C0A5ED",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:496FFFE16D8E5558E053BC09A8C0A5ED",
+      "school_name": "南山区教育科学研究院附属学校教育集团荔香学校（小学部）",
+      "map_school_name": "南山区教育科学研究院附属学校教育集团荔香学校（小学部）",
+      "source_school_id": "496FFFE16D8E5558E053BC09A8C0A5ED",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D8E5558E053BC09A8C0A5ED",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D8E5558E053BC09A8C0A5ED",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:496FFFE16D855558E053BC09A8C0A5ED",
+      "school_name": "南山区中国科学院深圳先进技术研究院实验学校（小学部）",
+      "map_school_name": "南山区中国科学院深圳先进技术研究院实验学校（小学部）",
+      "source_school_id": "496FFFE16D855558E053BC09A8C0A5ED",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D855558E053BC09A8C0A5ED",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D855558E053BC09A8C0A5ED",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:2d32d04cc964468592b12be15827cd7d",
+      "school_name": "南山外国语学校（集团）香山里小学",
+      "map_school_name": "南山外国语学校（集团）香山里小学",
+      "source_school_id": "2d32d04cc964468592b12be15827cd7d",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "2d32d04cc964468592b12be15827cd7d",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "2d32d04cc964468592b12be15827cd7d",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:20fcac535b94452a9190d3149806fc02",
+      "school_name": "南山区深圳湾学校（小学部）",
+      "map_school_name": "南山区深圳湾学校（小学部）",
+      "source_school_id": "20fcac535b94452a9190d3149806fc02",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "20fcac535b94452a9190d3149806fc02",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "20fcac535b94452a9190d3149806fc02",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:496FFFE16DCE5558E053BC09A8C0A5ED",
+      "school_name": "蛇口育才教育集团龙珠学校（小学部）",
+      "map_school_name": "蛇口育才教育集团龙珠学校（小学部）",
+      "source_school_id": "496FFFE16DCE5558E053BC09A8C0A5ED",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16DCE5558E053BC09A8C0A5ED",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16DCE5558E053BC09A8C0A5ED",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:762d4b2c2d5f498390781cf7c31e9bed",
+      "school_name": "南山区深中南山创新学校（小学部）",
+      "map_school_name": "南山区深中南山创新学校（小学部）",
+      "source_school_id": "762d4b2c2d5f498390781cf7c31e9bed",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "762d4b2c2d5f498390781cf7c31e9bed",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "762d4b2c2d5f498390781cf7c31e9bed",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:21a89e499f0f478f8aea0ca490803375",
+      "school_name": "南山外国语学校（集团）科华学校（小学部）",
+      "map_school_name": "南山外国语学校（集团）科华学校（小学部）",
+      "source_school_id": "21a89e499f0f478f8aea0ca490803375",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "21a89e499f0f478f8aea0ca490803375",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "21a89e499f0f478f8aea0ca490803375",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:16ff265448224e4b98e14a49e1fe3b6a",
+      "school_name": "前海创新教育集团桂湾学校（小学部）",
+      "map_school_name": "前海创新教育集团桂湾学校（小学部）",
+      "source_school_id": "16ff265448224e4b98e14a49e1fe3b6a",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "16ff265448224e4b98e14a49e1fe3b6a",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "16ff265448224e4b98e14a49e1fe3b6a",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:1f92a8ebcde84c928a45497edb7aa5b4",
+      "school_name": "蛇口育才教育集团育才实验学校（小学部）",
+      "map_school_name": "蛇口育才教育集团育才实验学校（小学部）",
+      "source_school_id": "1f92a8ebcde84c928a45497edb7aa5b4",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "1f92a8ebcde84c928a45497edb7aa5b4",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "1f92a8ebcde84c928a45497edb7aa5b4",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:309f2ba7fa364ae7814699f6400abdfd",
+      "school_name": "前海创新教育集团前湾学校（小学部）",
+      "map_school_name": "前海创新教育集团前湾学校（小学部）",
+      "source_school_id": "309f2ba7fa364ae7814699f6400abdfd",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "309f2ba7fa364ae7814699f6400abdfd",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "309f2ba7fa364ae7814699f6400abdfd",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:313e301e260644d3bb6291c275344d3c",
+      "school_name": "南山区蛇口育才教育集团山海学校（小学部）",
+      "map_school_name": "南山区蛇口育才教育集团山海学校（小学部）",
+      "source_school_id": "313e301e260644d3bb6291c275344d3c",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "313e301e260644d3bb6291c275344d3c",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "313e301e260644d3bb6291c275344d3c",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:496FFFE16D785558E053BC09A8C0A5ED",
+      "school_name": "南山区北京师范大学南山附属学校（小学部）",
+      "map_school_name": "南山区北京师范大学南山附属学校（小学部）",
+      "source_school_id": "496FFFE16D785558E053BC09A8C0A5ED",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D785558E053BC09A8C0A5ED",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "496FFFE16D785558E053BC09A8C0A5ED",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:4d2236c8bc874fa4b0d3d887ea5f4ad5",
+      "school_name": "前海创新教育集团妈湾学校（小学部）",
+      "map_school_name": "前海创新教育集团妈湾学校（小学部）",
+      "source_school_id": "4d2236c8bc874fa4b0d3d887ea5f4ad5",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "4d2236c8bc874fa4b0d3d887ea5f4ad5",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "4d2236c8bc874fa4b0d3d887ea5f4ad5",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:5d26cdbb9d354feeaae73fd53c38188d",
+      "school_name": "南山区文理实验学校（集团）科创学校（小学部）",
+      "map_school_name": "南山区文理实验学校（集团）科创学校（小学部）",
+      "source_school_id": "5d26cdbb9d354feeaae73fd53c38188d",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "5d26cdbb9d354feeaae73fd53c38188d",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "5d26cdbb9d354feeaae73fd53c38188d",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:62322df6c5464cf9afdaa4226b249126",
+      "school_name": "南山区第二外国语学校（集团）海岸小学",
+      "map_school_name": "南山区第二外国语学校（集团）海岸小学",
+      "source_school_id": "62322df6c5464cf9afdaa4226b249126",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "62322df6c5464cf9afdaa4226b249126",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "62322df6c5464cf9afdaa4226b249126",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:7b593143fc9340e8bab457cb946e00bf",
+      "school_name": "南山实验教育集团前海港湾学校（小学部）",
+      "map_school_name": "南山实验教育集团前海港湾学校（小学部）",
+      "source_school_id": "7b593143fc9340e8bab457cb946e00bf",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "7b593143fc9340e8bab457cb946e00bf",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "7b593143fc9340e8bab457cb946e00bf",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:7f093f1789e546ad82638b81bba3b569",
+      "school_name": "南山区第二外国语学校（集团）同泽学校小学部",
+      "map_school_name": "南山区第二外国语学校（集团）同泽学校小学部",
+      "source_school_id": "7f093f1789e546ad82638b81bba3b569",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "7f093f1789e546ad82638b81bba3b569",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "7f093f1789e546ad82638b81bba3b569",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:8493e363b2484f90bd5e5ccd359c676a",
+      "school_name": "南山区南方科技大学教育集团（南山）附属实验学校（小学部）",
+      "map_school_name": "南山区南方科技大学教育集团（南山）附属实验学校（小学部）",
+      "source_school_id": "8493e363b2484f90bd5e5ccd359c676a",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "8493e363b2484f90bd5e5ccd359c676a",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "8493e363b2484f90bd5e5ccd359c676a",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:aa66e679311b478584d00e100393284a",
+      "school_name": "南山区蛇口育才教育集团育才求真学校（小学部）",
+      "map_school_name": "南山区蛇口育才教育集团育才求真学校（小学部）",
+      "source_school_id": "aa66e679311b478584d00e100393284a",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "aa66e679311b478584d00e100393284a",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "aa66e679311b478584d00e100393284a",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:b4ef7e6cd3ce488cb2c7cb7d98abe286",
+      "school_name": "南山区南方科技大学教育集团（南山）长源小学",
+      "map_school_name": "南山区南方科技大学教育集团（南山）长源小学",
+      "source_school_id": "b4ef7e6cd3ce488cb2c7cb7d98abe286",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "b4ef7e6cd3ce488cb2c7cb7d98abe286",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "b4ef7e6cd3ce488cb2c7cb7d98abe286",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:be0d651a3cf14007b6359cc07bea7f3a",
+      "school_name": "南山实验教育集团白石洲学校（小学部）",
+      "map_school_name": "南山实验教育集团白石洲学校（小学部）",
+      "source_school_id": "be0d651a3cf14007b6359cc07bea7f3a",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "be0d651a3cf14007b6359cc07bea7f3a",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "be0d651a3cf14007b6359cc07bea7f3a",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:ce9b97573e294ae29e6347d6382e6dbc",
+      "school_name": "南山外国语学校（集团）高新小学",
+      "map_school_name": "南山外国语学校（集团）高新小学",
+      "source_school_id": "ce9b97573e294ae29e6347d6382e6dbc",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "ce9b97573e294ae29e6347d6382e6dbc",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "ce9b97573e294ae29e6347d6382e6dbc",
+        "field": "XQ",
+        "missing": true
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": [
+        {
+          "source_id": "source_5d76f74adcd0",
+          "url": "https://www.sz.gov.cn/attachment/1/1582/1582352/12197792.pdf",
+          "title": "南山区2025年秋季义务教育阶段新增公办学校招生范围（征求意见稿）",
+          "status": "征求意见稿；前轮5页全文读取存档，本轮复访超时"
+        }
+      ]
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:cf41a6a6b41245c0b434cf29ae8d620b",
+      "school_name": "南山区深圳大学附属教育集团外国语小学",
+      "map_school_name": "南山区深圳大学附属教育集团外国语小学",
+      "source_school_id": "cf41a6a6b41245c0b434cf29ae8d620b",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "cf41a6a6b41245c0b434cf29ae8d620b",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "cf41a6a6b41245c0b434cf29ae8d620b",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:f387eb3a551d4330b75c1fa456c825e8",
+      "school_name": "南山区南山实验教育集团西丽湖学校（小学部）",
+      "map_school_name": "南山区南山实验教育集团西丽湖学校（小学部）",
+      "source_school_id": "f387eb3a551d4330b75c1fa456c825e8",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "f387eb3a551d4330b75c1fa456c825e8",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "f387eb3a551d4330b75c1fa456c825e8",
+        "field": "XQ",
+        "missing": false
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    },
+    {
+      "district": "南山区",
+      "school_id": "sz:nanshan:school:fdd389daa0fe40ea8c04e2eee66d6f9a",
+      "school_name": "南山实验教育集团明远学校（小学部）",
+      "map_school_name": "南山实验教育集团明远学校（小学部）",
+      "source_school_id": "fdd389daa0fe40ea8c04e2eee66d6f9a",
+      "polygon_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "fdd389daa0fe40ea8c04e2eee66d6f9a",
+        "field": "MAPDATA",
+        "snapshot_time": "2026-11-03T13:37:17.507Z",
+        "method": "2026-11-03正常浏览器采集的官方地图学校记录",
+        "crs": "BD-09_native_BMap_contract",
+        "alternate_query_boundary_present": false
+      },
+      "map_text_source": {
+        "source_id": "source_b6a06ace8e6f",
+        "url": "https://nszs.szns.gov.cn/visitnsgbxyxqdt",
+        "local_file": "来源存档/四区数据集_20261103_v1/原始资料/官方地图/nanshan/public_map_data.json",
+        "record_key": "ORG_ID",
+        "record_value": "fdd389daa0fe40ea8c04e2eee66d6f9a",
+        "field": "XQ",
+        "missing": true
+      },
+      "independent_text_sources": [],
+      "candidate_text_sources": [],
+      "other_source_leads": []
+    }
+  ]
+}

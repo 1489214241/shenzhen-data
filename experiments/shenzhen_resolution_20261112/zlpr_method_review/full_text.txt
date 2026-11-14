@@ -1,0 +1,963 @@
+                                           ZLPR: A N OVEL L OSS FOR M ULTI - LABEL C LASSIFICATION
+
+
+                                                          Jianlin Su, Mingren Zhu, Ahmed Murtadha, Shengfeng Pan, Bo Wen, Yunfeng Liu
+
+                                                                                 Zhuiyi Technology Co., Ltd. Shenzhen, China
+arXiv:2208.02955v1 [cs.LG] 5 Aug 2022
+
+
+
+
+                                                     {bojonesu, zhumingren, mengjiayi, nickpan, brucewen, glenliu}@wezhuiyi.com
+
+
+
+
+                                                                                                   A BSTRACT
+                                                    In the era of deep learning, loss functions determine the range of tasks available to models and al-
+                                                    gorithms. To support the application of deep learning in multi-label classification (MLC) tasks, we
+                                                    propose the ZLPR (zero-bounded log-sum-exp & pairwise rank-based) loss in this paper. Compared
+                                                    to other rank-based losses for MLC, ZLPR can handel problems that the number of target labels is
+                                                    uncertain, which, in this point of view, makes it equally capable with the other two strategies often
+                                                    used in MLC, namely the binary relevance (BR) and the label powerset (LP). Additionally, ZLPR
+                                                    takes the corelation between labels into consideration, which makes it more comprehensive than the
+                                                    BR methods. In terms of computational complexity, ZLPR can compete with the BR methods be-
+                                                    cause its prediction is also label-independent, which makes it take less time and memory than the LP
+                                                    methods. Our experiments demonstrate the effectiveness of ZLPR on multiple benchmark datasets
+                                                    and multiple evaluation metrics. Moreover, we propose the soft version and the corresponding KL-
+                                                    divergency calculation method of ZLPR, which makes it possible to apply some regularization tricks
+                                                    such as label smoothing to enhance the generalization of models.
+
+                                        1 Introduction
+                                        Multi-label classification (MLC) tasks are very popular in data science for now and it has a very wide range of applica-
+                                        tions such as multi-object detection for images[1], multi-topic discovery for texts[2], multi-function classification for
+                                        genes[3], and so on[4]. The framework of MLC can be expressed as following:
+
+                                                  • it includes a sample space X and a label space Y, where the label space is a combination of a base category
+                                                    set Λ = {λl }Ll=1 ;
+                                                  • it includes a dataset Dtrain = (X, Y ) for training with both the samples X = {xn |xn ∈ X }N       n=1 and the
+                                                    labels Y = {yn |yn ∈ Y}N   n=1 ;
+                                                  • it includes another dataset Dtest = (X ′ , ) to predict with only the samples X ′ = {x′m |x′m ∈ X }M
+                                                                                                                                                       m=1 ;
+                                                  • what we are going to do is training a model fθ : X → Y with Dtrain and use it to get appropriate labels
+                                                             ′
+                                                    Y ′ = {ŷm    ′
+                                                               |ŷm = fθ (x′m ), x′m ∈ X ′ }M
+                                                                                            m=1 for Dtest .
+
+                                        This is not really different from "normal" classification tasks, which is usually called the multi-class classification
+                                        (MCC)1 . However, the label space of an MCC task has strong mutual exclusion, which makes the labels y mcc all have
+                                        and only have one base category, i.e., |y mcc | ≡ 1. On the contrary, MLC tasks allow one or more category elements
+                                        to appear at the same time, or no elements at all. The label space of an MCC task is just its own base label set, i.e.,
+                                                                                                                                                            mlc
+                                        Y mcc = Λmcc , while the label space of an MLC task can be the power set of its base category set, i.e., Y mlc = 2Λ .
+                                        It can be seen that single-label MCC is a special case of the MLC framework.
+                                        There are several challenges faced by research in MLC. In addition to the category imbalance problem[5] commonly
+                                        found in classification, MLC tasks are also disrupted by other three issues due to the nature of their label space. First
+                                        of all, the label of a data sample in MLC is actually a set of basic category elements, which, analogous to the one-hot
+                                           1
+                                               The binary classification is regarded as a special case of MCC (L = 2).
+vector in MCC, can be represented by a "multi-hot" vector. It would be simpler if the number of 1s in the multi-hot
+vector was fixed, but for most MLC tasks, the size of labels is indeterminate. For example, in the same MLC task,
+the labels of some data samples may contain multiple category elements, some may have only one, and some may not
+even have one. This adds difficulty to the modeling of the task.
+Second, the plurality of data labels may imply correlation information between categories. For example, in an image
+object detection task, cats and dogs may often appear together, whereas cats and sharks do not. This is in stark contrast
+to MCC, where there is a known clear mutual exclusivity between categories in MCC tasks but correlations between
+categories in MLC tasks require further modeling or learning from data. Modeling and learning between category
+correlations has always been one of the core research problems of the MLC community[6].
+The last thing to point out is the sparsity of labels in MLC, which is actually a further result of the previous two
+problems. Since the number of categories of samples is uncertain, the size of the label space in MLC is potentially
+                                                                      mlc
+exponential to the size of the base category set, i.e., |Y mlc | ∼ 2|Λ | . However, due to unknown correlations between
+categories, some labels in the exponential label space may never appear, while others appear frequently. This leads to
+the sparsity of the label space and the imbalance between labels[7], which, to a certain extent, replaces the problem of
+category imbalance.
+In the traditional machine learning community, various methods have been proposed for the above issues in MLC[8].
+These methods are classified into two categories: algorithm adaption (AD) methods and problem transformation (PT)
+methods. AD methods primarily focus on expanding the MCC algorithms to address MLC tasks, such as MLKNN[9],
+MMP[10] and Rank-SVM[11]. PT methods transforms MLC tasks into one or more single-label classification[12], or
+label ranking tasks[13]. In terms of flexibility, AD methods seem to be more rigid because each adaptive algorithm
+can only work on a specific model, while PT methods allow various models to be used for handling the task after
+transformation.
+With the widespread success of deep learning, more and more MLC tasks are starting to work using end-to-end neural
+networks as base models, which is also the result of the structure of neural networks that are naturally suitable for
+MLC tasks[14]. When applying deep learning to deal with MLC tasks, in addition to using the structure advantages
+of the neural network itself, it is often combined with PT methods to enhance the processing power of the model.
+Such a combination is often reflected in the design of the loss function, because it is the most task-relevant part in
+the deep learning architecture. However, the loss functions proposed in previous studies either only meet partial
+requirements[15] or go through complex multi-stage processing[16], lacking flexibility and effectiveness to deal with
+the above three problems in MLC. To fill such a research gap and better support the application of deep learning in
+MLC tasks, we propose the ZLPR (Zero-bounded Log-sum-exp & Pairwise Rank-based) loss in this paper:
+                                                                                  
+                                                 X                          X
+                             Lzlpr = log 1 +         e−si  + log 1 +          esj  ,                           (1)
+                                                 i∈Ωpos                     j∈Ωneg
+
+where Ωpos is the label (set) and Ωneg = Λ/Ωpos , and si is the model output score of the i-th category (λi ). During
+prediction, si > 0 implies that λi could be a target category and si < 0 doesn’t, which is the meaning of "Zero-
+bounded".
+More details about ZLPR and how it handles the above three common challenges in MLC tasks will be explained
+in Sec.3. Before that, we will review some loss functions commonly used in deep learning for MLC tasks in Sec.2.
+In Sec.4, we will compare the effects of these losses on multiple datasets with multiple evaluation metrics. Sec.5 is
+the conclusion of this paper. Additionally, we propose the soft version and the corresponding calculation method of
+KL-divergence of ZLPR in the appendix. With these two, some regularization tricks such as label smoothing[17] or
+R-drop[18] can be applied to enhance models’ generalization ability.
+
+2 Related Work
+As mentioned earlier, the purpose of this paper is to promote the application of deep learning in MLC tasks. The
+traditional MLC processing methods that can be combined with neural networks are mainly problem transformation
+(PT) methods. Therefore, we mainly review the work about combination of PT methods and neural network in this
+section.
+There are four modes of PT methods, namely the Binary Relevance (BR), the Label Powerset (LP), the Classifier
+Chian (CC) and the Label Ranking (LR)[19]. The BR mode converts an MLC task into multiple independent binary
+classification problems, where each binary classifier determines whether the corresponding category is included in the
+label set or not. When combining the BR mode with a neural network, only a binary classification loss needs to be
+
+                                                           2
+applied to each output node. The BR mode can handle cases where the number of target categories is uncertain based
+on linear complexity, and due to the simplicity, it is the most frequently mode used in MLC tasks with deep learning.
+Works based on the BR mode are mainly to propose binary loss functions with various characteristics. The baseline is
+the (weighted) binary cross entropy loss. Beyond that, Lin et al.[15] proposed the focal loss making the model focus on
+hard-to-learn samples during training, which has been applied in many fields and received lots of favorable comments.
+Millerari et al.[20] proposed the dice loss trying to optimize the F1-measurement rather than the accuracy. Based
+on that, Li et al.[21] proposed the self-adjusting dice loss, which, however, did not gets much credit as the original
+paper implied. Menon et al.[22] proposed a novel logit adjustment method to mitigate the impact of data imbalance by
+introducing the prior of categories. The simplicity and ease of use of the BR mode has attracted much attention, but it
+assumes conditional independence between categories and can not capture the correlation within the label set.
+The LP mode directly takes the subsets of the base category set in MLC tasks as the prediction output, which means
+there should be a total of 2|Λ| output nodes of the neural network. In this way, an MLC task is transformed into an
+MCC task and any MCC loss function can be used. Although the LP mode can adaptively determine the number of
+target categories and fully capture the correlation within the label set, the potential exponential space complexity is
+unacceptable, and it also faces serious sparsity and label set imbalance problems. Therefore, this mode is not used
+as much as the others. The CC mode transforms an MLC task into a sequence prediction problem with a pre-defined
+category order. When predicting whether a category belongs to the target label set or not, the CC mode use the
+previously obtained category prediction result as input, which forms a chain architecture to capture the correlation
+between categories. The CC mode is not implemented by modifying the loss function, but by leveraging the model
+architecture, which can apply the RNN[23] or the Seq2Seq[24] modules in deep learning. It should be noted that the
+outputs of the CC mode are in series while others are parallel, so the CC mode is not as time efficient as the BR mode
+and LP mode.
+The LR mode is different from the above three modes in that it no longer treats MLC tasks as classification but as
+ranking. The basic idea of the LR mode is requiring that the rank scores of target categories are greater than non-target
+categories. Based on the framework of learning to rank[25] via pairwise comparisons, some rank-based loss functions
+have been proposed to deal with MLC tasks in the LR mode. Weston et al.[26] proposed the WARP loss that puts
+different weights on violations where the score of target category is less than non-target category. The intuition is
+that if the positive category is ranked lower, the violation should be penalized higher. Zhang et al.[27] proposed the
+BP-MLL loss, which is essentially an exponential pairwise ranking loss. Li et al.[16] proposed the LSEP loss based
+on the pairwise ranking loss and proved it has favorable theoretical guarantees compared to the hinge alternative. Sun
+et al.[28] proposed a unified loss function for pairwise optimization, which is a generalization of the LSEP loss. The
+LR mode has parallel outputs as the BR mode, square space complexity during training and linear during prediction.
+Better than the BR mode, the LR mode does not introduce additional independence assumptions, thus preserving the
+category correlations implied by the original data during training.
+Models trained by the loss functions mentioned above in the LR mode cannot directly output the target label set
+when making predictions. To deal with that, there are two empirical methods often used. The first is to manually set a
+threshold, and categories with scores greater than this threshold will be considered as the target label set. The second is
+to directly output categories with top-k scores as the target label set. These two methods cannot handle the problem of
+manual intervention or uncertainty about the number of target categories. Li et al.[16] proposed a two-stage approach
+to deal with the above situation, first using the LSEP loss to optimize the class scores, and then adding new modules to
+estimate the number of target categories or the threshold. This two-stage approach increases the model complexity and
+the training instability. The ZLPR loss proposed in this paper combines the advantages of the LR mode and the BR
+mode, achieves a high level of time and space efficiency, retains the information of the category correlation implied in
+the original data, and can adapt to the situation of uncertain number of categories.
+
+
+
+3 The ZLPR Loss
+
+The commonly used loss function for single-label MCC tasks is the cross entropy loss. If logits are used to represent
+it, the formula is as follows:
+
+                                                                                          
+                                                                           L
+                                                  esi                      X
+                                 Lce = − log PL             = log 1 +              esj −si  ,                        (2)
+                                                       sj
+                                                 j=1 e                   j=1,j6=i
+
+
+
+                                                             3
+where the target category is λi and sj is the logit for the j-th category. Since the log-sum-exp operator is a smooth
+approximation of the maximum operator, i.e.,
+                                                                                  
+                                            XL
+                                                  esj −si  ≈ max 0, sj − si , · · · ,
+                                                                                    
+                                log 1 +                                                                          (3)
+                                                                         | {z }
+                                              j=1,j6=i
+                                                                                   ∀j6=i
+
+minimizing the cross entropy loss actually means to make the logits of negative categories smaller than the positive
+one. We extend this point to MLC tasks and get:
+                                                                                   
+                                     X          X
+                                           esj      e−si  ≈ max 0, sj − si , · · ·  ,
+                                                                                     
+                           log 1 +                                                                              (4)
+                                    j∈Ω        i∈Ω
+                                                                         |    {z    }
+                                           neg            pos
+                                                                                   i∈Ωpos ,j∈Ωneg
+
+where the formula on the left is actually the LSEP loss proposed by Li et al.[16] and we derived it from a different
+perspective.
+As mentioned in Sec.2, the LSEP loss lacks the ability to adapt to the variable number of target categories like other
+general pairwise rank-based losses. To handle such a situation, we introduce a threshold s0 in the loss, hoping that
+the logits of positive categories are greater than it and the negative categories is less. In this way, we get the threshold-
+bounded log-sum-exp & pairwise rank-based (TLPR) loss as follows:
+                                                                                                     
+                                           X           X             X                  X
+                      Ltlpr = log 1 +           esj        e−si +         esj −s0 +          es0 −si  ,                 (5)
+                                          j∈Ωneg         i∈Ωpos           j∈Ωneg           i∈Ωpos
+
+which can also be simplified as:
+                                                                                                 
+                                                         X                              X
+                            Ltlpr = log e−s0 +                 e−si  + log es0 +            esj  .                   (6)
+                                                     i∈Ωpos                           j∈Ωneg
+
+For sake of simplicity, we set s0 = 0 here and get the ZLPR loss expressed in Equation 1.
+The form of ZLPR seems to calculate the positive and negative categories separately, which does not show the charac-
+teristics of "pairwise ranking". However, through the log-sum-exp and maximum approximation, we have:
+                                                                                              
+                                                                                                     
+            Lzlpr ≈ max 0, −si , · · · + max 0, sj , · · ·  = max 0, sj , · · ·  − min 0, si , · · ·  ,          (7)
+                            | {z }                 | {z }                 | {z }                 | {z }
+                                 i∈Ωpos                     j∈Ωneg                  j∈Ωneg               i∈Ωpos
+
+from which we can still get the inspiration of intuitive "pairwise ranking".
+The ZLPR loss can be rewritten as:
+                                                            
+                                   Lzlpr = log 1 + hy, e−s i + log (1 + h1 − y, es i) ,                                  (8)
+where y is the multi-hot label, s is the logit vector and h·, ·i is the inner product operator.
+
+3.1 Label Dependence
+
+The goal of classification algorithms in general is to capture dependencies between input features x and the target label
+y, i.e., to find the conditional probability P(y|x). In MLC, dependencies may not only exist between the features x and
+the target categories y, but also between the categories themselves. The idea to improve predictive accuracy by cap-
+turing such dependencies is a driving force in research on MLC[29]. In this subsection, we theoretically demonstrate
+that the ZLPR loss has the ability to capture label dependencies from original data.
+The key to this problem is determining whether it is necessary to rely on information from the joint distribution when
+minimizing the corresponding empirical risk of the loss function, and if the answer is yes, it means that this loss can
+capture label dependencies[30]. The empirical risk of ZLPR is:
+                                                                                       
+                          Rzlpr = Ey∼P(y|x) log 1 + hy, e−s i + log (1 + h1 − y, es i) ,                            (9)
+
+                                                                  4
+and the gradient is:                                                                     
+                           ∂Rzlpr                      y ⊙ e−s             (1 − y) ⊙ es
+                                  = Ey∼P(y|x) −                     +                         ,                                (10)
+                             ∂s                      1 + hy, e−s i 1 + h1 − y, es i
+where ⊙ is the Hadamard product operator. Setting the gradient to be zero, ∀t ∈ {1, · · · , L} we have:
+                                                                                                   
+                           1     P(y (t) = 1|x) 1        Eỹ(t) ∼P(ỹ(t) |y(t) =1,x) φ1 (s, ỹ (t) )
+                     st = log                    + log                                             ,                         (11)
+                           2     P(y (t) = 0|x) 2        Eỹ(t) ∼P(ỹ(t) |y(t) =0,x) φ0 (s, ỹ (t) )
+                             |       {z        }     |                      {z                       }
+                                            T1                                           T2
+
+         (t)
+where y ∈ {0, 1} is the binary state variable of the category λt ,P                     (t)
+                                                                         ỹ = {y (1) , · · · , y (t−1) , y (t+1) , · · · , y (L) } is
+                                                     (t)          −st
+the state variable set of other categories; φ1 (s, ỹ ) = [1 + e      + r6=t y (r) e−sr ]−1 and φ0 (s, ỹ (t) ) = [1 + est +
+P              (r) sr −1
+   r6=t (1 − y    )e ] . On the right side of the equation, T1 is the margin logit of the corresponding category, and
+T2 is the dependence coupling term. Due to the complexity of T2 , we are unlikely to find a solution of s such that T2
+does not depend on P(ỹ (t) |y (t) , x), which means that s will depend on the joint distribution with minimal empirical
+loss. This demonstrates the ability of ZLPR to capture label dependencies.
+
+3.2 Comparison to Related Loss Functions
+
+We compare two other loss functions with ZLPR, namely the LSEP loss and the BCE loss.
+LSEP. The LSEP loss is expressed as:
+                                                                                             
+                                                                X               X
+                                         Llsep = log 1 +                esj             e−si  .                              (12)
+                                                              j∈Ωneg           i∈Ωpos
+
+Compared to ZLPR/TLPR, it lacks two summations for comparison with thresholds in the log operator, which makes
+it lose the ability to adaptively adjust the number of predicted categories. Additionally, to make the LSEP loss scale
+linearly to the category size, Li et al.[16] adapt the negative sampling technique[31] and sample at most t pairs from
+the Cartesian product, which can be denoted as:
+                                                                                  
+                                                               X
+                                    Lsampled
+                                      lsep     = log 1 +             exp(sj − si ) ,                             (13)
+                                                               (i,j)∈φ(y,t)
+
+where φ(y, t) ⊆ y ⊗ (Λ/y) is the sampled pair set. However, our goal is to generalize the application of deep learning
+in MLC, compared to the size of the current popular large models[32], the computational cost of the rank-based loss
+is negligible. Therefore, we will not use the sampling method, which can also guarantee the accuracy of the results.
+Finally, it should be noted that the LSEP loss can also capture label dependencies implied in the original data.
+BCE. The binary cross entropy (BCE) loss can be applied in MLC tasks by combining with the BR mode, which
+forms:                                X                     X
+                             Lbce =        log(1 + e−si ) +      log(1 + esj ).                      (14)
+                                             i∈Ωpos                        j∈Ωneg
+
+In fact, for the BR mode, the loss is the sum of binary losses for each category, i.e.,
+                                                             L
+                                                             X
+                                                    LBR =           Lb (y (l) , sl ),                                          (15)
+                                                              l=1
+
+and the corresponding empirical risk is
+                                                  L h
+                                                  X                                                       i
+                 RBR = Ey∼P(y|x) [LBR ] =            P(y (l) = 1|x)Lb (1, sl ) + P(y (l) = 0|x)Lb (0, sl ) ,                   (16)
+                                                  l=1
+
+from which we can see that the categories are not related to each other. This is why it is said that the BR mode intro-
+duces conditional independence and fails to capture label dependencies. Specifically for the BCE loss, the condition
+of minimizing the empirical risk is
+                                                                           P(y (l) = 1|x)
+                                           ∀l = 1, · · · , L : sl = log                   .                                    (17)
+                                                                           P(y (l) = 0|x)
+
+                                                                 5
+In addition, the BCE loss can be rewritten as:
+                                                                     
+                                  Y                         Y
+                   Lbce = log         (1 + e−si ) + log    (1 + esj )                                          (18)
+                                  i∈Ωpos                         j∈Ωneg
+                                                                                                       
+                                                                                                   
+                                     X                 X                                P          
+                                             −si                   −(sk +st )          − r∈Ωpos sr 
+                          = log 1 +        e     +               e            + ···+ e             
+                                                                                                   
+                                    i∈Ωpos         k,t∈Ωpos ,k<t                                   
+                                                    |                        {z                   }
+                                                                      positive higher-order terms
+                                                                                                   
+                                                                                            
+                                     X               X                            P         
+                                                                                          s
+                                            esj +               esk +st + · · · + e r∈Ωneg  ,
+                                                                                          r 
+                          + log 1 +
+                                                                                            
+                                    j∈Ωneg       k,t∈Ωneg ,k<t                              
+                                                  |                    {z                  }
+                                                                  negative higher-order terms
+which, compared with the ZLPR loss in Equation 1, has more higher-order terms. In MLC tasks, negative categories
+tends to far outnumber the positives, and these higher-order terms in BCE significantly strengthen this category imbal-
+ance problem. Conversely, the ZLPR loss, which removes these higher-order terms, balances the influence between
+positive and negative categories, making training fairer across them.
+
+4 Experiments and Discussion
+4.1 Datasets
+We mainly conduct experiments on MLC of texts, including 3 Chinese datasets and 8 English datasets:
+       • CNIPA2 : The chinese patent dataset, which has a classification system called IPC (international patent clas-
+         sification). Each innovation patent is assigned one or more IPC codes, which can be used as the label set. We
+         downloaded about 210k invention patents, and constructed two Chinese text MLC datasets using titles and
+         abstracts, respectively called CNIPA-Title and CNIPA-Abstract.
+       • Toutiao3 : The chinese news dataset from Toutiao, which asks for MLC of news based on headlines.
+       • USPTO4 : The english patent dataset, which also uses the IPC system as labels. We downloaded about 350k
+         invention patents, and also constructed two english text MLC datasets with titles as abstracts, respectively
+         called USPTO-Title and USPTO-Abstract.
+       • Archive5 : This dataset contains 6 different categories (Computer Science, Physics, Mathematics, Statistics,
+         Quantitative Biology, Quantitative Finance) to classify the research papers. We constructed two datasets
+         based on titles and abstracts, namely Archive-Title and Archive-Abstract.
+       • CMU-Movie6 : This dataset contains texts about 42,306 movies extracted from Wikipedia and Freebase.
+         However, it is a noisy dataset because the same movie category may have different descriptions, like "actions"
+         and "action movie". We constructed two datasets based on names and summaries, namely Movie-Name and
+         Movie-Summary.
+       • GoEmotions7 : It is a corpus of 58k carefully curated comments extracted from Reddit, with human annota-
+         tions to 27 emotion categories or Neutral.
+       • Toxic8 : This dataset contains a large number of Wikipedia comments which have been labeled by human
+         raters for toxic behavior.
+We divided the above 11 datasets into training set, validation set and test set according to the ratio of 8:1:1, and the
+final results are examined on the test set. See appendix for more information about these datasets.
+   2
+     http://patdata1.cnipa.gov.cn/
+   3
+     https://github.com/aceimnorstuvwxz/toutiao-multilevel-text-classfication-dataset
+   4
+     https://bulkdata.uspto.gov/
+   5
+     https://www.kaggle.com/datasets/shivanandmn/multilabel-classification-dataset
+   6
+     https://www.cs.cmu.edu/ ark/personas/
+   7
+     https://github.com/google-research/google-research/tree/master/goemotions
+   8
+     https://www.kaggle.com/competitions/jigsaw-toxic-comment-classification-challenge/data
+
+
+                                                             6
+4.2 Baselines
+We choose the following losses as our comparison objects:
+
+       • The binary cross entropy (BCE), which is showed in Equation 14.
+       • The focal loss (FL):
+                                        X                          X γ
+                               Lf l = −     (1 − pi )γf l log pi −     pj f l log(1 − pj ),                            (19)
+                                             i∈Ωpos                        j∈Ωneg
+
+         where pl = sigmoid(sl ). We set γf l = 2 in experiments.
+       • The first version of dice loss (DL1):
+                                                                                                    !
+                                        X           2pi + γdl1
+                                                                    X                    γdl1
+                              Ldl1 =          1− 2                 +                 1− 2               ,              (20)
+                                                   pi + 1 + γdl1                       pj + γdl1
+                                        i∈Ωpos                              j∈Ωneg
+
+         where pl = sigmoid(sl ). We set γdl1 = 1 in experiments.
+       • The second version of dice loss (DL2):
+                                             L              PB        (l)
+                                                                                   !
+                                            X             2 k=1 pk,l yk + γdl2
+                                   Ldl2 =        1 − PB             PB    (l)
+                                                                                     ,                                 (21)
+                                                              2
+                                            l=1          k=1 pk,l +  k=1 yk + γdl2
+
+         where pk,l = sigmoid(sk,l ) and k stands for the k-th sample. We set γdl2 = 1 in experiments.
+       • The ranking loss (RL):                  X X
+                                         Lrl =                 max(0, αrl + sj − si ).                                 (22)
+                                                    i∈Ωpos j∈Ωneg
+
+         We set αrl = 1 in experiments.
+       • The WARP loss:                   X              X
+                                  Lwarp =                        w(ri ) max(0, αwarp + sj − si ),                      (23)
+                                                 i∈Ωpos j∈Ωneg
+
+         where w is a monotonically increasing function and ri is the ranking order of i-th category. We set w(ri ) = ri
+         and αwarp = 1 in experiments.
+       • The BP-MLL loss:                               X X
+                                           Lbp−mll =                  exp(sj − si ).                                (24)
+                                                           i∈Ωpos j∈Ωneg
+
+         To ensure numerical stability, we take its logarithmic form, i.e., log Lbp−mll in experiments.
+       • The LSEP loss, which is showed in Equation 12.
+
+The first four are the results of the corresponding binary loss combined with the BR mode, and the last four are
+ranking-based losses in LR mode.
+
+4.3 Metrics
+We use a variety of evaluation metrics to measure the effect of each loss:
+
+       • The example-based subset accuracy (SubACC):
+                                                                     N
+                                                                 1 X
+                                                   SubACC =            I(ŷn = yn ),                                   (25)
+                                                                 N n=1
+
+         where yn is the n-th true label set, ŷn is the n-th predicted label set, and I is the indicative function.
+       • The example-based F1-measure (MLC-F1):
+                                                                     N
+                                                            1 X 2|ŷn ∩ yn |
+                                                   MLC-F1 =                      .                                     (26)
+                                                            N n=1 |ŷn | + |yn |
+
+
+                                                             7
+          • The label-based Macro-F1:
+                                                                        L
+                                                                   1X        2T Pl
+                                                Macro-F1 =                                ,                              (27)
+                                                                   L  2T Pl + F Pl + F Nl
+                                                                     l=1
+
+            where T Pl donates the number of True Positive of the l-th category, F Pl the number of False Positive, F Nl
+            the number of False Negative.
+          • The label-based Micro-F1:
+                                                                                PL
+                                                                            2    l=1 T Pl
+                                           Micro-F1 =         PL                PL            PL          .              (28)
+                                                          2    l=1 T Pl +        l=1 F Pl +    l=1 F Nl
+
+          • The ranking-based average precision (AvgPrec):
+                                                          N
+                                                    1 X 1 X |{λ′ ∈ yn : rn (λ′ ) ≤ rn (λ)}|
+                                      AvgPrec =                                             .                            (29)
+                                                    N n=1 |yn |         rn (λ)
+                                                                    λ∈yn
+
+            where rn (λ) is the predicted ranking order of category λ.
+          • The ranking-based ranking loss (RankLoss):
+                                       N
+                                   1 X        1
+                           RL =                      |{(λa , λb ) : rn (λa ) > rn (λb ), (λa , λb ) ∈ yn ⊗ (Λ/yn )}|,    (30)
+                                   N n=1 |ŷn ||yn |
+
+In the above metrics, the smaller the RL value, the better the result, and the larger the other values, the better the result.
+
+4.4 Results
+
+We use Bert-base[33] and Roberta-base[34] as backbones combined with each loss function, and a total of 22 (11
+datasets paired with 2 backbones) sets of comparative experiments were carried out. We evaluate the performance of
+BCE, FL, DL1, DL2, and ZLPR (ours), which can adapt to the changing number of target categories, on all metrics.
+The results are shown in Table 1. The numbers in the table are the optimal times for the corresponding loss in 22
+
+                             Table 1: The performance of the 5 loss functions under all metrics.
+
+                                    SubACC       MLC-F1         Micro-F1         Macro-F1      AvgPrec        RankLoss
+                      BCE               0            2               2               2             4             2
+                       FL               0            1               2               6             5             3
+                      DL1               2            0               0               0             0             0
+                      DL2               4            10              13              6             0             0
+                   ZLPR (ours)          16            9               5              8             13            18
+
+comparative experiments. For example, the ZLPR loss performs very well under the SubACC metric, achieving the
+best in 16 out of the 22 comparative experiments. The SubACC metric is very strict on the results and is generally
+used to measure the model’s ability to capture label dependencies[30]. The good performance of ZLPR on SubACC
+demonstrates its ability to capture label dependencies, as described in sub-section 3.1. Obviously, ZLPR has also
+achieved good performance on the two ranking-based measures, which we can consider is because ZLPR requires the
+model to rank labels. On the three metrics of MLC-F1, Micro-F1 and Macro-F1, DL2 is a strong competitor of ZLPR,
+and even outperforms ZLPR on Micro-F1 by a significant gap. This may be because DL2 is an approximation of the
+(negative) F1-measure and optimized using batch data instead of one sample. Even though, ZLPR still outperforms
+than BCE, FL and DL1 on those F1-measures. We also perform tests on four ranking-based losses (RL, WARP, BP-
+MLL and LSEP) on the three Chinese datasets, of which only the RL value of LSEP slightly outperforms ZLPR on
+CNIPA-Title, and ZLPR is the best for the rest datasets and metrics.
+All experiments are implemented based on Bert4Keras9 . Adam[35] with learning rate 2×10−4 is used as the optimizer
+and models are trained for 20 epochs. Details of all experiment results can be found in the appendix section.
+   9
+       https://github.com/bojone/bert4keras
+
+
+                                                                    8
+5 Conclusion
+We propose the ZLPR loss to generalize the application of deep learning in multi-label classification and conduct
+extensive textual experiments. Compared to some binary losses, the ZLPR loss is able to capture better label depen-
+dencies and the ranking relation between positive and negative categories. Compared with the previous ranking-based
+losses, ZLPR can adaptively determine the number of target categories, and also strengthen the label ranking ability
+of models. However, the performance of ZLPR on F1-measures is not as dazzling as other metrics, which we will
+improve in the future.
+
+References
+ [1] Shaoqing Ren, Kaiming He, Ross Girshick, and Jian Sun. Faster r-cnn: Towards real-time object detection with
+     region proposal networks. IEEE Transactions on Pattern Analysis & Machine Intelligence, 39(6):1137–1149,
+     2017.
+ [2] Y. Shi, Y. Tong, Z. Su, D. Jiang, and W. Zhang. Federated topic discovery: A semantic consistent approach.
+     Intelligent Systems, IEEE, PP(99):1–1, 2020.
+ [3] P. Eriksson, Nad Marzouka, G. Sjdahl, C. Bernardo, F. Liedberg, and M. Hglund. A comparison of rule-based
+     and centroid single-sample multiclass predictors for transcriptomic classification. Bioinformatics, 2021.
+ [4] Christel Gérardin a b, Perceval Wajsbürt c, Pascal Vaillant D, Ali Bellamine B, Fabrice Carrat A E, and
+     Xavier Tannier C. Multilabel classification of medical concepts for patient clinical profile identification. Ar-
+     tificial Intelligence in Medicine, 2022.
+ [5] Bing Zhu A B, Bart Baesens B C, and Seppe K.L.M. vanden Broucke b. An empirical comparison of techniques
+     for the class imbalance problem in churn prediction. Information Sciences, 408:84–99, 2017.
+ [6] Y. Wang, Y. Xie, Y. Liu, K. Zhou, and X. Li. Fast graph convolution network based multi-label image recognition
+     via cross-modal fusion. In CIKM ’20: The 29th ACM International Conference on Information and Knowledge
+     Management, 2020.
+ [7] M. L. Zhang, Y. K. Li, and X. Y. Liu. Towards class-imbalance aware multi-label learning. In the Twenty-Fourth
+     International Joint Conference on Artificial Intelligence, 2014.
+ [8] Jasmin Bogatinovski, Ljupčo Todorovski, Sašo Džeroski, and Dragi Kocev. Comprehensive comparative study
+     of multi-label classification methods. Expert Systems with Applications, 203:117215, 2022.
+ [9] S. Li and J. Ou. Multi-label classification of research papers using multi-label k-nearest neighbour algorithm.
+     Journal of Physics: Conference Series, 1994(1):012031 (10pp), 2021.
+[10] Eneldo Loza Mencia and Johannes Furnkranz. Pairwise learning of multilabel classifications with perceptrons.
+     In 2008 IEEE International Joint Conference on Neural Networks (IEEE World Congress on Computational
+     Intelligence), pages 2899–2906, 2008.
+[11] A. Jiang, C. Wang, and Y. Zhu. Calibrated rank-svm for multi-label image categorization. In IEEE International
+     Joint Conference on Neural Networks, 2008.
+[12] C. Li, K. Qi, G. Ge, S. Qiang, H. Lu, and C. Jian. Deepbe: Learning deep binary encoding for multi-label
+     classification. In IEEE Conference on Computer Vision & Pattern Recognition Workshops, 2016.
+[13] F. Zhao, Y. Huang, L. Wang, and T. Tan. Deep semantic ranking based hashing for multi-label image retrieval.
+     In 2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2015.
+[14] J. Read and F. Perez-Cruz. Deep learning for multi-label classification. Machine Learning, 85(3):333–359, 2014.
+[15] T. Y. Lin, P. Goyal, R. Girshick, K. He, and P Dollár. Focal loss for dense object detection. IEEE Transactions
+     on Pattern Analysis & Machine Intelligence, PP(99):2999–3007, 2017.
+[16] Y. Li, Y. Song, and J. Luo. Improving pairwise ranking for multi-label image classification. In 2017 IEEE
+     Conference on Computer Vision and Pattern Recognition (CVPR), 2017.
+[17] C. B. Zhang, P. T. Jiang, Q. Hou, Y. Wei, and M. M. Cheng. Delving deep into label smoothing. IEEE Transac-
+     tions on Image Processing, PP(99):1–1, 2021.
+[18] Xiaobo Liang, Lijun Wu, Juntao Li, Yue Wang, Qi Meng, Tao Qin, Wei Chen, Min Zhang, and Tie-Yan Liu.
+     R-Drop: Regularized Dropout for Neural Networks. arXiv e-prints, page arXiv:2106.14448, June 2021.
+[19] Mahendra Sahare and Hitesh Gupta. A review of multi-class classification for imbalanced data. International
+     Journal of Advanced Computer Research, 2:160–164, 09 2012.
+
+                                                         9
+[20] F. Milletari, N. Navab, and S. A. Ahmadi. V-net: Fully convolutional neural networks for volumetric medical
+     image segmentation. In 2016 Fourth International Conference on 3D Vision (3DV), 2016.
+[21] Xiaoya Li, Xiaofei Sun, Yuxian Meng, Junjun Liang, Fei Wu, and Jiwei Li. Dice loss for data-imbalanced nlp
+     tasks. arXiv preprint arXiv:1911.02855, 2019.
+[22] Aditya Krishna Menon, Sadeep Jayasumana, Ankit Singh Rawat, Himanshu Jain, Andreas Veit, and Sanjiv
+     Kumar. Long-tail learning via logit adjustment. arXiv preprint arXiv:2007.07314, 2020.
+[23] W. Jiang, Y. Yi, J. Mao, Z. Huang, and X. Wei. Cnn-rnn: A unified framework for multi-label image classification.
+     In 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2016.
+[24] A Yx, L. A. Yi, Y. A. Jin, A Sg, X. B. Yi, and A Zl. History-based attention in seq2seq model for multi-label
+     text classification. Knowledge-Based Systems, 2021.
+[25] H. Azarbonyad, M. Dehghani, M. Marx, and J. Kamps. Learning to rank for multi-label text classification:
+     Combining different sources of information. Natural Language Engineering, 27(1):1–23, 2020.
+[26] L. J. Hong. Weighted approximately ranked pairwise loss (warp). Hongliangjie Com, 1970.
+[27] Rafa Grodzicki, J Mańdziuk, and L. Wang. Improved multilabel classification with neural networks. In Interna-
+     tional Conference on Parallel Problem Solving from Nature: Ppsn X, 2008.
+[28] Y. Sun, C. Cheng, Y. Zhang, C. Zhang, L. Zheng, Z. Wang, and Y. Wei. Circle loss: A unified perspective of pair
+     similarity optimization. In 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR),
+     2020.
+[29] Eyke Hüllermeier, Marcel Wever, Eneldo Loza Mencia, Johannes Fürnkranz, and Michael Rapp. A flexible class
+     of dependence-aware multi-label loss functions, 2020.
+[30] K. Dembczyński, W. Waegeman, and W. Cheng. On label dependence and loss minimization in multi-label
+     classification. Machine Learning, 2012.
+[31] T. Mikolov, I. Sutskever, C. Kai, G. Corrado, and J. Dean. Distributed representations of words and phrases and
+     their compositionality. In arXiv, 2013.
+[32] Robert Dale. Gpt-3: What’s it good for? Natural Language Engineering, 27(1):113–118, 2021.
+[33] Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. BERT: pre-training of deep bidirectional
+     transformers for language understanding. CoRR, abs/1810.04805, 2018.
+[34] Yinhan Liu, Myle Ott, Naman Goyal, Jingfei Du, Mandar Joshi, Danqi Chen, Omer Levy, Mike Lewis, Luke
+     Zettlemoyer, and Veselin Stoyanov. Roberta: A robustly optimized BERT pretraining approach. CoRR,
+     abs/1907.11692, 2019.
+[35] D. Kingma and J. Ba. Adam: A method for stochastic optimization. Computer Science, 2014.
+[36] Takeru Miyato, Shin-ichi Maeda, Masanori Koyama, and Shin Ishii. Virtual adversarial training: a regulariza-
+     tion method for supervised and semi-supervised learning. IEEE transactions on pattern analysis and machine
+     intelligence, 41(8):1979–1993, 2018.
+
+
+
+
+                                                         10
+A    The Soft-ZLPR Loss
+By simply replacing y with the binary probability vector p of labels, where pi represents the probability of i-th label
+being positive, we get                                    
+                                Lsof t
+                                  zlpr = log 1 + hp, e
+                                                       −s
+                                                          i + log [1 + h1 − p, es i] .                             (31)
+This is the candidate we need for the soft-label version of the ZLPR loss and what we are going to do next is proving
+that it works.
+In machine learning, an effective loss means that the target of the related task can be rebuild by the output when it gets
+the optimum. Taking the derivative with respect to Lsof  t
+                                                      zlpr :
+
+                                      ∂Lsof
+                                        zlpr
+                                            t
+                                                               pi e−si    (1 − pi )esi
+                                                   =−                −s
+                                                                        +                ,                           (32)
+                                          ∂si               1 + hp, e i 1 + h1 − p, es i
+and it gets the optimum when
+                                                                   ∂Lsof
+                                                                     zlpr
+                                                                         t
+                                                            ∀i : = 0.                                                (33)
+                                                          ∂si
+It is tough to solve Equation 33 analytically. Luckily, we find a simple solution by observing:
+                                                       pi e−si = (1 − pi )esi ,                                      (34)
+which derives
+                                                            1
+                                                pi =              = sigmoid(2si ).                                   (35)
+                                                        1 + e−2si
+Equation 35 is an inspirational result and expresses the following information:
+
+       • Lsof t
+          zlpr is a reasonable extension of the zlpr loss for soft-label, because it can rebuild p by proper s.
+       • The transition from scores to binary probabilities should be p̂ = sigmoid(2s) instead of the intuitive
+         sigmoid(s).
+
+B The Calculation of KL-divergence
+Some regularization training methods based on sample interference, such as the virtual adversarial training[36] and
+R-drop[18], require the calculation of KL-divergence. The original output of the ZLPR loss is not a probability
+distribution but label scores. However, after the discussion of the soft-label version, we know that label scores can be
+transformed into the relevant binary probability form. Equation 35 implies that every label is selected or not in MLC
+can still be treated as a binary classification problem, which means we can use the transformed binary distribution
+to calculate the KL-divergence. With the transformation of Equation 35, the KL-divergence between s and s′ can be
+defined as:
+                                    n
+                                    X
+                     KL(s, s′ ) ≡         KL(p̂i , p̂′i )                                                            (36)
+                                    i=1
+                                    Xn
+                                =         [p̂i (log p̂i − log p̂′i ) + (1 − p̂i )(log(1 − p̂i ) − log(1 − p̂′i ))]
+                                    i=1
+                                   n                                
+                                  X
+                                                  ′         1 − p̂i
+                                =     2p̂i (si − si ) + log            ,
+                                  i=1
+                                                            1 − p̂′i
+
+and the symmetric version is
+                                                                             n
+                                                                             X
+                             D(s, s′ ) = KL(s, s′ ) + KL(s′ , s) =                 2(p̂i − p̂′i )(si − s′i ).        (37)
+                                                                             i=1
+
+Although the form of multiple dichotomies is used to calculate the KL-divergence of the ZLPR loss, it is not affected
+by the data imbalance caused by the BR mode, because it is not a classification task per se.
+
+
+
+                                                                     11
+C   Statistics of Datasets
+
+                                    Table 2: Statistics of Datasets.
+            Dataset            Instances   AveWords      Categories    Cardinality   Density
+            CNIPA-data         212, 095      17/242          618         1.330        0.002
+            CNIPA-train        169, 626      17/242          617         1.330        0.002
+            CNIPA-val           21, 361      17/241          570         1.329        0.002
+            CNIPA-test          21, 108      17/242          572         1.331        0.002
+            Toutiao-data       659, 870        20            142         1.530        0.011
+            Toutiao-train      527, 785        20            142         1.530        0.011
+            Toutiao-val         65, 861        20            104         1.529        0.015
+            Toutiao-test        66, 224        20            110         1.533        0.014
+            USPTO-data         353, 701       8/111          632         2.174        0.003
+            USPTO-train        283, 000       8/111          628         2.175        0.003
+            USPTO-val           35, 273       8/112          601         2.171        0.004
+            USPTO-test         35, 428        8111           603         2.169        0.004
+            Archive-data        20, 972      10/151            6         1.252        0.209
+            Archive-train       16, 794      10/152            6         1.255        0.209
+            Archive-val         2, 045       10/151            6         1.246        0.208
+            Archive-test        2, 133       10/151            6         1.239        0.207
+            CMU-Movie-data      42, 204       3/312          372         3.691        0.010
+            CMU-Movie-train     33, 751       3/312          370         3.700        0.010
+            CMU-Movie-val       4, 241        3/310          277         3.660        0.013
+            CMU-Movie-test      4, 212        3/318          284         3.649        0.013
+            GoEmotions-data    211, 225        13             28         1.181        0.042
+            GoEmotions-train   168, 692        13             28         1.181        0.042
+            GoEmotions-val     21, 429         13             28         1.183        0.042
+            GoEmotions-test    21, 104         13             28         1.182        0.042
+            Toxic-data         159, 571        70              6         0.220        0.037
+            Toxic-train        127, 705        70              6         0.219        0.036
+            Toxic-val          15, 855         70              6         0.227        0.038
+            Toxic-test         16, 011         70              6         0.224        0.037
+
+
+
+
+                                                    12
+D   Details of Chinese Text Experiment Results
+
+                          Table 3: Experiment Results on CNIPA-Title.
+
+                                             Bert
+             Loss     SubACC   MLC-F1     Micro-F1    Macro-F1    AvgPrec   RankLoss
+             BCE      42.75%    56.09%     57.72%      39.79%     70.69%     1.12%
+             FL       41.71%    56.10%     57.76%      44.21%     71.06%     1.21%
+             DL1      36.28%    46.48%     52.06%      21.86%     59.76%     6.72%
+             DL2      41.83%    55.08%     57.56%      36.42%     68.05%     2.66%
+             RL                                                   71.59%     1.24%
+             WARP                                                 71.59%     1.32%
+             BP-MLL                                               70.24%     1.07%
+             LSEP                                                 69.29%     1.01%
+             ZLPR     43.23%    57.54%     58.34%      43.47%     71.68%     1.02%
+                                            Roberta
+             Loss     SubACC   MLC-F1     Micro-F1    Macro-F1    AvgPrec   RankLoss
+             BCE      42.41%    56.12%     57.70%      40.83%     70.41%     1.17%
+             FL       41.18%    55.92%     57.59%      44.22%     70.92%     1.16%
+             DL1      37.58%    48.28%     53.49%      23.51%     62.16%     5.85%
+             DL2      42.47%    56.03%     58.23%      40.06%     68.66%     2.74%
+             RL                                                   71.33%     1.51%
+             WARP                                                 71.32%     1.46%
+             BP-MLL                                               70.10%     1.05%
+             LSEP                                                 69.80%     0.99%
+             ZLPR     42.79%    57.66%     58.20%      44.17%     71.45%     1.00%
+
+
+
+
+                                              13
+           Table 4: Experiment Results on CNIPA-Abstract.
+
+                                   Bert
+Loss     SubACC      MLC-F1     Micro-F1    Macro-F1    AvgPrec   RankLoss
+BCE      45.23%      59.81%      61.01%      40.02%     74.02%     0.86%
+FL       45.26%      60.78%      61.75%      46.09%     75.08%     0.88%
+DL1      40.18%      52.01%      57.00%      23.47%     64.48%     6.53%
+DL2      46.65%      61.77%      62.95%      42.98%     73.42%     2.24%
+RL                                                      76.27%     0.88%
+WARP                                                    76.35%     0.84%
+BP-MLL                                                  74.10%     0.85%
+LSEP                                                    74.05%     0.70%
+ZLPR     47.25%      62.62%      62.68%      45.75%     76.41%     0.64%
+                                  Roberta
+Loss     SubACC      MLC-F1     Micro-F1    Macro-F1    AvgPrec   RankLoss
+BCE      45.17%      58.99%      60.69%      38.69%     73.85%     0.88%
+FL       44.65%      59.54%      61.09%      44.85%     74.36%     0.98%
+DL1      41.56%      53.55%      58.03%      25.34%     65.84%     5.65%
+DL2      46.66%      61.30%      62.72%      42.57%     73.13%     2.13%
+RL                                                      76.18%     0.91%
+WARP                                                    76.18%     1.06%
+BP-MLL                                                  74.15%     0.83%
+LSEP                                                    74.64%     0.71%
+ZLPR     46.86%      62.47%      62.64%      47.12%     76.24%     0.68%
+
+
+
+
+                  Table 5: Experiment Results on Toutiao.
+
+                                   Bert
+Loss     SubACC      MLC-F1     Micro-F1    Macro-F1    AvgPrec   RankLoss
+BCE      47.76%      68.40%      69.74%      43.14%     82.35%     0.89%
+FL       47.40%      67.88%      69.52%      43.34%     82.32%     0.87%
+DL1      48.13%      67.86%      69.40%      42.78%     81.32%     1.16%
+DL2      47.64%      69.28%      69.35%      42.97%     81.18%     1.11%
+BP-MLL                                                  81.62%     0.92%
+LSEP                                                    81.19%     0.93%
+RL                                                      81.81%     1.06%
+WARP                                                    81.69%     0.91%
+ZLPR     48.29%      69.49%      69.85%      43.84%     82.52%     0.85%
+                                  Roberta
+Loss     SubACC      MLC-F1     Micro-F1    Macro-F1    AvgPrec   RankLoss
+BCE      47.77%      68.68%      69.91%      43.45%     82.49%     0.87%
+FL       47.46%      68.08%      69.53%      43.90%     82.29%     0.88%
+DL1      48.01%      67.53%      69.32%      42.21%     81.68%     1.13%
+DL2      47.71%      69.51%      69.52%      42.89%     81.35%     1.10%
+BPMLL                                                   81.76%     0.88%
+LSEP                                                    81.19%     0.92%
+RL                                                      81.94%     1.00%
+WARP                                                    81.97%     0.92%
+ZLPR     48.40%      69.19%      69.93%      43.79%     82.77%     0.83%
+
+
+
+
+                                    14
+E Details of English Text Experiment Results
+
+                         Table 6: Experiment Results on USPTO-Title.
+
+                                             Bert
+             Loss   SubACC    MLC-F1    Micro-F1     Macro-F1   AvgPrec   RankLoss
+             BCE    23.54%    50.06%     50.17%      25.48%     65.26%     2.03%
+             FL     23.34%    50.54%     50.76%      29.77%     66.08%     1.98%
+             DL1    23.61%    48.15%     49.27%      19.21%     61.53%     4.83%
+             DL2    24.10%    51.84%     52.06%      29.08%     63.60%     3.58%
+             ZLPR   24.34%    50.97%     50.00%      26.92%     66.05%     1.87%
+                                           Roberta
+             Loss   SubACC    MLC-F1    Micro-F1     Macro-F1   AvgPrec   RankLoss
+             BCE    27.57%    57.88%     55.72%      34.19%     71.53%     1.37%
+             FL     27.28%    57.26%     55.57%      35.01%     71.84%     1.31%
+             DL1    27.51%    54.37%     53.49%      23.95%     68.21%     3.42%
+             DL2    27.30%    57.62%     56.10%      31.50%     69.62%     2.40%
+             ZLPR   27.81%    56.40%     53.93%      30.85%     71.32%     1.26%
+
+
+                        Table 7: Experiment Results on USPTO-Abstract.
+
+                                             Bert
+             Loss   SubACC    MLC-F1    Micro-F1     Macro-F1   AvgPrec   RankLoss
+             BCE    31.44%    63.94%     60.98%      34.13%     77.31%     0.84%
+             FL     31.20%    64.27%     61.43%      38.03%     77.91%     0.84%
+             DL1    31.37%    62.42%     60.50%      26.23%     72.65%     3.65%
+             DL2    31.93%    65.06%     62.23%      35.02%     75.85%     1.85%
+             ZLPR   32.57%    64.93%     61.42%      36.56%     78.67%     0.72%
+                                           Roberta
+             Loss   SubACC    MLC-F1    Micro-F1     Macro-F1   AvgPrec   RankLoss
+             BCE    31.72%    64.73%     61.70%      36.36%     78.29%     0.79%
+             FL     31.72%    64.32%     61.48%      38.27%     78.49%     0.75%
+             DL1    31.72%    61.98%     59.77%      26.57%     74.16%     2.95%
+             DL2    31.81%    65.54%     62.53%      38.18%     76.33%     1.72%
+             ZLPR   32.61%    64.84%     61.48%      38.60%     78.71%     0.71%
+
+
+
+
+                                              15
+           Table 8: Experiment Results on Archive-Title.
+
+                                Bert
+Loss   SubACC   MLC-F1     Micro-F1     Macro-F1   AvgPrec   RankLoss
+BCE    49.79%   62.59%      64.26%      52.14%     81.58%    11.84%
+FL     48.57%   62.74%      64.62%      52.60%     81.61%    11.68%
+DL1    48.62%   60.88%      63.47%      53.35%     81.00%    12.81%
+DL2    47.77%   66.77%      66.59%      56.20%     81.50%    11.89%
+ZLPR   50.02%   64.98%      65.42%      54.03%     81.50%    12.03%
+                              Roberta
+Loss   SubACC   MLC-F1     Micro-F1     Macro-F1   AvgPrec   RankLoss
+BCE    59.59%   74.73%      75.22%      68.41%     87.16%     7.61%
+FL     59.21%   75.83%      76.05%      68.55%     87.64%     7.34%
+DL1    60.99%   74.39%      75.09%      67.51%     87.28%     7.73%
+DL2    58.23%   75.12%      74.59%      69.09%     86.60%     8.09%
+ZLPR   60.38%   75.76%      75.73%      68.93%     87.48%     7.32%
+
+          Table 9: Experiment Results on Archive-Abstract.
+
+                                Bert
+Loss   SubACC   MLC-F1     Micro-F1     Macro-F1   AvgPrec   RankLoss
+BCE    67.28%   81.87%      80.98%      73.85%     91.28%     4.90%
+FL     66.81%   81.89%      81.42%      74.49%     91.61%     4.56%
+DL1    67.28%   81.66%      80.85%      71.93%     91.19%     5.55%
+DL2    66.81%   82.29%      80.96%      74.24%     91.11%     5.36%
+ZLPR   67.37%   82.27%      81.23%      73.40%     91.45%     4.74%
+                              Roberta
+Loss   SubACC   MLC-F1     Micro-F1     Macro-F1   AvgPrec   RankLoss
+BCE    67.46%   82.53%      81.72%      76.42%     91.73%     4.53%
+FL     65.07%   81.39%      81.07%      71.12%     91.54%     4.70%
+DL1    65.17%   81.40%      80.89%      72.86%     91.31%     4.87%
+DL2    66.85%   82.37%      81.55%      76.74%     91.43%     4.96%
+ZLPR   67.75%   82.59%      81.63%      74.26%     91.68%     4.63%
+
+           Table 10: Experiment Results on Movie-Name.
+
+                                Bert
+Loss   SubACC   MLC-F1     Micro-F1     Macro-F1   AvgPrec   RankLoss
+BCE    2.80%     7.85%       7.25%      23.84%     37.48%     5.25%
+FL     2.83%     8.25%       7.83%      23.93%     37.06%     5.27%
+DL1    1.47%     2.30%       1.26%      23.77%     37.34%     5.55%
+DL2    6.03%    21.80%      19.27%      23.88%     36.29%     5.97%
+ZLPR   5.53%    20.65%      18.97%      24.19%     37.04%     5.18%
+                              Roberta
+Loss   SubACC   MLC-F1     Micro-F1     Macro-F1   AvgPrec   RankLoss
+BCE    5.39%    26.74%      27.57%      25.85%     44.47%     4.34%
+FL     5.82%    23.63%      23.40%      25.10%     43.95%     4.29%
+DL1    5.25%    21.92%      22.72%      24.99%     43.03%     5.16%
+DL2    6.03%    21.80%      19.27%      23.88%     36.31%     6.06%
+ZLPR   5.51%    26.09%      26.55%      25.93%     44.08%     4.17%
+
+
+
+                                 16
+          Table 11: Experiment Results on Movie-Summary.
+
+                                 Bert
+Loss   SubACC    MLC-F1     Micro-F1     Macro-F1   AvgPrec   RankLoss
+BCE    7.24%     32.06%      33.42%      26.34%     53.70%     3.28%
+FL     7.24%     35.06%      36.46%      27.65%     56.03%     2.59%
+DL1    6.98%     34.29%      35.02%      26.22%     51.25%     4.95%
+DL2    5.98%     40.26%      41.34%      28.16%     52.96%     3.74%
+ZLPR   7.43%     40.34%      40.55%      28.57%     56.55%     2.49%
+                               Roberta
+Loss   SubACC    MLC-F1     Micro-F1     Macro-F1   AvgPrec   RankLoss
+BCE    8.24%     39.02%      40.98%      28.40%     58.27%     2.36%
+FL     7.53%     40.10%      41.96%      29.97%     58.86%     2.10%
+DL1    7.76%     36.07%      38.24%      27.23%     56.46%     3.96%
+DL2    7.55%     43.88%      45.48%      30.80%     56.94%     3.00%
+ZLPR   8.50%     42.04%      43.20%      31.32%     59.98%     1.98%
+
+           Table 12: Experiment Results on GoEmotions.
+
+                                 Bert
+Loss   SubACC    MLC-F1     Micro-F1     Macro-F1   AvgPrec   RankLoss
+BCE    24.96%    31.18%      35.83%      29.77%     53.86%    12.08%
+FL     23.92%    32.14%      34.47%      29.09%     51.73%    13.36%
+DL1    25.87%    30.56%      35.36%      26.00%     53.65%    13.67%
+DL2    29.08%    38.25%      40.49%      30.42%     56.28%    11.67%
+ZLPR   27.01%    33.07%      37.72%      31.29%     56.68%    10.23%
+                               Roberta
+Loss   SubACC    MLC-F1     Micro-F1     Macro-F1   AvgPrec   RankLoss
+BCE    25.50%    32.15%      36.44%      31.04%     54.36%    11.60%
+FL     23.74%    32.71%      35.30%      29.85%     52.22%    13.19%
+DL1    26.68%    31.56%      37.45%      27.93%     56.43%    11.66%
+DL2    31.01%    41.45%      43.79%      33.42%     59.51%    9.83%
+ZLPR   29.41%    35.22%      40.44%      31.54%     60.00%    8.89%
+
+                Table 13: Experiment Results on Toxic.
+
+                                 Bert
+Loss   SubACC    MLC-F1     Micro-F1     Macro-F1   AvgPrec   RankLoss
+BCE    90.69%    93.86%      69.91%      57.27%      9.79%     0.35%
+FL     91.06%    94.02%      69.51%      56.50%      9.63%     0.47%
+DL1    91.75%    94.30%      69.30%      54.63%      9.55%     0.51%
+DL2    91.34%    94.14%      68.87%      54.50%      9.59%     0.48%
+ZLPR   91.51%    94.38%      70.38%      50.62%      9.78%     0.36%
+                               Roberta
+Loss   SubACC    MLC-F1     Micro-F1     Macro-F1   AvgPrec   RankLoss
+BCE    91.96%    95.13%      76.76%      65.92%      9.82%     0.31%
+FL     91.86%    95.12%      76.61%      60.95%      9.83%     0.30%
+DL1    92.16%    95.13%      75.47%      54.85%      9.70%     0.45%
+DL2    92.05%    95.15%      76.27%      63.36%      9.82%     0.31%
+ZLPR   92.17%    95.24%      77.36%      64.33%      9.84%     0.30%
+
+
+
+                                  17
+

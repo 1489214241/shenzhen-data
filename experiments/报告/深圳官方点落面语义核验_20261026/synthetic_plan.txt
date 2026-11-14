@@ -1,0 +1,13 @@
+Synthetic-only GeoUtils verification plan
+
+Scope: determine whether the downloaded official GeoUtils 1.2 isPointInPolygon implementation can produce a deterministic boolean on a self-intersecting synthetic ring that fails the usual simple-polygon condition. This does not establish correctness of any Shenzhen school geometry, native BMap runtime equivalence, enrollment eligibility, or historical library identity.
+
+Input: only the already downloaded GeoUtils_min.js and inline invented rings/points in synthetic_harness.js. No MAPDATA, FDC, target school, target coordinate, Gold, trained model, or network access is permitted. Coordinates are abstract synthetic values, unrelated to any source point.
+
+Execution: freeze this plan, harness, library, and retrieval receipt hashes in synthetic_freeze.json before running Node. Execute the original library unmodified inside a vm context that has no require/process/network bindings. Supply a minimal BMap Point/Bounds/Polygon adapter: exact coordinate equality, unmodified ordered path, axis-aligned bounds. This adapter is a declared assumption, not a claim to reproduce the vendor constructor.
+
+Cases: simple square; concave L; bow-tie with two nonadjacent edges crossing at (2,2); repeated consecutive vertex; twice-traced square. For each ring preserve original order, reverse order, explicitly close, and explicitly close plus reverse. Query interior/exterior, vertex, horizontal/vertical boundary, and crossing points where appropriate.
+
+Assertions: simple and bow-tie cases have manually specified expected outputs based on their elementary geometry and the documented odd/even algorithm. The twice-traced square centre is expected false under odd/even semantics. Its horizontal-edge probes deliberately have no expected assertion, since branch behavior at repeated edges is under examination; every observed result and directional/closure difference must be retained. No post-result editing of expected answers or exclusion of failed cases is allowed.
+
+Report: write all cases, exceptions, assertion failures, invariance differences, bytes/hashes, and action declarations. Distinguish original algorithm behavior under the minimal adapter from official browser runtime validation. Even a fully passing synthetic run does not permit admitting six real school geometries, repairing them, assigning known/negative relations, constructing Gold, or target inference. If failures occur, retain them and stop broad claims; do not change code to make the run pass.

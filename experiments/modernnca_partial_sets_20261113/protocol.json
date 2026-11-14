@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-13",
+  "sources": [
+    "天心区",
+    "芙蓉区",
+    "雨花区",
+    "开福区",
+    "拱墅区",
+    "萧山区",
+    "富阳区",
+    "临安区"
+  ],
+  "targets": [
+    "龙华区",
+    "龙岗区"
+  ],
+  "seeds": [
+    20261231,
+    20261232,
+    20261233
+  ],
+  "selection_teacher": 20261231,
+  "backbone": "Frozen ModernNCA-LN full-evidence encoder/query/matching from categorical control; each final seed uses its own previous encoder.",
+  "learning": "New learned per-school transform and joint-set mean/variance pooling + residual readout. Complete-set categorical cross entropy; zero residual recovers geometric decoder. This is trained representation/readout, not end-to-end backbone retraining.",
+  "source_labels": "Existing complete source labels as before, plus original frozen target partial labels. All unknown target cells remain -1; no invented complete sets or negative school labels.",
+  "target_candidates": "Exactly frozen scope-cell candidates and per-site lower bounds from preceding experiment. No new candidate, fact, map, Gold, or threshold.",
+  "source_candidates": "Frozen all singletons plus complete source training-label sets from earlier candidate experiment. Train/validation project groups remain disjoint.",
+  "reference_boundary": "Same reference tokens and self-project exclusion. Complete source sets are training supervision; no extra references inserted and no target complete labels manufactured.",
+  "loss": "Existing same-project balanced source weights renormalized over complete source rows. Set cross entropy +0.25 conditional-singleton KL to frozen teacher on complete singleton rows; shared L2 regularization.",
+  "grid": [
+    {
+      "lr": 0.001,
+      "reg": 0.001
+    },
+    {
+      "lr": 0.001,
+      "reg": 0.01
+    },
+    {
+      "lr": 0.003,
+      "reg": 0.001
+    },
+    {
+      "lr": 0.003,
+      "reg": 0.01
+    }
+  ],
+  "checkpoints": [
+    80,
+    160,
+    320,
+    640
+  ],
+  "minibatch": 64,
+  "width": 32,
+  "selection": "Max source overall full-set exact among checkpoints whose singleton accuracy is no more than0.5percentage points below native teacher singleton accuracy; tie multi exact, fewer FP, earlier checkpoint. If none pass, report rejected gate and evaluate best diagnostic candidate only.",
+  "source_validation": "Existing1246 source spatial holdout rows,60multi; reused development validation, not new independent confirmation.",
+  "ensemble": "Average per-candidate softmax probabilities across3seeds for BOTH untrained and learned readouts, same candidate order. Per-seed results retained. Native-policy baseline copied byte-semantically.",
+  "primary": "learned_set_readout minus untrained_set_readout",
+  "secondary": "learned_set_readout minus categorical_policy",
+  "validation_gate": "Also report final source ensemble singleton safeguard; no post-target model selection or tuning.",
+  "evaluation": "Same1761map-hit rows,41unscored outputs,242semantic-pending retained. Exact full sets, FP/FN, corrections/harms,1km district-stratified bootstrap3000.",
+  "source_target_candidate_shift": true,
+  "prior_target_results_seen": true,
+  "adopted": false,
+  "independent_validation": false,
+  "target_gold_read": false,
+  "target_polygons_read": false,
+  "intervention": "Add existing target partial-positive supervision to the learned set head via marginal compatible-set likelihood. Previously it reached only the frozen teacher and inference constraints.",
+  "target_training_candidates": "Global official-policy templates, singleton hypotheses, and observed positive lower-bound hypotheses. Do NOT union a row positive set into every candidate before training; that would make partial loss identically zero.",
+  "target_training_loss": "logsumexp(all candidate scores) minus logsumexp(scores of sets containing every observed positive); unknown schools unrestricted. Source complete-set CE and singleton KL unchanged.",
+  "training_weights": "Original per-project source-balanced and target weights from Modern experiment, jointly renormalized over complete source rows plus original target partial rows. No target weight tuned on evaluation labels.",
+  "comparator": "Source-only trained head804/1761 is a development comparator with identical architecture/input facts but no direct partial head loss; native-policy898 and untrained set879 remain controls.",
+  "prior_source_only_target_result_seen": true,
+  "source_only_failure_not_attributed_to_missing_official_data": true
+}

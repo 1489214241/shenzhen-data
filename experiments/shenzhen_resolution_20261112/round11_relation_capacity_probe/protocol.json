@@ -1,0 +1,62 @@
+{
+  "sources": [
+    "天心区",
+    "芙蓉区",
+    "雨花区",
+    "开福区",
+    "拱墅区",
+    "萧山区",
+    "富阳区",
+    "临安区"
+  ],
+  "targets": [
+    "龙华区",
+    "龙岗区"
+  ],
+  "arms": [
+    "anchor_context",
+    "pooled_relations"
+  ],
+  "parameters": {
+    "loss": "log_loss",
+    "learning_rate": 0.05,
+    "max_iter": 200,
+    "max_leaf_nodes": 15,
+    "min_samples_leaf": 20,
+    "l2_regularization": 1.0,
+    "early_stopping": false,
+    "random_state": 20261131
+  },
+  "sklearn_version": "1.4.2",
+  "features": {
+    "anchor_context": 33,
+    "pooled_relations": 159
+  },
+  "source_split": "Identical frozen round03 spatial validation; no new validation claim.",
+  "supervision": "Identical round08 observed complete source and partial target cells; unknown cells omitted.",
+  "weights": "Exact round08 per-property weights copied per observed school cell, globally rescaled to mean1.",
+  "missing_references": "NaN pooled values plus zero mass; never interpreted as observed negatives.",
+  "objective_change": "Binary log loss, without neural LSEP term; not a compute-matched neural comparison.",
+  "source_gate": {
+    "min_multi_correct": 8,
+    "min_single_correct": 901,
+    "min_attainable_multi": 18,
+    "objective": "balanced_exact",
+    "purpose": "Only determines whether to proceed to a separately frozen target test."
+  },
+  "target_gold_read": false,
+  "target_polygon_read": false,
+  "target_predictions_generated": false,
+  "independent_validation": false,
+  "adopted": false,
+  "research": [
+    {
+      "url": "https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.HistGradientBoostingClassifier.html",
+      "reviewed": "Public estimator documentation: missing-value routing, sample weights, fixed iterations without early stopping."
+    },
+    {
+      "url": "https://arxiv.org/abs/1703.06114",
+      "reviewed": "Abstract only: permutation-invariant set functions. This is deterministic pooling plus trees, not a Deep Sets reproduction."
+    }
+  ]
+}

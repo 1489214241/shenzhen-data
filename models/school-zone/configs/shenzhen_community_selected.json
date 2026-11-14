@@ -1,0 +1,12 @@
+{
+  "method": "current",
+  "community_estimator": "changsha_road_aware",
+  "experiment": "outputs/shenzhen_resolution_20261112/community_methods_20261113",
+  "selection_sha256": "b0ac2db5be6eb2b00e6fb8df9c84206d97b7ef43aab0d945e87b8cb5400a0014",
+  "results_sha256": "c7daf24ad6f7a6809e8c572e9cd5b9f008874463ac7b216960748415dbe134d0",
+  "status": "retained_current_after_matched_development_comparison",
+  "new_hangzhou_direct_reference_estimates_enabled": false,
+  "scope": "当前深圳龙华、龙岗冻结数据与第6轮模型；未改全项目其他城市模型或资料入口",
+  "inference_entry": "scripts/run_shenzhen_community.py",
+  "independent_validation": false
+}

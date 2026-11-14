@@ -1,0 +1,79 @@
+       Model                            Ign F1     F1                                            Strategy                    Dev F1   Test F1
+       BERT-ATLOPBASE                    59.22   61.09                                           Global Thresholding         60.14    60.62
+       − Adaptive Thresholding           58.32   60.20                                           Per-class Thresholding      61.73    60.35
+       − Localized Context Pooling       58.19   60.12                                           Adaptive Thresholding       61.27    61.30
+       − Adaptive-Thresholding Loss      39.52   41.74
+       BERT-EBASE                        56.51   58.52                   Table 6: Result of different thresholding strategies on Do-
+       − Entity Marker                   56.22   58.28                   cRED. Our adaptive thresholding consistently outperforms
+       − Group Bilinear                  55.51   57.54                   other strategies on the test set.
+       − Logsumexp Pooling               55.35   57.40
+                                                                                            75
+Table 5: Ablation study of ATLOP on DocRED. We turn                                                                                     w/ LOP
+off different components of the model one at a time. These                                  70
+
+
+
+
+                                                                            dev F1 (in %)
+                                                                                                                                        w/o LOP
+ablation results show that both adaptive thresholding and                                   65
+localized context pooling are effective. Logsumexp pooling
+                                                                                            60
+and group bilinear both bring noticeable gain to the baseline.
+                                                                                            55
+
+                                                                                            50
+                                                                                                   1-5      6-10 11-15 16-20 21-25 26-30 31-35
+   We find that our re-implemented BERT baseline gets sig-                                                      # of Entities per Document
+nificantly better results than Wang et al. (2019a), and outper-
+forms the state-of-the-art RNN-based model BiLSTM-LSR                    Figure 4: Dev F1 score of documents with the different num-
+by 1.2%. It demonstrates that pre-trained language models                ber of entities on DocRED. Our localized context pooling
+can capture long-distance dependencies among entities with-              achieves better results when the number of entities is larger
+out explicitly using graph structures. After integrating other           than 5. The improvement becomes more significant when the
+techniques, our enhanced baseline BERT-EBASE achieves an                 number of entities increases.
+F1 score of 58.52%, which is close to the current state-of-the-
+art model BERT-LSRBASE . Our BERT-ATLOPBASE model
+further improves the performance of BERT-EBASE by 2.6%,
+demonstrating the efficacy of the proposed two novel tech-               and 0.97% in dev F1 score respectively when removed from
+niques. Using RoBERTa-large as the encoder, our ALTOP                    ATLOP. Note that the adaptive thresholding only works when
+model achieves an F1 score of 63.40%, which is a new state-              the model is optimized with the adaptive-thresholding loss.
+of-the-art result on DocRED.                                             Applying adaptive thresholding to models trained with binary
+                                                                         cross entropy results in dev F1 of 41.74%.
+Results on Biomedical Datasets                                              For our enhanced baseline model BERT-EBASE , both group
+Experiment results on two biomedical datasets are shown in               bilinear and logsumexp pooling lead to about 1% increase
+Table 4. Verga, Strubell, and McCallum (2018) and Nguyen                 in dev F1 . We find the improvement from entity markers is
+and Verspoor (2018) are both sequence-based models that                  minor (0.24% in dev F1 ) but still use the technique in the
+use self-attention network and CNN as the encoders, respec-              model as it makes the derivation of mention embedding and
+tively. Christopoulou, Miwa, and Ananiadou (2019) and Nan                mention-level attention easier.
+et al. (2020) use graph-based models that construct document
+graphs by heuristics or structured attention, and perform in-            Analysis of Thresholding
+ference with graph neural network. To our best knowledge,
+transformer-based pre-trained language models have not been
+                                                                         Global thresholding does not consider the variations of model
+applied to document-level RE datasets in the biomedical do-
+                                                                         confidence in different classes or instances, and thus yields
+main. In experiments, we replace the encoder with SciBERT,
+                                                                         suboptimal performance. One interesting question is whether
+which is pre-trained on multi-domain corpora of scientific
+                                                                         we can improve global thresholding by tuning different
+publications. The SciBERT baseline already outperforms all
+                                                                         thresholds for different classes. To answer this question, We
+existing methods. Our SciBERT-ATLOP model further im-
+                                                                         try to tune different thresholds on different classes to max-
+proves the F1 score by 4.3% and 1.4% on CDR and GDA,
+                                                                         imize the dev F1 score on DocRED using the cyclic opti-
+respectively, yielding new state-of-the-art results on these
+                                                                         mization algorithm (Fan and Lin 2007). Results are shown
+two datasets.
+                                                                         in Table 6. We find that using per-class thresholding signifi-
+                                                                         cantly improves the dev F1 score to 61.73%, which is even
+Ablation Study                                                           higher than the result of adaptive thresholding. However, this
+To show the efficacy of our proposed techniques, we conduct              gain does not transfer to the test set. The result of per-class
+two sets of ablation studies on ATLOP and enhanced base-                 thresholding is even worse than global thresholding. It indi-
+line, by turning off one component at a time. We observe that            cates that tuning per-class thresholding after training can lead
+all components contribute to model performance. The adap-                to severe over-fitting to the development set. While our adap-
+tive thresholding and localized context pooling are equally              tive thresholding technique learns the threshold in training,
+important to model performance, leading to a drop of 0.89%               which can generalize to the test set.
+
+
+                                                                 14617

@@ -1,0 +1,67 @@
+                       References                                      Kipf, T.; and Welling, M. 2017. Semi-Supervised Classifica-
+Alt, C.; Hübner, M.; and Hennig, L. 2019. Improving Rela-             tion with Graph Convolutional Networks. In ICLR.
+tion Extraction by Pre-trained Language Representations. In            Li, J.; Sun, Y.; Johnson, R. J.; Sciaky, D.; Wei, C.-H.; Leaman,
+AKBC.                                                                  R.; Davis, A. P.; Mattingly, C. J.; Wiegers, T. C.; and Lu,
+Beltagy, I.; Lo, K.; and Cohan, A. 2019. SciBERT: A Pre-               Z. 2016. BioCreative V CDR task corpus: a resource for
+trained Language Model for Scientific Text. In EMNLP-                  chemical disease relation extraction. In Database.
+IJCNLP.                                                                Liang, X.; Shen, X.; Feng, J.; Lin, L.; and Yan, S. 2016.
+Christopoulou, F.; Miwa, M.; and Ananiadou, S. 2018. A                 Semantic Object Parsing with Graph LSTM. In ECCV.
+Walk-based Model on Entity Graphs for Relation Extraction.             Liu, Y.; and Lapata, M. 2018. Learning Structured Text
+In ACL.                                                                Representations. Transactions of the Association for Compu-
+                                                                       tational Linguistics 6: 63–75.
+Christopoulou, F.; Miwa, M.; and Ananiadou, S. 2019. Con-
+necting the Dots: Document-level Neural Relation Extraction            Liu, Y.; Ott, M.; Goyal, N.; Du, J.; Joshi, M.; Chen, D.;
+with Edge-oriented Graphs. In EMNLP-IJCNLP.                            Levy, O.; Lewis, M.; Zettlemoyer, L.; and Stoyanov, V. 2019.
+                                                                       RoBERTa: A Robustly Optimized BERT Pretraining Ap-
+Chung, J.; Çaglar Gülçehre; Cho, K.; and Bengio, Y. 2014.           proach. ArXiv abs/1907.11692.
+Empirical Evaluation of Gated Recurrent Neural Networks
+on Sequence Modeling. ArXiv abs/1412.3555.                             Loshchilov, I.; and Hutter, F. 2019. Decoupled Weight Decay
+                                                                       Regularization. In ICLR.
+Clark, K.; Khandelwal, U.; Levy, O.; and Manning, C. D.
+2019. What Does BERT Look at? An Analysis of BERT’s                    Menon, A.; Rawat, A.; Reddi, S.; and Kumar, S. 2019. Mul-
+Attention. In BlackboxNLP workshop.                                    tilabel reductions: what is my loss optimising? In NeurIPS.
+Devlin, J.; Chang, M.-W.; Lee, K.; and Toutanova, K. 2019.             Micikevicius, P.; Narang, S.; Alben, J.; Diamos, G.; Elsen,
+BERT: Pre-training of Deep Bidirectional Transformers for              E.; Garcı́a, D.; Ginsburg, B.; Houston, M.; Kuchaiev, O.;
+Language Understanding. In NAACL-HLT.                                  Venkatesh, G.; and Wu, H. 2018. Mixed Precision Training.
+                                                                       In ICLR.
+Fan, R.-E.; and Lin, C.-J. 2007. A study on threshold selec-
+tion for multi-label classification. Department of Computer            Miwa, M.; and Bansal, M. 2016. End-to-End Relation Ex-
+Science, National Taiwan University 1–23.                              traction using LSTMs on Sequences and Tree Structures. In
+                                                                       ACL.
+Goodfellow, I.; Bengio, Y.; Courville, A.; and Bengio, Y.
+2016. Deep learning, volume 1. MIT press Cambridge.                    Nan, G.; Guo, Z.; Sekulic, I.; and Lu, W. 2020. Reason-
+                                                                       ing with Latent Structure Refinement for Document-Level
+Goyal, P.; Dollár, P.; Girshick, R. B.; Noordhuis, P.;                Relation Extraction. In ACL.
+Wesolowski, L.; Kyrola, A.; Tulloch, A.; Jia, Y.; and He, K.
+                                                                       Nguyen, D. Q.; and Verspoor, K. 2018. Convolutional neural
+2017. Accurate, Large Minibatch SGD: Training ImageNet
+                                                                       networks for chemical-disease relation extraction are im-
+in 1 Hour. ArXiv abs/1706.02677.
+                                                                       proved with character-based word embeddings. In BioNLP
+Guo, Z.; Zhang, Y.; and Lu, W. 2019. Attention Guided                  workshop.
+Graph Convolutional Networks for Relation Extraction. In
+                                                                       Peng, N.; Poon, H.; Quirk, C.; Toutanova, K.; and Yih, W.-t.
+ACL.
+                                                                       2017. Cross-Sentence N-ary Relation Extraction with Graph
+Gupta, P.; Rajaram, S.; Schütze, H.; and Runkler, T. 2019.            LSTMs. Transactions of the Association for Computational
+Neural Relation Extraction Within and Across Sentence                  Linguistics 5: 101–115.
+Boundaries. In AAAI.                                                   Quirk, C.; and Poon, H. 2017. Distant Supervision for Rela-
+Hendrickx, I.; Kim, S.; Kozareva, Z.; Nakov, P.; Séaghdha,            tion Extraction beyond the Sentence Boundary. In EACL.
+D. Ó.; Pennacchiotti, M.; Romano, L.; and Szpakowicz, S.              Reddi, S. J.; Kale, S.; Yu, F.; Holtmann-Rice, D.; Chen, J.;
+2009. SemEval-2010 Task 8: Multi-Way Classification of                 and Kumar, S. 2019. Stochastic Negative Mining for Learn-
+Semantic Relations Between Pairs of Nominals. In HLT-                  ing with Large Output Spaces. In AISTATS.
+NAACL.
+                                                                       Schuster, M.; and Paliwal, K. 1997. Bidirectional recurrent
+Hewitt, J.; and Manning, C. D. 2019. A Structural Probe for            neural networks. IEEE Trans. Signal Process. 45: 2673–
+Finding Syntax in Word Representations. In NAACL-HLT.                  2681.
+Hochreiter, S.; and Schmidhuber, J. 1997. Long Short-Term              Shi, P.; and Lin, J. 2019. Simple BERT Models for Re-
+Memory. Neural Computation 9: 1735–1780.                               lation Extraction and Semantic Role Labeling. ArXiv
+Jia, R.; Wong, C.; and Poon, H. 2019. Document-Level N-ary             abs/1904.05255.
+Relation Extraction with Multiscale Representation Learning.           Soares, L. B.; FitzGerald, N.; Ling, J.; and Kwiatkowski, T.
+In NAACL-HLT.                                                          2019. Matching the Blanks: Distributional Similarity for
+Khandelwal, U.; He, H.; Qi, P.; and Jurafsky, D. 2018. Sharp           Relation Learning. In ACL.
+Nearby, Fuzzy Far Away: How Neural Language Models Use                 Song, L.; Zhang, Y.; Wang, Z.; and Gildea, D. 2018. N-ary
+Context. In ACL.                                                       Relation Extraction using Graph-State LSTM. In EMNLP.
+
+
+                                                               14619

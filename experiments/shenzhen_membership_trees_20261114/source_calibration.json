@@ -1,0 +1,50 @@
+{
+  "mean": {
+    "balanced": {
+      "n": 1246,
+      "correct": 886,
+      "fp": 353,
+      "fn": 222,
+      "single_correct": 867,
+      "multi_correct": 19,
+      "threshold": 0.4656128849499567,
+      "passed_single_protection": false
+    },
+    "protected": {
+      "n": 1246,
+      "correct": 961,
+      "fp": 229,
+      "fn": 288,
+      "single_correct": 960,
+      "multi_correct": 1,
+      "threshold": 0.981922803252569,
+      "passed": true,
+      "native_single": 964,
+      "floor": 958.07
+    }
+  },
+  "local": {
+    "balanced": {
+      "n": 1246,
+      "correct": 852,
+      "fp": 417,
+      "fn": 189,
+      "single_correct": 830,
+      "multi_correct": 22,
+      "threshold": 0.3224170456960272,
+      "passed_single_protection": false
+    },
+    "protected": {
+      "n": 1246,
+      "correct": 961,
+      "fp": 233,
+      "fn": 290,
+      "single_correct": 959,
+      "multi_correct": 2,
+      "threshold": 0.9676782484528077,
+      "passed": true,
+      "native_single": 964,
+      "floor": 958.07
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "output_rows_independently_replayed": 28832,
+  "source_candidate_pool_train_only": true,
+  "source_calibration_recounted": true,
+  "baseline_exactly_reproduced": true,
+  "semantic_pending_retained": 242,
+  "gold_unchanged": true,
+  "protocol_and_input_and_prediction_hashes_verified": true,
+  "limitation": "Candidate/AST provenance pins prior parser output; this is not an independent audit of every source document interpretation."
+}

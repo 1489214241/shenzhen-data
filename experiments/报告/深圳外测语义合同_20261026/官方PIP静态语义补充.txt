@@ -1,0 +1,16 @@
+官方 PIP 函数静态语义补充
+
+本补充限定“环境缓存与评价风险静态核验.txt”中的评价缺口解释。6 校均有非空 MAPDATA，既有 Shapely OGC 简单面准入检查报告自交；这不能直接推出官方服务对其没有 membership 定义。
+
+两区已存 live_map.html 第55行都引用 https://api.map.baidu.com/library/GeoUtils/1.2/src/GeoUtils_min.js 。调用点为福田第329行、南山第331行。福田 hit-test 先选 actual_boundary_overrides，原74/78计数也已应用这些 override。
+
+本地库：科研推进/深圳官方点落面语义核验_20261026/GeoUtils_min.js
+SHA256：03e4b6a1864f1d73f7fad7f35efa4e47e560678bb7faf2b7363d4fb17a4ad67b；4422字节。
+该文件由 root 在2026-10-26按已存HTML的精确版本URL新取得，本任务只读其源码和收据。与2026-10-23页面快照当时加载字节一致尚未证实。
+
+isPointInPolygon 源码先检查 BMap.Point / BMap.Polygon 类型、Bounds，再读取 getPath 并计数射线交点；末尾 j%2==0 返回false，否则返回true，另含顶点及边界分支。函数内没有 OGC is_valid、自交拒绝或几何修复检查。
+原 audit_acquired_pairs.py 第35–39行则要求至少3个唯一顶点，且 Shapely Polygon.is_valid 和 area>0。两套判定合同不同。
+
+因此“自交被原准入排除”不是“官方函数无法计算”的充分证据。其可能有按原始ring定义的算法输出，不需要先做 make_valid。但当前源码静态阅读仍不足以确认6校的现实招生语义、BMap Polygon/getPath/getBounds实际运行行为或历史字节一致性。
+
+本任务不读取/解析真实MAPDATA坐标，不执行目标PIP，不修面、不生成Gold、不把任何6校关系改成known或negative。下一步若仅做synthetic代码验证，其结论也只能限于函数算法可计算性，不能替代上述真实语义核定。

@@ -1,0 +1,40 @@
+[
+  {
+    "coordinate_group_id": "bd09:4fc1e87c4c8af6279f3453b8",
+    "representative_point_bd09": [
+      114.009404,
+      22.695252
+    ],
+    "representative_point_wgs84": [
+      113.99796300889088,
+      22.691761528258922
+    ],
+    "building_id": "fdc:sz:5591",
+    "building_name": "锦顺名居",
+    "coordinate_group_building_ids": [
+      "fdc:sz:5591"
+    ],
+    "coordinate_group_building_names": [
+      "锦顺名居"
+    ],
+    "gold_record_id": "point:bd09:4fc1e87c4c8af6279f3453b8",
+    "source_map_partition": "龙华区",
+    "label_kind": "official_map_point_membership",
+    "label_status": "outside_selected_map",
+    "predicate": "captured_official_BMapLib.GeoUtils.isPointInPolygon_offline_replay",
+    "point_school_ids": [],
+    "point_school_names": [],
+    "point_school_count": 0,
+    "point_zone_ids": [],
+    "gold_school_id": null,
+    "gold_school_name": null,
+    "on_boundary_zone_ids": [],
+    "invalid_geometry_hit_zone_ids": [],
+    "unknown_school_ids": [],
+    "complete_within_selected_roster": true,
+    "complete_within_all_official_schools": false,
+    "extra_policy_application_expanded": false,
+    "individual_enrollment_eligibility": false,
+    "base_scope_policy_review": "未完成全量基础范围空间核验；本标签仅为所选原始地图命中"
+  }
+]

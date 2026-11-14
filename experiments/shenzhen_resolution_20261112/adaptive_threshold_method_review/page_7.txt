@@ -1,0 +1,62 @@
+ John Stanistreet was an Australian politician. He wa                     However, as large amounts of relationships are expressed
+ s born in Bendigo to legal manager John Jepson Stan                   by multiple sentences (Verga, Strubell, and McCallum 2018;
+ istreet and Maud McIlroy. (… 4 sentences …) In 195                    Yao et al. 2019), recent work starts to explore document-
+ 5 John Stanistreet was elected to the Victorian Legisl                level relation extraction. Most approaches on document-level
+ ative Assembly as the Liberal and Country Party mem                   RE are based on document graphs, which were introduced
+ ber for Bendigo, but he was defeated in 1958. Stanistr                by Quirk and Poon (2017). Specifically, they use words as
+ eet died in Bendigo in 1971.                                          nodes and inner and inter-sentential dependencies (depen-
+                                                                       dency structures, coreferences, etc.) as edges. This document
+ Subject: John Stanistreet Object: Bendigo                             graph provides a unified way of extracting the features for
+ Relation: place of birth; place of death                              entity pairs. Later work extends the idea by improving neural
+                                                                       architectures (Peng et al. 2017; Verga, Strubell, and McCal-
+Figure 5: Context weights of an example from DocRED. We                lum 2018; Song et al. 2018; Jia, Wong, and Poon 2019; Gupta
+visualize the weight of context tokens a(s,o) in localized con-        et al. 2019) or adding more types of edges (Christopoulou,
+text pooling. The model attends to the most relevant context           Miwa, and Ananiadou 2019; Nan et al. 2020). In particu-
+born and died for entity pair (John Stanistreet, Bendigo).             lar, Christopoulou, Miwa, and Ananiadou (2019) constructs
+                                                                       nodes of different granularities (sentence, mention, entity),
+                                                                       connects them with heuristically generated edges, and infers
+Analysis of Context Pooling                                            the relations with an edge-oriented model (Christopoulou,
+                                                                       Miwa, and Ananiadou 2018). Nan et al. (2020) treats the doc-
+To show that our localized context pooling (LOP) technique             ument graph as a latent variable and induces it by structured
+mitigates the multi-entity issue, we divide the documents              attention (Liu and Lapata 2018). This work also proposes
+in the development set of DocRED into different groups by              a refinement mechanism to enable multi-hop information
+the number of entities, and evaluate models trained with or            aggregation from the whole document. Their LSR model
+without localized context pooling on each group. Experi-               achieved state-of-the-art performance on document-level RE.
+ment results are shown in Figure 4. We observe that for both              There have also been models that directly apply pre-trained
+models, their performance gets worse when the document                 language models without introducing document graphs, since
+contains more entities. The model w/ LOP consistently out-             edges such as dependency structures and coreferences can be
+performs the model w/o LOP except when the document                    automatically learned by pre-trained language models (Clark
+contains very few entities (1 to 5), and the improvement gets          et al. 2019; Tenney, Das, and Pavlick 2019; Vig and Belinkov
+larger when the number of entities increases. However, the             2019; Hewitt and Manning 2019). In particular, Wang et al.
+number of documents that only contain 1 to 5 entities is very          (2019a) proposes a pipeline model that first predicts whether
+small (4 in the dev set), and the documents in DocRED con-             a relationship exists in an entity pair and then predicts the
+tain 19 entities on average. Therefore our localized context           specific relation types. Tang et al. (2020a) proposes a hierar-
+pooling still improves the overall F1 score significantly. This        chical model that aggregates entity information from the en-
+indicates that the localized context pooling technique can             tity level, sentence level, and document level. Ye et al. (2020)
+capture related context for entity pairs and thus alleviates the       introduces a copy-based training objective to pre-training,
+multi-entity problem.                                                  which enhances the model’s ability in capturing coreferential
+   We also visualize the context weights of the example in             information and brings noticeable gain on various NLP tasks
+Figure 1. As shown in Figure 5, our localized context pooling          that require coreferential reasoning.
+gives high weights to born and died, which are most relevant              However, none of the models focus on the multi-entity and
+to both entities (John Stanistreet, Bendigo). These two tokens         multi-label problems, which are among the key differences of
+are also evidence for the two ground truth relationships place         document-level RE to its sentence-level RE counterpart. Our
+of birth and place of death, respectively. Tokens like elected         ATLOP model deals with the two problems by two novel tech-
+and politician get much smaller weights because they are               niques: adaptive thresholding and localized context pooling,
+only related to the subject entity John Stanistreet. The visual-       and significantly outperforms existing models.
+ization demonstrates that the localized context can locate the
+context that is related to both entities.                                                      Conclusion
+                                                                       In this work, we propose the ATLOP model for document-
+                      Related Work                                     level relation extraction, which features two novel techniques:
+Early research efforts on relation extraction concentrate on           adaptive thresholding and localized context pooling. The
+predicting the relationship between two entities within a sen-         adaptive thresholding technique replaces the global threshold
+tence. Various approaches including sequence-based meth-               in multi-label classification with a learnable threshold class
+ods (Zeng et al. 2014; Wang et al. 2016; Zhang et al. 2017),           that can decide the best threshold for each entity pair. The lo-
+graph-based methods (Miwa and Bansal 2016; Zhang, Qi,                  calized context pooling utilizes pre-trained attention heads to
+and Manning 2018; Guo, Zhang, and Lu 2019; Wu et al.                   locate relevant context for entity pairs and thus helps in alle-
+2019a), transformer-based methods (Alt, Hübner, and Hennig            viating the multi-entity problem. Experiments on three public
+2019; Shi and Lin 2019), and pre-training methods (Zhang               document-level relation extraction datasets demonstrate that
+et al. 2019; Soares et al. 2019) have been shown effective in          our ATLOP model significantly outperforms existing models
+tackling this problem.                                                 and yields the new state-of-the-art results on all datasets.
+
+
+                                                               14618

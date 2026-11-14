@@ -1,0 +1,64 @@
+{
+  "round": 8,
+  "date": "2026-11-12",
+  "sources": [
+    "天心区",
+    "芙蓉区",
+    "雨花区",
+    "开福区",
+    "拱墅区",
+    "萧山区",
+    "富阳区",
+    "临安区"
+  ],
+  "targets": [
+    "龙华区",
+    "龙岗区"
+  ],
+  "seeds": [
+    20261131,
+    20261132,
+    20261133,
+    20261134,
+    20261135,
+    20261136,
+    20261137,
+    20261138,
+    20261139,
+    20261140
+  ],
+  "arms": [
+    "continued_rank",
+    "new_references",
+    "new_references_labels"
+  ],
+  "objectives": [
+    "micro_exact",
+    "balanced_exact"
+  ],
+  "steps": 40,
+  "lr": 0.003,
+  "reg": 0.01,
+  "width": 32,
+  "chunk": 64,
+  "ranking_coefficient": 1.0,
+  "initialization": "Same round06 balanced_rank checkpoint per seed, fresh Adam, preserve regularization anchor.",
+  "rationale": "Community facts improved direct output by less than1pp; test whether wider reference coverage improves predictions beyond those direct additions.",
+  "continued_rank": "Old reference inputs and original partial labels, matched40extra steps.",
+  "new_references": "New source-positive reference bank, original partial labels, same40steps.",
+  "new_references_labels": "Same new reference bank plus newly observed positive target cells, all other target cells unknown.",
+  "source_weights": "Frozen source complete-single/multi50/50 mass, source row weights identical across arms; original global group denominator retained.",
+  "target_weights": "Each target property keeps original per-group weight; extra positive-only groups add partial BCE mass. No target ranking or negatives.",
+  "features": "41pair/27school; old anchor features retained; new partial refs excluded from learned negative boundary labels, self-property references masked.",
+  "decoder": "Original round03 known positives and graph, same predict_sets; then identical round07 direct positive union for ALL arms. No new-fact transitive expansion.",
+  "threshold": "All source holdout probability breakpoints, source-only micro and balanced exact calibration; same1246source validation rows.",
+  "comparison": "Both matched continued_rank and frozen round07 balanced_rank,10seeds plus ensemble;1761originalscored,41unscored.",
+  "parent_choice": "Previously developed balanced_rank candidate, target scores already seen; explicitly a development experiment, not independent model selection.",
+  "target_gold_read": false,
+  "target_polygons_read": false,
+  "target_cardinality_used": false,
+  "independent_validation": false,
+  "adopted": false,
+  "partial_sets_are_not_complete": true,
+  "adoption": "Requires independent confirmation and district/multi/FP/FN/harm review; no automatic adoption."
+}

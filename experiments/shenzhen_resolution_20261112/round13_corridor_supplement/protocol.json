@@ -1,0 +1,39 @@
+{
+  "arms": [
+    "round07",
+    "round12"
+  ],
+  "objectives": [
+    "micro_exact",
+    "balanced_exact"
+  ],
+  "labels": [
+    "ensemble",
+    "20261131",
+    "20261132",
+    "20261133",
+    "20261134",
+    "20261135",
+    "20261136",
+    "20261137",
+    "20261138",
+    "20261139",
+    "20261140"
+  ],
+  "intervention": "Union only11independent road-corridor positive estimates, without transitive policy expansion.",
+  "radii_m": [
+    10,
+    25,
+    50
+  ],
+  "boundary_margin_m": 50,
+  "source_estimates_are_not_confirmed_enrollment": true,
+  "training_steps": 0,
+  "changed_model_inputs": false,
+  "thresholds_unchanged": true,
+  "target_gold_read": false,
+  "target_polygon_read": false,
+  "independent_validation": false,
+  "adopted": false,
+  "comparators": "Frozen best-development round07 and latest cumulative input repair round12; both declared before scoring."
+}

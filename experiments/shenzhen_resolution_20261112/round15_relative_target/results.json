@@ -1,0 +1,764 @@
+{
+  "reports": {
+    "micro_exact": {
+      "all": {
+        "metrics": {
+          "absolute_control": {
+            "n": 1761,
+            "correct": 833,
+            "exact_accuracy": 0.4730266893810335,
+            "fp": 688,
+            "fn": 1311
+          },
+          "relative_candidate": {
+            "n": 1761,
+            "correct": 833,
+            "exact_accuracy": 0.4730266893810335,
+            "fp": 688,
+            "fn": 1311
+          },
+          "native_latest": {
+            "n": 1761,
+            "correct": 928,
+            "exact_accuracy": 0.5269733106189665,
+            "fp": 591,
+            "fn": 1184
+          },
+          "best_development": {
+            "n": 1761,
+            "correct": 945,
+            "exact_accuracy": 0.5366269165247018,
+            "fp": 608,
+            "fn": 1158
+          },
+          "raw_model_set": {
+            "n": 1761,
+            "correct": 568,
+            "exact_accuracy": 0.3225440090857467,
+            "fp": 436,
+            "fn": 1912
+          },
+          "before_corridor": {
+            "n": 1761,
+            "correct": 833,
+            "exact_accuracy": 0.4730266893810335,
+            "fp": 688,
+            "fn": 1322
+          }
+        },
+        "comparisons": {
+          "absolute_control": {
+            "corrected": 0,
+            "harmed": 0,
+            "delta_pp": 0.0,
+            "delta_95_pp": [
+              0.0,
+              0.0
+            ]
+          },
+          "native_latest": {
+            "corrected": 66,
+            "harmed": 161,
+            "delta_pp": -5.3946621237932995,
+            "delta_95_pp": [
+              -7.601215941620176,
+              -2.9840174095513943
+            ]
+          },
+          "best_development": {
+            "corrected": 66,
+            "harmed": 178,
+            "delta_pp": -6.360022714366837,
+            "delta_95_pp": [
+              -8.779402345289713,
+              -3.774653211491684
+            ]
+          }
+        }
+      },
+      "龙华区": {
+        "metrics": {
+          "absolute_control": {
+            "n": 627,
+            "correct": 299,
+            "exact_accuracy": 0.4768740031897927,
+            "fp": 359,
+            "fn": 569
+          },
+          "relative_candidate": {
+            "n": 627,
+            "correct": 299,
+            "exact_accuracy": 0.4768740031897927,
+            "fp": 359,
+            "fn": 569
+          },
+          "native_latest": {
+            "n": 627,
+            "correct": 320,
+            "exact_accuracy": 0.5103668261562998,
+            "fp": 316,
+            "fn": 531
+          },
+          "best_development": {
+            "n": 627,
+            "correct": 319,
+            "exact_accuracy": 0.5087719298245614,
+            "fp": 336,
+            "fn": 527
+          },
+          "raw_model_set": {
+            "n": 627,
+            "correct": 148,
+            "exact_accuracy": 0.23604465709728867,
+            "fp": 186,
+            "fn": 854
+          },
+          "before_corridor": {
+            "n": 627,
+            "correct": 299,
+            "exact_accuracy": 0.4768740031897927,
+            "fp": 359,
+            "fn": 569
+          }
+        },
+        "comparisons": {
+          "absolute_control": {
+            "corrected": 0,
+            "harmed": 0,
+            "delta_pp": 0.0,
+            "delta_95_pp": [
+              0.0,
+              0.0
+            ]
+          },
+          "native_latest": {
+            "corrected": 37,
+            "harmed": 58,
+            "delta_pp": -3.349282296650718,
+            "delta_95_pp": [
+              -7.741971167570654,
+              1.4903927543592372
+            ]
+          },
+          "best_development": {
+            "corrected": 36,
+            "harmed": 56,
+            "delta_pp": -3.1897926634768736,
+            "delta_95_pp": [
+              -7.816016570215897,
+              1.9523306506885614
+            ]
+          }
+        }
+      },
+      "龙岗区": {
+        "metrics": {
+          "absolute_control": {
+            "n": 1134,
+            "correct": 534,
+            "exact_accuracy": 0.4708994708994709,
+            "fp": 329,
+            "fn": 742
+          },
+          "relative_candidate": {
+            "n": 1134,
+            "correct": 534,
+            "exact_accuracy": 0.4708994708994709,
+            "fp": 329,
+            "fn": 742
+          },
+          "native_latest": {
+            "n": 1134,
+            "correct": 608,
+            "exact_accuracy": 0.5361552028218695,
+            "fp": 275,
+            "fn": 653
+          },
+          "best_development": {
+            "n": 1134,
+            "correct": 626,
+            "exact_accuracy": 0.5520282186948854,
+            "fp": 272,
+            "fn": 631
+          },
+          "raw_model_set": {
+            "n": 1134,
+            "correct": 420,
+            "exact_accuracy": 0.37037037037037035,
+            "fp": 250,
+            "fn": 1058
+          },
+          "before_corridor": {
+            "n": 1134,
+            "correct": 534,
+            "exact_accuracy": 0.4708994708994709,
+            "fp": 329,
+            "fn": 753
+          }
+        },
+        "comparisons": {
+          "absolute_control": {
+            "corrected": 0,
+            "harmed": 0,
+            "delta_pp": 0.0,
+            "delta_95_pp": [
+              0.0,
+              0.0
+            ]
+          },
+          "native_latest": {
+            "corrected": 29,
+            "harmed": 103,
+            "delta_pp": -6.525573192239858,
+            "delta_95_pp": [
+              -9.056056477090406,
+              -4.052632344955579
+            ]
+          },
+          "best_development": {
+            "corrected": 30,
+            "harmed": 122,
+            "delta_pp": -8.112874779541446,
+            "delta_95_pp": [
+              -10.974742066613548,
+              -5.372107924934326
+            ]
+          }
+        }
+      },
+      "single": {
+        "metrics": {
+          "absolute_control": {
+            "n": 803,
+            "correct": 562,
+            "exact_accuracy": 0.6998754669987547,
+            "fp": 325,
+            "fn": 217
+          },
+          "relative_candidate": {
+            "n": 803,
+            "correct": 562,
+            "exact_accuracy": 0.6998754669987547,
+            "fp": 325,
+            "fn": 217
+          },
+          "native_latest": {
+            "n": 803,
+            "correct": 609,
+            "exact_accuracy": 0.7584059775840598,
+            "fp": 260,
+            "fn": 171
+          },
+          "best_development": {
+            "n": 803,
+            "correct": 619,
+            "exact_accuracy": 0.7708592777085927,
+            "fp": 256,
+            "fn": 155
+          },
+          "raw_model_set": {
+            "n": 803,
+            "correct": 566,
+            "exact_accuracy": 0.7048567870485679,
+            "fp": 237,
+            "fn": 237
+          },
+          "before_corridor": {
+            "n": 803,
+            "correct": 562,
+            "exact_accuracy": 0.6998754669987547,
+            "fp": 325,
+            "fn": 217
+          }
+        },
+        "comparisons": {
+          "absolute_control": {
+            "corrected": 0,
+            "harmed": 0,
+            "delta_pp": 0.0,
+            "delta_95_pp": [
+              0.0,
+              0.0
+            ]
+          },
+          "native_latest": {
+            "corrected": 41,
+            "harmed": 88,
+            "delta_pp": -5.85305105853051,
+            "delta_95_pp": [
+              -9.244867929254008,
+              -2.488078044813371
+            ]
+          },
+          "best_development": {
+            "corrected": 35,
+            "harmed": 92,
+            "delta_pp": -7.0983810709838115,
+            "delta_95_pp": [
+              -10.761304988289654,
+              -3.724557877929973
+            ]
+          }
+        }
+      },
+      "multi": {
+        "metrics": {
+          "absolute_control": {
+            "n": 958,
+            "correct": 271,
+            "exact_accuracy": 0.2828810020876827,
+            "fp": 363,
+            "fn": 1094
+          },
+          "relative_candidate": {
+            "n": 958,
+            "correct": 271,
+            "exact_accuracy": 0.2828810020876827,
+            "fp": 363,
+            "fn": 1094
+          },
+          "native_latest": {
+            "n": 958,
+            "correct": 319,
+            "exact_accuracy": 0.33298538622129437,
+            "fp": 331,
+            "fn": 1013
+          },
+          "best_development": {
+            "n": 958,
+            "correct": 326,
+            "exact_accuracy": 0.34029227557411273,
+            "fp": 352,
+            "fn": 1003
+          },
+          "raw_model_set": {
+            "n": 958,
+            "correct": 2,
+            "exact_accuracy": 0.0020876826722338203,
+            "fp": 199,
+            "fn": 1675
+          },
+          "before_corridor": {
+            "n": 958,
+            "correct": 271,
+            "exact_accuracy": 0.2828810020876827,
+            "fp": 363,
+            "fn": 1105
+          }
+        },
+        "comparisons": {
+          "absolute_control": {
+            "corrected": 0,
+            "harmed": 0,
+            "delta_pp": 0.0,
+            "delta_95_pp": [
+              0.0,
+              0.0
+            ]
+          },
+          "native_latest": {
+            "corrected": 25,
+            "harmed": 73,
+            "delta_pp": -5.010438413361169,
+            "delta_95_pp": [
+              -8.245633370636067,
+              -1.7626192559155591
+            ]
+          },
+          "best_development": {
+            "corrected": 31,
+            "harmed": 86,
+            "delta_pp": -5.741127348643007,
+            "delta_95_pp": [
+              -9.288815499879744,
+              -2.2057903491727022
+            ]
+          }
+        }
+      }
+    },
+    "balanced_exact": {
+      "all": {
+        "metrics": {
+          "absolute_control": {
+            "n": 1761,
+            "correct": 849,
+            "exact_accuracy": 0.48211243611584326,
+            "fp": 891,
+            "fn": 1119
+          },
+          "relative_candidate": {
+            "n": 1761,
+            "correct": 834,
+            "exact_accuracy": 0.4735945485519591,
+            "fp": 896,
+            "fn": 1139
+          },
+          "native_latest": {
+            "n": 1761,
+            "correct": 929,
+            "exact_accuracy": 0.5275411697898921,
+            "fp": 598,
+            "fn": 1173
+          },
+          "best_development": {
+            "n": 1761,
+            "correct": 946,
+            "exact_accuracy": 0.5371947756956275,
+            "fp": 617,
+            "fn": 1143
+          },
+          "raw_model_set": {
+            "n": 1761,
+            "correct": 705,
+            "exact_accuracy": 0.40034071550255534,
+            "fp": 653,
+            "fn": 1416
+          },
+          "before_corridor": {
+            "n": 1761,
+            "correct": 834,
+            "exact_accuracy": 0.4735945485519591,
+            "fp": 896,
+            "fn": 1150
+          }
+        },
+        "comparisons": {
+          "absolute_control": {
+            "corrected": 35,
+            "harmed": 50,
+            "delta_pp": -0.8517887563884157,
+            "delta_95_pp": [
+              -2.154845349780383,
+              0.41544256833497484
+            ]
+          },
+          "native_latest": {
+            "corrected": 84,
+            "harmed": 179,
+            "delta_pp": -5.3946621237932995,
+            "delta_95_pp": [
+              -8.06117821119595,
+              -2.5293153761805383
+            ]
+          },
+          "best_development": {
+            "corrected": 82,
+            "harmed": 194,
+            "delta_pp": -6.360022714366837,
+            "delta_95_pp": [
+              -9.31818537153903,
+              -3.393473761122328
+            ]
+          }
+        }
+      },
+      "龙华区": {
+        "metrics": {
+          "absolute_control": {
+            "n": 627,
+            "correct": 312,
+            "exact_accuracy": 0.49760765550239233,
+            "fp": 396,
+            "fn": 496
+          },
+          "relative_candidate": {
+            "n": 627,
+            "correct": 299,
+            "exact_accuracy": 0.4768740031897927,
+            "fp": 435,
+            "fn": 494
+          },
+          "native_latest": {
+            "n": 627,
+            "correct": 322,
+            "exact_accuracy": 0.5135566188197768,
+            "fp": 317,
+            "fn": 524
+          },
+          "best_development": {
+            "n": 627,
+            "correct": 323,
+            "exact_accuracy": 0.5151515151515151,
+            "fp": 337,
+            "fn": 518
+          },
+          "raw_model_set": {
+            "n": 627,
+            "correct": 200,
+            "exact_accuracy": 0.3189792663476874,
+            "fp": 248,
+            "fn": 671
+          },
+          "before_corridor": {
+            "n": 627,
+            "correct": 299,
+            "exact_accuracy": 0.4768740031897927,
+            "fp": 435,
+            "fn": 494
+          }
+        },
+        "comparisons": {
+          "absolute_control": {
+            "corrected": 4,
+            "harmed": 17,
+            "delta_pp": -2.073365231259968,
+            "delta_95_pp": [
+              -3.780204234284042,
+              -0.32886700668609603
+            ]
+          },
+          "native_latest": {
+            "corrected": 41,
+            "harmed": 64,
+            "delta_pp": -3.6682615629984054,
+            "delta_95_pp": [
+              -8.736813568601027,
+              2.069324712643679
+            ]
+          },
+          "best_development": {
+            "corrected": 38,
+            "harmed": 62,
+            "delta_pp": -3.827751196172249,
+            "delta_95_pp": [
+              -8.997845685940838,
+              1.8304675973938287
+            ]
+          }
+        }
+      },
+      "龙岗区": {
+        "metrics": {
+          "absolute_control": {
+            "n": 1134,
+            "correct": 537,
+            "exact_accuracy": 0.47354497354497355,
+            "fp": 495,
+            "fn": 623
+          },
+          "relative_candidate": {
+            "n": 1134,
+            "correct": 535,
+            "exact_accuracy": 0.47178130511463845,
+            "fp": 461,
+            "fn": 645
+          },
+          "native_latest": {
+            "n": 1134,
+            "correct": 607,
+            "exact_accuracy": 0.5352733686067019,
+            "fp": 281,
+            "fn": 649
+          },
+          "best_development": {
+            "n": 1134,
+            "correct": 623,
+            "exact_accuracy": 0.5493827160493827,
+            "fp": 280,
+            "fn": 625
+          },
+          "raw_model_set": {
+            "n": 1134,
+            "correct": 505,
+            "exact_accuracy": 0.445326278659612,
+            "fp": 405,
+            "fn": 745
+          },
+          "before_corridor": {
+            "n": 1134,
+            "correct": 535,
+            "exact_accuracy": 0.47178130511463845,
+            "fp": 461,
+            "fn": 656
+          }
+        },
+        "comparisons": {
+          "absolute_control": {
+            "corrected": 31,
+            "harmed": 33,
+            "delta_pp": -0.1763668430335097,
+            "delta_95_pp": [
+              -1.973259226415315,
+              1.6239507175737882
+            ]
+          },
+          "native_latest": {
+            "corrected": 43,
+            "harmed": 115,
+            "delta_pp": -6.349206349206349,
+            "delta_95_pp": [
+              -9.421021140805744,
+              -3.2389326750229395
+            ]
+          },
+          "best_development": {
+            "corrected": 44,
+            "harmed": 132,
+            "delta_pp": -7.760141093474426,
+            "delta_95_pp": [
+              -11.207076315873573,
+              -4.479433237994879
+            ]
+          }
+        }
+      },
+      "single": {
+        "metrics": {
+          "absolute_control": {
+            "n": 803,
+            "correct": 524,
+            "exact_accuracy": 0.6525529265255293,
+            "fp": 395,
+            "fn": 201
+          },
+          "relative_candidate": {
+            "n": 803,
+            "correct": 530,
+            "exact_accuracy": 0.660024906600249,
+            "fp": 400,
+            "fn": 195
+          },
+          "native_latest": {
+            "n": 803,
+            "correct": 608,
+            "exact_accuracy": 0.7571606475716065,
+            "fp": 262,
+            "fn": 169
+          },
+          "best_development": {
+            "n": 803,
+            "correct": 616,
+            "exact_accuracy": 0.7671232876712328,
+            "fp": 262,
+            "fn": 153
+          },
+          "raw_model_set": {
+            "n": 803,
+            "correct": 533,
+            "exact_accuracy": 0.663760896637609,
+            "fp": 313,
+            "fn": 209
+          },
+          "before_corridor": {
+            "n": 803,
+            "correct": 530,
+            "exact_accuracy": 0.660024906600249,
+            "fp": 400,
+            "fn": 195
+          }
+        },
+        "comparisons": {
+          "absolute_control": {
+            "corrected": 20,
+            "harmed": 14,
+            "delta_pp": 0.7471980074719801,
+            "delta_95_pp": [
+              -1.0716334104492,
+              2.736489001377155
+            ]
+          },
+          "native_latest": {
+            "corrected": 38,
+            "harmed": 116,
+            "delta_pp": -9.71357409713574,
+            "delta_95_pp": [
+              -14.175075618584815,
+              -5.367955373342474
+            ]
+          },
+          "best_development": {
+            "corrected": 32,
+            "harmed": 118,
+            "delta_pp": -10.709838107098381,
+            "delta_95_pp": [
+              -15.454036109798983,
+              -6.476579137112866
+            ]
+          }
+        }
+      },
+      "multi": {
+        "metrics": {
+          "absolute_control": {
+            "n": 958,
+            "correct": 325,
+            "exact_accuracy": 0.33924843423799583,
+            "fp": 496,
+            "fn": 918
+          },
+          "relative_candidate": {
+            "n": 958,
+            "correct": 304,
+            "exact_accuracy": 0.3173277661795407,
+            "fp": 496,
+            "fn": 944
+          },
+          "native_latest": {
+            "n": 958,
+            "correct": 321,
+            "exact_accuracy": 0.33507306889352817,
+            "fp": 336,
+            "fn": 1004
+          },
+          "best_development": {
+            "n": 958,
+            "correct": 330,
+            "exact_accuracy": 0.3444676409185804,
+            "fp": 355,
+            "fn": 990
+          },
+          "raw_model_set": {
+            "n": 958,
+            "correct": 172,
+            "exact_accuracy": 0.17954070981210857,
+            "fp": 340,
+            "fn": 1207
+          },
+          "before_corridor": {
+            "n": 958,
+            "correct": 304,
+            "exact_accuracy": 0.3173277661795407,
+            "fp": 496,
+            "fn": 955
+          }
+        },
+        "comparisons": {
+          "absolute_control": {
+            "corrected": 15,
+            "harmed": 36,
+            "delta_pp": -2.1920668058455117,
+            "delta_95_pp": [
+              -4.042713467163521,
+              -0.4023043735047095
+            ]
+          },
+          "native_latest": {
+            "corrected": 46,
+            "harmed": 63,
+            "delta_pp": -1.7745302713987474,
+            "delta_95_pp": [
+              -5.550603541954242,
+              1.870454286807992
+            ]
+          },
+          "best_development": {
+            "corrected": 50,
+            "harmed": 76,
+            "delta_pp": -2.7139874739039667,
+            "delta_95_pp": [
+              -6.765947589591001,
+              1.1391839966520998
+            ]
+          }
+        }
+      }
+    }
+  },
+  "independent_validation": false,
+  "adopted": false,
+  "scored": 1761,
+  "unscored": 41,
+  "gold_hashes_verified": true,
+  "predictions_frozen_before_scoring": true
+}

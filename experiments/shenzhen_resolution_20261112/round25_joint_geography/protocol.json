@@ -1,0 +1,42 @@
+{
+  "round": 25,
+  "arms": [
+    "round07",
+    "round12"
+  ],
+  "objectives": [
+    "micro_exact",
+    "balanced_exact"
+  ],
+  "labels": [
+    "ensemble",
+    "20261131",
+    "20261132",
+    "20261133",
+    "20261134",
+    "20261135",
+    "20261136",
+    "20261137",
+    "20261138",
+    "20261139",
+    "20261140"
+  ],
+  "hypothesis": "Combine dated exact community membership with the unchanged Changsha finite-road predicate.",
+  "intervention": "Union all newly derived geographic estimates with both round20 comparator outputs; no new transitive closure.",
+  "complete_source_population": "229 eligible property-community facts, both districts, all202 school scopes; no error-selected source subset.",
+  "primary_comparator": "round20 round07 branch, best previous development candidate",
+  "secondary_comparator": "round20 round12 parser-repair branch",
+  "geographic_estimate": true,
+  "official_catchment_used_as_input": false,
+  "enrollment_eligibility": false,
+  "complete_school_set": false,
+  "training_steps": 0,
+  "model_probabilities_unchanged": true,
+  "model_references_unchanged": true,
+  "thresholds_unchanged": true,
+  "target_gold_read": false,
+  "target_polygons_read": false,
+  "unknown_conditions_remain_unknown": true,
+  "independent_validation": false,
+  "adopted": false
+}

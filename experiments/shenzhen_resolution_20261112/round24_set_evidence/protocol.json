@@ -1,0 +1,66 @@
+{
+  "sources": [
+    "天心区",
+    "芙蓉区",
+    "雨花区",
+    "开福区",
+    "拱墅区",
+    "萧山区",
+    "富阳区",
+    "临安区"
+  ],
+  "targets": [
+    "龙华区",
+    "龙岗区"
+  ],
+  "seeds": [
+    20261131,
+    20261132,
+    20261133,
+    20261134,
+    20261135,
+    20261136,
+    20261137,
+    20261138,
+    20261139,
+    20261140
+  ],
+  "steps": 40,
+  "lr": 0.003,
+  "reg": 0.01,
+  "width": 32,
+  "embedding_width": 16,
+  "chunk": 64,
+  "ranking_coefficient": 1.0,
+  "arms": [
+    "scalar_control",
+    "vector_residual"
+  ],
+  "primary_decoder": "relative",
+  "primary_objective": "balanced_exact",
+  "source_gate": {
+    "min_multi_correct": 8,
+    "min_single_correct": 901,
+    "min_attainable_multi": 18,
+    "objective": "balanced_exact",
+    "purpose": "Only determines whether to proceed to a separately frozen target test."
+  },
+  "reference_bank": "round16 all_multi_training, identical in both arms",
+  "parent": "Same round06 balanced_rank checkpoint per seed; fresh Adam.",
+  "control": "Reuse round18 full_reference_control, identical to round16 all_multi_training; replay separately.",
+  "intervention": "Add a zero-output-initialized residual: phi(existing74d pair-school-context) ->16d, weighted school means plus masses at100/300/1000m, rho with existing33d anchor-context.",
+  "parameter_matching": false,
+  "comparison": "Same input and optimization steps, additional representation capacity; not equal FLOPs or equal parameter count.",
+  "pooling": "Original property mass retained; self-property mask retained; no cross-school normalization in new branch. Empty support has zero vector and zero observed mass, not a negative label.",
+  "loss": "Unchanged masked BCE+LSEP, identical complete-source and positive-only target supervision and weights.",
+  "source_selection": "Relative decoder must pass original source gate AND balanced_exact >= scalar_control_relative. Absolute decoder secondary only, no fallback.",
+  "stress": "Two original held-out source support partitions, no training or recalibration on them. Report with full-source selected threshold.",
+  "validation": "Original1246source development rows,1186single and60multi. Reused labels, not independent confirmation.",
+  "no_target_gold": true,
+  "no_target_polygon": true,
+  "no_target_cardinality": true,
+  "target_predictions_generated": false,
+  "independent_validation": false,
+  "adopted": false,
+  "research": "Deep Sets, NeurIPS2017 main paper and appendix A-I read. Use conditioned invariant representation, not theorem-based guarantee or paper benchmark reproduction."
+}

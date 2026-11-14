@@ -1,0 +1,614 @@
+                                      The Thirty-Fifth AAAI Conference on Artificial Intelligence (AAAI-21)
+
+
+
+
+  Document-Level Relation Extraction with Adaptive Thresholding and Localized
+                               Context Pooling
+                              Wenxuan Zhou,1 * Kevin Huang,2 Tengyu Ma,3† Jing Huang 2
+                      1
+                          Department of Computer Science, University of Southern California, Los Angeles, CA
+                                                 2
+                                                   JD AI Research, Mountain View, CA
+                                 3
+                                   Department of Computer Science, Stanford University, Stanford, CA
+                           zhouwenx@usc.edu, {kevin.huang, jing.huang}@jd.com, tengyuma@stanford.edu
+
+
+
+
+                              Abstract                                          John Stanistreet was an Australian politician. He was
+  Document-level relation extraction (RE) poses new challenges                  born in Bendigo to legal manager John Jepson
+  compared to its sentence-level counterpart. One document                      Stanistreet and Maud McIlroy. (…4 sentences…) In 1955
+  commonly contains multiple entity pairs, and one entity pair
+  occurs multiple times in the document associated with multiple                John Stanistreet was elected to the Victorian Legislative
+  possible relations. In this paper, we propose two novel tech-
+                                                                                Assembly as the Liberal and Country Party member for
+  niques, adaptive thresholding and localized context pooling, to
+  solve the multi-label and multi-entity problems. The adaptive                 Bendigo. Stanistreet died in Bendigo in 1971.
+  thresholding replaces the global threshold for multi-label clas-
+  sification in the prior work with a learnable entities-dependent              Subject: John Stanistreet     Object: Bendigo
+  threshold. The localized context pooling directly transfers at-
+  tention from pre-trained language models to locate relevant                   Relation: place of birth; place of death
+  context that is useful to decide the relation. We experiment on
+  three document-level RE benchmark datasets: DocRED, a re-                  Figure 1: An example of multi-entity and multi-label
+  cently released large-scale RE dataset, and two datasets CDR               problems from the DocRED dataset. Subject entity John
+  and GDA in the biomedical domain. Our ATLOP (Adaptive                      Stanistreet (in orange) and object entity Bendigo (in green)
+  Thresholding and Localized cOntext Pooling) model achieves                 express relations place of birth and place of death. The re-
+  an F1 score of 63.4, and also significantly outperforms ex-                lated entity mentions are connected by lines. Other entities
+  isting models on both CDR and GDA. We have released our                    in the document are highlighted in grey.
+  code at https://github.com/wzhouad/ATLOP.
+
+
+                           Introduction                                         Compared to sentence-level RE, document-level RE poses
+Relation extraction (RE) aims to identify the relationship                   unique challenges. For sentence-level RE datasets such as
+between two entities in a given text and plays an impor-                     TACRED (Zhang et al. 2017) and SemEval 2010 Task 8 (Hen-
+tant role in information extraction. Existing work mainly                    drickx et al. 2009), a sentence only contains one entity pair
+focuses on sentence-level relation extraction, i.e., predicting              to classify. On the other hand, for document-level RE, one
+the relationship between entities in a single sentence (Zeng                 document contains multiple entity pairs, and we need to clas-
+et al. 2014; Miwa and Bansal 2016; Zhang, Qi, and Man-                       sify the relations of them all at once. It requires the RE model
+ning 2018). However, large amounts of relationships, such                    to identify and focus on the part of the document with rel-
+as relational facts from Wikipedia articles and biomedical                   evant context for a particular entity pair. In addition, one
+literature, are expressed by multiple sentences in real-world                entity pair can occur many times in the document associated
+applications (Verga, Strubell, and McCallum 2018; Yao et al.                 with distinct relations for document-level RE, in contrast
+2019). This problem, commonly referred to as document-                       to one relation per entity pair for sentence-level RE. This
+level relation extraction, necessitates models that can capture              multi-entity (multiple entity pairs to classify in a document)
+complex interactions among entities in the whole document.                   and multi-label (multiple relation types for a particular entity
+   * This work was conducted while the first author was doing an
+                                                                             pair) properties of document-level relation extraction make
+                                                                             it harder than its sentence-level counterpart. Figure 1 shows
+internship at JD AI Research.
+    †
+      TM is also partially supported by the Google Faculty Award,
+                                                                             an example from the DocRED dataset (Yao et al. 2019). The
+JD.com, Stanford Data Science Initiative, and the Stanford Artificial        task is to classify the relation types of pairs of entities (high-
+Intelligence Laboratory.                                                     lighted in color). For a particular entity pair (John Stanistreet,
+Copyright © 2021, Association for the Advancement of Artificial              Bendigo), it expresses two relations place of birth and place
+Intelligence (www.aaai.org). All rights reserved.                            of death by the first two sentences and the last sentence. Other
+
+
+                                                                     14612
+sentences contain irrelevant information to this entity pair.          model significantly outperforms the state-of-the-art methods.
+    To tackle the multi-entity problem, most current ap-               The contributions of our work are summarized as follows:
+proaches construct a document graph with dependency struc-             • We propose adaptive-thresholding loss, which enables the
+tures, heuristics, or structured attention (Peng et al. 2017;            learning of an adaptive threshold that is dependent on entity
+Liu and Lapata 2018; Christopoulou, Miwa, and Ananiadou                  pairs and reduces the decision errors caused by using a
+2019; Nan et al. 2020), and then perform inference with graph            global threshold.
+neural models (Liang et al. 2016; Guo, Zhang, and Lu 2019).
+The constructed graphs bridge entities that spread far apart in        • We propose localized context pooling, which transfers pre-
+the document and thus alleviate the deficiency of RNN-based              trained attention to grab related context for entity pairs to
+encoders (Hochreiter and Schmidhuber 1997; Chung et al.                  get better entity representations.
+2014) in capturing long-distance information (Khandelwal               • We conduct experiments on three public document-level
+et al. 2018). However, as transformer-based models (Vaswani              relation extraction datasets. Experimental results demon-
+et al. 2017) can implicitly model long-distance dependen-                strate the effectiveness of our ATLOP model that achieves
+cies (Clark et al. 2019; Tenney, Das, and Pavlick 2019), it              state-of-the-art performance on three benchmark datasets.
+is unclear whether graph structures still help on top of pre-
+trained language models such as BERT (Devlin et al. 2019).                               Problem Formulation
+There have also been approaches to directly apply pre-trained          Given a document d and a set of entities {ei }ni=1 , the task
+language models without introducing graph structures (Wang             of document-level relation extraction is to predict a sub-
+et al. 2019a; Tang et al. 2020a). They simply average the em-          set of relations from R ∪ {NA} between the entity pairs
+bedding of entity tokens to obtain the entity embeddings and           (es , eo )s, o=1...n; s6=o , where R is a pre-defined set of rela-
+feed them into the classifier to get relation labels. However,         tions of interest, es , eo are identified as subject and object
+each entity has the same representation in different entity            entities, respectively. An entity ei can occur multiple times in
+pairs, which can bring noise from irrelevant context.                                                                Ne
+                                                                       the document by entity mentions {mij }j=1i . A relation exists
+    In this paper, instead of introducing graph structures, we
+propose a localized context pooling technique. This technique          between entities (es , eo ) if it is expressed by any pair of their
+solves the problem of using the same entity embedding for all          mentions. The entity pairs that do not express any relation are
+entity pairs. It enhances the entity embedding with additional         labeled NA. At the test time, the model needs to predict the
+context that is relevant to the current entity pair. Instead           labels of all entity pairs (es , eo )s, o=1...n; s6=o in document d.
+of training a new context attention layer from scratch, we
+directly transfer the attention heads from pre-trained language                       Enhanced BERT Baseline
+models to get entity-level attention. Then, for two entities in        In this section, we present our base model for document-level
+a pair, we merge their attentions by multiplication to find the        relation extraction. We build our model based on existing
+context that is important to both of them.                             BERT baselines (Yao et al. 2019; Wang et al. 2019a) and in-
+    For the multi-label problem, existing approaches reduce            tegrate other techniques to further improve the performance.
+it to a binary classification problem. After training, a global
+threshold is applied to the class probabilities to get relation        Encoder
+labels. This method involves heuristic threshold tuning and            Given a document d = [xt ]lt=1 , we mark the position of
+introduces decision errors when the tuned threshold from               entity mentions by inserting a special symbol “*” at the start
+development data may not be optimal for all instances.                 and end of mentions. It is adapted from the entity marker
+    In this paper, we propose the adaptive thresholding tech-          technique (Zhang et al. 2017; Shi and Lin 2019; Soares et al.
+nique, which replaces the global threshold with a learn-               2019). We then feed the document into a pre-trained language
+able threshold class. The threshold class is learned with              model to obtain the contextual embeddings:
+our adaptive-threshold loss, which is a rank-based loss that                  H = [h1 , h2 , ..., hl ] = BERT([x1 , x2 , ..., xl ]).   (1)
+pushes the logits of positive classes above the threshold and
+pulls the logits of negative classes below in model training.          Following previous work (Verga, Strubell, and McCallum
+At the test time, we return classes that have higher logits than       2018; Wang et al. 2019b), the document is encoded once by
+the threshold class as the predicted labels or return NA if such       the encoder, and the classification of all entity pairs is based
+class does not exist. This technique eliminates the need for           on the same contextual embedding. We take the embedding
+threshold tuning, and also makes the threshold adjustable to           of “*” at the start of mentions as the mention embeddings. For
+                                                                                                            Ne
+different entity pairs, which leads to much better results.            an entity ei with mentions {mij }j=1i , we apply logsumexp
+    By combining the proposed two techniques, we propose a             pooling (Jia, Wong, and Poon 2019), a smooth version of
+simple yet effective relation extraction model, named ATLOP            max pooling, to get the entity embedding hei .
+(Adaptive Thresholding and Localized cOntext Pooling), to                                            Nei
+fully utilize the power of pre-trained language models (De-                                          X            
+vlin et al. 2019; Liu et al. 2019). This model tackles the                               hei = log         exp hmij .                  (2)
+                                                                                                     j=1
+multi-label and multi-entity problems in document-level RE.
+Experiments on three document-level relation extraction                This pooling accumulates signals from mentions in the docu-
+datasets, DocRED (Yao et al. 2019), CDR (Li et al. 2016),              ment. It shows better performance compared to mean pooling
+and GDA (Wu et al. 2019b), demonstrate that our ATLOP                  in experiments.
+
+
+                                                               14613
+Binary Classifier
+Given the embedding (hes , heo ) of an entity pair es , eo com-
+puted by equation (2), we map the entities to hidden states
+z with a linear layer followed by non-linear activation, then
+calculate the probability of relation r by bilinear function and
+sigmoid activation. This process is formulated as:
+                        zs = tanh (Ws hes ) ,               (3)
+                        zo = tanh (Wo heo ) ,               (4)           Figure 2: An artificial illustration of our proposed adaptive-
+                                                                          thresholding loss. A TH class is introduced to separate posi-
+             P (r|es , eo ) = σ (zs| Wr zo + br ) ,                       tive classes and negative classes: positive classes would have
+where Ws ∈ Rd×d , Wo ∈ Rd×d , Wr ∈ Rd×d , br ∈ R                          higher probabilities than TH, and negative classes would
+are model parameters. The representation of one entity is                 have lower probabilities than TH.
+the same among different entity pairs. To reduce the number
+of parameters in the bilinear classifier, we use the group
+bilinear (Zheng et al. 2019; Tang et al. 2020b), which splits              • negative classes NT ⊆ R are the relations that do not exist
+the embedding dimensions into k equal-sized groups and                       between the entities. If T does not express any relation,
+applies bilinear within the groups:                                          NT = R.
+           1                                                             If an entity pair is classified correctly, the logits of positive
+           zs ; ...; zsk = zs ,
+                        
+           1                                                             classes should be higher than the threshold while those of neg-
+           zo ; ...; zok = zo ,
+                        
+                                                                          ative classes should be lower. Here we introduce a threshold
+                                k
+                                                 !                        class TH, which is automatically learned in the same way as
+                                                                          other classes (see Eq.(5)). At the test time, we return classes
+                                X
+                                   i|   i i
+          P (r|es , eo ) = σ      zs Wr zo + br ,        (5)
+                              i=1
+                                                                          with higher logits than the TH class as positive classes or
+                                                                          return NA if such classes do not exist. This threshold class
+where Wri ∈ Rd/k×d/k for i = 1...k are model parameters,                  learns an entities-dependent threshold value. It is a substi-
+P (r|es , eo ) is the probability that relation r is associated           tute for the global threshold and thus eliminates the need for
+with the entity pair (es , eo ). In this way, we can reduce the           tuning threshold on the development set.
+number of parameters from d2 to d2 /k. We use the binary                     To learn the new model, we need a special loss func-
+cross entropy loss for training. During inference, we tune                tion that considers the TH class. We design our adaptive-
+a global threshold θ that maximizes evaluation metrics (F1                thresholding loss based on the standard categorical cross
+score for RE) on the development set and return r as an                   entropy loss. The loss function is broken down to two parts
+associated relation if P (r|es , eo ) > θ or return NA if no              as shown below:
+relation exists.                                                                                                                       !
+   Our enhanced base model achieves near state-of-the-art
+                                                                                         X                      exp (logitr )
+                                                                               L1 = −         log P                                      ,
+performance in our experiments, significantly outperforms                               r∈PT             r 0 ∈PT ∪{TH} exp (logitr 0 )
+existing BERT baselines.                                                                                                        !
+                                                                                                        exp (logitTH )
+                                                                               L2 = − log P                                       ,
+                Adaptive Thresholding                                                             r 0 ∈NT ∪{TH} exp (logitr 0 )
+The RE classifier outputs the probability P (r|es , eo ) within
+                                                                               L = L1 + L2 .
+the range [0, 1], which needs thresholding to be converted to
+relation labels. As the threshold neither has a closed-form               The first part L1 involves positive classes and the TH class.
+solution nor is differentiable, a common practice for deciding            Since there may be multiple positive classes, the total loss
+threshold is enumerating several values in the range (0, 1)               is calculated as the sum of categorical cross entropy losses
+and picking the one that maximizes the evaluation metrics                 on all positive classes (Menon et al. 2019; Reddi et al. 2019).
+(F1 score for RE). However, the model may have different                  L1 pushes the logits of all positive classes to be higher than
+confidence for different entity pairs or classes in which one             the TH class. It is not used if there is no positive label. The
+global threshold does not suffice. The number of relations                second part L2 involves the negative classes and threshold
+varies (multi-label problem) and the models may not be glob-              class. It is a categorical cross entropy loss with TH class
+ally calibrated so that the same probability does not mean                being the true label. It pulls the logits of negative classes to
+the same for all entity pairs. This problem motivates us to               be lower than the TH class. Two parts are simply summed
+replace the global threshold with a learnable, adaptive one,              for the total loss.
+which can reduce decision errors during inference.                           The proposed adaptive-thresholding loss is illustrated in
+   For the convenience of explanation, we split the labels of             Figure 2. It obtains a large performance gain to the global
+entity pair T = (es , eo ) into two subsets: positive classes PT          threshold in our experiments.
+and negative classes NT , which are defined as follows:
+ • positive classes PT ⊆ R are the relations that exist be-                             Localized Context Pooling
+   tween the entities in T . If T does not express any relation,          The logsumexp pooling (see Eq. (2)) accumulates the em-
+   PT is empty.                                                           bedding of all mentions for an entity across the whole docu-
+
+
+                                                                  14614
+      Context                              𝒄 𝑠,𝑜                                Statistics                   DocRED       CDR     GDA
+      Pooling                                                                  # Train                           3053      500    23353
+                                                                               # Dev                             1000      500     5839
+                                                                               # Test                            1000      500     1000
+       BERT                                                                    # Relations                        97        2        2
+      Layer 𝐿            …
+                                                                               Avg.# entities per Doc.           19.5      7.6      5.4
+                    𝑒𝑠       𝑒𝑠                           𝑒𝑜
+       BERT                                                                      Table 1: Statistics of the datasets in experiments.
+                               …                        …
+    Layer 𝐿 − 1
+                                                                              Hyperparam             DocRED           CDR          GDA
+Figure 3: Illustration of localized context pooling. Tokens                                       BERT RoBERTa      SciBERT      SciBERT
+are weighted averaged to form the localized context c(s,o) of                 Batch size           4       4             4         16
+the entity pair (es , eo ). The weights of tokens are derived by              # Epoch              30      30            30        10
+multiplying the attention weights of the subject entity es and                lr for encoder      5e-5    3e-5          2e-5      2e-5
+the object entity eo from the last transformer layer so that                  lr for classifier   1e-4    1e-4          1e-4      1e-4
+only the tokens that are important to both entities (highlighted
+in light yellow) receive higher weights.                                                Table 2: Hyper-parameters in training.
+
+ment and generates one embedding for this entity. The entity               entity embedding to obtain entity representations that are
+embedding from this document-level global pooling is then                  different for different entity pairs, by modifying the original
+used in the classification of all entity pairs. However, for               linear layer in Eq. (3) and Eq. (4) as follows:
+an entity pair, some context of the entities may not be rele-
+vant. For example, in Figure 1, the second mention of John
+                                                                                                                           
+                                                                                      zs(s,o) = tanh Ws hes + Wc1 c(s,o) ,             (6)
+Stanistreet and its context are irrelevant to the entity pair
+(John Stanistreet, Bendigo). Therefore, it is better to have
+                                                                                                                           
+                                                                                      zo(s,o) = tanh Wo heo + Wc2 c(s,o) ,             (7)
+a localized representation that only attends to the relevant
+context in the document that is useful to decide the relation
+for this entity pair.                                                      where Wc1 , Wc2 ∈ Rd×d are model parameters. The pro-
+   Therefore we propose the localized context pooling, where               posed localized context pooling is illustrated in Figure 3.
+we enhance the embedding of an entity pair with an additional              In experiments, we use the attention matrix from the last
+local context embedding that is related to both entities. In               transformer layer.
+this work, since we use pre-trained transformer-based models
+as the encoder, which has already learned token-level depen-                                        Experiments
+dencies by multi-head self-attention (Vaswani et al. 2017),                Datasets
+we consider directly using their attention heads for local-
+ized context pooling. This method transfers the well-learned               We evaluate our ATLOP model on three public document-
+dependencies from the pre-trained language model without                   level relation extraction datasets. The dataset statistics are
+learning new attention layers from scratch.                                shown in Table 1.
+   Specifically, given a pre-trained multi-head attention ma-              • DocRED (Yao et al. 2019) is a large-scale crowdsourced
+trix A ∈ RH×l×l , where Aijk represents attention from                       dataset for document-level RE. It is constructed from
+token j to token k in the ith attention head, we first take the              Wikipedia articles. DocRED consists of 3053 documents
+attention from the “*” symbol as the mention-level attention,                for training. For entity pairs that express relation(s), about
+then average the attention over mentions of the same entity                  7% of them have more than one relation label.
+to obtain entity-level attention AE    i ∈R
+                                              H×l
+                                                  , which denotes          • CDR (Li et al. 2016) is a human-annotated dataset in the
+                        th
+attention from the i entity to all tokens. Then given an en-                 biomedical domain. It consists of 500 documents for train-
+tity pair (es , eo ), we locate the local context that is important          ing. The task is to predict the binary interactions between
+to both es and eo by multiplying their entity-level attention,               Chemical and Disease concepts.
+and obtain the localized context embedding c(s,o) by:
+                                                                           • GDA (Wu et al. 2019b) is a large-scale dataset in the
+                   A(s,o) = AE    E
+                             s · Ao ,                                        biomedical domain. It consists of 29192 articles for train-
+                               H                                             ing. The task is to predict the binary interactions between
+                                        (s,o)
+                               X
+                   q (s,o) =       Ai           ,                            Gene and Disease concepts. We follow Christopoulou,
+                               i=1                                           Miwa, and Ananiadou (2019) to split the training set into
+                                                                             an 80/20 split as training and development sets.
+                   a(s,o) = q   (s,o)
+                                        /1| q (s,o) ,
+                 c(s,o) = H | a(s,o) ,                                     Experiment Settings
+where H is the contextual embedding in Eq. (1). The local-                 Our model is implemented based on Huggingface’s Trans-
+ized context embedding is then fused into the globally pooled              formers (Wolf et al. 2019). We use cased BERT-base (Devlin
+
+
+                                                                   14615
+                       Model                                                       Dev                    Test
+                                                                          Ign F1          F1         Ign F1    F1
+                       Sequence-based Models
+                       CNN (Yao et al. 2019)                               41.58         43.45       40.33   42.26
+                       BiLSTM (Yao et al. 2019)                            48.87         50.94       48.78   51.06
+                       Graph-based Models
+                       BiLSTM-AGGCN (Guo, Zhang, and Lu 2019)              46.29         52.47       48.89   51.45
+                       BiLSTM-LSR (Nan et al. 2020)                        48.82         55.17       52.15   54.18
+                       BERT-LSRBASE (Nan et al. 2020)                      52.43         59.00       56.97   59.05
+                       Transformer-based Models
+                       BERTBASE (Wang et al. 2019a)                          -           54.16         -     53.20
+                       BERT-TSBASE (Wang et al. 2019a)                       -           54.42         -     53.92
+                       HIN-BERTBASE (Tang et al. 2020a)                    54.29         56.31       53.70   55.60
+                       CorefBERTBASE (Ye et al. 2020)                      55.32         57.51       54.54   56.96
+                       CorefRoBERTaLARGE (Ye et al. 2020)                  57.35         59.43       57.90   60.25
+                       Our Methods
+                       BERTBASE (our implementation)                 54.27 ± 0.28     56.39 ± 0.18     -       -
+                       BERT-EBASE                                    56.51 ± 0.16     58.52 ± 0.19     -       -
+                       BERT-ATLOPBASE                                59.22 ± 0.15     61.09 ± 0.16   59.31   61.30
+                       RoBERTa-ATLOPLARGE                            61.32 ± 0.14     63.18 ± 0.19   61.39   63.40
+
+Table 3: Main results (%) on the development and test set of DocRED. We report the mean and standard deviation of F1 on
+the development set by conducting 5 runs of training using different random seeds. We report the official test score of the best
+checkpoint on the development set.
+
+
+  Model                                   CDR          GDA                For the DocRED dataset, the training takes about 1 hour 45
+  BRAN (Verga, Strubell, and McCal-       62.1           -                minutes with BERT-base encoder and 3 hours 30 minutes
+  lum 2018)                                                               with RoBERTa-large encoder. For CDR and GDA datasets,
+  CNN (Nguyen and Verspoor 2018)          62.3          -                 the training takes 20 minutes and 3 hours 30 minutes with
+  EoG (Christopoulou, Miwa, and           63.6         81.5               SciBERT encoder, respectively.
+  Ananiadou 2019)
+  LSR (Nan et al. 2020)                   64.8         82.2               Main Results
+  SciBERT (our implementation)          65.1 ± 0.6   82.5 ± 0.3           We compare ATLOP with sequence-based models, graph-
+  SciBERT-E                             65.9 ± 0.5   83.3 ± 0.3           based models, and transformer-based models on the DocRED
+  SciBERT-ATLOP                         69.4 ± 1.1   83.9 ± 0.2           dataset. The experiment results are shown in Table 3. Follow-
+                                                                          ing Yao et al. (2019), we use F1 and Ign F1 in evaluation.
+Table 4: Test F1 score (%) on CDR and GDA dataset. Our                    The Ign F1 denotes the F1 score excluding the relational facts
+ATLOP model with the SciBERT encoder outperforms the                      that are shared by the training and dev/test sets.
+current SOTA results.
+                                                                          Sequence-based Models. These models use neural architec-
+                                                                          tures such as CNN (Goodfellow et al. 2016) and bidirectional
+                                                                          LSTM (Schuster and Paliwal 1997) to encode the entire doc-
+et al. 2019) or RoBERTa-large (Liu et al. 2019) as the en-                ument, then obtain entity embeddings and predict relations
+coder on DocRED, and cased SciBERT (Beltagy, Lo, and                      for each entity pair with bilinear function.
+Cohan 2019) on CDR and GDA. We use mixed-precision
+training (Micikevicius et al. 2018) based on the Apex library1 .          Graph-based Models. These models construct document
+Our model is optimized with AdamW (Loshchilov and Hut-                    graphs by learning latent graph structures of the docu-
+ter 2019) using learning rates ∈ {2e−5, 3e−5, 5e−5, 1e−4},                ment and perform inference with graph convolutional net-
+with a linear warmup (Goyal et al. 2017) for the first 6% steps           work (Kipf and Welling 2017). We include two state-of-the-
+followed by a linear decay to 0. We apply dropout (Srivastava             art graph-based models, AGGCN (Guo, Zhang, and Lu 2019)
+et al. 2014) between layers with rate 0.1, and clip the gradi-            and LSR (Nan et al. 2020), for comparison. The result of
+ents of model parameters to a max norm of 1.0. We perform                 AGGCN is from the re-implementation by Nan et al. (2020).
+early stopping based on the F1 score on the development set.              Transformer-based Models. These models directly adapt
+All hyper-parameters are tuned on the development set. We                 pre-trained language models to document-level RE with-
+list some of the hyper-parameters in Table 2.                             out using graph structures. They can be further divided into
+   For models that use a global threshold, we search threshold            pipeline models (BERT-TS (Wang et al. 2019a)), hierarchical
+values from {0.1, 0.2, ..., 0.9} and pick the one that maxi-              models (HIN-BERT (Tang et al. 2020a)), and pre-training
+mizes dev F1 . All models are trained with 1 Tesla V100 GPU.              methods (CorefBERT and CorefRoBERTa (Ye et al. 2020)).
+                                                                          We also include the BERT baseline (Wang et al. 2019a) and
+   1
+       https://github.com/NVIDIA/apex                                     our re-implemented BERT baseline in comparison.
+
+
+                                                                  14616
+       Model                            Ign F1     F1                                            Strategy                    Dev F1   Test F1
+       BERT-ATLOPBASE                    59.22   61.09                                           Global Thresholding         60.14    60.62
+       − Adaptive Thresholding           58.32   60.20                                           Per-class Thresholding      61.73    60.35
+       − Localized Context Pooling       58.19   60.12                                           Adaptive Thresholding       61.27    61.30
+       − Adaptive-Thresholding Loss      39.52   41.74
+       BERT-EBASE                        56.51   58.52                   Table 6: Result of different thresholding strategies on Do-
+       − Entity Marker                   56.22   58.28                   cRED. Our adaptive thresholding consistently outperforms
+       − Group Bilinear                  55.51   57.54                   other strategies on the test set.
+       − Logsumexp Pooling               55.35   57.40
+                                                                                            75
+Table 5: Ablation study of ATLOP on DocRED. We turn                                                                                     w/ LOP
+off different components of the model one at a time. These                                  70
+
+
+
+
+                                                                            dev F1 (in %)
+                                                                                                                                        w/o LOP
+ablation results show that both adaptive thresholding and                                   65
+localized context pooling are effective. Logsumexp pooling
+                                                                                            60
+and group bilinear both bring noticeable gain to the baseline.
+                                                                                            55
+
+                                                                                            50
+                                                                                                   1-5      6-10 11-15 16-20 21-25 26-30 31-35
+   We find that our re-implemented BERT baseline gets sig-                                                      # of Entities per Document
+nificantly better results than Wang et al. (2019a), and outper-
+forms the state-of-the-art RNN-based model BiLSTM-LSR                    Figure 4: Dev F1 score of documents with the different num-
+by 1.2%. It demonstrates that pre-trained language models                ber of entities on DocRED. Our localized context pooling
+can capture long-distance dependencies among entities with-              achieves better results when the number of entities is larger
+out explicitly using graph structures. After integrating other           than 5. The improvement becomes more significant when the
+techniques, our enhanced baseline BERT-EBASE achieves an                 number of entities increases.
+F1 score of 58.52%, which is close to the current state-of-the-
+art model BERT-LSRBASE . Our BERT-ATLOPBASE model
+further improves the performance of BERT-EBASE by 2.6%,
+demonstrating the efficacy of the proposed two novel tech-               and 0.97% in dev F1 score respectively when removed from
+niques. Using RoBERTa-large as the encoder, our ALTOP                    ATLOP. Note that the adaptive thresholding only works when
+model achieves an F1 score of 63.40%, which is a new state-              the model is optimized with the adaptive-thresholding loss.
+of-the-art result on DocRED.                                             Applying adaptive thresholding to models trained with binary
+                                                                         cross entropy results in dev F1 of 41.74%.
+Results on Biomedical Datasets                                              For our enhanced baseline model BERT-EBASE , both group
+Experiment results on two biomedical datasets are shown in               bilinear and logsumexp pooling lead to about 1% increase
+Table 4. Verga, Strubell, and McCallum (2018) and Nguyen                 in dev F1 . We find the improvement from entity markers is
+and Verspoor (2018) are both sequence-based models that                  minor (0.24% in dev F1 ) but still use the technique in the
+use self-attention network and CNN as the encoders, respec-              model as it makes the derivation of mention embedding and
+tively. Christopoulou, Miwa, and Ananiadou (2019) and Nan                mention-level attention easier.
+et al. (2020) use graph-based models that construct document
+graphs by heuristics or structured attention, and perform in-            Analysis of Thresholding
+ference with graph neural network. To our best knowledge,
+transformer-based pre-trained language models have not been
+                                                                         Global thresholding does not consider the variations of model
+applied to document-level RE datasets in the biomedical do-
+                                                                         confidence in different classes or instances, and thus yields
+main. In experiments, we replace the encoder with SciBERT,
+                                                                         suboptimal performance. One interesting question is whether
+which is pre-trained on multi-domain corpora of scientific
+                                                                         we can improve global thresholding by tuning different
+publications. The SciBERT baseline already outperforms all
+                                                                         thresholds for different classes. To answer this question, We
+existing methods. Our SciBERT-ATLOP model further im-
+                                                                         try to tune different thresholds on different classes to max-
+proves the F1 score by 4.3% and 1.4% on CDR and GDA,
+                                                                         imize the dev F1 score on DocRED using the cyclic opti-
+respectively, yielding new state-of-the-art results on these
+                                                                         mization algorithm (Fan and Lin 2007). Results are shown
+two datasets.
+                                                                         in Table 6. We find that using per-class thresholding signifi-
+                                                                         cantly improves the dev F1 score to 61.73%, which is even
+Ablation Study                                                           higher than the result of adaptive thresholding. However, this
+To show the efficacy of our proposed techniques, we conduct              gain does not transfer to the test set. The result of per-class
+two sets of ablation studies on ATLOP and enhanced base-                 thresholding is even worse than global thresholding. It indi-
+line, by turning off one component at a time. We observe that            cates that tuning per-class thresholding after training can lead
+all components contribute to model performance. The adap-                to severe over-fitting to the development set. While our adap-
+tive thresholding and localized context pooling are equally              tive thresholding technique learns the threshold in training,
+important to model performance, leading to a drop of 0.89%               which can generalize to the test set.
+
+
+                                                                 14617
+ John Stanistreet was an Australian politician. He wa                     However, as large amounts of relationships are expressed
+ s born in Bendigo to legal manager John Jepson Stan                   by multiple sentences (Verga, Strubell, and McCallum 2018;
+ istreet and Maud McIlroy. (… 4 sentences …) In 195                    Yao et al. 2019), recent work starts to explore document-
+ 5 John Stanistreet was elected to the Victorian Legisl                level relation extraction. Most approaches on document-level
+ ative Assembly as the Liberal and Country Party mem                   RE are based on document graphs, which were introduced
+ ber for Bendigo, but he was defeated in 1958. Stanistr                by Quirk and Poon (2017). Specifically, they use words as
+ eet died in Bendigo in 1971.                                          nodes and inner and inter-sentential dependencies (depen-
+                                                                       dency structures, coreferences, etc.) as edges. This document
+ Subject: John Stanistreet Object: Bendigo                             graph provides a unified way of extracting the features for
+ Relation: place of birth; place of death                              entity pairs. Later work extends the idea by improving neural
+                                                                       architectures (Peng et al. 2017; Verga, Strubell, and McCal-
+Figure 5: Context weights of an example from DocRED. We                lum 2018; Song et al. 2018; Jia, Wong, and Poon 2019; Gupta
+visualize the weight of context tokens a(s,o) in localized con-        et al. 2019) or adding more types of edges (Christopoulou,
+text pooling. The model attends to the most relevant context           Miwa, and Ananiadou 2019; Nan et al. 2020). In particu-
+born and died for entity pair (John Stanistreet, Bendigo).             lar, Christopoulou, Miwa, and Ananiadou (2019) constructs
+                                                                       nodes of different granularities (sentence, mention, entity),
+                                                                       connects them with heuristically generated edges, and infers
+Analysis of Context Pooling                                            the relations with an edge-oriented model (Christopoulou,
+                                                                       Miwa, and Ananiadou 2018). Nan et al. (2020) treats the doc-
+To show that our localized context pooling (LOP) technique             ument graph as a latent variable and induces it by structured
+mitigates the multi-entity issue, we divide the documents              attention (Liu and Lapata 2018). This work also proposes
+in the development set of DocRED into different groups by              a refinement mechanism to enable multi-hop information
+the number of entities, and evaluate models trained with or            aggregation from the whole document. Their LSR model
+without localized context pooling on each group. Experi-               achieved state-of-the-art performance on document-level RE.
+ment results are shown in Figure 4. We observe that for both              There have also been models that directly apply pre-trained
+models, their performance gets worse when the document                 language models without introducing document graphs, since
+contains more entities. The model w/ LOP consistently out-             edges such as dependency structures and coreferences can be
+performs the model w/o LOP except when the document                    automatically learned by pre-trained language models (Clark
+contains very few entities (1 to 5), and the improvement gets          et al. 2019; Tenney, Das, and Pavlick 2019; Vig and Belinkov
+larger when the number of entities increases. However, the             2019; Hewitt and Manning 2019). In particular, Wang et al.
+number of documents that only contain 1 to 5 entities is very          (2019a) proposes a pipeline model that first predicts whether
+small (4 in the dev set), and the documents in DocRED con-             a relationship exists in an entity pair and then predicts the
+tain 19 entities on average. Therefore our localized context           specific relation types. Tang et al. (2020a) proposes a hierar-
+pooling still improves the overall F1 score significantly. This        chical model that aggregates entity information from the en-
+indicates that the localized context pooling technique can             tity level, sentence level, and document level. Ye et al. (2020)
+capture related context for entity pairs and thus alleviates the       introduces a copy-based training objective to pre-training,
+multi-entity problem.                                                  which enhances the model’s ability in capturing coreferential
+   We also visualize the context weights of the example in             information and brings noticeable gain on various NLP tasks
+Figure 1. As shown in Figure 5, our localized context pooling          that require coreferential reasoning.
+gives high weights to born and died, which are most relevant              However, none of the models focus on the multi-entity and
+to both entities (John Stanistreet, Bendigo). These two tokens         multi-label problems, which are among the key differences of
+are also evidence for the two ground truth relationships place         document-level RE to its sentence-level RE counterpart. Our
+of birth and place of death, respectively. Tokens like elected         ATLOP model deals with the two problems by two novel tech-
+and politician get much smaller weights because they are               niques: adaptive thresholding and localized context pooling,
+only related to the subject entity John Stanistreet. The visual-       and significantly outperforms existing models.
+ization demonstrates that the localized context can locate the
+context that is related to both entities.                                                      Conclusion
+                                                                       In this work, we propose the ATLOP model for document-
+                      Related Work                                     level relation extraction, which features two novel techniques:
+Early research efforts on relation extraction concentrate on           adaptive thresholding and localized context pooling. The
+predicting the relationship between two entities within a sen-         adaptive thresholding technique replaces the global threshold
+tence. Various approaches including sequence-based meth-               in multi-label classification with a learnable threshold class
+ods (Zeng et al. 2014; Wang et al. 2016; Zhang et al. 2017),           that can decide the best threshold for each entity pair. The lo-
+graph-based methods (Miwa and Bansal 2016; Zhang, Qi,                  calized context pooling utilizes pre-trained attention heads to
+and Manning 2018; Guo, Zhang, and Lu 2019; Wu et al.                   locate relevant context for entity pairs and thus helps in alle-
+2019a), transformer-based methods (Alt, Hübner, and Hennig            viating the multi-entity problem. Experiments on three public
+2019; Shi and Lin 2019), and pre-training methods (Zhang               document-level relation extraction datasets demonstrate that
+et al. 2019; Soares et al. 2019) have been shown effective in          our ATLOP model significantly outperforms existing models
+tackling this problem.                                                 and yields the new state-of-the-art results on all datasets.
+
+
+                                                               14618
+                       References                                      Kipf, T.; and Welling, M. 2017. Semi-Supervised Classifica-
+Alt, C.; Hübner, M.; and Hennig, L. 2019. Improving Rela-             tion with Graph Convolutional Networks. In ICLR.
+tion Extraction by Pre-trained Language Representations. In            Li, J.; Sun, Y.; Johnson, R. J.; Sciaky, D.; Wei, C.-H.; Leaman,
+AKBC.                                                                  R.; Davis, A. P.; Mattingly, C. J.; Wiegers, T. C.; and Lu,
+Beltagy, I.; Lo, K.; and Cohan, A. 2019. SciBERT: A Pre-               Z. 2016. BioCreative V CDR task corpus: a resource for
+trained Language Model for Scientific Text. In EMNLP-                  chemical disease relation extraction. In Database.
+IJCNLP.                                                                Liang, X.; Shen, X.; Feng, J.; Lin, L.; and Yan, S. 2016.
+Christopoulou, F.; Miwa, M.; and Ananiadou, S. 2018. A                 Semantic Object Parsing with Graph LSTM. In ECCV.
+Walk-based Model on Entity Graphs for Relation Extraction.             Liu, Y.; and Lapata, M. 2018. Learning Structured Text
+In ACL.                                                                Representations. Transactions of the Association for Compu-
+                                                                       tational Linguistics 6: 63–75.
+Christopoulou, F.; Miwa, M.; and Ananiadou, S. 2019. Con-
+necting the Dots: Document-level Neural Relation Extraction            Liu, Y.; Ott, M.; Goyal, N.; Du, J.; Joshi, M.; Chen, D.;
+with Edge-oriented Graphs. In EMNLP-IJCNLP.                            Levy, O.; Lewis, M.; Zettlemoyer, L.; and Stoyanov, V. 2019.
+                                                                       RoBERTa: A Robustly Optimized BERT Pretraining Ap-
+Chung, J.; Çaglar Gülçehre; Cho, K.; and Bengio, Y. 2014.           proach. ArXiv abs/1907.11692.
+Empirical Evaluation of Gated Recurrent Neural Networks
+on Sequence Modeling. ArXiv abs/1412.3555.                             Loshchilov, I.; and Hutter, F. 2019. Decoupled Weight Decay
+                                                                       Regularization. In ICLR.
+Clark, K.; Khandelwal, U.; Levy, O.; and Manning, C. D.
+2019. What Does BERT Look at? An Analysis of BERT’s                    Menon, A.; Rawat, A.; Reddi, S.; and Kumar, S. 2019. Mul-
+Attention. In BlackboxNLP workshop.                                    tilabel reductions: what is my loss optimising? In NeurIPS.
+Devlin, J.; Chang, M.-W.; Lee, K.; and Toutanova, K. 2019.             Micikevicius, P.; Narang, S.; Alben, J.; Diamos, G.; Elsen,
+BERT: Pre-training of Deep Bidirectional Transformers for              E.; Garcı́a, D.; Ginsburg, B.; Houston, M.; Kuchaiev, O.;
+Language Understanding. In NAACL-HLT.                                  Venkatesh, G.; and Wu, H. 2018. Mixed Precision Training.
+                                                                       In ICLR.
+Fan, R.-E.; and Lin, C.-J. 2007. A study on threshold selec-
+tion for multi-label classification. Department of Computer            Miwa, M.; and Bansal, M. 2016. End-to-End Relation Ex-
+Science, National Taiwan University 1–23.                              traction using LSTMs on Sequences and Tree Structures. In
+                                                                       ACL.
+Goodfellow, I.; Bengio, Y.; Courville, A.; and Bengio, Y.
+2016. Deep learning, volume 1. MIT press Cambridge.                    Nan, G.; Guo, Z.; Sekulic, I.; and Lu, W. 2020. Reason-
+                                                                       ing with Latent Structure Refinement for Document-Level
+Goyal, P.; Dollár, P.; Girshick, R. B.; Noordhuis, P.;                Relation Extraction. In ACL.
+Wesolowski, L.; Kyrola, A.; Tulloch, A.; Jia, Y.; and He, K.
+                                                                       Nguyen, D. Q.; and Verspoor, K. 2018. Convolutional neural
+2017. Accurate, Large Minibatch SGD: Training ImageNet
+                                                                       networks for chemical-disease relation extraction are im-
+in 1 Hour. ArXiv abs/1706.02677.
+                                                                       proved with character-based word embeddings. In BioNLP
+Guo, Z.; Zhang, Y.; and Lu, W. 2019. Attention Guided                  workshop.
+Graph Convolutional Networks for Relation Extraction. In
+                                                                       Peng, N.; Poon, H.; Quirk, C.; Toutanova, K.; and Yih, W.-t.
+ACL.
+                                                                       2017. Cross-Sentence N-ary Relation Extraction with Graph
+Gupta, P.; Rajaram, S.; Schütze, H.; and Runkler, T. 2019.            LSTMs. Transactions of the Association for Computational
+Neural Relation Extraction Within and Across Sentence                  Linguistics 5: 101–115.
+Boundaries. In AAAI.                                                   Quirk, C.; and Poon, H. 2017. Distant Supervision for Rela-
+Hendrickx, I.; Kim, S.; Kozareva, Z.; Nakov, P.; Séaghdha,            tion Extraction beyond the Sentence Boundary. In EACL.
+D. Ó.; Pennacchiotti, M.; Romano, L.; and Szpakowicz, S.              Reddi, S. J.; Kale, S.; Yu, F.; Holtmann-Rice, D.; Chen, J.;
+2009. SemEval-2010 Task 8: Multi-Way Classification of                 and Kumar, S. 2019. Stochastic Negative Mining for Learn-
+Semantic Relations Between Pairs of Nominals. In HLT-                  ing with Large Output Spaces. In AISTATS.
+NAACL.
+                                                                       Schuster, M.; and Paliwal, K. 1997. Bidirectional recurrent
+Hewitt, J.; and Manning, C. D. 2019. A Structural Probe for            neural networks. IEEE Trans. Signal Process. 45: 2673–
+Finding Syntax in Word Representations. In NAACL-HLT.                  2681.
+Hochreiter, S.; and Schmidhuber, J. 1997. Long Short-Term              Shi, P.; and Lin, J. 2019. Simple BERT Models for Re-
+Memory. Neural Computation 9: 1735–1780.                               lation Extraction and Semantic Role Labeling. ArXiv
+Jia, R.; Wong, C.; and Poon, H. 2019. Document-Level N-ary             abs/1904.05255.
+Relation Extraction with Multiscale Representation Learning.           Soares, L. B.; FitzGerald, N.; Ling, J.; and Kwiatkowski, T.
+In NAACL-HLT.                                                          2019. Matching the Blanks: Distributional Similarity for
+Khandelwal, U.; He, H.; Qi, P.; and Jurafsky, D. 2018. Sharp           Relation Learning. In ACL.
+Nearby, Fuzzy Far Away: How Neural Language Models Use                 Song, L.; Zhang, Y.; Wang, Z.; and Gildea, D. 2018. N-ary
+Context. In ACL.                                                       Relation Extraction using Graph-State LSTM. In EMNLP.
+
+
+                                                               14619
+Srivastava, N.; Hinton, G.; Krizhevsky, A.; Sutskever, I.; and        Zhang, Z.; Han, X.; Liu, Z.; Jiang, X.; Sun, M.; and Liu,
+Salakhutdinov, R. 2014. Dropout: A Simple Way to Pre-                 Q. 2019. ERNIE: Enhanced Language Representation with
+vent Neural Networks from Overfitting. Journal of Machine             Informative Entities. In ACL.
+Learning Research 15: 1929–1958.                                      Zheng, H.; Fu, J.; Zha, Z.-J.; and Luo, J. 2019. Learning
+Tang, H.; Cao, Y.; Zhang, Z.; Cao, J.; Fang, F.; Wang, S.;            Deep Bilinear Transformation for Fine-grained Image Repre-
+and Yin, P. 2020a. HIN: Hierarchical Inference Network for            sentation. In NeurIPS.
+Document-Level Relation Extraction. In PAKDD.
+Tang, Y.; Huang, J.; Wang, G.; He, X.; and Zhou, B. 2020b.
+Orthogonal Relation Transforms with Graph Context Model-
+ing for Knowledge Graph Embedding. In ACL.
+Tenney, I.; Das, D.; and Pavlick, E. 2019. BERT Rediscovers
+the Classical NLP Pipeline. In ACL.
+Vaswani, A.; Shazeer, N.; Parmar, N.; Uszkoreit, J.; Jones, L.;
+Gomez, A. N.; Kaiser, Ł.; and Polosukhin, I. 2017. Attention
+is All you Need. In NeurIPS.
+Verga, P.; Strubell, E.; and McCallum, A. 2018. Simulta-
+neously Self-Attending to All Mentions for Full-Abstract
+Biological Relation Extraction. In NAACL-HLT.
+Vig, J.; and Belinkov, Y. 2019. Analyzing the Structure of At-
+tention in a Transformer Language Model. In BlackboxNLP
+workshop.
+Wang, H.; Focke, C.; Sylvester, R.; Mishra, N.; and Wang,
+W. W. J. 2019a. Fine-tune Bert for DocRED with Two-step
+Process. ArXiv abs/1909.11898.
+Wang, H.; Tan, M.; Yu, M.; Chang, S.; Wang, D.; Xu, K.;
+Guo, X.; and Potdar, S. 2019b. Extracting Multiple-Relations
+in One-Pass with Pre-Trained Transformers. In ACL.
+Wang, L.; Cao, Z.; De Melo, G.; and Liu, Z. 2016. Relation
+Classification via Multi-Level Attention CNNs. In ACL.
+Wolf, T.; Debut, L.; Sanh, V.; Chaumond, J.; Delangue, C.;
+Moi, A.; Cistac, P.; Rault, T.; Louf, R.; Funtowicz, M.; et al.
+2019. HuggingFace’s Transformers: State-of-the-art Natural
+Language Processing. ArXiv arXiv–1910.
+Wu, F.; Zhang, T.; Souza, A.; Fifty, C.; Yu, T.; and Wein-
+berger, K. Q. 2019a. Simplifying Graph Convolutional Net-
+works. In ICML.
+Wu, Y.; Luo, R.; Leung, H. C.; Ting, H.-F.; and Lam, T.-W.
+2019b. RENET: A Deep Learning Approach for Extracting
+Gene-Disease Associations from Literature. In RECOMB.
+Yao, Y.; Ye, D.; Li, P.; Han, X.; Lin, Y.; Liu, Z.; Liu, Z.;
+Huang, L.; Zhou, J.; and Sun, M. 2019. DocRED: A Large-
+Scale Document-Level Relation Extraction Dataset. In ACL.
+Ye, D.; Lin, Y.; Du, J.; Liu, Z.; Sun, M.; and Liu, Z. 2020.
+Coreferential Reasoning Learning for Language Representa-
+tion. In EMNLP.
+Zeng, D.; Liu, K.; Lai, S.; Zhou, G.; and Zhao, J. 2014. Rela-
+tion Classification via Convolutional Deep Neural Network.
+In COLING.
+Zhang, Y.; Qi, P.; and Manning, C. D. 2018. Graph Con-
+volution over Pruned Dependency Trees Improves Relation
+Extraction. In EMNLP.
+Zhang, Y.; Zhong, V.; Chen, D.; Angeli, G.; and Manning,
+C. D. 2017. Position-aware Attention and Supervised Data
+Improve Slot Filling. In EMNLP.
+
+
+                                                              14620
+

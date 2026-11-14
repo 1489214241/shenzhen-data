@@ -1,0 +1,276 @@
+{
+  "summary": {
+    "train": {
+      "all": {
+        "n": 94,
+        "rank_separable": 84,
+        "all_gold_schools_have_reference": 93,
+        "all_gold_schools_reference_within_1km": 91,
+        "exact_answer_set_seen_in_complete_training": 83,
+        "exact_reference_set_available": 83
+      },
+      "rank_blocked": {
+        "n": 10,
+        "rank_separable": 0,
+        "all_gold_schools_have_reference": 9,
+        "all_gold_schools_reference_within_1km": 8,
+        "exact_answer_set_seen_in_complete_training": 4,
+        "exact_reference_set_available": 4
+      },
+      "rank_separable": {
+        "n": 84,
+        "rank_separable": 84,
+        "all_gold_schools_have_reference": 84,
+        "all_gold_schools_reference_within_1km": 83,
+        "exact_answer_set_seen_in_complete_training": 79,
+        "exact_reference_set_available": 79
+      },
+      "seen_training_set": {
+        "n": 83,
+        "rank_separable": 79,
+        "all_gold_schools_have_reference": 83,
+        "all_gold_schools_reference_within_1km": 82,
+        "exact_answer_set_seen_in_complete_training": 83,
+        "exact_reference_set_available": 83
+      },
+      "unseen_training_set": {
+        "n": 11,
+        "rank_separable": 5,
+        "all_gold_schools_have_reference": 10,
+        "all_gold_schools_reference_within_1km": 9,
+        "exact_answer_set_seen_in_complete_training": 0,
+        "exact_reference_set_available": 0
+      },
+      "all_school_refs": {
+        "n": 93,
+        "rank_separable": 84,
+        "all_gold_schools_have_reference": 93,
+        "all_gold_schools_reference_within_1km": 91,
+        "exact_answer_set_seen_in_complete_training": 83,
+        "exact_reference_set_available": 83
+      },
+      "missing_school_ref": {
+        "n": 1,
+        "rank_separable": 0,
+        "all_gold_schools_have_reference": 0,
+        "all_gold_schools_reference_within_1km": 0,
+        "exact_answer_set_seen_in_complete_training": 0,
+        "exact_reference_set_available": 0
+      },
+      "all_school_refs_within_1km": {
+        "n": 91,
+        "rank_separable": 83,
+        "all_gold_schools_have_reference": 91,
+        "all_gold_schools_reference_within_1km": 91,
+        "exact_answer_set_seen_in_complete_training": 82,
+        "exact_reference_set_available": 82
+      },
+      "districts": {
+        "天心区": {
+          "n": 0,
+          "rank_separable": 0,
+          "all_gold_schools_have_reference": 0,
+          "all_gold_schools_reference_within_1km": 0,
+          "exact_answer_set_seen_in_complete_training": 0,
+          "exact_reference_set_available": 0
+        },
+        "芙蓉区": {
+          "n": 0,
+          "rank_separable": 0,
+          "all_gold_schools_have_reference": 0,
+          "all_gold_schools_reference_within_1km": 0,
+          "exact_answer_set_seen_in_complete_training": 0,
+          "exact_reference_set_available": 0
+        },
+        "雨花区": {
+          "n": 12,
+          "rank_separable": 9,
+          "all_gold_schools_have_reference": 12,
+          "all_gold_schools_reference_within_1km": 12,
+          "exact_answer_set_seen_in_complete_training": 5,
+          "exact_reference_set_available": 5
+        },
+        "开福区": {
+          "n": 0,
+          "rank_separable": 0,
+          "all_gold_schools_have_reference": 0,
+          "all_gold_schools_reference_within_1km": 0,
+          "exact_answer_set_seen_in_complete_training": 0,
+          "exact_reference_set_available": 0
+        },
+        "拱墅区": {
+          "n": 51,
+          "rank_separable": 47,
+          "all_gold_schools_have_reference": 51,
+          "all_gold_schools_reference_within_1km": 49,
+          "exact_answer_set_seen_in_complete_training": 49,
+          "exact_reference_set_available": 49
+        },
+        "萧山区": {
+          "n": 11,
+          "rank_separable": 9,
+          "all_gold_schools_have_reference": 11,
+          "all_gold_schools_reference_within_1km": 11,
+          "exact_answer_set_seen_in_complete_training": 10,
+          "exact_reference_set_available": 10
+        },
+        "富阳区": {
+          "n": 5,
+          "rank_separable": 4,
+          "all_gold_schools_have_reference": 4,
+          "all_gold_schools_reference_within_1km": 4,
+          "exact_answer_set_seen_in_complete_training": 4,
+          "exact_reference_set_available": 4
+        },
+        "临安区": {
+          "n": 15,
+          "rank_separable": 15,
+          "all_gold_schools_have_reference": 15,
+          "all_gold_schools_reference_within_1km": 15,
+          "exact_answer_set_seen_in_complete_training": 15,
+          "exact_reference_set_available": 15
+        }
+      }
+    },
+    "valid": {
+      "all": {
+        "n": 60,
+        "rank_separable": 28,
+        "all_gold_schools_have_reference": 51,
+        "all_gold_schools_reference_within_1km": 50,
+        "exact_answer_set_seen_in_complete_training": 46,
+        "exact_reference_set_available": 46
+      },
+      "rank_blocked": {
+        "n": 32,
+        "rank_separable": 0,
+        "all_gold_schools_have_reference": 24,
+        "all_gold_schools_reference_within_1km": 24,
+        "exact_answer_set_seen_in_complete_training": 21,
+        "exact_reference_set_available": 21
+      },
+      "rank_separable": {
+        "n": 28,
+        "rank_separable": 28,
+        "all_gold_schools_have_reference": 27,
+        "all_gold_schools_reference_within_1km": 26,
+        "exact_answer_set_seen_in_complete_training": 25,
+        "exact_reference_set_available": 25
+      },
+      "seen_training_set": {
+        "n": 46,
+        "rank_separable": 25,
+        "all_gold_schools_have_reference": 46,
+        "all_gold_schools_reference_within_1km": 45,
+        "exact_answer_set_seen_in_complete_training": 46,
+        "exact_reference_set_available": 46
+      },
+      "unseen_training_set": {
+        "n": 14,
+        "rank_separable": 3,
+        "all_gold_schools_have_reference": 5,
+        "all_gold_schools_reference_within_1km": 5,
+        "exact_answer_set_seen_in_complete_training": 0,
+        "exact_reference_set_available": 0
+      },
+      "all_school_refs": {
+        "n": 51,
+        "rank_separable": 27,
+        "all_gold_schools_have_reference": 51,
+        "all_gold_schools_reference_within_1km": 50,
+        "exact_answer_set_seen_in_complete_training": 46,
+        "exact_reference_set_available": 46
+      },
+      "missing_school_ref": {
+        "n": 9,
+        "rank_separable": 1,
+        "all_gold_schools_have_reference": 0,
+        "all_gold_schools_reference_within_1km": 0,
+        "exact_answer_set_seen_in_complete_training": 0,
+        "exact_reference_set_available": 0
+      },
+      "all_school_refs_within_1km": {
+        "n": 50,
+        "rank_separable": 26,
+        "all_gold_schools_have_reference": 50,
+        "all_gold_schools_reference_within_1km": 50,
+        "exact_answer_set_seen_in_complete_training": 45,
+        "exact_reference_set_available": 45
+      },
+      "districts": {
+        "天心区": {
+          "n": 0,
+          "rank_separable": 0,
+          "all_gold_schools_have_reference": 0,
+          "all_gold_schools_reference_within_1km": 0,
+          "exact_answer_set_seen_in_complete_training": 0,
+          "exact_reference_set_available": 0
+        },
+        "芙蓉区": {
+          "n": 0,
+          "rank_separable": 0,
+          "all_gold_schools_have_reference": 0,
+          "all_gold_schools_reference_within_1km": 0,
+          "exact_answer_set_seen_in_complete_training": 0,
+          "exact_reference_set_available": 0
+        },
+        "雨花区": {
+          "n": 1,
+          "rank_separable": 1,
+          "all_gold_schools_have_reference": 1,
+          "all_gold_schools_reference_within_1km": 0,
+          "exact_answer_set_seen_in_complete_training": 1,
+          "exact_reference_set_available": 1
+        },
+        "开福区": {
+          "n": 0,
+          "rank_separable": 0,
+          "all_gold_schools_have_reference": 0,
+          "all_gold_schools_reference_within_1km": 0,
+          "exact_answer_set_seen_in_complete_training": 0,
+          "exact_reference_set_available": 0
+        },
+        "拱墅区": {
+          "n": 29,
+          "rank_separable": 14,
+          "all_gold_schools_have_reference": 22,
+          "all_gold_schools_reference_within_1km": 22,
+          "exact_answer_set_seen_in_complete_training": 22,
+          "exact_reference_set_available": 22
+        },
+        "萧山区": {
+          "n": 8,
+          "rank_separable": 5,
+          "all_gold_schools_have_reference": 7,
+          "all_gold_schools_reference_within_1km": 7,
+          "exact_answer_set_seen_in_complete_training": 2,
+          "exact_reference_set_available": 2
+        },
+        "富阳区": {
+          "n": 0,
+          "rank_separable": 0,
+          "all_gold_schools_have_reference": 0,
+          "all_gold_schools_reference_within_1km": 0,
+          "exact_answer_set_seen_in_complete_training": 0,
+          "exact_reference_set_available": 0
+        },
+        "临安区": {
+          "n": 22,
+          "rank_separable": 8,
+          "all_gold_schools_have_reference": 21,
+          "all_gold_schools_reference_within_1km": 21,
+          "exact_answer_set_seen_in_complete_training": 21,
+          "exact_reference_set_available": 21
+        }
+      }
+    }
+  },
+  "source_only": true,
+  "source_validation_labels_used_for_diagnosis": true,
+  "not_for_training": true,
+  "target_gold_read": false,
+  "target_predictions_generated": false,
+  "limitations": "Observational source error strata, not causal effects. Reference-set coincidence is representation coverage, not enrollment eligibility. Training label-set identities are not deployment inputs.",
+  "source_prediction_manifest_sha256": "82aaa96426edbba0cbe21b3e3e61cc1f9b4951a672c4329b1453eb9a02839903",
+  "code_sha256": "186e892919aaccd4a6b8b6dff05261e82f749e070efbaac35ae58313fb70fb2c"
+}

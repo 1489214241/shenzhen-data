@@ -1,0 +1,65 @@
+                       Model                                                       Dev                    Test
+                                                                          Ign F1          F1         Ign F1    F1
+                       Sequence-based Models
+                       CNN (Yao et al. 2019)                               41.58         43.45       40.33   42.26
+                       BiLSTM (Yao et al. 2019)                            48.87         50.94       48.78   51.06
+                       Graph-based Models
+                       BiLSTM-AGGCN (Guo, Zhang, and Lu 2019)              46.29         52.47       48.89   51.45
+                       BiLSTM-LSR (Nan et al. 2020)                        48.82         55.17       52.15   54.18
+                       BERT-LSRBASE (Nan et al. 2020)                      52.43         59.00       56.97   59.05
+                       Transformer-based Models
+                       BERTBASE (Wang et al. 2019a)                          -           54.16         -     53.20
+                       BERT-TSBASE (Wang et al. 2019a)                       -           54.42         -     53.92
+                       HIN-BERTBASE (Tang et al. 2020a)                    54.29         56.31       53.70   55.60
+                       CorefBERTBASE (Ye et al. 2020)                      55.32         57.51       54.54   56.96
+                       CorefRoBERTaLARGE (Ye et al. 2020)                  57.35         59.43       57.90   60.25
+                       Our Methods
+                       BERTBASE (our implementation)                 54.27 ± 0.28     56.39 ± 0.18     -       -
+                       BERT-EBASE                                    56.51 ± 0.16     58.52 ± 0.19     -       -
+                       BERT-ATLOPBASE                                59.22 ± 0.15     61.09 ± 0.16   59.31   61.30
+                       RoBERTa-ATLOPLARGE                            61.32 ± 0.14     63.18 ± 0.19   61.39   63.40
+
+Table 3: Main results (%) on the development and test set of DocRED. We report the mean and standard deviation of F1 on
+the development set by conducting 5 runs of training using different random seeds. We report the official test score of the best
+checkpoint on the development set.
+
+
+  Model                                   CDR          GDA                For the DocRED dataset, the training takes about 1 hour 45
+  BRAN (Verga, Strubell, and McCal-       62.1           -                minutes with BERT-base encoder and 3 hours 30 minutes
+  lum 2018)                                                               with RoBERTa-large encoder. For CDR and GDA datasets,
+  CNN (Nguyen and Verspoor 2018)          62.3          -                 the training takes 20 minutes and 3 hours 30 minutes with
+  EoG (Christopoulou, Miwa, and           63.6         81.5               SciBERT encoder, respectively.
+  Ananiadou 2019)
+  LSR (Nan et al. 2020)                   64.8         82.2               Main Results
+  SciBERT (our implementation)          65.1 ± 0.6   82.5 ± 0.3           We compare ATLOP with sequence-based models, graph-
+  SciBERT-E                             65.9 ± 0.5   83.3 ± 0.3           based models, and transformer-based models on the DocRED
+  SciBERT-ATLOP                         69.4 ± 1.1   83.9 ± 0.2           dataset. The experiment results are shown in Table 3. Follow-
+                                                                          ing Yao et al. (2019), we use F1 and Ign F1 in evaluation.
+Table 4: Test F1 score (%) on CDR and GDA dataset. Our                    The Ign F1 denotes the F1 score excluding the relational facts
+ATLOP model with the SciBERT encoder outperforms the                      that are shared by the training and dev/test sets.
+current SOTA results.
+                                                                          Sequence-based Models. These models use neural architec-
+                                                                          tures such as CNN (Goodfellow et al. 2016) and bidirectional
+                                                                          LSTM (Schuster and Paliwal 1997) to encode the entire doc-
+et al. 2019) or RoBERTa-large (Liu et al. 2019) as the en-                ument, then obtain entity embeddings and predict relations
+coder on DocRED, and cased SciBERT (Beltagy, Lo, and                      for each entity pair with bilinear function.
+Cohan 2019) on CDR and GDA. We use mixed-precision
+training (Micikevicius et al. 2018) based on the Apex library1 .          Graph-based Models. These models construct document
+Our model is optimized with AdamW (Loshchilov and Hut-                    graphs by learning latent graph structures of the docu-
+ter 2019) using learning rates ∈ {2e−5, 3e−5, 5e−5, 1e−4},                ment and perform inference with graph convolutional net-
+with a linear warmup (Goyal et al. 2017) for the first 6% steps           work (Kipf and Welling 2017). We include two state-of-the-
+followed by a linear decay to 0. We apply dropout (Srivastava             art graph-based models, AGGCN (Guo, Zhang, and Lu 2019)
+et al. 2014) between layers with rate 0.1, and clip the gradi-            and LSR (Nan et al. 2020), for comparison. The result of
+ents of model parameters to a max norm of 1.0. We perform                 AGGCN is from the re-implementation by Nan et al. (2020).
+early stopping based on the F1 score on the development set.              Transformer-based Models. These models directly adapt
+All hyper-parameters are tuned on the development set. We                 pre-trained language models to document-level RE with-
+list some of the hyper-parameters in Table 2.                             out using graph structures. They can be further divided into
+   For models that use a global threshold, we search threshold            pipeline models (BERT-TS (Wang et al. 2019a)), hierarchical
+values from {0.1, 0.2, ..., 0.9} and pick the one that maxi-              models (HIN-BERT (Tang et al. 2020a)), and pre-training
+mizes dev F1 . All models are trained with 1 Tesla V100 GPU.              methods (CorefBERT and CorefRoBERTa (Ye et al. 2020)).
+                                                                          We also include the BERT baseline (Wang et al. 2019a) and
+   1
+       https://github.com/NVIDIA/apex                                     our re-implemented BERT baseline in comparison.
+
+
+                                                                  14616

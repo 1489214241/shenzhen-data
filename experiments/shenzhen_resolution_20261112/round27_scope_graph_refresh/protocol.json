@@ -1,0 +1,40 @@
+{
+  "round": 27,
+  "arms": [
+    "round07",
+    "round12"
+  ],
+  "objectives": [
+    "micro_exact",
+    "balanced_exact"
+  ],
+  "labels": [
+    "ensemble",
+    "20261131",
+    "20261132",
+    "20261133",
+    "20261134",
+    "20261135",
+    "20261136",
+    "20261137",
+    "20261138",
+    "20261139",
+    "20261140"
+  ],
+  "defect": "Parser corrections updated scope observations but original-root prediction graphs still used round03 expressions.",
+  "intervention": "Rebuild all202scope graphs; one new direct inclusion, zero removed. Apply only to original raw_school_ids union positive_lower_bound saved before any graph or policy expansion.",
+  "source": "2026 official Longgang primary guide page9: Shanghai International Studies affiliated school scope equals Ailian primary scope branch2.",
+  "root_preservation": "Do not trigger from previous policy additions, road supplements, community supplements or graph additions. No new transitive closure.",
+  "university": "Existing university/eligibility/pending exclusions unchanged; no new university-wide expansion.",
+  "training_steps": 0,
+  "model_probabilities_unchanged": true,
+  "model_references_unchanged": true,
+  "thresholds_unchanged": true,
+  "original_root_correctness_unknown": true,
+  "complete_school_set": false,
+  "enrollment_eligibility": false,
+  "target_gold_read": false,
+  "target_polygon_read": false,
+  "independent_validation": false,
+  "adopted": false
+}

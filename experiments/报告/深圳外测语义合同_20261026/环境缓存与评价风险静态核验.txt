@@ -1,0 +1,41 @@
+深圳环境缓存与完整名册评价风险：静态核验
+
+本文件记录既有来源与源码证据，不创建新评价目标，不执行目标特征、预测、Gold、训练或评分。
+
+一、环境缓存
+龙华原始缓存：深圳龙华_历史基线/data/full_district/sources/tile_0.json 至 tile_3.json；各有 tile_i_receipt.json。
+四份原始 SHA 与收据全部相符。请求历史快照 2026-09-20T05:00:00Z；下载 2026-09-23。查询为全部 highway/railway/waterway way，out tags geom。
+联合下载范围 WGS84：[113.95171457884109,22.57497146807287,114.11819522710856,22.783622130353663]，顺序西南东北。
+24305 条 way 出现，23893 个唯一 ID，412 次重复内容完全一致；全部有有序 geometry，无 node 记录、nodes 引用、way version 或逐 way timestamp。
+几何延伸到下载框外不扩大已核验覆盖范围。已有瓦片不能建立福田/南山完整环境覆盖；未计算任何目标点或参照连线覆盖率。
+深圳全市请求记录均失败。旧 osm_longhua_roads.json 仅 3 字节 BOM；另有 19707 条派生线 GeoJSON，但无完整下载框/日期收据嵌入。
+有界文件名检索未发现完整福田/南山环境包；一个无关临时目录不可访问，不作全盘穷尽声明。
+
+二、49 提取器复用边界
+现有 runner 固定长沙目录、四区输入、XML node-ref 格式和 EPSG:32649，不能直接运行深圳。
+纯 X/M 所需为原六列 qq_cross；无需 E/57 的共享 node 拓扑。可另建几何适配器，但须保留原道路分类、2 km、非自身、整段覆盖、不完整线 envelope 掩码与 Shapely crosses。
+旧 JSON 缺节点身份不能伪造连接。深圳 EPSG:32650 投影适配也须预先声明，未证明其与现有脚本数值等价。
+本轮没有实现或运行适配器。
+
+三、74/78 有效面计数已经应用实际边界 override
+audit_acquired_pairs.py 第20行建立 ORG_ID→override，第28行优先选 override，第30–39行才检查有效性。字段 valid_original_boundary 的名字不能理解为仅原 MAPDATA。
+福田官方 mousemove 命中代码第315–319行同样优先 sjbjxx 实际边界；显示高亮层的行为另见既有语义审计。
+福田 override 两项：皇岗小学 496FFFE16E365558E053BC09A8C0A5ED；荔园外国语小学（水围）496FFFE16E385558E053BC09A8C0A5ED。南山没有 override。
+这两个键与以下6个未有效面学校完全不重叠。6校原 MAPDATA 均非空；缺口是既有 Self-intersection 判定，不是原文中没有边界。
+源序为0起始；未解析 MAPDATA 字符串或重新计算几何有效性。
+
+福田区 | 源序 1 | 496FFFE16E1B5558E053BC09A8C0A5ED | 福田区园岭教育集团园岭小学 | Self-intersection | override=无 | XQ缺失=False
+福田区 | 源序 15 | 496FFFE16E405558E053BC09A8C0A5ED | 福田区梅林小学 | Self-intersection | override=无 | XQ缺失=False
+福田区 | 源序 37 | 496FFFE16E515558E053BC09A8C0A5ED | 福田区梅山小学 | Self-intersection | override=无 | XQ缺失=False
+福田区 | 源序 77 | 496FFFE16E345558E053BC09A8C0A5ED | 福田中学教育集团福南小学 | Self-intersection | override=无 | XQ缺失=False
+南山区 | 源序 46 | 496FFFE16D8B5558E053BC09A8C0A5ED | 南山区卓雅小学 | Self-intersection | override=无 | XQ缺失=False
+南山区 | 源序 79 | fdd389daa0fe40ea8c04e2eee66d6f9a | 南山实验教育集团明远学校（小学部） | Self-intersection | override=无 | XQ缺失=True
+
+现有官方福田静态图有来源清单，但已查阅记录没有为这6校登记经过核定的逐校替代；本轮未解读图像、矢量化或修复。不得据此宣称今后永远找不到替代。
+
+四、推理前必须公开的瓶颈
+完整78/80学校名册上的逐点完整归属集合尚未建立。6个无效面在应用官网 override 后仍未核定，不能当成空范围、负例或默默从名册排除。
+73/75 是有文本、有效面且无指定行政词义歧义的图文配对子集；其评价不能直接声称 full158 完整 exact-set 正确率。
+输入侧保留 full158；评价受限与未知关系必须在任何推理前披露。本轮不另设计评价目标或评价器。
+
+机器可读详情、逐文件SHA、完整query与静态源码行见 environment_evaluation_static_audit.json。
