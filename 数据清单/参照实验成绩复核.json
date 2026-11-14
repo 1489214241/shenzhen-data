@@ -1,0 +1,381 @@
+{
+  "passed": true,
+  "scope": "Frozen scoring, reference costs and group isolation; not retraining",
+  "results": {
+    "fixed512": {
+      "augmented_frozen_raw": {
+        "n": 1249,
+        "correct": 488,
+        "exact_percent": 39.07125700560449
+      },
+      "augmented_frozen_policy": {
+        "n": 1249,
+        "correct": 735,
+        "exact_percent": 58.847077662129706
+      },
+      "nearest_raw": {
+        "n": 1249,
+        "correct": 945,
+        "exact_percent": 75.6605284227382
+      },
+      "nearest_policy": {
+        "n": 1249,
+        "correct": 905,
+        "exact_percent": 72.45796637309847
+      },
+      "categorical_tuned_raw": {
+        "n": 1249,
+        "correct": 499,
+        "exact_percent": 39.9519615692554
+      },
+      "categorical_tuned_policy": {
+        "n": 1249,
+        "correct": 748,
+        "exact_percent": 59.88791032826261
+      },
+      "complete_tuned_raw": {
+        "n": 1249,
+        "correct": 991,
+        "exact_percent": 79.34347477982386
+      },
+      "complete_tuned_policy": {
+        "n": 1249,
+        "correct": 952,
+        "exact_percent": 76.22097678142514
+      },
+      "archived_current_context": {
+        "n": 1249,
+        "correct": 660,
+        "exact_percent": 52.842273819055244
+      }
+    },
+    "school_gap": {
+      "1": {
+        "additional_unique_verifications": 84,
+        "natural": {
+          "modern_frozen_raw": {
+            "n": 1248,
+            "correct": 373,
+            "exact_percent": 29.887820512820515
+          },
+          "modern_frozen_policy": {
+            "n": 1248,
+            "correct": 602,
+            "exact_percent": 48.23717948717949
+          },
+          "nearest_raw": {
+            "n": 1248,
+            "correct": 402,
+            "exact_percent": 32.21153846153846
+          },
+          "nearest_policy": {
+            "n": 1248,
+            "correct": 396,
+            "exact_percent": 31.73076923076923
+          },
+          "modern_tuned_raw": {
+            "n": 1248,
+            "correct": 361,
+            "exact_percent": 28.92628205128205
+          },
+          "modern_tuned_policy": {
+            "n": 1248,
+            "correct": 587,
+            "exact_percent": 47.03525641025641
+          },
+          "complete_tuned_raw": {
+            "n": 1248,
+            "correct": 426,
+            "exact_percent": 34.13461538461539
+          },
+          "complete_tuned_policy": {
+            "n": 1248,
+            "correct": 420,
+            "exact_percent": 33.65384615384615
+          },
+          "complete_with_fallback_raw": {
+            "n": 1248,
+            "correct": 361,
+            "exact_percent": 28.92628205128205
+          },
+          "complete_with_fallback_policy": {
+            "n": 1248,
+            "correct": 587,
+            "exact_percent": 47.03525641025641
+          }
+        },
+        "common": {
+          "modern_frozen_raw": {
+            "n": 1095,
+            "correct": 329,
+            "exact_percent": 30.04566210045662
+          },
+          "modern_frozen_policy": {
+            "n": 1095,
+            "correct": 533,
+            "exact_percent": 48.67579908675799
+          },
+          "nearest_raw": {
+            "n": 1095,
+            "correct": 325,
+            "exact_percent": 29.680365296803654
+          },
+          "nearest_policy": {
+            "n": 1095,
+            "correct": 319,
+            "exact_percent": 29.1324200913242
+          },
+          "modern_tuned_raw": {
+            "n": 1095,
+            "correct": 314,
+            "exact_percent": 28.67579908675799
+          },
+          "modern_tuned_policy": {
+            "n": 1095,
+            "correct": 514,
+            "exact_percent": 46.94063926940639
+          },
+          "complete_tuned_raw": {
+            "n": 1095,
+            "correct": 344,
+            "exact_percent": 31.41552511415525
+          },
+          "complete_tuned_policy": {
+            "n": 1095,
+            "correct": 338,
+            "exact_percent": 30.8675799086758
+          },
+          "complete_with_fallback_raw": {
+            "n": 1095,
+            "correct": 314,
+            "exact_percent": 28.67579908675799
+          },
+          "complete_with_fallback_policy": {
+            "n": 1095,
+            "correct": 514,
+            "exact_percent": 46.94063926940639
+          }
+        }
+      },
+      "2": {
+        "additional_unique_verifications": 167,
+        "natural": {
+          "modern_frozen_raw": {
+            "n": 1171,
+            "correct": 371,
+            "exact_percent": 31.682322801024764
+          },
+          "modern_frozen_policy": {
+            "n": 1171,
+            "correct": 591,
+            "exact_percent": 50.469684030742954
+          },
+          "nearest_raw": {
+            "n": 1171,
+            "correct": 454,
+            "exact_percent": 38.770281810418446
+          },
+          "nearest_policy": {
+            "n": 1171,
+            "correct": 444,
+            "exact_percent": 37.916310845431255
+          },
+          "modern_tuned_raw": {
+            "n": 1171,
+            "correct": 398,
+            "exact_percent": 33.98804440649018
+          },
+          "modern_tuned_policy": {
+            "n": 1171,
+            "correct": 624,
+            "exact_percent": 53.287788215200685
+          },
+          "complete_tuned_raw": {
+            "n": 1171,
+            "correct": 497,
+            "exact_percent": 42.44235695986337
+          },
+          "complete_tuned_policy": {
+            "n": 1171,
+            "correct": 487,
+            "exact_percent": 41.58838599487618
+          },
+          "complete_with_fallback_raw": {
+            "n": 1171,
+            "correct": 423,
+            "exact_percent": 36.122971818958156
+          },
+          "complete_with_fallback_policy": {
+            "n": 1171,
+            "correct": 645,
+            "exact_percent": 55.081127241673784
+          }
+        },
+        "common": {
+          "modern_frozen_raw": {
+            "n": 1095,
+            "correct": 345,
+            "exact_percent": 31.506849315068493
+          },
+          "modern_frozen_policy": {
+            "n": 1095,
+            "correct": 551,
+            "exact_percent": 50.31963470319635
+          },
+          "nearest_raw": {
+            "n": 1095,
+            "correct": 407,
+            "exact_percent": 37.1689497716895
+          },
+          "nearest_policy": {
+            "n": 1095,
+            "correct": 398,
+            "exact_percent": 36.34703196347032
+          },
+          "modern_tuned_raw": {
+            "n": 1095,
+            "correct": 365,
+            "exact_percent": 33.333333333333336
+          },
+          "modern_tuned_policy": {
+            "n": 1095,
+            "correct": 577,
+            "exact_percent": 52.694063926940636
+          },
+          "complete_tuned_raw": {
+            "n": 1095,
+            "correct": 445,
+            "exact_percent": 40.63926940639269
+          },
+          "complete_tuned_policy": {
+            "n": 1095,
+            "correct": 436,
+            "exact_percent": 39.817351598173516
+          },
+          "complete_with_fallback_raw": {
+            "n": 1095,
+            "correct": 387,
+            "exact_percent": 35.342465753424655
+          },
+          "complete_with_fallback_policy": {
+            "n": 1095,
+            "correct": 595,
+            "exact_percent": 54.337899543378995
+          }
+        }
+      },
+      "3": {
+        "additional_unique_verifications": 255,
+        "natural": {
+          "modern_frozen_raw": {
+            "n": 1095,
+            "correct": 350,
+            "exact_percent": 31.963470319634702
+          },
+          "modern_frozen_policy": {
+            "n": 1095,
+            "correct": 558,
+            "exact_percent": 50.95890410958904
+          },
+          "nearest_raw": {
+            "n": 1095,
+            "correct": 488,
+            "exact_percent": 44.5662100456621
+          },
+          "nearest_policy": {
+            "n": 1095,
+            "correct": 478,
+            "exact_percent": 43.65296803652968
+          },
+          "modern_tuned_raw": {
+            "n": 1095,
+            "correct": 362,
+            "exact_percent": 33.05936073059361
+          },
+          "modern_tuned_policy": {
+            "n": 1095,
+            "correct": 575,
+            "exact_percent": 52.51141552511415
+          },
+          "complete_tuned_raw": {
+            "n": 1095,
+            "correct": 521,
+            "exact_percent": 47.57990867579909
+          },
+          "complete_tuned_policy": {
+            "n": 1095,
+            "correct": 511,
+            "exact_percent": 46.666666666666664
+          },
+          "complete_with_fallback_raw": {
+            "n": 1095,
+            "correct": 493,
+            "exact_percent": 45.02283105022831
+          },
+          "complete_with_fallback_policy": {
+            "n": 1095,
+            "correct": 627,
+            "exact_percent": 57.26027397260274
+          }
+        },
+        "common": {
+          "modern_frozen_raw": {
+            "n": 1095,
+            "correct": 350,
+            "exact_percent": 31.963470319634702
+          },
+          "modern_frozen_policy": {
+            "n": 1095,
+            "correct": 558,
+            "exact_percent": 50.95890410958904
+          },
+          "nearest_raw": {
+            "n": 1095,
+            "correct": 488,
+            "exact_percent": 44.5662100456621
+          },
+          "nearest_policy": {
+            "n": 1095,
+            "correct": 478,
+            "exact_percent": 43.65296803652968
+          },
+          "modern_tuned_raw": {
+            "n": 1095,
+            "correct": 362,
+            "exact_percent": 33.05936073059361
+          },
+          "modern_tuned_policy": {
+            "n": 1095,
+            "correct": 575,
+            "exact_percent": 52.51141552511415
+          },
+          "complete_tuned_raw": {
+            "n": 1095,
+            "correct": 521,
+            "exact_percent": 47.57990867579909
+          },
+          "complete_tuned_policy": {
+            "n": 1095,
+            "correct": 511,
+            "exact_percent": 46.666666666666664
+          },
+          "complete_with_fallback_raw": {
+            "n": 1095,
+            "correct": 493,
+            "exact_percent": 45.02283105022831
+          },
+          "complete_with_fallback_policy": {
+            "n": 1095,
+            "correct": 627,
+            "exact_percent": 57.26027397260274
+          }
+        }
+      }
+    },
+    "zero_new_reference_control": {
+      "n": 1095,
+      "correct": 509,
+      "exact_percent": 46.48401826484018
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-14",
+  "targets": [
+    1,
+    2,
+    3
+  ],
+  "seeds": [
+    20261231,
+    20261232,
+    20261233
+  ],
+  "selection_seed": 20261231,
+  "policy": "Existing verified references count toward per-school TOTAL1/2/3; missing schools first; not extraKper school.",
+  "verified": "Only positive textual_proof rows in frozen evidence ledger count. Distinct public building/name groups; weak estimates do not count. Partial positives remain partial, not complete sets.",
+  "sampling": "Explicit Gold oracle simulates asking each deficient school for a reference. Schools alphabetical; fixed random candidate order; no set-cover lookahead. Full set released only for selected site. Same project selected and billed once; targets nested.",
+  "no_free_completion": "Existing partial points are not converted to complete labels for free. If selected for another missing school they incur one full-set verification cost.",
+  "gaps": "No candidate -> preserve deficit; no fabricated support. Gold-simulated success does not prove official/manual acquisition is possible.",
+  "cohort": "Original1761map-hit cohort. Exclude EVERY existing model reference group, every added textual reference group and newly verified project group from scoring.",
+  "primary_queries": "Intersection of remaining unknowns across all three targets, fixed before fitting. Also report each budget natural remaining cohort separately.",
+  "model": "Reuse previous Modern complete-reference architecture, weights, feature blocks and training hyperparameters. Include all391verified partial relations in every arm; preserve older weak refs as estimates.",
+  "fit": {
+    "lr": 0.0003,
+    "reg": 0.001,
+    "checkpoints": [
+      0,
+      20,
+      40,
+      80
+    ],
+    "batch": 32,
+    "clip": 5,
+    "geo_scale_m": 300
+  },
+  "validation": "Seeded20percent selected project groups per district, complete labels withheld from tuning references. Per-method per-seed checkpoint selected by policy exact, fewerFP, earlierstep. No query-label tuning. If no legal full-set training targets, freeze at0.",
+  "routing": "Additional low-budget safety control: validation-only distance switch between complete branch and SAME-fit categorical output; grid0/300/600/1000/infinity metres. No new school labels.",
+  "arms": [
+    "modern_frozen",
+    "modern_tuned",
+    "nearest",
+    "complete_tuned",
+    "complete_with_fallback"
+  ],
+  "scoring": "Raw and identical existing policy processing; exactset, per-district,single/multi,FP/FN,corrected/harmed and district1km paired bootstrap2000; all semantic-pending points retained.",
+  "predeclared_primary": "K1 complete_tuned_policy minus modern_tuned_policy and nearest_policy on common queries; K2/K3 and fallback are secondary.",
+  "limitations": [
+    "Prior512point results seen; current geographic snapshot is development data.",
+    "School-stratified Gold selection is label-aware simulation, not label-blind acquisition.",
+    "Three seeds are neural initializations, not independent query splits.",
+    "Existing official text facts and map Gold can disagree; count policy facts without Gold-based correction."
+  ],
+  "adopted": false,
+  "independent_validation": false
+}

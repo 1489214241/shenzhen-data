@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-14",
+  "status": "development only; not adopted",
+  "seeds": [
+    20261231,
+    20261232,
+    20261233
+  ],
+  "budget_per_district": 256,
+  "selection_seed": 20261231,
+  "coverage_scale_m": 500,
+  "selection": "Greedy facility location, sum(exp(-distance/500m)); coordinates only; existing1761map-hit cohort fixed before selection.",
+  "oracle": "Selected Gold simulates complete verification. No claim of actual512manual verifications or real eligibility truth.",
+  "exclusion": "Public building-ID/normalized-name connected components. Own entire group excluded from every reference path, context and training-validation split.",
+  "validation": "20percent of selected public groups, label-blind seed split; these complete labels never enter tuning reference pool. All query labels sealed until prediction freeze.",
+  "model": "Existing ModernNCA-LN categorical weights; all original road/policy/community/school features retained; new complete refs encoded with same41pair features. Full-set branch aggregates same token affinities by complete reference set, plus nearest-set spatial prior.",
+  "incomplete": "Old partial refs retain observed positives only. No new negative labels inferred from partial positives. Complete selected support labels only supply finetuning targets.",
+  "arms": [
+    "archived_current_context",
+    "nearest_raw",
+    "nearest_policy",
+    "augmented_frozen_raw",
+    "augmented_frozen_policy",
+    "categorical_tuned_raw",
+    "categorical_tuned_policy",
+    "complete_tuned_raw",
+    "complete_tuned_policy"
+  ],
+  "primary": "complete_tuned_policy vs nearest_policy and categorical_tuned_policy; raw arms secondary. Archived current is contextual only, not same isolation/input control.",
+  "fit": {
+    "lr": 0.0003,
+    "reg": 0.001,
+    "checkpoints": [
+      0,
+      20,
+      40,
+      80
+    ],
+    "batch": 32,
+    "clip": 5,
+    "geo_scale_m": 300
+  },
+  "hyperparameters": "Single predefined lr/reg; select checkpoint by complete-set exact on released support validation, then fewerFP, earlier step. Three initial checkpoints selected independently; no query-label tuning.",
+  "candidate_sets": "Full sets observed in tuning/final support pool plus singletons; only sets with legal complete reference can be selected by full-set branch. Unseen query combinations count as errors.",
+  "policy": "Same existing policy decoder for every policy arm; no university member expansion; original partial positives and reviewed supplements preserved. Raw complete sets estimate frozen map membership, not enrollment entitlement.",
+  "scoring": "Same unknown1249points for all primary methods; exact fullset, districts, single/multi, FP/FN, corrected/harmed and paired district1km bootstrap2000.",
+  "limitations": [
+    "New local selection differs from external report; not reproduction of75.74percent.",
+    "Pretrained models have seen legal partial policy facts from target area.",
+    "No unseen-city/time validation; target geography already explored.",
+    "Name grouping may conservatively merge phases; coordinates alone do not prove common catchment."
+  ]
+}

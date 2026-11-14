@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "budgets": {
+    "龙华区": {
+      "1": {
+        "new_unique_verifications": 33,
+        "schools_with_gap": 0,
+        "query_natural": 526,
+        "query_common": 460
+      },
+      "2": {
+        "new_unique_verifications": 66,
+        "schools_with_gap": 1,
+        "query_natural": 497,
+        "query_common": 460
+      },
+      "3": {
+        "new_unique_verifications": 101,
+        "schools_with_gap": 2,
+        "query_natural": 460,
+        "query_common": 460
+      }
+    },
+    "龙岗区": {
+      "1": {
+        "new_unique_verifications": 51,
+        "schools_with_gap": 2,
+        "query_natural": 722,
+        "query_common": 635
+      },
+      "2": {
+        "new_unique_verifications": 101,
+        "schools_with_gap": 13,
+        "query_natural": 674,
+        "query_common": 635
+      },
+      "3": {
+        "new_unique_verifications": 154,
+        "schools_with_gap": 16,
+        "query_natural": 635,
+        "query_common": 635
+      }
+    }
+  },
+  "nearest_predictions_replayed": 3514,
+  "all_methods_independently_scored": true,
+  "all_reference_project_groups_excluded_from_queries": true,
+  "nested_budget_lists": true,
+  "partial_policy_facts_not_promoted_to_complete": true,
+  "independent_geography_validation": false
+}

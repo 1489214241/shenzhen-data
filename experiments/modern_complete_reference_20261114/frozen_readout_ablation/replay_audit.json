@@ -1,0 +1,32 @@
+{
+  "龙华区": {
+    "fitted_predictions_replayed": true,
+    "queries": 371,
+    "learned_set_weights": {
+      "frozen_complete/20261231": 0.10000000149011612,
+      "frozen_complete/20261232": 0.10000000149011612,
+      "frozen_complete/20261233": 0.10000000149011612,
+      "complete/20261231": 0.10244806855916977,
+      "complete/20261232": 0.10247548669576645,
+      "complete/20261233": 0.10123103111982346,
+      "categorical/20261231": 0.10251542925834656,
+      "categorical/20261232": 0.100613534450531,
+      "categorical/20261233": 0.10000000149011612
+    }
+  },
+  "龙岗区": {
+    "fitted_predictions_replayed": true,
+    "queries": 878,
+    "learned_set_weights": {
+      "frozen_complete/20261231": 0.10000000149011612,
+      "frozen_complete/20261232": 0.10000000149011612,
+      "frozen_complete/20261233": 0.10000000149011612,
+      "complete/20261231": 0.10250537097454071,
+      "complete/20261232": 0.10060453414916992,
+      "complete/20261233": 0.10061163455247879,
+      "categorical/20261231": 0.10121338814496994,
+      "categorical/20261232": 0.10060149431228638,
+      "categorical/20261233": 0.10060165822505951
+    }
+  }
+}

@@ -1,0 +1,2632 @@
+[
+  {
+    "query": "bd09:6490326f846bfb4978a010a3",
+    "reference": "bd09:14aa1d475f09f72a0d616def",
+    "distance_m": 232.67305622895304
+  },
+  {
+    "query": "bd09:9d3134b8f9ca0e6b613f51c7",
+    "reference": "bd09:cfa12ade59377e03156acf9c",
+    "distance_m": 541.2346216412884
+  },
+  {
+    "query": "bd09:a46f1ceaf63c0c3bf3eb6afd",
+    "reference": "bd09:135d55c0422c8dba74d6c718",
+    "distance_m": 1614.1332970365377
+  },
+  {
+    "query": "bd09:52eb9d68fb6607c2e70dc22f",
+    "reference": "bd09:83d89ebbf86d0d6f4d930da2",
+    "distance_m": 212.0696606813151
+  },
+  {
+    "query": "bd09:2a92e84e85ecb56d93c8d45e",
+    "reference": "bd09:4223034b5679182043595be6",
+    "distance_m": 504.77443062149314
+  },
+  {
+    "query": "bd09:8125055bda8a3500dfc8e305",
+    "reference": "bd09:f6d5366111cd377f35eda582",
+    "distance_m": 434.54877528636007
+  },
+  {
+    "query": "bd09:8e5ae0368ce25359ecbc21be",
+    "reference": "bd09:fa42419aa0bbecd0018d2523",
+    "distance_m": 304.3815875616269
+  },
+  {
+    "query": "bd09:95a929bdf8d74ed6dbb1008d",
+    "reference": "bd09:4c25ec2de0319a9921997434",
+    "distance_m": 176.286515647686
+  },
+  {
+    "query": "bd09:2be31bbfca47a6311972a03b",
+    "reference": "bd09:fa42419aa0bbecd0018d2523",
+    "distance_m": 500.0547831532355
+  },
+  {
+    "query": "bd09:7dcaff287242529e3f7c31ab",
+    "reference": "bd09:4223034b5679182043595be6",
+    "distance_m": 574.147265486821
+  },
+  {
+    "query": "bd09:1763f65fee2e27105a7aa016",
+    "reference": "bd09:4c25ec2de0319a9921997434",
+    "distance_m": 535.0418962424563
+  },
+  {
+    "query": "bd09:a83d6966005af76918a2ebaa",
+    "reference": "bd09:eca6d8b343f8f9663e6a4cee",
+    "distance_m": 587.4977624324794
+  },
+  {
+    "query": "bd09:06aeb32eeed37183f7ab361f",
+    "reference": "bd09:d908fa21d9a8e8df745b0fa6",
+    "distance_m": 731.7055860301346
+  },
+  {
+    "query": "bd09:9a63ff699b742585334bb586",
+    "reference": "bd09:cfa12ade59377e03156acf9c",
+    "distance_m": 654.8577495064652
+  },
+  {
+    "query": "bd09:71ab3986b996d69f50c28d20",
+    "reference": "bd09:fa42419aa0bbecd0018d2523",
+    "distance_m": 803.1987104894791
+  },
+  {
+    "query": "bd09:d8fea9090be2f00dc9dd2095",
+    "reference": "bd09:fa42419aa0bbecd0018d2523",
+    "distance_m": 198.3583037291718
+  },
+  {
+    "query": "bd09:e4d0bda6ec20e5bfc279342f",
+    "reference": "bd09:c699d68c87f5ba44d3bee802",
+    "distance_m": 1109.945410344385
+  },
+  {
+    "query": "bd09:33e53a0c15cb4f656cbee7b0",
+    "reference": "bd09:4c25ec2de0319a9921997434",
+    "distance_m": 653.5796697283694
+  },
+  {
+    "query": "bd09:ba9ed9c2780916508160be7e",
+    "reference": "bd09:cfa12ade59377e03156acf9c",
+    "distance_m": 400.58895837458516
+  },
+  {
+    "query": "bd09:989d449b87fb5c488677aad4",
+    "reference": "bd09:83d89ebbf86d0d6f4d930da2",
+    "distance_m": 601.8701433763459
+  },
+  {
+    "query": "bd09:503a511bba578a9f1b3ead4f",
+    "reference": "bd09:c699d68c87f5ba44d3bee802",
+    "distance_m": 409.7085735405103
+  },
+  {
+    "query": "bd09:7da1b6f0b3cedfdd77a73302",
+    "reference": "bd09:d908fa21d9a8e8df745b0fa6",
+    "distance_m": 610.944579884748
+  },
+  {
+    "query": "bd09:55bb0d610d103fbac659602d",
+    "reference": "bd09:d908fa21d9a8e8df745b0fa6",
+    "distance_m": 885.6362416921727
+  },
+  {
+    "query": "bd09:9d8f500e49edcdf20f777405",
+    "reference": "bd09:83d89ebbf86d0d6f4d930da2",
+    "distance_m": 458.529180749027
+  },
+  {
+    "query": "bd09:474f118d22e776ccd2782c4f",
+    "reference": "bd09:eca6d8b343f8f9663e6a4cee",
+    "distance_m": 572.3638767016303
+  },
+  {
+    "query": "bd09:bbb08e2925f6f92440ca022d",
+    "reference": "bd09:4c25ec2de0319a9921997434",
+    "distance_m": 370.94027715006035
+  },
+  {
+    "query": "bd09:26ad1b5a94c67011231a05a6",
+    "reference": "bd09:0953fc9d1162a1a21cecd845",
+    "distance_m": 428.0178418650416
+  },
+  {
+    "query": "bd09:3628ace2c96339a56e6109f9",
+    "reference": "bd09:a10842840a7cc3dc206e8380",
+    "distance_m": 580.5470178610962
+  },
+  {
+    "query": "bd09:107e1f652b5f477da9501dca",
+    "reference": "bd09:cfa12ade59377e03156acf9c",
+    "distance_m": 613.9738572815698
+  },
+  {
+    "query": "bd09:b6c3d9c1acbfbd17d73a8a48",
+    "reference": "bd09:770f66e783361a83bef73d33",
+    "distance_m": 575.7702266437074
+  },
+  {
+    "query": "bd09:725e2a62fe51a71713c85c20",
+    "reference": "bd09:83d89ebbf86d0d6f4d930da2",
+    "distance_m": 267.93829141257504
+  },
+  {
+    "query": "bd09:51b93bf11ad630885d2f53d9",
+    "reference": "bd09:eca6d8b343f8f9663e6a4cee",
+    "distance_m": 523.1644179653007
+  },
+  {
+    "query": "bd09:b741fa9770917a7cc892d0ea",
+    "reference": "bd09:fa42419aa0bbecd0018d2523",
+    "distance_m": 463.1723661874445
+  },
+  {
+    "query": "bd09:5ab7a5d2cffce178ae72b93d",
+    "reference": "bd09:57f44de0fc13e944c5f2847a",
+    "distance_m": 157.88262145713736
+  },
+  {
+    "query": "bd09:4133dea034c63e64fe977d20",
+    "reference": "bd09:83d89ebbf86d0d6f4d930da2",
+    "distance_m": 174.9160923571144
+  },
+  {
+    "query": "bd09:c1489c43144115ebab401148",
+    "reference": "bd09:fa42419aa0bbecd0018d2523",
+    "distance_m": 359.3042539383908
+  },
+  {
+    "query": "bd09:6b8870f94be130b5fbe22858",
+    "reference": "bd09:57f44de0fc13e944c5f2847a",
+    "distance_m": 519.7646130636574
+  },
+  {
+    "query": "bd09:f1bb54c74ee618da6c94b4e7",
+    "reference": "bd09:d908fa21d9a8e8df745b0fa6",
+    "distance_m": 780.5742457411235
+  },
+  {
+    "query": "bd09:eafaffccb5dcf89aa2496443",
+    "reference": "bd09:c699d68c87f5ba44d3bee802",
+    "distance_m": 268.4811549766008
+  },
+  {
+    "query": "bd09:f16ac7256ac9879de81823a6",
+    "reference": "bd09:3fd5a3a0ce547412f8430aa7",
+    "distance_m": 369.4988332117953
+  },
+  {
+    "query": "bd09:2b71605d904880440d911e6b",
+    "reference": "bd09:d908fa21d9a8e8df745b0fa6",
+    "distance_m": 1150.856322012229
+  },
+  {
+    "query": "bd09:d68f97cdf39d7c5d9a6e9901",
+    "reference": "bd09:eca6d8b343f8f9663e6a4cee",
+    "distance_m": 289.4408092187963
+  },
+  {
+    "query": "bd09:b591bda72e58314034affa53",
+    "reference": "bd09:fa42419aa0bbecd0018d2523",
+    "distance_m": 956.3944569546534
+  },
+  {
+    "query": "bd09:2bab0c34a6fa3930b34ab3f5",
+    "reference": "bd09:d908fa21d9a8e8df745b0fa6",
+    "distance_m": 983.5302057580144
+  },
+  {
+    "query": "bd09:e452eab502c56e33a81a729d",
+    "reference": "bd09:57f44de0fc13e944c5f2847a",
+    "distance_m": 158.5775272961605
+  },
+  {
+    "query": "bd09:7e3dfca8b2deae5e3f6c2843",
+    "reference": "bd09:fa42419aa0bbecd0018d2523",
+    "distance_m": 621.1088256733797
+  },
+  {
+    "query": "bd09:f3e7e7870e9e616a4947519f",
+    "reference": "bd09:4c25ec2de0319a9921997434",
+    "distance_m": 448.8577547001674
+  },
+  {
+    "query": "bd09:fc1ad0b2d4c9320b9d3eceed",
+    "reference": "bd09:13b4aa8c61923ba9278e45b0",
+    "distance_m": 621.7876363484465
+  },
+  {
+    "query": "bd09:67ec9238e0164fc02d3f7b99",
+    "reference": "bd09:c699d68c87f5ba44d3bee802",
+    "distance_m": 868.5261034676921
+  },
+  {
+    "query": "bd09:12bb2ef705a6616b3f33fbae",
+    "reference": "bd09:83d89ebbf86d0d6f4d930da2",
+    "distance_m": 271.62097045633595
+  },
+  {
+    "query": "bd09:ea9e28777c54dfe2ef0dd911",
+    "reference": "bd09:c699d68c87f5ba44d3bee802",
+    "distance_m": 637.628785929017
+  },
+  {
+    "query": "bd09:e0fe236f63372dd9ccf965e1",
+    "reference": "bd09:4c25ec2de0319a9921997434",
+    "distance_m": 91.22793857868206
+  },
+  {
+    "query": "bd09:d3162403d789266b34085134",
+    "reference": "bd09:135d55c0422c8dba74d6c718",
+    "distance_m": 1704.2210376332848
+  },
+  {
+    "query": "bd09:d2e068dd81ad37c48b4269d0",
+    "reference": "bd09:770f66e783361a83bef73d33",
+    "distance_m": 517.2048294223105
+  },
+  {
+    "query": "bd09:ac2bb8f25989a211c43ab03c",
+    "reference": "bd09:3cf8a0bfec454eed9187398f",
+    "distance_m": 1200.5969896277993
+  },
+  {
+    "query": "bd09:b912f42df0a90f67898fd8c9",
+    "reference": "bd09:2e09507dbdb4c44b27d1dc16",
+    "distance_m": 237.19760315063533
+  },
+  {
+    "query": "bd09:f9f5a16ec075cf1c28e50fda",
+    "reference": "bd09:13b4aa8c61923ba9278e45b0",
+    "distance_m": 915.0284224551722
+  },
+  {
+    "query": "bd09:f0a0fbf9004314c4d857c274",
+    "reference": "bd09:83d89ebbf86d0d6f4d930da2",
+    "distance_m": 187.29903832389928
+  },
+  {
+    "query": "bd09:19041fd783a9948aa6644042",
+    "reference": "bd09:244e27ce5ad06efbfa7c36f0",
+    "distance_m": 1301.0972451983257
+  },
+  {
+    "query": "bd09:2cb0f0007b5230a43ed7dbae",
+    "reference": "bd09:5187bdd9fec4c8f91f7dd939",
+    "distance_m": 459.4000879513093
+  },
+  {
+    "query": "bd09:c1486861cd17467ee9af8392",
+    "reference": "bd09:244e27ce5ad06efbfa7c36f0",
+    "distance_m": 782.2431531606768
+  },
+  {
+    "query": "bd09:1d0df02fe7f15d95f69a169b",
+    "reference": "bd09:f6d5366111cd377f35eda582",
+    "distance_m": 639.5614774514981
+  },
+  {
+    "query": "bd09:2fc2095f0cac910e056b5d9d",
+    "reference": "bd09:135d55c0422c8dba74d6c718",
+    "distance_m": 1406.059429855848
+  },
+  {
+    "query": "bd09:406074e9683fb889f626d2fa",
+    "reference": "bd09:244e27ce5ad06efbfa7c36f0",
+    "distance_m": 1270.6498445166458
+  },
+  {
+    "query": "bd09:528fb82f23db46c2f9c3382b",
+    "reference": "bd09:3eaf013e210e0faa7ff797d5",
+    "distance_m": 329.87677394285333
+  },
+  {
+    "query": "bd09:b8c6b07d3723316571495f58",
+    "reference": "bd09:14aa1d475f09f72a0d616def",
+    "distance_m": 495.1322613924495
+  },
+  {
+    "query": "bd09:b09a167a916aa998443a0812",
+    "reference": "bd09:d908fa21d9a8e8df745b0fa6",
+    "distance_m": 986.4349191099058
+  },
+  {
+    "query": "bd09:7fdf87e8a01199f4be926994",
+    "reference": "bd09:c699d68c87f5ba44d3bee802",
+    "distance_m": 495.7678785323226
+  },
+  {
+    "query": "bd09:bca974c9faf2f50625aadc30",
+    "reference": "bd09:4223034b5679182043595be6",
+    "distance_m": 366.6291693175905
+  },
+  {
+    "query": "bd09:1b62267b52ae9a8e696e6459",
+    "reference": "bd09:fa42419aa0bbecd0018d2523",
+    "distance_m": 178.12960330979413
+  },
+  {
+    "query": "bd09:8cf11ab9150cc9982fde2788",
+    "reference": "bd09:135d55c0422c8dba74d6c718",
+    "distance_m": 2256.7916439099895
+  },
+  {
+    "query": "bd09:32b436801a3dba37dc473bd6",
+    "reference": "bd09:cfa12ade59377e03156acf9c",
+    "distance_m": 293.67157410131153
+  },
+  {
+    "query": "bd09:9c06f759c6d4c095b0c18320",
+    "reference": "bd09:0953fc9d1162a1a21cecd845",
+    "distance_m": 219.4711789340332
+  },
+  {
+    "query": "bd09:68a13f3dd2330f3d102c7cab",
+    "reference": "bd09:c64edbaaf024794dfc536ef1",
+    "distance_m": 276.32927740273334
+  },
+  {
+    "query": "bd09:985b5dd21f1f2760c022076d",
+    "reference": "bd09:c699d68c87f5ba44d3bee802",
+    "distance_m": 869.2635086716657
+  },
+  {
+    "query": "bd09:059107eda33b9c12fa56f782",
+    "reference": "bd09:5187bdd9fec4c8f91f7dd939",
+    "distance_m": 303.8203116776584
+  },
+  {
+    "query": "bd09:57dcd28b17e8d6ae6c02022d",
+    "reference": "bd09:d908fa21d9a8e8df745b0fa6",
+    "distance_m": 774.9150497634823
+  },
+  {
+    "query": "bd09:2e396e553c0d72995e6f1b16",
+    "reference": "bd09:135d55c0422c8dba74d6c718",
+    "distance_m": 1333.9297368797052
+  },
+  {
+    "query": "bd09:cbb46a7ac9f3b5275c65912e",
+    "reference": "bd09:f6d5366111cd377f35eda582",
+    "distance_m": 960.8562943772763
+  },
+  {
+    "query": "bd09:e4c47acbfb7fa24746fd6b89",
+    "reference": "bd09:5187bdd9fec4c8f91f7dd939",
+    "distance_m": 101.68912768906841
+  },
+  {
+    "query": "bd09:0d9bfb5b500513506ca01263",
+    "reference": "bd09:3cf8a0bfec454eed9187398f",
+    "distance_m": 2537.2794350048343
+  },
+  {
+    "query": "bd09:fd0ad94435bcae797930bc52",
+    "reference": "bd09:1c45ca56f5276952427e1a83",
+    "distance_m": 556.532980786817
+  },
+  {
+    "query": "bd09:c50a336c9e040b0184687e77",
+    "reference": "bd09:244e27ce5ad06efbfa7c36f0",
+    "distance_m": 910.348672080757
+  },
+  {
+    "query": "bd09:2008ecc208a08bfb784324fd",
+    "reference": "bd09:b3ccbcabf2824d1b1248a463",
+    "distance_m": 3201.90675975615
+  },
+  {
+    "query": "bd09:45a9b1949294a7955afce9fa",
+    "reference": "bd09:f6d5366111cd377f35eda582",
+    "distance_m": 654.8840912744712
+  },
+  {
+    "query": "bd09:8e459a211319525d1dca9278",
+    "reference": "bd09:c699d68c87f5ba44d3bee802",
+    "distance_m": 1336.8904188180702
+  },
+  {
+    "query": "bd09:71994e0ee8e2363bb54533ec",
+    "reference": "bd09:135d55c0422c8dba74d6c718",
+    "distance_m": 2272.3184745473764
+  },
+  {
+    "query": "bd09:6ec140e83c01525c9bd8b29b",
+    "reference": "bd09:5187bdd9fec4c8f91f7dd939",
+    "distance_m": 402.3588946258738
+  },
+  {
+    "query": "bd09:c9aacfbcdfd2b103dae92fd7",
+    "reference": "bd09:135d55c0422c8dba74d6c718",
+    "distance_m": 1237.4822370866434
+  },
+  {
+    "query": "bd09:88e20a7bc2fdde568d582574",
+    "reference": "bd09:c699d68c87f5ba44d3bee802",
+    "distance_m": 1306.2318552729942
+  },
+  {
+    "query": "bd09:edc200088b00bdb3fecc249c",
+    "reference": "bd09:13b4aa8c61923ba9278e45b0",
+    "distance_m": 546.3385952203707
+  },
+  {
+    "query": "bd09:c05df89c8f8a74c89e47ee7d",
+    "reference": "bd09:770f66e783361a83bef73d33",
+    "distance_m": 463.1253872868809
+  },
+  {
+    "query": "bd09:76592068d8b40975b028b413",
+    "reference": "bd09:c699d68c87f5ba44d3bee802",
+    "distance_m": 650.4278199302374
+  },
+  {
+    "query": "bd09:e5e947bd9892afcf8868aa0d",
+    "reference": "bd09:046445ff13ba25cedc3c8d1c",
+    "distance_m": 1419.6311038128842
+  },
+  {
+    "query": "bd09:8f4f4324ebbe8a0b286a6975",
+    "reference": "bd09:cfa12ade59377e03156acf9c",
+    "distance_m": 646.3482096484913
+  },
+  {
+    "query": "bd09:a63e6d6be6c3d6962e7350cc",
+    "reference": "bd09:3eaf013e210e0faa7ff797d5",
+    "distance_m": 544.6672031013661
+  },
+  {
+    "query": "bd09:e2429d5f85373253cbe67ef8",
+    "reference": "bd09:135d55c0422c8dba74d6c718",
+    "distance_m": 2576.487380683255
+  },
+  {
+    "query": "bd09:f8f6ae5dc15d1f3517308dfc",
+    "reference": "bd09:5187bdd9fec4c8f91f7dd939",
+    "distance_m": 181.14952435396
+  },
+  {
+    "query": "bd09:26ee6634a9179609ba7b49d1",
+    "reference": "bd09:4a00cff21464eb18f0d3cc7b",
+    "distance_m": 760.5442454468024
+  },
+  {
+    "query": "bd09:2fd5ac7735ab81421041593c",
+    "reference": "bd09:5187bdd9fec4c8f91f7dd939",
+    "distance_m": 247.20671997654586
+  },
+  {
+    "query": "bd09:d81db3391da4997f8105cda6",
+    "reference": "bd09:4a00cff21464eb18f0d3cc7b",
+    "distance_m": 2486.647717829743
+  },
+  {
+    "query": "bd09:ff17b76d7df195b54325cf62",
+    "reference": "bd09:c699d68c87f5ba44d3bee802",
+    "distance_m": 926.3354265326149
+  },
+  {
+    "query": "bd09:124cdcd5bc3a73d6b7eb31a1",
+    "reference": "bd09:135d55c0422c8dba74d6c718",
+    "distance_m": 2079.897487620125
+  },
+  {
+    "query": "bd09:7cb7cc72a7cb5fc2bf2234b8",
+    "reference": "bd09:4a00cff21464eb18f0d3cc7b",
+    "distance_m": 2813.1541301994757
+  },
+  {
+    "query": "bd09:80327892ee00c4474969ec72",
+    "reference": "bd09:c699d68c87f5ba44d3bee802",
+    "distance_m": 295.9546723388246
+  },
+  {
+    "query": "bd09:20298d6ed9f6a94405ac8de8",
+    "reference": "bd09:135d55c0422c8dba74d6c718",
+    "distance_m": 2376.5809637874345
+  },
+  {
+    "query": "bd09:efdb836e64cd0bf64cf5583c",
+    "reference": "bd09:4223034b5679182043595be6",
+    "distance_m": 168.34528753168902
+  },
+  {
+    "query": "bd09:57bc510bb97d33ca95808325",
+    "reference": "bd09:244e27ce5ad06efbfa7c36f0",
+    "distance_m": 1535.4881438987316
+  },
+  {
+    "query": "bd09:21e4474cec9c2f775f861eb4",
+    "reference": "bd09:57f44de0fc13e944c5f2847a",
+    "distance_m": 506.8571867042837
+  },
+  {
+    "query": "bd09:85df736f36a167f3908224f2",
+    "reference": "bd09:135d55c0422c8dba74d6c718",
+    "distance_m": 1080.6485899343595
+  },
+  {
+    "query": "bd09:c7a753434b006d926a9ee85d",
+    "reference": "bd09:c64edbaaf024794dfc536ef1",
+    "distance_m": 367.3794796533018
+  },
+  {
+    "query": "bd09:e6cd117574bd2d25b208619f",
+    "reference": "bd09:046445ff13ba25cedc3c8d1c",
+    "distance_m": 931.0196350447563
+  },
+  {
+    "query": "bd09:291f1ddbde1d8dec37c1641c",
+    "reference": "bd09:135d55c0422c8dba74d6c718",
+    "distance_m": 1813.5266193878326
+  },
+  {
+    "query": "bd09:0a3ee300e30413f4f156d78a",
+    "reference": "bd09:244e27ce5ad06efbfa7c36f0",
+    "distance_m": 252.45162031000987
+  },
+  {
+    "query": "bd09:814f610ae5fd9d52041980a0",
+    "reference": "bd09:244e27ce5ad06efbfa7c36f0",
+    "distance_m": 340.12473241434384
+  },
+  {
+    "query": "bd09:21164d643a8512378b25bcfc",
+    "reference": "bd09:a34ec02d020bde8ecf399ea1",
+    "distance_m": 2132.5656455713197
+  },
+  {
+    "query": "bd09:c32dafede0c392a7b6fd397b",
+    "reference": "bd09:3eaf013e210e0faa7ff797d5",
+    "distance_m": 574.6778568382446
+  },
+  {
+    "query": "bd09:d5e18ffa90ff89423de4019c",
+    "reference": "bd09:135d55c0422c8dba74d6c718",
+    "distance_m": 2202.6868659475044
+  },
+  {
+    "query": "bd09:e90aee075db2a541a7eb1a42",
+    "reference": "bd09:3eaf013e210e0faa7ff797d5",
+    "distance_m": 375.1535392378659
+  },
+  {
+    "query": "bd09:48b3f3204f8e5f1d58e78a58",
+    "reference": "bd09:44522f9324feec2fb89de9e3",
+    "distance_m": 1943.5758029944486
+  },
+  {
+    "query": "bd09:1bea1a4988ba64a0260c4725",
+    "reference": "bd09:244e27ce5ad06efbfa7c36f0",
+    "distance_m": 936.2314219498312
+  },
+  {
+    "query": "bd09:5d9ab38eb239e36605d57981",
+    "reference": "bd09:a34ec02d020bde8ecf399ea1",
+    "distance_m": 1454.6452679423273
+  },
+  {
+    "query": "bd09:0151d66dd69d8b6da490491a",
+    "reference": "bd09:5187bdd9fec4c8f91f7dd939",
+    "distance_m": 206.34110479328876
+  },
+  {
+    "query": "bd09:b5ec9beb2509a4d66392832f",
+    "reference": "bd09:135d55c0422c8dba74d6c718",
+    "distance_m": 1865.4448122304411
+  },
+  {
+    "query": "bd09:ef35ee8be9c16b9ba131765c",
+    "reference": "bd09:4a00cff21464eb18f0d3cc7b",
+    "distance_m": 2738.027905362025
+  },
+  {
+    "query": "bd09:bcc70271aa6442eb23b44773",
+    "reference": "bd09:3eaf013e210e0faa7ff797d5",
+    "distance_m": 348.96522653200003
+  },
+  {
+    "query": "bd09:40b1c71b4e897b3c86990760",
+    "reference": "bd09:c699d68c87f5ba44d3bee802",
+    "distance_m": 802.5537435485156
+  },
+  {
+    "query": "bd09:f1c43bba2ab137e98e6a1258",
+    "reference": "bd09:f6d5366111cd377f35eda582",
+    "distance_m": 1112.4794506171902
+  },
+  {
+    "query": "bd09:937e9b63d3a1131c10b37b86",
+    "reference": "bd09:c699d68c87f5ba44d3bee802",
+    "distance_m": 957.2561902301086
+  },
+  {
+    "query": "bd09:9e10e9febaaf76161dbfa1ba",
+    "reference": "bd09:4c25ec2de0319a9921997434",
+    "distance_m": 634.1088882414724
+  },
+  {
+    "query": "bd09:b0f730ff5f5161312166b29c",
+    "reference": "bd09:4c25ec2de0319a9921997434",
+    "distance_m": 242.9019855973527
+  },
+  {
+    "query": "bd09:666718df18800435b5234a47",
+    "reference": "bd09:83d89ebbf86d0d6f4d930da2",
+    "distance_m": 838.877441309303
+  },
+  {
+    "query": "bd09:57c51fe5d58e96d899236b87",
+    "reference": "bd09:4a00cff21464eb18f0d3cc7b",
+    "distance_m": 1816.6899582590033
+  },
+  {
+    "query": "bd09:d74b5cb1f13a968319d173ac",
+    "reference": "bd09:4a00cff21464eb18f0d3cc7b",
+    "distance_m": 2173.6378385601797
+  },
+  {
+    "query": "bd09:1994ea05f9a4c2bc62e2896a",
+    "reference": "bd09:44522f9324feec2fb89de9e3",
+    "distance_m": 928.8124521505459
+  },
+  {
+    "query": "bd09:c03224f719c870210a464410",
+    "reference": "bd09:135d55c0422c8dba74d6c718",
+    "distance_m": 1397.180766680238
+  },
+  {
+    "query": "bd09:13709f57e3c5a1cc0bd8dcd8",
+    "reference": "bd09:44522f9324feec2fb89de9e3",
+    "distance_m": 948.9907769440377
+  },
+  {
+    "query": "bd09:18dcedd9f89fa2ba69442036",
+    "reference": "bd09:135d55c0422c8dba74d6c718",
+    "distance_m": 1893.5330980268939
+  },
+  {
+    "query": "bd09:dee6915bfe311f1d6ab3558b",
+    "reference": "bd09:135d55c0422c8dba74d6c718",
+    "distance_m": 2545.90186832003
+  },
+  {
+    "query": "bd09:ddfc2a461b1e08a98434eb02",
+    "reference": "bd09:135d55c0422c8dba74d6c718",
+    "distance_m": 1434.7937289003262
+  },
+  {
+    "query": "bd09:e701eb2e33c4b66cc9474b55",
+    "reference": "bd09:135d55c0422c8dba74d6c718",
+    "distance_m": 1238.3039032954807
+  },
+  {
+    "query": "bd09:248a0126399b462b27e782c2",
+    "reference": "bd09:fa42419aa0bbecd0018d2523",
+    "distance_m": 31.630436462465678
+  },
+  {
+    "query": "bd09:86c3d327194e117e29f69627",
+    "reference": "bd09:eca6d8b343f8f9663e6a4cee",
+    "distance_m": 486.82378287310274
+  },
+  {
+    "query": "bd09:6277dc9d9f0de94d423f4d78",
+    "reference": "bd09:c699d68c87f5ba44d3bee802",
+    "distance_m": 459.6559574812045
+  },
+  {
+    "query": "bd09:35590ca6f2727f74346aeffb",
+    "reference": "bd09:c699d68c87f5ba44d3bee802",
+    "distance_m": 1073.1189830138596
+  },
+  {
+    "query": "bd09:b84664ff72d4db151b2177c4",
+    "reference": "bd09:c64edbaaf024794dfc536ef1",
+    "distance_m": 247.08190628865574
+  },
+  {
+    "query": "bd09:cb3c21db4514c18b0fca0a2d",
+    "reference": "bd09:3eaf013e210e0faa7ff797d5",
+    "distance_m": 314.710372669341
+  },
+  {
+    "query": "bd09:a494202f3c6b8f307b5e30ef",
+    "reference": "bd09:f6d5366111cd377f35eda582",
+    "distance_m": 1257.6758321660134
+  },
+  {
+    "query": "bd09:577a1ae332ccc6a61ba3f3e0",
+    "reference": "bd09:1c45ca56f5276952427e1a83",
+    "distance_m": 1005.0447466733473
+  },
+  {
+    "query": "bd09:10c3b4ee0e8aa9ba91f92f19",
+    "reference": "bd09:f6d5366111cd377f35eda582",
+    "distance_m": 478.4510534483405
+  },
+  {
+    "query": "bd09:5cab8dfc99179164e28a0d7a",
+    "reference": "bd09:fd5f3025fe3f0b0dba60513f",
+    "distance_m": 79.44139464454925
+  },
+  {
+    "query": "bd09:2f2e737c8f13556b03daea05",
+    "reference": "bd09:fd5f3025fe3f0b0dba60513f",
+    "distance_m": 252.8733665563229
+  },
+  {
+    "query": "bd09:2d79156eb495b674a1f4dc77",
+    "reference": "bd09:3cf8a0bfec454eed9187398f",
+    "distance_m": 107.35585540691898
+  },
+  {
+    "query": "bd09:53a609eb7b5d3f71d4dc4957",
+    "reference": "bd09:c699d68c87f5ba44d3bee802",
+    "distance_m": 349.2244184685589
+  },
+  {
+    "query": "bd09:914c6a5de071dcaffb088185",
+    "reference": "bd09:3eaf013e210e0faa7ff797d5",
+    "distance_m": 324.2458112743327
+  },
+  {
+    "query": "bd09:3048364ca2f6acbeb94ec585",
+    "reference": "bd09:3eaf013e210e0faa7ff797d5",
+    "distance_m": 417.9984216418267
+  },
+  {
+    "query": "bd09:c80068057fe308561b08c30d",
+    "reference": "bd09:244e27ce5ad06efbfa7c36f0",
+    "distance_m": 449.81354244851343
+  },
+  {
+    "query": "bd09:022d174a43e3af3f208630af",
+    "reference": "bd09:fd5f3025fe3f0b0dba60513f",
+    "distance_m": 422.328555640907
+  },
+  {
+    "query": "bd09:f8242b93a5597e4dc3868191",
+    "reference": "bd09:f6d5366111cd377f35eda582",
+    "distance_m": 755.1748741596851
+  },
+  {
+    "query": "bd09:4336fa72981bf68b698e5f49",
+    "reference": "bd09:fd5f3025fe3f0b0dba60513f",
+    "distance_m": 1159.34394704745
+  },
+  {
+    "query": "bd09:587de37307ceeb790e4c8387",
+    "reference": "bd09:3eaf013e210e0faa7ff797d5",
+    "distance_m": 417.3376910655488
+  },
+  {
+    "query": "bd09:633b6ff1fafbd48ef4bd1ade",
+    "reference": "bd09:f6d5366111cd377f35eda582",
+    "distance_m": 536.6724883693003
+  },
+  {
+    "query": "bd09:e401eedc230d9bfa3e77c068",
+    "reference": "bd09:a34ec02d020bde8ecf399ea1",
+    "distance_m": 1180.3647522318997
+  },
+  {
+    "query": "bd09:7f39545ce3e26fe17cf070f9",
+    "reference": "bd09:44522f9324feec2fb89de9e3",
+    "distance_m": 1176.4056299859794
+  },
+  {
+    "query": "bd09:f054735a18c4c2f578fa07b3",
+    "reference": "bd09:13b4aa8c61923ba9278e45b0",
+    "distance_m": 877.3809862345832
+  },
+  {
+    "query": "bd09:aa87ed2a51962939934182ef",
+    "reference": "bd09:3eaf013e210e0faa7ff797d5",
+    "distance_m": 901.4306620801584
+  },
+  {
+    "query": "bd09:6dca4ff3ea55f58e920a797e",
+    "reference": "bd09:c64edbaaf024794dfc536ef1",
+    "distance_m": 149.7475236936536
+  },
+  {
+    "query": "bd09:1c759507d2ed39e2bd269049",
+    "reference": "bd09:3eaf013e210e0faa7ff797d5",
+    "distance_m": 1055.9642068086255
+  },
+  {
+    "query": "bd09:3eb8f2dc87af55f9246dfe53",
+    "reference": "bd09:3cf8a0bfec454eed9187398f",
+    "distance_m": 1349.3999548892773
+  },
+  {
+    "query": "bd09:acfc07b7e96e75a587371e99",
+    "reference": "bd09:3cf8a0bfec454eed9187398f",
+    "distance_m": 1436.8612102980417
+  },
+  {
+    "query": "bd09:e30b967f460957734e4636b1",
+    "reference": "bd09:f6d5366111cd377f35eda582",
+    "distance_m": 750.1544277603665
+  },
+  {
+    "query": "bd09:fe0ef144993620dc9c7a1933",
+    "reference": "bd09:f6d5366111cd377f35eda582",
+    "distance_m": 356.2151602519082
+  },
+  {
+    "query": "bd09:b09dfa030a40f100f31bde20",
+    "reference": "bd09:14aa1d475f09f72a0d616def",
+    "distance_m": 959.9003864025639
+  },
+  {
+    "query": "bd09:09d8fb68c123dc2059e08490",
+    "reference": "bd09:a34ec02d020bde8ecf399ea1",
+    "distance_m": 1374.1202561661014
+  },
+  {
+    "query": "bd09:0ef7892b3ba3863560008870",
+    "reference": "bd09:c64edbaaf024794dfc536ef1",
+    "distance_m": 939.1736428072777
+  },
+  {
+    "query": "bd09:5ebc224d411affcaf8323400",
+    "reference": "bd09:4a00cff21464eb18f0d3cc7b",
+    "distance_m": 1991.25966385819
+  },
+  {
+    "query": "bd09:ed7d4d32798d3a5be164a5c8",
+    "reference": "bd09:5187bdd9fec4c8f91f7dd939",
+    "distance_m": 354.1843552225808
+  },
+  {
+    "query": "bd09:5b268bca2a6cb932f66e1487",
+    "reference": "bd09:14aa1d475f09f72a0d616def",
+    "distance_m": 1043.53413344306
+  },
+  {
+    "query": "bd09:ca59d6ab0e4484f39da9d7e8",
+    "reference": "bd09:5187bdd9fec4c8f91f7dd939",
+    "distance_m": 207.99049830618537
+  },
+  {
+    "query": "bd09:8e9491f9d61c126688664285",
+    "reference": "bd09:3eaf013e210e0faa7ff797d5",
+    "distance_m": 250.8536114445313
+  },
+  {
+    "query": "bd09:68f2d363190fd7671d0561f2",
+    "reference": "bd09:4a00cff21464eb18f0d3cc7b",
+    "distance_m": 2228.9947543500584
+  },
+  {
+    "query": "bd09:1697697dfb03eb43b2f3e353",
+    "reference": "bd09:046445ff13ba25cedc3c8d1c",
+    "distance_m": 662.8385754960824
+  },
+  {
+    "query": "bd09:c7465487b6c9a070323e711e",
+    "reference": "bd09:3eaf013e210e0faa7ff797d5",
+    "distance_m": 805.929035136313
+  },
+  {
+    "query": "bd09:251787f526ae54c7e8328b8e",
+    "reference": "bd09:4a00cff21464eb18f0d3cc7b",
+    "distance_m": 1271.532144286582
+  },
+  {
+    "query": "bd09:3184c3f61943092369803ea2",
+    "reference": "bd09:3eaf013e210e0faa7ff797d5",
+    "distance_m": 289.47087042534287
+  },
+  {
+    "query": "bd09:36e0a60376b90a1a9d6cca17",
+    "reference": "bd09:b9641f912f27a449a4640c21",
+    "distance_m": 1365.7145582465937
+  },
+  {
+    "query": "bd09:090b4511037d6eb978e4046b",
+    "reference": "bd09:f6d5366111cd377f35eda582",
+    "distance_m": 2807.63407286095
+  },
+  {
+    "query": "bd09:f0153ca7fb2488794752767f",
+    "reference": "bd09:c64edbaaf024794dfc536ef1",
+    "distance_m": 480.23668429324874
+  },
+  {
+    "query": "bd09:1c5a2bbcae03ef46e0a33583",
+    "reference": "bd09:c64edbaaf024794dfc536ef1",
+    "distance_m": 296.47103913836946
+  },
+  {
+    "query": "bd09:f3f2f4904a0cbad54dbbf1d6",
+    "reference": "bd09:3cf8a0bfec454eed9187398f",
+    "distance_m": 669.6886690539268
+  },
+  {
+    "query": "bd09:b7c8bb6324109319e5ebf595",
+    "reference": "bd09:c64edbaaf024794dfc536ef1",
+    "distance_m": 109.4501418651778
+  },
+  {
+    "query": "bd09:24d43a1385e5e08999d28fcd",
+    "reference": "bd09:4a00cff21464eb18f0d3cc7b",
+    "distance_m": 2224.501538447923
+  },
+  {
+    "query": "bd09:ca4fbad04a251c4e4f1cd1b7",
+    "reference": "bd09:fd5f3025fe3f0b0dba60513f",
+    "distance_m": 840.914079031551
+  },
+  {
+    "query": "bd09:165f0a4187ada8545ca26855",
+    "reference": "bd09:3eaf013e210e0faa7ff797d5",
+    "distance_m": 904.0134845933218
+  },
+  {
+    "query": "bd09:1693782a6d2544965ab9a04d",
+    "reference": "bd09:cfa12ade59377e03156acf9c",
+    "distance_m": 405.92653107757167
+  },
+  {
+    "query": "bd09:a37e9b23e841773e87700453",
+    "reference": "bd09:244e27ce5ad06efbfa7c36f0",
+    "distance_m": 204.60070258191035
+  },
+  {
+    "query": "bd09:bc170091dd2626d6ed76c7d0",
+    "reference": "bd09:3eaf013e210e0faa7ff797d5",
+    "distance_m": 1121.4465896074357
+  },
+  {
+    "query": "bd09:487309226bee3a600b65a446",
+    "reference": "bd09:f6d5366111cd377f35eda582",
+    "distance_m": 652.9117318422813
+  },
+  {
+    "query": "bd09:ece4455efb5e13bb6e0e6a50",
+    "reference": "bd09:f6d5366111cd377f35eda582",
+    "distance_m": 648.8352957336466
+  },
+  {
+    "query": "bd09:4d9531205424bc0d67156f34",
+    "reference": "bd09:cfa12ade59377e03156acf9c",
+    "distance_m": 822.119252203285
+  },
+  {
+    "query": "bd09:48354ddea85702cfd2d3c12d",
+    "reference": "bd09:f6d5366111cd377f35eda582",
+    "distance_m": 1220.714595708857
+  },
+  {
+    "query": "bd09:67c87b38ed448971bd7d147b",
+    "reference": "bd09:a10842840a7cc3dc206e8380",
+    "distance_m": 726.801678541369
+  },
+  {
+    "query": "bd09:47cfc2226e174e9c910f7036",
+    "reference": "bd09:fd5f3025fe3f0b0dba60513f",
+    "distance_m": 20.347221624764913
+  },
+  {
+    "query": "bd09:1a371da2c1ae7f83b0c33c49",
+    "reference": "bd09:046445ff13ba25cedc3c8d1c",
+    "distance_m": 1434.3567540848983
+  },
+  {
+    "query": "bd09:08c7c1603a735ad9acb0d5d3",
+    "reference": "bd09:13b4aa8c61923ba9278e45b0",
+    "distance_m": 500.0267912348963
+  },
+  {
+    "query": "bd09:08badb788e728b6072f9a82d",
+    "reference": "bd09:5187bdd9fec4c8f91f7dd939",
+    "distance_m": 135.05678416725766
+  },
+  {
+    "query": "bd09:d601cd2c803b3d3cad1b4ee0",
+    "reference": "bd09:5187bdd9fec4c8f91f7dd939",
+    "distance_m": 266.9810803758853
+  },
+  {
+    "query": "bd09:263c062f8901385d9029e053",
+    "reference": "bd09:c64edbaaf024794dfc536ef1",
+    "distance_m": 618.5136722915964
+  },
+  {
+    "query": "bd09:26976fd300c12f4dc236899b",
+    "reference": "bd09:3eaf013e210e0faa7ff797d5",
+    "distance_m": 848.2321139322381
+  },
+  {
+    "query": "bd09:b28db8da49137cb05392e60c",
+    "reference": "bd09:eca6d8b343f8f9663e6a4cee",
+    "distance_m": 287.9376014447711
+  },
+  {
+    "query": "bd09:4982454166dbba5f9f230ee5",
+    "reference": "bd09:cfa12ade59377e03156acf9c",
+    "distance_m": 547.8807678658004
+  },
+  {
+    "query": "bd09:c3db7d7cefc116e5d48ba9a6",
+    "reference": "bd09:3eaf013e210e0faa7ff797d5",
+    "distance_m": 981.1381024469177
+  },
+  {
+    "query": "bd09:3341c11f7a514f66c558faa4",
+    "reference": "bd09:a10842840a7cc3dc206e8380",
+    "distance_m": 592.4008749097808
+  },
+  {
+    "query": "bd09:50a22a2b1aad38e3e4620b30",
+    "reference": "bd09:fd5f3025fe3f0b0dba60513f",
+    "distance_m": 200.53735203181998
+  },
+  {
+    "query": "bd09:768d3d32a00eebbfcfa7f196",
+    "reference": "bd09:cfa12ade59377e03156acf9c",
+    "distance_m": 869.7802417403167
+  },
+  {
+    "query": "bd09:4032ceed8be0a881e74908b7",
+    "reference": "bd09:244e27ce5ad06efbfa7c36f0",
+    "distance_m": 784.6378121016459
+  },
+  {
+    "query": "bd09:048e2cb604746aa544efe38e",
+    "reference": "bd09:cfa12ade59377e03156acf9c",
+    "distance_m": 611.1636845770608
+  },
+  {
+    "query": "bd09:c254e221a82bd7fb69e8764e",
+    "reference": "bd09:1c45ca56f5276952427e1a83",
+    "distance_m": 1538.0943759226104
+  },
+  {
+    "query": "bd09:2c85836ca8ecf0e1053d0641",
+    "reference": "bd09:a10842840a7cc3dc206e8380",
+    "distance_m": 722.8233167719119
+  },
+  {
+    "query": "bd09:243c52748dac8b1945cf688f",
+    "reference": "bd09:c64edbaaf024794dfc536ef1",
+    "distance_m": 815.5622844463501
+  },
+  {
+    "query": "bd09:018d5b267f374b488add3d23",
+    "reference": "bd09:a10842840a7cc3dc206e8380",
+    "distance_m": 474.0449623714399
+  },
+  {
+    "query": "bd09:b141d2360b797e49e83175a7",
+    "reference": "bd09:3eaf013e210e0faa7ff797d5",
+    "distance_m": 756.4644477988448
+  },
+  {
+    "query": "bd09:62e1d90b64809a7f1453799b",
+    "reference": "bd09:13b4aa8c61923ba9278e45b0",
+    "distance_m": 325.58168383421196
+  },
+  {
+    "query": "bd09:c74932293d7ad7cf739cb064",
+    "reference": "bd09:3eaf013e210e0faa7ff797d5",
+    "distance_m": 196.1521571565146
+  },
+  {
+    "query": "bd09:2615bd4f93becbc69a1331d8",
+    "reference": "bd09:cfa12ade59377e03156acf9c",
+    "distance_m": 806.65376076612
+  },
+  {
+    "query": "bd09:ab328dfd3352d1a01d38689a",
+    "reference": "bd09:c64edbaaf024794dfc536ef1",
+    "distance_m": 1044.75204429492
+  },
+  {
+    "query": "bd09:b2beb048d8d1e3f46db417b7",
+    "reference": "bd09:5187bdd9fec4c8f91f7dd939",
+    "distance_m": 258.12210243365473
+  },
+  {
+    "query": "bd09:9d70209cc6c3058c0e1e4d55",
+    "reference": "bd09:13b4aa8c61923ba9278e45b0",
+    "distance_m": 255.65167951723512
+  },
+  {
+    "query": "bd09:7ad86ba49352a534769e4cf4",
+    "reference": "bd09:3eaf013e210e0faa7ff797d5",
+    "distance_m": 955.4717071222342
+  },
+  {
+    "query": "bd09:bc6b1a603839f0b8bdda5dc3",
+    "reference": "bd09:f6d5366111cd377f35eda582",
+    "distance_m": 695.4407586558258
+  },
+  {
+    "query": "bd09:63fd1c0aade819dddbb4dfab",
+    "reference": "bd09:13b4aa8c61923ba9278e45b0",
+    "distance_m": 485.8738562910131
+  },
+  {
+    "query": "bd09:0255d14192fc9f384370bb73",
+    "reference": "bd09:5187bdd9fec4c8f91f7dd939",
+    "distance_m": 367.88835606928563
+  },
+  {
+    "query": "bd09:50bcbc1fc820f46b2de61334",
+    "reference": "bd09:244e27ce5ad06efbfa7c36f0",
+    "distance_m": 172.56098913618376
+  },
+  {
+    "query": "bd09:e72dca6aebc1f6f7931d0cdc",
+    "reference": "bd09:5187bdd9fec4c8f91f7dd939",
+    "distance_m": 256.83457439421494
+  },
+  {
+    "query": "bd09:47d41ce9ae8b88742bd5ed4a",
+    "reference": "bd09:5187bdd9fec4c8f91f7dd939",
+    "distance_m": 383.05472617279594
+  },
+  {
+    "query": "bd09:2e77fa29c76a7cf5f682e3d4",
+    "reference": "bd09:5187bdd9fec4c8f91f7dd939",
+    "distance_m": 187.05744289027876
+  },
+  {
+    "query": "bd09:90b14a1ae8d88f6bcb36033d",
+    "reference": "bd09:f6d5366111cd377f35eda582",
+    "distance_m": 643.5050397327307
+  },
+  {
+    "query": "bd09:8b44378fdedc6260171acf30",
+    "reference": "bd09:fd5f3025fe3f0b0dba60513f",
+    "distance_m": 182.0448670972745
+  },
+  {
+    "query": "bd09:6afc4af64ebef5429f5e6414",
+    "reference": "bd09:fd5f3025fe3f0b0dba60513f",
+    "distance_m": 428.985195206269
+  },
+  {
+    "query": "bd09:edd775e0b63eb3b385e9ced1",
+    "reference": "bd09:3eaf013e210e0faa7ff797d5",
+    "distance_m": 1181.997368843652
+  },
+  {
+    "query": "bd09:0494b43b38ab0d3839eabc82",
+    "reference": "bd09:c64edbaaf024794dfc536ef1",
+    "distance_m": 939.6360614243638
+  },
+  {
+    "query": "bd09:d9c6e2a98d13d99ee9d5c8c1",
+    "reference": "bd09:3eaf013e210e0faa7ff797d5",
+    "distance_m": 697.7488964111092
+  },
+  {
+    "query": "bd09:f4204c15f8a5a43e641f50f3",
+    "reference": "bd09:5187bdd9fec4c8f91f7dd939",
+    "distance_m": 201.6028201735798
+  },
+  {
+    "query": "bd09:50b86889f85e25698b1f8222",
+    "reference": "bd09:244e27ce5ad06efbfa7c36f0",
+    "distance_m": 407.2558676904574
+  },
+  {
+    "query": "bd09:d6157933d8ca8af6fd6e2d20",
+    "reference": "bd09:244e27ce5ad06efbfa7c36f0",
+    "distance_m": 634.2855241757563
+  },
+  {
+    "query": "bd09:46749a50aab2e8880ba17bae",
+    "reference": "bd09:3eaf013e210e0faa7ff797d5",
+    "distance_m": 1008.500383365186
+  },
+  {
+    "query": "bd09:763083c9c67f398b021d1480",
+    "reference": "bd09:f6d5366111cd377f35eda582",
+    "distance_m": 726.1685692577339
+  },
+  {
+    "query": "bd09:edc5df729ab26fd3db8dc881",
+    "reference": "bd09:3eaf013e210e0faa7ff797d5",
+    "distance_m": 241.24751831073277
+  },
+  {
+    "query": "bd09:92126a62754113dba73fcc6b",
+    "reference": "bd09:cfa12ade59377e03156acf9c",
+    "distance_m": 861.6334955176719
+  },
+  {
+    "query": "bd09:88ab01e09218866085f23627",
+    "reference": "bd09:eca6d8b343f8f9663e6a4cee",
+    "distance_m": 236.989458243413
+  },
+  {
+    "query": "bd09:08121b23069bf61a44c65dcf",
+    "reference": "bd09:fd5f3025fe3f0b0dba60513f",
+    "distance_m": 360.6635281958213
+  },
+  {
+    "query": "bd09:e5a02e8600caead4c56521ed",
+    "reference": "bd09:cfa12ade59377e03156acf9c",
+    "distance_m": 715.7798296261542
+  },
+  {
+    "query": "bd09:47d17f830816dc69e43f4769",
+    "reference": "bd09:244e27ce5ad06efbfa7c36f0",
+    "distance_m": 215.70921615941506
+  },
+  {
+    "query": "bd09:bcc5ae4ff4696a24b3c575a1",
+    "reference": "bd09:1c45ca56f5276952427e1a83",
+    "distance_m": 1182.3885655801655
+  },
+  {
+    "query": "bd09:ba4e2cdb4675fdacc35a7c7b",
+    "reference": "bd09:3eaf013e210e0faa7ff797d5",
+    "distance_m": 338.4048514597534
+  },
+  {
+    "query": "bd09:12031cff60facad62cc85e50",
+    "reference": "bd09:fd5f3025fe3f0b0dba60513f",
+    "distance_m": 124.45778110047958
+  },
+  {
+    "query": "bd09:e8b85176a36a2e38ba900657",
+    "reference": "bd09:c699d68c87f5ba44d3bee802",
+    "distance_m": 1015.574077445549
+  },
+  {
+    "query": "bd09:fd36290ac601a83fa970846c",
+    "reference": "bd09:c64edbaaf024794dfc536ef1",
+    "distance_m": 446.71060513469837
+  },
+  {
+    "query": "bd09:3f3c889f8ae244e2e1d23e83",
+    "reference": "bd09:4a00cff21464eb18f0d3cc7b",
+    "distance_m": 3230.3616830008036
+  },
+  {
+    "query": "bd09:1c2f15f5e252741482d2b5c4",
+    "reference": "bd09:f6d5366111cd377f35eda582",
+    "distance_m": 1117.2311234284487
+  },
+  {
+    "query": "bd09:f09e92a8b72bc68256edd8ad",
+    "reference": "bd09:c64edbaaf024794dfc536ef1",
+    "distance_m": 446.3145636694815
+  },
+  {
+    "query": "bd09:d710ca053a8f262f045be059",
+    "reference": "bd09:fa42419aa0bbecd0018d2523",
+    "distance_m": 526.7573426598992
+  },
+  {
+    "query": "bd09:8e7a040a93b2ad6b4fe38c38",
+    "reference": "bd09:135d55c0422c8dba74d6c718",
+    "distance_m": 2312.463778705339
+  },
+  {
+    "query": "bd09:48dae88ab6e08fb8ba00d2d0",
+    "reference": "bd09:4a00cff21464eb18f0d3cc7b",
+    "distance_m": 3595.691959454779
+  },
+  {
+    "query": "bd09:8565dec405000967809a5574",
+    "reference": "bd09:c699d68c87f5ba44d3bee802",
+    "distance_m": 548.3916072034255
+  },
+  {
+    "query": "bd09:f3ce70c8a3764ff2fe8e2c02",
+    "reference": "bd09:13b4aa8c61923ba9278e45b0",
+    "distance_m": 726.3037320797697
+  },
+  {
+    "query": "bd09:3b499c144588f015385beb48",
+    "reference": "bd09:1c45ca56f5276952427e1a83",
+    "distance_m": 841.8610064390831
+  },
+  {
+    "query": "bd09:ce59cab53e7336cc74b4547c",
+    "reference": "bd09:4a00cff21464eb18f0d3cc7b",
+    "distance_m": 2632.3767978409646
+  },
+  {
+    "query": "bd09:297d27d1182d3f529f336e4e",
+    "reference": "bd09:c699d68c87f5ba44d3bee802",
+    "distance_m": 1069.6926012483284
+  },
+  {
+    "query": "bd09:afa3ad17ad5efb97eb7f4e1c",
+    "reference": "bd09:a34ec02d020bde8ecf399ea1",
+    "distance_m": 783.8535848381838
+  },
+  {
+    "query": "bd09:12d59bb468b258ed5b4bd1b6",
+    "reference": "bd09:44522f9324feec2fb89de9e3",
+    "distance_m": 486.27791028733026
+  },
+  {
+    "query": "bd09:0fa02aefa900a5c638dee3b1",
+    "reference": "bd09:244e27ce5ad06efbfa7c36f0",
+    "distance_m": 949.9886259486344
+  },
+  {
+    "query": "bd09:a8ee02008bd0ba19ef07c6fa",
+    "reference": "bd09:2731f4dbe6e50d7f70d55e42",
+    "distance_m": 96.77414723850073
+  },
+  {
+    "query": "bd09:13f81ea278d6c105023dda7e",
+    "reference": "bd09:4a00cff21464eb18f0d3cc7b",
+    "distance_m": 2247.1231226529385
+  },
+  {
+    "query": "bd09:279d48568227d3418b1a2f94",
+    "reference": "bd09:244e27ce5ad06efbfa7c36f0",
+    "distance_m": 706.2288639121057
+  },
+  {
+    "query": "bd09:7c4f8ddfc671c7e40ad6d716",
+    "reference": "bd09:244e27ce5ad06efbfa7c36f0",
+    "distance_m": 1261.2519092901314
+  },
+  {
+    "query": "bd09:aca57b4e10f6febeba01cfd7",
+    "reference": "bd09:c64edbaaf024794dfc536ef1",
+    "distance_m": 354.9741167361556
+  },
+  {
+    "query": "bd09:31e95f79de7e0fa87a526815",
+    "reference": "bd09:135d55c0422c8dba74d6c718",
+    "distance_m": 2467.3989864065325
+  },
+  {
+    "query": "bd09:7fa122e3adfb8c1d4041c089",
+    "reference": "bd09:c699d68c87f5ba44d3bee802",
+    "distance_m": 729.805316428787
+  },
+  {
+    "query": "bd09:17c64197512f9e2a16f2b0b0",
+    "reference": "bd09:83d89ebbf86d0d6f4d930da2",
+    "distance_m": 481.14748437292894
+  },
+  {
+    "query": "bd09:3d69445e789236b21afad2ae",
+    "reference": "bd09:c699d68c87f5ba44d3bee802",
+    "distance_m": 498.9298652660808
+  },
+  {
+    "query": "bd09:9991e625c2ceabacac94c941",
+    "reference": "bd09:1c45ca56f5276952427e1a83",
+    "distance_m": 338.41406289463526
+  },
+  {
+    "query": "bd09:c06a5c856c781d3672b21e93",
+    "reference": "bd09:f6d5366111cd377f35eda582",
+    "distance_m": 203.13204577794033
+  },
+  {
+    "query": "bd09:6f95ad7278f3b168455b38db",
+    "reference": "bd09:fa42419aa0bbecd0018d2523",
+    "distance_m": 957.2688154386202
+  },
+  {
+    "query": "bd09:af76cc6cd00640fa450a66b3",
+    "reference": "bd09:fa42419aa0bbecd0018d2523",
+    "distance_m": 617.5827213359155
+  },
+  {
+    "query": "bd09:c1835a88ea07743ca63f1fbe",
+    "reference": "bd09:135d55c0422c8dba74d6c718",
+    "distance_m": 2830.143295210759
+  },
+  {
+    "query": "bd09:9f619fae5ff0cce11f6126ac",
+    "reference": "bd09:135d55c0422c8dba74d6c718",
+    "distance_m": 2152.770627668459
+  },
+  {
+    "query": "bd09:5efd578e1307661e12e9e66e",
+    "reference": "bd09:1c45ca56f5276952427e1a83",
+    "distance_m": 1357.1348895831743
+  },
+  {
+    "query": "bd09:e984ea6bccb82d0c8420adfc",
+    "reference": "bd09:5187bdd9fec4c8f91f7dd939",
+    "distance_m": 510.4492236226713
+  },
+  {
+    "query": "bd09:4f77902b8935b10a7235fadb",
+    "reference": "bd09:fd5f3025fe3f0b0dba60513f",
+    "distance_m": 437.91890560204786
+  },
+  {
+    "query": "bd09:1752d0ce60377b9371cfa353",
+    "reference": "bd09:770f66e783361a83bef73d33",
+    "distance_m": 558.3184698808323
+  },
+  {
+    "query": "bd09:39a72ece0c0be8f73c0b8536",
+    "reference": "bd09:3eaf013e210e0faa7ff797d5",
+    "distance_m": 439.1127532936834
+  },
+  {
+    "query": "bd09:2ce443559f44c710b66ae322",
+    "reference": "bd09:f6d5366111cd377f35eda582",
+    "distance_m": 1077.6243070785215
+  },
+  {
+    "query": "bd09:864efb225f2d792206a6bcdd",
+    "reference": "bd09:fd5f3025fe3f0b0dba60513f",
+    "distance_m": 512.5939816987533
+  },
+  {
+    "query": "bd09:ad4b25a0366bfddfbb83c7d9",
+    "reference": "bd09:046445ff13ba25cedc3c8d1c",
+    "distance_m": 1087.1237662646352
+  },
+  {
+    "query": "bd09:38e327bb8fba945a0cc81549",
+    "reference": "bd09:f6d5366111cd377f35eda582",
+    "distance_m": 453.88289433997596
+  },
+  {
+    "query": "bd09:71645ce8c7ead0b2ac78b0c3",
+    "reference": "bd09:244e27ce5ad06efbfa7c36f0",
+    "distance_m": 141.00676525954293
+  },
+  {
+    "query": "bd09:3f2a93a67a4d42fff0c786e6",
+    "reference": "bd09:3cf8a0bfec454eed9187398f",
+    "distance_m": 1389.6767117969746
+  },
+  {
+    "query": "bd09:4d27fe3feee64e2a0ffe73aa",
+    "reference": "bd09:1c45ca56f5276952427e1a83",
+    "distance_m": 220.44155422829905
+  },
+  {
+    "query": "bd09:78d60dbfccd09bee79db8c2c",
+    "reference": "bd09:046445ff13ba25cedc3c8d1c",
+    "distance_m": 932.8772808974317
+  },
+  {
+    "query": "bd09:222cda83009d7e22e9c36076",
+    "reference": "bd09:1c45ca56f5276952427e1a83",
+    "distance_m": 1271.3669667189731
+  },
+  {
+    "query": "bd09:630209e7074811584b302847",
+    "reference": "bd09:f6d5366111cd377f35eda582",
+    "distance_m": 1140.4549488245348
+  },
+  {
+    "query": "bd09:edc16b7c98ff243b2ca7c706",
+    "reference": "bd09:3eaf013e210e0faa7ff797d5",
+    "distance_m": 885.2453535904779
+  },
+  {
+    "query": "bd09:d0df88846466d0990b718a78",
+    "reference": "bd09:1c45ca56f5276952427e1a83",
+    "distance_m": 831.3333647184459
+  },
+  {
+    "query": "bd09:fe8aec189f882efca43385ba",
+    "reference": "bd09:fd5f3025fe3f0b0dba60513f",
+    "distance_m": 290.5530709805224
+  },
+  {
+    "query": "bd09:b0072ee9d442c3a8cf004d3b",
+    "reference": "bd09:c64edbaaf024794dfc536ef1",
+    "distance_m": 569.0305356023384
+  },
+  {
+    "query": "bd09:306cf59c059a223fb64230ce",
+    "reference": "bd09:046445ff13ba25cedc3c8d1c",
+    "distance_m": 909.2467342995712
+  },
+  {
+    "query": "bd09:e0ef88f513900e506d14f8ed",
+    "reference": "bd09:3cf8a0bfec454eed9187398f",
+    "distance_m": 1138.400910308009
+  },
+  {
+    "query": "bd09:93d9902003c703aa489e48ef",
+    "reference": "bd09:046445ff13ba25cedc3c8d1c",
+    "distance_m": 873.8774386297689
+  },
+  {
+    "query": "bd09:7617e5a908a0ddbe4f4ae022",
+    "reference": "bd09:f6d5366111cd377f35eda582",
+    "distance_m": 1317.3636314488444
+  },
+  {
+    "query": "bd09:852f9db72cce0c9ed5a753aa",
+    "reference": "bd09:c64edbaaf024794dfc536ef1",
+    "distance_m": 580.0767284796759
+  },
+  {
+    "query": "bd09:9ba831aba731af4ad49d6b59",
+    "reference": "bd09:1c45ca56f5276952427e1a83",
+    "distance_m": 214.50793460653682
+  },
+  {
+    "query": "bd09:998b46a858755a5310b15d1c",
+    "reference": "bd09:3cf8a0bfec454eed9187398f",
+    "distance_m": 1377.3890037511346
+  },
+  {
+    "query": "bd09:70682f9d16e16d320886389a",
+    "reference": "bd09:4a00cff21464eb18f0d3cc7b",
+    "distance_m": 3170.5321001707302
+  },
+  {
+    "query": "bd09:bf311258aa4cbc5fa1d7cb80",
+    "reference": "bd09:4a00cff21464eb18f0d3cc7b",
+    "distance_m": 2238.635297481285
+  },
+  {
+    "query": "bd09:d35b681e6d43531927cb339e",
+    "reference": "bd09:135d55c0422c8dba74d6c718",
+    "distance_m": 1673.3188157152354
+  },
+  {
+    "query": "bd09:61eaa757366bcfb2f63982d7",
+    "reference": "bd09:4a00cff21464eb18f0d3cc7b",
+    "distance_m": 1830.4236071163864
+  },
+  {
+    "query": "bd09:5d690e6e7b0b18829bf15c09",
+    "reference": "bd09:4a00cff21464eb18f0d3cc7b",
+    "distance_m": 2731.9985220069652
+  },
+  {
+    "query": "bd09:665dc23db60bd0b205cc2f16",
+    "reference": "bd09:4a00cff21464eb18f0d3cc7b",
+    "distance_m": 1927.0444617536275
+  },
+  {
+    "query": "bd09:01584e48385d30f53e0ffa7a",
+    "reference": "bd09:a34ec02d020bde8ecf399ea1",
+    "distance_m": 414.5367241510409
+  },
+  {
+    "query": "bd09:9287e230ee8df2f4f99e4ad4",
+    "reference": "bd09:4a00cff21464eb18f0d3cc7b",
+    "distance_m": 3627.952431486596
+  },
+  {
+    "query": "bd09:e6dc9d127efe9947faf8b481",
+    "reference": "bd09:4a00cff21464eb18f0d3cc7b",
+    "distance_m": 2542.95209548377
+  },
+  {
+    "query": "bd09:4ae1f49979cebf639ec6c1e5",
+    "reference": "bd09:2731f4dbe6e50d7f70d55e42",
+    "distance_m": 1372.0106021644726
+  },
+  {
+    "query": "bd09:78ae5f22ad6dc97fe89fe7d1",
+    "reference": "bd09:44522f9324feec2fb89de9e3",
+    "distance_m": 955.4640725699031
+  },
+  {
+    "query": "bd09:7881162fbe05ce36a9d48186",
+    "reference": "bd09:44522f9324feec2fb89de9e3",
+    "distance_m": 452.39789386709435
+  },
+  {
+    "query": "bd09:34b22d96241f5046456a8e91",
+    "reference": "bd09:44522f9324feec2fb89de9e3",
+    "distance_m": 569.8013521339745
+  },
+  {
+    "query": "bd09:c7757ad7a92cd43f96e0e684",
+    "reference": "bd09:4a00cff21464eb18f0d3cc7b",
+    "distance_m": 2430.307497906733
+  },
+  {
+    "query": "bd09:331ee074717ebff4dc4299ba",
+    "reference": "bd09:4a00cff21464eb18f0d3cc7b",
+    "distance_m": 2161.735949666708
+  },
+  {
+    "query": "bd09:ea5625e7b5abc08be99f7584",
+    "reference": "bd09:44522f9324feec2fb89de9e3",
+    "distance_m": 783.2062391444034
+  },
+  {
+    "query": "bd09:7bf0523cac326da0f17be3e1",
+    "reference": "bd09:44522f9324feec2fb89de9e3",
+    "distance_m": 282.09840967709204
+  },
+  {
+    "query": "bd09:10dcd46c89254162bc0e7052",
+    "reference": "bd09:4a00cff21464eb18f0d3cc7b",
+    "distance_m": 1298.4221500785084
+  },
+  {
+    "query": "bd09:535cbeac20215773592b9047",
+    "reference": "bd09:2731f4dbe6e50d7f70d55e42",
+    "distance_m": 1269.1424299880528
+  },
+  {
+    "query": "bd09:bbd6d3f883ff16c3751b2af6",
+    "reference": "bd09:2731f4dbe6e50d7f70d55e42",
+    "distance_m": 1432.6182362919046
+  },
+  {
+    "query": "bd09:31ca62a8ba0fca573563f09f",
+    "reference": "bd09:a34ec02d020bde8ecf399ea1",
+    "distance_m": 1403.875663237734
+  },
+  {
+    "query": "bd09:493b450e93c7fd56036a30d9",
+    "reference": "bd09:135d55c0422c8dba74d6c718",
+    "distance_m": 1734.0371460788554
+  },
+  {
+    "query": "bd09:d15d1390df36f2ddd71e1d1e",
+    "reference": "bd09:135d55c0422c8dba74d6c718",
+    "distance_m": 1362.5683164990041
+  },
+  {
+    "query": "bd09:2a4cf09db9542a8db5820f0b",
+    "reference": "bd09:135d55c0422c8dba74d6c718",
+    "distance_m": 2604.989160611501
+  },
+  {
+    "query": "bd09:44b6b3aa705b5de5e6b93083",
+    "reference": "bd09:2731f4dbe6e50d7f70d55e42",
+    "distance_m": 1826.445299949947
+  },
+  {
+    "query": "bd09:9a3f4c88b55e07951d2a6f35",
+    "reference": "bd09:4a00cff21464eb18f0d3cc7b",
+    "distance_m": 1990.9958629131545
+  },
+  {
+    "query": "bd09:2b35a89026e132cba7fbca1c",
+    "reference": "bd09:2731f4dbe6e50d7f70d55e42",
+    "distance_m": 870.1066785238671
+  },
+  {
+    "query": "bd09:990efb24518d8b208a26ebb8",
+    "reference": "bd09:135d55c0422c8dba74d6c718",
+    "distance_m": 2249.867627551806
+  },
+  {
+    "query": "bd09:092ab48b2892fd25194a313b",
+    "reference": "bd09:135d55c0422c8dba74d6c718",
+    "distance_m": 2494.658043447425
+  },
+  {
+    "query": "bd09:1076c840cb7f75d43baacead",
+    "reference": "bd09:4a00cff21464eb18f0d3cc7b",
+    "distance_m": 2028.7010140167715
+  },
+  {
+    "query": "bd09:d23045d7978f44dfec4bdd8c",
+    "reference": "bd09:135d55c0422c8dba74d6c718",
+    "distance_m": 1245.0589509406948
+  },
+  {
+    "query": "bd09:db811dd4894cd3006d20cb63",
+    "reference": "bd09:135d55c0422c8dba74d6c718",
+    "distance_m": 1656.1455704867187
+  },
+  {
+    "query": "bd09:d17d27ad0be3426b78e95f6f",
+    "reference": "bd09:a34ec02d020bde8ecf399ea1",
+    "distance_m": 1720.6565662611217
+  },
+  {
+    "query": "bd09:590438d59e85d6cb7a3f5600",
+    "reference": "bd09:4a00cff21464eb18f0d3cc7b",
+    "distance_m": 1505.7999547538418
+  },
+  {
+    "query": "bd09:4bc19923c73eedf948a36434",
+    "reference": "bd09:135d55c0422c8dba74d6c718",
+    "distance_m": 2093.279184941722
+  },
+  {
+    "query": "bd09:befb6ed256e9792573168daa",
+    "reference": "bd09:135d55c0422c8dba74d6c718",
+    "distance_m": 1368.0927310741552
+  },
+  {
+    "query": "bd09:26582da7c20a4cfc1d32973f",
+    "reference": "bd09:4a00cff21464eb18f0d3cc7b",
+    "distance_m": 2214.822592965156
+  },
+  {
+    "query": "bd09:bf1ef58590fe7c55dea681dc",
+    "reference": "bd09:4a00cff21464eb18f0d3cc7b",
+    "distance_m": 3446.0809286044364
+  },
+  {
+    "query": "bd09:4e003fbf7ea3f677ff2a60eb",
+    "reference": "bd09:2731f4dbe6e50d7f70d55e42",
+    "distance_m": 1925.473636514358
+  },
+  {
+    "query": "bd09:de4891f69e6a7f0bfafdc787",
+    "reference": "bd09:4a00cff21464eb18f0d3cc7b",
+    "distance_m": 2702.6173276300715
+  },
+  {
+    "query": "bd09:913724270bf7556a15b1e0c1",
+    "reference": "bd09:44522f9324feec2fb89de9e3",
+    "distance_m": 1435.3512745287906
+  },
+  {
+    "query": "bd09:7350475462d463d178ff1883",
+    "reference": "bd09:135d55c0422c8dba74d6c718",
+    "distance_m": 1522.460510829285
+  },
+  {
+    "query": "bd09:16567a6de2224fd7717b8fd9",
+    "reference": "bd09:4a00cff21464eb18f0d3cc7b",
+    "distance_m": 2852.3978974507636
+  },
+  {
+    "query": "bd09:463a4dddc141f1591ad502a6",
+    "reference": "bd09:22221b577a7eb5def93d0508",
+    "distance_m": 900.6305957495751
+  },
+  {
+    "query": "bd09:559082f9a092b16c06b35e3d",
+    "reference": "bd09:244e27ce5ad06efbfa7c36f0",
+    "distance_m": 1050.4157827640088
+  },
+  {
+    "query": "bd09:77ec8f837ae73385e92b229c",
+    "reference": "bd09:244e27ce5ad06efbfa7c36f0",
+    "distance_m": 1377.8463092192292
+  },
+  {
+    "query": "bd09:e252fc8d5bf42b189a6813d6",
+    "reference": "bd09:3fd5a3a0ce547412f8430aa7",
+    "distance_m": 195.3298462058114
+  },
+  {
+    "query": "bd09:231f43bb92fcdce479414d86",
+    "reference": "bd09:0953fc9d1162a1a21cecd845",
+    "distance_m": 369.1819241114815
+  },
+  {
+    "query": "bd09:771d29b717aab786a76f41d4",
+    "reference": "bd09:14aa1d475f09f72a0d616def",
+    "distance_m": 601.1430323405814
+  },
+  {
+    "query": "bd09:d8fb9ec2e4e013eb359fffa8",
+    "reference": "bd09:2e09507dbdb4c44b27d1dc16",
+    "distance_m": 234.4982075507969
+  },
+  {
+    "query": "bd09:e99f0ba31a2e02e4eff7ff88",
+    "reference": "bd09:3fd5a3a0ce547412f8430aa7",
+    "distance_m": 214.30491991335708
+  },
+  {
+    "query": "bd09:4fe7fd8a2ed9358d038430e0",
+    "reference": "bd09:770f66e783361a83bef73d33",
+    "distance_m": 516.8925300078602
+  },
+  {
+    "query": "bd09:e5b80be827a9ae35bda007d1",
+    "reference": "bd09:0953fc9d1162a1a21cecd845",
+    "distance_m": 196.10956871609022
+  },
+  {
+    "query": "bd09:2993cd97b6ae789942556541",
+    "reference": "bd09:4223034b5679182043595be6",
+    "distance_m": 301.214267797981
+  },
+  {
+    "query": "bd09:7144ee081b081e426f82ba30",
+    "reference": "bd09:eca6d8b343f8f9663e6a4cee",
+    "distance_m": 406.2232391333722
+  },
+  {
+    "query": "bd09:f079a9aec70ff8209af398a2",
+    "reference": "bd09:2e09507dbdb4c44b27d1dc16",
+    "distance_m": 232.65746192291357
+  },
+  {
+    "query": "bd09:2b7ce07594448c232215f2ed",
+    "reference": "bd09:4223034b5679182043595be6",
+    "distance_m": 341.66815938722226
+  },
+  {
+    "query": "bd09:6330eb0d1b6fa8540f326eda",
+    "reference": "bd09:0953fc9d1162a1a21cecd845",
+    "distance_m": 226.4614517922984
+  },
+  {
+    "query": "bd09:e655bf4f1fa6313fe9b2ea36",
+    "reference": "bd09:2e09507dbdb4c44b27d1dc16",
+    "distance_m": 267.33506059458506
+  },
+  {
+    "query": "bd09:7aeecba82a593b4e8cc70574",
+    "reference": "bd09:4223034b5679182043595be6",
+    "distance_m": 390.1985752641449
+  },
+  {
+    "query": "bd09:2fc69a0afd25cb3c7447ec75",
+    "reference": "bd09:770f66e783361a83bef73d33",
+    "distance_m": 223.1012129964763
+  },
+  {
+    "query": "bd09:4b0afcd8d8a5681a7f14d83e",
+    "reference": "bd09:3fd5a3a0ce547412f8430aa7",
+    "distance_m": 394.5570796569825
+  },
+  {
+    "query": "bd09:25c36c22896e0199fc1c58f0",
+    "reference": "bd09:770f66e783361a83bef73d33",
+    "distance_m": 554.9399412133178
+  },
+  {
+    "query": "bd09:9d3b737e335ac016366a1f0f",
+    "reference": "bd09:770f66e783361a83bef73d33",
+    "distance_m": 426.0656573026244
+  },
+  {
+    "query": "bd09:bbe6abd5e1fea5504bb370ad",
+    "reference": "bd09:4223034b5679182043595be6",
+    "distance_m": 288.42123997998476
+  },
+  {
+    "query": "bd09:00d50334c874632831c037a5",
+    "reference": "bd09:eca6d8b343f8f9663e6a4cee",
+    "distance_m": 294.26981411429364
+  },
+  {
+    "query": "bd09:335860ca8cfa63fa522e8ff3",
+    "reference": "bd09:eca6d8b343f8f9663e6a4cee",
+    "distance_m": 254.50021255034906
+  },
+  {
+    "query": "bd09:908e860b30b631c643207f8d",
+    "reference": "bd09:0953fc9d1162a1a21cecd845",
+    "distance_m": 560.0972462202361
+  },
+  {
+    "query": "bd09:395ee9e5df1ce62f48caa346",
+    "reference": "bd09:83d89ebbf86d0d6f4d930da2",
+    "distance_m": 571.7072023227245
+  },
+  {
+    "query": "bd09:2c4fbdd49fbd94711e96f90d",
+    "reference": "bd09:770f66e783361a83bef73d33",
+    "distance_m": 1117.4534353437873
+  },
+  {
+    "query": "bd09:98fe2f6e26389dc4928461ad",
+    "reference": "bd09:d908fa21d9a8e8df745b0fa6",
+    "distance_m": 175.1373098498539
+  },
+  {
+    "query": "bd09:94e537940ace65b2161181fb",
+    "reference": "bd09:4c25ec2de0319a9921997434",
+    "distance_m": 432.65892243901254
+  },
+  {
+    "query": "bd09:cb1a98ce7dce4d7b6171d98f",
+    "reference": "bd09:4c25ec2de0319a9921997434",
+    "distance_m": 963.3838887315651
+  },
+  {
+    "query": "bd09:5b1622402ad335ee75624848",
+    "reference": "bd09:d908fa21d9a8e8df745b0fa6",
+    "distance_m": 617.927832170218
+  },
+  {
+    "query": "bd09:c3b8ebfb4a530c7c94b74095",
+    "reference": "bd09:4c25ec2de0319a9921997434",
+    "distance_m": 875.170552732943
+  },
+  {
+    "query": "bd09:bc33df66aa0314df766212d9",
+    "reference": "bd09:d908fa21d9a8e8df745b0fa6",
+    "distance_m": 214.5934960241242
+  },
+  {
+    "query": "bd09:ff9be87650451260ed7b224f",
+    "reference": "bd09:4c25ec2de0319a9921997434",
+    "distance_m": 628.0640441420796
+  },
+  {
+    "query": "bd09:37b8fcf215c7a045ffba0ea5",
+    "reference": "bd09:13b4aa8c61923ba9278e45b0",
+    "distance_m": 104.99873050663848
+  },
+  {
+    "query": "bd09:c582042554d0c277b63ebf2d",
+    "reference": "bd09:a10842840a7cc3dc206e8380",
+    "distance_m": 492.2551846515379
+  },
+  {
+    "query": "bd09:12b863ee9ede7b97cec81e51",
+    "reference": "bd09:a10842840a7cc3dc206e8380",
+    "distance_m": 124.75323232142759
+  },
+  {
+    "query": "bd09:20b54741871dd088c980d4d0",
+    "reference": "bd09:a10842840a7cc3dc206e8380",
+    "distance_m": 737.9750892890786
+  },
+  {
+    "query": "bd09:b3a60092e64a5945f97f2421",
+    "reference": "bd09:a10842840a7cc3dc206e8380",
+    "distance_m": 269.6087046413888
+  },
+  {
+    "query": "bd09:310823622e8473238e38e41e",
+    "reference": "bd09:13b4aa8c61923ba9278e45b0",
+    "distance_m": 234.5606494132504
+  },
+  {
+    "query": "bd09:5f76316e5aaa10fa825ed407",
+    "reference": "bd09:d908fa21d9a8e8df745b0fa6",
+    "distance_m": 408.1010458166554
+  },
+  {
+    "query": "bd09:709e0ecc32c3750f1c27481e",
+    "reference": "bd09:046445ff13ba25cedc3c8d1c",
+    "distance_m": 980.0599629799339
+  },
+  {
+    "query": "bd09:b0573d4fa1b2d7e1311663fe",
+    "reference": "bd09:fa42419aa0bbecd0018d2523",
+    "distance_m": 629.5865184635119
+  },
+  {
+    "query": "bd09:8508a170b084ebe5594735d9",
+    "reference": "bd09:2e09507dbdb4c44b27d1dc16",
+    "distance_m": 432.7114844622481
+  },
+  {
+    "query": "bd09:1b67514f30e9b892332b4466",
+    "reference": "bd09:2e09507dbdb4c44b27d1dc16",
+    "distance_m": 296.6301748295264
+  },
+  {
+    "query": "bd09:e7cc7b207fe08169c1422642",
+    "reference": "bd09:046445ff13ba25cedc3c8d1c",
+    "distance_m": 612.0446051154242
+  },
+  {
+    "query": "bd09:3e8568c3a25433f33643f95f",
+    "reference": "bd09:046445ff13ba25cedc3c8d1c",
+    "distance_m": 355.62830704072735
+  },
+  {
+    "query": "bd09:27b128013c16486261a25745",
+    "reference": "bd09:2e09507dbdb4c44b27d1dc16",
+    "distance_m": 354.90462491623333
+  },
+  {
+    "query": "bd09:481bd119934b223c6f62e677",
+    "reference": "bd09:046445ff13ba25cedc3c8d1c",
+    "distance_m": 515.9706084863686
+  },
+  {
+    "query": "bd09:dc06232b5641f035859ee396",
+    "reference": "bd09:c699d68c87f5ba44d3bee802",
+    "distance_m": 339.4827607168735
+  },
+  {
+    "query": "bd09:639e67cf9a51a34e515a6fb8",
+    "reference": "bd09:244e27ce5ad06efbfa7c36f0",
+    "distance_m": 301.26298857724566
+  },
+  {
+    "query": "bd09:0479726e34c0540cd7984bde",
+    "reference": "bd09:3cf8a0bfec454eed9187398f",
+    "distance_m": 1186.460618061229
+  },
+  {
+    "query": "bd09:18a97b0691fa4a770b212c19",
+    "reference": "bd09:046445ff13ba25cedc3c8d1c",
+    "distance_m": 567.0327609010343
+  },
+  {
+    "query": "bd09:c87c3b406722ed64ba6fc0ec",
+    "reference": "bd09:3eaf013e210e0faa7ff797d5",
+    "distance_m": 366.8714642003137
+  },
+  {
+    "query": "bd09:840f5edb7a450c9ad0203eb3",
+    "reference": "bd09:1c45ca56f5276952427e1a83",
+    "distance_m": 604.3281665398912
+  },
+  {
+    "query": "bd09:583c38512d5d7caafe3252a9",
+    "reference": "bd09:3cf8a0bfec454eed9187398f",
+    "distance_m": 634.9209727168694
+  },
+  {
+    "query": "bd09:2aaf543964d29b63f8da85ef",
+    "reference": "bd09:3eaf013e210e0faa7ff797d5",
+    "distance_m": 693.3192281730654
+  },
+  {
+    "query": "bd09:b14785685612a390f4ae2a0c",
+    "reference": "bd09:046445ff13ba25cedc3c8d1c",
+    "distance_m": 1711.7926013952751
+  },
+  {
+    "query": "bd09:e0671f1e6f7d9089e4690d9d",
+    "reference": "bd09:f6d5366111cd377f35eda582",
+    "distance_m": 314.83166740356484
+  },
+  {
+    "query": "bd09:081c5f62752e23a499fb8b8f",
+    "reference": "bd09:046445ff13ba25cedc3c8d1c",
+    "distance_m": 675.567937186156
+  },
+  {
+    "query": "bd09:1ca3f63b2198799074b5f704",
+    "reference": "bd09:fd5f3025fe3f0b0dba60513f",
+    "distance_m": 230.96431633036877
+  },
+  {
+    "query": "bd09:67efa6bcebf11f0e94b7ce77",
+    "reference": "bd09:13b4aa8c61923ba9278e45b0",
+    "distance_m": 692.5082411412429
+  },
+  {
+    "query": "bd09:ea55e6f1a6aab7d79a159563",
+    "reference": "bd09:f6d5366111cd377f35eda582",
+    "distance_m": 836.9640227315559
+  },
+  {
+    "query": "bd09:29f075d1910659820b19d3e4",
+    "reference": "bd09:fd5f3025fe3f0b0dba60513f",
+    "distance_m": 480.43250087402936
+  },
+  {
+    "query": "bd09:e6f6201388121fc18d2b001e",
+    "reference": "bd09:c64edbaaf024794dfc536ef1",
+    "distance_m": 378.93730842206315
+  },
+  {
+    "query": "bd09:fcaba48154c4dc8a1fb714e1",
+    "reference": "bd09:1c45ca56f5276952427e1a83",
+    "distance_m": 534.9900431417232
+  },
+  {
+    "query": "bd09:71a90b81f4242d3f4a18b9b5",
+    "reference": "bd09:3eaf013e210e0faa7ff797d5",
+    "distance_m": 278.03715867725157
+  },
+  {
+    "query": "bd09:2000a4c5bbb5cfc5afdfa4e7",
+    "reference": "bd09:3cf8a0bfec454eed9187398f",
+    "distance_m": 356.59335432068053
+  },
+  {
+    "query": "bd09:2af074ca4dbc259c81bd5447",
+    "reference": "bd09:3eaf013e210e0faa7ff797d5",
+    "distance_m": 312.1020532285905
+  },
+  {
+    "query": "bd09:e09ba2e273bd8ec87693c72f",
+    "reference": "bd09:046445ff13ba25cedc3c8d1c",
+    "distance_m": 583.0943987394127
+  },
+  {
+    "query": "bd09:1228f1119b4c8b89f943f724",
+    "reference": "bd09:fd5f3025fe3f0b0dba60513f",
+    "distance_m": 491.07775095763117
+  },
+  {
+    "query": "bd09:c0ca0fd552c491d5a5856286",
+    "reference": "bd09:3cf8a0bfec454eed9187398f",
+    "distance_m": 834.116908968802
+  },
+  {
+    "query": "bd09:434dc9f56fdd1ca0be4870e5",
+    "reference": "bd09:cfa12ade59377e03156acf9c",
+    "distance_m": 313.7738282640329
+  },
+  {
+    "query": "bd09:d46e434255a985243846961a",
+    "reference": "bd09:f6d5366111cd377f35eda582",
+    "distance_m": 607.408486593212
+  },
+  {
+    "query": "bd09:4cd9f7720435c5d6eee671c3",
+    "reference": "bd09:f6d5366111cd377f35eda582",
+    "distance_m": 543.6168681409098
+  },
+  {
+    "query": "bd09:6a0edb33a39063299b672f15",
+    "reference": "bd09:3cf8a0bfec454eed9187398f",
+    "distance_m": 832.7708145679886
+  },
+  {
+    "query": "bd09:5677414ef81803e8e8f4f782",
+    "reference": "bd09:f6d5366111cd377f35eda582",
+    "distance_m": 579.335513675349
+  },
+  {
+    "query": "bd09:216f0919edb03728490231c1",
+    "reference": "bd09:3eaf013e210e0faa7ff797d5",
+    "distance_m": 1183.4402301590014
+  },
+  {
+    "query": "bd09:95853e1434d5b14b8df3a03c",
+    "reference": "bd09:3eaf013e210e0faa7ff797d5",
+    "distance_m": 734.2225175278961
+  },
+  {
+    "query": "bd09:013b8aaf16a05c6ee0aa7b84",
+    "reference": "bd09:3eaf013e210e0faa7ff797d5",
+    "distance_m": 186.8635381366984
+  },
+  {
+    "query": "bd09:1ab32559fd0daf7152dfc4c6",
+    "reference": "bd09:046445ff13ba25cedc3c8d1c",
+    "distance_m": 1104.163749164598
+  },
+  {
+    "query": "bd09:9686bd231e03c01d38c7b3ee",
+    "reference": "bd09:046445ff13ba25cedc3c8d1c",
+    "distance_m": 620.1251953516692
+  },
+  {
+    "query": "bd09:80f51d440fb3b85ec6a7e3cb",
+    "reference": "bd09:1c45ca56f5276952427e1a83",
+    "distance_m": 740.16748660048
+  },
+  {
+    "query": "bd09:371b4005b67b2016a175d8fe",
+    "reference": "bd09:046445ff13ba25cedc3c8d1c",
+    "distance_m": 870.9960890737797
+  },
+  {
+    "query": "bd09:58a74346d12bda55deef6a1a",
+    "reference": "bd09:fd5f3025fe3f0b0dba60513f",
+    "distance_m": 285.62870476808945
+  },
+  {
+    "query": "bd09:5d873f8283c3023700c3b116",
+    "reference": "bd09:a34ec02d020bde8ecf399ea1",
+    "distance_m": 532.7260223816154
+  },
+  {
+    "query": "bd09:cb63ded5172f59764d336303",
+    "reference": "bd09:135d55c0422c8dba74d6c718",
+    "distance_m": 2275.9714688748195
+  },
+  {
+    "query": "bd09:21aa6edf00445e3995afdf89",
+    "reference": "bd09:135d55c0422c8dba74d6c718",
+    "distance_m": 2582.7856205006
+  },
+  {
+    "query": "bd09:4a1b82929a7f6705423e7e6b",
+    "reference": "bd09:135d55c0422c8dba74d6c718",
+    "distance_m": 2373.4281206710098
+  },
+  {
+    "query": "bd09:8bc819b55da1111c5769bb72",
+    "reference": "bd09:4a00cff21464eb18f0d3cc7b",
+    "distance_m": 2641.4380396492834
+  },
+  {
+    "query": "bd09:da9ca05cba15107186a16b83",
+    "reference": "bd09:2731f4dbe6e50d7f70d55e42",
+    "distance_m": 1852.7871746470544
+  },
+  {
+    "query": "bd09:29571df08126c8c8bb9d0e0f",
+    "reference": "bd09:44522f9324feec2fb89de9e3",
+    "distance_m": 537.9759869870988
+  },
+  {
+    "query": "bd09:17e1b243b6205c77b08fd34b",
+    "reference": "bd09:4a00cff21464eb18f0d3cc7b",
+    "distance_m": 3418.3329511973784
+  },
+  {
+    "query": "bd09:57e292e148a600864b17de06",
+    "reference": "bd09:4a00cff21464eb18f0d3cc7b",
+    "distance_m": 2640.047680325986
+  },
+  {
+    "query": "bd09:57eb5826fd7435c2ca439ceb",
+    "reference": "bd09:44522f9324feec2fb89de9e3",
+    "distance_m": 1664.994603947702
+  },
+  {
+    "query": "bd09:3fec8c13abe3d0d9ab18e8aa",
+    "reference": "bd09:135d55c0422c8dba74d6c718",
+    "distance_m": 1625.9625306756238
+  },
+  {
+    "query": "bd09:c3597939aecb0dd7c8f21485",
+    "reference": "bd09:2731f4dbe6e50d7f70d55e42",
+    "distance_m": 1212.1840482122668
+  },
+  {
+    "query": "bd09:ab5fce0f612feda88b9a2986",
+    "reference": "bd09:2731f4dbe6e50d7f70d55e42",
+    "distance_m": 2065.9372973733134
+  },
+  {
+    "query": "bd09:6dc84159e004a680f203cc6c",
+    "reference": "bd09:4a00cff21464eb18f0d3cc7b",
+    "distance_m": 2217.3583993299694
+  },
+  {
+    "query": "bd09:127f699bee2b93af6d3d56af",
+    "reference": "bd09:2731f4dbe6e50d7f70d55e42",
+    "distance_m": 1797.8845408489321
+  },
+  {
+    "query": "bd09:6a96bbe37cb4ae1c2fb58084",
+    "reference": "bd09:4a00cff21464eb18f0d3cc7b",
+    "distance_m": 2366.557321688297
+  },
+  {
+    "query": "bd09:99a3038bdb11f1f04644d8f6",
+    "reference": "bd09:2731f4dbe6e50d7f70d55e42",
+    "distance_m": 1244.4384704797712
+  },
+  {
+    "query": "bd09:d65e19e340a4fc38238a6bc6",
+    "reference": "bd09:4a00cff21464eb18f0d3cc7b",
+    "distance_m": 3427.189049625184
+  },
+  {
+    "query": "bd09:069480fd1696e263765e71d6",
+    "reference": "bd09:135d55c0422c8dba74d6c718",
+    "distance_m": 2327.7634410463975
+  },
+  {
+    "query": "bd09:746c618e751da4953c91a7a5",
+    "reference": "bd09:135d55c0422c8dba74d6c718",
+    "distance_m": 517.4345769559687
+  },
+  {
+    "query": "bd09:116b96a9b9df105102d1db7c",
+    "reference": "bd09:4a00cff21464eb18f0d3cc7b",
+    "distance_m": 2584.9279792620673
+  },
+  {
+    "query": "bd09:17425b1d142842de89e58312",
+    "reference": "bd09:f6d5366111cd377f35eda582",
+    "distance_m": 2378.945343876004
+  },
+  {
+    "query": "bd09:b82121ad396a075c5f4f6b5a",
+    "reference": "bd09:135d55c0422c8dba74d6c718",
+    "distance_m": 2313.675187723213
+  },
+  {
+    "query": "bd09:7f242a2f05950c4302f460c3",
+    "reference": "bd09:a10842840a7cc3dc206e8380",
+    "distance_m": 93.82996519162309
+  },
+  {
+    "query": "bd09:1d165afc4e41b418c4fa8049",
+    "reference": "bd09:13b4aa8c61923ba9278e45b0",
+    "distance_m": 580.1620107221319
+  },
+  {
+    "query": "bd09:7d4b70488ecf5a6900283ca8",
+    "reference": "bd09:13b4aa8c61923ba9278e45b0",
+    "distance_m": 776.2516730369807
+  },
+  {
+    "query": "bd09:4fbae59de3f1ad265daa5e41",
+    "reference": "bd09:a10842840a7cc3dc206e8380",
+    "distance_m": 299.1787540925065
+  },
+  {
+    "query": "bd09:1fe61f251fbcb6d66cfd11ff",
+    "reference": "bd09:a10842840a7cc3dc206e8380",
+    "distance_m": 201.38055903062306
+  },
+  {
+    "query": "bd09:a2fdcfabd05ea00466b92b63",
+    "reference": "bd09:4a00cff21464eb18f0d3cc7b",
+    "distance_m": 2203.8602741053123
+  },
+  {
+    "query": "bd09:b718af428c28117fe9244e44",
+    "reference": "bd09:2731f4dbe6e50d7f70d55e42",
+    "distance_m": 1498.5543816467107
+  },
+  {
+    "query": "bd09:449b3458509bd36aba37e94a",
+    "reference": "bd09:135d55c0422c8dba74d6c718",
+    "distance_m": 2305.3550136170384
+  },
+  {
+    "query": "bd09:44887b029cab8f9f07f1d6ed",
+    "reference": "bd09:135d55c0422c8dba74d6c718",
+    "distance_m": 1990.2162983995988
+  },
+  {
+    "query": "bd09:f16ca8b1560f71f2c028aaf5",
+    "reference": "bd09:135d55c0422c8dba74d6c718",
+    "distance_m": 2004.5078894119456
+  },
+  {
+    "query": "bd09:5f2c463da303562acfb1d287",
+    "reference": "bd09:135d55c0422c8dba74d6c718",
+    "distance_m": 2472.020632662202
+  },
+  {
+    "query": "bd09:1c59a8c650680e296d0fcd34",
+    "reference": "bd09:4a00cff21464eb18f0d3cc7b",
+    "distance_m": 1867.5437957286197
+  },
+  {
+    "query": "bd09:1b1ea7ac5fc69bd9e416b0a5",
+    "reference": "bd09:135d55c0422c8dba74d6c718",
+    "distance_m": 2373.794919072432
+  },
+  {
+    "query": "bd09:5b5a299257a77c9e784ff128",
+    "reference": "bd09:046445ff13ba25cedc3c8d1c",
+    "distance_m": 1552.138972103881
+  },
+  {
+    "query": "bd09:410ea0c8bb742b6ef820cf10",
+    "reference": "bd09:046445ff13ba25cedc3c8d1c",
+    "distance_m": 292.62875447882124
+  },
+  {
+    "query": "bd09:833aea1ec3728df8ca637702",
+    "reference": "bd09:f6d5366111cd377f35eda582",
+    "distance_m": 306.00905781501234
+  },
+  {
+    "query": "bd09:1451b14782602ae13e364b40",
+    "reference": "bd09:fd5f3025fe3f0b0dba60513f",
+    "distance_m": 53.08100901808952
+  },
+  {
+    "query": "bd09:203c6aa14c6acb2cc9071ecd",
+    "reference": "bd09:fd5f3025fe3f0b0dba60513f",
+    "distance_m": 219.7544853593487
+  },
+  {
+    "query": "bd09:2c257192bc77e94692ba58f0",
+    "reference": "bd09:f6d5366111cd377f35eda582",
+    "distance_m": 492.5823315357476
+  },
+  {
+    "query": "bd09:f413e98f573c41482939361e",
+    "reference": "bd09:046445ff13ba25cedc3c8d1c",
+    "distance_m": 1261.8263412170738
+  },
+  {
+    "query": "bd09:20d909e96aeb9878186f9d50",
+    "reference": "bd09:f6d5366111cd377f35eda582",
+    "distance_m": 1273.7458494123027
+  },
+  {
+    "query": "bd09:2d435fdee67389f0f83ae268",
+    "reference": "bd09:244e27ce5ad06efbfa7c36f0",
+    "distance_m": 535.4209073464299
+  },
+  {
+    "query": "bd09:f8a57ed7d762bcc7b40a98fa",
+    "reference": "bd09:3eaf013e210e0faa7ff797d5",
+    "distance_m": 726.6405587833978
+  },
+  {
+    "query": "bd09:69bf9f506ad9910cbd5afbbc",
+    "reference": "bd09:c699d68c87f5ba44d3bee802",
+    "distance_m": 507.0579582465887
+  },
+  {
+    "query": "bd09:e2d0241902d9e336325cacb7",
+    "reference": "bd09:13b4aa8c61923ba9278e45b0",
+    "distance_m": 796.5931334172998
+  },
+  {
+    "query": "bd09:6c11b0a6dc36fca7888e9564",
+    "reference": "bd09:244e27ce5ad06efbfa7c36f0",
+    "distance_m": 566.4510321253064
+  },
+  {
+    "query": "bd09:a6422ae44d5ed9c930ae4719",
+    "reference": "bd09:13b4aa8c61923ba9278e45b0",
+    "distance_m": 488.06826286972665
+  },
+  {
+    "query": "bd09:1820832025d85790064c629c",
+    "reference": "bd09:c699d68c87f5ba44d3bee802",
+    "distance_m": 491.953649190839
+  },
+  {
+    "query": "bd09:12831073aa8b6bb4c163912f",
+    "reference": "bd09:13b4aa8c61923ba9278e45b0",
+    "distance_m": 690.2845651899435
+  },
+  {
+    "query": "bd09:4e41bf584af8d01e0816278a",
+    "reference": "bd09:c64edbaaf024794dfc536ef1",
+    "distance_m": 762.4618566001831
+  },
+  {
+    "query": "bd09:a8c9017d2f4fec8cb806c72a",
+    "reference": "bd09:046445ff13ba25cedc3c8d1c",
+    "distance_m": 869.4594079424869
+  },
+  {
+    "query": "bd09:279f3d9dd760382f0fdde1b8",
+    "reference": "bd09:cfa12ade59377e03156acf9c",
+    "distance_m": 406.88618869822267
+  },
+  {
+    "query": "bd09:48e397d5434cc92e0172ddb9",
+    "reference": "bd09:c64edbaaf024794dfc536ef1",
+    "distance_m": 769.2543615475045
+  },
+  {
+    "query": "bd09:af1a33df1d3ee4054a4cfe75",
+    "reference": "bd09:1c45ca56f5276952427e1a83",
+    "distance_m": 1091.3604969158732
+  },
+  {
+    "query": "bd09:9ec967940c5ad75e0be04f40",
+    "reference": "bd09:5187bdd9fec4c8f91f7dd939",
+    "distance_m": 270.9490579226067
+  },
+  {
+    "query": "bd09:3e8615f517dfb84063c8cb00",
+    "reference": "bd09:046445ff13ba25cedc3c8d1c",
+    "distance_m": 453.1148824998624
+  },
+  {
+    "query": "bd09:59c8624fbd46a07c95bb4652",
+    "reference": "bd09:c64edbaaf024794dfc536ef1",
+    "distance_m": 776.477401805828
+  },
+  {
+    "query": "bd09:5b49aede958bb01773bbd107",
+    "reference": "bd09:046445ff13ba25cedc3c8d1c",
+    "distance_m": 923.1962097998368
+  },
+  {
+    "query": "bd09:0b5253a9433cbb878d584531",
+    "reference": "bd09:13b4aa8c61923ba9278e45b0",
+    "distance_m": 1247.5198472175837
+  },
+  {
+    "query": "bd09:a692c0f7d142f4d5833f7b07",
+    "reference": "bd09:046445ff13ba25cedc3c8d1c",
+    "distance_m": 831.9067103376766
+  },
+  {
+    "query": "bd09:589ac4f59b491c5f98cff532",
+    "reference": "bd09:046445ff13ba25cedc3c8d1c",
+    "distance_m": 493.0870293418384
+  },
+  {
+    "query": "bd09:11f5266b7da8c7ed93cad6a7",
+    "reference": "bd09:3cf8a0bfec454eed9187398f",
+    "distance_m": 919.1529337229267
+  },
+  {
+    "query": "bd09:6b7a6b6649b13ebfb3befe11",
+    "reference": "bd09:3eaf013e210e0faa7ff797d5",
+    "distance_m": 589.7168240855707
+  },
+  {
+    "query": "bd09:7de2e2324d5033bcec3d81af",
+    "reference": "bd09:14aa1d475f09f72a0d616def",
+    "distance_m": 906.0230812177854
+  },
+  {
+    "query": "bd09:a2f8347ee114340af445dbda",
+    "reference": "bd09:2731f4dbe6e50d7f70d55e42",
+    "distance_m": 845.2723105031178
+  },
+  {
+    "query": "bd09:e7ad7de035ebc4450f1fe1b6",
+    "reference": "bd09:2731f4dbe6e50d7f70d55e42",
+    "distance_m": 1783.8223685982316
+  },
+  {
+    "query": "bd09:48ffe300871736de87a113a3",
+    "reference": "bd09:cfa12ade59377e03156acf9c",
+    "distance_m": 209.78069366379054
+  },
+  {
+    "query": "bd09:ce099ace5fbe8ea58bdf9637",
+    "reference": "bd09:f6d5366111cd377f35eda582",
+    "distance_m": 124.0900105855679
+  },
+  {
+    "query": "bd09:7b8e390ee073e69a462acdc2",
+    "reference": "bd09:3eaf013e210e0faa7ff797d5",
+    "distance_m": 399.2392962556617
+  },
+  {
+    "query": "bd09:09c7a64cf0a25c937168a5d8",
+    "reference": "bd09:4a00cff21464eb18f0d3cc7b",
+    "distance_m": 3078.580496210981
+  },
+  {
+    "query": "bd09:bf58eac206685b467eeb64c3",
+    "reference": "bd09:14aa1d475f09f72a0d616def",
+    "distance_m": 190.7898665070517
+  },
+  {
+    "query": "bd09:8e27a48f0e1b48140486cedc",
+    "reference": "bd09:770f66e783361a83bef73d33",
+    "distance_m": 659.7771583341068
+  },
+  {
+    "query": "bd09:045bf3eb13c2950d3a434bfd",
+    "reference": "bd09:135d55c0422c8dba74d6c718",
+    "distance_m": 1085.6969137626834
+  },
+  {
+    "query": "bd09:235f1f7a61d7e33fd2836d71",
+    "reference": "bd09:0953fc9d1162a1a21cecd845",
+    "distance_m": 762.372352472407
+  },
+  {
+    "query": "bd09:c0041b7d34692145741917d8",
+    "reference": "bd09:c699d68c87f5ba44d3bee802",
+    "distance_m": 262.1539707135622
+  },
+  {
+    "query": "bd09:65719ef524427d0cd5bee310",
+    "reference": "bd09:3cf8a0bfec454eed9187398f",
+    "distance_m": 129.86117483400238
+  },
+  {
+    "query": "bd09:71b7949f36ec7fe852da42cd",
+    "reference": "bd09:3cf8a0bfec454eed9187398f",
+    "distance_m": 83.2475142448181
+  },
+  {
+    "query": "bd09:8dbc2ee32f2c34aed17ed81c",
+    "reference": "bd09:135d55c0422c8dba74d6c718",
+    "distance_m": 1026.9660957200101
+  },
+  {
+    "query": "bd09:975ad40dc7ff2d0fbd7d9899",
+    "reference": "bd09:2e09507dbdb4c44b27d1dc16",
+    "distance_m": 394.6896746690011
+  },
+  {
+    "query": "bd09:282c8490373ba528765644de",
+    "reference": "bd09:3cf8a0bfec454eed9187398f",
+    "distance_m": 192.30941141245611
+  },
+  {
+    "query": "bd09:02ba4dc099d492f4ede85def",
+    "reference": "bd09:3fd5a3a0ce547412f8430aa7",
+    "distance_m": 466.11085842328924
+  },
+  {
+    "query": "bd09:a49be2f24f8cbacf27b96332",
+    "reference": "bd09:c699d68c87f5ba44d3bee802",
+    "distance_m": 157.01382852679077
+  }
+]

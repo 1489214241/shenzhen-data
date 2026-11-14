@@ -1,0 +1,17 @@
+{
+  "python": "3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 15:03:56) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "torch": "2.6.0+cu118",
+  "numpy": "1.26.4",
+  "scipy": "1.13.1",
+  "shapely": "2.1.1",
+  "gpu": "NVIDIA GeForce RTX 3070 Laptop GPU",
+  "cuda": "11.8",
+  "commands": [
+    "python scripts/experiment_school_gap_reference.py prepare",
+    "python scripts/experiment_school_gap_reference.py sample",
+    "python scripts/experiment_school_gap_reference.py fit",
+    "python scripts/experiment_school_gap_reference.py score",
+    "python scripts/audit_school_gap_reference.py"
+  ]
+}

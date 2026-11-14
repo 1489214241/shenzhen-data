@@ -1,0 +1,426 @@
+{
+  "龙华区": {
+    "categorical/20261231": {
+      "trials": [
+        {
+          "step": 0,
+          "n": 53,
+          "correct": 22,
+          "fp": 33
+        },
+        {
+          "step": 20,
+          "n": 53,
+          "correct": 22,
+          "fp": 22
+        },
+        {
+          "step": 40,
+          "n": 53,
+          "correct": 21,
+          "fp": 19
+        },
+        {
+          "step": 80,
+          "n": 53,
+          "correct": 22,
+          "fp": 19
+        }
+      ],
+      "chosen": {
+        "step": 80,
+        "n": 53,
+        "correct": 22,
+        "fp": 19
+      },
+      "unavailable_training_targets": 0
+    },
+    "categorical/20261232": {
+      "trials": [
+        {
+          "step": 0,
+          "n": 53,
+          "correct": 27,
+          "fp": 22
+        },
+        {
+          "step": 20,
+          "n": 53,
+          "correct": 29,
+          "fp": 17
+        },
+        {
+          "step": 40,
+          "n": 53,
+          "correct": 25,
+          "fp": 17
+        },
+        {
+          "step": 80,
+          "n": 53,
+          "correct": 24,
+          "fp": 19
+        }
+      ],
+      "chosen": {
+        "step": 20,
+        "n": 53,
+        "correct": 29,
+        "fp": 17
+      },
+      "unavailable_training_targets": 0
+    },
+    "categorical/20261233": {
+      "trials": [
+        {
+          "step": 0,
+          "n": 53,
+          "correct": 26,
+          "fp": 25
+        },
+        {
+          "step": 20,
+          "n": 53,
+          "correct": 21,
+          "fp": 23
+        },
+        {
+          "step": 40,
+          "n": 53,
+          "correct": 22,
+          "fp": 21
+        },
+        {
+          "step": 80,
+          "n": 53,
+          "correct": 25,
+          "fp": 16
+        }
+      ],
+      "chosen": {
+        "step": 0,
+        "n": 53,
+        "correct": 26,
+        "fp": 25
+      },
+      "unavailable_training_targets": 0
+    },
+    "complete/20261231": {
+      "trials": [
+        {
+          "step": 0,
+          "n": 53,
+          "correct": 33,
+          "fp": 32
+        },
+        {
+          "step": 20,
+          "n": 53,
+          "correct": 34,
+          "fp": 31
+        },
+        {
+          "step": 40,
+          "n": 53,
+          "correct": 37,
+          "fp": 28
+        },
+        {
+          "step": 80,
+          "n": 53,
+          "correct": 38,
+          "fp": 27
+        }
+      ],
+      "chosen": {
+        "step": 80,
+        "n": 53,
+        "correct": 38,
+        "fp": 27
+      },
+      "unavailable_training_targets": 10
+    },
+    "complete/20261232": {
+      "trials": [
+        {
+          "step": 0,
+          "n": 53,
+          "correct": 32,
+          "fp": 34
+        },
+        {
+          "step": 20,
+          "n": 53,
+          "correct": 34,
+          "fp": 31
+        },
+        {
+          "step": 40,
+          "n": 53,
+          "correct": 35,
+          "fp": 31
+        },
+        {
+          "step": 80,
+          "n": 53,
+          "correct": 36,
+          "fp": 30
+        }
+      ],
+      "chosen": {
+        "step": 80,
+        "n": 53,
+        "correct": 36,
+        "fp": 30
+      },
+      "unavailable_training_targets": 10
+    },
+    "complete/20261233": {
+      "trials": [
+        {
+          "step": 0,
+          "n": 53,
+          "correct": 33,
+          "fp": 33
+        },
+        {
+          "step": 20,
+          "n": 53,
+          "correct": 33,
+          "fp": 33
+        },
+        {
+          "step": 40,
+          "n": 53,
+          "correct": 34,
+          "fp": 32
+        },
+        {
+          "step": 80,
+          "n": 53,
+          "correct": 34,
+          "fp": 32
+        }
+      ],
+      "chosen": {
+        "step": 40,
+        "n": 53,
+        "correct": 34,
+        "fp": 32
+      },
+      "unavailable_training_targets": 10
+    }
+  },
+  "龙岗区": {
+    "categorical/20261231": {
+      "trials": [
+        {
+          "step": 0,
+          "n": 51,
+          "correct": 24,
+          "fp": 17
+        },
+        {
+          "step": 20,
+          "n": 51,
+          "correct": 25,
+          "fp": 16
+        },
+        {
+          "step": 40,
+          "n": 51,
+          "correct": 26,
+          "fp": 16
+        },
+        {
+          "step": 80,
+          "n": 51,
+          "correct": 25,
+          "fp": 17
+        }
+      ],
+      "chosen": {
+        "step": 40,
+        "n": 51,
+        "correct": 26,
+        "fp": 16
+      },
+      "unavailable_training_targets": 0
+    },
+    "categorical/20261232": {
+      "trials": [
+        {
+          "step": 0,
+          "n": 51,
+          "correct": 25,
+          "fp": 18
+        },
+        {
+          "step": 20,
+          "n": 51,
+          "correct": 25,
+          "fp": 17
+        },
+        {
+          "step": 40,
+          "n": 51,
+          "correct": 24,
+          "fp": 18
+        },
+        {
+          "step": 80,
+          "n": 51,
+          "correct": 24,
+          "fp": 18
+        }
+      ],
+      "chosen": {
+        "step": 20,
+        "n": 51,
+        "correct": 25,
+        "fp": 17
+      },
+      "unavailable_training_targets": 0
+    },
+    "categorical/20261233": {
+      "trials": [
+        {
+          "step": 0,
+          "n": 51,
+          "correct": 22,
+          "fp": 20
+        },
+        {
+          "step": 20,
+          "n": 51,
+          "correct": 25,
+          "fp": 17
+        },
+        {
+          "step": 40,
+          "n": 51,
+          "correct": 25,
+          "fp": 17
+        },
+        {
+          "step": 80,
+          "n": 51,
+          "correct": 24,
+          "fp": 18
+        }
+      ],
+      "chosen": {
+        "step": 20,
+        "n": 51,
+        "correct": 25,
+        "fp": 17
+      },
+      "unavailable_training_targets": 0
+    },
+    "complete/20261231": {
+      "trials": [
+        {
+          "step": 0,
+          "n": 51,
+          "correct": 22,
+          "fp": 39
+        },
+        {
+          "step": 20,
+          "n": 51,
+          "correct": 22,
+          "fp": 35
+        },
+        {
+          "step": 40,
+          "n": 51,
+          "correct": 21,
+          "fp": 35
+        },
+        {
+          "step": 80,
+          "n": 51,
+          "correct": 22,
+          "fp": 34
+        }
+      ],
+      "chosen": {
+        "step": 80,
+        "n": 51,
+        "correct": 22,
+        "fp": 34
+      },
+      "unavailable_training_targets": 54
+    },
+    "complete/20261232": {
+      "trials": [
+        {
+          "step": 0,
+          "n": 51,
+          "correct": 22,
+          "fp": 36
+        },
+        {
+          "step": 20,
+          "n": 51,
+          "correct": 24,
+          "fp": 34
+        },
+        {
+          "step": 40,
+          "n": 51,
+          "correct": 23,
+          "fp": 35
+        },
+        {
+          "step": 80,
+          "n": 51,
+          "correct": 24,
+          "fp": 34
+        }
+      ],
+      "chosen": {
+        "step": 20,
+        "n": 51,
+        "correct": 24,
+        "fp": 34
+      },
+      "unavailable_training_targets": 54
+    },
+    "complete/20261233": {
+      "trials": [
+        {
+          "step": 0,
+          "n": 51,
+          "correct": 22,
+          "fp": 39
+        },
+        {
+          "step": 20,
+          "n": 51,
+          "correct": 23,
+          "fp": 37
+        },
+        {
+          "step": 40,
+          "n": 51,
+          "correct": 22,
+          "fp": 38
+        },
+        {
+          "step": 80,
+          "n": 51,
+          "correct": 22,
+          "fp": 34
+        }
+      ],
+      "chosen": {
+        "step": 20,
+        "n": 51,
+        "correct": 23,
+        "fp": 37
+      },
+      "unavailable_training_targets": 54
+    }
+  }
+}

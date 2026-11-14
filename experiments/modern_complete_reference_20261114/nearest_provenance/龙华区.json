@@ -1,0 +1,3357 @@
+[
+  {
+    "query": "bd09:6490326f846bfb4978a010a3",
+    "reference": "bd09:bf58eac206685b467eeb64c3",
+    "distance_m": 155.54738920412112,
+    "schools": [
+      "sz:longhua:school:d713de18b1b043afb8e90469d78f13c9",
+      "sz:longhua:school:270930b511e946c38951ecf46a65476a"
+    ]
+  },
+  {
+    "query": "bd09:9d3134b8f9ca0e6b613f51c7",
+    "reference": "bd09:ba9ed9c2780916508160be7e",
+    "distance_m": 307.6010550306957,
+    "schools": [
+      "sz:longhua:school:496FFFE16B755558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:52eb9d68fb6607c2e70dc22f",
+    "reference": "bd09:83d89ebbf86d0d6f4d930da2",
+    "distance_m": 212.0696606813151,
+    "schools": [
+      "sz:longhua:school:496FFFE16B4C5558E053BC09A8C0A5ED",
+      "sz:longhua:school:270930b511e946c38951ecf46a65476a"
+    ]
+  },
+  {
+    "query": "bd09:8125055bda8a3500dfc8e305",
+    "reference": "bd09:fe0ef144993620dc9c7a1933",
+    "distance_m": 103.5565675892283,
+    "schools": [
+      "sz:longhua:school:da8402fbef554a27b5ac54f83c6a1682"
+    ]
+  },
+  {
+    "query": "bd09:8e5ae0368ce25359ecbc21be",
+    "reference": "bd09:b741fa9770917a7cc892d0ea",
+    "distance_m": 178.75355325293725,
+    "schools": [
+      "sz:longhua:school:496FFFE16B955558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:7dcaff287242529e3f7c31ab",
+    "reference": "bd09:771d29b717aab786a76f41d4",
+    "distance_m": 189.73447425287856,
+    "schools": [
+      "sz:longhua:school:496FFFE16B7A5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:1763f65fee2e27105a7aa016",
+    "reference": "bd09:33e53a0c15cb4f656cbee7b0",
+    "distance_m": 217.2744462424892,
+    "schools": [
+      "sz:longhua:school:496FFFE16B4F5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:a83d6966005af76918a2ebaa",
+    "reference": "bd09:8508a170b084ebe5594735d9",
+    "distance_m": 254.98799654161343,
+    "schools": [
+      "sz:longhua:school:496FFFE16B955558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:06aeb32eeed37183f7ab361f",
+    "reference": "bd09:2b71605d904880440d911e6b",
+    "distance_m": 481.73946671184416,
+    "schools": [
+      "sz:longhua:school:23ba0810988d4e3fb4fa75f80c080db8",
+      "sz:longhua:school:496FFFE16B715558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:a46dd27cdc75c598ec745578",
+    "reference": "bd09:86c3d327194e117e29f69627",
+    "distance_m": 315.7196825622853,
+    "schools": [
+      "sz:longhua:school:496FFFE16B755558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:71ab3986b996d69f50c28d20",
+    "reference": "bd09:6f95ad7278f3b168455b38db",
+    "distance_m": 162.90895852888127,
+    "schools": [
+      "sz:longhua:school:94aed576e2854236bfd117b281031afa",
+      "sz:longhua:school:496FFFE16B945558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:0bf2102014a72f82cc6312bf",
+    "reference": "bd09:d68f97cdf39d7c5d9a6e9901",
+    "distance_m": 284.9136559726272,
+    "schools": [
+      "sz:longhua:school:496FFFE16B475558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:d8fea9090be2f00dc9dd2095",
+    "reference": "bd09:248a0126399b462b27e782c2",
+    "distance_m": 229.31213502328106,
+    "schools": [
+      "sz:longhua:school:496FFFE16B955558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:e4d0bda6ec20e5bfc279342f",
+    "reference": "bd09:e8b85176a36a2e38ba900657",
+    "distance_m": 209.22655656466517,
+    "schools": [
+      "sz:longhua:school:496FFFE16B465558E053BC09A8C0A5ED",
+      "sz:longhua:school:1f276b80093840b9a1af7dac99af256f",
+      "sz:longhua:school:94aed576e2854236bfd117b281031afa"
+    ]
+  },
+  {
+    "query": "bd09:eca6d8b343f8f9663e6a4cee",
+    "reference": "bd09:af096a1b8e5cceddabefb6e8",
+    "distance_m": 236.3990166232089,
+    "schools": [
+      "sz:longhua:school:a863a2a0d9434c7c8370f9af437bae6e"
+    ]
+  },
+  {
+    "query": "bd09:afa566afbb33a2caf4c09489",
+    "reference": "bd09:b912f42df0a90f67898fd8c9",
+    "distance_m": 120.14604508728395,
+    "schools": [
+      "sz:longhua:school:a863a2a0d9434c7c8370f9af437bae6e"
+    ]
+  },
+  {
+    "query": "bd09:989d449b87fb5c488677aad4",
+    "reference": "bd09:12bb2ef705a6616b3f33fbae",
+    "distance_m": 331.11647850870713,
+    "schools": [
+      "sz:longhua:school:496FFFE16B4C5558E053BC09A8C0A5ED",
+      "sz:longhua:school:270930b511e946c38951ecf46a65476a"
+    ]
+  },
+  {
+    "query": "bd09:503a511bba578a9f1b3ead4f",
+    "reference": "bd09:c0041b7d34692145741917d8",
+    "distance_m": 162.22255880585206,
+    "schools": [
+      "sz:longhua:school:94aed576e2854236bfd117b281031afa",
+      "sz:longhua:school:496FFFE16B945558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:7da1b6f0b3cedfdd77a73302",
+    "reference": "bd09:5b1622402ad335ee75624848",
+    "distance_m": 97.2088748009231,
+    "schools": [
+      "sz:longhua:school:23ba0810988d4e3fb4fa75f80c080db8",
+      "sz:longhua:school:496FFFE16B715558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:474f118d22e776ccd2782c4f",
+    "reference": "bd09:86c3d327194e117e29f69627",
+    "distance_m": 145.7561502611749,
+    "schools": [
+      "sz:longhua:school:496FFFE16B755558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:bbb08e2925f6f92440ca022d",
+    "reference": "bd09:95a929bdf8d74ed6dbb1008d",
+    "distance_m": 308.91691073842185,
+    "schools": [
+      "sz:longhua:school:b5d42e6c807e47b1b53f2f24323cc6aa",
+      "sz:longhua:school:ebe9113be2924ea68014727f80792b78"
+    ]
+  },
+  {
+    "query": "bd09:8aa2aa843ebc98f62f1afad8",
+    "reference": "bd09:ba9ed9c2780916508160be7e",
+    "distance_m": 160.63751935221808,
+    "schools": [
+      "sz:longhua:school:496FFFE16B755558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:b6c3d9c1acbfbd17d73a8a48",
+    "reference": "bd09:25c36c22896e0199fc1c58f0",
+    "distance_m": 240.62460603169268,
+    "schools": [
+      "sz:longhua:school:b5d42e6c807e47b1b53f2f24323cc6aa",
+      "sz:longhua:school:ebe9113be2924ea68014727f80792b78"
+    ]
+  },
+  {
+    "query": "bd09:725e2a62fe51a71713c85c20",
+    "reference": "bd09:12bb2ef705a6616b3f33fbae",
+    "distance_m": 105.15065255299315,
+    "schools": [
+      "sz:longhua:school:496FFFE16B4C5558E053BC09A8C0A5ED",
+      "sz:longhua:school:270930b511e946c38951ecf46a65476a"
+    ]
+  },
+  {
+    "query": "bd09:51b93bf11ad630885d2f53d9",
+    "reference": "bd09:86c3d327194e117e29f69627",
+    "distance_m": 178.79932775375553,
+    "schools": [
+      "sz:longhua:school:496FFFE16B755558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:5ab7a5d2cffce178ae72b93d",
+    "reference": "bd09:57f44de0fc13e944c5f2847a",
+    "distance_m": 157.88262145713736,
+    "schools": [
+      "sz:longhua:school:496FFFE16B475558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:4133dea034c63e64fe977d20",
+    "reference": "bd09:83d89ebbf86d0d6f4d930da2",
+    "distance_m": 174.9160923571144,
+    "schools": [
+      "sz:longhua:school:496FFFE16B4C5558E053BC09A8C0A5ED",
+      "sz:longhua:school:270930b511e946c38951ecf46a65476a"
+    ]
+  },
+  {
+    "query": "bd09:c1489c43144115ebab401148",
+    "reference": "bd09:975ad40dc7ff2d0fbd7d9899",
+    "distance_m": 139.87653694437805,
+    "schools": [
+      "sz:longhua:school:496FFFE16B955558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:6b8870f94be130b5fbe22858",
+    "reference": "bd09:b8c6b07d3723316571495f58",
+    "distance_m": 194.8000411893881,
+    "schools": [
+      "sz:longhua:school:496FFFE16B475558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:eafaffccb5dcf89aa2496443",
+    "reference": "bd09:80327892ee00c4474969ec72",
+    "distance_m": 61.90599155334539,
+    "schools": [
+      "sz:longhua:school:94aed576e2854236bfd117b281031afa",
+      "sz:longhua:school:496FFFE16B945558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:f16ac7256ac9879de81823a6",
+    "reference": "bd09:6330eb0d1b6fa8540f326eda",
+    "distance_m": 201.8259928679552,
+    "schools": [
+      "sz:longhua:school:b31451d47108423e9503bf0382ce5192"
+    ]
+  },
+  {
+    "query": "bd09:d908fa21d9a8e8df745b0fa6",
+    "reference": "bd09:bc33df66aa0314df766212d9",
+    "distance_m": 214.5934960241242,
+    "schools": [
+      "sz:longhua:school:b5d42e6c807e47b1b53f2f24323cc6aa",
+      "sz:longhua:school:ebe9113be2924ea68014727f80792b78"
+    ]
+  },
+  {
+    "query": "bd09:3d1a25ee28050442572e883a",
+    "reference": "bd09:f9ba5c92b7cb0f9c877bbe09",
+    "distance_m": 158.49593128965662,
+    "schools": [
+      "sz:longhua:school:496FFFE16B475558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:b591bda72e58314034affa53",
+    "reference": "bd09:6f95ad7278f3b168455b38db",
+    "distance_m": 195.74375391072877,
+    "schools": [
+      "sz:longhua:school:94aed576e2854236bfd117b281031afa",
+      "sz:longhua:school:496FFFE16B945558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:2bab0c34a6fa3930b34ab3f5",
+    "reference": "bd09:f1bb54c74ee618da6c94b4e7",
+    "distance_m": 398.393917224678,
+    "schools": [
+      "sz:longhua:school:23ba0810988d4e3fb4fa75f80c080db8",
+      "sz:longhua:school:496FFFE16B715558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:e452eab502c56e33a81a729d",
+    "reference": "bd09:57f44de0fc13e944c5f2847a",
+    "distance_m": 158.5775272961605,
+    "schools": [
+      "sz:longhua:school:496FFFE16B475558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:7e3dfca8b2deae5e3f6c2843",
+    "reference": "bd09:b741fa9770917a7cc892d0ea",
+    "distance_m": 162.61907718973882,
+    "schools": [
+      "sz:longhua:school:496FFFE16B955558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:f3e7e7870e9e616a4947519f",
+    "reference": "bd09:94e537940ace65b2161181fb",
+    "distance_m": 72.84248095212844,
+    "schools": [
+      "sz:longhua:school:b5d42e6c807e47b1b53f2f24323cc6aa",
+      "sz:longhua:school:496FFFE16B4F5558E053BC09A8C0A5ED",
+      "sz:longhua:school:ebe9113be2924ea68014727f80792b78"
+    ]
+  },
+  {
+    "query": "bd09:ea9e28777c54dfe2ef0dd911",
+    "reference": "bd09:985b5dd21f1f2760c022076d",
+    "distance_m": 242.09587650856295,
+    "schools": [
+      "sz:longhua:school:496FFFE16B465558E053BC09A8C0A5ED",
+      "sz:longhua:school:1f276b80093840b9a1af7dac99af256f",
+      "sz:longhua:school:94aed576e2854236bfd117b281031afa"
+    ]
+  },
+  {
+    "query": "bd09:e0fe236f63372dd9ccf965e1",
+    "reference": "bd09:4c25ec2de0319a9921997434",
+    "distance_m": 91.22793857868206,
+    "schools": [
+      "sz:longhua:school:b5d42e6c807e47b1b53f2f24323cc6aa",
+      "sz:longhua:school:496FFFE16B4F5558E053BC09A8C0A5ED",
+      "sz:longhua:school:ebe9113be2924ea68014727f80792b78"
+    ]
+  },
+  {
+    "query": "bd09:12c3fcd22a669b7979b959c0",
+    "reference": "bd09:0d9bfb5b500513506ca01263",
+    "distance_m": 242.1191526431819,
+    "schools": [
+      "sz:longhua:school:a30b9ed45d5e4734b2d70feceb561c96",
+      "sz:longhua:school:f29dbee4b70c47d393ce050ba7813032",
+      "sz:longhua:school:496FFFE16B935558E053BC09A8C0A5ED:guanhu",
+      "sz:longhua:school:496FFFE16B935558E053BC09A8C0A5ED:gaoxin",
+      "sz:longhua:school:449225a8ccc34107b689c883a1b6caa2",
+      "sz:longhua:school:e158b5b70ec34bbaae1323e42fee6a06"
+    ]
+  },
+  {
+    "query": "bd09:cfa12ade59377e03156acf9c",
+    "reference": "bd09:48ffe300871736de87a113a3",
+    "distance_m": 209.78069366379054,
+    "schools": [
+      "sz:longhua:school:496FFFE16B465558E053BC09A8C0A5ED",
+      "sz:longhua:school:1f276b80093840b9a1af7dac99af256f",
+      "sz:longhua:school:94aed576e2854236bfd117b281031afa"
+    ]
+  },
+  {
+    "query": "bd09:f9f5a16ec075cf1c28e50fda",
+    "reference": "bd09:f054735a18c4c2f578fa07b3",
+    "distance_m": 53.7637452646785,
+    "schools": [
+      "sz:longhua:school:14c13f11622f4d8ca604cf9b6b722d01",
+      "sz:longhua:school:496FFFE16B415558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:f0a0fbf9004314c4d857c274",
+    "reference": "bd09:83d89ebbf86d0d6f4d930da2",
+    "distance_m": 187.29903832389928,
+    "schools": [
+      "sz:longhua:school:496FFFE16B4C5558E053BC09A8C0A5ED",
+      "sz:longhua:school:270930b511e946c38951ecf46a65476a"
+    ]
+  },
+  {
+    "query": "bd09:19041fd783a9948aa6644042",
+    "reference": "bd09:77ec8f837ae73385e92b229c",
+    "distance_m": 152.06069149815494,
+    "schools": [
+      "sz:longhua:school:94aed576e2854236bfd117b281031afa",
+      "sz:longhua:school:26607511230d404689ae8f55465df792",
+      "sz:longhua:school:85fbf4152f374f80a015cdabb34c4ff5"
+    ]
+  },
+  {
+    "query": "bd09:2cb0f0007b5230a43ed7dbae",
+    "reference": "bd09:e984ea6bccb82d0c8420adfc",
+    "distance_m": 137.44435098763748,
+    "schools": [
+      "sz:longhua:school:9ee001ac0a054274a07983d4506a0274",
+      "sz:longhua:school:b3f88a4b9de8403cbbbf9614e5156fd2"
+    ]
+  },
+  {
+    "query": "bd09:c1486861cd17467ee9af8392",
+    "reference": "bd09:1bea1a4988ba64a0260c4725",
+    "distance_m": 217.23080464955362,
+    "schools": [
+      "sz:longhua:school:94aed576e2854236bfd117b281031afa",
+      "sz:longhua:school:26607511230d404689ae8f55465df792",
+      "sz:longhua:school:85fbf4152f374f80a015cdabb34c4ff5"
+    ]
+  },
+  {
+    "query": "bd09:1d0df02fe7f15d95f69a169b",
+    "reference": "bd09:2c257192bc77e94692ba58f0",
+    "distance_m": 264.3337140509962,
+    "schools": [
+      "sz:longhua:school:38ce5ec6b658423491f976dbddbb13c3"
+    ]
+  },
+  {
+    "query": "bd09:406074e9683fb889f626d2fa",
+    "reference": "bd09:77ec8f837ae73385e92b229c",
+    "distance_m": 120.6992692983264,
+    "schools": [
+      "sz:longhua:school:94aed576e2854236bfd117b281031afa",
+      "sz:longhua:school:26607511230d404689ae8f55465df792",
+      "sz:longhua:school:85fbf4152f374f80a015cdabb34c4ff5"
+    ]
+  },
+  {
+    "query": "bd09:b09a167a916aa998443a0812",
+    "reference": "bd09:2b71605d904880440d911e6b",
+    "distance_m": 260.9795012219267,
+    "schools": [
+      "sz:longhua:school:23ba0810988d4e3fb4fa75f80c080db8",
+      "sz:longhua:school:496FFFE16B715558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:7fdf87e8a01199f4be926994",
+    "reference": "bd09:8565dec405000967809a5574",
+    "distance_m": 134.7760246734219,
+    "schools": [
+      "sz:longhua:school:94aed576e2854236bfd117b281031afa",
+      "sz:longhua:school:496FFFE16B945558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:bca974c9faf2f50625aadc30",
+    "reference": "bd09:2a92e84e85ecb56d93c8d45e",
+    "distance_m": 322.43809950525525,
+    "schools": [
+      "sz:longhua:school:496FFFE16B7A5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:1b62267b52ae9a8e696e6459",
+    "reference": "bd09:248a0126399b462b27e782c2",
+    "distance_m": 146.5801204679679,
+    "schools": [
+      "sz:longhua:school:496FFFE16B955558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:afe75394bfd64290a4d7bf31",
+    "reference": "bd09:1bea1a4988ba64a0260c4725",
+    "distance_m": 128.5487074785546,
+    "schools": [
+      "sz:longhua:school:94aed576e2854236bfd117b281031afa",
+      "sz:longhua:school:26607511230d404689ae8f55465df792",
+      "sz:longhua:school:85fbf4152f374f80a015cdabb34c4ff5"
+    ]
+  },
+  {
+    "query": "bd09:8cf11ab9150cc9982fde2788",
+    "reference": "bd09:20298d6ed9f6a94405ac8de8",
+    "distance_m": 144.41963130547194,
+    "schools": [
+      "sz:longhua:school:8e0c89bd31ed415788147cd66bffa09b",
+      "sz:longhua:school:0243cbf5c9f44a73b8cf266871d50ffe",
+      "sz:longhua:school:496FFFE16B455558E053BC09A8C0A5ED",
+      "sz:longhua:school:58917a95bb2b4a0e89216e9b870ae6dc"
+    ]
+  },
+  {
+    "query": "bd09:32b436801a3dba37dc473bd6",
+    "reference": "bd09:ba9ed9c2780916508160be7e",
+    "distance_m": 238.71807698705317,
+    "schools": [
+      "sz:longhua:school:496FFFE16B755558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:dcb2ff20f045a47637730f8c",
+    "reference": "bd09:1bea1a4988ba64a0260c4725",
+    "distance_m": 108.57894787729515,
+    "schools": [
+      "sz:longhua:school:94aed576e2854236bfd117b281031afa",
+      "sz:longhua:school:26607511230d404689ae8f55465df792",
+      "sz:longhua:school:85fbf4152f374f80a015cdabb34c4ff5"
+    ]
+  },
+  {
+    "query": "bd09:9c06f759c6d4c095b0c18320",
+    "reference": "bd09:6330eb0d1b6fa8540f326eda",
+    "distance_m": 150.2236641054575,
+    "schools": [
+      "sz:longhua:school:b31451d47108423e9503bf0382ce5192"
+    ]
+  },
+  {
+    "query": "bd09:57dcd28b17e8d6ae6c02022d",
+    "reference": "bd09:2b71605d904880440d911e6b",
+    "distance_m": 386.5123126941042,
+    "schools": [
+      "sz:longhua:school:23ba0810988d4e3fb4fa75f80c080db8",
+      "sz:longhua:school:496FFFE16B715558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:cbb46a7ac9f3b5275c65912e",
+    "reference": "bd09:630209e7074811584b302847",
+    "distance_m": 206.89340128916507,
+    "schools": [
+      "sz:longhua:school:496FFFE16B405558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:c50a336c9e040b0184687e77",
+    "reference": "bd09:985b5dd21f1f2760c022076d",
+    "distance_m": 231.76565639068863,
+    "schools": [
+      "sz:longhua:school:496FFFE16B465558E053BC09A8C0A5ED",
+      "sz:longhua:school:1f276b80093840b9a1af7dac99af256f",
+      "sz:longhua:school:94aed576e2854236bfd117b281031afa"
+    ]
+  },
+  {
+    "query": "bd09:45a9b1949294a7955afce9fa",
+    "reference": "bd09:10c3b4ee0e8aa9ba91f92f19",
+    "distance_m": 212.6771061597331,
+    "schools": [
+      "sz:longhua:school:da8402fbef554a27b5ac54f83c6a1682"
+    ]
+  },
+  {
+    "query": "bd09:8e459a211319525d1dca9278",
+    "reference": "bd09:88e20a7bc2fdde568d582574",
+    "distance_m": 62.56458940031334,
+    "schools": [
+      "sz:longhua:school:496FFFE16B465558E053BC09A8C0A5ED",
+      "sz:longhua:school:1f276b80093840b9a1af7dac99af256f",
+      "sz:longhua:school:94aed576e2854236bfd117b281031afa"
+    ]
+  },
+  {
+    "query": "bd09:71994e0ee8e2363bb54533ec",
+    "reference": "bd09:990efb24518d8b208a26ebb8",
+    "distance_m": 176.78344804165616,
+    "schools": [
+      "sz:longhua:school:8e0c89bd31ed415788147cd66bffa09b",
+      "sz:longhua:school:0243cbf5c9f44a73b8cf266871d50ffe",
+      "sz:longhua:school:496FFFE16B455558E053BC09A8C0A5ED",
+      "sz:longhua:school:58917a95bb2b4a0e89216e9b870ae6dc"
+    ]
+  },
+  {
+    "query": "bd09:6ec140e83c01525c9bd8b29b",
+    "reference": "bd09:0255d14192fc9f384370bb73",
+    "distance_m": 125.6570316335874,
+    "schools": [
+      "sz:longhua:school:9ee001ac0a054274a07983d4506a0274",
+      "sz:longhua:school:b3f88a4b9de8403cbbbf9614e5156fd2"
+    ]
+  },
+  {
+    "query": "bd09:76592068d8b40975b028b413",
+    "reference": "bd09:985b5dd21f1f2760c022076d",
+    "distance_m": 289.01848837490866,
+    "schools": [
+      "sz:longhua:school:496FFFE16B465558E053BC09A8C0A5ED",
+      "sz:longhua:school:1f276b80093840b9a1af7dac99af256f",
+      "sz:longhua:school:94aed576e2854236bfd117b281031afa"
+    ]
+  },
+  {
+    "query": "bd09:e5e947bd9892afcf8868aa0d",
+    "reference": "bd09:5b5a299257a77c9e784ff128",
+    "distance_m": 170.17833400748694,
+    "schools": [
+      "sz:longhua:school:ba2444f9c7514892b3d64263c55c09f5",
+      "sz:longhua:school:496FFFE16B6C5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:a63e6d6be6c3d6962e7350cc",
+    "reference": "bd09:3048364ca2f6acbeb94ec585",
+    "distance_m": 189.08286971905952,
+    "schools": [
+      "sz:longhua:school:38ce5ec6b658423491f976dbddbb13c3",
+      "sz:longhua:school:496FFFE16B3F5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:e2429d5f85373253cbe67ef8",
+    "reference": "bd09:092ab48b2892fd25194a313b",
+    "distance_m": 119.24086330715863,
+    "schools": [
+      "sz:longhua:school:8e0c89bd31ed415788147cd66bffa09b",
+      "sz:longhua:school:0243cbf5c9f44a73b8cf266871d50ffe",
+      "sz:longhua:school:496FFFE16B455558E053BC09A8C0A5ED",
+      "sz:longhua:school:58917a95bb2b4a0e89216e9b870ae6dc"
+    ]
+  },
+  {
+    "query": "bd09:f8f6ae5dc15d1f3517308dfc",
+    "reference": "bd09:0255d14192fc9f384370bb73",
+    "distance_m": 188.62840546753077,
+    "schools": [
+      "sz:longhua:school:9ee001ac0a054274a07983d4506a0274",
+      "sz:longhua:school:b3f88a4b9de8403cbbbf9614e5156fd2"
+    ]
+  },
+  {
+    "query": "bd09:c64edbaaf024794dfc536ef1",
+    "reference": "bd09:6dca4ff3ea55f58e920a797e",
+    "distance_m": 149.7475236936536,
+    "schools": [
+      "sz:longhua:school:b3f88a4b9de8403cbbbf9614e5156fd2"
+    ]
+  },
+  {
+    "query": "bd09:ff17b76d7df195b54325cf62",
+    "reference": "bd09:985b5dd21f1f2760c022076d",
+    "distance_m": 189.27988008645858,
+    "schools": [
+      "sz:longhua:school:496FFFE16B465558E053BC09A8C0A5ED",
+      "sz:longhua:school:1f276b80093840b9a1af7dac99af256f",
+      "sz:longhua:school:94aed576e2854236bfd117b281031afa"
+    ]
+  },
+  {
+    "query": "bd09:7cb7cc72a7cb5fc2bf2234b8",
+    "reference": "bd09:57e292e148a600864b17de06",
+    "distance_m": 196.77416265898174,
+    "schools": [
+      "sz:longhua:school:8e0c89bd31ed415788147cd66bffa09b",
+      "sz:longhua:school:57e88fc8ebe3404891cd5d07f1e506bc",
+      "sz:longhua:school:496FFFE16B6F5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:513c946d9397864f491779eb",
+    "reference": "bd09:2fc2095f0cac910e056b5d9d",
+    "distance_m": 248.93442345363965,
+    "schools": [
+      "sz:longhua:school:a30b9ed45d5e4734b2d70feceb561c96",
+      "sz:longhua:school:f29dbee4b70c47d393ce050ba7813032",
+      "sz:longhua:school:496FFFE16B935558E053BC09A8C0A5ED:guanhu",
+      "sz:longhua:school:496FFFE16B935558E053BC09A8C0A5ED:gaoxin",
+      "sz:longhua:school:449225a8ccc34107b689c883a1b6caa2",
+      "sz:longhua:school:e158b5b70ec34bbaae1323e42fee6a06"
+    ]
+  },
+  {
+    "query": "bd09:3fd5a3a0ce547412f8430aa7",
+    "reference": "bd09:2993cd97b6ae789942556541",
+    "distance_m": 459.7352920400631,
+    "schools": [
+      "sz:longhua:school:496FFFE16B4D5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:efdb836e64cd0bf64cf5583c",
+    "reference": "bd09:8ff81d758c5fb21b1e2f3559",
+    "distance_m": 155.72698755219668,
+    "schools": [
+      "sz:longhua:school:496FFFE16B4D5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:57bc510bb97d33ca95808325",
+    "reference": "bd09:77ec8f837ae73385e92b229c",
+    "distance_m": 165.169928789053,
+    "schools": [
+      "sz:longhua:school:94aed576e2854236bfd117b281031afa",
+      "sz:longhua:school:26607511230d404689ae8f55465df792",
+      "sz:longhua:school:85fbf4152f374f80a015cdabb34c4ff5"
+    ]
+  },
+  {
+    "query": "bd09:e6cd117574bd2d25b208619f",
+    "reference": "bd09:5b49aede958bb01773bbd107",
+    "distance_m": 242.8254172691984,
+    "schools": [
+      "sz:longhua:school:ba2444f9c7514892b3d64263c55c09f5",
+      "sz:longhua:school:496FFFE16B6C5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:0162dfbafceb7a05de254e3d",
+    "reference": "bd09:79292182d7f0d38625a3bcd8",
+    "distance_m": 348.1971478958342,
+    "schools": [
+      "sz:longhua:school:8e0c89bd31ed415788147cd66bffa09b",
+      "sz:longhua:school:57e88fc8ebe3404891cd5d07f1e506bc",
+      "sz:longhua:school:496FFFE16B6F5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:29388c4007f7a9532a2380ef",
+    "reference": "bd09:1a371da2c1ae7f83b0c33c49",
+    "distance_m": 148.45148675176117,
+    "schools": [
+      "sz:longhua:school:3925e3411b3a41db92a8fbc9cc41c4b6",
+      "sz:longhua:school:496FFFE16B485558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:0a3ee300e30413f4f156d78a",
+    "reference": "bd09:50bcbc1fc820f46b2de61334",
+    "distance_m": 100.38324618024386,
+    "schools": [
+      "sz:longhua:school:9ee001ac0a054274a07983d4506a0274",
+      "sz:longhua:school:b3f88a4b9de8403cbbbf9614e5156fd2"
+    ]
+  },
+  {
+    "query": "bd09:761b5f1bed0fc20acdba9d69",
+    "reference": "bd09:44b6b3aa705b5de5e6b93083",
+    "distance_m": 276.7546001364593,
+    "schools": [
+      "sz:longhua:school:496FFFE16B445558E053BC09A8C0A5ED",
+      "sz:longhua:school:a30b9ed45d5e4734b2d70feceb561c96",
+      "sz:longhua:school:f29dbee4b70c47d393ce050ba7813032",
+      "sz:longhua:school:345bd8c3128a491c83ea353a4218b0c8",
+      "sz:longhua:school:f9aa4dcc77234f738633dc9c37638464"
+    ]
+  },
+  {
+    "query": "bd09:814f610ae5fd9d52041980a0",
+    "reference": "bd09:47d41ce9ae8b88742bd5ed4a",
+    "distance_m": 129.1628343157041,
+    "schools": [
+      "sz:longhua:school:9ee001ac0a054274a07983d4506a0274",
+      "sz:longhua:school:b3f88a4b9de8403cbbbf9614e5156fd2"
+    ]
+  },
+  {
+    "query": "bd09:d5e18ffa90ff89423de4019c",
+    "reference": "bd09:124cdcd5bc3a73d6b7eb31a1",
+    "distance_m": 179.3413807847796,
+    "schools": [
+      "sz:longhua:school:a30b9ed45d5e4734b2d70feceb561c96",
+      "sz:longhua:school:f29dbee4b70c47d393ce050ba7813032",
+      "sz:longhua:school:496FFFE16B935558E053BC09A8C0A5ED:guanhu",
+      "sz:longhua:school:496FFFE16B935558E053BC09A8C0A5ED:gaoxin",
+      "sz:longhua:school:449225a8ccc34107b689c883a1b6caa2",
+      "sz:longhua:school:e158b5b70ec34bbaae1323e42fee6a06"
+    ]
+  },
+  {
+    "query": "bd09:e90aee075db2a541a7eb1a42",
+    "reference": "bd09:3048364ca2f6acbeb94ec585",
+    "distance_m": 147.24892425773243,
+    "schools": [
+      "sz:longhua:school:38ce5ec6b658423491f976dbddbb13c3",
+      "sz:longhua:school:496FFFE16B3F5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:0151d66dd69d8b6da490491a",
+    "reference": "bd09:47d41ce9ae8b88742bd5ed4a",
+    "distance_m": 177.27251235100974,
+    "schools": [
+      "sz:longhua:school:9ee001ac0a054274a07983d4506a0274",
+      "sz:longhua:school:b3f88a4b9de8403cbbbf9614e5156fd2"
+    ]
+  },
+  {
+    "query": "bd09:b5ec9beb2509a4d66392832f",
+    "reference": "bd09:89bba49745b24a3b3f259c52",
+    "distance_m": 480.84756919703995,
+    "schools": [
+      "sz:longhua:school:a30b9ed45d5e4734b2d70feceb561c96",
+      "sz:longhua:school:f29dbee4b70c47d393ce050ba7813032",
+      "sz:longhua:school:496FFFE16B935558E053BC09A8C0A5ED:guanhu",
+      "sz:longhua:school:496FFFE16B935558E053BC09A8C0A5ED:gaoxin",
+      "sz:longhua:school:449225a8ccc34107b689c883a1b6caa2",
+      "sz:longhua:school:e158b5b70ec34bbaae1323e42fee6a06"
+    ]
+  },
+  {
+    "query": "bd09:c699d68c87f5ba44d3bee802",
+    "reference": "bd09:c0041b7d34692145741917d8",
+    "distance_m": 262.1539707135622,
+    "schools": [
+      "sz:longhua:school:94aed576e2854236bfd117b281031afa",
+      "sz:longhua:school:496FFFE16B945558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:bcc70271aa6442eb23b44773",
+    "reference": "bd09:528fb82f23db46c2f9c3382b",
+    "distance_m": 84.96111207220046,
+    "schools": [
+      "sz:longhua:school:38ce5ec6b658423491f976dbddbb13c3",
+      "sz:longhua:school:496FFFE16B3F5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:40b1c71b4e897b3c86990760",
+    "reference": "bd09:6f95ad7278f3b168455b38db",
+    "distance_m": 258.8527039733621,
+    "schools": [
+      "sz:longhua:school:94aed576e2854236bfd117b281031afa",
+      "sz:longhua:school:496FFFE16B945558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:937e9b63d3a1131c10b37b86",
+    "reference": "bd09:6f95ad7278f3b168455b38db",
+    "distance_m": 118.41292900788129,
+    "schools": [
+      "sz:longhua:school:94aed576e2854236bfd117b281031afa",
+      "sz:longhua:school:496FFFE16B945558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:9e10e9febaaf76161dbfa1ba",
+    "reference": "bd09:ff9be87650451260ed7b224f",
+    "distance_m": 94.27068742200716,
+    "schools": [
+      "sz:longhua:school:b5d42e6c807e47b1b53f2f24323cc6aa",
+      "sz:longhua:school:496FFFE16B4F5558E053BC09A8C0A5ED",
+      "sz:longhua:school:ebe9113be2924ea68014727f80792b78"
+    ]
+  },
+  {
+    "query": "bd09:b0f730ff5f5161312166b29c",
+    "reference": "bd09:4c25ec2de0319a9921997434",
+    "distance_m": 242.9019855973527,
+    "schools": [
+      "sz:longhua:school:b5d42e6c807e47b1b53f2f24323cc6aa",
+      "sz:longhua:school:496FFFE16B4F5558E053BC09A8C0A5ED",
+      "sz:longhua:school:ebe9113be2924ea68014727f80792b78"
+    ]
+  },
+  {
+    "query": "bd09:d74b5cb1f13a968319d173ac",
+    "reference": "bd09:a2fdcfabd05ea00466b92b63",
+    "distance_m": 34.34188038920579,
+    "schools": [
+      "sz:longhua:school:496FFFE16B435558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:1994ea05f9a4c2bc62e2896a",
+    "reference": "bd09:78ae5f22ad6dc97fe89fe7d1",
+    "distance_m": 157.22054902280263,
+    "schools": [
+      "sz:longhua:school:496FFFE16B3D5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:2c0d18786e1b95d678f263aa",
+    "reference": "bd09:41538db1e213fad017d44db2",
+    "distance_m": 105.46965736146743,
+    "schools": [
+      "sz:longhua:school:8e0c89bd31ed415788147cd66bffa09b",
+      "sz:longhua:school:0243cbf5c9f44a73b8cf266871d50ffe",
+      "sz:longhua:school:496FFFE16B455558E053BC09A8C0A5ED",
+      "sz:longhua:school:58917a95bb2b4a0e89216e9b870ae6dc"
+    ]
+  },
+  {
+    "query": "bd09:13709f57e3c5a1cc0bd8dcd8",
+    "reference": "bd09:78ae5f22ad6dc97fe89fe7d1",
+    "distance_m": 75.58736904917504,
+    "schools": [
+      "sz:longhua:school:496FFFE16B3D5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:18dcedd9f89fa2ba69442036",
+    "reference": "bd09:124cdcd5bc3a73d6b7eb31a1",
+    "distance_m": 199.75697655165945,
+    "schools": [
+      "sz:longhua:school:a30b9ed45d5e4734b2d70feceb561c96",
+      "sz:longhua:school:f29dbee4b70c47d393ce050ba7813032",
+      "sz:longhua:school:496FFFE16B935558E053BC09A8C0A5ED:guanhu",
+      "sz:longhua:school:496FFFE16B935558E053BC09A8C0A5ED:gaoxin",
+      "sz:longhua:school:449225a8ccc34107b689c883a1b6caa2",
+      "sz:longhua:school:e158b5b70ec34bbaae1323e42fee6a06"
+    ]
+  },
+  {
+    "query": "bd09:dee6915bfe311f1d6ab3558b",
+    "reference": "bd09:0d9bfb5b500513506ca01263",
+    "distance_m": 70.60350552394597,
+    "schools": [
+      "sz:longhua:school:a30b9ed45d5e4734b2d70feceb561c96",
+      "sz:longhua:school:f29dbee4b70c47d393ce050ba7813032",
+      "sz:longhua:school:496FFFE16B935558E053BC09A8C0A5ED:guanhu",
+      "sz:longhua:school:496FFFE16B935558E053BC09A8C0A5ED:gaoxin",
+      "sz:longhua:school:449225a8ccc34107b689c883a1b6caa2",
+      "sz:longhua:school:e158b5b70ec34bbaae1323e42fee6a06"
+    ]
+  },
+  {
+    "query": "bd09:ddfc2a461b1e08a98434eb02",
+    "reference": "bd09:c03224f719c870210a464410",
+    "distance_m": 89.91033334444268,
+    "schools": [
+      "sz:longhua:school:496FFFE16B3D5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:e701eb2e33c4b66cc9474b55",
+    "reference": "bd09:c9aacfbcdfd2b103dae92fd7",
+    "distance_m": 2.5870429893985976,
+    "schools": [
+      "sz:longhua:school:496FFFE16B3D5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:6277dc9d9f0de94d423f4d78",
+    "reference": "bd09:80327892ee00c4474969ec72",
+    "distance_m": 192.783154035221,
+    "schools": [
+      "sz:longhua:school:94aed576e2854236bfd117b281031afa",
+      "sz:longhua:school:496FFFE16B945558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:35590ca6f2727f74346aeffb",
+    "reference": "bd09:e8b85176a36a2e38ba900657",
+    "distance_m": 209.1396966123259,
+    "schools": [
+      "sz:longhua:school:496FFFE16B465558E053BC09A8C0A5ED",
+      "sz:longhua:school:1f276b80093840b9a1af7dac99af256f",
+      "sz:longhua:school:94aed576e2854236bfd117b281031afa"
+    ]
+  },
+  {
+    "query": "bd09:b84664ff72d4db151b2177c4",
+    "reference": "bd09:6dca4ff3ea55f58e920a797e",
+    "distance_m": 131.6029220092615,
+    "schools": [
+      "sz:longhua:school:b3f88a4b9de8403cbbbf9614e5156fd2"
+    ]
+  },
+  {
+    "query": "bd09:cb3c21db4514c18b0fca0a2d",
+    "reference": "bd09:e4c47acbfb7fa24746fd6b89",
+    "distance_m": 238.68742474258738,
+    "schools": [
+      "sz:longhua:school:9ee001ac0a054274a07983d4506a0274",
+      "sz:longhua:school:b3f88a4b9de8403cbbbf9614e5156fd2"
+    ]
+  },
+  {
+    "query": "bd09:a494202f3c6b8f307b5e30ef",
+    "reference": "bd09:222cda83009d7e22e9c36076",
+    "distance_m": 60.98583852165201,
+    "schools": [
+      "sz:longhua:school:496FFFE16B405558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:5cab8dfc99179164e28a0d7a",
+    "reference": "bd09:47cfc2226e174e9c910f7036",
+    "distance_m": 88.45207931392409,
+    "schools": [
+      "sz:longhua:school:e3a272c8c0df4aabbf2a6f428245dba1",
+      "sz:longhua:school:496FFFE16B4E5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:fbfc5a804784df1860c5c15f",
+    "reference": "bd09:54b58ea519a4870b789f11fb",
+    "distance_m": 127.16287557027779,
+    "schools": [
+      "sz:longhua:school:3925e3411b3a41db92a8fbc9cc41c4b6",
+      "sz:longhua:school:496FFFE16B485558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:2f2e737c8f13556b03daea05",
+    "reference": "bd09:059107eda33b9c12fa56f782",
+    "distance_m": 99.72961270372144,
+    "schools": [
+      "sz:longhua:school:e3a272c8c0df4aabbf2a6f428245dba1",
+      "sz:longhua:school:496FFFE16B4E5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:2d79156eb495b674a1f4dc77",
+    "reference": "bd09:71b7949f36ec7fe852da42cd",
+    "distance_m": 97.45604267036772,
+    "schools": [
+      "sz:longhua:school:da8402fbef554a27b5ac54f83c6a1682"
+    ]
+  },
+  {
+    "query": "bd09:53a609eb7b5d3f71d4dc4957",
+    "reference": "bd09:69bf9f506ad9910cbd5afbbc",
+    "distance_m": 246.77957899764505,
+    "schools": [
+      "sz:longhua:school:496FFFE16B465558E053BC09A8C0A5ED",
+      "sz:longhua:school:1f276b80093840b9a1af7dac99af256f",
+      "sz:longhua:school:94aed576e2854236bfd117b281031afa"
+    ]
+  },
+  {
+    "query": "bd09:914c6a5de071dcaffb088185",
+    "reference": "bd09:95853e1434d5b14b8df3a03c",
+    "distance_m": 412.96393889225004,
+    "schools": [
+      "sz:longhua:school:38ce5ec6b658423491f976dbddbb13c3",
+      "sz:longhua:school:496FFFE16B3F5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:c80068057fe308561b08c30d",
+    "reference": "bd09:639e67cf9a51a34e515a6fb8",
+    "distance_m": 166.4320800637437,
+    "schools": [
+      "sz:longhua:school:496FFFE16B465558E053BC09A8C0A5ED",
+      "sz:longhua:school:1f276b80093840b9a1af7dac99af256f",
+      "sz:longhua:school:94aed576e2854236bfd117b281031afa"
+    ]
+  },
+  {
+    "query": "bd09:022d174a43e3af3f208630af",
+    "reference": "bd09:1ca3f63b2198799074b5f704",
+    "distance_m": 191.40835660481483,
+    "schools": [
+      "sz:longhua:school:e3a272c8c0df4aabbf2a6f428245dba1",
+      "sz:longhua:school:496FFFE16B4E5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:f8242b93a5597e4dc3868191",
+    "reference": "bd09:487309226bee3a600b65a446",
+    "distance_m": 102.40751826735413,
+    "schools": [
+      "sz:longhua:school:496FFFE16B405558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:4336fa72981bf68b698e5f49",
+    "reference": "bd09:bc170091dd2626d6ed76c7d0",
+    "distance_m": 164.9597111156461,
+    "schools": [
+      "sz:longhua:school:e3a272c8c0df4aabbf2a6f428245dba1",
+      "sz:longhua:school:496FFFE16B4E5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:587de37307ceeb790e4c8387",
+    "reference": "bd09:95853e1434d5b14b8df3a03c",
+    "distance_m": 323.32010479044504,
+    "schools": [
+      "sz:longhua:school:38ce5ec6b658423491f976dbddbb13c3",
+      "sz:longhua:school:496FFFE16B3F5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:633b6ff1fafbd48ef4bd1ade",
+    "reference": "bd09:487309226bee3a600b65a446",
+    "distance_m": 238.0948863724463,
+    "schools": [
+      "sz:longhua:school:496FFFE16B405558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:9b901390665f228e758509ff",
+    "reference": "bd09:8fc19719a0e890429cdaf93e",
+    "distance_m": 72.5901946407834,
+    "schools": [
+      "sz:longhua:school:ba2444f9c7514892b3d64263c55c09f5",
+      "sz:longhua:school:496FFFE16B6C5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:1c759507d2ed39e2bd269049",
+    "reference": "bd09:bc170091dd2626d6ed76c7d0",
+    "distance_m": 129.95586574213476,
+    "schools": [
+      "sz:longhua:school:e3a272c8c0df4aabbf2a6f428245dba1",
+      "sz:longhua:school:496FFFE16B4E5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:89358508bfc5f08b5c9ac3ef",
+    "reference": "bd09:4f77902b8935b10a7235fadb",
+    "distance_m": 154.97148907821284,
+    "schools": [
+      "sz:longhua:school:3925e3411b3a41db92a8fbc9cc41c4b6",
+      "sz:longhua:school:496FFFE16B485558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:acfc07b7e96e75a587371e99",
+    "reference": "bd09:3eb8f2dc87af55f9246dfe53",
+    "distance_m": 181.13698109932355,
+    "schools": [
+      "sz:longhua:school:496FFFE16B405558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:e30b967f460957734e4636b1",
+    "reference": "bd09:bc6b1a603839f0b8bdda5dc3",
+    "distance_m": 89.57796451916356,
+    "schools": [
+      "sz:longhua:school:da8402fbef554a27b5ac54f83c6a1682"
+    ]
+  },
+  {
+    "query": "bd09:bd1897799f07361c3bd316ef",
+    "reference": "bd09:41538db1e213fad017d44db2",
+    "distance_m": 112.17134315738068,
+    "schools": [
+      "sz:longhua:school:8e0c89bd31ed415788147cd66bffa09b",
+      "sz:longhua:school:0243cbf5c9f44a73b8cf266871d50ffe",
+      "sz:longhua:school:496FFFE16B455558E053BC09A8C0A5ED",
+      "sz:longhua:school:58917a95bb2b4a0e89216e9b870ae6dc"
+    ]
+  },
+  {
+    "query": "bd09:076a63cb06b58bbb19687013",
+    "reference": "bd09:536b9804670776e6103a2954",
+    "distance_m": 118.70395343861172,
+    "schools": [
+      "sz:longhua:school:14c13f11622f4d8ca604cf9b6b722d01",
+      "sz:longhua:school:496FFFE16B415558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:09d8fb68c123dc2059e08490",
+    "reference": "bd09:e401eedc230d9bfa3e77c068",
+    "distance_m": 274.95383739978047,
+    "schools": [
+      "sz:longhua:school:496FFFE16B4B5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:ed7d4d32798d3a5be164a5c8",
+    "reference": "bd09:e72dca6aebc1f6f7931d0cdc",
+    "distance_m": 142.11409394722017,
+    "schools": [
+      "sz:longhua:school:9ee001ac0a054274a07983d4506a0274",
+      "sz:longhua:school:b3f88a4b9de8403cbbbf9614e5156fd2"
+    ]
+  },
+  {
+    "query": "bd09:14aa1d475f09f72a0d616def",
+    "reference": "bd09:bf58eac206685b467eeb64c3",
+    "distance_m": 190.7898665070517,
+    "schools": [
+      "sz:longhua:school:d713de18b1b043afb8e90469d78f13c9",
+      "sz:longhua:school:270930b511e946c38951ecf46a65476a"
+    ]
+  },
+  {
+    "query": "bd09:5b268bca2a6cb932f66e1487",
+    "reference": "bd09:235f1f7a61d7e33fd2836d71",
+    "distance_m": 328.7962061272852,
+    "schools": [
+      "sz:longhua:school:d713de18b1b043afb8e90469d78f13c9",
+      "sz:longhua:school:270930b511e946c38951ecf46a65476a"
+    ]
+  },
+  {
+    "query": "bd09:ca59d6ab0e4484f39da9d7e8",
+    "reference": "bd09:e72dca6aebc1f6f7931d0cdc",
+    "distance_m": 77.71937672241263,
+    "schools": [
+      "sz:longhua:school:9ee001ac0a054274a07983d4506a0274",
+      "sz:longhua:school:b3f88a4b9de8403cbbbf9614e5156fd2"
+    ]
+  },
+  {
+    "query": "bd09:68f2d363190fd7671d0561f2",
+    "reference": "bd09:d81db3391da4997f8105cda6",
+    "distance_m": 265.5871471099814,
+    "schools": [
+      "sz:longhua:school:496FFFE16B435558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:1697697dfb03eb43b2f3e353",
+    "reference": "bd09:9686bd231e03c01d38c7b3ee",
+    "distance_m": 159.1635943815674,
+    "schools": [
+      "sz:longhua:school:ba2444f9c7514892b3d64263c55c09f5",
+      "sz:longhua:school:496FFFE16B6C5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:c7465487b6c9a070323e711e",
+    "reference": "bd09:aa87ed2a51962939934182ef",
+    "distance_m": 134.0273794228801,
+    "schools": [
+      "sz:longhua:school:da8402fbef554a27b5ac54f83c6a1682"
+    ]
+  },
+  {
+    "query": "bd09:0649d088706af9a46f3a9ecd",
+    "reference": "bd09:1c59a8c650680e296d0fcd34",
+    "distance_m": 243.39725723702503,
+    "schools": [
+      "sz:longhua:school:57e88fc8ebe3404891cd5d07f1e506bc",
+      "sz:longhua:school:496FFFE16B435558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:244e27ce5ad06efbfa7c36f0",
+    "reference": "bd09:50bcbc1fc820f46b2de61334",
+    "distance_m": 172.56098913618376,
+    "schools": [
+      "sz:longhua:school:9ee001ac0a054274a07983d4506a0274",
+      "sz:longhua:school:b3f88a4b9de8403cbbbf9614e5156fd2"
+    ]
+  },
+  {
+    "query": "bd09:3184c3f61943092369803ea2",
+    "reference": "bd09:ba4e2cdb4675fdacc35a7c7b",
+    "distance_m": 71.38805040149249,
+    "schools": [
+      "sz:longhua:school:e3a272c8c0df4aabbf2a6f428245dba1",
+      "sz:longhua:school:496FFFE16B4E5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:36e0a60376b90a1a9d6cca17",
+    "reference": "bd09:91db15c9674b2b6ae7dec724",
+    "distance_m": 162.89805694551538,
+    "schools": [
+      "sz:longhua:school:496FFFE16B735558E053BC09A8C0A5ED",
+      "sz:longhua:school:4c3a8df2652947908d8864574a4ecc46"
+    ]
+  },
+  {
+    "query": "bd09:f0153ca7fb2488794752767f",
+    "reference": "bd09:c7a753434b006d926a9ee85d",
+    "distance_m": 112.90317792165547,
+    "schools": [
+      "sz:longhua:school:c649047304de4edaa878ae435599b2dd",
+      "sz:longhua:school:92b2600af53243cd8652d9576d56df41",
+      "sz:longhua:school:c6a72391361d4221817db0289a292060:huaren"
+    ]
+  },
+  {
+    "query": "bd09:1c5a2bbcae03ef46e0a33583",
+    "reference": "bd09:c7a753434b006d926a9ee85d",
+    "distance_m": 208.66427605378715,
+    "schools": [
+      "sz:longhua:school:c649047304de4edaa878ae435599b2dd",
+      "sz:longhua:school:92b2600af53243cd8652d9576d56df41",
+      "sz:longhua:school:c6a72391361d4221817db0289a292060:huaren"
+    ]
+  },
+  {
+    "query": "bd09:f3f2f4904a0cbad54dbbf1d6",
+    "reference": "bd09:bc6b1a603839f0b8bdda5dc3",
+    "distance_m": 155.96936179013184,
+    "schools": [
+      "sz:longhua:school:da8402fbef554a27b5ac54f83c6a1682"
+    ]
+  },
+  {
+    "query": "bd09:b7c8bb6324109319e5ebf595",
+    "reference": "bd09:6dca4ff3ea55f58e920a797e",
+    "distance_m": 111.30134380197582,
+    "schools": [
+      "sz:longhua:school:b3f88a4b9de8403cbbbf9614e5156fd2"
+    ]
+  },
+  {
+    "query": "bd09:24d43a1385e5e08999d28fcd",
+    "reference": "bd09:a2fdcfabd05ea00466b92b63",
+    "distance_m": 24.166372034562077,
+    "schools": [
+      "sz:longhua:school:496FFFE16B435558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:ca4fbad04a251c4e4f1cd1b7",
+    "reference": "bd09:46749a50aab2e8880ba17bae",
+    "distance_m": 198.38221838799868,
+    "schools": [
+      "sz:longhua:school:e3a272c8c0df4aabbf2a6f428245dba1",
+      "sz:longhua:school:496FFFE16B4E5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:fd5f3025fe3f0b0dba60513f",
+    "reference": "bd09:47cfc2226e174e9c910f7036",
+    "distance_m": 20.347221624764913,
+    "schools": [
+      "sz:longhua:school:e3a272c8c0df4aabbf2a6f428245dba1",
+      "sz:longhua:school:496FFFE16B4E5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:a37e9b23e841773e87700453",
+    "reference": "bd09:639e67cf9a51a34e515a6fb8",
+    "distance_m": 222.5944231576169,
+    "schools": [
+      "sz:longhua:school:496FFFE16B465558E053BC09A8C0A5ED",
+      "sz:longhua:school:1f276b80093840b9a1af7dac99af256f",
+      "sz:longhua:school:94aed576e2854236bfd117b281031afa"
+    ]
+  },
+  {
+    "query": "bd09:79b8bd8c494f7de6a260c59f",
+    "reference": "bd09:86c3d327194e117e29f69627",
+    "distance_m": 366.48616569762476,
+    "schools": [
+      "sz:longhua:school:496FFFE16B755558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:ece4455efb5e13bb6e0e6a50",
+    "reference": "bd09:10c3b4ee0e8aa9ba91f92f19",
+    "distance_m": 187.9506476301686,
+    "schools": [
+      "sz:longhua:school:da8402fbef554a27b5ac54f83c6a1682"
+    ]
+  },
+  {
+    "query": "bd09:4d9531205424bc0d67156f34",
+    "reference": "bd09:768d3d32a00eebbfcfa7f196",
+    "distance_m": 63.70840987431515,
+    "schools": [
+      "sz:longhua:school:dd655370e05640259a918bdfb9146830",
+      "sz:longhua:school:496FFFE16B3E5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:48354ddea85702cfd2d3c12d",
+    "reference": "bd09:1c2f15f5e252741482d2b5c4",
+    "distance_m": 293.02890735026074,
+    "schools": [
+      "sz:longhua:school:496FFFE16B405558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:67c87b38ed448971bd7d147b",
+    "reference": "bd09:2615bd4f93becbc69a1331d8",
+    "distance_m": 226.18264869256996,
+    "schools": [
+      "sz:longhua:school:dd655370e05640259a918bdfb9146830",
+      "sz:longhua:school:496FFFE16B3E5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:08badb788e728b6072f9a82d",
+    "reference": "bd09:e4c47acbfb7fa24746fd6b89",
+    "distance_m": 142.40930528146558,
+    "schools": [
+      "sz:longhua:school:9ee001ac0a054274a07983d4506a0274",
+      "sz:longhua:school:b3f88a4b9de8403cbbbf9614e5156fd2"
+    ]
+  },
+  {
+    "query": "bd09:d601cd2c803b3d3cad1b4ee0",
+    "reference": "bd09:e4c47acbfb7fa24746fd6b89",
+    "distance_m": 166.75620699429555,
+    "schools": [
+      "sz:longhua:school:9ee001ac0a054274a07983d4506a0274",
+      "sz:longhua:school:b3f88a4b9de8403cbbbf9614e5156fd2"
+    ]
+  },
+  {
+    "query": "bd09:263c062f8901385d9029e053",
+    "reference": "bd09:768d3d32a00eebbfcfa7f196",
+    "distance_m": 279.0519326134627,
+    "schools": [
+      "sz:longhua:school:dd655370e05640259a918bdfb9146830",
+      "sz:longhua:school:496FFFE16B3E5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:26976fd300c12f4dc236899b",
+    "reference": "bd09:aa87ed2a51962939934182ef",
+    "distance_m": 122.10941277336705,
+    "schools": [
+      "sz:longhua:school:da8402fbef554a27b5ac54f83c6a1682"
+    ]
+  },
+  {
+    "query": "bd09:b28db8da49137cb05392e60c",
+    "reference": "bd09:6e5ca99cfeb6b607db05114d",
+    "distance_m": 190.47711238398844,
+    "schools": [
+      "sz:longhua:school:42392d26506d455da3eab13483999166"
+    ]
+  },
+  {
+    "query": "bd09:4982454166dbba5f9f230ee5",
+    "reference": "bd09:2615bd4f93becbc69a1331d8",
+    "distance_m": 332.87077835084807,
+    "schools": [
+      "sz:longhua:school:dd655370e05640259a918bdfb9146830",
+      "sz:longhua:school:496FFFE16B3E5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:c3db7d7cefc116e5d48ba9a6",
+    "reference": "bd09:edc16b7c98ff243b2ca7c706",
+    "distance_m": 108.81635839717383,
+    "schools": [
+      "sz:longhua:school:38ce5ec6b658423491f976dbddbb13c3",
+      "sz:longhua:school:496FFFE16B3F5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:3341c11f7a514f66c558faa4",
+    "reference": "bd09:08c7c1603a735ad9acb0d5d3",
+    "distance_m": 127.30320789172829,
+    "schools": [
+      "sz:longhua:school:dd655370e05640259a918bdfb9146830",
+      "sz:longhua:school:496FFFE16B3E5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:50a22a2b1aad38e3e4620b30",
+    "reference": "bd09:1ca3f63b2198799074b5f704",
+    "distance_m": 66.67222488860362,
+    "schools": [
+      "sz:longhua:school:e3a272c8c0df4aabbf2a6f428245dba1",
+      "sz:longhua:school:496FFFE16B4E5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:4032ceed8be0a881e74908b7",
+    "reference": "bd09:8f4f4324ebbe8a0b286a6975",
+    "distance_m": 150.84104942475494,
+    "schools": [
+      "sz:longhua:school:496FFFE16B465558E053BC09A8C0A5ED",
+      "sz:longhua:school:1f276b80093840b9a1af7dac99af256f",
+      "sz:longhua:school:94aed576e2854236bfd117b281031afa"
+    ]
+  },
+  {
+    "query": "bd09:048e2cb604746aa544efe38e",
+    "reference": "bd09:2615bd4f93becbc69a1331d8",
+    "distance_m": 197.05810594371513,
+    "schools": [
+      "sz:longhua:school:dd655370e05640259a918bdfb9146830",
+      "sz:longhua:school:496FFFE16B3E5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:c254e221a82bd7fb69e8764e",
+    "reference": "bd09:afe9609f9da24906a487da57",
+    "distance_m": 187.41030825672271,
+    "schools": [
+      "sz:longhua:school:1dd894e9511144dc856000fda2fd9fb3",
+      "sz:longhua:school:57e88fc8ebe3404891cd5d07f1e506bc"
+    ]
+  },
+  {
+    "query": "bd09:3eaf013e210e0faa7ff797d5",
+    "reference": "bd09:8e9491f9d61c126688664285",
+    "distance_m": 250.8536114445313,
+    "schools": [
+      "sz:longhua:school:38ce5ec6b658423491f976dbddbb13c3",
+      "sz:longhua:school:496FFFE16B3F5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:243c52748dac8b1945cf688f",
+    "reference": "bd09:2615bd4f93becbc69a1331d8",
+    "distance_m": 159.52620178934427,
+    "schools": [
+      "sz:longhua:school:dd655370e05640259a918bdfb9146830",
+      "sz:longhua:school:496FFFE16B3E5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:1eeddf2e39b64fc65d85049e",
+    "reference": "bd09:91db15c9674b2b6ae7dec724",
+    "distance_m": 210.46395063557037,
+    "schools": [
+      "sz:longhua:school:496FFFE16B735558E053BC09A8C0A5ED",
+      "sz:longhua:school:4c3a8df2652947908d8864574a4ecc46"
+    ]
+  },
+  {
+    "query": "bd09:b141d2360b797e49e83175a7",
+    "reference": "bd09:c32dafede0c392a7b6fd397b",
+    "distance_m": 190.7315731258932,
+    "schools": [
+      "sz:longhua:school:38ce5ec6b658423491f976dbddbb13c3",
+      "sz:longhua:school:496FFFE16B3F5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:62e1d90b64809a7f1453799b",
+    "reference": "bd09:08c7c1603a735ad9acb0d5d3",
+    "distance_m": 174.92201776714126,
+    "schools": [
+      "sz:longhua:school:dd655370e05640259a918bdfb9146830",
+      "sz:longhua:school:496FFFE16B3E5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:c74932293d7ad7cf739cb064",
+    "reference": "bd09:528fb82f23db46c2f9c3382b",
+    "distance_m": 153.55525601048274,
+    "schools": [
+      "sz:longhua:school:38ce5ec6b658423491f976dbddbb13c3",
+      "sz:longhua:school:496FFFE16B3F5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:ab328dfd3352d1a01d38689a",
+    "reference": "bd09:0ef7892b3ba3863560008870",
+    "distance_m": 252.45062534938444,
+    "schools": [
+      "sz:longhua:school:14c13f11622f4d8ca604cf9b6b722d01",
+      "sz:longhua:school:496FFFE16B415558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:b2beb048d8d1e3f46db417b7",
+    "reference": "bd09:059107eda33b9c12fa56f782",
+    "distance_m": 50.76526663390276,
+    "schools": [
+      "sz:longhua:school:e3a272c8c0df4aabbf2a6f428245dba1",
+      "sz:longhua:school:496FFFE16B4E5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:9d70209cc6c3058c0e1e4d55",
+    "reference": "bd09:37b8fcf215c7a045ffba0ea5",
+    "distance_m": 162.23250682505866,
+    "schools": [
+      "sz:longhua:school:14c13f11622f4d8ca604cf9b6b722d01",
+      "sz:longhua:school:496FFFE16B415558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:7ad86ba49352a534769e4cf4",
+    "reference": "bd09:46749a50aab2e8880ba17bae",
+    "distance_m": 54.41378820677246,
+    "schools": [
+      "sz:longhua:school:e3a272c8c0df4aabbf2a6f428245dba1",
+      "sz:longhua:school:496FFFE16B4E5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:63fd1c0aade819dddbb4dfab",
+    "reference": "bd09:fc1ad0b2d4c9320b9d3eceed",
+    "distance_m": 159.3390411405203,
+    "schools": [
+      "sz:longhua:school:496FFFE16B475558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:2e77fa29c76a7cf5f682e3d4",
+    "reference": "bd09:e4c47acbfb7fa24746fd6b89",
+    "distance_m": 92.24666267079249,
+    "schools": [
+      "sz:longhua:school:9ee001ac0a054274a07983d4506a0274",
+      "sz:longhua:school:b3f88a4b9de8403cbbbf9614e5156fd2"
+    ]
+  },
+  {
+    "query": "bd09:90b14a1ae8d88f6bcb36033d",
+    "reference": "bd09:fe0ef144993620dc9c7a1933",
+    "distance_m": 352.20742513932686,
+    "schools": [
+      "sz:longhua:school:da8402fbef554a27b5ac54f83c6a1682"
+    ]
+  },
+  {
+    "query": "bd09:8b44378fdedc6260171acf30",
+    "reference": "bd09:1ca3f63b2198799074b5f704",
+    "distance_m": 156.59525911320577,
+    "schools": [
+      "sz:longhua:school:e3a272c8c0df4aabbf2a6f428245dba1",
+      "sz:longhua:school:496FFFE16B4E5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:6afc4af64ebef5429f5e6414",
+    "reference": "bd09:0255d14192fc9f384370bb73",
+    "distance_m": 125.45602261746305,
+    "schools": [
+      "sz:longhua:school:9ee001ac0a054274a07983d4506a0274",
+      "sz:longhua:school:b3f88a4b9de8403cbbbf9614e5156fd2"
+    ]
+  },
+  {
+    "query": "bd09:edd775e0b63eb3b385e9ced1",
+    "reference": "bd09:bc170091dd2626d6ed76c7d0",
+    "distance_m": 110.12743755545446,
+    "schools": [
+      "sz:longhua:school:e3a272c8c0df4aabbf2a6f428245dba1",
+      "sz:longhua:school:496FFFE16B4E5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:0494b43b38ab0d3839eabc82",
+    "reference": "bd09:165f0a4187ada8545ca26855",
+    "distance_m": 70.57701700121783,
+    "schools": [
+      "sz:longhua:school:b3f88a4b9de8403cbbbf9614e5156fd2"
+    ]
+  },
+  {
+    "query": "bd09:d9c6e2a98d13d99ee9d5c8c1",
+    "reference": "bd09:165f0a4187ada8545ca26855",
+    "distance_m": 207.0389952820493,
+    "schools": [
+      "sz:longhua:school:b3f88a4b9de8403cbbbf9614e5156fd2"
+    ]
+  },
+  {
+    "query": "bd09:f4204c15f8a5a43e641f50f3",
+    "reference": "bd09:2fd5ac7735ab81421041593c",
+    "distance_m": 76.45772426136642,
+    "schools": [
+      "sz:longhua:school:9ee001ac0a054274a07983d4506a0274",
+      "sz:longhua:school:b3f88a4b9de8403cbbbf9614e5156fd2"
+    ]
+  },
+  {
+    "query": "bd09:50b86889f85e25698b1f8222",
+    "reference": "bd09:47d41ce9ae8b88742bd5ed4a",
+    "distance_m": 129.518629755583,
+    "schools": [
+      "sz:longhua:school:9ee001ac0a054274a07983d4506a0274",
+      "sz:longhua:school:b3f88a4b9de8403cbbbf9614e5156fd2"
+    ]
+  },
+  {
+    "query": "bd09:5187bdd9fec4c8f91f7dd939",
+    "reference": "bd09:e4c47acbfb7fa24746fd6b89",
+    "distance_m": 101.68912768906841,
+    "schools": [
+      "sz:longhua:school:9ee001ac0a054274a07983d4506a0274",
+      "sz:longhua:school:b3f88a4b9de8403cbbbf9614e5156fd2"
+    ]
+  },
+  {
+    "query": "bd09:d6157933d8ca8af6fd6e2d20",
+    "reference": "bd09:8f4f4324ebbe8a0b286a6975",
+    "distance_m": 161.1811114684927,
+    "schools": [
+      "sz:longhua:school:496FFFE16B465558E053BC09A8C0A5ED",
+      "sz:longhua:school:1f276b80093840b9a1af7dac99af256f",
+      "sz:longhua:school:94aed576e2854236bfd117b281031afa"
+    ]
+  },
+  {
+    "query": "bd09:763083c9c67f398b021d1480",
+    "reference": "bd09:2c257192bc77e94692ba58f0",
+    "distance_m": 236.8688364553295,
+    "schools": [
+      "sz:longhua:school:38ce5ec6b658423491f976dbddbb13c3"
+    ]
+  },
+  {
+    "query": "bd09:edc5df729ab26fd3db8dc881",
+    "reference": "bd09:528fb82f23db46c2f9c3382b",
+    "distance_m": 90.08414505917106,
+    "schools": [
+      "sz:longhua:school:38ce5ec6b658423491f976dbddbb13c3",
+      "sz:longhua:school:496FFFE16B3F5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:1054ec51c3499ff76e30ef7e",
+    "reference": "bd09:af096a1b8e5cceddabefb6e8",
+    "distance_m": 317.6751367112734,
+    "schools": [
+      "sz:longhua:school:a863a2a0d9434c7c8370f9af437bae6e"
+    ]
+  },
+  {
+    "query": "bd09:92126a62754113dba73fcc6b",
+    "reference": "bd09:768d3d32a00eebbfcfa7f196",
+    "distance_m": 180.6609003343061,
+    "schools": [
+      "sz:longhua:school:dd655370e05640259a918bdfb9146830",
+      "sz:longhua:school:496FFFE16B3E5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:88ab01e09218866085f23627",
+    "reference": "bd09:d68f97cdf39d7c5d9a6e9901",
+    "distance_m": 141.34142806637922,
+    "schools": [
+      "sz:longhua:school:496FFFE16B475558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:08121b23069bf61a44c65dcf",
+    "reference": "bd09:0255d14192fc9f384370bb73",
+    "distance_m": 141.8861446742503,
+    "schools": [
+      "sz:longhua:school:9ee001ac0a054274a07983d4506a0274",
+      "sz:longhua:school:b3f88a4b9de8403cbbbf9614e5156fd2"
+    ]
+  },
+  {
+    "query": "bd09:e5a02e8600caead4c56521ed",
+    "reference": "bd09:2615bd4f93becbc69a1331d8",
+    "distance_m": 90.93415154506833,
+    "schools": [
+      "sz:longhua:school:dd655370e05640259a918bdfb9146830",
+      "sz:longhua:school:496FFFE16B3E5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:47d17f830816dc69e43f4769",
+    "reference": "bd09:639e67cf9a51a34e515a6fb8",
+    "distance_m": 85.55844723543366,
+    "schools": [
+      "sz:longhua:school:496FFFE16B465558E053BC09A8C0A5ED",
+      "sz:longhua:school:1f276b80093840b9a1af7dac99af256f",
+      "sz:longhua:school:94aed576e2854236bfd117b281031afa"
+    ]
+  },
+  {
+    "query": "bd09:12031cff60facad62cc85e50",
+    "reference": "bd09:47cfc2226e174e9c910f7036",
+    "distance_m": 105.91407798217952,
+    "schools": [
+      "sz:longhua:school:e3a272c8c0df4aabbf2a6f428245dba1",
+      "sz:longhua:school:496FFFE16B4E5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:fd36290ac601a83fa970846c",
+    "reference": "bd09:68a13f3dd2330f3d102c7cab",
+    "distance_m": 174.3836814510682,
+    "schools": [
+      "sz:longhua:school:c649047304de4edaa878ae435599b2dd",
+      "sz:longhua:school:92b2600af53243cd8652d9576d56df41",
+      "sz:longhua:school:c6a72391361d4221817db0289a292060:huaren"
+    ]
+  },
+  {
+    "query": "bd09:f09e92a8b72bc68256edd8ad",
+    "reference": "bd09:c7a753434b006d926a9ee85d",
+    "distance_m": 260.44391251599916,
+    "schools": [
+      "sz:longhua:school:c649047304de4edaa878ae435599b2dd",
+      "sz:longhua:school:92b2600af53243cd8652d9576d56df41",
+      "sz:longhua:school:c6a72391361d4221817db0289a292060:huaren"
+    ]
+  },
+  {
+    "query": "bd09:188a109dcee9a3c965a1cbea",
+    "reference": "bd09:990efb24518d8b208a26ebb8",
+    "distance_m": 226.43034392510813,
+    "schools": [
+      "sz:longhua:school:8e0c89bd31ed415788147cd66bffa09b",
+      "sz:longhua:school:0243cbf5c9f44a73b8cf266871d50ffe",
+      "sz:longhua:school:496FFFE16B455558E053BC09A8C0A5ED",
+      "sz:longhua:school:58917a95bb2b4a0e89216e9b870ae6dc"
+    ]
+  },
+  {
+    "query": "bd09:046445ff13ba25cedc3c8d1c",
+    "reference": "bd09:410ea0c8bb742b6ef820cf10",
+    "distance_m": 292.62875447882124,
+    "schools": [
+      "sz:longhua:school:3925e3411b3a41db92a8fbc9cc41c4b6",
+      "sz:longhua:school:496FFFE16B485558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:fb0c575d889db1271289c1d1",
+    "reference": "bd09:16567a6de2224fd7717b8fd9",
+    "distance_m": 150.03691579072796,
+    "schools": [
+      "sz:longhua:school:496FFFE16B435558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:d710ca053a8f262f045be059",
+    "reference": "bd09:c05df89c8f8a74c89e47ee7d",
+    "distance_m": 115.3857797616519,
+    "schools": [
+      "sz:longhua:school:496FFFE16B955558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:9bf507ae22a1e2559182bd60",
+    "reference": "bd09:20298d6ed9f6a94405ac8de8",
+    "distance_m": 206.56137922935065,
+    "schools": [
+      "sz:longhua:school:8e0c89bd31ed415788147cd66bffa09b",
+      "sz:longhua:school:0243cbf5c9f44a73b8cf266871d50ffe",
+      "sz:longhua:school:496FFFE16B455558E053BC09A8C0A5ED",
+      "sz:longhua:school:58917a95bb2b4a0e89216e9b870ae6dc"
+    ]
+  },
+  {
+    "query": "bd09:8e7a040a93b2ad6b4fe38c38",
+    "reference": "bd09:990efb24518d8b208a26ebb8",
+    "distance_m": 64.44592646734425,
+    "schools": [
+      "sz:longhua:school:8e0c89bd31ed415788147cd66bffa09b",
+      "sz:longhua:school:0243cbf5c9f44a73b8cf266871d50ffe",
+      "sz:longhua:school:496FFFE16B455558E053BC09A8C0A5ED",
+      "sz:longhua:school:58917a95bb2b4a0e89216e9b870ae6dc"
+    ]
+  },
+  {
+    "query": "bd09:0953fc9d1162a1a21cecd845",
+    "reference": "bd09:6330eb0d1b6fa8540f326eda",
+    "distance_m": 226.4614517922984,
+    "schools": [
+      "sz:longhua:school:b31451d47108423e9503bf0382ce5192"
+    ]
+  },
+  {
+    "query": "bd09:3b499c144588f015385beb48",
+    "reference": "bd09:fd0ad94435bcae797930bc52",
+    "distance_m": 286.5655023606472,
+    "schools": [
+      "sz:longhua:school:496FFFE16B405558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:297d27d1182d3f529f336e4e",
+    "reference": "bd09:985b5dd21f1f2760c022076d",
+    "distance_m": 218.96710000563417,
+    "schools": [
+      "sz:longhua:school:496FFFE16B465558E053BC09A8C0A5ED",
+      "sz:longhua:school:1f276b80093840b9a1af7dac99af256f",
+      "sz:longhua:school:94aed576e2854236bfd117b281031afa"
+    ]
+  },
+  {
+    "query": "bd09:b6bf5ee266957a0eb3407b03",
+    "reference": "bd09:41538db1e213fad017d44db2",
+    "distance_m": 281.8496641385866,
+    "schools": [
+      "sz:longhua:school:8e0c89bd31ed415788147cd66bffa09b",
+      "sz:longhua:school:0243cbf5c9f44a73b8cf266871d50ffe",
+      "sz:longhua:school:496FFFE16B455558E053BC09A8C0A5ED",
+      "sz:longhua:school:58917a95bb2b4a0e89216e9b870ae6dc"
+    ]
+  },
+  {
+    "query": "bd09:0fa02aefa900a5c638dee3b1",
+    "reference": "bd09:559082f9a092b16c06b35e3d",
+    "distance_m": 101.18538633784249,
+    "schools": [
+      "sz:longhua:school:94aed576e2854236bfd117b281031afa",
+      "sz:longhua:school:26607511230d404689ae8f55465df792",
+      "sz:longhua:school:85fbf4152f374f80a015cdabb34c4ff5"
+    ]
+  },
+  {
+    "query": "bd09:a8ee02008bd0ba19ef07c6fa",
+    "reference": "bd09:2731f4dbe6e50d7f70d55e42",
+    "distance_m": 96.77414723850073,
+    "schools": [
+      "sz:longhua:school:345bd8c3128a491c83ea353a4218b0c8",
+      "sz:longhua:school:496FFFE16B3B5558E053BC09A8C0A5ED",
+      "sz:longhua:school:f9aa4dcc77234f738633dc9c37638464"
+    ]
+  },
+  {
+    "query": "bd09:7c4f8ddfc671c7e40ad6d716",
+    "reference": "bd09:e38203d2ad3ba5c3987d8dfb",
+    "distance_m": 238.90335851133122,
+    "schools": [
+      "sz:longhua:school:94aed576e2854236bfd117b281031afa",
+      "sz:longhua:school:26607511230d404689ae8f55465df792",
+      "sz:longhua:school:85fbf4152f374f80a015cdabb34c4ff5"
+    ]
+  },
+  {
+    "query": "bd09:aca57b4e10f6febeba01cfd7",
+    "reference": "bd09:5046795af905063b5e4d2f3b",
+    "distance_m": 150.47175755110732,
+    "schools": [
+      "sz:longhua:school:c649047304de4edaa878ae435599b2dd"
+    ]
+  },
+  {
+    "query": "bd09:acb56cedb58fea8e84c61f8f",
+    "reference": "bd09:88e20a7bc2fdde568d582574",
+    "distance_m": 275.54954849870217,
+    "schools": [
+      "sz:longhua:school:496FFFE16B465558E053BC09A8C0A5ED",
+      "sz:longhua:school:1f276b80093840b9a1af7dac99af256f",
+      "sz:longhua:school:94aed576e2854236bfd117b281031afa"
+    ]
+  },
+  {
+    "query": "bd09:7fa122e3adfb8c1d4041c089",
+    "reference": "bd09:67ec9238e0164fc02d3f7b99",
+    "distance_m": 187.17270220406456,
+    "schools": [
+      "sz:longhua:school:94aed576e2854236bfd117b281031afa",
+      "sz:longhua:school:496FFFE16B945558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:3d69445e789236b21afad2ae",
+    "reference": "bd09:8565dec405000967809a5574",
+    "distance_m": 61.82861354643543,
+    "schools": [
+      "sz:longhua:school:94aed576e2854236bfd117b281031afa",
+      "sz:longhua:school:496FFFE16B945558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:c06a5c856c781d3672b21e93",
+    "reference": "bd09:ce099ace5fbe8ea58bdf9637",
+    "distance_m": 144.15626924160867,
+    "schools": [
+      "sz:longhua:school:da8402fbef554a27b5ac54f83c6a1682"
+    ]
+  },
+  {
+    "query": "bd09:de6cce00bbfcf88f9201040d",
+    "reference": "bd09:5046795af905063b5e4d2f3b",
+    "distance_m": 273.707230336445,
+    "schools": [
+      "sz:longhua:school:c649047304de4edaa878ae435599b2dd"
+    ]
+  },
+  {
+    "query": "bd09:1752d0ce60377b9371cfa353",
+    "reference": "bd09:25c36c22896e0199fc1c58f0",
+    "distance_m": 169.62047910767453,
+    "schools": [
+      "sz:longhua:school:b5d42e6c807e47b1b53f2f24323cc6aa",
+      "sz:longhua:school:ebe9113be2924ea68014727f80792b78"
+    ]
+  },
+  {
+    "query": "bd09:2ce443559f44c710b66ae322",
+    "reference": "bd09:1c2f15f5e252741482d2b5c4",
+    "distance_m": 217.57695090774902,
+    "schools": [
+      "sz:longhua:school:496FFFE16B405558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:864efb225f2d792206a6bcdd",
+    "reference": "bd09:90c4567fd04d60194151d15b",
+    "distance_m": 231.28362288753024,
+    "schools": [
+      "sz:longhua:school:3925e3411b3a41db92a8fbc9cc41c4b6",
+      "sz:longhua:school:496FFFE16B485558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:ad4b25a0366bfddfbb83c7d9",
+    "reference": "bd09:a692c0f7d142f4d5833f7b07",
+    "distance_m": 255.55606539595783,
+    "schools": [
+      "sz:longhua:school:e3a272c8c0df4aabbf2a6f428245dba1",
+      "sz:longhua:school:496FFFE16B4E5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:38e327bb8fba945a0cc81549",
+    "reference": "bd09:10c3b4ee0e8aa9ba91f92f19",
+    "distance_m": 78.4286421654976,
+    "schools": [
+      "sz:longhua:school:da8402fbef554a27b5ac54f83c6a1682"
+    ]
+  },
+  {
+    "query": "bd09:71645ce8c7ead0b2ac78b0c3",
+    "reference": "bd09:50bcbc1fc820f46b2de61334",
+    "distance_m": 214.27825028154527,
+    "schools": [
+      "sz:longhua:school:9ee001ac0a054274a07983d4506a0274",
+      "sz:longhua:school:b3f88a4b9de8403cbbbf9614e5156fd2"
+    ]
+  },
+  {
+    "query": "bd09:3f2a93a67a4d42fff0c786e6",
+    "reference": "bd09:3eb8f2dc87af55f9246dfe53",
+    "distance_m": 177.0730584117091,
+    "schools": [
+      "sz:longhua:school:496FFFE16B405558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:4d27fe3feee64e2a0ffe73aa",
+    "reference": "bd09:9ba831aba731af4ad49d6b59",
+    "distance_m": 151.48747874127668,
+    "schools": [
+      "sz:longhua:school:126b5238994546a89ec7c673bc1d3b44",
+      "sz:longhua:school:ef3f3d903cc94a3981284a92f19b23f1"
+    ]
+  },
+  {
+    "query": "bd09:d0df88846466d0990b718a78",
+    "reference": "bd09:577a1ae332ccc6a61ba3f3e0",
+    "distance_m": 173.76703240620074,
+    "schools": [
+      "sz:longhua:school:e3a272c8c0df4aabbf2a6f428245dba1",
+      "sz:longhua:school:496FFFE16B4E5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:fe8aec189f882efca43385ba",
+    "reference": "bd09:1ca3f63b2198799074b5f704",
+    "distance_m": 245.47663437982345,
+    "schools": [
+      "sz:longhua:school:e3a272c8c0df4aabbf2a6f428245dba1",
+      "sz:longhua:school:496FFFE16B4E5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:f6d5366111cd377f35eda582",
+    "reference": "bd09:ce099ace5fbe8ea58bdf9637",
+    "distance_m": 124.0900105855679,
+    "schools": [
+      "sz:longhua:school:da8402fbef554a27b5ac54f83c6a1682"
+    ]
+  },
+  {
+    "query": "bd09:b0072ee9d442c3a8cf004d3b",
+    "reference": "bd09:3048364ca2f6acbeb94ec585",
+    "distance_m": 255.59148946427112,
+    "schools": [
+      "sz:longhua:school:38ce5ec6b658423491f976dbddbb13c3",
+      "sz:longhua:school:496FFFE16B3F5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:e0ef88f513900e506d14f8ed",
+    "reference": "bd09:11f5266b7da8c7ed93cad6a7",
+    "distance_m": 288.02468928934434,
+    "schools": [
+      "sz:longhua:school:496FFFE16B405558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:1c45ca56f5276952427e1a83",
+    "reference": "bd09:9ba831aba731af4ad49d6b59",
+    "distance_m": 214.50793460653682,
+    "schools": [
+      "sz:longhua:school:126b5238994546a89ec7c673bc1d3b44",
+      "sz:longhua:school:ef3f3d903cc94a3981284a92f19b23f1"
+    ]
+  },
+  {
+    "query": "bd09:93d9902003c703aa489e48ef",
+    "reference": "bd09:5b49aede958bb01773bbd107",
+    "distance_m": 252.9048589759234,
+    "schools": [
+      "sz:longhua:school:ba2444f9c7514892b3d64263c55c09f5",
+      "sz:longhua:school:496FFFE16B6C5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:7617e5a908a0ddbe4f4ae022",
+    "reference": "bd09:222cda83009d7e22e9c36076",
+    "distance_m": 156.71329521299953,
+    "schools": [
+      "sz:longhua:school:496FFFE16B405558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:d7fe5baca7bcbbab4ace7f00",
+    "reference": "bd09:d81c38638a5d49d1abf8537c",
+    "distance_m": 305.6780140581496,
+    "schools": [
+      "sz:longhua:school:c649047304de4edaa878ae435599b2dd"
+    ]
+  },
+  {
+    "query": "bd09:852f9db72cce0c9ed5a753aa",
+    "reference": "bd09:4e41bf584af8d01e0816278a",
+    "distance_m": 184.4509756090849,
+    "schools": [
+      "sz:longhua:school:14c13f11622f4d8ca604cf9b6b722d01",
+      "sz:longhua:school:496FFFE16B415558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:bf311258aa4cbc5fa1d7cb80",
+    "reference": "bd09:26582da7c20a4cfc1d32973f",
+    "distance_m": 48.37053340588553,
+    "schools": [
+      "sz:longhua:school:496FFFE16B435558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:61eaa757366bcfb2f63982d7",
+    "reference": "bd09:1c59a8c650680e296d0fcd34",
+    "distance_m": 261.5641173121614,
+    "schools": [
+      "sz:longhua:school:57e88fc8ebe3404891cd5d07f1e506bc",
+      "sz:longhua:school:496FFFE16B435558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:9287e230ee8df2f4f99e4ad4",
+    "reference": "bd09:48dae88ab6e08fb8ba00d2d0",
+    "distance_m": 63.585125738989184,
+    "schools": [
+      "sz:longhua:school:496FFFE16B435558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:e6dc9d127efe9947faf8b481",
+    "reference": "bd09:57e292e148a600864b17de06",
+    "distance_m": 98.98383592289319,
+    "schools": [
+      "sz:longhua:school:8e0c89bd31ed415788147cd66bffa09b",
+      "sz:longhua:school:57e88fc8ebe3404891cd5d07f1e506bc",
+      "sz:longhua:school:496FFFE16B6F5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:34b22d96241f5046456a8e91",
+    "reference": "bd09:12d59bb468b258ed5b4bd1b6",
+    "distance_m": 98.16910334641166,
+    "schools": [
+      "sz:longhua:school:496FFFE16B4A5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:c7757ad7a92cd43f96e0e684",
+    "reference": "bd09:d81db3391da4997f8105cda6",
+    "distance_m": 160.84622168313945,
+    "schools": [
+      "sz:longhua:school:496FFFE16B435558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:331ee074717ebff4dc4299ba",
+    "reference": "bd09:26582da7c20a4cfc1d32973f",
+    "distance_m": 99.9404271689261,
+    "schools": [
+      "sz:longhua:school:496FFFE16B435558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:27106fba1888f49600feb784",
+    "reference": "bd09:2966aeac4dbb862d8815ab95",
+    "distance_m": 228.10439340723573,
+    "schools": [
+      "sz:longhua:school:496FFFE16B3C5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:ea5625e7b5abc08be99f7584",
+    "reference": "bd09:78ae5f22ad6dc97fe89fe7d1",
+    "distance_m": 175.07752373949697,
+    "schools": [
+      "sz:longhua:school:496FFFE16B3D5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:7bf0523cac326da0f17be3e1",
+    "reference": "bd09:12d59bb468b258ed5b4bd1b6",
+    "distance_m": 232.89666397899654,
+    "schools": [
+      "sz:longhua:school:496FFFE16B4A5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:535cbeac20215773592b9047",
+    "reference": "bd09:99a3038bdb11f1f04644d8f6",
+    "distance_m": 26.04562212545744,
+    "schools": [
+      "sz:longhua:school:496FFFE16B445558E053BC09A8C0A5ED",
+      "sz:longhua:school:a30b9ed45d5e4734b2d70feceb561c96",
+      "sz:longhua:school:f29dbee4b70c47d393ce050ba7813032",
+      "sz:longhua:school:345bd8c3128a491c83ea353a4218b0c8",
+      "sz:longhua:school:f9aa4dcc77234f738633dc9c37638464"
+    ]
+  },
+  {
+    "query": "bd09:493b450e93c7fd56036a30d9",
+    "reference": "bd09:d35b681e6d43531927cb339e",
+    "distance_m": 62.77955509304582,
+    "schools": [
+      "sz:longhua:school:496FFFE16B3C5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:d15d1390df36f2ddd71e1d1e",
+    "reference": "bd09:c03224f719c870210a464410",
+    "distance_m": 87.95599469586801,
+    "schools": [
+      "sz:longhua:school:496FFFE16B3D5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:2a4cf09db9542a8db5820f0b",
+    "reference": "bd09:0d9bfb5b500513506ca01263",
+    "distance_m": 233.28299884694297,
+    "schools": [
+      "sz:longhua:school:a30b9ed45d5e4734b2d70feceb561c96",
+      "sz:longhua:school:f29dbee4b70c47d393ce050ba7813032",
+      "sz:longhua:school:496FFFE16B935558E053BC09A8C0A5ED:guanhu",
+      "sz:longhua:school:496FFFE16B935558E053BC09A8C0A5ED:gaoxin",
+      "sz:longhua:school:449225a8ccc34107b689c883a1b6caa2",
+      "sz:longhua:school:e158b5b70ec34bbaae1323e42fee6a06"
+    ]
+  },
+  {
+    "query": "bd09:2b35a89026e132cba7fbca1c",
+    "reference": "bd09:a2f8347ee114340af445dbda",
+    "distance_m": 26.83058786571086,
+    "schools": [
+      "sz:longhua:school:496FFFE16B445558E053BC09A8C0A5ED",
+      "sz:longhua:school:a30b9ed45d5e4734b2d70feceb561c96",
+      "sz:longhua:school:f29dbee4b70c47d393ce050ba7813032",
+      "sz:longhua:school:345bd8c3128a491c83ea353a4218b0c8",
+      "sz:longhua:school:f9aa4dcc77234f738633dc9c37638464"
+    ]
+  },
+  {
+    "query": "bd09:1076c840cb7f75d43baacead",
+    "reference": "bd09:a2fdcfabd05ea00466b92b63",
+    "distance_m": 176.97197560963667,
+    "schools": [
+      "sz:longhua:school:496FFFE16B435558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:0e0aaf8aeda5f13f809ad0b1",
+    "reference": "bd09:09c7a64cf0a25c937168a5d8",
+    "distance_m": 255.322046465673,
+    "schools": [
+      "sz:longhua:school:57e88fc8ebe3404891cd5d07f1e506bc",
+      "sz:longhua:school:496FFFE16B435558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:db811dd4894cd3006d20cb63",
+    "reference": "bd09:3fec8c13abe3d0d9ab18e8aa",
+    "distance_m": 69.14890071326442,
+    "schools": [
+      "sz:longhua:school:a30b9ed45d5e4734b2d70feceb561c96",
+      "sz:longhua:school:f29dbee4b70c47d393ce050ba7813032",
+      "sz:longhua:school:496FFFE16B935558E053BC09A8C0A5ED:guanhu",
+      "sz:longhua:school:496FFFE16B935558E053BC09A8C0A5ED:gaoxin",
+      "sz:longhua:school:449225a8ccc34107b689c883a1b6caa2",
+      "sz:longhua:school:e158b5b70ec34bbaae1323e42fee6a06"
+    ]
+  },
+  {
+    "query": "bd09:4bc19923c73eedf948a36434",
+    "reference": "bd09:44887b029cab8f9f07f1d6ed",
+    "distance_m": 313.0068803010954,
+    "schools": [
+      "sz:longhua:school:496FFFE16B445558E053BC09A8C0A5ED",
+      "sz:longhua:school:a30b9ed45d5e4734b2d70feceb561c96",
+      "sz:longhua:school:f29dbee4b70c47d393ce050ba7813032",
+      "sz:longhua:school:345bd8c3128a491c83ea353a4218b0c8",
+      "sz:longhua:school:f9aa4dcc77234f738633dc9c37638464"
+    ]
+  },
+  {
+    "query": "bd09:befb6ed256e9792573168daa",
+    "reference": "bd09:d23045d7978f44dfec4bdd8c",
+    "distance_m": 164.86437515746817,
+    "schools": [
+      "sz:longhua:school:496FFFE16B3D5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:bf1ef58590fe7c55dea681dc",
+    "reference": "bd09:17e1b243b6205c77b08fd34b",
+    "distance_m": 66.75021059583116,
+    "schools": [
+      "sz:longhua:school:1dd894e9511144dc856000fda2fd9fb3",
+      "sz:longhua:school:57e88fc8ebe3404891cd5d07f1e506bc"
+    ]
+  },
+  {
+    "query": "bd09:de4891f69e6a7f0bfafdc787",
+    "reference": "bd09:116b96a9b9df105102d1db7c",
+    "distance_m": 161.9028736661812,
+    "schools": [
+      "sz:longhua:school:496FFFE16B435558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:7350475462d463d178ff1883",
+    "reference": "bd09:2fc2095f0cac910e056b5d9d",
+    "distance_m": 116.45874294658506,
+    "schools": [
+      "sz:longhua:school:a30b9ed45d5e4734b2d70feceb561c96",
+      "sz:longhua:school:f29dbee4b70c47d393ce050ba7813032",
+      "sz:longhua:school:496FFFE16B935558E053BC09A8C0A5ED:guanhu",
+      "sz:longhua:school:496FFFE16B935558E053BC09A8C0A5ED:gaoxin",
+      "sz:longhua:school:449225a8ccc34107b689c883a1b6caa2",
+      "sz:longhua:school:e158b5b70ec34bbaae1323e42fee6a06"
+    ]
+  },
+  {
+    "query": "bd09:e252fc8d5bf42b189a6813d6",
+    "reference": "bd09:8ff81d758c5fb21b1e2f3559",
+    "distance_m": 298.29460956953807,
+    "schools": [
+      "sz:longhua:school:496FFFE16B4D5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:231f43bb92fcdce479414d86",
+    "reference": "bd09:26ad1b5a94c67011231a05a6",
+    "distance_m": 58.837535644608735,
+    "schools": [
+      "sz:longhua:school:b31451d47108423e9503bf0382ce5192"
+    ]
+  },
+  {
+    "query": "bd09:d8fb9ec2e4e013eb359fffa8",
+    "reference": "bd09:2e09507dbdb4c44b27d1dc16",
+    "distance_m": 234.4982075507969,
+    "schools": [
+      "sz:longhua:school:a863a2a0d9434c7c8370f9af437bae6e"
+    ]
+  },
+  {
+    "query": "bd09:e99f0ba31a2e02e4eff7ff88",
+    "reference": "bd09:8cefa55ad2aa0f13471d8e86",
+    "distance_m": 104.93397036103282,
+    "schools": [
+      "sz:longhua:school:496FFFE16B4D5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:e5b80be827a9ae35bda007d1",
+    "reference": "bd09:6330eb0d1b6fa8540f326eda",
+    "distance_m": 92.55068189896447,
+    "schools": [
+      "sz:longhua:school:b31451d47108423e9503bf0382ce5192"
+    ]
+  },
+  {
+    "query": "bd09:7144ee081b081e426f82ba30",
+    "reference": "bd09:d68f97cdf39d7c5d9a6e9901",
+    "distance_m": 168.9015807989467,
+    "schools": [
+      "sz:longhua:school:496FFFE16B475558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:f079a9aec70ff8209af398a2",
+    "reference": "bd09:2e09507dbdb4c44b27d1dc16",
+    "distance_m": 232.65746192291357,
+    "schools": [
+      "sz:longhua:school:a863a2a0d9434c7c8370f9af437bae6e"
+    ]
+  },
+  {
+    "query": "bd09:2b7ce07594448c232215f2ed",
+    "reference": "bd09:2993cd97b6ae789942556541",
+    "distance_m": 120.14034382195013,
+    "schools": [
+      "sz:longhua:school:496FFFE16B4D5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:e655bf4f1fa6313fe9b2ea36",
+    "reference": "bd09:f9ba5c92b7cb0f9c877bbe09",
+    "distance_m": 88.58048331954473,
+    "schools": [
+      "sz:longhua:school:496FFFE16B475558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:7aeecba82a593b4e8cc70574",
+    "reference": "bd09:2993cd97b6ae789942556541",
+    "distance_m": 99.13006485380986,
+    "schools": [
+      "sz:longhua:school:496FFFE16B4D5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:4b0afcd8d8a5681a7f14d83e",
+    "reference": "bd09:2993cd97b6ae789942556541",
+    "distance_m": 257.4784287359581,
+    "schools": [
+      "sz:longhua:school:496FFFE16B4D5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:9d3b737e335ac016366a1f0f",
+    "reference": "bd09:2993cd97b6ae789942556541",
+    "distance_m": 287.1575100917579,
+    "schools": [
+      "sz:longhua:school:496FFFE16B4D5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:770f66e783361a83bef73d33",
+    "reference": "bd09:2fc69a0afd25cb3c7447ec75",
+    "distance_m": 223.1012129964763,
+    "schools": [
+      "sz:longhua:school:496FFFE16B475558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:4223034b5679182043595be6",
+    "reference": "bd09:8ff81d758c5fb21b1e2f3559",
+    "distance_m": 186.85277320284428,
+    "schools": [
+      "sz:longhua:school:496FFFE16B4D5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:bbe6abd5e1fea5504bb370ad",
+    "reference": "bd09:2993cd97b6ae789942556541",
+    "distance_m": 71.82350422152503,
+    "schools": [
+      "sz:longhua:school:496FFFE16B4D5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:00d50334c874632831c037a5",
+    "reference": "bd09:d68f97cdf39d7c5d9a6e9901",
+    "distance_m": 135.32680941427301,
+    "schools": [
+      "sz:longhua:school:496FFFE16B475558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:335860ca8cfa63fa522e8ff3",
+    "reference": "bd09:d68f97cdf39d7c5d9a6e9901",
+    "distance_m": 40.51945144345989,
+    "schools": [
+      "sz:longhua:school:496FFFE16B475558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:908e860b30b631c643207f8d",
+    "reference": "bd09:26ad1b5a94c67011231a05a6",
+    "distance_m": 146.5184272197526,
+    "schools": [
+      "sz:longhua:school:b31451d47108423e9503bf0382ce5192"
+    ]
+  },
+  {
+    "query": "bd09:98fe2f6e26389dc4928461ad",
+    "reference": "bd09:95a929bdf8d74ed6dbb1008d",
+    "distance_m": 168.62531452873677,
+    "schools": [
+      "sz:longhua:school:b5d42e6c807e47b1b53f2f24323cc6aa",
+      "sz:longhua:school:ebe9113be2924ea68014727f80792b78"
+    ]
+  },
+  {
+    "query": "bd09:cb1a98ce7dce4d7b6171d98f",
+    "reference": "bd09:c3b8ebfb4a530c7c94b74095",
+    "distance_m": 90.0653112431619,
+    "schools": [
+      "sz:longhua:school:496FFFE16B4F5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:c582042554d0c277b63ebf2d",
+    "reference": "bd09:018d5b267f374b488add3d23",
+    "distance_m": 116.66955651886578,
+    "schools": [
+      "sz:longhua:school:dd655370e05640259a918bdfb9146830",
+      "sz:longhua:school:496FFFE16B3E5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:12b863ee9ede7b97cec81e51",
+    "reference": "bd09:7f242a2f05950c4302f460c3",
+    "distance_m": 75.7931164132751,
+    "schools": [
+      "sz:longhua:school:dd655370e05640259a918bdfb9146830",
+      "sz:longhua:school:496FFFE16B3E5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:a10842840a7cc3dc206e8380",
+    "reference": "bd09:7f242a2f05950c4302f460c3",
+    "distance_m": 93.82996519162309,
+    "schools": [
+      "sz:longhua:school:dd655370e05640259a918bdfb9146830",
+      "sz:longhua:school:496FFFE16B3E5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:20b54741871dd088c980d4d0",
+    "reference": "bd09:2c85836ca8ecf0e1053d0641",
+    "distance_m": 121.77394950918926,
+    "schools": [
+      "sz:longhua:school:dd655370e05640259a918bdfb9146830",
+      "sz:longhua:school:496FFFE16B3E5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:13b4aa8c61923ba9278e45b0",
+    "reference": "bd09:37b8fcf215c7a045ffba0ea5",
+    "distance_m": 104.99873050663848,
+    "schools": [
+      "sz:longhua:school:14c13f11622f4d8ca604cf9b6b722d01",
+      "sz:longhua:school:496FFFE16B415558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:310823622e8473238e38e41e",
+    "reference": "bd09:37b8fcf215c7a045ffba0ea5",
+    "distance_m": 332.0335487819246,
+    "schools": [
+      "sz:longhua:school:14c13f11622f4d8ca604cf9b6b722d01",
+      "sz:longhua:school:496FFFE16B415558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:5f76316e5aaa10fa825ed407",
+    "reference": "bd09:bc33df66aa0314df766212d9",
+    "distance_m": 200.71596081640052,
+    "schools": [
+      "sz:longhua:school:b5d42e6c807e47b1b53f2f24323cc6aa",
+      "sz:longhua:school:ebe9113be2924ea68014727f80792b78"
+    ]
+  },
+  {
+    "query": "bd09:709e0ecc32c3750f1c27481e",
+    "reference": "bd09:5b49aede958bb01773bbd107",
+    "distance_m": 58.574095893914944,
+    "schools": [
+      "sz:longhua:school:ba2444f9c7514892b3d64263c55c09f5",
+      "sz:longhua:school:496FFFE16B6C5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:b0573d4fa1b2d7e1311663fe",
+    "reference": "bd09:af76cc6cd00640fa450a66b3",
+    "distance_m": 160.43150202621155,
+    "schools": [
+      "sz:longhua:school:496FFFE16B955558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:1b67514f30e9b892332b4466",
+    "reference": "bd09:8508a170b084ebe5594735d9",
+    "distance_m": 138.03513192438493,
+    "schools": [
+      "sz:longhua:school:496FFFE16B955558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:e7cc7b207fe08169c1422642",
+    "reference": "bd09:410ea0c8bb742b6ef820cf10",
+    "distance_m": 324.44074798137655,
+    "schools": [
+      "sz:longhua:school:3925e3411b3a41db92a8fbc9cc41c4b6",
+      "sz:longhua:school:496FFFE16B485558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:3e8568c3a25433f33643f95f",
+    "reference": "bd09:9686bd231e03c01d38c7b3ee",
+    "distance_m": 265.53999486039413,
+    "schools": [
+      "sz:longhua:school:ba2444f9c7514892b3d64263c55c09f5",
+      "sz:longhua:school:496FFFE16B6C5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:27b128013c16486261a25745",
+    "reference": "bd09:975ad40dc7ff2d0fbd7d9899",
+    "distance_m": 156.37782661650056,
+    "schools": [
+      "sz:longhua:school:496FFFE16B955558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:481bd119934b223c6f62e677",
+    "reference": "bd09:a692c0f7d142f4d5833f7b07",
+    "distance_m": 320.20702589998075,
+    "schools": [
+      "sz:longhua:school:e3a272c8c0df4aabbf2a6f428245dba1",
+      "sz:longhua:school:496FFFE16B4E5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:dc06232b5641f035859ee396",
+    "reference": "bd09:93aa50469cb1b6eabf2becf7",
+    "distance_m": 184.96913904476668,
+    "schools": [
+      "sz:longhua:school:94aed576e2854236bfd117b281031afa",
+      "sz:longhua:school:496FFFE16B945558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:18a97b0691fa4a770b212c19",
+    "reference": "bd09:589ac4f59b491c5f98cff532",
+    "distance_m": 113.47520917832927,
+    "schools": [
+      "sz:longhua:school:3925e3411b3a41db92a8fbc9cc41c4b6",
+      "sz:longhua:school:496FFFE16B485558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:c87c3b406722ed64ba6fc0ec",
+    "reference": "bd09:8e9491f9d61c126688664285",
+    "distance_m": 196.78968789330108,
+    "schools": [
+      "sz:longhua:school:38ce5ec6b658423491f976dbddbb13c3",
+      "sz:longhua:school:496FFFE16B3F5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:583c38512d5d7caafe3252a9",
+    "reference": "bd09:11f5266b7da8c7ed93cad6a7",
+    "distance_m": 284.2446679218548,
+    "schools": [
+      "sz:longhua:school:496FFFE16B405558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:2aaf543964d29b63f8da85ef",
+    "reference": "bd09:edc16b7c98ff243b2ca7c706",
+    "distance_m": 222.64523193780164,
+    "schools": [
+      "sz:longhua:school:38ce5ec6b658423491f976dbddbb13c3",
+      "sz:longhua:school:496FFFE16B3F5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:b14785685612a390f4ae2a0c",
+    "reference": "bd09:5b5a299257a77c9e784ff128",
+    "distance_m": 185.27656693499665,
+    "schools": [
+      "sz:longhua:school:ba2444f9c7514892b3d64263c55c09f5",
+      "sz:longhua:school:496FFFE16B6C5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:e0671f1e6f7d9089e4690d9d",
+    "reference": "bd09:10c3b4ee0e8aa9ba91f92f19",
+    "distance_m": 175.12011514635162,
+    "schools": [
+      "sz:longhua:school:da8402fbef554a27b5ac54f83c6a1682"
+    ]
+  },
+  {
+    "query": "bd09:eeb12add2eecd68203f95711",
+    "reference": "bd09:5046795af905063b5e4d2f3b",
+    "distance_m": 43.21452076899884,
+    "schools": [
+      "sz:longhua:school:c649047304de4edaa878ae435599b2dd"
+    ]
+  },
+  {
+    "query": "bd09:67efa6bcebf11f0e94b7ce77",
+    "reference": "bd09:edc200088b00bdb3fecc249c",
+    "distance_m": 216.99126253728227,
+    "schools": [
+      "sz:longhua:school:14c13f11622f4d8ca604cf9b6b722d01",
+      "sz:longhua:school:496FFFE16B415558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:ea55e6f1a6aab7d79a159563",
+    "reference": "bd09:487309226bee3a600b65a446",
+    "distance_m": 335.3902850827609,
+    "schools": [
+      "sz:longhua:school:496FFFE16B405558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:29f075d1910659820b19d3e4",
+    "reference": "bd09:90c4567fd04d60194151d15b",
+    "distance_m": 224.90783605347804,
+    "schools": [
+      "sz:longhua:school:3925e3411b3a41db92a8fbc9cc41c4b6",
+      "sz:longhua:school:496FFFE16B485558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:e6f6201388121fc18d2b001e",
+    "reference": "bd09:68a13f3dd2330f3d102c7cab",
+    "distance_m": 183.47734686583237,
+    "schools": [
+      "sz:longhua:school:c649047304de4edaa878ae435599b2dd",
+      "sz:longhua:school:92b2600af53243cd8652d9576d56df41",
+      "sz:longhua:school:c6a72391361d4221817db0289a292060:huaren"
+    ]
+  },
+  {
+    "query": "bd09:abdb32ab2e4ed42ad601f9a8",
+    "reference": "bd09:410ea0c8bb742b6ef820cf10",
+    "distance_m": 184.41799557874967,
+    "schools": [
+      "sz:longhua:school:3925e3411b3a41db92a8fbc9cc41c4b6",
+      "sz:longhua:school:496FFFE16B485558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:53e648c6c2afc2c6e4966831",
+    "reference": "bd09:d81c38638a5d49d1abf8537c",
+    "distance_m": 308.48788533785387,
+    "schools": [
+      "sz:longhua:school:c649047304de4edaa878ae435599b2dd"
+    ]
+  },
+  {
+    "query": "bd09:71a90b81f4242d3f4a18b9b5",
+    "reference": "bd09:2fd5ac7735ab81421041593c",
+    "distance_m": 134.44473193483833,
+    "schools": [
+      "sz:longhua:school:9ee001ac0a054274a07983d4506a0274",
+      "sz:longhua:school:b3f88a4b9de8403cbbbf9614e5156fd2"
+    ]
+  },
+  {
+    "query": "bd09:2000a4c5bbb5cfc5afdfa4e7",
+    "reference": "bd09:71b7949f36ec7fe852da42cd",
+    "distance_m": 315.64485496720755,
+    "schools": [
+      "sz:longhua:school:da8402fbef554a27b5ac54f83c6a1682"
+    ]
+  },
+  {
+    "query": "bd09:2af074ca4dbc259c81bd5447",
+    "reference": "bd09:528fb82f23db46c2f9c3382b",
+    "distance_m": 215.95213404492142,
+    "schools": [
+      "sz:longhua:school:38ce5ec6b658423491f976dbddbb13c3",
+      "sz:longhua:school:496FFFE16B3F5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:1228f1119b4c8b89f943f724",
+    "reference": "bd09:4f77902b8935b10a7235fadb",
+    "distance_m": 88.82695502130477,
+    "schools": [
+      "sz:longhua:school:3925e3411b3a41db92a8fbc9cc41c4b6",
+      "sz:longhua:school:496FFFE16B485558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:434dc9f56fdd1ca0be4870e5",
+    "reference": "bd09:48ffe300871736de87a113a3",
+    "distance_m": 215.54322455470012,
+    "schools": [
+      "sz:longhua:school:496FFFE16B465558E053BC09A8C0A5ED",
+      "sz:longhua:school:1f276b80093840b9a1af7dac99af256f",
+      "sz:longhua:school:94aed576e2854236bfd117b281031afa"
+    ]
+  },
+  {
+    "query": "bd09:d46e434255a985243846961a",
+    "reference": "bd09:487309226bee3a600b65a446",
+    "distance_m": 223.229184070934,
+    "schools": [
+      "sz:longhua:school:496FFFE16B405558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:4cd9f7720435c5d6eee671c3",
+    "reference": "bd09:10c3b4ee0e8aa9ba91f92f19",
+    "distance_m": 136.53949698988018,
+    "schools": [
+      "sz:longhua:school:da8402fbef554a27b5ac54f83c6a1682"
+    ]
+  },
+  {
+    "query": "bd09:6a0edb33a39063299b672f15",
+    "reference": "bd09:bc6b1a603839f0b8bdda5dc3",
+    "distance_m": 237.92606017617362,
+    "schools": [
+      "sz:longhua:school:da8402fbef554a27b5ac54f83c6a1682"
+    ]
+  },
+  {
+    "query": "bd09:5677414ef81803e8e8f4f782",
+    "reference": "bd09:bc6b1a603839f0b8bdda5dc3",
+    "distance_m": 126.45893071968517,
+    "schools": [
+      "sz:longhua:school:da8402fbef554a27b5ac54f83c6a1682"
+    ]
+  },
+  {
+    "query": "bd09:216f0919edb03728490231c1",
+    "reference": "bd09:630209e7074811584b302847",
+    "distance_m": 99.2691394590528,
+    "schools": [
+      "sz:longhua:school:496FFFE16B405558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:013b8aaf16a05c6ee0aa7b84",
+    "reference": "bd09:8e9491f9d61c126688664285",
+    "distance_m": 76.73564456022551,
+    "schools": [
+      "sz:longhua:school:38ce5ec6b658423491f976dbddbb13c3",
+      "sz:longhua:school:496FFFE16B3F5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:3cf8a0bfec454eed9187398f",
+    "reference": "bd09:71b7949f36ec7fe852da42cd",
+    "distance_m": 83.2475142448181,
+    "schools": [
+      "sz:longhua:school:da8402fbef554a27b5ac54f83c6a1682"
+    ]
+  },
+  {
+    "query": "bd09:58a74346d12bda55deef6a1a",
+    "reference": "bd09:90c4567fd04d60194151d15b",
+    "distance_m": 155.79665268839193,
+    "schools": [
+      "sz:longhua:school:3925e3411b3a41db92a8fbc9cc41c4b6",
+      "sz:longhua:school:496FFFE16B485558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:cb63ded5172f59764d336303",
+    "reference": "bd09:4a1b82929a7f6705423e7e6b",
+    "distance_m": 103.97596380909677,
+    "schools": [
+      "sz:longhua:school:a30b9ed45d5e4734b2d70feceb561c96",
+      "sz:longhua:school:f29dbee4b70c47d393ce050ba7813032",
+      "sz:longhua:school:496FFFE16B935558E053BC09A8C0A5ED:guanhu",
+      "sz:longhua:school:496FFFE16B935558E053BC09A8C0A5ED:gaoxin",
+      "sz:longhua:school:449225a8ccc34107b689c883a1b6caa2",
+      "sz:longhua:school:e158b5b70ec34bbaae1323e42fee6a06"
+    ]
+  },
+  {
+    "query": "bd09:243c00af838bd6c3a973c006",
+    "reference": "bd09:116b96a9b9df105102d1db7c",
+    "distance_m": 75.79885744657443,
+    "schools": [
+      "sz:longhua:school:496FFFE16B435558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:21aa6edf00445e3995afdf89",
+    "reference": "bd09:20298d6ed9f6a94405ac8de8",
+    "distance_m": 223.9020757772102,
+    "schools": [
+      "sz:longhua:school:8e0c89bd31ed415788147cd66bffa09b",
+      "sz:longhua:school:0243cbf5c9f44a73b8cf266871d50ffe",
+      "sz:longhua:school:496FFFE16B455558E053BC09A8C0A5ED",
+      "sz:longhua:school:58917a95bb2b4a0e89216e9b870ae6dc"
+    ]
+  },
+  {
+    "query": "bd09:8bc819b55da1111c5769bb72",
+    "reference": "bd09:116b96a9b9df105102d1db7c",
+    "distance_m": 131.8212730453995,
+    "schools": [
+      "sz:longhua:school:496FFFE16B435558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:da9ca05cba15107186a16b83",
+    "reference": "bd09:44b6b3aa705b5de5e6b93083",
+    "distance_m": 332.2842533341651,
+    "schools": [
+      "sz:longhua:school:496FFFE16B445558E053BC09A8C0A5ED",
+      "sz:longhua:school:a30b9ed45d5e4734b2d70feceb561c96",
+      "sz:longhua:school:f29dbee4b70c47d393ce050ba7813032",
+      "sz:longhua:school:345bd8c3128a491c83ea353a4218b0c8",
+      "sz:longhua:school:f9aa4dcc77234f738633dc9c37638464"
+    ]
+  },
+  {
+    "query": "bd09:c3597939aecb0dd7c8f21485",
+    "reference": "bd09:99a3038bdb11f1f04644d8f6",
+    "distance_m": 85.00492737793242,
+    "schools": [
+      "sz:longhua:school:496FFFE16B445558E053BC09A8C0A5ED",
+      "sz:longhua:school:a30b9ed45d5e4734b2d70feceb561c96",
+      "sz:longhua:school:f29dbee4b70c47d393ce050ba7813032",
+      "sz:longhua:school:345bd8c3128a491c83ea353a4218b0c8",
+      "sz:longhua:school:f9aa4dcc77234f738633dc9c37638464"
+    ]
+  },
+  {
+    "query": "bd09:ab5fce0f612feda88b9a2986",
+    "reference": "bd09:4e003fbf7ea3f677ff2a60eb",
+    "distance_m": 297.41788850709605,
+    "schools": [
+      "sz:longhua:school:496FFFE16B445558E053BC09A8C0A5ED",
+      "sz:longhua:school:a30b9ed45d5e4734b2d70feceb561c96",
+      "sz:longhua:school:f29dbee4b70c47d393ce050ba7813032",
+      "sz:longhua:school:345bd8c3128a491c83ea353a4218b0c8",
+      "sz:longhua:school:f9aa4dcc77234f738633dc9c37638464"
+    ]
+  },
+  {
+    "query": "bd09:6dc84159e004a680f203cc6c",
+    "reference": "bd09:26582da7c20a4cfc1d32973f",
+    "distance_m": 116.6445472358375,
+    "schools": [
+      "sz:longhua:school:496FFFE16B435558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:127f699bee2b93af6d3d56af",
+    "reference": "bd09:4e003fbf7ea3f677ff2a60eb",
+    "distance_m": 174.66322650883052,
+    "schools": [
+      "sz:longhua:school:496FFFE16B445558E053BC09A8C0A5ED",
+      "sz:longhua:school:a30b9ed45d5e4734b2d70feceb561c96",
+      "sz:longhua:school:f29dbee4b70c47d393ce050ba7813032",
+      "sz:longhua:school:345bd8c3128a491c83ea353a4218b0c8",
+      "sz:longhua:school:f9aa4dcc77234f738633dc9c37638464"
+    ]
+  },
+  {
+    "query": "bd09:6a96bbe37cb4ae1c2fb58084",
+    "reference": "bd09:d81db3391da4997f8105cda6",
+    "distance_m": 176.483714086038,
+    "schools": [
+      "sz:longhua:school:496FFFE16B435558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:d65e19e340a4fc38238a6bc6",
+    "reference": "bd09:17e1b243b6205c77b08fd34b",
+    "distance_m": 9.268867802154187,
+    "schools": [
+      "sz:longhua:school:1dd894e9511144dc856000fda2fd9fb3",
+      "sz:longhua:school:57e88fc8ebe3404891cd5d07f1e506bc"
+    ]
+  },
+  {
+    "query": "bd09:069480fd1696e263765e71d6",
+    "reference": "bd09:0d9bfb5b500513506ca01263",
+    "distance_m": 334.9816189011745,
+    "schools": [
+      "sz:longhua:school:a30b9ed45d5e4734b2d70feceb561c96",
+      "sz:longhua:school:f29dbee4b70c47d393ce050ba7813032",
+      "sz:longhua:school:496FFFE16B935558E053BC09A8C0A5ED:guanhu",
+      "sz:longhua:school:496FFFE16B935558E053BC09A8C0A5ED:gaoxin",
+      "sz:longhua:school:449225a8ccc34107b689c883a1b6caa2",
+      "sz:longhua:school:e158b5b70ec34bbaae1323e42fee6a06"
+    ]
+  },
+  {
+    "query": "bd09:b82121ad396a075c5f4f6b5a",
+    "reference": "bd09:092ab48b2892fd25194a313b",
+    "distance_m": 201.67560219682255,
+    "schools": [
+      "sz:longhua:school:8e0c89bd31ed415788147cd66bffa09b",
+      "sz:longhua:school:0243cbf5c9f44a73b8cf266871d50ffe",
+      "sz:longhua:school:496FFFE16B455558E053BC09A8C0A5ED",
+      "sz:longhua:school:58917a95bb2b4a0e89216e9b870ae6dc"
+    ]
+  },
+  {
+    "query": "bd09:1d165afc4e41b418c4fa8049",
+    "reference": "bd09:f3ce70c8a3764ff2fe8e2c02",
+    "distance_m": 175.651637212323,
+    "schools": [
+      "sz:longhua:school:14c13f11622f4d8ca604cf9b6b722d01",
+      "sz:longhua:school:496FFFE16B415558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:7d4b70488ecf5a6900283ca8",
+    "reference": "bd09:f3ce70c8a3764ff2fe8e2c02",
+    "distance_m": 119.58637250033532,
+    "schools": [
+      "sz:longhua:school:14c13f11622f4d8ca604cf9b6b722d01",
+      "sz:longhua:school:496FFFE16B415558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:4fbae59de3f1ad265daa5e41",
+    "reference": "bd09:7f242a2f05950c4302f460c3",
+    "distance_m": 242.95481787657954,
+    "schools": [
+      "sz:longhua:school:dd655370e05640259a918bdfb9146830",
+      "sz:longhua:school:496FFFE16B3E5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:1fe61f251fbcb6d66cfd11ff",
+    "reference": "bd09:018d5b267f374b488add3d23",
+    "distance_m": 275.4460083070679,
+    "schools": [
+      "sz:longhua:school:dd655370e05640259a918bdfb9146830",
+      "sz:longhua:school:496FFFE16B3E5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:b718af428c28117fe9244e44",
+    "reference": "bd09:4ae1f49979cebf639ec6c1e5",
+    "distance_m": 144.88491628630499,
+    "schools": [
+      "sz:longhua:school:496FFFE16B445558E053BC09A8C0A5ED",
+      "sz:longhua:school:a30b9ed45d5e4734b2d70feceb561c96",
+      "sz:longhua:school:f29dbee4b70c47d393ce050ba7813032",
+      "sz:longhua:school:345bd8c3128a491c83ea353a4218b0c8",
+      "sz:longhua:school:f9aa4dcc77234f738633dc9c37638464"
+    ]
+  },
+  {
+    "query": "bd09:449b3458509bd36aba37e94a",
+    "reference": "bd09:9f619fae5ff0cce11f6126ac",
+    "distance_m": 159.59205894238215,
+    "schools": [
+      "sz:longhua:school:8e0c89bd31ed415788147cd66bffa09b",
+      "sz:longhua:school:0243cbf5c9f44a73b8cf266871d50ffe",
+      "sz:longhua:school:496FFFE16B455558E053BC09A8C0A5ED",
+      "sz:longhua:school:58917a95bb2b4a0e89216e9b870ae6dc"
+    ]
+  },
+  {
+    "query": "bd09:f16ca8b1560f71f2c028aaf5",
+    "reference": "bd09:44887b029cab8f9f07f1d6ed",
+    "distance_m": 37.11830547569939,
+    "schools": [
+      "sz:longhua:school:496FFFE16B445558E053BC09A8C0A5ED",
+      "sz:longhua:school:a30b9ed45d5e4734b2d70feceb561c96",
+      "sz:longhua:school:f29dbee4b70c47d393ce050ba7813032",
+      "sz:longhua:school:345bd8c3128a491c83ea353a4218b0c8",
+      "sz:longhua:school:f9aa4dcc77234f738633dc9c37638464"
+    ]
+  },
+  {
+    "query": "bd09:5f2c463da303562acfb1d287",
+    "reference": "bd09:4a1b82929a7f6705423e7e6b",
+    "distance_m": 100.07864418062758,
+    "schools": [
+      "sz:longhua:school:a30b9ed45d5e4734b2d70feceb561c96",
+      "sz:longhua:school:f29dbee4b70c47d393ce050ba7813032",
+      "sz:longhua:school:496FFFE16B935558E053BC09A8C0A5ED:guanhu",
+      "sz:longhua:school:496FFFE16B935558E053BC09A8C0A5ED:gaoxin",
+      "sz:longhua:school:449225a8ccc34107b689c883a1b6caa2",
+      "sz:longhua:school:e158b5b70ec34bbaae1323e42fee6a06"
+    ]
+  },
+  {
+    "query": "bd09:1b1ea7ac5fc69bd9e416b0a5",
+    "reference": "bd09:092ab48b2892fd25194a313b",
+    "distance_m": 203.54697651808277,
+    "schools": [
+      "sz:longhua:school:8e0c89bd31ed415788147cd66bffa09b",
+      "sz:longhua:school:0243cbf5c9f44a73b8cf266871d50ffe",
+      "sz:longhua:school:496FFFE16B455558E053BC09A8C0A5ED",
+      "sz:longhua:school:58917a95bb2b4a0e89216e9b870ae6dc"
+    ]
+  },
+  {
+    "query": "bd09:833aea1ec3728df8ca637702",
+    "reference": "bd09:fe0ef144993620dc9c7a1933",
+    "distance_m": 177.4688053632576,
+    "schools": [
+      "sz:longhua:school:da8402fbef554a27b5ac54f83c6a1682"
+    ]
+  },
+  {
+    "query": "bd09:1451b14782602ae13e364b40",
+    "reference": "bd09:47cfc2226e174e9c910f7036",
+    "distance_m": 46.83865703000612,
+    "schools": [
+      "sz:longhua:school:e3a272c8c0df4aabbf2a6f428245dba1",
+      "sz:longhua:school:496FFFE16B4E5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:203c6aa14c6acb2cc9071ecd",
+    "reference": "bd09:059107eda33b9c12fa56f782",
+    "distance_m": 154.4193440541277,
+    "schools": [
+      "sz:longhua:school:e3a272c8c0df4aabbf2a6f428245dba1",
+      "sz:longhua:school:496FFFE16B4E5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:f413e98f573c41482939361e",
+    "reference": "bd09:1a371da2c1ae7f83b0c33c49",
+    "distance_m": 174.73019746499645,
+    "schools": [
+      "sz:longhua:school:3925e3411b3a41db92a8fbc9cc41c4b6",
+      "sz:longhua:school:496FFFE16B485558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:20d909e96aeb9878186f9d50",
+    "reference": "bd09:f1c43bba2ab137e98e6a1258",
+    "distance_m": 237.17658758719992,
+    "schools": [
+      "sz:longhua:school:496FFFE16B405558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:2d435fdee67389f0f83ae268",
+    "reference": "bd09:279d48568227d3418b1a2f94",
+    "distance_m": 175.9657712170157,
+    "schools": [
+      "sz:longhua:school:496FFFE16B465558E053BC09A8C0A5ED",
+      "sz:longhua:school:1f276b80093840b9a1af7dac99af256f",
+      "sz:longhua:school:94aed576e2854236bfd117b281031afa"
+    ]
+  },
+  {
+    "query": "bd09:f8a57ed7d762bcc7b40a98fa",
+    "reference": "bd09:95853e1434d5b14b8df3a03c",
+    "distance_m": 27.139910718440003,
+    "schools": [
+      "sz:longhua:school:38ce5ec6b658423491f976dbddbb13c3",
+      "sz:longhua:school:496FFFE16B3F5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:e2d0241902d9e336325cacb7",
+    "reference": "bd09:f054735a18c4c2f578fa07b3",
+    "distance_m": 121.33589043583783,
+    "schools": [
+      "sz:longhua:school:14c13f11622f4d8ca604cf9b6b722d01",
+      "sz:longhua:school:496FFFE16B415558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:6c11b0a6dc36fca7888e9564",
+    "reference": "bd09:69bf9f506ad9910cbd5afbbc",
+    "distance_m": 167.40392966969057,
+    "schools": [
+      "sz:longhua:school:496FFFE16B465558E053BC09A8C0A5ED",
+      "sz:longhua:school:1f276b80093840b9a1af7dac99af256f",
+      "sz:longhua:school:94aed576e2854236bfd117b281031afa"
+    ]
+  },
+  {
+    "query": "bd09:a6422ae44d5ed9c930ae4719",
+    "reference": "bd09:edc200088b00bdb3fecc249c",
+    "distance_m": 78.60832421093798,
+    "schools": [
+      "sz:longhua:school:14c13f11622f4d8ca604cf9b6b722d01",
+      "sz:longhua:school:496FFFE16B415558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:1820832025d85790064c629c",
+    "reference": "bd09:69bf9f506ad9910cbd5afbbc",
+    "distance_m": 33.82312724558796,
+    "schools": [
+      "sz:longhua:school:496FFFE16B465558E053BC09A8C0A5ED",
+      "sz:longhua:school:1f276b80093840b9a1af7dac99af256f",
+      "sz:longhua:school:94aed576e2854236bfd117b281031afa"
+    ]
+  },
+  {
+    "query": "bd09:12831073aa8b6bb4c163912f",
+    "reference": "bd09:f054735a18c4c2f578fa07b3",
+    "distance_m": 236.83652146866413,
+    "schools": [
+      "sz:longhua:school:14c13f11622f4d8ca604cf9b6b722d01",
+      "sz:longhua:school:496FFFE16B415558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:a8c9017d2f4fec8cb806c72a",
+    "reference": "bd09:081c5f62752e23a499fb8b8f",
+    "distance_m": 241.1922476297354,
+    "schools": [
+      "sz:longhua:school:3925e3411b3a41db92a8fbc9cc41c4b6",
+      "sz:longhua:school:496FFFE16B485558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:279f3d9dd760382f0fdde1b8",
+    "reference": "bd09:1693782a6d2544965ab9a04d",
+    "distance_m": 142.4404866725185,
+    "schools": [
+      "sz:longhua:school:dd655370e05640259a918bdfb9146830",
+      "sz:longhua:school:496FFFE16B3E5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:48e397d5434cc92e0172ddb9",
+    "reference": "bd09:4e41bf584af8d01e0816278a",
+    "distance_m": 108.08207235926506,
+    "schools": [
+      "sz:longhua:school:14c13f11622f4d8ca604cf9b6b722d01",
+      "sz:longhua:school:496FFFE16B415558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:af1a33df1d3ee4054a4cfe75",
+    "reference": "bd09:bcc5ae4ff4696a24b3c575a1",
+    "distance_m": 236.1905158583649,
+    "schools": [
+      "sz:longhua:school:126b5238994546a89ec7c673bc1d3b44",
+      "sz:longhua:school:ef3f3d903cc94a3981284a92f19b23f1"
+    ]
+  },
+  {
+    "query": "bd09:9ec967940c5ad75e0be04f40",
+    "reference": "bd09:47d41ce9ae8b88742bd5ed4a",
+    "distance_m": 218.9216919538521,
+    "schools": [
+      "sz:longhua:school:9ee001ac0a054274a07983d4506a0274",
+      "sz:longhua:school:b3f88a4b9de8403cbbbf9614e5156fd2"
+    ]
+  },
+  {
+    "query": "bd09:3e8615f517dfb84063c8cb00",
+    "reference": "bd09:589ac4f59b491c5f98cff532",
+    "distance_m": 96.65408948630005,
+    "schools": [
+      "sz:longhua:school:3925e3411b3a41db92a8fbc9cc41c4b6",
+      "sz:longhua:school:496FFFE16B485558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:59c8624fbd46a07c95bb4652",
+    "reference": "bd09:0ef7892b3ba3863560008870",
+    "distance_m": 210.28577729253757,
+    "schools": [
+      "sz:longhua:school:14c13f11622f4d8ca604cf9b6b722d01",
+      "sz:longhua:school:496FFFE16B415558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:0b5253a9433cbb878d584531",
+    "reference": "bd09:536b9804670776e6103a2954",
+    "distance_m": 288.4244698495413,
+    "schools": [
+      "sz:longhua:school:14c13f11622f4d8ca604cf9b6b722d01",
+      "sz:longhua:school:496FFFE16B415558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:6b7a6b6649b13ebfb3befe11",
+    "reference": "bd09:39a72ece0c0be8f73c0b8536",
+    "distance_m": 181.65839775524427,
+    "schools": [
+      "sz:longhua:school:e3a272c8c0df4aabbf2a6f428245dba1",
+      "sz:longhua:school:496FFFE16B4E5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:7de2e2324d5033bcec3d81af",
+    "reference": "bd09:b09dfa030a40f100f31bde20",
+    "distance_m": 141.87929553861696,
+    "schools": [
+      "sz:longhua:school:d713de18b1b043afb8e90469d78f13c9",
+      "sz:longhua:school:270930b511e946c38951ecf46a65476a"
+    ]
+  },
+  {
+    "query": "bd09:e7ad7de035ebc4450f1fe1b6",
+    "reference": "bd09:44b6b3aa705b5de5e6b93083",
+    "distance_m": 44.24749787097739,
+    "schools": [
+      "sz:longhua:school:496FFFE16B445558E053BC09A8C0A5ED",
+      "sz:longhua:school:a30b9ed45d5e4734b2d70feceb561c96",
+      "sz:longhua:school:f29dbee4b70c47d393ce050ba7813032",
+      "sz:longhua:school:345bd8c3128a491c83ea353a4218b0c8",
+      "sz:longhua:school:f9aa4dcc77234f738633dc9c37638464"
+    ]
+  },
+  {
+    "query": "bd09:77346fbd9eeda0b1602403bd",
+    "reference": "bd09:f054735a18c4c2f578fa07b3",
+    "distance_m": 157.31864775389923,
+    "schools": [
+      "sz:longhua:school:14c13f11622f4d8ca604cf9b6b722d01",
+      "sz:longhua:school:496FFFE16B415558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:7b8e390ee073e69a462acdc2",
+    "reference": "bd09:c32dafede0c392a7b6fd397b",
+    "distance_m": 220.2012665363099,
+    "schools": [
+      "sz:longhua:school:38ce5ec6b658423491f976dbddbb13c3",
+      "sz:longhua:school:496FFFE16B3F5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:8e27a48f0e1b48140486cedc",
+    "reference": "bd09:25c36c22896e0199fc1c58f0",
+    "distance_m": 189.6473722121385,
+    "schools": [
+      "sz:longhua:school:b5d42e6c807e47b1b53f2f24323cc6aa",
+      "sz:longhua:school:ebe9113be2924ea68014727f80792b78"
+    ]
+  },
+  {
+    "query": "bd09:fa42419aa0bbecd0018d2523",
+    "reference": "bd09:248a0126399b462b27e782c2",
+    "distance_m": 31.630436462465678,
+    "schools": [
+      "sz:longhua:school:496FFFE16B955558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:5d9789201312855a16e9d94c",
+    "reference": "bd09:e38203d2ad3ba5c3987d8dfb",
+    "distance_m": 304.23092900023903,
+    "schools": [
+      "sz:longhua:school:94aed576e2854236bfd117b281031afa",
+      "sz:longhua:school:26607511230d404689ae8f55465df792",
+      "sz:longhua:school:85fbf4152f374f80a015cdabb34c4ff5"
+    ]
+  },
+  {
+    "query": "bd09:65719ef524427d0cd5bee310",
+    "reference": "bd09:71b7949f36ec7fe852da42cd",
+    "distance_m": 86.65175405416444,
+    "schools": [
+      "sz:longhua:school:da8402fbef554a27b5ac54f83c6a1682"
+    ]
+  },
+  {
+    "query": "bd09:8dbc2ee32f2c34aed17ed81c",
+    "reference": "bd09:85df736f36a167f3908224f2",
+    "distance_m": 135.9396591346912,
+    "schools": [
+      "sz:longhua:school:496FFFE16B3D5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:282c8490373ba528765644de",
+    "reference": "bd09:71b7949f36ec7fe852da42cd",
+    "distance_m": 137.1719142559057,
+    "schools": [
+      "sz:longhua:school:da8402fbef554a27b5ac54f83c6a1682"
+    ]
+  },
+  {
+    "query": "bd09:02ba4dc099d492f4ede85def",
+    "reference": "bd09:8cefa55ad2aa0f13471d8e86",
+    "distance_m": 294.0808740240344,
+    "schools": [
+      "sz:longhua:school:496FFFE16B4D5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "query": "bd09:a49be2f24f8cbacf27b96332",
+    "reference": "bd09:c0041b7d34692145741917d8",
+    "distance_m": 110.72265120942512,
+    "schools": [
+      "sz:longhua:school:94aed576e2854236bfd117b281031afa",
+      "sz:longhua:school:496FFFE16B945558E053BC09A8C0A5ED"
+    ]
+  }
+]

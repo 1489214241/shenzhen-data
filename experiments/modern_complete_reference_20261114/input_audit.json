@@ -1,0 +1,20 @@
+{
+  "龙华区": {
+    "queries": 371,
+    "complete_points": 256,
+    "reference_relations": 553,
+    "full_set_candidates": 101,
+    "same_group_mask": 660,
+    "school_count": 71,
+    "all_features_retained": true
+  },
+  "龙岗区": {
+    "queries": 878,
+    "complete_points": 256,
+    "reference_relations": 793,
+    "full_set_candidates": 193,
+    "same_group_mask": 1342,
+    "school_count": 131,
+    "all_features_retained": true
+  }
+}

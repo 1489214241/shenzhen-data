@@ -1,0 +1,8 @@
+{
+  "prior_primary_results_seen": true,
+  "new_fitting": false,
+  "new_selection": false,
+  "purpose": "Check checkpoint replay and distinguish complete-set readout from finetuning.",
+  "comparator": "Same initial Modern weights and complete-reference branch, step0; spatial coefficient and all other parameters unchanged.",
+  "independent_validation": false
+}

@@ -1,0 +1,18 @@
+{
+  "predictions\\龙华区.json": "ca81e3f537fd29c93bf1e9cd3423f591a76ebf452cb45610763f4d3fc2f0816e",
+  "predictions\\龙岗区.json": "f1fa66fad8259a0bc3024755575962ca726dec79d032646f3d693448139bea3e",
+  "nearest_provenance\\龙华区.json": "bfffa009cdec02fb7a51b4c2292bdd0b3ff9f66f4c2d4c5cb20899dbd1eb6e6e",
+  "nearest_provenance\\龙岗区.json": "66a4eede057105a746e2b8725e86dde608066c65a01e22161c6a1f5cdc859c0a",
+  "weights\\龙华区\\categorical_20261231.pt": "653c970dd5b128381fc2f27a571613692a606f2ad7749e4fa6be778254c01b4b",
+  "weights\\龙华区\\categorical_20261232.pt": "a88bf3244c530d00b9250b1f309ba07af034332f61b517a7559bed80062f76c3",
+  "weights\\龙华区\\categorical_20261233.pt": "4148772c786c58f1629add6370c026c30ba791c1479d4329f6c0eb9771b8f738",
+  "weights\\龙华区\\complete_20261231.pt": "572c2b8a5c7d57b7d8193d6180fe4167911d5ef43ee2b577230c315637748675",
+  "weights\\龙华区\\complete_20261232.pt": "84739dbd95d6106e636223e5b87f9dfdcf82f713d3ef25c642da83f6ef41825e",
+  "weights\\龙华区\\complete_20261233.pt": "9b5a014e9b40d420161f63d7911ee21314cf54cfe2c64b07c2a6f4a7e5450a21",
+  "weights\\龙岗区\\categorical_20261231.pt": "63a372cac67a6a7dbd2e6a7e290401c8bb3cd0c7ef8d7e991467dadd4c1b145e",
+  "weights\\龙岗区\\categorical_20261232.pt": "9042b062158e535c65067dda0b1805910e17ef2ebc474e905e426c310b0a5b9d",
+  "weights\\龙岗区\\categorical_20261233.pt": "2e56668e1e2795e08f8ab20b94e3908f7e7cfab9c2aa711b2fa70c11922883b2",
+  "weights\\龙岗区\\complete_20261231.pt": "1b59d2cfbe7800d72824320e9681e3cad9224b316e58b56880e0872fa54f9cdf",
+  "weights\\龙岗区\\complete_20261232.pt": "d329d53bbf189165d3e86d2408b3ec23107eb241838e75039572be44d4dd96ec",
+  "weights\\龙岗区\\complete_20261233.pt": "b403691f9b10806b05b0d6441f97bc88cc3d322b6e1df923deaadb4dc43af8a1"
+}

@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "independently_scored": {
+    "augmented_frozen_raw": 488,
+    "augmented_frozen_policy": 735,
+    "nearest_raw": 945,
+    "nearest_policy": 905,
+    "categorical_tuned_raw": 499,
+    "categorical_tuned_policy": 748,
+    "complete_tuned_raw": 991,
+    "complete_tuned_policy": 952,
+    "archived_current_context": 660
+  },
+  "nearest_predictions_replayed": 1249,
+  "selected_label_points": 512,
+  "query_points": 1249,
+  "group_exclusion": true,
+  "scope": "Independent counting and nearest replay, not independent geography validation"
+}

@@ -1,0 +1,68 @@
+{
+  "1/龙华区": {
+    "released_complete_points": 33,
+    "partial_verified_relations": 81,
+    "reference_rows": 187,
+    "query": 526,
+    "common": 460,
+    "reference_query_groups_disjoint": true,
+    "complete_multi_templates": 19,
+    "fallback_uses_complete": 0,
+    "university_member_expansion": false
+  },
+  "1/龙岗区": {
+    "released_complete_points": 51,
+    "partial_verified_relations": 310,
+    "reference_rows": 588,
+    "query": 722,
+    "common": 635,
+    "reference_query_groups_disjoint": true,
+    "complete_multi_templates": 24,
+    "fallback_uses_complete": 0,
+    "university_member_expansion": false
+  },
+  "2/龙华区": {
+    "released_complete_points": 66,
+    "partial_verified_relations": 81,
+    "reference_rows": 241,
+    "query": 497,
+    "common": 460,
+    "reference_query_groups_disjoint": true,
+    "complete_multi_templates": 21,
+    "fallback_uses_complete": 0,
+    "university_member_expansion": false
+  },
+  "2/龙岗区": {
+    "released_complete_points": 101,
+    "partial_verified_relations": 310,
+    "reference_rows": 654,
+    "query": 674,
+    "common": 635,
+    "reference_query_groups_disjoint": true,
+    "complete_multi_templates": 33,
+    "fallback_uses_complete": 123,
+    "university_member_expansion": false
+  },
+  "3/龙华区": {
+    "released_complete_points": 101,
+    "partial_verified_relations": 81,
+    "reference_rows": 302,
+    "query": 460,
+    "common": 460,
+    "reference_query_groups_disjoint": true,
+    "complete_multi_templates": 22,
+    "fallback_uses_complete": 168,
+    "university_member_expansion": false
+  },
+  "3/龙岗区": {
+    "released_complete_points": 154,
+    "partial_verified_relations": 310,
+    "reference_rows": 727,
+    "query": 635,
+    "common": 635,
+    "reference_query_groups_disjoint": true,
+    "complete_multi_templates": 44,
+    "fallback_uses_complete": 176,
+    "university_member_expansion": false
+  }
+}

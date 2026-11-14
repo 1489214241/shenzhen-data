@@ -1,0 +1,2779 @@
+{
+  "counts": {
+    "changed_still_wrong": 68,
+    "harmed": 46,
+    "corrected": 7
+  },
+  "rows": [
+    {
+      "district": "龙华区",
+      "site_id": "bd09:eca6d8b343f8f9663e6a4cee",
+      "name": "金地梅陇镇四期",
+      "before": [
+        "sz:longhua:school:a863a2a0d9434c7c8370f9af437bae6e"
+      ],
+      "after": [
+        "sz:longhua:school:42392d26506d455da3eab13483999166",
+        "sz:longhua:school:a863a2a0d9434c7c8370f9af437bae6e"
+      ],
+      "gold": [
+        "sz:longhua:school:42392d26506d455da3eab13483999166"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙华区",
+      "site_id": "bd09:7cb7cc72a7cb5fc2bf2234b8",
+      "name": "阳基御龙山",
+      "before": [
+        "sz:longhua:school:496FFFE16B6F5558E053BC09A8C0A5ED",
+        "sz:longhua:school:57e88fc8ebe3404891cd5d07f1e506bc",
+        "sz:longhua:school:8e0c89bd31ed415788147cd66bffa09b"
+      ],
+      "after": [
+        "sz:longhua:school:1dd894e9511144dc856000fda2fd9fb3",
+        "sz:longhua:school:496FFFE16B6F5558E053BC09A8C0A5ED",
+        "sz:longhua:school:57e88fc8ebe3404891cd5d07f1e506bc",
+        "sz:longhua:school:8e0c89bd31ed415788147cd66bffa09b"
+      ],
+      "gold": [
+        "sz:longhua:school:496FFFE16B6F5558E053BC09A8C0A5ED",
+        "sz:longhua:school:57e88fc8ebe3404891cd5d07f1e506bc",
+        "sz:longhua:school:8e0c89bd31ed415788147cd66bffa09b"
+      ],
+      "effect": "harmed",
+      "flags": [],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙华区",
+      "site_id": "bd09:0162dfbafceb7a05de254e3d",
+      "name": "珑门二期",
+      "before": [
+        "sz:longhua:school:496FFFE16B6F5558E053BC09A8C0A5ED",
+        "sz:longhua:school:57e88fc8ebe3404891cd5d07f1e506bc",
+        "sz:longhua:school:8e0c89bd31ed415788147cd66bffa09b"
+      ],
+      "after": [
+        "sz:longhua:school:1dd894e9511144dc856000fda2fd9fb3",
+        "sz:longhua:school:496FFFE16B6F5558E053BC09A8C0A5ED",
+        "sz:longhua:school:57e88fc8ebe3404891cd5d07f1e506bc",
+        "sz:longhua:school:8e0c89bd31ed415788147cd66bffa09b"
+      ],
+      "gold": [
+        "sz:longhua:school:496FFFE16B435558E053BC09A8C0A5ED",
+        "sz:longhua:school:57e88fc8ebe3404891cd5d07f1e506bc"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙华区",
+      "site_id": "bd09:29388c4007f7a9532a2380ef",
+      "name": "福东龙华府",
+      "before": [
+        "sz:longhua:school:3925e3411b3a41db92a8fbc9cc41c4b6",
+        "sz:longhua:school:496FFFE16B485558E053BC09A8C0A5ED"
+      ],
+      "after": [
+        "sz:longhua:school:26607511230d404689ae8f55465df792",
+        "sz:longhua:school:3925e3411b3a41db92a8fbc9cc41c4b6",
+        "sz:longhua:school:496FFFE16B485558E053BC09A8C0A5ED",
+        "sz:longhua:school:85fbf4152f374f80a015cdabb34c4ff5"
+      ],
+      "gold": [
+        "sz:longhua:school:26607511230d404689ae8f55465df792",
+        "sz:longhua:school:85fbf4152f374f80a015cdabb34c4ff5",
+        "sz:longhua:school:94aed576e2854236bfd117b281031afa"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [
+        "scope_graph_or_cumulative_evidence_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙华区",
+      "site_id": "bd09:761b5f1bed0fc20acdba9d69",
+      "name": "中森公园华府",
+      "before": [
+        "sz:longhua:school:345bd8c3128a491c83ea353a4218b0c8",
+        "sz:longhua:school:496FFFE16B445558E053BC09A8C0A5ED",
+        "sz:longhua:school:a30b9ed45d5e4734b2d70feceb561c96",
+        "sz:longhua:school:f29dbee4b70c47d393ce050ba7813032",
+        "sz:longhua:school:f9aa4dcc77234f738633dc9c37638464"
+      ],
+      "after": [
+        "sz:longhua:school:345bd8c3128a491c83ea353a4218b0c8",
+        "sz:longhua:school:449225a8ccc34107b689c883a1b6caa2",
+        "sz:longhua:school:496FFFE16B445558E053BC09A8C0A5ED",
+        "sz:longhua:school:a30b9ed45d5e4734b2d70feceb561c96",
+        "sz:longhua:school:f29dbee4b70c47d393ce050ba7813032",
+        "sz:longhua:school:f9aa4dcc77234f738633dc9c37638464"
+      ],
+      "gold": [
+        "sz:longhua:school:345bd8c3128a491c83ea353a4218b0c8",
+        "sz:longhua:school:449225a8ccc34107b689c883a1b6caa2",
+        "sz:longhua:school:496FFFE16B445558E053BC09A8C0A5ED",
+        "sz:longhua:school:a30b9ed45d5e4734b2d70feceb561c96",
+        "sz:longhua:school:f29dbee4b70c47d393ce050ba7813032"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [
+        "scope_graph_or_cumulative_evidence_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙华区",
+      "site_id": "bd09:0649d088706af9a46f3a9ecd",
+      "name": "湖润名苑",
+      "before": [
+        "sz:longhua:school:496FFFE16B435558E053BC09A8C0A5ED",
+        "sz:longhua:school:57e88fc8ebe3404891cd5d07f1e506bc"
+      ],
+      "after": [
+        "sz:longhua:school:1dd894e9511144dc856000fda2fd9fb3",
+        "sz:longhua:school:496FFFE16B435558E053BC09A8C0A5ED",
+        "sz:longhua:school:57e88fc8ebe3404891cd5d07f1e506bc"
+      ],
+      "gold": [
+        "sz:longhua:school:496FFFE16B435558E053BC09A8C0A5ED",
+        "sz:longhua:school:57e88fc8ebe3404891cd5d07f1e506bc"
+      ],
+      "effect": "harmed",
+      "flags": [],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙华区",
+      "site_id": "bd09:1054ec51c3499ff76e30ef7e",
+      "name": "金地梅陇镇三期",
+      "before": [
+        "sz:longhua:school:a863a2a0d9434c7c8370f9af437bae6e"
+      ],
+      "after": [
+        "sz:longhua:school:42392d26506d455da3eab13483999166",
+        "sz:longhua:school:a863a2a0d9434c7c8370f9af437bae6e"
+      ],
+      "gold": [
+        "sz:longhua:school:42392d26506d455da3eab13483999166"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙华区",
+      "site_id": "bd09:acb56cedb58fea8e84c61f8f",
+      "name": "卓越柏奕府",
+      "before": [
+        "sz:longhua:school:1f276b80093840b9a1af7dac99af256f",
+        "sz:longhua:school:496FFFE16B465558E053BC09A8C0A5ED",
+        "sz:longhua:school:94aed576e2854236bfd117b281031afa"
+      ],
+      "after": [
+        "sz:longhua:school:1f276b80093840b9a1af7dac99af256f",
+        "sz:longhua:school:26607511230d404689ae8f55465df792",
+        "sz:longhua:school:496FFFE16B465558E053BC09A8C0A5ED",
+        "sz:longhua:school:85fbf4152f374f80a015cdabb34c4ff5",
+        "sz:longhua:school:94aed576e2854236bfd117b281031afa"
+      ],
+      "gold": [
+        "sz:longhua:school:26607511230d404689ae8f55465df792",
+        "sz:longhua:school:85fbf4152f374f80a015cdabb34c4ff5",
+        "sz:longhua:school:94aed576e2854236bfd117b281031afa"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [
+        "scope_graph_or_cumulative_evidence_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙华区",
+      "site_id": "bd09:61eaa757366bcfb2f63982d7",
+      "name": "大水坑社区宿舍",
+      "before": [
+        "sz:longhua:school:496FFFE16B435558E053BC09A8C0A5ED",
+        "sz:longhua:school:496FFFE16B6F5558E053BC09A8C0A5ED",
+        "sz:longhua:school:57e88fc8ebe3404891cd5d07f1e506bc",
+        "sz:longhua:school:8e0c89bd31ed415788147cd66bffa09b"
+      ],
+      "after": [
+        "sz:longhua:school:1dd894e9511144dc856000fda2fd9fb3",
+        "sz:longhua:school:496FFFE16B435558E053BC09A8C0A5ED",
+        "sz:longhua:school:496FFFE16B6F5558E053BC09A8C0A5ED",
+        "sz:longhua:school:57e88fc8ebe3404891cd5d07f1e506bc",
+        "sz:longhua:school:8e0c89bd31ed415788147cd66bffa09b"
+      ],
+      "gold": [
+        "sz:longhua:school:496FFFE16B435558E053BC09A8C0A5ED",
+        "sz:longhua:school:57e88fc8ebe3404891cd5d07f1e506bc"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙华区",
+      "site_id": "bd09:e6dc9d127efe9947faf8b481",
+      "name": "豪亞花園",
+      "before": [
+        "sz:longhua:school:496FFFE16B6F5558E053BC09A8C0A5ED",
+        "sz:longhua:school:57e88fc8ebe3404891cd5d07f1e506bc",
+        "sz:longhua:school:8e0c89bd31ed415788147cd66bffa09b"
+      ],
+      "after": [
+        "sz:longhua:school:1dd894e9511144dc856000fda2fd9fb3",
+        "sz:longhua:school:496FFFE16B6F5558E053BC09A8C0A5ED",
+        "sz:longhua:school:57e88fc8ebe3404891cd5d07f1e506bc",
+        "sz:longhua:school:8e0c89bd31ed415788147cd66bffa09b"
+      ],
+      "gold": [
+        "sz:longhua:school:496FFFE16B6F5558E053BC09A8C0A5ED",
+        "sz:longhua:school:57e88fc8ebe3404891cd5d07f1e506bc",
+        "sz:longhua:school:8e0c89bd31ed415788147cd66bffa09b"
+      ],
+      "effect": "harmed",
+      "flags": [],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙华区",
+      "site_id": "bd09:0e0aaf8aeda5f13f809ad0b1",
+      "name": "荣辉花园",
+      "before": [
+        "sz:longhua:school:496FFFE16B435558E053BC09A8C0A5ED",
+        "sz:longhua:school:57e88fc8ebe3404891cd5d07f1e506bc"
+      ],
+      "after": [
+        "sz:longhua:school:1dd894e9511144dc856000fda2fd9fb3",
+        "sz:longhua:school:496FFFE16B435558E053BC09A8C0A5ED",
+        "sz:longhua:school:57e88fc8ebe3404891cd5d07f1e506bc"
+      ],
+      "gold": [
+        "sz:longhua:school:496FFFE16B435558E053BC09A8C0A5ED",
+        "sz:longhua:school:57e88fc8ebe3404891cd5d07f1e506bc"
+      ],
+      "effect": "harmed",
+      "flags": [],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:4805fd03bebcc1393338ea85",
+      "name": "万科公园里二期",
+      "before": [
+        "sz:longgang:school:496FFFE16D185558E053BC09A8C0A5ED"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16CD75558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D185558E053BC09A8C0A5ED"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16CD75558E053BC09A8C0A5ED"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:c8f3c3fc1a644faf65f0d5d4",
+      "name": "万科公园里三期",
+      "before": [
+        "sz:longgang:school:496FFFE16D275558E053BC09A8C0A5ED"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16CD75558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D275558E053BC09A8C0A5ED"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16CD75558E053BC09A8C0A5ED"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:9c347c0ea5af25ab89f252c6",
+      "name": "南威中心",
+      "before": [
+        "sz:longgang:school:496FFFE16D275558E053BC09A8C0A5ED"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16D175558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D275558E053BC09A8C0A5ED"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D175558E053BC09A8C0A5ED"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:3f1bc53f35644b9cdb679bf0",
+      "name": "大族河山",
+      "before": [
+        "sz:longgang:school:496FFFE16D275558E053BC09A8C0A5ED"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16CD75558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D275558E053BC09A8C0A5ED"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16CD75558E053BC09A8C0A5ED"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:2967500ce0a03cbc57538aae",
+      "name": "玉岭花园",
+      "before": [
+        "sz:longgang:school:496FFFE16D185558E053BC09A8C0A5ED"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16D185558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D275558E053BC09A8C0A5ED"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D275558E053BC09A8C0A5ED"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:16bc8103fac9959207ae5abd",
+      "name": "景民新城",
+      "before": [
+        "sz:longgang:school:496FFFE16CD65558E053BC09A8C0A5ED"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16CD65558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D275558E053BC09A8C0A5ED"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D275558E053BC09A8C0A5ED"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [
+        "scope_graph_or_cumulative_evidence_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:40337069bdce764ad3248587",
+      "name": "星河智荟",
+      "before": [
+        "sz:longgang:school:496FFFE16D055558E053BC09A8C0A5ED",
+        "sz:longgang:school:da2a63b90b054376b90f7cd970396257"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16C955558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D055558E053BC09A8C0A5ED",
+        "sz:longgang:school:da2a63b90b054376b90f7cd970396257"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D055558E053BC09A8C0A5ED",
+        "sz:longgang:school:da2a63b90b054376b90f7cd970396257"
+      ],
+      "effect": "harmed",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:ca4f1fdcab83a0bfa6bff3c8",
+      "name": "德沁苑",
+      "before": [
+        "sz:longgang:school:496FFFE16D0D5558E053BC09A8C0A5ED"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16D065558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D0D5558E053BC09A8C0A5ED"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D065558E053BC09A8C0A5ED"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:d6f20b3bc19cabbbe4f632bb",
+      "name": "腾昌花园",
+      "before": [
+        "sz:longgang:school:496FFFE16D045558E053BC09A8C0A5ED"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16D045558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D1B5558E053BC09A8C0A5ED"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D1B5558E053BC09A8C0A5ED"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:0f6536b7b186603dc1755db8",
+      "name": "颐安都会中央二期",
+      "before": [
+        "sz:longgang:school:496FFFE16D135558E053BC09A8C0A5ED",
+        "sz:longgang:school:e1e7b6362d054630acd689fabfc1eed0"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16CDA5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D135558E053BC09A8C0A5ED",
+        "sz:longgang:school:e1e7b6362d054630acd689fabfc1eed0"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16CDA5558E053BC09A8C0A5ED"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:dae6c408e21bc2579595ae7e",
+      "name": "新塘西",
+      "before": [
+        "sz:longgang:school:496FFFE16CD75558E053BC09A8C0A5ED"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16CD75558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D275558E053BC09A8C0A5ED"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16CD75558E053BC09A8C0A5ED"
+      ],
+      "effect": "harmed",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:73f93e3702f0198b63c47c20",
+      "name": "万科麓城一期",
+      "before": [
+        "sz:longgang:school:496FFFE16CEC5558E053BC09A8C0A5ED",
+        "sz:longgang:school:a2943eed6fdf49ed802e3cf225321247"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16CEC5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D2B5558E053BC09A8C0A5ED",
+        "sz:longgang:school:4de8828a16684f23a0f86a534cfa2549",
+        "sz:longgang:school:a2943eed6fdf49ed802e3cf225321247"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D2B5558E053BC09A8C0A5ED",
+        "sz:longgang:school:b7a487243d5d4142b8ad5479202da913"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:38cacd0aef6082b083c30a38",
+      "name": "万象天成",
+      "before": [
+        "sz:longgang:school:0c4bca2cfd8548aeb750a7f2d65dddd4",
+        "sz:longgang:school:496FFFE16CDE5558E053BC09A8C0A5ED"
+      ],
+      "after": [
+        "sz:longgang:school:0c4bca2cfd8548aeb750a7f2d65dddd4",
+        "sz:longgang:school:496FFFE16CDE5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D2F5558E053BC09A8C0A5ED"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D145558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D2F5558E053BC09A8C0A5ED"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:a0064e677a255af03dc9d9d7",
+      "name": "百门前工业区",
+      "before": [
+        "sz:longgang:school:496FFFE16D175558E053BC09A8C0A5ED"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16D175558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D275558E053BC09A8C0A5ED"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D275558E053BC09A8C0A5ED"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:4917c053c0b31465237f0698",
+      "name": "远洋新干线一期",
+      "before": [
+        "sz:longgang:school:0c4bca2cfd8548aeb750a7f2d65dddd4",
+        "sz:longgang:school:496FFFE16D0D5558E053BC09A8C0A5ED"
+      ],
+      "after": [
+        "sz:longgang:school:0c4bca2cfd8548aeb750a7f2d65dddd4",
+        "sz:longgang:school:496FFFE16CDE5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D0D5558E053BC09A8C0A5ED"
+      ],
+      "gold": [
+        "sz:longgang:school:0c4bca2cfd8548aeb750a7f2d65dddd4",
+        "sz:longgang:school:496FFFE16D0D5558E053BC09A8C0A5ED"
+      ],
+      "effect": "harmed",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:c6aabeae85a0d71cf74d941c",
+      "name": "颐安·都会中央3期",
+      "before": [
+        "sz:longgang:school:496FFFE16D0C5558E053BC09A8C0A5ED"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16CDA5558E053BC09A8C0A5ED"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16CDA5558E053BC09A8C0A5ED"
+      ],
+      "effect": "corrected",
+      "flags": [
+        "original_partial_positive_additions",
+        "explicit_exclusions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:49fc682490679db2f00725e0",
+      "name": "万科麓城三期",
+      "before": [
+        "sz:longgang:school:496FFFE16CEC5558E053BC09A8C0A5ED",
+        "sz:longgang:school:a2943eed6fdf49ed802e3cf225321247"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16CEC5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D2B5558E053BC09A8C0A5ED",
+        "sz:longgang:school:4de8828a16684f23a0f86a534cfa2549",
+        "sz:longgang:school:a2943eed6fdf49ed802e3cf225321247"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D2B5558E053BC09A8C0A5ED",
+        "sz:longgang:school:b7a487243d5d4142b8ad5479202da913"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:e15c015456f256baf3560452",
+      "name": "九州家园二期",
+      "before": [
+        "sz:longgang:school:0c4bca2cfd8548aeb750a7f2d65dddd4",
+        "sz:longgang:school:496FFFE16D0D5558E053BC09A8C0A5ED"
+      ],
+      "after": [
+        "sz:longgang:school:0c4bca2cfd8548aeb750a7f2d65dddd4",
+        "sz:longgang:school:496FFFE16CDE5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D0D5558E053BC09A8C0A5ED"
+      ],
+      "gold": [
+        "sz:longgang:school:0c4bca2cfd8548aeb750a7f2d65dddd4",
+        "sz:longgang:school:496FFFE16CDE5558E053BC09A8C0A5ED"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:2393f0be34c67cbf946def39",
+      "name": "信义锦绣花园",
+      "before": [
+        "sz:longgang:school:496FFFE16D045558E053BC09A8C0A5ED"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16D045558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D1B5558E053BC09A8C0A5ED"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D1B5558E053BC09A8C0A5ED"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:a55721bac5cf360b879aa814",
+      "name": "景华苑",
+      "before": [
+        "sz:longgang:school:496FFFE16CEC5558E053BC09A8C0A5ED",
+        "sz:longgang:school:a2943eed6fdf49ed802e3cf225321247"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16CEC5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D2B5558E053BC09A8C0A5ED",
+        "sz:longgang:school:4de8828a16684f23a0f86a534cfa2549",
+        "sz:longgang:school:a2943eed6fdf49ed802e3cf225321247"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16CEC5558E053BC09A8C0A5ED",
+        "sz:longgang:school:a2943eed6fdf49ed802e3cf225321247"
+      ],
+      "effect": "harmed",
+      "flags": [
+        "scope_graph_or_cumulative_evidence_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:fe7b354f284e03ca373571c4",
+      "name": "中海怡美山庄",
+      "before": [
+        "sz:longgang:school:496FFFE16D025558E053BC09A8C0A5ED",
+        "sz:longgang:school:b2822c8fdd43451382c99714fb1805fb"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16D025558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D1B5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D285558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D2E5558E053BC09A8C0A5ED",
+        "sz:longgang:school:b2822c8fdd43451382c99714fb1805fb"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D1B5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D285558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D2E5558E053BC09A8C0A5ED",
+        "sz:longgang:school:b2822c8fdd43451382c99714fb1805fb"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:95491f43ee8b8990d9552739",
+      "name": "隆盛花园",
+      "before": [
+        "sz:longgang:school:496FFFE16D025558E053BC09A8C0A5ED"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16D025558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D045558E053BC09A8C0A5ED"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D045558E053BC09A8C0A5ED"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:d323a4da72c9093b393de56a",
+      "name": "万科麓山",
+      "before": [
+        "sz:longgang:school:496FFFE16D2B5558E053BC09A8C0A5ED",
+        "sz:longgang:school:b7a487243d5d4142b8ad5479202da913"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16CEC5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D2B5558E053BC09A8C0A5ED",
+        "sz:longgang:school:4de8828a16684f23a0f86a534cfa2549",
+        "sz:longgang:school:b7a487243d5d4142b8ad5479202da913"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D2B5558E053BC09A8C0A5ED",
+        "sz:longgang:school:b7a487243d5d4142b8ad5479202da913"
+      ],
+      "effect": "harmed",
+      "flags": [],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:d65c606b6c01c546b74ac043",
+      "name": "瑞泽佳园",
+      "before": [
+        "sz:longgang:school:496FFFE16D1B5558E053BC09A8C0A5ED",
+        "sz:longgang:school:b2822c8fdd43451382c99714fb1805fb"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16D1B5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D285558E053BC09A8C0A5ED",
+        "sz:longgang:school:b2822c8fdd43451382c99714fb1805fb"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D1B5558E053BC09A8C0A5ED",
+        "sz:longgang:school:b2822c8fdd43451382c99714fb1805fb"
+      ],
+      "effect": "harmed",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:9c18f88a353ac8e67755323b",
+      "name": "阳基新天地",
+      "before": [
+        "sz:longgang:school:496FFFE16CD65558E053BC09A8C0A5ED"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16CD65558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D275558E053BC09A8C0A5ED"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16CD65558E053BC09A8C0A5ED"
+      ],
+      "effect": "harmed",
+      "flags": [
+        "scope_graph_or_cumulative_evidence_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:d9f957ebeebd29abec343656",
+      "name": "南和花园",
+      "before": [
+        "sz:longgang:school:496FFFE16D175558E053BC09A8C0A5ED"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16D175558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D275558E053BC09A8C0A5ED"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D175558E053BC09A8C0A5ED"
+      ],
+      "effect": "harmed",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:4d8a449aa21ad74c1231ddc4",
+      "name": "公园大地七期",
+      "before": [
+        "sz:longgang:school:496FFFE16C805558E053BC09A8C0A5ED"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16C805558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D105558E053BC09A8C0A5ED"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D105558E053BC09A8C0A5ED"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:e8e78aa3a9c5c67d7ddeaf30",
+      "name": "公园大地二期",
+      "before": [
+        "sz:longgang:school:496FFFE16C8B5558E053BC09A8C0A5ED"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16C8B5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D105558E053BC09A8C0A5ED"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D105558E053BC09A8C0A5ED"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:0fd514388f8810d86146c48b",
+      "name": "公园大地十期",
+      "before": [
+        "sz:longgang:school:496FFFE16C805558E053BC09A8C0A5ED"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16C805558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D105558E053BC09A8C0A5ED"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D105558E053BC09A8C0A5ED"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:5d28d5dbf635c39d9cfe8f0c",
+      "name": "公园大地四期",
+      "before": [
+        "sz:longgang:school:496FFFE16C805558E053BC09A8C0A5ED"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16C805558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D105558E053BC09A8C0A5ED"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D105558E053BC09A8C0A5ED"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:9c42a6c5a014cbd2086c38ea",
+      "name": "水晶之城三期",
+      "before": [
+        "sz:longgang:school:496FFFE16D0C5558E053BC09A8C0A5ED"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16C955558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D0C5558E053BC09A8C0A5ED"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16C955558E053BC09A8C0A5ED"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:c5e157350abbcd06353738bd",
+      "name": "东都花园一期二区",
+      "before": [
+        "sz:longgang:school:496FFFE16C915558E053BC09A8C0A5ED"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16C915558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D105558E053BC09A8C0A5ED"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16C915558E053BC09A8C0A5ED"
+      ],
+      "effect": "harmed",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:e18d4d9582879edcbca91102",
+      "name": "天颂雅苑",
+      "before": [
+        "sz:longgang:school:496FFFE16D025558E053BC09A8C0A5ED",
+        "sz:longgang:school:b2822c8fdd43451382c99714fb1805fb"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16D025558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D1B5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D285558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D2E5558E053BC09A8C0A5ED",
+        "sz:longgang:school:b2822c8fdd43451382c99714fb1805fb"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D1B5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D285558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D2E5558E053BC09A8C0A5ED",
+        "sz:longgang:school:b2822c8fdd43451382c99714fb1805fb"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:45dc088c4f8f6aec5db275a2",
+      "name": "公园大地六期",
+      "before": [
+        "sz:longgang:school:496FFFE16C805558E053BC09A8C0A5ED"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16C805558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D105558E053BC09A8C0A5ED"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D105558E053BC09A8C0A5ED"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:ca24ab250b2a6c3f9dff010a",
+      "name": "颐安都会中央一期",
+      "before": [
+        "sz:longgang:school:496FFFE16D135558E053BC09A8C0A5ED",
+        "sz:longgang:school:e1e7b6362d054630acd689fabfc1eed0"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16CDA5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D135558E053BC09A8C0A5ED",
+        "sz:longgang:school:e1e7b6362d054630acd689fabfc1eed0"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16CDA5558E053BC09A8C0A5ED"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:75086864b7ea81e2adf7d0d7",
+      "name": "振业城二三期",
+      "before": [
+        "sz:longgang:school:496FFFE16D1B5558E053BC09A8C0A5ED",
+        "sz:longgang:school:b2822c8fdd43451382c99714fb1805fb"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16D1B5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D285558E053BC09A8C0A5ED",
+        "sz:longgang:school:b2822c8fdd43451382c99714fb1805fb"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D1B5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D285558E053BC09A8C0A5ED"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:53a5db74520fbec57c08a083",
+      "name": "颐安·都会中央五期",
+      "before": [
+        "sz:longgang:school:496FFFE16C805558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D135558E053BC09A8C0A5ED"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16C805558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16CDA5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D135558E053BC09A8C0A5ED"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16CDA5558E053BC09A8C0A5ED"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:1637e34644bb6e30c322a1cc",
+      "name": "正大时代华庭",
+      "before": [
+        "sz:longgang:school:496FFFE16D1B5558E053BC09A8C0A5ED",
+        "sz:longgang:school:b2822c8fdd43451382c99714fb1805fb"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16D1B5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D285558E053BC09A8C0A5ED",
+        "sz:longgang:school:b2822c8fdd43451382c99714fb1805fb"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D1B5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D285558E053BC09A8C0A5ED",
+        "sz:longgang:school:b2822c8fdd43451382c99714fb1805fb"
+      ],
+      "effect": "corrected",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:ba2c5ff1da299c980f5d9b6f",
+      "name": "富康苑",
+      "before": [
+        "sz:longgang:school:496FFFE16D2A5558E053BC09A8C0A5ED"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16D2A5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D2F5558E053BC09A8C0A5ED"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D145558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D2F5558E053BC09A8C0A5ED"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:2c175448d9cafb9a08f7bbac",
+      "name": "公园大地八期",
+      "before": [
+        "sz:longgang:school:496FFFE16C805558E053BC09A8C0A5ED"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16C805558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D105558E053BC09A8C0A5ED"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D105558E053BC09A8C0A5ED"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:2bc4e6f38ef18836ec569d39",
+      "name": "荣超花园",
+      "before": [
+        "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "effect": "harmed",
+      "flags": [],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:fb0be9fe2cbf1f67701179d5",
+      "name": "翡翠明珠花园",
+      "before": [
+        "sz:longgang:school:496FFFE16C805558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D135558E053BC09A8C0A5ED"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16C805558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D135558E053BC09A8C0A5ED",
+        "sz:longgang:school:e1e7b6362d054630acd689fabfc1eed0"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16C805558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D135558E053BC09A8C0A5ED"
+      ],
+      "effect": "harmed",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:130ed6b4199986b46740e52f",
+      "name": "万科红三期",
+      "before": [
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "effect": "harmed",
+      "flags": [],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:316c42177d38b8f9f8c5f6dd",
+      "name": "信义荔山公馆",
+      "before": [
+        "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:342d668c721005c05628adc5",
+      "name": "中兆花园",
+      "before": [
+        "sz:longgang:school:496FFFE16C9D5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16CFC5558E053BC09A8C0A5ED"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16C9D5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16CFC5558E053BC09A8C0A5ED",
+        "sz:longgang:school:58c59cc2ba13405a9372d2096e8db34c"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16C9D5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16CFC5558E053BC09A8C0A5ED"
+      ],
+      "effect": "harmed",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:5f5a72e81f7070f3ebad3583",
+      "name": "万科红一期",
+      "before": [
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "effect": "harmed",
+      "flags": [],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:028a3b340c9d6225898a5468",
+      "name": "远洋新干线二期",
+      "before": [
+        "sz:longgang:school:0c4bca2cfd8548aeb750a7f2d65dddd4",
+        "sz:longgang:school:496FFFE16D0D5558E053BC09A8C0A5ED"
+      ],
+      "after": [
+        "sz:longgang:school:0c4bca2cfd8548aeb750a7f2d65dddd4",
+        "sz:longgang:school:496FFFE16CDE5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D0D5558E053BC09A8C0A5ED"
+      ],
+      "gold": [
+        "sz:longgang:school:0c4bca2cfd8548aeb750a7f2d65dddd4",
+        "sz:longgang:school:496FFFE16D0D5558E053BC09A8C0A5ED"
+      ],
+      "effect": "harmed",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:8bdce314cdf3c0c1e9af2f4b",
+      "name": "公园大地五期",
+      "before": [
+        "sz:longgang:school:496FFFE16C805558E053BC09A8C0A5ED"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16C805558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D105558E053BC09A8C0A5ED"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D105558E053BC09A8C0A5ED"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:89f1d1ef411be25d12c093aa",
+      "name": "桂芳园五期",
+      "before": [
+        "sz:longgang:school:496FFFE16CE65558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16C9D5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16CE65558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16CFC5558E053BC09A8C0A5ED",
+        "sz:longgang:school:58c59cc2ba13405a9372d2096e8db34c",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16C9D5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16CFC5558E053BC09A8C0A5ED",
+        "sz:longgang:school:58c59cc2ba13405a9372d2096e8db34c"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:435073b2503d0ed8277729fd",
+      "name": "东方盛世花园",
+      "before": [
+        "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "effect": "harmed",
+      "flags": [],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:7a4317b62e9dba7be84a0048",
+      "name": "国展苑",
+      "before": [
+        "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "effect": "harmed",
+      "flags": [],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:7bf08c0a1389951f5b44aaca",
+      "name": "龙威花园二期",
+      "before": [
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16CE65558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16CE65558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:ee3005e048ca42bfaa228e2927283f96"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:5ca5e3baf21075061d8b0f97",
+      "name": "桂芳园六期",
+      "before": [
+        "sz:longgang:school:496FFFE16D275558E053BC09A8C0A5ED"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16C9D5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16CFC5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D275558E053BC09A8C0A5ED",
+        "sz:longgang:school:58c59cc2ba13405a9372d2096e8db34c"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16C9D5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16CFC5558E053BC09A8C0A5ED",
+        "sz:longgang:school:58c59cc2ba13405a9372d2096e8db34c"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:38717d0dde5d0523330f9a07",
+      "name": "万科红二期",
+      "before": [
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "effect": "harmed",
+      "flags": [],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:b42b91b74ba38ba147f848f6",
+      "name": "信义假日名城博雅园",
+      "before": [
+        "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "effect": "harmed",
+      "flags": [],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:ef007dab65b78d51e83b27c8",
+      "name": "加洲花园",
+      "before": [
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "effect": "harmed",
+      "flags": [],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:46a8526599b80b0fee226073",
+      "name": "理想家园",
+      "before": [
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "effect": "harmed",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:8ef92b2abe3ae0a4174564e0",
+      "name": "万科红四期",
+      "before": [
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "effect": "harmed",
+      "flags": [],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:9117eedf8286043b4480fefc",
+      "name": "京南华庭",
+      "before": [
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "effect": "harmed",
+      "flags": [],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:d4973d39b826b0f17a0de85f",
+      "name": "桂芳园四期",
+      "before": [
+        "sz:longgang:school:496FFFE16CE65558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16C9D5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16CE65558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16CFC5558E053BC09A8C0A5ED",
+        "sz:longgang:school:58c59cc2ba13405a9372d2096e8db34c",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16C9D5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16CFC5558E053BC09A8C0A5ED",
+        "sz:longgang:school:58c59cc2ba13405a9372d2096e8db34c"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:85f1c160c179792264b472c7",
+      "name": "全盛紫悦龙庭",
+      "before": [
+        "sz:longgang:school:496FFFE16CA95558E053BC09A8C0A5ED"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16CA95558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16CE95558E053BC09A8C0A5ED"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16CE95558E053BC09A8C0A5ED"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:d754656d72a50f6bf6ef1301",
+      "name": "桂芳园一期",
+      "before": [
+        "sz:longgang:school:496FFFE16C9D5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16CFC5558E053BC09A8C0A5ED"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16C9D5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16CFC5558E053BC09A8C0A5ED",
+        "sz:longgang:school:58c59cc2ba13405a9372d2096e8db34c"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16C9D5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16CFC5558E053BC09A8C0A5ED",
+        "sz:longgang:school:58c59cc2ba13405a9372d2096e8db34c"
+      ],
+      "effect": "corrected",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:0fe445552740dc49c9d8200f",
+      "name": "佳兆业可园六期",
+      "before": [
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16C795558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16CE65558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:3a14692e4dbe7e54063825ab",
+      "name": "信义假日名城六期溢芳园",
+      "before": [
+        "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "effect": "harmed",
+      "flags": [],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:037c5264bf2249dedb91482f",
+      "name": "公园大地一期",
+      "before": [
+        "sz:longgang:school:496FFFE16C915558E053BC09A8C0A5ED"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16C915558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D105558E053BC09A8C0A5ED"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D105558E053BC09A8C0A5ED"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:f70ca9d75749f9199fd293a4",
+      "name": "信义假日名城三期菁华园",
+      "before": [
+        "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:cfc2432c2cfd9b48cb96cea7",
+      "name": "桂芳园三期",
+      "before": [
+        "sz:longgang:school:496FFFE16CEF5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D1F5558E053BC09A8C0A5ED",
+        "sz:longgang:school:ee3005e048ca42bfaa228e2927283f96"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16C9D5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16CEF5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16CFC5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D1F5558E053BC09A8C0A5ED",
+        "sz:longgang:school:58c59cc2ba13405a9372d2096e8db34c",
+        "sz:longgang:school:ee3005e048ca42bfaa228e2927283f96"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16C9D5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16CFC5558E053BC09A8C0A5ED",
+        "sz:longgang:school:58c59cc2ba13405a9372d2096e8db34c"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:159f56cdd2fe8f5b0455fb41",
+      "name": "百合星城二期",
+      "before": [
+        "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "effect": "harmed",
+      "flags": [],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:1bb04c258d1a60a003a2a62e",
+      "name": "和谐家园",
+      "before": [
+        "sz:longgang:school:496FFFE16CEF5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D1F5558E053BC09A8C0A5ED",
+        "sz:longgang:school:ee3005e048ca42bfaa228e2927283f96"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16CEF5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16CF65558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D1F5558E053BC09A8C0A5ED",
+        "sz:longgang:school:58c59cc2ba13405a9372d2096e8db34c",
+        "sz:longgang:school:ee3005e048ca42bfaa228e2927283f96"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16CF65558E053BC09A8C0A5ED",
+        "sz:longgang:school:58c59cc2ba13405a9372d2096e8db34c"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:0d7972e1a097d228d3d694fd",
+      "name": "泰雅园",
+      "before": [
+        "sz:longgang:school:496FFFE16C9D5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16CFC5558E053BC09A8C0A5ED"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16C9D5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16CFC5558E053BC09A8C0A5ED",
+        "sz:longgang:school:58c59cc2ba13405a9372d2096e8db34c"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16C9D5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16CFC5558E053BC09A8C0A5ED",
+        "sz:longgang:school:58c59cc2ba13405a9372d2096e8db34c"
+      ],
+      "effect": "corrected",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:3a94fdb50ea8156694338194",
+      "name": "中加名园",
+      "before": [
+        "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "effect": "harmed",
+      "flags": [],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:4bba59abb2d8d21d98a5bdcd",
+      "name": "信义金御半山三期",
+      "before": [
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "effect": "harmed",
+      "flags": [],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:f8961691e748a7f27630ab2d",
+      "name": "德福花园",
+      "before": [
+        "sz:longgang:school:496FFFE16C865558E053BC09A8C0A5ED"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16C865558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D015558E053BC09A8C0A5ED"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D015558E053BC09A8C0A5ED"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:2300e711a7e1e0d5fe11357a",
+      "name": "东都花园一期一区",
+      "before": [
+        "sz:longgang:school:496FFFE16C915558E053BC09A8C0A5ED"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16C915558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D105558E053BC09A8C0A5ED"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16C915558E053BC09A8C0A5ED"
+      ],
+      "effect": "harmed",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:eb2f2256b5ebe5792d8c19c6",
+      "name": "万科城一期",
+      "before": [
+        "sz:longgang:school:496FFFE16CB85558E053BC09A8C0A5ED"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16CB85558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D255558E053BC09A8C0A5ED"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D255558E053BC09A8C0A5ED"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:7b2cf8cf37f3f9be8531ecd5",
+      "name": "九州家园一期",
+      "before": [
+        "sz:longgang:school:0c4bca2cfd8548aeb750a7f2d65dddd4",
+        "sz:longgang:school:496FFFE16D0D5558E053BC09A8C0A5ED"
+      ],
+      "after": [
+        "sz:longgang:school:0c4bca2cfd8548aeb750a7f2d65dddd4",
+        "sz:longgang:school:496FFFE16CDE5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D0D5558E053BC09A8C0A5ED"
+      ],
+      "gold": [
+        "sz:longgang:school:0c4bca2cfd8548aeb750a7f2d65dddd4",
+        "sz:longgang:school:496FFFE16CDE5558E053BC09A8C0A5ED"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:05dc6c2a8a57cbaf5f4b5324",
+      "name": "万科第五园四期",
+      "before": [
+        "sz:longgang:school:496FFFE16CD55558E053BC09A8C0A5ED"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16CD55558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16CE35558E053BC09A8C0A5ED"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16CE35558E053BC09A8C0A5ED"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:2effc975663d092007c572f5",
+      "name": "琳珠华庭",
+      "before": [
+        "sz:longgang:school:496FFFE16C915558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D105558E053BC09A8C0A5ED"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16C915558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D105558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D135558E053BC09A8C0A5ED",
+        "sz:longgang:school:e1e7b6362d054630acd689fabfc1eed0"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16C805558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D135558E053BC09A8C0A5ED"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [
+        "original_partial_positive_additions",
+        "scope_graph_or_cumulative_evidence_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:9fe2058b2dbdc5f37d0562fe",
+      "name": "中海日辉台",
+      "before": [
+        "sz:longgang:school:496FFFE16CB85558E053BC09A8C0A5ED"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16D255558E053BC09A8C0A5ED"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D255558E053BC09A8C0A5ED"
+      ],
+      "effect": "corrected",
+      "flags": [
+        "original_partial_positive_additions",
+        "explicit_exclusions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:eeb46f57cab38e100f13741c",
+      "name": "花溪苑",
+      "before": [
+        "sz:longgang:school:496FFFE16D0D5558E053BC09A8C0A5ED",
+        "sz:longgang:school:a2b9ddb0743649288fed0525a4d449f2"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16D0D5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D135558E053BC09A8C0A5ED",
+        "sz:longgang:school:a2b9ddb0743649288fed0525a4d449f2",
+        "sz:longgang:school:e1e7b6362d054630acd689fabfc1eed0"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D135558E053BC09A8C0A5ED",
+        "sz:longgang:school:e1e7b6362d054630acd689fabfc1eed0"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [
+        "scope_graph_or_cumulative_evidence_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:b891b472e98d30bc0a85de2e",
+      "name": "银领公馆",
+      "before": [
+        "sz:longgang:school:496FFFE16C9D5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16CFC5558E053BC09A8C0A5ED"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16C9D5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16CF65558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16CFC5558E053BC09A8C0A5ED",
+        "sz:longgang:school:58c59cc2ba13405a9372d2096e8db34c"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16CF65558E053BC09A8C0A5ED",
+        "sz:longgang:school:58c59cc2ba13405a9372d2096e8db34c"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:c17dbafeb0b2a2d0126799ac",
+      "name": "万科城二期",
+      "before": [
+        "sz:longgang:school:496FFFE16CB85558E053BC09A8C0A5ED"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16CB85558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D255558E053BC09A8C0A5ED"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D255558E053BC09A8C0A5ED"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:3706363895f71ad8494e207a",
+      "name": "呈祥花园二期",
+      "before": [
+        "sz:longgang:school:496FFFE16CED5558E053BC09A8C0A5ED",
+        "sz:longgang:school:9282b3c9f5e34aceaea9fa08ffeef24f",
+        "sz:longgang:school:b09cf70e03ed4b77b00b3b18a802107e"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16C8C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16CED5558E053BC09A8C0A5ED",
+        "sz:longgang:school:9282b3c9f5e34aceaea9fa08ffeef24f",
+        "sz:longgang:school:b09cf70e03ed4b77b00b3b18a802107e"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16C8C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:b09cf70e03ed4b77b00b3b18a802107e"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:05d0a17682efdf391bb05dc7",
+      "name": "信义假日名城一期沁芳园",
+      "before": [
+        "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:2556867e1bc69b0f707c7278",
+      "name": "信义假日名城四期锦绣园",
+      "before": [
+        "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:0abcc37a523dce78b0eeb834",
+      "name": "满庭芳花园",
+      "before": [
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "effect": "harmed",
+      "flags": [],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:52903da5cc53cd3ab95970f5",
+      "name": "庆展花园",
+      "before": [
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "effect": "harmed",
+      "flags": [],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:22c40338cbeba86a1aaf58b5",
+      "name": "百合银都",
+      "before": [
+        "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "effect": "harmed",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:0a7b214f4c48026fe28de979",
+      "name": "凤尾坑新村",
+      "before": [
+        "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "effect": "harmed",
+      "flags": [],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:3fa11770df3ac8190811da21",
+      "name": "信义金御半山二期",
+      "before": [
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "effect": "harmed",
+      "flags": [],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:1541e0c9c8578ae94143fd9f",
+      "name": "信义假日名城五期B山翠居",
+      "before": [
+        "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "effect": "harmed",
+      "flags": [],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:e166454a46f57198421494e3",
+      "name": "清林半山",
+      "before": [
+        "sz:longgang:school:3dded88438a44d07ae2a55afaff84fe5",
+        "sz:longgang:school:496FFFE16CE45558E053BC09A8C0A5ED",
+        "sz:longgang:school:59d042e7d2f84e8f987facfaee0954d6",
+        "sz:longgang:school:a4ac4043711d489fb93e753e80210509"
+      ],
+      "after": [
+        "sz:longgang:school:3dded88438a44d07ae2a55afaff84fe5",
+        "sz:longgang:school:59d042e7d2f84e8f987facfaee0954d6",
+        "sz:longgang:school:a4ac4043711d489fb93e753e80210509"
+      ],
+      "gold": [
+        "sz:longgang:school:3dded88438a44d07ae2a55afaff84fe5",
+        "sz:longgang:school:59d042e7d2f84e8f987facfaee0954d6",
+        "sz:longgang:school:a4ac4043711d489fb93e753e80210509"
+      ],
+      "effect": "corrected",
+      "flags": [
+        "explicit_exclusions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:4cf44c272ba9b95da27703c6",
+      "name": "万科·万致天地",
+      "before": [
+        "sz:longgang:school:4258ecf9196344eda7729eb884bdcf5a",
+        "sz:longgang:school:496FFFE16CB85558E053BC09A8C0A5ED"
+      ],
+      "after": [
+        "sz:longgang:school:4258ecf9196344eda7729eb884bdcf5a",
+        "sz:longgang:school:496FFFE16CB85558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D165558E053BC09A8C0A5ED"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D165558E053BC09A8C0A5ED"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:fa70a2ad36561fb1e25bd59f",
+      "name": "颐翠名庭",
+      "before": [
+        "sz:longgang:school:f6df9dbc0bcd4d48982355c4459cf74e"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16C7E5558E053BC09A8C0A5ED",
+        "sz:longgang:school:f6df9dbc0bcd4d48982355c4459cf74e"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16C7E5558E053BC09A8C0A5ED",
+        "sz:longgang:school:f6df9dbc0bcd4d48982355c4459cf74e"
+      ],
+      "effect": "corrected",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:89d320528505a0190f8ffc14",
+      "name": "颐璟名庭",
+      "before": [
+        "sz:longgang:school:f6df9dbc0bcd4d48982355c4459cf74e"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16C7E5558E053BC09A8C0A5ED",
+        "sz:longgang:school:f6df9dbc0bcd4d48982355c4459cf74e"
+      ],
+      "gold": [
+        "sz:longgang:school:f6df9dbc0bcd4d48982355c4459cf74e"
+      ],
+      "effect": "harmed",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:6f634df00166941473fac163",
+      "name": "泉井湖小区",
+      "before": [
+        "sz:longgang:school:496FFFE16D045558E053BC09A8C0A5ED"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16D045558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D1B5558E053BC09A8C0A5ED"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D1B5558E053BC09A8C0A5ED"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:73e4845111cc14554403d1c8",
+      "name": "百合世纪广场",
+      "before": [
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "effect": "harmed",
+      "flags": [],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:52f8c25d661253d8e16e1337",
+      "name": "金坑山庄",
+      "before": [
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "effect": "harmed",
+      "flags": [],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:f181d119cdb5669d08addb49",
+      "name": "京南工业区",
+      "before": [
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "effect": "harmed",
+      "flags": [],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:733287afdaba8ade409061fb",
+      "name": "锦龙大厦",
+      "before": [
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "gold": [
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:3c3f962e4bfbea0ac384b052",
+      "name": "坂田商业大楼",
+      "before": [
+        "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "effect": "harmed",
+      "flags": [],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:1bb1bae5baed3a38fa09971d",
+      "name": "太平村",
+      "before": [
+        "sz:longgang:school:496FFFE16C805558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D135558E053BC09A8C0A5ED"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16C805558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D135558E053BC09A8C0A5ED",
+        "sz:longgang:school:e1e7b6362d054630acd689fabfc1eed0"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16C805558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D135558E053BC09A8C0A5ED"
+      ],
+      "effect": "harmed",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:947ca05f0c45f1ad0fd1943e",
+      "name": "恒岳楼",
+      "before": [
+        "sz:longgang:school:25b2133f7c5f49cd950c340491e234ca",
+        "sz:longgang:school:496FFFE16CE85558E053BC09A8C0A5ED",
+        "sz:longgang:school:c6bb9d7857544432a0939efbcbc36247",
+        "sz:longgang:school:d0433805cdbb4a9d8c14bf956096e26f"
+      ],
+      "after": [
+        "sz:longgang:school:25b2133f7c5f49cd950c340491e234ca",
+        "sz:longgang:school:496FFFE16CE85558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D135558E053BC09A8C0A5ED",
+        "sz:longgang:school:c6bb9d7857544432a0939efbcbc36247",
+        "sz:longgang:school:d0433805cdbb4a9d8c14bf956096e26f",
+        "sz:longgang:school:e1e7b6362d054630acd689fabfc1eed0"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D135558E053BC09A8C0A5ED",
+        "sz:longgang:school:e1e7b6362d054630acd689fabfc1eed0"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [
+        "original_partial_positive_additions",
+        "scope_graph_or_cumulative_evidence_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:0a2a93cfeaeedf5ab0375854",
+      "name": "万家华庭",
+      "before": [
+        "sz:longgang:school:44d24aa4278e4c4fb9a2ff16e8c2761f",
+        "sz:longgang:school:a241a4bce82940c79906fbca2d362f50",
+        "sz:longgang:school:cecf915b0a7d4b038eb60bdd49a068de"
+      ],
+      "after": [
+        "sz:longgang:school:44d24aa4278e4c4fb9a2ff16e8c2761f",
+        "sz:longgang:school:496FFFE16D165558E053BC09A8C0A5ED",
+        "sz:longgang:school:a241a4bce82940c79906fbca2d362f50",
+        "sz:longgang:school:cecf915b0a7d4b038eb60bdd49a068de"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D165558E053BC09A8C0A5ED"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:189ff3653a30b9bc6ff17456",
+      "name": "乐清小区",
+      "before": [
+        "sz:longgang:school:496FFFE16D045558E053BC09A8C0A5ED"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16D045558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D1B5558E053BC09A8C0A5ED"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D1B5558E053BC09A8C0A5ED"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:a9355b6f82771b6ac2d8e76d",
+      "name": "百和苑",
+      "before": [
+        "sz:longgang:school:496FFFE16D215558E053BC09A8C0A5ED",
+        "sz:longgang:school:b7a487243d5d4142b8ad5479202da913"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16CEF5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D1F5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D215558E053BC09A8C0A5ED",
+        "sz:longgang:school:b7a487243d5d4142b8ad5479202da913",
+        "sz:longgang:school:ee3005e048ca42bfaa228e2927283f96"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16CEF5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D1F5558E053BC09A8C0A5ED",
+        "sz:longgang:school:ee3005e048ca42bfaa228e2927283f96"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:077b4c19bb6631e0d39970c4",
+      "name": "颐峰名庭",
+      "before": [
+        "sz:longgang:school:f6df9dbc0bcd4d48982355c4459cf74e"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16C7E5558E053BC09A8C0A5ED",
+        "sz:longgang:school:f6df9dbc0bcd4d48982355c4459cf74e"
+      ],
+      "gold": [
+        "sz:longgang:school:f6df9dbc0bcd4d48982355c4459cf74e"
+      ],
+      "effect": "harmed",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:231413b1a18a75f442a20047",
+      "name": "大族云峰二期",
+      "before": [
+        "sz:longgang:school:496FFFE16CE35558E053BC09A8C0A5ED"
+      ],
+      "after": [
+        "sz:longgang:school:44d24aa4278e4c4fb9a2ff16e8c2761f",
+        "sz:longgang:school:496FFFE16CE35558E053BC09A8C0A5ED",
+        "sz:longgang:school:a241a4bce82940c79906fbca2d362f50",
+        "sz:longgang:school:cecf915b0a7d4b038eb60bdd49a068de"
+      ],
+      "gold": [
+        "sz:longgang:school:44d24aa4278e4c4fb9a2ff16e8c2761f",
+        "sz:longgang:school:a241a4bce82940c79906fbca2d362f50",
+        "sz:longgang:school:cecf915b0a7d4b038eb60bdd49a068de"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [
+        "original_partial_positive_additions"
+      ],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:9b7d8140d291377427996829",
+      "name": "信义金御半山珑门",
+      "before": [
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "effect": "harmed",
+      "flags": [],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    },
+    {
+      "district": "龙岗区",
+      "site_id": "bd09:6c72f62656181fac9fc970af",
+      "name": "珑逸府",
+      "before": [
+        "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "after": [
+        "sz:longgang:school:496FFFE16D0A5558E053BC09A8C0A5ED",
+        "sz:longgang:school:496FFFE16D2C5558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:c5cdd7a032ae4ee2b1224f6c75fc7c2f"
+      ],
+      "gold": [
+        "sz:longgang:school:496FFFE16CE65558E053BC09A8C0A5ED",
+        "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4",
+        "sz:longgang:school:ee3005e048ca42bfaa228e2927283f96"
+      ],
+      "effect": "changed_still_wrong",
+      "flags": [],
+      "semantic_warning": "Gold map membership, not final enrollment entitlement"
+    }
+  ],
+  "post_scoring_only": true,
+  "not_used_for_tuning": true
+}

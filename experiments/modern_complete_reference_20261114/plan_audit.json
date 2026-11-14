@@ -1,0 +1,18 @@
+{
+  "龙华区": {
+    "cohort": 627,
+    "selected": 256,
+    "unknown": 371,
+    "validation": 53,
+    "public_groups": 589,
+    "coordinate_rows": 628
+  },
+  "龙岗区": {
+    "cohort": 1134,
+    "selected": 256,
+    "unknown": 878,
+    "validation": 51,
+    "public_groups": 1053,
+    "coordinate_rows": 1174
+  }
+}

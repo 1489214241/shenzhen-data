@@ -1,0 +1,11 @@
+{
+  "scripts\\experiment_modern_complete_reference.py": "68308fb0f1379fb6a9e6835d608e05e66a88535fbd4b7af7a3e0ebeae2fda03f",
+  "zoning\\modernnca_complete_reference.py": "cf8f5ac0a349b2b4dccff35bc510e0bc72d2b0af286470ffdee538d1d1c54587",
+  "tests\\test_modernnca_complete_reference.py": "b8fa0fb8eec7a28cda411777056dc608fa2fa50e2d94f3e7ebaf10e5c4808aba",
+  "scripts\\audit_modern_complete_reference.py": "7bb0877e71db661988fb684bb74d6072ae49dfa016b19f47c76a2e58b52ed6e9",
+  "zoning\\modernnca_multilabel.py": "8812204f35d151ac5e1276869a8ce227804d3b65f64d2c2b0a10103bf123e6ad",
+  "zoning\\full_evidence.py": "597d501635b019d4b1999d2f2654f93b456b0eb0cd316a1fb565407016100f7a",
+  "zoning\\modernnca_normalization.py": "90e7e1524596b7e029600574f9cea4b71685d5c68d6f21801f64e433660ce8df",
+  "zoning\\evidence.py": "e6569e216e516c807188d69d2fd7c152550ac7eab9977f101f92c2ec3dc6f058",
+  "zoning\\model.py": "75321b511e539c07daf9147d066873e3ef33546a5b08037bd3c5b434c22a8f34"
+}

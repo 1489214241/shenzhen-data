@@ -1,0 +1,466 @@
+{
+  "post_score_only": true,
+  "used_for_training_or_selection": false,
+  "diagnostics": {
+    "1": {
+      "龙华区": {
+        "n": 460,
+        "multi": 304,
+        "full_set_available": 315,
+        "full_set_candidate_ceiling": 68.47826086956522,
+        "all_true_schools_in_new_complete_support": 348,
+        "nearest_distance_median": 666.2636222750045,
+        "nearest_distance_p90": 2218.072713241765,
+        "missing_combination_examples": [
+          {
+            "site_id": "bd09:a46f1ceaf63c0c3bf3eb6afd",
+            "name": "城建仁山智水花园三期",
+            "gold": [
+              "sz:longhua:school:449225a8ccc34107b689c883a1b6caa2",
+              "sz:longhua:school:496FFFE16B935558E053BC09A8C0A5ED:gaoxin",
+              "sz:longhua:school:496FFFE16B935558E053BC09A8C0A5ED:guanhu",
+              "sz:longhua:school:a30b9ed45d5e4734b2d70feceb561c96",
+              "sz:longhua:school:e158b5b70ec34bbaae1323e42fee6a06",
+              "sz:longhua:school:f29dbee4b70c47d393ce050ba7813032"
+            ],
+            "nearest_prediction": [
+              "sz:longhua:school:496FFFE16B3C5558E053BC09A8C0A5ED",
+              "sz:longhua:school:496FFFE16B3D5558E053BC09A8C0A5ED"
+            ]
+          },
+          {
+            "site_id": "bd09:1763f65fee2e27105a7aa016",
+            "name": "书香门第名苑",
+            "gold": [
+              "sz:longhua:school:496FFFE16B4F5558E053BC09A8C0A5ED"
+            ],
+            "nearest_prediction": [
+              "sz:longhua:school:496FFFE16B4F5558E053BC09A8C0A5ED",
+              "sz:longhua:school:b5d42e6c807e47b1b53f2f24323cc6aa",
+              "sz:longhua:school:ebe9113be2924ea68014727f80792b78"
+            ]
+          },
+          {
+            "site_id": "bd09:33e53a0c15cb4f656cbee7b0",
+            "name": "书香门第上河坊",
+            "gold": [
+              "sz:longhua:school:496FFFE16B4F5558E053BC09A8C0A5ED"
+            ],
+            "nearest_prediction": [
+              "sz:longhua:school:496FFFE16B4F5558E053BC09A8C0A5ED",
+              "sz:longhua:school:b5d42e6c807e47b1b53f2f24323cc6aa",
+              "sz:longhua:school:ebe9113be2924ea68014727f80792b78"
+            ]
+          }
+        ]
+      },
+      "龙岗区": {
+        "n": 635,
+        "multi": 297,
+        "full_set_available": 177,
+        "full_set_candidate_ceiling": 27.874015748031496,
+        "all_true_schools_in_new_complete_support": 293,
+        "nearest_distance_median": 821.5941398463038,
+        "nearest_distance_p90": 1761.1288864851344,
+        "missing_combination_examples": [
+          {
+            "site_id": "bd09:28683884c4ec2e56131ea837",
+            "name": "大世纪水山缘",
+            "gold": [
+              "sz:longgang:school:496FFFE16D175558E053BC09A8C0A5ED"
+            ],
+            "nearest_prediction": [
+              "sz:longgang:school:496FFFE16C795558E053BC09A8C0A5ED",
+              "sz:longgang:school:496FFFE16CE65558E053BC09A8C0A5ED",
+              "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4"
+            ]
+          },
+          {
+            "site_id": "bd09:b668556b01dc6b9f2c95a2a6",
+            "name": "恒大国香山",
+            "gold": [
+              "sz:longgang:school:496FFFE16D185558E053BC09A8C0A5ED"
+            ],
+            "nearest_prediction": [
+              "sz:longgang:school:496FFFE16D1B5558E053BC09A8C0A5ED",
+              "sz:longgang:school:496FFFE16D205558E053BC09A8C0A5ED",
+              "sz:longgang:school:496FFFE16D285558E053BC09A8C0A5ED"
+            ]
+          },
+          {
+            "site_id": "bd09:d613bc17eaa0c2023dd26fa3",
+            "name": "宇宏健康花城",
+            "gold": [
+              "sz:longgang:school:496FFFE16CF65558E053BC09A8C0A5ED",
+              "sz:longgang:school:58c59cc2ba13405a9372d2096e8db34c"
+            ],
+            "nearest_prediction": [
+              "sz:longgang:school:496FFFE16CDC5558E053BC09A8C0A5ED"
+            ]
+          }
+        ]
+      },
+      "all": {
+        "n": 1095,
+        "multi": 601,
+        "full_set_available": 492,
+        "full_set_candidate_ceiling": 44.93150684931507,
+        "all_true_schools_in_new_complete_support": 641,
+        "nearest_distance_median": 774.4146680717989,
+        "nearest_distance_p90": 1902.0125098654114,
+        "missing_combination_examples": [
+          {
+            "site_id": "bd09:a46f1ceaf63c0c3bf3eb6afd",
+            "name": "城建仁山智水花园三期",
+            "gold": [
+              "sz:longhua:school:449225a8ccc34107b689c883a1b6caa2",
+              "sz:longhua:school:496FFFE16B935558E053BC09A8C0A5ED:gaoxin",
+              "sz:longhua:school:496FFFE16B935558E053BC09A8C0A5ED:guanhu",
+              "sz:longhua:school:a30b9ed45d5e4734b2d70feceb561c96",
+              "sz:longhua:school:e158b5b70ec34bbaae1323e42fee6a06",
+              "sz:longhua:school:f29dbee4b70c47d393ce050ba7813032"
+            ],
+            "nearest_prediction": [
+              "sz:longhua:school:496FFFE16B3C5558E053BC09A8C0A5ED",
+              "sz:longhua:school:496FFFE16B3D5558E053BC09A8C0A5ED"
+            ]
+          },
+          {
+            "site_id": "bd09:1763f65fee2e27105a7aa016",
+            "name": "书香门第名苑",
+            "gold": [
+              "sz:longhua:school:496FFFE16B4F5558E053BC09A8C0A5ED"
+            ],
+            "nearest_prediction": [
+              "sz:longhua:school:496FFFE16B4F5558E053BC09A8C0A5ED",
+              "sz:longhua:school:b5d42e6c807e47b1b53f2f24323cc6aa",
+              "sz:longhua:school:ebe9113be2924ea68014727f80792b78"
+            ]
+          },
+          {
+            "site_id": "bd09:33e53a0c15cb4f656cbee7b0",
+            "name": "书香门第上河坊",
+            "gold": [
+              "sz:longhua:school:496FFFE16B4F5558E053BC09A8C0A5ED"
+            ],
+            "nearest_prediction": [
+              "sz:longhua:school:496FFFE16B4F5558E053BC09A8C0A5ED",
+              "sz:longhua:school:b5d42e6c807e47b1b53f2f24323cc6aa",
+              "sz:longhua:school:ebe9113be2924ea68014727f80792b78"
+            ]
+          }
+        ]
+      }
+    },
+    "2": {
+      "龙华区": {
+        "n": 460,
+        "multi": 304,
+        "full_set_available": 335,
+        "full_set_candidate_ceiling": 72.82608695652173,
+        "all_true_schools_in_new_complete_support": 366,
+        "nearest_distance_median": 537.3242376781996,
+        "nearest_distance_p90": 1587.6391370499136,
+        "missing_combination_examples": [
+          {
+            "site_id": "bd09:a46f1ceaf63c0c3bf3eb6afd",
+            "name": "城建仁山智水花园三期",
+            "gold": [
+              "sz:longhua:school:449225a8ccc34107b689c883a1b6caa2",
+              "sz:longhua:school:496FFFE16B935558E053BC09A8C0A5ED:gaoxin",
+              "sz:longhua:school:496FFFE16B935558E053BC09A8C0A5ED:guanhu",
+              "sz:longhua:school:a30b9ed45d5e4734b2d70feceb561c96",
+              "sz:longhua:school:e158b5b70ec34bbaae1323e42fee6a06",
+              "sz:longhua:school:f29dbee4b70c47d393ce050ba7813032"
+            ],
+            "nearest_prediction": [
+              "sz:longhua:school:345bd8c3128a491c83ea353a4218b0c8",
+              "sz:longhua:school:496FFFE16B445558E053BC09A8C0A5ED",
+              "sz:longhua:school:a30b9ed45d5e4734b2d70feceb561c96",
+              "sz:longhua:school:f29dbee4b70c47d393ce050ba7813032",
+              "sz:longhua:school:f9aa4dcc77234f738633dc9c37638464"
+            ]
+          },
+          {
+            "site_id": "bd09:1763f65fee2e27105a7aa016",
+            "name": "书香门第名苑",
+            "gold": [
+              "sz:longhua:school:496FFFE16B4F5558E053BC09A8C0A5ED"
+            ],
+            "nearest_prediction": [
+              "sz:longhua:school:496FFFE16B4F5558E053BC09A8C0A5ED",
+              "sz:longhua:school:b5d42e6c807e47b1b53f2f24323cc6aa",
+              "sz:longhua:school:ebe9113be2924ea68014727f80792b78"
+            ]
+          },
+          {
+            "site_id": "bd09:33e53a0c15cb4f656cbee7b0",
+            "name": "书香门第上河坊",
+            "gold": [
+              "sz:longhua:school:496FFFE16B4F5558E053BC09A8C0A5ED"
+            ],
+            "nearest_prediction": [
+              "sz:longhua:school:496FFFE16B4F5558E053BC09A8C0A5ED",
+              "sz:longhua:school:b5d42e6c807e47b1b53f2f24323cc6aa",
+              "sz:longhua:school:ebe9113be2924ea68014727f80792b78"
+            ]
+          }
+        ]
+      },
+      "龙岗区": {
+        "n": 635,
+        "multi": 297,
+        "full_set_available": 245,
+        "full_set_candidate_ceiling": 38.58267716535433,
+        "all_true_schools_in_new_complete_support": 370,
+        "nearest_distance_median": 673.0032265483163,
+        "nearest_distance_p90": 1330.86634808481,
+        "missing_combination_examples": [
+          {
+            "site_id": "bd09:28683884c4ec2e56131ea837",
+            "name": "大世纪水山缘",
+            "gold": [
+              "sz:longgang:school:496FFFE16D175558E053BC09A8C0A5ED"
+            ],
+            "nearest_prediction": [
+              "sz:longgang:school:496FFFE16C795558E053BC09A8C0A5ED",
+              "sz:longgang:school:496FFFE16CE65558E053BC09A8C0A5ED",
+              "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4"
+            ]
+          },
+          {
+            "site_id": "bd09:d613bc17eaa0c2023dd26fa3",
+            "name": "宇宏健康花城",
+            "gold": [
+              "sz:longgang:school:496FFFE16CF65558E053BC09A8C0A5ED",
+              "sz:longgang:school:58c59cc2ba13405a9372d2096e8db34c"
+            ],
+            "nearest_prediction": [
+              "sz:longgang:school:496FFFE16CDC5558E053BC09A8C0A5ED"
+            ]
+          },
+          {
+            "site_id": "bd09:c4870de38a0a1c909cdcada4",
+            "name": "鸿荣源尚峰",
+            "gold": [
+              "sz:longgang:school:496FFFE16CF65558E053BC09A8C0A5ED",
+              "sz:longgang:school:58c59cc2ba13405a9372d2096e8db34c"
+            ],
+            "nearest_prediction": [
+              "sz:longgang:school:496FFFE16CDC5558E053BC09A8C0A5ED"
+            ]
+          }
+        ]
+      },
+      "all": {
+        "n": 1095,
+        "multi": 601,
+        "full_set_available": 580,
+        "full_set_candidate_ceiling": 52.96803652968037,
+        "all_true_schools_in_new_complete_support": 736,
+        "nearest_distance_median": 612.0446051154242,
+        "nearest_distance_p90": 1406.5878804534425,
+        "missing_combination_examples": [
+          {
+            "site_id": "bd09:a46f1ceaf63c0c3bf3eb6afd",
+            "name": "城建仁山智水花园三期",
+            "gold": [
+              "sz:longhua:school:449225a8ccc34107b689c883a1b6caa2",
+              "sz:longhua:school:496FFFE16B935558E053BC09A8C0A5ED:gaoxin",
+              "sz:longhua:school:496FFFE16B935558E053BC09A8C0A5ED:guanhu",
+              "sz:longhua:school:a30b9ed45d5e4734b2d70feceb561c96",
+              "sz:longhua:school:e158b5b70ec34bbaae1323e42fee6a06",
+              "sz:longhua:school:f29dbee4b70c47d393ce050ba7813032"
+            ],
+            "nearest_prediction": [
+              "sz:longhua:school:345bd8c3128a491c83ea353a4218b0c8",
+              "sz:longhua:school:496FFFE16B445558E053BC09A8C0A5ED",
+              "sz:longhua:school:a30b9ed45d5e4734b2d70feceb561c96",
+              "sz:longhua:school:f29dbee4b70c47d393ce050ba7813032",
+              "sz:longhua:school:f9aa4dcc77234f738633dc9c37638464"
+            ]
+          },
+          {
+            "site_id": "bd09:1763f65fee2e27105a7aa016",
+            "name": "书香门第名苑",
+            "gold": [
+              "sz:longhua:school:496FFFE16B4F5558E053BC09A8C0A5ED"
+            ],
+            "nearest_prediction": [
+              "sz:longhua:school:496FFFE16B4F5558E053BC09A8C0A5ED",
+              "sz:longhua:school:b5d42e6c807e47b1b53f2f24323cc6aa",
+              "sz:longhua:school:ebe9113be2924ea68014727f80792b78"
+            ]
+          },
+          {
+            "site_id": "bd09:33e53a0c15cb4f656cbee7b0",
+            "name": "书香门第上河坊",
+            "gold": [
+              "sz:longhua:school:496FFFE16B4F5558E053BC09A8C0A5ED"
+            ],
+            "nearest_prediction": [
+              "sz:longhua:school:496FFFE16B4F5558E053BC09A8C0A5ED",
+              "sz:longhua:school:b5d42e6c807e47b1b53f2f24323cc6aa",
+              "sz:longhua:school:ebe9113be2924ea68014727f80792b78"
+            ]
+          }
+        ]
+      }
+    },
+    "3": {
+      "龙华区": {
+        "n": 460,
+        "multi": 304,
+        "full_set_available": 370,
+        "full_set_candidate_ceiling": 80.43478260869566,
+        "all_true_schools_in_new_complete_support": 384,
+        "nearest_distance_median": 438.1754986649389,
+        "nearest_distance_p90": 1369.8582309315009,
+        "missing_combination_examples": [
+          {
+            "site_id": "bd09:a46f1ceaf63c0c3bf3eb6afd",
+            "name": "城建仁山智水花园三期",
+            "gold": [
+              "sz:longhua:school:449225a8ccc34107b689c883a1b6caa2",
+              "sz:longhua:school:496FFFE16B935558E053BC09A8C0A5ED:gaoxin",
+              "sz:longhua:school:496FFFE16B935558E053BC09A8C0A5ED:guanhu",
+              "sz:longhua:school:a30b9ed45d5e4734b2d70feceb561c96",
+              "sz:longhua:school:e158b5b70ec34bbaae1323e42fee6a06",
+              "sz:longhua:school:f29dbee4b70c47d393ce050ba7813032"
+            ],
+            "nearest_prediction": [
+              "sz:longhua:school:345bd8c3128a491c83ea353a4218b0c8",
+              "sz:longhua:school:496FFFE16B445558E053BC09A8C0A5ED",
+              "sz:longhua:school:a30b9ed45d5e4734b2d70feceb561c96",
+              "sz:longhua:school:f29dbee4b70c47d393ce050ba7813032",
+              "sz:longhua:school:f9aa4dcc77234f738633dc9c37638464"
+            ]
+          },
+          {
+            "site_id": "bd09:1763f65fee2e27105a7aa016",
+            "name": "书香门第名苑",
+            "gold": [
+              "sz:longhua:school:496FFFE16B4F5558E053BC09A8C0A5ED"
+            ],
+            "nearest_prediction": [
+              "sz:longhua:school:496FFFE16B4F5558E053BC09A8C0A5ED",
+              "sz:longhua:school:b5d42e6c807e47b1b53f2f24323cc6aa",
+              "sz:longhua:school:ebe9113be2924ea68014727f80792b78"
+            ]
+          },
+          {
+            "site_id": "bd09:33e53a0c15cb4f656cbee7b0",
+            "name": "书香门第上河坊",
+            "gold": [
+              "sz:longhua:school:496FFFE16B4F5558E053BC09A8C0A5ED"
+            ],
+            "nearest_prediction": [
+              "sz:longhua:school:496FFFE16B4F5558E053BC09A8C0A5ED",
+              "sz:longhua:school:b5d42e6c807e47b1b53f2f24323cc6aa",
+              "sz:longhua:school:ebe9113be2924ea68014727f80792b78"
+            ]
+          }
+        ]
+      },
+      "龙岗区": {
+        "n": 635,
+        "multi": 297,
+        "full_set_available": 331,
+        "full_set_candidate_ceiling": 52.125984251968504,
+        "all_true_schools_in_new_complete_support": 474,
+        "nearest_distance_median": 511.32552157645983,
+        "nearest_distance_p90": 1132.0383114145452,
+        "missing_combination_examples": [
+          {
+            "site_id": "bd09:28683884c4ec2e56131ea837",
+            "name": "大世纪水山缘",
+            "gold": [
+              "sz:longgang:school:496FFFE16D175558E053BC09A8C0A5ED"
+            ],
+            "nearest_prediction": [
+              "sz:longgang:school:496FFFE16C795558E053BC09A8C0A5ED",
+              "sz:longgang:school:496FFFE16CE65558E053BC09A8C0A5ED",
+              "sz:longgang:school:6b6ba8affd9947a880726ca4122124d4"
+            ]
+          },
+          {
+            "site_id": "bd09:d613bc17eaa0c2023dd26fa3",
+            "name": "宇宏健康花城",
+            "gold": [
+              "sz:longgang:school:496FFFE16CF65558E053BC09A8C0A5ED",
+              "sz:longgang:school:58c59cc2ba13405a9372d2096e8db34c"
+            ],
+            "nearest_prediction": [
+              "sz:longgang:school:496FFFE16CDC5558E053BC09A8C0A5ED"
+            ]
+          },
+          {
+            "site_id": "bd09:c4870de38a0a1c909cdcada4",
+            "name": "鸿荣源尚峰",
+            "gold": [
+              "sz:longgang:school:496FFFE16CF65558E053BC09A8C0A5ED",
+              "sz:longgang:school:58c59cc2ba13405a9372d2096e8db34c"
+            ],
+            "nearest_prediction": [
+              "sz:longgang:school:496FFFE16CDC5558E053BC09A8C0A5ED"
+            ]
+          }
+        ]
+      },
+      "all": {
+        "n": 1095,
+        "multi": 601,
+        "full_set_available": 701,
+        "full_set_candidate_ceiling": 64.01826484018265,
+        "all_true_schools_in_new_complete_support": 858,
+        "nearest_distance_median": 487.60212167015146,
+        "nearest_distance_p90": 1213.0961010412586,
+        "missing_combination_examples": [
+          {
+            "site_id": "bd09:a46f1ceaf63c0c3bf3eb6afd",
+            "name": "城建仁山智水花园三期",
+            "gold": [
+              "sz:longhua:school:449225a8ccc34107b689c883a1b6caa2",
+              "sz:longhua:school:496FFFE16B935558E053BC09A8C0A5ED:gaoxin",
+              "sz:longhua:school:496FFFE16B935558E053BC09A8C0A5ED:guanhu",
+              "sz:longhua:school:a30b9ed45d5e4734b2d70feceb561c96",
+              "sz:longhua:school:e158b5b70ec34bbaae1323e42fee6a06",
+              "sz:longhua:school:f29dbee4b70c47d393ce050ba7813032"
+            ],
+            "nearest_prediction": [
+              "sz:longhua:school:345bd8c3128a491c83ea353a4218b0c8",
+              "sz:longhua:school:496FFFE16B445558E053BC09A8C0A5ED",
+              "sz:longhua:school:a30b9ed45d5e4734b2d70feceb561c96",
+              "sz:longhua:school:f29dbee4b70c47d393ce050ba7813032",
+              "sz:longhua:school:f9aa4dcc77234f738633dc9c37638464"
+            ]
+          },
+          {
+            "site_id": "bd09:1763f65fee2e27105a7aa016",
+            "name": "书香门第名苑",
+            "gold": [
+              "sz:longhua:school:496FFFE16B4F5558E053BC09A8C0A5ED"
+            ],
+            "nearest_prediction": [
+              "sz:longhua:school:496FFFE16B4F5558E053BC09A8C0A5ED",
+              "sz:longhua:school:b5d42e6c807e47b1b53f2f24323cc6aa",
+              "sz:longhua:school:ebe9113be2924ea68014727f80792b78"
+            ]
+          },
+          {
+            "site_id": "bd09:33e53a0c15cb4f656cbee7b0",
+            "name": "书香门第上河坊",
+            "gold": [
+              "sz:longhua:school:496FFFE16B4F5558E053BC09A8C0A5ED"
+            ],
+            "nearest_prediction": [
+              "sz:longhua:school:496FFFE16B4F5558E053BC09A8C0A5ED",
+              "sz:longhua:school:b5d42e6c807e47b1b53f2f24323cc6aa",
+              "sz:longhua:school:ebe9113be2924ea68014727f80792b78"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

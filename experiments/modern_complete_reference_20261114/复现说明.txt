@@ -1,0 +1,20 @@
+在学区归属模型_代码库目录执行，Python环境为D:/ana/python.exe。
+
+核验现有结果：
+  python scripts/audit_modern_complete_reference.py
+
+从保存权重重新推理、检查与原输出一致，再复算冻结分支消融：
+  python scripts/replay_modern_complete_reference.py generate
+  python scripts/replay_modern_complete_reference.py score
+
+从空实验目录首次运行的顺序：
+  python scripts/experiment_modern_complete_reference.py plan
+  python scripts/experiment_modern_complete_reference.py release
+  python scripts/experiment_modern_complete_reference.py run
+  python scripts/experiment_modern_complete_reference.py score
+
+plan会拒绝覆盖现有目录。当前已保存冻结实验，日常检查用审计/重放命令即可。
+重新训练到新目录时，应在独立代码副本中设置新的OUT路径，完整保留现有结果。
+run阶段只读取已释放512点的完整答案；Gold与评分文件由审计钩子禁读。score阶段在预测冻结后读取全部Gold。
+代码依赖本项目已有完整输入、道路数据、政策补充台账和原Modern训练权重，路径及哈希在inputs_sha256.json；不是只复制一个脚本就能从零运行的独立包。
+本公开副本提供代码、参照和结果；训练缓存与权重保留本地，默认预测入口未改。

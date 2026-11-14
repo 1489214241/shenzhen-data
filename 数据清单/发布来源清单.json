@@ -8,10 +8,244 @@
       "source": "publication_generated"
     },
     {
+      "path": "README.md",
+      "bytes": 4649,
+      "sha256": "82227e37a11c6a3811476628c4f158715363c48cb7c5e36222c94336a981f77a",
+      "source": "publication_generated"
+    },
+    {
+      "path": "experiments/README.md",
+      "bytes": 2841,
+      "sha256": "93728618de310d9460313c3c6a1979e7937b93355664dd68da2715c3f049585a",
+      "source": "publication_generated"
+    },
+    {
       "path": "experiments/evaluate.py",
       "bytes": 2051,
       "sha256": "2cb928a7f7c7a74be2f974a7a0952525c2219403ce13ba9dbe4233bb0334001c",
       "source": "publication_generated"
+    },
+    {
+      "path": "experiments/evaluate_reference_trials.py",
+      "source": "publication_generated",
+      "bytes": 4311,
+      "sha256": "d1e1f9035cf0891b01f4f28a3554f0bbf551292e66f691761f16510ad6d9c430"
+    },
+    {
+      "path": "experiments/modern_complete_reference_20261114/code_sha256.json",
+      "source": "学区归属模型_代码库/outputs/modern_complete_reference_20261114/code_sha256.json",
+      "bytes": 977,
+      "sha256": "206f778d28379a33fcf0a3d916feed1a57f9bb59e619342c759838e7acacc236"
+    },
+    {
+      "path": "experiments/modern_complete_reference_20261114/environment.json",
+      "source": "学区归属模型_代码库/outputs/modern_complete_reference_20261114/environment.json",
+      "bytes": 675,
+      "sha256": "fe8083a3e917ff2e7006fae744bbaab0b556007dfb862822bbb93e4d9b88cda7"
+    },
+    {
+      "path": "experiments/modern_complete_reference_20261114/frozen_readout_ablation/code_sha256.json",
+      "source": "学区归属模型_代码库/outputs/modern_complete_reference_20261114/frozen_readout_ablation/code_sha256.json",
+      "bytes": 124,
+      "sha256": "43241dabfd18e6025af5e84926a68247c2f8c9004c231ae92de62a22615cec3b"
+    },
+    {
+      "path": "experiments/modern_complete_reference_20261114/frozen_readout_ablation/prediction_freeze.json",
+      "source": "学区归属模型_代码库/outputs/modern_complete_reference_20261114/frozen_readout_ablation/prediction_freeze.json",
+      "bytes": 209,
+      "sha256": "c09e0c9e31515fdc79c9b78fddeae6796f90d92aaeaa7ef04fb630a5b4a0a237"
+    },
+    {
+      "path": "experiments/modern_complete_reference_20261114/frozen_readout_ablation/protocol.json",
+      "source": "学区归属模型_代码库/outputs/modern_complete_reference_20261114/frozen_readout_ablation/protocol.json",
+      "bytes": 369,
+      "sha256": "32a4958329e5a06d48d6c970ce1e427aeb868f6f8c68e7946b5722cdbadd82de"
+    },
+    {
+      "path": "experiments/modern_complete_reference_20261114/frozen_readout_ablation/replay_audit.json",
+      "source": "学区归属模型_代码库/outputs/modern_complete_reference_20261114/frozen_readout_ablation/replay_audit.json",
+      "bytes": 1191,
+      "sha256": "b259205279ac020a52473cd22f7c3d8b382f978e471cb696d69ea26ef3811ae9"
+    },
+    {
+      "path": "experiments/modern_complete_reference_20261114/frozen_readout_ablation/results.json",
+      "source": "学区归属模型_代码库/outputs/modern_complete_reference_20261114/frozen_readout_ablation/results.json",
+      "bytes": 5190,
+      "sha256": "273f619a5047aabd9ea12f801f0743b03dd785418e260ef2a7ec5a5fe9e22617"
+    },
+    {
+      "path": "experiments/modern_complete_reference_20261114/independent_audit.json",
+      "source": "学区归属模型_代码库/outputs/modern_complete_reference_20261114/independent_audit.json",
+      "bytes": 580,
+      "sha256": "d6220e43ff3ceaad8c8db5e3bc5d0a26f98921ea8b34a53193ee7c1eb4980b52"
+    },
+    {
+      "path": "experiments/modern_complete_reference_20261114/input_audit.json",
+      "source": "学区归属模型_代码库/outputs/modern_complete_reference_20261114/input_audit.json",
+      "bytes": 465,
+      "sha256": "b0236256a14d145b36a2b4d7e6e041ed2fcd796c11ef9c7df7dea8578d73592c"
+    },
+    {
+      "path": "experiments/modern_complete_reference_20261114/inputs_sha256.json",
+      "source": "学区归属模型_代码库/outputs/modern_complete_reference_20261114/inputs_sha256.json",
+      "bytes": 10652,
+      "sha256": "32b5b92da4dda30d329344d527ec8d351ddc7c1e3a59e3a449550e93ca0f638c"
+    },
+    {
+      "path": "experiments/modern_complete_reference_20261114/nearest_provenance/龙华区.json",
+      "source": "学区归属模型_代码库/outputs/modern_complete_reference_20261114/nearest_provenance/龙华区.json",
+      "bytes": 110067,
+      "sha256": "bfffa009cdec02fb7a51b4c2292bdd0b3ff9f66f4c2d4c5cb20899dbd1eb6e6e"
+    },
+    {
+      "path": "experiments/modern_complete_reference_20261114/nearest_provenance/龙岗区.json",
+      "source": "学区归属模型_代码库/outputs/modern_complete_reference_20261114/nearest_provenance/龙岗区.json",
+      "bytes": 245294,
+      "sha256": "66a4eede057105a746e2b8725e86dde608066c65a01e22161c6a1f5cdc859c0a"
+    },
+    {
+      "path": "experiments/modern_complete_reference_20261114/plan_audit.json",
+      "source": "学区归属模型_代码库/outputs/modern_complete_reference_20261114/plan_audit.json",
+      "bytes": 338,
+      "sha256": "622d452c1f23248f709fd59548ba5bfceaba370a27ec3501d32b829182663e01"
+    },
+    {
+      "path": "experiments/modern_complete_reference_20261114/plan_freeze.json",
+      "source": "学区归属模型_代码库/outputs/modern_complete_reference_20261114/plan_freeze.json",
+      "bytes": 368,
+      "sha256": "b588d09a18defca4bfa19a8c82e6402b614fd8ea75c93dab250545829f934502"
+    },
+    {
+      "path": "experiments/modern_complete_reference_20261114/policy_effect_diagnostic.json",
+      "source": "学区归属模型_代码库/outputs/modern_complete_reference_20261114/policy_effect_diagnostic.json",
+      "bytes": 105143,
+      "sha256": "5b85b355e31131f0ced29ceeedc7b395fb75ccb9e4bddab31681d686fa4e2289"
+    },
+    {
+      "path": "experiments/modern_complete_reference_20261114/pre_scoring_bugfix_01.json",
+      "source": "学区归属模型_代码库/outputs/modern_complete_reference_20261114/pre_scoring_bugfix_01.json",
+      "bytes": 2167,
+      "sha256": "a187bbf980bb5a7bc0083cc89883b6d033eacd6b3a47722301f433f3780c6fda"
+    },
+    {
+      "path": "experiments/modern_complete_reference_20261114/pre_scoring_bugfix_02.json",
+      "source": "学区归属模型_代码库/outputs/modern_complete_reference_20261114/pre_scoring_bugfix_02.json",
+      "bytes": 2146,
+      "sha256": "bad9d5f688d78a9f8dd74e4a2990fed794b000bec1c5f7a318c69a658218fc35"
+    },
+    {
+      "path": "experiments/modern_complete_reference_20261114/prediction_freeze.json",
+      "source": "学区归属模型_代码库/outputs/modern_complete_reference_20261114/prediction_freeze.json",
+      "bytes": 1825,
+      "sha256": "1b1318b6ed63e7cc276737c1d2d576ed9c161a492ec6837fb9f50262369b65b7"
+    },
+    {
+      "path": "experiments/modern_complete_reference_20261114/protocol.json",
+      "source": "学区归属模型_代码库/outputs/modern_complete_reference_20261114/protocol.json",
+      "bytes": 3180,
+      "sha256": "6b0718cfdf6e3892d9dfff44e857e9e0d1ff1c22ad04b013c8d4edf856b9ee73"
+    },
+    {
+      "path": "experiments/modern_complete_reference_20261114/public_plan.json",
+      "source": "学区归属模型_代码库/outputs/modern_complete_reference_20261114/public_plan.json",
+      "bytes": 556461,
+      "sha256": "3ed91d70be9e9981a367ce3222fcf26487038185ac1654e3e76e51c68e8ea2c4"
+    },
+    {
+      "path": "experiments/modern_complete_reference_20261114/release_receipt.json",
+      "source": "学区归属模型_代码库/outputs/modern_complete_reference_20261114/release_receipt.json",
+      "bytes": 284,
+      "sha256": "bc9eb16a52b70b1a25226accd90fae0e7c6362b8fb47a0b1e1427eed6a15c77c"
+    },
+    {
+      "path": "experiments/modern_complete_reference_20261114/released_support.json",
+      "source": "学区归属模型_代码库/outputs/modern_complete_reference_20261114/released_support.json",
+      "bytes": 250678,
+      "sha256": "ea8cc3ea68747b382dea94e3980a20546f705be96fec31ea67075f540fac543c"
+    },
+    {
+      "path": "experiments/modern_complete_reference_20261114/results.json",
+      "source": "学区归属模型_代码库/outputs/modern_complete_reference_20261114/results.json",
+      "bytes": 16935,
+      "sha256": "ec9f2087ee899d84b873c0dc5689041385ac28a0285e7bd8f6306f822ecffc71"
+    },
+    {
+      "path": "experiments/modern_complete_reference_20261114/scored_rows/archived_current_context.json",
+      "source": "学区归属模型_代码库/outputs/modern_complete_reference_20261114/scored_rows/archived_current_context.json",
+      "bytes": 661353,
+      "sha256": "e308181c6ff9705209c765658648252b2b6c13e6087eaf9817864619c1ef47e3"
+    },
+    {
+      "path": "experiments/modern_complete_reference_20261114/scored_rows/augmented_frozen_policy.json",
+      "source": "学区归属模型_代码库/outputs/modern_complete_reference_20261114/scored_rows/augmented_frozen_policy.json",
+      "bytes": 654225,
+      "sha256": "de438ee322e65a97ed13237c0e21cdee836b1f7e359c322398353c741d42a027"
+    },
+    {
+      "path": "experiments/modern_complete_reference_20261114/scored_rows/augmented_frozen_raw.json",
+      "source": "学区归属模型_代码库/outputs/modern_complete_reference_20261114/scored_rows/augmented_frozen_raw.json",
+      "bytes": 618349,
+      "sha256": "313357b5173693b64e7265b2267bc826a1ce97b457be5359c798149c1e57dffb"
+    },
+    {
+      "path": "experiments/modern_complete_reference_20261114/scored_rows/categorical_tuned_policy.json",
+      "source": "学区归属模型_代码库/outputs/modern_complete_reference_20261114/scored_rows/categorical_tuned_policy.json",
+      "bytes": 653230,
+      "sha256": "c36abab79bfa81f14acc0cfb19dac85c9561094450d7bd214f120de1bbc6543f"
+    },
+    {
+      "path": "experiments/modern_complete_reference_20261114/scored_rows/categorical_tuned_raw.json",
+      "source": "学区归属模型_代码库/outputs/modern_complete_reference_20261114/scored_rows/categorical_tuned_raw.json",
+      "bytes": 618282,
+      "sha256": "fba9cd73f3c21efb38494c2c55e7b696e43004103cfdd788b53908ad163868b2"
+    },
+    {
+      "path": "experiments/modern_complete_reference_20261114/scored_rows/complete_tuned_policy.json",
+      "source": "学区归属模型_代码库/outputs/modern_complete_reference_20261114/scored_rows/complete_tuned_policy.json",
+      "bytes": 691650,
+      "sha256": "f96263ea791d2de4ae325792f6395754f6c4a1e6c65e4bd48db18acc4414ae4b"
+    },
+    {
+      "path": "experiments/modern_complete_reference_20261114/scored_rows/complete_tuned_raw.json",
+      "source": "学区归属模型_代码库/outputs/modern_complete_reference_20261114/scored_rows/complete_tuned_raw.json",
+      "bytes": 682634,
+      "sha256": "a855dec2191b4fa1d271823edaec8c22741a35c939236b69959366d34ccffd3e"
+    },
+    {
+      "path": "experiments/modern_complete_reference_20261114/scored_rows/nearest_policy.json",
+      "source": "学区归属模型_代码库/outputs/modern_complete_reference_20261114/scored_rows/nearest_policy.json",
+      "bytes": 692317,
+      "sha256": "0d1a9b5c4391770af0f86695de8c8c8325e6c499f29d473d0d51b3bfcce26714"
+    },
+    {
+      "path": "experiments/modern_complete_reference_20261114/scored_rows/nearest_raw.json",
+      "source": "学区归属模型_代码库/outputs/modern_complete_reference_20261114/scored_rows/nearest_raw.json",
+      "bytes": 681939,
+      "sha256": "d367ea912f6e3efadae124bde668802019d5f43ed644ee0075ab3b16be266642"
+    },
+    {
+      "path": "experiments/modern_complete_reference_20261114/selection.json",
+      "source": "学区归属模型_代码库/outputs/modern_complete_reference_20261114/selection.json",
+      "bytes": 8018,
+      "sha256": "94fb530fd134c36d7fe2e6dd23ac7d5cad48cc78901df779c57e34fc1383492e"
+    },
+    {
+      "path": "experiments/modern_complete_reference_20261114/selection_freeze.json",
+      "source": "学区归属模型_代码库/outputs/modern_complete_reference_20261114/selection_freeze.json",
+      "bytes": 171,
+      "sha256": "f6f6c18fed3f5628c02af3639162a43eeca65088710f7df0d61dc71f2a23f65b"
+    },
+    {
+      "path": "experiments/modern_complete_reference_20261114/复现说明.txt",
+      "source": "学区归属模型_代码库/outputs/modern_complete_reference_20261114/复现说明.txt",
+      "bytes": 1337,
+      "sha256": "3b5beb625515a68a8ed5d752bfa144d0177bf85020d5cb55167823b871f279fb"
+    },
+    {
+      "path": "experiments/modern_complete_reference_20261114/实验结论.txt",
+      "source": "学区归属模型_代码库/outputs/modern_complete_reference_20261114/实验结论.txt",
+      "bytes": 7900,
+      "sha256": "1e1589452d7323e4e0e36eec1e025b368b9cc7f248e1418cf5fbbe4f49a63f59"
     },
     {
       "path": "experiments/modern_conditional_admission_20261113/protocol.json",
@@ -194,6 +428,372 @@
       "source": "学区归属模型_代码库/outputs/modern_conditional_admission_hybrid_20261113/source_calibration.json"
     },
     {
+      "path": "experiments/modern_school_gap_reference_20261114/README.md",
+      "source": "publication_generated",
+      "bytes": 1679,
+      "sha256": "bf501a1d7a3de0dac9a4e39e32986078f6cfdff7a6c952edf16e5804f9750e7f"
+    },
+    {
+      "path": "experiments/modern_school_gap_reference_20261114/baseline_inventory.json",
+      "source": "学区归属模型_代码库/outputs/modern_school_gap_reference_20261114/baseline_inventory.json",
+      "bytes": 13579,
+      "sha256": "87829786f03510445701110626e128f31566945f9aa0dca7f4e2e0fbc9d8b156"
+    },
+    {
+      "path": "experiments/modern_school_gap_reference_20261114/budget_summary.json",
+      "source": "学区归属模型_代码库/outputs/modern_school_gap_reference_20261114/budget_summary.json",
+      "bytes": 4281,
+      "sha256": "a3800cf58f46f4fa097ad04e6a7ebc2fb25adaca69fa3c6d1fa5d6ef30d107f6"
+    },
+    {
+      "path": "experiments/modern_school_gap_reference_20261114/code_sha256.json",
+      "source": "学区归属模型_代码库/outputs/modern_school_gap_reference_20261114/code_sha256.json",
+      "bytes": 1424,
+      "sha256": "6cd88f61b93d40a6fea849f763093f4f1357ef90809f4b7cdac71225aeb6b91d"
+    },
+    {
+      "path": "experiments/modern_school_gap_reference_20261114/environment.json",
+      "source": "学区归属模型_代码库/outputs/modern_school_gap_reference_20261114/environment.json",
+      "bytes": 652,
+      "sha256": "2a494c8437ce2ee9071defccfb01c608a325eb2ebd9318d1fc349887505032a3"
+    },
+    {
+      "path": "experiments/modern_school_gap_reference_20261114/independent_audit.json",
+      "source": "学区归属模型_代码库/outputs/modern_school_gap_reference_20261114/independent_audit.json",
+      "bytes": 1331,
+      "sha256": "dbf8e05a0df385effaab9d304ffb0e4a008f3244202353927c960135f4e8cad2"
+    },
+    {
+      "path": "experiments/modern_school_gap_reference_20261114/input_audit.json",
+      "source": "学区归属模型_代码库/outputs/modern_school_gap_reference_20261114/input_audit.json",
+      "bytes": 1985,
+      "sha256": "f1412cbbcdf409f54d1e6b7c5ee9f01842ca60371773319d0157705c0ffe3938"
+    },
+    {
+      "path": "experiments/modern_school_gap_reference_20261114/inputs_sha256.json",
+      "source": "学区归属模型_代码库/outputs/modern_school_gap_reference_20261114/inputs_sha256.json",
+      "bytes": 11254,
+      "sha256": "55654bf88ea71fe334f5e65a94ad2172bcb4976f3efe74f869aee049be323d7f"
+    },
+    {
+      "path": "experiments/modern_school_gap_reference_20261114/nearest_provenance/1/龙华区.json",
+      "source": "学区归属模型_代码库/outputs/modern_school_gap_reference_20261114/nearest_provenance/1/龙华区.json",
+      "bytes": 76959,
+      "sha256": "594a21f0662c9ee2876953f8c06dbb91810a795dd576ecb22fb07368ca03aa56"
+    },
+    {
+      "path": "experiments/modern_school_gap_reference_20261114/nearest_provenance/1/龙岗区.json",
+      "source": "学区归属模型_代码库/outputs/modern_school_gap_reference_20261114/nearest_provenance/1/龙岗区.json",
+      "bytes": 105658,
+      "sha256": "fc7f7af4e46fd826887196c6cd83ab2d0769a55e1896a4f4748a3f0d4d199948"
+    },
+    {
+      "path": "experiments/modern_school_gap_reference_20261114/nearest_provenance/2/龙华区.json",
+      "source": "学区归属模型_代码库/outputs/modern_school_gap_reference_20261114/nearest_provenance/2/龙华区.json",
+      "bytes": 72732,
+      "sha256": "f10de9a664ab3b4ddc21780870609ec69a996452d33ba14e358aa33a14d95d37"
+    },
+    {
+      "path": "experiments/modern_school_gap_reference_20261114/nearest_provenance/2/龙岗区.json",
+      "source": "学区归属模型_代码库/outputs/modern_school_gap_reference_20261114/nearest_provenance/2/龙岗区.json",
+      "bytes": 98630,
+      "sha256": "90d446f275f63377598725e7dd634b8dd1ff79a8c029831dcabe2cd09297c767"
+    },
+    {
+      "path": "experiments/modern_school_gap_reference_20261114/nearest_provenance/3/龙华区.json",
+      "source": "学区归属模型_代码库/outputs/modern_school_gap_reference_20261114/nearest_provenance/3/龙华区.json",
+      "bytes": 67313,
+      "sha256": "c37f366f79fa9d80d7b56f15458a777a6b8617eb08fa06ed1df836499307f10d"
+    },
+    {
+      "path": "experiments/modern_school_gap_reference_20261114/nearest_provenance/3/龙岗区.json",
+      "source": "学区归属模型_代码库/outputs/modern_school_gap_reference_20261114/nearest_provenance/3/龙岗区.json",
+      "bytes": 92911,
+      "sha256": "3e3dc8a775783333be9bae08e05ce08496cba4f036454a4b40061c6145fc052a"
+    },
+    {
+      "path": "experiments/modern_school_gap_reference_20261114/post_score_coverage_diagnostic.json",
+      "source": "学区归属模型_代码库/outputs/modern_school_gap_reference_20261114/post_score_coverage_diagnostic.json",
+      "bytes": 19245,
+      "sha256": "911eec653c6085541ce88f2b7438a9d3d9c48ee709c5b802abfae9d9a95d3d87"
+    },
+    {
+      "path": "experiments/modern_school_gap_reference_20261114/prediction_freeze.json",
+      "source": "学区归属模型_代码库/outputs/modern_school_gap_reference_20261114/prediction_freeze.json",
+      "bytes": 5609,
+      "sha256": "bfffcd41e0040a474b4a13901287be09ededb65f41d34c2299d96f07c67e2381"
+    },
+    {
+      "path": "experiments/modern_school_gap_reference_20261114/protocol.json",
+      "source": "学区归属模型_代码库/outputs/modern_school_gap_reference_20261114/protocol.json",
+      "bytes": 3260,
+      "sha256": "f8fdc3f1b52227b391c3829220ced597e2cf2f58f7d9e74e0fe37c02669d1734"
+    },
+    {
+      "path": "experiments/modern_school_gap_reference_20261114/protocol_freeze.json",
+      "source": "学区归属模型_代码库/outputs/modern_school_gap_reference_20261114/protocol_freeze.json",
+      "bytes": 481,
+      "sha256": "2448eaafc711966edaebe8b4013ce4a354718be0afc522a244d7bc707e05eec0"
+    },
+    {
+      "path": "experiments/modern_school_gap_reference_20261114/public_population.json",
+      "source": "学区归属模型_代码库/outputs/modern_school_gap_reference_20261114/public_population.json",
+      "bytes": 810370,
+      "sha256": "b4c53c5482fb5ca30342f95d406c2743feb2cbb35805175de70204b7ea5f035c"
+    },
+    {
+      "path": "experiments/modern_school_gap_reference_20261114/released_plans.json",
+      "source": "学区归属模型_代码库/outputs/modern_school_gap_reference_20261114/released_plans.json",
+      "bytes": 1837429,
+      "sha256": "0ced43e9e9f24ccb07f2f83d4791eb5196614c799a6b2f9d5ac73a768c9108f2"
+    },
+    {
+      "path": "experiments/modern_school_gap_reference_20261114/results.json",
+      "source": "学区归属模型_代码库/outputs/modern_school_gap_reference_20261114/results.json",
+      "bytes": 120076,
+      "sha256": "fb803737d00e871981709bece8520d9e1fabdd2284bf87be0aca2137457fd90f"
+    },
+    {
+      "path": "experiments/modern_school_gap_reference_20261114/scored_rows/1/complete_tuned_policy.json",
+      "source": "学区归属模型_代码库/outputs/modern_school_gap_reference_20261114/scored_rows/1/complete_tuned_policy.json",
+      "bytes": 717018,
+      "sha256": "7d5fcb32644457cc7ececced1ede995af7f3ee95df9e07d9fb06a8fd29e5d519"
+    },
+    {
+      "path": "experiments/modern_school_gap_reference_20261114/scored_rows/1/complete_tuned_raw.json",
+      "source": "学区归属模型_代码库/outputs/modern_school_gap_reference_20261114/scored_rows/1/complete_tuned_raw.json",
+      "bytes": 714904,
+      "sha256": "684d7a741a738e9dd71997a6e394e01d3b20f1bcc31fcbfdbc46acdad055efeb"
+    },
+    {
+      "path": "experiments/modern_school_gap_reference_20261114/scored_rows/1/complete_with_fallback_policy.json",
+      "source": "学区归属模型_代码库/outputs/modern_school_gap_reference_20261114/scored_rows/1/complete_with_fallback_policy.json",
+      "bytes": 681802,
+      "sha256": "39cbd50a7358a36bb1b8226564fc3f4187f3c6fe72a090e978b9587fa35f19e5"
+    },
+    {
+      "path": "experiments/modern_school_gap_reference_20261114/scored_rows/1/complete_with_fallback_raw.json",
+      "source": "学区归属模型_代码库/outputs/modern_school_gap_reference_20261114/scored_rows/1/complete_with_fallback_raw.json",
+      "bytes": 646011,
+      "sha256": "d61366f601a3d409110e69d3ff665f84d83cc3adb017dec4f618eee98713e716"
+    },
+    {
+      "path": "experiments/modern_school_gap_reference_20261114/scored_rows/1/modern_frozen_policy.json",
+      "source": "学区归属模型_代码库/outputs/modern_school_gap_reference_20261114/scored_rows/1/modern_frozen_policy.json",
+      "bytes": 682522,
+      "sha256": "ccec5255351694d6e1bebb868b995c8e2fd9b42f41ca2cf14ec1d10e386e490d"
+    },
+    {
+      "path": "experiments/modern_school_gap_reference_20261114/scored_rows/1/modern_frozen_raw.json",
+      "source": "学区归属模型_代码库/outputs/modern_school_gap_reference_20261114/scored_rows/1/modern_frozen_raw.json",
+      "bytes": 646076,
+      "sha256": "fb8a4e27dc6c0f524320c43d64a310a3fa157e19c62fbf6ff9a7859aabf454e5"
+    },
+    {
+      "path": "experiments/modern_school_gap_reference_20261114/scored_rows/1/modern_tuned_policy.json",
+      "source": "学区归属模型_代码库/outputs/modern_school_gap_reference_20261114/scored_rows/1/modern_tuned_policy.json",
+      "bytes": 681802,
+      "sha256": "39cbd50a7358a36bb1b8226564fc3f4187f3c6fe72a090e978b9587fa35f19e5"
+    },
+    {
+      "path": "experiments/modern_school_gap_reference_20261114/scored_rows/1/modern_tuned_raw.json",
+      "source": "学区归属模型_代码库/outputs/modern_school_gap_reference_20261114/scored_rows/1/modern_tuned_raw.json",
+      "bytes": 646011,
+      "sha256": "d61366f601a3d409110e69d3ff665f84d83cc3adb017dec4f618eee98713e716"
+    },
+    {
+      "path": "experiments/modern_school_gap_reference_20261114/scored_rows/1/nearest_policy.json",
+      "source": "学区归属模型_代码库/outputs/modern_school_gap_reference_20261114/scored_rows/1/nearest_policy.json",
+      "bytes": 718578,
+      "sha256": "c66a2f6ecfa0dbf6911a9a5eb3cea10cfc19bcf99f1d04e072058edcb1b77837"
+    },
+    {
+      "path": "experiments/modern_school_gap_reference_20261114/scored_rows/1/nearest_raw.json",
+      "source": "学区归属模型_代码库/outputs/modern_school_gap_reference_20261114/scored_rows/1/nearest_raw.json",
+      "bytes": 716216,
+      "sha256": "b208f77a263e087cd0225b44b105b4a3ed29525e8212ce6f6e6fe02b0f6dc141"
+    },
+    {
+      "path": "experiments/modern_school_gap_reference_20261114/scored_rows/2/complete_tuned_policy.json",
+      "source": "学区归属模型_代码库/outputs/modern_school_gap_reference_20261114/scored_rows/2/complete_tuned_policy.json",
+      "bytes": 671217,
+      "sha256": "6dbbfb4ac4cec3a9bcba476c2a8480be28263cc74187e51bea7a29ed2b7455b8"
+    },
+    {
+      "path": "experiments/modern_school_gap_reference_20261114/scored_rows/2/complete_tuned_raw.json",
+      "source": "学区归属模型_代码库/outputs/modern_school_gap_reference_20261114/scored_rows/2/complete_tuned_raw.json",
+      "bytes": 667948,
+      "sha256": "e722166045477a25d472a6a8bc6184cbae01bac30dc890d74381865168b7aa13"
+    },
+    {
+      "path": "experiments/modern_school_gap_reference_20261114/scored_rows/2/complete_with_fallback_policy.json",
+      "source": "学区归属模型_代码库/outputs/modern_school_gap_reference_20261114/scored_rows/2/complete_with_fallback_policy.json",
+      "bytes": 643235,
+      "sha256": "f66bfa694f48863f57f178f799cac9d0774ac24fd831d5d145c9aec0e545e9c2"
+    },
+    {
+      "path": "experiments/modern_school_gap_reference_20261114/scored_rows/2/complete_with_fallback_raw.json",
+      "source": "学区归属模型_代码库/outputs/modern_school_gap_reference_20261114/scored_rows/2/complete_with_fallback_raw.json",
+      "bytes": 609908,
+      "sha256": "49f0b9417792c2ffb2279b33f8e38805b837cb5856703df2660955be10c18931"
+    },
+    {
+      "path": "experiments/modern_school_gap_reference_20261114/scored_rows/2/modern_frozen_policy.json",
+      "source": "学区归属模型_代码库/outputs/modern_school_gap_reference_20261114/scored_rows/2/modern_frozen_policy.json",
+      "bytes": 641521,
+      "sha256": "f64d0e62028f6bb74ff0142bd98ac39d0fc8db72f40dacc7180d909830b8e69e"
+    },
+    {
+      "path": "experiments/modern_school_gap_reference_20261114/scored_rows/2/modern_frozen_raw.json",
+      "source": "学区归属模型_代码库/outputs/modern_school_gap_reference_20261114/scored_rows/2/modern_frozen_raw.json",
+      "bytes": 606551,
+      "sha256": "73c12174576ed755a9c42e11e419596f2ecfa0980394b8df6448cea3baa02645"
+    },
+    {
+      "path": "experiments/modern_school_gap_reference_20261114/scored_rows/2/modern_tuned_policy.json",
+      "source": "学区归属模型_代码库/outputs/modern_school_gap_reference_20261114/scored_rows/2/modern_tuned_policy.json",
+      "bytes": 640714,
+      "sha256": "ce1052162a4c187cd7ca6dc804ae24c9bb56b620e13a4aa68b6929eba6be4b8a"
+    },
+    {
+      "path": "experiments/modern_school_gap_reference_20261114/scored_rows/2/modern_tuned_raw.json",
+      "source": "学区归属模型_代码库/outputs/modern_school_gap_reference_20261114/scored_rows/2/modern_tuned_raw.json",
+      "bytes": 606461,
+      "sha256": "0b02109ebded8fc0885036d9d73e7b8792e8a132d4cfe5accc1e11b060a7a28d"
+    },
+    {
+      "path": "experiments/modern_school_gap_reference_20261114/scored_rows/2/nearest_policy.json",
+      "source": "学区归属模型_代码库/outputs/modern_school_gap_reference_20261114/scored_rows/2/nearest_policy.json",
+      "bytes": 671477,
+      "sha256": "afcfedb294f0b07518e41505c468d8027535371fdec5d056709f78e8b64bfcbb"
+    },
+    {
+      "path": "experiments/modern_school_gap_reference_20261114/scored_rows/2/nearest_raw.json",
+      "source": "学区归属模型_代码库/outputs/modern_school_gap_reference_20261114/scored_rows/2/nearest_raw.json",
+      "bytes": 667958,
+      "sha256": "0b14ce0d1045069f8dae986800ddc20b665650dceb99909a6f6da2a40034a124"
+    },
+    {
+      "path": "experiments/modern_school_gap_reference_20261114/scored_rows/3/complete_tuned_policy.json",
+      "source": "学区归属模型_代码库/outputs/modern_school_gap_reference_20261114/scored_rows/3/complete_tuned_policy.json",
+      "bytes": 634820,
+      "sha256": "f1f455d46dd747887190b5a125afcd157ff5bdae5270803dea98c1ecbe4fcb47"
+    },
+    {
+      "path": "experiments/modern_school_gap_reference_20261114/scored_rows/3/complete_tuned_raw.json",
+      "source": "学区归属模型_代码库/outputs/modern_school_gap_reference_20261114/scored_rows/3/complete_tuned_raw.json",
+      "bytes": 632045,
+      "sha256": "78bb3b5a60c6dd3938eaee269af33b919bf120ce7c066fa58a46a85a3737bed4"
+    },
+    {
+      "path": "experiments/modern_school_gap_reference_20261114/scored_rows/3/complete_with_fallback_policy.json",
+      "source": "学区归属模型_代码库/outputs/modern_school_gap_reference_20261114/scored_rows/3/complete_with_fallback_policy.json",
+      "bytes": 610482,
+      "sha256": "aac726d859e3bf842330b26c5217e166018eab99c18941ea9c8d4761e5a7f796"
+    },
+    {
+      "path": "experiments/modern_school_gap_reference_20261114/scored_rows/3/complete_with_fallback_raw.json",
+      "source": "学区归属模型_代码库/outputs/modern_school_gap_reference_20261114/scored_rows/3/complete_with_fallback_raw.json",
+      "bytes": 584148,
+      "sha256": "478fa8e9b74e58e4720b79555c6cf237d1108add65d270729444984b8c18adc7"
+    },
+    {
+      "path": "experiments/modern_school_gap_reference_20261114/scored_rows/3/modern_frozen_policy.json",
+      "source": "学区归属模型_代码库/outputs/modern_school_gap_reference_20261114/scored_rows/3/modern_frozen_policy.json",
+      "bytes": 601738,
+      "sha256": "526c5bdd8c44ac5e79db1dfd6e56864baf6e7d6227c01b2dcc1565c404901f94"
+    },
+    {
+      "path": "experiments/modern_school_gap_reference_20261114/scored_rows/3/modern_frozen_raw.json",
+      "source": "学区归属模型_代码库/outputs/modern_school_gap_reference_20261114/scored_rows/3/modern_frozen_raw.json",
+      "bytes": 567795,
+      "sha256": "46c63dfd58502b5ca4a03c16639df2a97750dd0fc28cd35bc660578f61539a8c"
+    },
+    {
+      "path": "experiments/modern_school_gap_reference_20261114/scored_rows/3/modern_tuned_policy.json",
+      "source": "学区归属模型_代码库/outputs/modern_school_gap_reference_20261114/scored_rows/3/modern_tuned_policy.json",
+      "bytes": 601845,
+      "sha256": "a7dd5f8f267525f96747105e45dbaf7f451abf8d9ab3130184bebf87c560fa1d"
+    },
+    {
+      "path": "experiments/modern_school_gap_reference_20261114/scored_rows/3/modern_tuned_raw.json",
+      "source": "学区归属模型_代码库/outputs/modern_school_gap_reference_20261114/scored_rows/3/modern_tuned_raw.json",
+      "bytes": 567783,
+      "sha256": "3d8bddda1dc1d5175c824ed9bf8d6a0f02771118150547a02d3fef585d76eb21"
+    },
+    {
+      "path": "experiments/modern_school_gap_reference_20261114/scored_rows/3/nearest_policy.json",
+      "source": "学区归属模型_代码库/outputs/modern_school_gap_reference_20261114/scored_rows/3/nearest_policy.json",
+      "bytes": 633882,
+      "sha256": "72e6ab54b4238bc19fc19adf88674b8f03777f5cf0217a2f951a3c7a04d6b30b"
+    },
+    {
+      "path": "experiments/modern_school_gap_reference_20261114/scored_rows/3/nearest_raw.json",
+      "source": "学区归属模型_代码库/outputs/modern_school_gap_reference_20261114/scored_rows/3/nearest_raw.json",
+      "bytes": 631167,
+      "sha256": "0179f0027e069e40e0e4acfd8a0d4faad9f4fedf6a23861234cf93500d07af48"
+    },
+    {
+      "path": "experiments/modern_school_gap_reference_20261114/selection_freeze.json",
+      "source": "学区归属模型_代码库/outputs/modern_school_gap_reference_20261114/selection_freeze.json",
+      "bytes": 247,
+      "sha256": "90cab80bc778b916304beffb5d88c685e8d1b862505ffa0cfccf5aaab2c8c56c"
+    },
+    {
+      "path": "experiments/modern_school_gap_reference_20261114/training_freeze.json",
+      "source": "学区归属模型_代码库/outputs/modern_school_gap_reference_20261114/training_freeze.json",
+      "bytes": 169,
+      "sha256": "64be542a298bcaae81d0c9a36c7d6461d65410e92c29d9be701d83ea64a45d05"
+    },
+    {
+      "path": "experiments/modern_school_gap_reference_20261114/training_selection.json",
+      "source": "学区归属模型_代码库/outputs/modern_school_gap_reference_20261114/training_selection.json",
+      "bytes": 25342,
+      "sha256": "db5850668c79fc65c32e5dfa1696d82151b7683ee4ebd83f81c3ac791ec0e876"
+    },
+    {
+      "path": "experiments/modern_school_gap_reference_20261114/verified_partial_references.json",
+      "source": "学区归属模型_代码库/outputs/modern_school_gap_reference_20261114/verified_partial_references.json",
+      "bytes": 1411210,
+      "sha256": "483b21adf35b560e08427eca36c8d65f721ad4195d314cf32ea796745ba07f3b"
+    },
+    {
+      "path": "experiments/modern_school_gap_reference_20261114/zero_budget_control/prediction_freeze.json",
+      "source": "学区归属模型_代码库/outputs/modern_school_gap_reference_20261114/zero_budget_control/prediction_freeze.json",
+      "bytes": 209,
+      "sha256": "9fb1b326247b01e73be7ebe7b9f50e035a70fa32dca41782d10594497b7473af"
+    },
+    {
+      "path": "experiments/modern_school_gap_reference_20261114/zero_budget_control/protocol.json",
+      "source": "学区归属模型_代码库/outputs/modern_school_gap_reference_20261114/zero_budget_control/protocol.json",
+      "bytes": 258,
+      "sha256": "3ae0ab7f4e8fec43d1b0dd57dae5f8e96560cb22b280f90125ef10aa7398330e"
+    },
+    {
+      "path": "experiments/modern_school_gap_reference_20261114/zero_budget_control/results.json",
+      "source": "学区归属模型_代码库/outputs/modern_school_gap_reference_20261114/zero_budget_control/results.json",
+      "bytes": 591,
+      "sha256": "1f1965358e93392ce948d4b562ac064b0a353d3956b361aa53fc69594aca4d1c"
+    },
+    {
+      "path": "experiments/modern_school_gap_reference_20261114/zero_budget_control/scored_rows.json",
+      "source": "学区归属模型_代码库/outputs/modern_school_gap_reference_20261114/zero_budget_control/scored_rows.json",
+      "bytes": 487064,
+      "sha256": "1ac5f46c1624f87b026fc54cf95e2a00cccac83160eb9c00c26ced02f733c1fe"
+    },
+    {
+      "path": "experiments/modern_school_gap_reference_20261114/实验结论.txt",
+      "source": "学区归属模型_代码库/outputs/modern_school_gap_reference_20261114/实验结论.txt",
+      "bytes": 8600,
+      "sha256": "8eb099135cb494289212017899ce3c61699a8acab6bd20986ac7a124c525350e"
+    },
+    {
+      "path": "experiments/modern_school_gap_reference_20261114/逐校补缺与官方证据.json",
+      "source": "学区归属模型_代码库/outputs/modern_school_gap_reference_20261114/逐校补缺与官方证据.json",
+      "bytes": 1698617,
+      "sha256": "9928fadd112d3d706ee1c397da0737fd1b07157460ac24117b13e5d723d88410"
+    },
+    {
       "path": "experiments/modern_shared_school_prior_20261114/protocol.json",
       "bytes": 3186,
       "sha256": "8acd0a5767b2d5e7624e520c6d729bf0ead4f48b012d3874aae43866e493d252",
@@ -372,12 +972,6 @@
       "bytes": 7264,
       "sha256": "504d47523e955d94efe6778618b0a545dc8bf8437e3d24754a9d658a2eb75110",
       "source": "学区归属模型_代码库/outputs/modernnca_shenzhen_multilabel_20261113/结果与限制.txt"
-    },
-    {
-      "path": "experiments/README.md",
-      "bytes": 2026,
-      "sha256": "60c4284c22ee3db0d68136b401534ecf358427805d441d90b756dd0a790420b8",
-      "source": "publication_generated"
     },
     {
       "path": "experiments/shenzhen_aligned_model_20261111/protocol.json",
@@ -2024,6 +2618,12 @@
       "source": "科研推进/深圳跨路环境输入_20261026/设计与验收.txt"
     },
     {
+      "path": "models/school-zone/README.md",
+      "bytes": 1149,
+      "sha256": "763bfb6f11b87bdef06506569a9004f520b24aa59082a2ebb8954d524bb3137f",
+      "source": "学区归属模型_代码库/README.md"
+    },
+    {
       "path": "models/school-zone/configs/a_platform_list_input_20261106.json",
       "bytes": 1357,
       "sha256": "f64fd8a66f5f8d04e5d965f5245dda539e07d20147f6f1fa3e1cce9482d89567",
@@ -2396,12 +2996,6 @@
       "source": "学区归属模型_代码库/data/雨花区/observations/verified_multischool.json"
     },
     {
-      "path": "models/school-zone/README.md",
-      "bytes": 1149,
-      "sha256": "763bfb6f11b87bdef06506569a9004f520b24aa59082a2ebb8954d524bb3137f",
-      "source": "学区归属模型_代码库/README.md"
-    },
-    {
       "path": "models/school-zone/scripts/ablation_table.py",
       "bytes": 5282,
       "sha256": "8625e7a71d9875f155e81a7c03eb3b37e4e79fa350486b3e0b8a4dd0cf17d3f4",
@@ -2454,6 +3048,12 @@
       "bytes": 9486,
       "sha256": "0f2a9a072568ca08e6c3cb683e323397663d17e07f1ed7bd12c72b13e6085d69",
       "source": "学区归属模型_代码库/scripts/audit_hangzhou_community_methods.py"
+    },
+    {
+      "path": "models/school-zone/scripts/audit_modern_complete_reference.py",
+      "source": "学区归属模型_代码库/scripts/audit_modern_complete_reference.py",
+      "bytes": 2658,
+      "sha256": "7bb0877e71db661988fb684bb74d6072ae49dfa016b19f47c76a2e58b52ed6e9"
     },
     {
       "path": "models/school-zone/scripts/audit_modernnca_conditional_sets.py",
@@ -2532,6 +3132,12 @@
       "bytes": 4712,
       "sha256": "fa3d51d03d37bf4db33789a60d1de7582cf88114546f3c8d755e3308ed5d3420",
       "source": "学区归属模型_代码库/scripts/audit_reference_mechanisms.py"
+    },
+    {
+      "path": "models/school-zone/scripts/audit_school_gap_reference.py",
+      "source": "学区归属模型_代码库/scripts/audit_school_gap_reference.py",
+      "bytes": 3852,
+      "sha256": "324e5613b8525eea3b0136774b47d1506afd247fa2b0a499a688dbee9e67aa26"
     },
     {
       "path": "models/school-zone/scripts/audit_shenzhen_administrative_identity_intervention.py",
@@ -3098,6 +3704,12 @@
       "source": "学区归属模型_代码库/scripts/build_shenzhen_standard_dataset.py"
     },
     {
+      "path": "models/school-zone/scripts/check_school_gap_zero_budget.py",
+      "source": "学区归属模型_代码库/scripts/check_school_gap_zero_budget.py",
+      "bytes": 2103,
+      "sha256": "80d73f54517ff062dd0fbbb76514786759369273501ceefc439b1124cf9d07b3"
+    },
+    {
       "path": "models/school-zone/scripts/complete_full_evidence.py",
       "bytes": 1964,
       "sha256": "7acfead2b688a0b9d286599abf28ee483b4b26ef9e777b525b3ae533cc0310db",
@@ -3242,6 +3854,12 @@
       "source": "学区归属模型_代码库/scripts/experiment_hangzhou_community_methods.py"
     },
     {
+      "path": "models/school-zone/scripts/experiment_modern_complete_reference.py",
+      "source": "学区归属模型_代码库/scripts/experiment_modern_complete_reference.py",
+      "bytes": 25561,
+      "sha256": "68308fb0f1379fb6a9e6835d608e05e66a88535fbd4b7af7a3e0ebeae2fda03f"
+    },
+    {
       "path": "models/school-zone/scripts/experiment_modernnca_conditional_sets.py",
       "bytes": 18682,
       "sha256": "c1e86513bd89c230bee800364ed3d5e1da0c2f422c0f6887fdaffc7fb1f4091c",
@@ -3276,6 +3894,12 @@
       "bytes": 22854,
       "sha256": "5ada885c40d05ea040d7e50bbfdafc01750724b01693e027d3d38deef919f244",
       "source": "学区归属模型_代码库/scripts/experiment_modernnca_shenzhen_multilabel.py"
+    },
+    {
+      "path": "models/school-zone/scripts/experiment_school_gap_reference.py",
+      "source": "学区归属模型_代码库/scripts/experiment_school_gap_reference.py",
+      "bytes": 24882,
+      "sha256": "0bc60d0b7887f51f9fbe3ab14860d0cb10756667556e80a5ead3f5f6671d3708"
     },
     {
       "path": "models/school-zone/scripts/experiment_shared_school_prior.py",
@@ -3678,6 +4302,12 @@
       "bytes": 9968,
       "sha256": "d42bd14543b09ee001671c5d1040cf15bb6dee3f1c77a5a4c894d1745428c80c",
       "source": "学区归属模型_代码库/scripts/replay_changsha_sets.py"
+    },
+    {
+      "path": "models/school-zone/scripts/replay_modern_complete_reference.py",
+      "source": "学区归属模型_代码库/scripts/replay_modern_complete_reference.py",
+      "bytes": 5494,
+      "sha256": "79e6aa27a9ebe79f7e2f43307ee28632e074f4b26d98b8d9b500f11c87890355"
     },
     {
       "path": "models/school-zone/scripts/report_conditional_admission.py",
@@ -4322,6 +4952,12 @@
       "source": "学区归属模型_代码库/tests/test_modernnca_calibration.py"
     },
     {
+      "path": "models/school-zone/tests/test_modernnca_complete_reference.py",
+      "source": "学区归属模型_代码库/tests/test_modernnca_complete_reference.py",
+      "bytes": 1759,
+      "sha256": "b8fa0fb8eec7a28cda411777056dc608fa2fa50e2d94f3e7ebaf10e5c4808aba"
+    },
+    {
       "path": "models/school-zone/tests/test_modernnca_evidence_v2.py",
       "bytes": 1165,
       "sha256": "aa9c00498d2da72712f9524622f3886c6bd66d765c44ecb68715492db25116d9",
@@ -4392,6 +5028,12 @@
       "bytes": 1673,
       "sha256": "8bb9927842f1638df694d16605aee5b4778b54885fcf41961cbc2c1f4217c0ce",
       "source": "学区归属模型_代码库/tests/test_partial_set_learning.py"
+    },
+    {
+      "path": "models/school-zone/tests/test_school_gap_reference.py",
+      "source": "学区归属模型_代码库/tests/test_school_gap_reference.py",
+      "bytes": 1034,
+      "sha256": "918373422d414bf38edd93b1778a2c46e4ac7c080da60f13eaf4ec8c5a198344"
     },
     {
       "path": "models/school-zone/tests/test_school_membership_trees.py",
@@ -4664,10 +5306,34 @@
       "source": "学区归属模型_代码库/tests/test_shenzhen_zlpr.py"
     },
     {
+      "path": "models/school-zone/third_party/LICENSE",
+      "source": "学区归属模型_代码库/third_party/LICENSE",
+      "bytes": 1101,
+      "sha256": "93cf90600c386cb5719779090fbc37080d5833eeec8d1f66cc370ba48af2d422"
+    },
+    {
       "path": "models/school-zone/third_party/README.txt",
       "bytes": 354,
       "sha256": "8c23186fb7e9a05561508dd620680bc1348c89e27e5cefe14f16260267e88e02",
       "source": "学区归属模型_代码库/third_party/README.txt"
+    },
+    {
+      "path": "models/school-zone/third_party/TALENT/model/lib/tabr/utils.py",
+      "bytes": 12259,
+      "sha256": "46f26474f559cdda4eda92c5d28d504905c3180ad0ead1bc3f296af72c74230b",
+      "source": "学区归属模型_代码库/third_party/TALENT/model/lib/tabr/utils.py"
+    },
+    {
+      "path": "models/school-zone/third_party/TALENT/model/methods/modernNCA.py",
+      "bytes": 15409,
+      "sha256": "608c85e94714718fd5690a8096890b6232f2da94d0c94d5489734278df112d3e",
+      "source": "学区归属模型_代码库/third_party/TALENT/model/methods/modernNCA.py"
+    },
+    {
+      "path": "models/school-zone/third_party/TALENT/model/models/modernNCA.py",
+      "bytes": 4470,
+      "sha256": "02fce6a107998ab7212774507998e77535f630fbf4ee328acf8519ad7c10632f",
+      "source": "学区归属模型_代码库/third_party/TALENT/model/models/modernNCA.py"
     },
     {
       "path": "models/school-zone/third_party/reference_cores/__init__.py",
@@ -4698,24 +5364,6 @@
       "bytes": 869,
       "sha256": "290fcc70991a7711d6fbec057a9c5a7192fa6b5c9da5845bdf0a95809992a637",
       "source": "学区归属模型_代码库/third_party/reference_cores/provenance.json"
-    },
-    {
-      "path": "models/school-zone/third_party/TALENT/model/lib/tabr/utils.py",
-      "bytes": 12259,
-      "sha256": "46f26474f559cdda4eda92c5d28d504905c3180ad0ead1bc3f296af72c74230b",
-      "source": "学区归属模型_代码库/third_party/TALENT/model/lib/tabr/utils.py"
-    },
-    {
-      "path": "models/school-zone/third_party/TALENT/model/methods/modernNCA.py",
-      "bytes": 15409,
-      "sha256": "608c85e94714718fd5690a8096890b6232f2da94d0c94d5489734278df112d3e",
-      "source": "学区归属模型_代码库/third_party/TALENT/model/methods/modernNCA.py"
-    },
-    {
-      "path": "models/school-zone/third_party/TALENT/model/models/modernNCA.py",
-      "bytes": 4470,
-      "sha256": "02fce6a107998ab7212774507998e77535f630fbf4ee328acf8519ad7c10632f",
-      "source": "学区归属模型_代码库/third_party/TALENT/model/models/modernNCA.py"
     },
     {
       "path": "models/school-zone/zoning/__init__.py",
@@ -4814,6 +5462,12 @@
       "source": "学区归属模型_代码库/zoning/model.py"
     },
     {
+      "path": "models/school-zone/zoning/modernnca_complete_reference.py",
+      "source": "学区归属模型_代码库/zoning/modernnca_complete_reference.py",
+      "bytes": 3256,
+      "sha256": "cf8f5ac0a349b2b4dccff35bc510e0bc72d2b0af286470ffdee538d1d1c54587"
+    },
+    {
       "path": "models/school-zone/zoning/modernnca_evidence_v2.py",
       "bytes": 1441,
       "sha256": "b5efeb99f827dfa4cb86e93370d402dcfb17ef3dfb6ec6d05d676fe715d282d4",
@@ -4910,6 +5564,12 @@
       "source": "学区归属模型_代码库/zoning/rules.py"
     },
     {
+      "path": "models/school-zone/zoning/school_gap_reference.py",
+      "source": "学区归属模型_代码库/zoning/school_gap_reference.py",
+      "bytes": 1758,
+      "sha256": "a698e87b8898ca6c8c18d65ceec997d670701be0772dc556da886e73cd0491fc"
+    },
+    {
       "path": "models/school-zone/zoning/scope_evidence_v2.py",
       "bytes": 4791,
       "sha256": "fb190ebabce9e9e8d144609eedfd2275599288ea7cc99ae67a98dd0a14fb8705",
@@ -4949,12 +5609,6 @@
       "path": "models/school-zone/原代码库说明.md",
       "bytes": 25074,
       "sha256": "a758fb1f63cc54752a0669bd0487ae4aae4c60e39823fb424d3165a7a14874b2",
-      "source": "publication_generated"
-    },
-    {
-      "path": "README.md",
-      "bytes": 2897,
-      "sha256": "5c4e3792fb5e90256dd595c2a77860f42dae6b69b0c3a4a05a2aadec5a5484b1",
       "source": "publication_generated"
     },
     {
@@ -5450,6 +6104,12 @@
       "source": "学区归属模型_代码库/data/深圳市/福田区/逐校文字.txt"
     },
     {
+      "path": "数据清单/参照实验成绩复核.json",
+      "source": "publication_generated",
+      "bytes": 10984,
+      "sha256": "f54601bc5196f24cf8604f4ab03857e2d2fc7e1a9cd9500027e83b86e5c2f200"
+    },
+    {
       "path": "数据清单/基础划片规则使用说明.txt",
       "bytes": 1171,
       "sha256": "e652019abf6d96e5df4bf07bd4723b418e91ad8bd2f1a16b4805697ee299e505",
@@ -5460,6 +6120,12 @@
       "bytes": 974,
       "sha256": "de1a9b78a64f77f77a5b3a682f4c8cb1e68fbcbe9e218e8b2f3fcaa03097911c",
       "source": "学区归属模型_代码库/data/深圳市/标准数据_20261111/基础划片规则执行汇总.json"
+    },
+    {
+      "path": "数据清单/成绩复核.json",
+      "source": "publication_generated",
+      "bytes": 2343,
+      "sha256": "f934ae27ab29bc86ce24ae840d29fc469dc473eec8999324e16f4a433101de30"
     },
     {
       "path": "数据清单/数据集清单.json",
@@ -5504,6 +6170,18 @@
       "source": "学区归属模型_代码库/data/深圳市/标准数据_20261111/龙华区/Gold/小区_学校Gold.txt"
     },
     {
+      "path": "龙华区/README.md",
+      "bytes": 686,
+      "sha256": "358cea513632314a385dc4d231428c74bf49662060c2f519614f5997bf77b56f",
+      "source": "publication_generated"
+    },
+    {
+      "path": "龙华区/README.txt",
+      "bytes": 569,
+      "sha256": "3f93e954ab2d83524131c4cffbb9a6422439185646f8422ad66452ae2bb02db9",
+      "source": "学区归属模型_代码库/data/深圳市/标准数据_20261111/龙华区/README.txt"
+    },
+    {
       "path": "龙华区/manifest.json",
       "bytes": 788,
       "sha256": "a0ecc6df199a45b1cb4472fd892b57f3c6d0db907ba5ef9a39248c44d714b4ae",
@@ -5520,18 +6198,6 @@
       "bytes": 628587,
       "sha256": "6c8ca8ca6524d4cb4794632e3a5bbdab5194edb5007c9b4949b3acc38c0a82bc",
       "source": "学区归属模型_代码库/data/深圳市/标准数据_20261111/龙华区/polygon与文字.json"
-    },
-    {
-      "path": "龙华区/README.md",
-      "bytes": 686,
-      "sha256": "358cea513632314a385dc4d231428c74bf49662060c2f519614f5997bf77b56f",
-      "source": "publication_generated"
-    },
-    {
-      "path": "龙华区/README.txt",
-      "bytes": 569,
-      "sha256": "3f93e954ab2d83524131c4cffbb9a6422439185646f8422ad66452ae2bb02db9",
-      "source": "学区归属模型_代码库/data/深圳市/标准数据_20261111/龙华区/README.txt"
     },
     {
       "path": "龙华区/schools.json",
@@ -5708,6 +6374,18 @@
       "source": "学区归属模型_代码库/data/深圳市/标准数据_20261111/龙岗区/Gold/小区_学校Gold.txt"
     },
     {
+      "path": "龙岗区/README.md",
+      "bytes": 688,
+      "sha256": "618e709737b04b7a942906965ff565753e49ef0ef098cfea2988e748973d3af7",
+      "source": "publication_generated"
+    },
+    {
+      "path": "龙岗区/README.txt",
+      "bytes": 573,
+      "sha256": "0219c379d07fdd2556cfaf6cd664a855296b4c9527a087cbbcb0471b37671920",
+      "source": "学区归属模型_代码库/data/深圳市/标准数据_20261111/龙岗区/README.txt"
+    },
+    {
       "path": "龙岗区/manifest.json",
       "bytes": 781,
       "sha256": "2650141a367823aa601e5e7c1d8f67d623c65fbb275925f64ba0f7b3a21999c0",
@@ -5724,18 +6402,6 @@
       "bytes": 2341902,
       "sha256": "b9d21cf90071d1b3e0d13d00acbf2f062c50a2d140185f9135f3bd8773baab7a",
       "source": "学区归属模型_代码库/data/深圳市/标准数据_20261111/龙岗区/polygon与文字.json"
-    },
-    {
-      "path": "龙岗区/README.md",
-      "bytes": 688,
-      "sha256": "618e709737b04b7a942906965ff565753e49ef0ef098cfea2988e748973d3af7",
-      "source": "publication_generated"
-    },
-    {
-      "path": "龙岗区/README.txt",
-      "bytes": 573,
-      "sha256": "0219c379d07fdd2556cfaf6cd664a855296b4c9527a087cbbcb0471b37671920",
-      "source": "学区归属模型_代码库/data/深圳市/标准数据_20261111/龙岗区/README.txt"
     },
     {
       "path": "龙岗区/schools.json",
@@ -5880,12 +6546,6 @@
       "bytes": 51484,
       "sha256": "7479eb1c94852a34b071e47776fa90eb41bd886da563f45970d2e226b3bec053",
       "source": "学区归属模型_代码库/data/深圳市/标准数据_20261111/龙岗区/逐校文字.txt"
-    },
-    {
-      "path": "models/school-zone/third_party/LICENSE",
-      "source": "学区归属模型_代码库/third_party/LICENSE",
-      "bytes": 1101,
-      "sha256": "93cf90600c386cb5719779090fbc37080d5833eeec8d1f66cc370ba48af2d422"
     }
   ],
   "public_copy_changes": [
@@ -5902,5 +6562,13 @@
       "reason": "publication adaptation or credential redaction"
     }
   ],
-  "excluded": "Training caches, binary weights, duplicate intermediate predictions; summaries retained for all selected rounds and scored rows retained for four latest experiment families."
+  "excluded": "Training caches, binary weights, duplicate intermediate predictions; summaries retained for all selected rounds and scored rows retained for four latest experiment families.",
+  "reference_trial_update": {
+    "families": [
+      "modern_complete_reference_20261114",
+      "modern_school_gap_reference_20261114"
+    ],
+    "scope": "Code, full simulated support plans, scored predictions, summaries and dependency-free rescoring; no model weights or feature caches.",
+    "label_boundary": "Gold simulation is explicit; existing partial proofs are not made complete for free."
+  }
 }

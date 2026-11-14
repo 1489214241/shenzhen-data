@@ -1,0 +1,1376 @@
+{
+  "1/龙华区": {
+    "categorical/20261231": {
+      "trials": [
+        {
+          "n": 7,
+          "correct": 3,
+          "fp": 5,
+          "step": 0
+        },
+        {
+          "n": 7,
+          "correct": 4,
+          "fp": 3,
+          "step": 20
+        },
+        {
+          "n": 7,
+          "correct": 5,
+          "fp": 2,
+          "step": 40
+        },
+        {
+          "n": 7,
+          "correct": 5,
+          "fp": 2,
+          "step": 80
+        }
+      ],
+      "chosen": {
+        "n": 7,
+        "correct": 5,
+        "fp": 2,
+        "step": 40
+      },
+      "usable_train": 26
+    },
+    "categorical/20261232": {
+      "trials": [
+        {
+          "n": 7,
+          "correct": 3,
+          "fp": 3,
+          "step": 0
+        },
+        {
+          "n": 7,
+          "correct": 5,
+          "fp": 0,
+          "step": 20
+        },
+        {
+          "n": 7,
+          "correct": 5,
+          "fp": 0,
+          "step": 40
+        },
+        {
+          "n": 7,
+          "correct": 5,
+          "fp": 0,
+          "step": 80
+        }
+      ],
+      "chosen": {
+        "n": 7,
+        "correct": 5,
+        "fp": 0,
+        "step": 20
+      },
+      "usable_train": 26
+    },
+    "categorical/20261233": {
+      "trials": [
+        {
+          "n": 7,
+          "correct": 2,
+          "fp": 9,
+          "step": 0
+        },
+        {
+          "n": 7,
+          "correct": 5,
+          "fp": 0,
+          "step": 20
+        },
+        {
+          "n": 7,
+          "correct": 5,
+          "fp": 0,
+          "step": 40
+        },
+        {
+          "n": 7,
+          "correct": 5,
+          "fp": 2,
+          "step": 80
+        }
+      ],
+      "chosen": {
+        "n": 7,
+        "correct": 5,
+        "fp": 0,
+        "step": 20
+      },
+      "usable_train": 26
+    },
+    "complete/20261231": {
+      "trials": [
+        {
+          "n": 7,
+          "correct": 0,
+          "fp": 11,
+          "step": 0
+        }
+      ],
+      "chosen": {
+        "n": 7,
+        "correct": 0,
+        "fp": 11,
+        "step": 0
+      },
+      "usable_train": 0
+    },
+    "complete/20261232": {
+      "trials": [
+        {
+          "n": 7,
+          "correct": 0,
+          "fp": 11,
+          "step": 0
+        }
+      ],
+      "chosen": {
+        "n": 7,
+        "correct": 0,
+        "fp": 11,
+        "step": 0
+      },
+      "usable_train": 0
+    },
+    "complete/20261233": {
+      "trials": [
+        {
+          "n": 7,
+          "correct": 0,
+          "fp": 11,
+          "step": 0
+        }
+      ],
+      "chosen": {
+        "n": 7,
+        "correct": 0,
+        "fp": 11,
+        "step": 0
+      },
+      "usable_train": 0
+    },
+    "fallback": {
+      "trials": [
+        {
+          "n": 7,
+          "correct": 5,
+          "fp": 0,
+          "distance_m": 0
+        },
+        {
+          "n": 7,
+          "correct": 4,
+          "fp": 2,
+          "distance_m": 300
+        },
+        {
+          "n": 7,
+          "correct": 3,
+          "fp": 3,
+          "distance_m": 600
+        },
+        {
+          "n": 7,
+          "correct": 2,
+          "fp": 7,
+          "distance_m": 1000
+        },
+        {
+          "n": 7,
+          "correct": 0,
+          "fp": 11,
+          "distance_m": 1000000000000.0
+        }
+      ],
+      "distance_m": 0
+    }
+  },
+  "1/龙岗区": {
+    "categorical/20261231": {
+      "trials": [
+        {
+          "n": 10,
+          "correct": 3,
+          "fp": 7,
+          "step": 0
+        },
+        {
+          "n": 10,
+          "correct": 4,
+          "fp": 3,
+          "step": 20
+        },
+        {
+          "n": 10,
+          "correct": 4,
+          "fp": 2,
+          "step": 40
+        },
+        {
+          "n": 10,
+          "correct": 4,
+          "fp": 2,
+          "step": 80
+        }
+      ],
+      "chosen": {
+        "n": 10,
+        "correct": 4,
+        "fp": 2,
+        "step": 40
+      },
+      "usable_train": 41
+    },
+    "categorical/20261232": {
+      "trials": [
+        {
+          "n": 10,
+          "correct": 3,
+          "fp": 6,
+          "step": 0
+        },
+        {
+          "n": 10,
+          "correct": 5,
+          "fp": 2,
+          "step": 20
+        },
+        {
+          "n": 10,
+          "correct": 4,
+          "fp": 2,
+          "step": 40
+        },
+        {
+          "n": 10,
+          "correct": 3,
+          "fp": 5,
+          "step": 80
+        }
+      ],
+      "chosen": {
+        "n": 10,
+        "correct": 5,
+        "fp": 2,
+        "step": 20
+      },
+      "usable_train": 41
+    },
+    "categorical/20261233": {
+      "trials": [
+        {
+          "n": 10,
+          "correct": 2,
+          "fp": 8,
+          "step": 0
+        },
+        {
+          "n": 10,
+          "correct": 3,
+          "fp": 4,
+          "step": 20
+        },
+        {
+          "n": 10,
+          "correct": 4,
+          "fp": 2,
+          "step": 40
+        },
+        {
+          "n": 10,
+          "correct": 4,
+          "fp": 3,
+          "step": 80
+        }
+      ],
+      "chosen": {
+        "n": 10,
+        "correct": 4,
+        "fp": 2,
+        "step": 40
+      },
+      "usable_train": 41
+    },
+    "complete/20261231": {
+      "trials": [
+        {
+          "n": 10,
+          "correct": 0,
+          "fp": 16,
+          "step": 0
+        }
+      ],
+      "chosen": {
+        "n": 10,
+        "correct": 0,
+        "fp": 16,
+        "step": 0
+      },
+      "usable_train": 0
+    },
+    "complete/20261232": {
+      "trials": [
+        {
+          "n": 10,
+          "correct": 0,
+          "fp": 15,
+          "step": 0
+        }
+      ],
+      "chosen": {
+        "n": 10,
+        "correct": 0,
+        "fp": 15,
+        "step": 0
+      },
+      "usable_train": 0
+    },
+    "complete/20261233": {
+      "trials": [
+        {
+          "n": 10,
+          "correct": 0,
+          "fp": 15,
+          "step": 0
+        }
+      ],
+      "chosen": {
+        "n": 10,
+        "correct": 0,
+        "fp": 15,
+        "step": 0
+      },
+      "usable_train": 0
+    },
+    "fallback": {
+      "trials": [
+        {
+          "n": 10,
+          "correct": 4,
+          "fp": 2,
+          "distance_m": 0
+        },
+        {
+          "n": 10,
+          "correct": 4,
+          "fp": 2,
+          "distance_m": 300
+        },
+        {
+          "n": 10,
+          "correct": 4,
+          "fp": 2,
+          "distance_m": 600
+        },
+        {
+          "n": 10,
+          "correct": 2,
+          "fp": 7,
+          "distance_m": 1000
+        },
+        {
+          "n": 10,
+          "correct": 0,
+          "fp": 14,
+          "distance_m": 1000000000000.0
+        }
+      ],
+      "distance_m": 0
+    }
+  },
+  "2/龙华区": {
+    "categorical/20261231": {
+      "trials": [
+        {
+          "n": 13,
+          "correct": 10,
+          "fp": 4,
+          "step": 0
+        },
+        {
+          "n": 13,
+          "correct": 9,
+          "fp": 5,
+          "step": 20
+        },
+        {
+          "n": 13,
+          "correct": 9,
+          "fp": 5,
+          "step": 40
+        },
+        {
+          "n": 13,
+          "correct": 10,
+          "fp": 3,
+          "step": 80
+        }
+      ],
+      "chosen": {
+        "n": 13,
+        "correct": 10,
+        "fp": 3,
+        "step": 80
+      },
+      "usable_train": 53
+    },
+    "categorical/20261232": {
+      "trials": [
+        {
+          "n": 13,
+          "correct": 10,
+          "fp": 4,
+          "step": 0
+        },
+        {
+          "n": 13,
+          "correct": 9,
+          "fp": 3,
+          "step": 20
+        },
+        {
+          "n": 13,
+          "correct": 9,
+          "fp": 3,
+          "step": 40
+        },
+        {
+          "n": 13,
+          "correct": 9,
+          "fp": 6,
+          "step": 80
+        }
+      ],
+      "chosen": {
+        "n": 13,
+        "correct": 10,
+        "fp": 4,
+        "step": 0
+      },
+      "usable_train": 53
+    },
+    "categorical/20261233": {
+      "trials": [
+        {
+          "n": 13,
+          "correct": 8,
+          "fp": 7,
+          "step": 0
+        },
+        {
+          "n": 13,
+          "correct": 8,
+          "fp": 5,
+          "step": 20
+        },
+        {
+          "n": 13,
+          "correct": 7,
+          "fp": 7,
+          "step": 40
+        },
+        {
+          "n": 13,
+          "correct": 8,
+          "fp": 5,
+          "step": 80
+        }
+      ],
+      "chosen": {
+        "n": 13,
+        "correct": 8,
+        "fp": 5,
+        "step": 20
+      },
+      "usable_train": 53
+    },
+    "complete/20261231": {
+      "trials": [
+        {
+          "n": 13,
+          "correct": 5,
+          "fp": 11,
+          "step": 0
+        },
+        {
+          "n": 13,
+          "correct": 5,
+          "fp": 12,
+          "step": 20
+        },
+        {
+          "n": 13,
+          "correct": 5,
+          "fp": 12,
+          "step": 40
+        },
+        {
+          "n": 13,
+          "correct": 6,
+          "fp": 10,
+          "step": 80
+        }
+      ],
+      "chosen": {
+        "n": 13,
+        "correct": 6,
+        "fp": 10,
+        "step": 80
+      },
+      "usable_train": 38
+    },
+    "complete/20261232": {
+      "trials": [
+        {
+          "n": 13,
+          "correct": 5,
+          "fp": 12,
+          "step": 0
+        },
+        {
+          "n": 13,
+          "correct": 5,
+          "fp": 12,
+          "step": 20
+        },
+        {
+          "n": 13,
+          "correct": 6,
+          "fp": 11,
+          "step": 40
+        },
+        {
+          "n": 13,
+          "correct": 6,
+          "fp": 10,
+          "step": 80
+        }
+      ],
+      "chosen": {
+        "n": 13,
+        "correct": 6,
+        "fp": 10,
+        "step": 80
+      },
+      "usable_train": 38
+    },
+    "complete/20261233": {
+      "trials": [
+        {
+          "n": 13,
+          "correct": 4,
+          "fp": 13,
+          "step": 0
+        },
+        {
+          "n": 13,
+          "correct": 5,
+          "fp": 12,
+          "step": 20
+        },
+        {
+          "n": 13,
+          "correct": 6,
+          "fp": 11,
+          "step": 40
+        },
+        {
+          "n": 13,
+          "correct": 6,
+          "fp": 10,
+          "step": 80
+        }
+      ],
+      "chosen": {
+        "n": 13,
+        "correct": 6,
+        "fp": 10,
+        "step": 80
+      },
+      "usable_train": 38
+    },
+    "fallback": {
+      "trials": [
+        {
+          "n": 13,
+          "correct": 10,
+          "fp": 4,
+          "distance_m": 0
+        },
+        {
+          "n": 13,
+          "correct": 9,
+          "fp": 6,
+          "distance_m": 300
+        },
+        {
+          "n": 13,
+          "correct": 7,
+          "fp": 8,
+          "distance_m": 600
+        },
+        {
+          "n": 13,
+          "correct": 8,
+          "fp": 7,
+          "distance_m": 1000
+        },
+        {
+          "n": 13,
+          "correct": 6,
+          "fp": 10,
+          "distance_m": 1000000000000.0
+        }
+      ],
+      "distance_m": 0
+    }
+  },
+  "2/龙岗区": {
+    "categorical/20261231": {
+      "trials": [
+        {
+          "n": 20,
+          "correct": 7,
+          "fp": 12,
+          "step": 0
+        },
+        {
+          "n": 20,
+          "correct": 11,
+          "fp": 7,
+          "step": 20
+        },
+        {
+          "n": 20,
+          "correct": 11,
+          "fp": 7,
+          "step": 40
+        },
+        {
+          "n": 20,
+          "correct": 12,
+          "fp": 6,
+          "step": 80
+        }
+      ],
+      "chosen": {
+        "n": 20,
+        "correct": 12,
+        "fp": 6,
+        "step": 80
+      },
+      "usable_train": 81
+    },
+    "categorical/20261232": {
+      "trials": [
+        {
+          "n": 20,
+          "correct": 9,
+          "fp": 10,
+          "step": 0
+        },
+        {
+          "n": 20,
+          "correct": 11,
+          "fp": 7,
+          "step": 20
+        },
+        {
+          "n": 20,
+          "correct": 12,
+          "fp": 6,
+          "step": 40
+        },
+        {
+          "n": 20,
+          "correct": 12,
+          "fp": 6,
+          "step": 80
+        }
+      ],
+      "chosen": {
+        "n": 20,
+        "correct": 12,
+        "fp": 6,
+        "step": 40
+      },
+      "usable_train": 81
+    },
+    "categorical/20261233": {
+      "trials": [
+        {
+          "n": 20,
+          "correct": 7,
+          "fp": 12,
+          "step": 0
+        },
+        {
+          "n": 20,
+          "correct": 11,
+          "fp": 7,
+          "step": 20
+        },
+        {
+          "n": 20,
+          "correct": 12,
+          "fp": 6,
+          "step": 40
+        },
+        {
+          "n": 20,
+          "correct": 12,
+          "fp": 6,
+          "step": 80
+        }
+      ],
+      "chosen": {
+        "n": 20,
+        "correct": 12,
+        "fp": 6,
+        "step": 40
+      },
+      "usable_train": 81
+    },
+    "complete/20261231": {
+      "trials": [
+        {
+          "n": 20,
+          "correct": 5,
+          "fp": 19,
+          "step": 0
+        },
+        {
+          "n": 20,
+          "correct": 5,
+          "fp": 20,
+          "step": 20
+        },
+        {
+          "n": 20,
+          "correct": 5,
+          "fp": 20,
+          "step": 40
+        },
+        {
+          "n": 20,
+          "correct": 5,
+          "fp": 20,
+          "step": 80
+        }
+      ],
+      "chosen": {
+        "n": 20,
+        "correct": 5,
+        "fp": 19,
+        "step": 0
+      },
+      "usable_train": 46
+    },
+    "complete/20261232": {
+      "trials": [
+        {
+          "n": 20,
+          "correct": 5,
+          "fp": 19,
+          "step": 0
+        },
+        {
+          "n": 20,
+          "correct": 5,
+          "fp": 20,
+          "step": 20
+        },
+        {
+          "n": 20,
+          "correct": 5,
+          "fp": 20,
+          "step": 40
+        },
+        {
+          "n": 20,
+          "correct": 5,
+          "fp": 20,
+          "step": 80
+        }
+      ],
+      "chosen": {
+        "n": 20,
+        "correct": 5,
+        "fp": 19,
+        "step": 0
+      },
+      "usable_train": 46
+    },
+    "complete/20261233": {
+      "trials": [
+        {
+          "n": 20,
+          "correct": 5,
+          "fp": 19,
+          "step": 0
+        },
+        {
+          "n": 20,
+          "correct": 5,
+          "fp": 20,
+          "step": 20
+        },
+        {
+          "n": 20,
+          "correct": 5,
+          "fp": 20,
+          "step": 40
+        },
+        {
+          "n": 20,
+          "correct": 5,
+          "fp": 20,
+          "step": 80
+        }
+      ],
+      "chosen": {
+        "n": 20,
+        "correct": 5,
+        "fp": 19,
+        "step": 0
+      },
+      "usable_train": 46
+    },
+    "fallback": {
+      "trials": [
+        {
+          "n": 20,
+          "correct": 12,
+          "fp": 6,
+          "distance_m": 0
+        },
+        {
+          "n": 20,
+          "correct": 14,
+          "fp": 6,
+          "distance_m": 300
+        },
+        {
+          "n": 20,
+          "correct": 13,
+          "fp": 7,
+          "distance_m": 600
+        },
+        {
+          "n": 20,
+          "correct": 10,
+          "fp": 10,
+          "distance_m": 1000
+        },
+        {
+          "n": 20,
+          "correct": 5,
+          "fp": 19,
+          "distance_m": 1000000000000.0
+        }
+      ],
+      "distance_m": 300
+    }
+  },
+  "3/龙华区": {
+    "categorical/20261231": {
+      "trials": [
+        {
+          "n": 20,
+          "correct": 14,
+          "fp": 4,
+          "step": 0
+        },
+        {
+          "n": 20,
+          "correct": 14,
+          "fp": 4,
+          "step": 20
+        },
+        {
+          "n": 20,
+          "correct": 13,
+          "fp": 6,
+          "step": 40
+        },
+        {
+          "n": 20,
+          "correct": 12,
+          "fp": 8,
+          "step": 80
+        }
+      ],
+      "chosen": {
+        "n": 20,
+        "correct": 14,
+        "fp": 4,
+        "step": 0
+      },
+      "usable_train": 81
+    },
+    "categorical/20261232": {
+      "trials": [
+        {
+          "n": 20,
+          "correct": 15,
+          "fp": 3,
+          "step": 0
+        },
+        {
+          "n": 20,
+          "correct": 13,
+          "fp": 6,
+          "step": 20
+        },
+        {
+          "n": 20,
+          "correct": 13,
+          "fp": 6,
+          "step": 40
+        },
+        {
+          "n": 20,
+          "correct": 12,
+          "fp": 5,
+          "step": 80
+        }
+      ],
+      "chosen": {
+        "n": 20,
+        "correct": 15,
+        "fp": 3,
+        "step": 0
+      },
+      "usable_train": 81
+    },
+    "categorical/20261233": {
+      "trials": [
+        {
+          "n": 20,
+          "correct": 14,
+          "fp": 4,
+          "step": 0
+        },
+        {
+          "n": 20,
+          "correct": 13,
+          "fp": 6,
+          "step": 20
+        },
+        {
+          "n": 20,
+          "correct": 12,
+          "fp": 5,
+          "step": 40
+        },
+        {
+          "n": 20,
+          "correct": 13,
+          "fp": 5,
+          "step": 80
+        }
+      ],
+      "chosen": {
+        "n": 20,
+        "correct": 14,
+        "fp": 4,
+        "step": 0
+      },
+      "usable_train": 81
+    },
+    "complete/20261231": {
+      "trials": [
+        {
+          "n": 20,
+          "correct": 12,
+          "fp": 11,
+          "step": 0
+        },
+        {
+          "n": 20,
+          "correct": 13,
+          "fp": 10,
+          "step": 20
+        },
+        {
+          "n": 20,
+          "correct": 13,
+          "fp": 10,
+          "step": 40
+        },
+        {
+          "n": 20,
+          "correct": 13,
+          "fp": 10,
+          "step": 80
+        }
+      ],
+      "chosen": {
+        "n": 20,
+        "correct": 13,
+        "fp": 10,
+        "step": 20
+      },
+      "usable_train": 73
+    },
+    "complete/20261232": {
+      "trials": [
+        {
+          "n": 20,
+          "correct": 11,
+          "fp": 12,
+          "step": 0
+        },
+        {
+          "n": 20,
+          "correct": 13,
+          "fp": 10,
+          "step": 20
+        },
+        {
+          "n": 20,
+          "correct": 13,
+          "fp": 10,
+          "step": 40
+        },
+        {
+          "n": 20,
+          "correct": 13,
+          "fp": 9,
+          "step": 80
+        }
+      ],
+      "chosen": {
+        "n": 20,
+        "correct": 13,
+        "fp": 9,
+        "step": 80
+      },
+      "usable_train": 73
+    },
+    "complete/20261233": {
+      "trials": [
+        {
+          "n": 20,
+          "correct": 12,
+          "fp": 11,
+          "step": 0
+        },
+        {
+          "n": 20,
+          "correct": 13,
+          "fp": 10,
+          "step": 20
+        },
+        {
+          "n": 20,
+          "correct": 13,
+          "fp": 9,
+          "step": 40
+        },
+        {
+          "n": 20,
+          "correct": 13,
+          "fp": 9,
+          "step": 80
+        }
+      ],
+      "chosen": {
+        "n": 20,
+        "correct": 13,
+        "fp": 9,
+        "step": 40
+      },
+      "usable_train": 73
+    },
+    "fallback": {
+      "trials": [
+        {
+          "n": 20,
+          "correct": 14,
+          "fp": 4,
+          "distance_m": 0
+        },
+        {
+          "n": 20,
+          "correct": 15,
+          "fp": 4,
+          "distance_m": 300
+        },
+        {
+          "n": 20,
+          "correct": 13,
+          "fp": 9,
+          "distance_m": 600
+        },
+        {
+          "n": 20,
+          "correct": 13,
+          "fp": 10,
+          "distance_m": 1000
+        },
+        {
+          "n": 20,
+          "correct": 13,
+          "fp": 10,
+          "distance_m": 1000000000000.0
+        }
+      ],
+      "distance_m": 300
+    }
+  },
+  "3/龙岗区": {
+    "categorical/20261231": {
+      "trials": [
+        {
+          "n": 31,
+          "correct": 19,
+          "fp": 10,
+          "step": 0
+        },
+        {
+          "n": 31,
+          "correct": 21,
+          "fp": 8,
+          "step": 20
+        },
+        {
+          "n": 31,
+          "correct": 22,
+          "fp": 4,
+          "step": 40
+        },
+        {
+          "n": 31,
+          "correct": 21,
+          "fp": 4,
+          "step": 80
+        }
+      ],
+      "chosen": {
+        "n": 31,
+        "correct": 22,
+        "fp": 4,
+        "step": 40
+      },
+      "usable_train": 123
+    },
+    "categorical/20261232": {
+      "trials": [
+        {
+          "n": 31,
+          "correct": 20,
+          "fp": 8,
+          "step": 0
+        },
+        {
+          "n": 31,
+          "correct": 22,
+          "fp": 4,
+          "step": 20
+        },
+        {
+          "n": 31,
+          "correct": 20,
+          "fp": 7,
+          "step": 40
+        },
+        {
+          "n": 31,
+          "correct": 21,
+          "fp": 6,
+          "step": 80
+        }
+      ],
+      "chosen": {
+        "n": 31,
+        "correct": 22,
+        "fp": 4,
+        "step": 20
+      },
+      "usable_train": 123
+    },
+    "categorical/20261233": {
+      "trials": [
+        {
+          "n": 31,
+          "correct": 18,
+          "fp": 12,
+          "step": 0
+        },
+        {
+          "n": 31,
+          "correct": 22,
+          "fp": 6,
+          "step": 20
+        },
+        {
+          "n": 31,
+          "correct": 21,
+          "fp": 4,
+          "step": 40
+        },
+        {
+          "n": 31,
+          "correct": 22,
+          "fp": 3,
+          "step": 80
+        }
+      ],
+      "chosen": {
+        "n": 31,
+        "correct": 22,
+        "fp": 3,
+        "step": 80
+      },
+      "usable_train": 123
+    },
+    "complete/20261231": {
+      "trials": [
+        {
+          "n": 31,
+          "correct": 15,
+          "fp": 20,
+          "step": 0
+        },
+        {
+          "n": 31,
+          "correct": 16,
+          "fp": 19,
+          "step": 20
+        },
+        {
+          "n": 31,
+          "correct": 16,
+          "fp": 19,
+          "step": 40
+        },
+        {
+          "n": 31,
+          "correct": 16,
+          "fp": 19,
+          "step": 80
+        }
+      ],
+      "chosen": {
+        "n": 31,
+        "correct": 16,
+        "fp": 19,
+        "step": 20
+      },
+      "usable_train": 76
+    },
+    "complete/20261232": {
+      "trials": [
+        {
+          "n": 31,
+          "correct": 15,
+          "fp": 21,
+          "step": 0
+        },
+        {
+          "n": 31,
+          "correct": 16,
+          "fp": 19,
+          "step": 20
+        },
+        {
+          "n": 31,
+          "correct": 16,
+          "fp": 19,
+          "step": 40
+        },
+        {
+          "n": 31,
+          "correct": 16,
+          "fp": 19,
+          "step": 80
+        }
+      ],
+      "chosen": {
+        "n": 31,
+        "correct": 16,
+        "fp": 19,
+        "step": 20
+      },
+      "usable_train": 76
+    },
+    "complete/20261233": {
+      "trials": [
+        {
+          "n": 31,
+          "correct": 15,
+          "fp": 21,
+          "step": 0
+        },
+        {
+          "n": 31,
+          "correct": 16,
+          "fp": 19,
+          "step": 20
+        },
+        {
+          "n": 31,
+          "correct": 16,
+          "fp": 19,
+          "step": 40
+        },
+        {
+          "n": 31,
+          "correct": 17,
+          "fp": 18,
+          "step": 80
+        }
+      ],
+      "chosen": {
+        "n": 31,
+        "correct": 17,
+        "fp": 18,
+        "step": 80
+      },
+      "usable_train": 76
+    },
+    "fallback": {
+      "trials": [
+        {
+          "n": 31,
+          "correct": 22,
+          "fp": 4,
+          "distance_m": 0
+        },
+        {
+          "n": 31,
+          "correct": 23,
+          "fp": 5,
+          "distance_m": 300
+        },
+        {
+          "n": 31,
+          "correct": 21,
+          "fp": 7,
+          "distance_m": 600
+        },
+        {
+          "n": 31,
+          "correct": 19,
+          "fp": 11,
+          "distance_m": 1000
+        },
+        {
+          "n": 31,
+          "correct": 16,
+          "fp": 19,
+          "distance_m": 1000000000000.0
+        }
+      ],
+      "distance_m": 300
+    }
+  }
+}

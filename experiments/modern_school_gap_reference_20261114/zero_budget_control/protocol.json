@@ -1,0 +1,8 @@
+{
+  "post_primary_diagnostic": true,
+  "new_labels": 0,
+  "new_training": 0,
+  "new_selection": false,
+  "same_common_queries": true,
+  "baseline": "Same pretrained Modern ensemble and all existing partial references; no newly verified full sets."
+}
