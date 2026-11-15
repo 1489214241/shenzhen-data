@@ -1,0 +1,7100 @@
+[
+  {
+    "row_index": 0,
+    "source_row_index": 4863,
+    "building_id": "fdc:sz:4863",
+    "building_name": "光明1号",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.935798,
+      22.740888
+    ],
+    "coordinates_bd09": [
+      113.935798,
+      22.740888
+    ],
+    "coordinates_wgs84": [
+      113.92436125485818,
+      22.73818179116172
+    ],
+    "coordinate_group_id": "bd09:acc19eec840920d56283a282",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "光明1号",
+      "房屋总数": 2162,
+      "建成年代": "2015",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.935798,
+          22.740888
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 1,
+    "source_row_index": 4870,
+    "building_id": "fdc:sz:4870",
+    "building_name": "天汇时代花园一期",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.902269,
+      22.779286
+    ],
+    "coordinates_bd09": [
+      113.902269,
+      22.779286
+    ],
+    "coordinates_wgs84": [
+      113.89094420531968,
+      22.77606031353339
+    ],
+    "coordinate_group_id": "bd09:2f6f29d8d9f765e461531f24",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "天汇时代花园一期",
+      "房屋总数": 1540,
+      "建成年代": "2016",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.902269,
+          22.779286
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 2,
+    "source_row_index": 4877,
+    "building_id": "fdc:sz:4877",
+    "building_name": "龙光玖龙台一期",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.941387,
+      22.751391
+    ],
+    "coordinates_bd09": [
+      113.941387,
+      22.751391
+    ],
+    "coordinates_wgs84": [
+      113.92994938969761,
+      22.748717525959005
+    ],
+    "coordinate_group_id": "bd09:8436525730d77d9862cb02a7",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "龙光玖龙台一期",
+      "房屋总数": 2134,
+      "建成年代": "2017",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.941387,
+          22.751391
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 3,
+    "source_row_index": 4879,
+    "building_id": "fdc:sz:4879",
+    "building_name": "奥园和平广场",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.904964,
+      22.771239
+    ],
+    "coordinates_bd09": [
+      113.904964,
+      22.771239
+    ],
+    "coordinates_wgs84": [
+      113.89363493649734,
+      22.768054592697357
+    ],
+    "coordinate_group_id": "bd09:afe98c94cc486847d4850c80",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "奥园和平广场",
+      "房屋总数": 2479,
+      "建成年代": "2016",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.904964,
+          22.771239
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 4,
+    "source_row_index": 4881,
+    "building_id": "fdc:sz:4881",
+    "building_name": "福盈中央山",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.905425,
+      22.782801
+    ],
+    "coordinates_bd09": [
+      113.905425,
+      22.782801
+    ],
+    "coordinates_wgs84": [
+      113.8940937179542,
+      22.77961966361251
+    ],
+    "coordinate_group_id": "bd09:7c08de815fac9977779d214b",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "福盈中央山",
+      "房屋总数": 1201,
+      "建成年代": "2015",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.905425,
+          22.782801
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 5,
+    "source_row_index": 4884,
+    "building_id": "fdc:sz:4884",
+    "building_name": "宏发嘉域",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.883606,
+      22.788435
+    ],
+    "coordinates_bd09": [
+      113.883606,
+      22.788435
+    ],
+    "coordinates_wgs84": [
+      113.8722686043041,
+      22.785084165434903
+    ],
+    "coordinate_group_id": "bd09:269523da7c4f805cbfff310a",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "宏发嘉域",
+      "房屋总数": 1396,
+      "建成年代": "2004",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.883606,
+          22.788435
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 6,
+    "source_row_index": 4887,
+    "building_id": "fdc:sz:4887",
+    "building_name": "新地中央花园",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.949734,
+      22.766312
+    ],
+    "coordinates_bd09": [
+      113.949734,
+      22.766312
+    ],
+    "coordinates_wgs84": [
+      113.93829872767854,
+      22.763631533875834
+    ],
+    "coordinate_group_id": "bd09:71ab697deb79c100e82496d0",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "新地中央花园",
+      "房屋总数": 1772,
+      "建成年代": "2010",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.949734,
+          22.766312
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 7,
+    "source_row_index": 4889,
+    "building_id": "fdc:sz:4889",
+    "building_name": "正兆景嘉园",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.926509,
+      22.775751
+    ],
+    "coordinates_bd09": [
+      113.926509,
+      22.775751
+    ],
+    "coordinates_wgs84": [
+      113.91511981817598,
+      22.77292777559128
+    ],
+    "coordinate_group_id": "bd09:519291183ff01bb44ebdc426",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "正兆景嘉园",
+      "房屋总数": 797,
+      "建成年代": "2014",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.926509,
+          22.775751
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 8,
+    "source_row_index": 4892,
+    "building_id": "fdc:sz:4892",
+    "building_name": "中粮云景花园南区",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.894051,
+      22.782127
+    ],
+    "coordinates_bd09": [
+      113.894051,
+      22.782127
+    ],
+    "coordinates_wgs84": [
+      113.88273075244248,
+      22.778811481087857
+    ],
+    "coordinate_group_id": "bd09:b88acecd39cebb236d386f42",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "中粮云景花园南区",
+      "房屋总数": 1344,
+      "建成年代": "2017",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.894051,
+          22.782127
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 9,
+    "source_row_index": 4895,
+    "building_id": "fdc:sz:4895",
+    "building_name": "益田假日府邸",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.911064,
+      22.771866
+    ],
+    "coordinates_bd09": [
+      113.911064,
+      22.771866
+    ],
+    "coordinates_wgs84": [
+      113.89972118167324,
+      22.768780869348653
+    ],
+    "coordinate_group_id": "bd09:c926e66e122e11d0507a145c",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "益田假日府邸",
+      "房屋总数": 580,
+      "建成年代": "2014",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.911064,
+          22.771866
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 10,
+    "source_row_index": 4898,
+    "building_id": "fdc:sz:4898",
+    "building_name": "中粮云景广场",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.894562,
+      22.783644
+    ],
+    "coordinates_bd09": [
+      113.894562,
+      22.783644
+    ],
+    "coordinates_wgs84": [
+      113.88324116670321,
+      22.78033189222949
+    ],
+    "coordinate_group_id": "bd09:500d9ce39fa450207d6f005e",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "中粮云景广场",
+      "房屋总数": 3154,
+      "建成年代": "2015",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.894562,
+          22.783644
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 11,
+    "source_row_index": 4901,
+    "building_id": "fdc:sz:4901",
+    "building_name": "宏发上域",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.912954,
+      22.788037
+    ],
+    "coordinates_bd09": [
+      113.912954,
+      22.788037
+    ],
+    "coordinates_wgs84": [
+      113.90160171173099,
+      22.78497880620958
+    ],
+    "coordinate_group_id": "bd09:6cf311d86fa7f3a51bff6a6f",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "宏发上域",
+      "房屋总数": 1567,
+      "建成年代": "2010",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.912954,
+          22.788037
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 12,
+    "source_row_index": 4905,
+    "building_id": "fdc:sz:4905",
+    "building_name": "光明大第",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.950249,
+      22.747095
+    ],
+    "coordinates_bd09": [
+      113.950249,
+      22.747095
+    ],
+    "coordinates_wgs84": [
+      113.93879881255478,
+      22.744414839579456
+    ],
+    "coordinate_group_id": "bd09:3818b12702b267f0f70bc4c3",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "光明大第",
+      "房屋总数": 1084,
+      "建成年代": "2006",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.950249,
+          22.747095
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 13,
+    "source_row_index": 4908,
+    "building_id": "fdc:sz:4908",
+    "building_name": "光明峰荟",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.904889,
+      22.771287
+    ],
+    "coordinates_bd09": [
+      113.904889,
+      22.771287
+    ],
+    "coordinates_wgs84": [
+      113.89356008495602,
+      22.76810145057296
+    ],
+    "coordinate_group_id": "bd09:c8ab67926f819690343e1f46",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "光明峰荟",
+      "房屋总数": 1330,
+      "建成年代": "2016",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.904889,
+          22.771287
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 14,
+    "source_row_index": 4911,
+    "building_id": "fdc:sz:4911",
+    "building_name": "宏发雍景城",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.912478,
+      22.785978
+    ],
+    "coordinates_bd09": [
+      113.912478,
+      22.785978
+    ],
+    "coordinates_wgs84": [
+      113.90112831845134,
+      22.78291237394763
+    ],
+    "coordinate_group_id": "bd09:e47f4a07fa9d1eb89b2511ac",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "宏发雍景城",
+      "房屋总数": 977,
+      "建成年代": "2004",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.912478,
+          22.785978
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 15,
+    "source_row_index": 4912,
+    "building_id": "fdc:sz:4912",
+    "building_name": "深房传麒山西区",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.94846,
+      22.749422
+    ],
+    "coordinates_bd09": [
+      113.94846,
+      22.749422
+    ],
+    "coordinates_wgs84": [
+      113.93701285518078,
+      22.746749206692147
+    ],
+    "coordinate_group_id": "bd09:33709e0ad551fb4eb5dd4172",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "深房传麒山西区",
+      "房屋总数": 700,
+      "建成年代": "2010",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.94846,
+          22.749422
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 16,
+    "source_row_index": 4915,
+    "building_id": "fdc:sz:4915",
+    "building_name": "宏发美域",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.914611,
+      22.782435
+    ],
+    "coordinates_bd09": [
+      113.914611,
+      22.782435
+    ],
+    "coordinates_wgs84": [
+      113.9032569876147,
+      22.779408509704066
+    ],
+    "coordinate_group_id": "bd09:b07c5e26ab9ec27550e74385",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "宏发美域",
+      "房屋总数": 623,
+      "建成年代": "2007",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.914611,
+          22.782435
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 17,
+    "source_row_index": 4918,
+    "building_id": "fdc:sz:4918",
+    "building_name": "深房传麒山东区",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.950846,
+      22.749432
+    ],
+    "coordinates_bd09": [
+      113.950846,
+      22.749432
+    ],
+    "coordinates_wgs84": [
+      113.93939785949357,
+      22.74674837754087
+    ],
+    "coordinate_group_id": "bd09:67cea1409aa389f6074e03b6",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "深房传麒山东区",
+      "房屋总数": 624,
+      "建成年代": "2010",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.950846,
+          22.749432
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 18,
+    "source_row_index": 4924,
+    "building_id": "fdc:sz:4924",
+    "building_name": "宏汇阁",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.901003,
+      22.787207
+    ],
+    "coordinates_bd09": [
+      113.901003,
+      22.787207
+    ],
+    "coordinates_wgs84": [
+      113.88967639369143,
+      22.783961328542752
+    ],
+    "coordinate_group_id": "bd09:2b861a0f469013b3a73d49bb",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "宏汇阁",
+      "房屋总数": 44,
+      "建成年代": "2002",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.901003,
+          22.787207
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 19,
+    "source_row_index": 4927,
+    "building_id": "fdc:sz:4927",
+    "building_name": "碧桂园星荟",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.894398,
+      22.772232
+    ],
+    "coordinates_bd09": [
+      113.894398,
+      22.772232
+    ],
+    "coordinates_wgs84": [
+      113.88307902395712,
+      22.76892257298347
+    ],
+    "coordinate_group_id": "bd09:534be3297ab5a88ef4b012a7",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "碧桂园星荟",
+      "房屋总数": 428,
+      "建成年代": "2018",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.894398,
+          22.772232
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 20,
+    "source_row_index": 4930,
+    "building_id": "fdc:sz:4930",
+    "building_name": "明发光明轩",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.899652,
+      22.732093
+    ],
+    "coordinates_bd09": [
+      113.899652,
+      22.732093
+    ],
+    "coordinates_wgs84": [
+      113.88830082871452,
+      22.728841983431284
+    ],
+    "coordinate_group_id": "bd09:e56f2f48830424de4c3ae927",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "明发光明轩",
+      "房屋总数": 647,
+      "建成年代": "2015",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.899652,
+          22.732093
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 21,
+    "source_row_index": 4933,
+    "building_id": "fdc:sz:4933",
+    "building_name": "星河天地一期",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.945169,
+      22.766706
+    ],
+    "coordinates_bd09": [
+      113.945169,
+      22.766706
+    ],
+    "coordinates_wgs84": [
+      113.93373724083433,
+      22.764036389020553
+    ],
+    "coordinate_group_id": "bd09:d8f0e569290fe2db815bb4a8",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "星河天地一期",
+      "房屋总数": 1489,
+      "建成年代": "2016",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.945169,
+          22.766706
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 22,
+    "source_row_index": 4935,
+    "building_id": "fdc:sz:4935",
+    "building_name": "和润家园",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.948214,
+      22.758388
+    ],
+    "coordinates_bd09": [
+      113.948214,
+      22.758388
+    ],
+    "coordinates_wgs84": [
+      113.93677475184,
+      22.755714894469108
+    ],
+    "coordinate_group_id": "bd09:5b510aa5b6e796146e5d865c",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "和润家园",
+      "房屋总数": 1573,
+      "建成年代": "2013",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.948214,
+          22.758388
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 23,
+    "source_row_index": 4938,
+    "building_id": "fdc:sz:4938",
+    "building_name": "百世珑庭",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.897991,
+      22.796149
+    ],
+    "coordinates_bd09": [
+      113.897991,
+      22.796149
+    ],
+    "coordinates_wgs84": [
+      113.88665998069573,
+      22.79286335699914
+    ],
+    "coordinate_group_id": "bd09:8dca08284db0a819d48f7d51",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "百世珑庭",
+      "房屋总数": 644,
+      "建成年代": "2013",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.897991,
+          22.796149
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 24,
+    "source_row_index": 4941,
+    "building_id": "fdc:sz:4941",
+    "building_name": "高正豪景花园",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.952678,
+      22.764045
+    ],
+    "coordinates_bd09": [
+      113.952678,
+      22.764045
+    ],
+    "coordinates_wgs84": [
+      113.94124102649423,
+      22.761347275603335
+    ],
+    "coordinate_group_id": "bd09:33b4c3875e0e48f1fa1f40da",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "高正豪景花园",
+      "房屋总数": 286,
+      "建成年代": "2003",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.952678,
+          22.764045
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 25,
+    "source_row_index": 4943,
+    "building_id": "fdc:sz:4943",
+    "building_name": "南星大厦",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.899062,
+      22.787306
+    ],
+    "coordinates_bd09": [
+      113.899062,
+      22.787306
+    ],
+    "coordinates_wgs84": [
+      113.88773733408371,
+      22.78403663246565
+    ],
+    "coordinate_group_id": "bd09:a76511b2aa65e1e3f75a5b53",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "南星大厦",
+      "房屋总数": 136,
+      "建成年代": "2001",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.899062,
+          22.787306
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 26,
+    "source_row_index": 4945,
+    "building_id": "fdc:sz:4945",
+    "building_name": "时间谷创意大厦",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.894002,
+      22.771928
+    ],
+    "coordinates_bd09": [
+      113.894002,
+      22.771928
+    ],
+    "coordinates_wgs84": [
+      113.8826829252665,
+      22.768615572141606
+    ],
+    "coordinate_group_id": "bd09:93f1fa8dd5d9ca562b25b256",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "时间谷创意大厦",
+      "房屋总数": 782,
+      "建成年代": "2016",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.894002,
+          22.771928
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 27,
+    "source_row_index": 4948,
+    "building_id": "fdc:sz:4948",
+    "building_name": "融域名城",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.940942,
+      22.739286
+    ],
+    "coordinates_bd09": [
+      113.940942,
+      22.739286
+    ],
+    "coordinates_wgs84": [
+      113.92949370079634,
+      22.736612102069753
+    ],
+    "coordinate_group_id": "bd09:f07715bda286cffa81119400",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "融域名城",
+      "房屋总数": 1657,
+      "建成年代": "2012",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.940942,
+          22.739286
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 28,
+    "source_row_index": 4984,
+    "building_id": "fdc:sz:4984",
+    "building_name": "美景花园",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.949048,
+      22.761625
+    ],
+    "coordinates_bd09": [
+      113.949048,
+      22.761625
+    ],
+    "coordinates_wgs84": [
+      113.93761052875442,
+      22.75894840484305
+    ],
+    "coordinate_group_id": "bd09:61753fc63b9ebcc784993dbf",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "美景花园",
+      "房屋总数": 378,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.949048,
+          22.761625
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 29,
+    "source_row_index": 4993,
+    "building_id": "fdc:sz:4993",
+    "building_name": "锦鸿花园",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.898564,
+      22.772018
+    ],
+    "coordinates_bd09": [
+      113.898564,
+      22.772018
+    ],
+    "coordinates_wgs84": [
+      113.88724359002764,
+      22.76874862783907
+    ],
+    "coordinate_group_id": "bd09:12c9c929f1a26ddf7526041a",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "锦鸿花园",
+      "房屋总数": 3432,
+      "建成年代": "2016",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.898564,
+          22.772018
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 30,
+    "source_row_index": 5039,
+    "building_id": "fdc:sz:5039",
+    "building_name": "海信花园",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.89363,
+      22.791056
+    ],
+    "coordinates_bd09": [
+      113.89363,
+      22.791056
+    ],
+    "coordinates_wgs84": [
+      113.88230432556261,
+      22.787733355465466
+    ],
+    "coordinate_group_id": "bd09:5fc1d8937497ab5b73dc58b9",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "海信花园",
+      "房屋总数": 1,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.89363,
+          22.791056
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 31,
+    "source_row_index": 5043,
+    "building_id": "fdc:sz:5043",
+    "building_name": "将石佳园",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.91078,
+      22.762756
+    ],
+    "coordinates_bd09": [
+      113.91078,
+      22.762756
+    ],
+    "coordinates_wgs84": [
+      113.8994344217844,
+      22.75966808358866
+    ],
+    "coordinate_group_id": "bd09:81a7cf94cde576940918eeb7",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "将石佳园",
+      "房屋总数": 132,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.91078,
+          22.762756
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 32,
+    "source_row_index": 5053,
+    "building_id": "fdc:sz:5053",
+    "building_name": "合众豪庭",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.913797,
+      22.779611
+    ],
+    "coordinates_bd09": [
+      113.913797,
+      22.779611
+    ],
+    "coordinates_wgs84": [
+      113.90244627645204,
+      22.776571180785886
+    ],
+    "coordinate_group_id": "bd09:94c88642371fc2476dbcad11",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "合众豪庭",
+      "房屋总数": 768,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.913797,
+          22.779611
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 33,
+    "source_row_index": 5054,
+    "building_id": "fdc:sz:5054",
+    "building_name": "根竹园花园",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.880894,
+      22.776524
+    ],
+    "coordinates_bd09": [
+      113.880894,
+      22.776524
+    ],
+    "coordinates_wgs84": [
+      113.86955382766112,
+      22.773185396174114
+    ],
+    "coordinate_group_id": "bd09:0f8adbe577736be70a53dfbb",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "根竹园花园",
+      "房屋总数": 360,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.880894,
+          22.776524
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 34,
+    "source_row_index": 5056,
+    "building_id": "fdc:sz:5056",
+    "building_name": "御景新城",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.912421,
+      22.792064
+    ],
+    "coordinates_bd09": [
+      113.912421,
+      22.792064
+    ],
+    "coordinates_wgs84": [
+      113.90106716695452,
+      22.788994527044814
+    ],
+    "coordinate_group_id": "bd09:67d643381287e6fe85039c96",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "御景新城",
+      "房屋总数": 450,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.912421,
+          22.792064
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 35,
+    "source_row_index": 5058,
+    "building_id": "fdc:sz:5058",
+    "building_name": "伟林雅苑",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.880866,
+      22.772538
+    ],
+    "coordinates_bd09": [
+      113.880866,
+      22.772538
+    ],
+    "coordinates_wgs84": [
+      113.86952567138225,
+      22.769200745964262
+    ],
+    "coordinate_group_id": "bd09:f43ac4414c122e63fe4df882",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "伟林雅苑",
+      "房屋总数": 356,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.880866,
+          22.772538
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 36,
+    "source_row_index": 5061,
+    "building_id": "fdc:sz:5061",
+    "building_name": "秋园雅苑",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.912733,
+      22.766192
+    ],
+    "coordinates_bd09": [
+      113.912733,
+      22.766192
+    ],
+    "coordinates_wgs84": [
+      113.90138394770577,
+      22.763137359170113
+    ],
+    "coordinate_group_id": "bd09:3f933731d3551b06b0177f18",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "秋园雅苑",
+      "房屋总数": 655,
+      "建成年代": "2009",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.912733,
+          22.766192
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 37,
+    "source_row_index": 5062,
+    "building_id": "fdc:sz:5062",
+    "building_name": "卫光花园",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.96042,
+      22.759652
+    ],
+    "coordinates_bd09": [
+      113.96042,
+      22.759652
+    ],
+    "coordinates_wgs84": [
+      113.94898400751605,
+      22.756871445686908
+    ],
+    "coordinate_group_id": "bd09:137cd9182e2eafbd5aa7b89d",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "卫光花园",
+      "房屋总数": 480,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.96042,
+          22.759652
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 38,
+    "source_row_index": 5064,
+    "building_id": "fdc:sz:5064",
+    "building_name": "红星创智广场",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.929165,
+      22.733594
+    ],
+    "coordinates_bd09": [
+      113.929165,
+      22.733594
+    ],
+    "coordinates_wgs84": [
+      113.9177392582039,
+      22.730815185891966
+    ],
+    "coordinate_group_id": "bd09:0d1f35fd359853ffa1518c29",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "红星创智广场",
+      "房屋总数": 512,
+      "建成年代": "2021",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.929165,
+          22.733594
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 39,
+    "source_row_index": 5066,
+    "building_id": "fdc:sz:5066",
+    "building_name": "明安花园",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.952947,
+      22.758519
+    ],
+    "coordinates_bd09": [
+      113.952947,
+      22.758519
+    ],
+    "coordinates_wgs84": [
+      113.9415064633037,
+      22.755820212412445
+    ],
+    "coordinate_group_id": "bd09:6c614f44dde21eecccbff5a2",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "明安花园",
+      "房屋总数": 1274,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.952947,
+          22.758519
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 40,
+    "source_row_index": 5068,
+    "building_id": "fdc:sz:5068",
+    "building_name": "楼村花园",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.929424,
+      22.79215
+    ],
+    "coordinates_bd09": [
+      113.929424,
+      22.79215
+    ],
+    "coordinates_wgs84": [
+      113.91801855163393,
+      22.789361042391445
+    ],
+    "coordinate_group_id": "bd09:172d604e87cbaf0913c82814",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "楼村花园",
+      "房屋总数": 1677,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.929424,
+          22.79215
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 41,
+    "source_row_index": 5071,
+    "building_id": "fdc:sz:5071",
+    "building_name": "觀山88號院",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.950641,
+      22.746449
+    ],
+    "coordinates_bd09": [
+      113.950641,
+      22.746449
+    ],
+    "coordinates_wgs84": [
+      113.93919007186288,
+      22.7437668253581
+    ],
+    "coordinate_group_id": "bd09:66e5fc39f5f1e7b81c33894b",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "觀山88號院",
+      "房屋总数": 31,
+      "建成年代": "2015",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.950641,
+          22.746449
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 42,
+    "source_row_index": 5073,
+    "building_id": "fdc:sz:5073",
+    "building_name": "星湖明居",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.912613,
+      22.713144
+    ],
+    "coordinates_bd09": [
+      113.912613,
+      22.713144
+    ],
+    "coordinates_wgs84": [
+      113.90123112035005,
+      22.710095616698545
+    ],
+    "coordinate_group_id": "bd09:f4e91e7e62ce87cab9cdfe44",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "星湖明居",
+      "房屋总数": 488,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.912613,
+          22.713144
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 43,
+    "source_row_index": 5075,
+    "building_id": "fdc:sz:5075",
+    "building_name": "九紫东景",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.910008,
+      22.793162
+    ],
+    "coordinates_bd09": [
+      113.910008,
+      22.793162
+    ],
+    "coordinates_wgs84": [
+      113.89865961667572,
+      22.790050280723925
+    ],
+    "coordinate_group_id": "bd09:0f4c064cf422bbaaf1d70193",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "九紫东景",
+      "房屋总数": 100,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.910008,
+          22.793162
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 44,
+    "source_row_index": 5083,
+    "building_id": "fdc:sz:5083",
+    "building_name": "骏星名苑",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.885206,
+      22.785614
+    ],
+    "coordinates_bd09": [
+      113.885206,
+      22.785614
+    ],
+    "coordinates_wgs84": [
+      113.87387404013927,
+      22.78226310554323
+    ],
+    "coordinate_group_id": "bd09:3caca9c040fdcbee9d1c5861",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "骏星名苑",
+      "房屋总数": 196,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.885206,
+          22.785614
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 45,
+    "source_row_index": 5085,
+    "building_id": "fdc:sz:5085",
+    "building_name": "星海大厦",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.914554,
+      22.770608
+    ],
+    "coordinates_bd09": [
+      113.914554,
+      22.770608
+    ],
+    "coordinates_wgs84": [
+      113.90320123085866,
+      22.767584451014248
+    ],
+    "coordinate_group_id": "bd09:c228d3b40116f24d3d012d77",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "星海大厦",
+      "房屋总数": 266,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.914554,
+          22.770608
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 46,
+    "source_row_index": 5087,
+    "building_id": "fdc:sz:5087",
+    "building_name": "新宝轩V立方",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.901775,
+      22.73219
+    ],
+    "coordinates_bd09": [
+      113.901775,
+      22.73219
+    ],
+    "coordinates_wgs84": [
+      113.89042145619898,
+      22.72896579488294
+    ],
+    "coordinate_group_id": "bd09:22857c34b5b9de3e3ae1d58f",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "新宝轩V立方",
+      "房屋总数": 298,
+      "建成年代": "2018",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.901775,
+          22.73219
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 47,
+    "source_row_index": 5088,
+    "building_id": "fdc:sz:5088",
+    "building_name": "富安花园",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.953189,
+      22.757669
+    ],
+    "coordinates_bd09": [
+      113.953189,
+      22.757669
+    ],
+    "coordinates_wgs84": [
+      113.94174782875744,
+      22.754968458153982
+    ],
+    "coordinate_group_id": "bd09:6c83ef1426f84c19c859070f",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "富安花园",
+      "房屋总数": 1910,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.953189,
+          22.757669
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 48,
+    "source_row_index": 5090,
+    "building_id": "fdc:sz:5090",
+    "building_name": "阳光雅苑小区",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.898721,
+      22.752055
+    ],
+    "coordinates_bd09": [
+      113.898721,
+      22.752055
+    ],
+    "coordinates_wgs84": [
+      113.88738860476779,
+      22.748791074728068
+    ],
+    "coordinate_group_id": "bd09:429ca33ff5a89407c5428f14",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "阳光雅苑小区",
+      "房屋总数": 290,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.898721,
+          22.752055
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 49,
+    "source_row_index": 5169,
+    "building_id": "fdc:sz:5169",
+    "building_name": "南太云创谷园区",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.929129,
+      22.742383
+    ],
+    "coordinates_bd09": [
+      113.929129,
+      22.742383
+    ],
+    "coordinates_wgs84": [
+      113.91771095706345,
+      22.739602744796354
+    ],
+    "coordinate_group_id": "bd09:33ad0450c49ac4f7647e0d6b",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "南太云创谷园区",
+      "房屋总数": 1732,
+      "建成年代": "2016",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.929129,
+          22.742383
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 50,
+    "source_row_index": 5172,
+    "building_id": "fdc:sz:5172",
+    "building_name": "华强ideapark",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.941749,
+      22.754216
+    ],
+    "coordinates_bd09": [
+      113.941749,
+      22.754216
+    ],
+    "coordinates_wgs84": [
+      113.93031335369061,
+      22.751543394048515
+    ],
+    "coordinate_group_id": "bd09:97fe2858d1761089a357761f",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "华强ideapark",
+      "房屋总数": 60,
+      "建成年代": "2013",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.941749,
+          22.754216
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 51,
+    "source_row_index": 5175,
+    "building_id": "fdc:sz:5175",
+    "building_name": "长春花园",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.901576,
+      22.788981
+    ],
+    "coordinates_bd09": [
+      113.901576,
+      22.788981
+    ],
+    "coordinates_wgs84": [
+      113.89024748288254,
+      22.78574196562993
+    ],
+    "coordinate_group_id": "bd09:4425758e5e911ed92b8a5dde",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "长春花园",
+      "房屋总数": 1108,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.901576,
+          22.788981
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 52,
+    "source_row_index": 5177,
+    "building_id": "fdc:sz:5177",
+    "building_name": "璟悦轩小巨蛋",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.912406,
+      22.77869
+    ],
+    "coordinates_bd09": [
+      113.912406,
+      22.77869
+    ],
+    "coordinates_wgs84": [
+      113.90105940092218,
+      22.775626028043593
+    ],
+    "coordinate_group_id": "bd09:b533ccb959b6d387c9a6741f",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "璟悦轩小巨蛋",
+      "房屋总数": 1251,
+      "建成年代": "2021",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.912406,
+          22.77869
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 53,
+    "source_row_index": 5198,
+    "building_id": "fdc:sz:5198",
+    "building_name": "星河天地公馆",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.946816,
+      22.764952
+    ],
+    "coordinates_bd09": [
+      113.946816,
+      22.764952
+    ],
+    "coordinates_wgs84": [
+      113.9353818956804,
+      22.762281167990604
+    ],
+    "coordinate_group_id": "bd09:a7bef7f74910f52884cbca07",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "星河天地公馆",
+      "房屋总数": 1035,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.946816,
+          22.764952
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 54,
+    "source_row_index": 5207,
+    "building_id": "fdc:sz:5207",
+    "building_name": "乐府花园",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.935836,
+      22.773371
+    ],
+    "coordinates_bd09": [
+      113.935836,
+      22.773371
+    ],
+    "coordinates_wgs84": [
+      113.92442162466308,
+      22.770659877823686
+    ],
+    "coordinate_group_id": "bd09:f9855a6fdbc0a720c62b1697",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "乐府花园",
+      "房屋总数": 1036,
+      "建成年代": "2020",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.935836,
+          22.773371
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 55,
+    "source_row_index": 5253,
+    "building_id": "fdc:sz:5253",
+    "building_name": "圳发云府",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.900001,
+      22.753831
+    ],
+    "coordinates_bd09": [
+      113.900001,
+      22.753831
+    ],
+    "coordinates_wgs84": [
+      113.8886690453386,
+      22.750581885291453
+    ],
+    "coordinate_group_id": "bd09:82c2022511627885f3b59ce3",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "圳发云府",
+      "房屋总数": 349,
+      "建成年代": "2023",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.900001,
+          22.753831
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 56,
+    "source_row_index": 5254,
+    "building_id": "fdc:sz:5254",
+    "building_name": "天汇时代花园二期",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.899928,
+      22.780098
+    ],
+    "coordinates_bd09": [
+      113.899928,
+      22.780098
+    ],
+    "coordinates_wgs84": [
+      113.88860586178788,
+      22.776841862528073
+    ],
+    "coordinate_group_id": "bd09:fa5cde4de3b3327dc8199db5",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "天汇时代花园二期",
+      "房屋总数": 2101,
+      "建成年代": "2017",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.899928,
+          22.780098
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 57,
+    "source_row_index": 5261,
+    "building_id": "fdc:sz:5261",
+    "building_name": "华润公园九里花园",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.880226,
+      22.780878
+    ],
+    "coordinates_bd09": [
+      113.880226,
+      22.780878
+    ],
+    "coordinates_wgs84": [
+      113.86888283709504,
+      22.7775406531111
+    ],
+    "coordinate_group_id": "bd09:3a758da5cd50f045b07afe46",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "华润公园九里花园",
+      "房屋总数": 1056,
+      "建成年代": "2017",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.880226,
+          22.780878
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 58,
+    "source_row_index": 5262,
+    "building_id": "fdc:sz:5262",
+    "building_name": "绿地新都会",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.948686,
+      22.769376
+    ],
+    "coordinates_bd09": [
+      113.948686,
+      22.769376
+    ],
+    "coordinates_wgs84": [
+      113.93725233082166,
+      22.76669911635614
+    ],
+    "coordinate_group_id": "bd09:38c7a7968bfe1cf2914c7ed0",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "绿地新都会",
+      "房屋总数": 688,
+      "建成年代": "2021",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.948686,
+          22.769376
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 59,
+    "source_row_index": 5288,
+    "building_id": "fdc:sz:5288",
+    "building_name": "金融街华发·融御花园",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.938345,
+      22.751989
+    ],
+    "coordinates_bd09": [
+      113.938345,
+      22.751989
+    ],
+    "coordinates_wgs84": [
+      113.92691334504225,
+      22.749300548493103
+    ],
+    "coordinate_group_id": "bd09:d0ac7bc69f46d8dddb238757",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "金融街华发·融御花园",
+      "房屋总数": 1783,
+      "建成年代": "2012",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.938345,
+          22.751989
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 60,
+    "source_row_index": 5291,
+    "building_id": "fdc:sz:5291",
+    "building_name": "中海寰宇时代花园",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.948637,
+      22.748138
+    ],
+    "coordinates_bd09": [
+      113.948637,
+      22.748138
+    ],
+    "coordinates_wgs84": [
+      113.93718853547716,
+      22.745464724887647
+    ],
+    "coordinate_group_id": "bd09:0baa7544b1c3547e29f7f086",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "中海寰宇时代花园",
+      "房屋总数": 2384,
+      "建成年代": "2013",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.948637,
+          22.748138
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 61,
+    "source_row_index": 5317,
+    "building_id": "fdc:sz:5317",
+    "building_name": "富民广场",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.997609,
+      22.739211
+    ],
+    "coordinates_bd09": [
+      113.997609,
+      22.739211
+    ],
+    "coordinates_wgs84": [
+      113.98619062552528,
+      22.735776821997582
+    ],
+    "coordinate_group_id": "bd09:595e38c6282723b7fe752205",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "富民广场",
+      "房屋总数": 514,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.997609,
+          22.739211
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 62,
+    "source_row_index": 5320,
+    "building_id": "fdc:sz:5320",
+    "building_name": "富民花园",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.998566,
+      22.743612
+    ],
+    "coordinates_bd09": [
+      113.998566,
+      22.743612
+    ],
+    "coordinates_wgs84": [
+      113.98715083062852,
+      22.740167243420597
+    ],
+    "coordinate_group_id": "bd09:fad3c797aa0e810ff96c2d1b",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "富民花园",
+      "房屋总数": 252,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.998566,
+          22.743612
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 63,
+    "source_row_index": 5321,
+    "building_id": "fdc:sz:5321",
+    "building_name": "百晟上府",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.906789,
+      22.79189
+    ],
+    "coordinates_bd09": [
+      113.906789,
+      22.79189
+    ],
+    "coordinates_wgs84": [
+      113.89544920033607,
+      22.788725839391084
+    ],
+    "coordinate_group_id": "bd09:24a061c06f4074e632099095",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "百晟上府",
+      "房屋总数": 630,
+      "建成年代": "2022",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.906789,
+          22.79189
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 64,
+    "source_row_index": 5322,
+    "building_id": "fdc:sz:5322",
+    "building_name": "华强科技生态园",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.963487,
+      22.745318
+    ],
+    "coordinates_bd09": [
+      113.963487,
+      22.745318
+    ],
+    "coordinates_wgs84": [
+      113.95204168125949,
+      22.742493124476788
+    ],
+    "coordinate_group_id": "bd09:c52af408fc9be2dfa9ce4eea",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "华强科技生态园",
+      "房屋总数": 1643,
+      "建成年代": "2016",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.963487,
+          22.745318
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 65,
+    "source_row_index": 5345,
+    "building_id": "fdc:sz:5345",
+    "building_name": "金地明峯府",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.871286,
+      22.786982
+    ],
+    "coordinates_bd09": [
+      113.871286,
+      22.786982
+    ],
+    "coordinates_wgs84": [
+      113.85990348389863,
+      22.783714187694915
+    ],
+    "coordinate_group_id": "bd09:b99c6e80cf68b7926c8fbae7",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "金地明峯府",
+      "房屋总数": 1457,
+      "建成年代": "2022",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.871286,
+          22.786982
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 66,
+    "source_row_index": 5350,
+    "building_id": "fdc:sz:5350",
+    "building_name": "天汇城一期",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.901252,
+      22.781613
+    ],
+    "coordinates_bd09": [
+      113.901252,
+      22.781613
+    ],
+    "coordinates_wgs84": [
+      113.88992787501248,
+      22.778372906071002
+    ],
+    "coordinate_group_id": "bd09:c0acd1bfdd89d14a67a4515d",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "天汇城一期",
+      "房屋总数": 410,
+      "建成年代": "2019",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.901252,
+          22.781613
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 67,
+    "source_row_index": 5372,
+    "building_id": "fdc:sz:5372",
+    "building_name": "玺云著花园",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.941521,
+      22.785391
+    ],
+    "coordinates_bd09": [
+      113.941521,
+      22.785391
+    ],
+    "coordinates_wgs84": [
+      113.93009273487166,
+      22.782709390943094
+    ],
+    "coordinate_group_id": "bd09:a2a0bb184061e15d26379077",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "玺云著花园",
+      "房屋总数": 1008,
+      "建成年代": "2021",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.941521,
+          22.785391
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 68,
+    "source_row_index": 5374,
+    "building_id": "fdc:sz:5374",
+    "building_name": "兆邦基·端慧苑",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.911836,
+      22.768123
+    ],
+    "coordinates_bd09": [
+      113.911836,
+      22.768123
+    ],
+    "coordinates_wgs84": [
+      113.90049017123705,
+      22.76505222743808
+    ],
+    "coordinate_group_id": "bd09:d5e454931e9b34fef6717d8b",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "兆邦基·端慧苑",
+      "房屋总数": 1248,
+      "建成年代": "2023",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.911836,
+          22.768123
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 69,
+    "source_row_index": 5381,
+    "building_id": "fdc:sz:5381",
+    "building_name": "科裕新村",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.937836,
+      22.743275
+    ],
+    "coordinates_bd09": [
+      113.937836,
+      22.743275
+    ],
+    "coordinates_wgs84": [
+      113.92639710723678,
+      22.740584116168876
+    ],
+    "coordinate_group_id": "bd09:07e527e0c6dc3db87dc161ea",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "科裕新村",
+      "房屋总数": 5680,
+      "建成年代": "2019",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.937836,
+          22.743275
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 70,
+    "source_row_index": 5382,
+    "building_id": "fdc:sz:5382",
+    "building_name": "金茂公园里",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.939461,
+      22.772124
+    ],
+    "coordinates_bd09": [
+      113.939461,
+      22.772124
+    ],
+    "coordinates_wgs84": [
+      113.9280390378396,
+      22.769438254483067
+    ],
+    "coordinate_group_id": "bd09:f8ecbe58cedb62214b05174c",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "金茂公园里",
+      "房屋总数": 533,
+      "建成年代": "2023",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.939461,
+          22.772124
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 71,
+    "source_row_index": 5383,
+    "building_id": "fdc:sz:5383",
+    "building_name": "民轩.揽翠台",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.940541,
+      22.77129
+    ],
+    "coordinates_bd09": [
+      113.940541,
+      22.77129
+    ],
+    "coordinates_wgs84": [
+      113.92911699814148,
+      22.768609651461063
+    ],
+    "coordinate_group_id": "bd09:3e90a4c19bac43e6cf2f13b8",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "民轩.揽翠台",
+      "房屋总数": 478,
+      "建成年代": "2022",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.940541,
+          22.77129
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 72,
+    "source_row_index": 5388,
+    "building_id": "fdc:sz:5388",
+    "building_name": "佳兆业云峰汇",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.947253,
+      22.771508
+    ],
+    "coordinates_bd09": [
+      113.947253,
+      22.771508
+    ],
+    "coordinates_wgs84": [
+      113.93582076086486,
+      22.768834713958817
+    ],
+    "coordinate_group_id": "bd09:fc9a2109963c41bc68110019",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "佳兆业云峰汇",
+      "房屋总数": 1031,
+      "建成年代": "2014",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.947253,
+          22.771508
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 73,
+    "source_row_index": 5433,
+    "building_id": "fdc:sz:5433",
+    "building_name": "深业云筑",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.900738,
+      22.77212
+    ],
+    "coordinates_bd09": [
+      113.900738,
+      22.77212
+    ],
+    "coordinates_wgs84": [
+      113.88941551923897,
+      22.768876525288885
+    ],
+    "coordinate_group_id": "bd09:b4f6db3446e700a11cc3b27b",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "深业云筑",
+      "房屋总数": 1844,
+      "建成年代": "2023",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.900738,
+          22.77212
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 74,
+    "source_row_index": 5449,
+    "building_id": "fdc:sz:5449",
+    "building_name": "勤诚达正大城乐园",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.919262,
+      22.727439
+    ],
+    "coordinates_bd09": [
+      113.919262,
+      22.727439
+    ],
+    "coordinates_wgs84": [
+      113.90786265066147,
+      22.72450480840648
+    ],
+    "coordinate_group_id": "bd09:dbdafc76e1ccb60fbb956138",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "勤诚达正大城乐园",
+      "房屋总数": 6306,
+      "建成年代": "2009",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.919262,
+          22.727439
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 75,
+    "source_row_index": 5450,
+    "building_id": "fdc:sz:5450",
+    "building_name": "万科光年四季",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.942606,
+      22.77237
+    ],
+    "coordinates_bd09": [
+      113.942606,
+      22.77237
+    ],
+    "coordinates_wgs84": [
+      113.93117895547287,
+      22.769696171919115
+    ],
+    "coordinate_group_id": "bd09:36564bac556b290bb52df08a",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "万科光年四季",
+      "房屋总数": 1358,
+      "建成年代": "2023",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.942606,
+          22.77237
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 76,
+    "source_row_index": 5455,
+    "building_id": "fdc:sz:5455",
+    "building_name": "乐府广场",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.938246,
+      22.754338
+    ],
+    "coordinates_bd09": [
+      113.938246,
+      22.754338
+    ],
+    "coordinates_wgs84": [
+      113.92681662703087,
+      22.75164864232498
+    ],
+    "coordinate_group_id": "bd09:d8556dc105ad2f6bc1edd0d6",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "乐府广场",
+      "房屋总数": 1502,
+      "建成年代": "2020",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.938246,
+          22.754338
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 77,
+    "source_row_index": 5456,
+    "building_id": "fdc:sz:5456",
+    "building_name": "万悦山办公楼",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.945392,
+      22.760767
+    ],
+    "coordinates_bd09": [
+      113.945392,
+      22.760767
+    ],
+    "coordinates_wgs84": [
+      113.93395676969136,
+      22.758098493579308
+    ],
+    "coordinate_group_id": "bd09:fc8ec062ac44eb86f7b73782",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "万悦山办公楼",
+      "房屋总数": 1,
+      "建成年代": "2022",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.945392,
+          22.760767
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 78,
+    "source_row_index": 5458,
+    "building_id": "fdc:sz:5458",
+    "building_name": "天汇城二期",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.902722,
+      22.779787
+    ],
+    "coordinates_bd09": [
+      113.902722,
+      22.779787
+    ],
+    "coordinates_wgs84": [
+      113.89139641410041,
+      22.776567353109545
+    ],
+    "coordinate_group_id": "bd09:589ecb64d82dfd018dcdc4bc",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "天汇城二期",
+      "房屋总数": 351,
+      "建成年代": "2022",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.902722,
+          22.779787
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 79,
+    "source_row_index": 5469,
+    "building_id": "fdc:sz:5469",
+    "building_name": "金地峰境瑞府二期",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.941542,
+      22.768222
+    ],
+    "coordinates_bd09": [
+      113.941542,
+      22.768222
+    ],
+    "coordinates_wgs84": [
+      113.93011556426028,
+      22.76554625501867
+    ],
+    "coordinate_group_id": "bd09:d1966425cbbb4e3343426db5",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "金地峰境瑞府二期",
+      "房屋总数": 598,
+      "建成年代": "2023",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.941542,
+          22.768222
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 80,
+    "source_row_index": 5481,
+    "building_id": "fdc:sz:5481",
+    "building_name": "中海观园",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.955617,
+      22.736664
+    ],
+    "coordinates_bd09": [
+      113.955617,
+      22.736664
+    ],
+    "coordinates_wgs84": [
+      113.94415732700544,
+      22.733943959381694
+    ],
+    "coordinate_group_id": "bd09:42da2c1cb8bf1cf773653cca",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "中海观园",
+      "房屋总数": 2226,
+      "建成年代": "2023",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.955617,
+          22.736664
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 81,
+    "source_row_index": 5497,
+    "building_id": "fdc:sz:5497",
+    "building_name": "电建地产洺悦府",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.943042,
+      22.757202
+    ],
+    "coordinates_bd09": [
+      113.943042,
+      22.757202
+    ],
+    "coordinates_wgs84": [
+      113.93160696377656,
+      22.75453225869648
+    ],
+    "coordinate_group_id": "bd09:6c17129e53e0d5909b0f62a0",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "电建地产洺悦府",
+      "房屋总数": 484,
+      "建成年代": "2022",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.943042,
+          22.757202
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 82,
+    "source_row_index": 5498,
+    "building_id": "fdc:sz:5498",
+    "building_name": "星河天地华邸",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.943695,
+      22.76862
+    ],
+    "coordinates_bd09": [
+      113.943695,
+      22.76862
+    ],
+    "coordinates_wgs84": [
+      113.93226565427379,
+      22.765949124523193
+    ],
+    "coordinate_group_id": "bd09:feb8c70f2f5f24ad97ba23de",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "星河天地华邸",
+      "房屋总数": 875,
+      "建成年代": "2022",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.943695,
+          22.76862
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 83,
+    "source_row_index": 5499,
+    "building_id": "fdc:sz:5499",
+    "building_name": "中信凯旋君庭",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.967208,
+      22.799769
+    ],
+    "coordinates_bd09": [
+      113.967208,
+      22.799769
+    ],
+    "coordinates_wgs84": [
+      113.95577105278151,
+      22.79686416168713
+    ],
+    "coordinate_group_id": "bd09:4634dab66b0229de1b279ee6",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "中信凯旋君庭",
+      "房屋总数": 186,
+      "建成年代": "2023",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.967208,
+          22.799769
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 84,
+    "source_row_index": 5500,
+    "building_id": "fdc:sz:5500",
+    "building_name": "云科府",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.963499,
+      22.793377
+    ],
+    "coordinates_bd09": [
+      113.963499,
+      22.793377
+    ],
+    "coordinates_wgs84": [
+      113.95206325870014,
+      22.790538957333823
+    ],
+    "coordinate_group_id": "bd09:c15504dff7fdba24487468e8",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "云科府",
+      "房屋总数": 1640,
+      "建成年代": "2022",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.963499,
+          22.793377
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 85,
+    "source_row_index": 5501,
+    "building_id": "fdc:sz:5501",
+    "building_name": "观月台",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.953687,
+      22.733978
+    ],
+    "coordinates_bd09": [
+      113.953687,
+      22.733978
+    ],
+    "coordinates_wgs84": [
+      113.94222467994734,
+      22.73127604761669
+    ],
+    "coordinate_group_id": "bd09:c3cb32c0cc7aae1f4cd73cd2",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "观月台",
+      "房屋总数": 366,
+      "建成年代": "2022",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.953687,
+          22.733978
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 86,
+    "source_row_index": 5529,
+    "building_id": "fdc:sz:5529",
+    "building_name": "松茂御城",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.912999,
+      22.753503
+    ],
+    "coordinates_bd09": [
+      113.912999,
+      22.753503
+    ],
+    "coordinates_wgs84": [
+      113.90164042544365,
+      22.75045510718452
+    ],
+    "coordinate_group_id": "bd09:aa844871bb52e3deabdb720f",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "松茂御城",
+      "房屋总数": 1068,
+      "建成年代": "2020",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.912999,
+          22.753503
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 87,
+    "source_row_index": 5537,
+    "building_id": "fdc:sz:5537",
+    "building_name": "深铁瑞城",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.936553,
+      22.732727
+    ],
+    "coordinates_bd09": [
+      113.936553,
+      22.732727
+    ],
+    "coordinates_wgs84": [
+      113.92510774414902,
+      22.730027899059053
+    ],
+    "coordinate_group_id": "bd09:63540182d2adb9730cd90eeb",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "深铁瑞城",
+      "房屋总数": 1360,
+      "建成年代": "2022",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.936553,
+          22.732727
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 88,
+    "source_row_index": 5555,
+    "building_id": "fdc:sz:5555",
+    "building_name": "瑞丰苑",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.949938,
+      22.803128
+    ],
+    "coordinates_bd09": [
+      113.949938,
+      22.803128
+    ],
+    "coordinates_wgs84": [
+      113.93848600271049,
+      22.80043139638179
+    ],
+    "coordinate_group_id": "bd09:4d56805a5c556bb7599159be",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "瑞丰苑",
+      "房屋总数": 468,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.949938,
+          22.803128
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 89,
+    "source_row_index": 5560,
+    "building_id": "fdc:sz:5560",
+    "building_name": "电建洺悦鹏著花园",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.955816,
+      22.756707
+    ],
+    "coordinates_bd09": [
+      113.955816,
+      22.756707
+    ],
+    "coordinates_wgs84": [
+      113.94437468915237,
+      22.75398276759245
+    ],
+    "coordinate_group_id": "bd09:e2db1bdbc98637423c380444",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "电建洺悦鹏著花园",
+      "房屋总数": 655,
+      "建成年代": "2024",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.955816,
+          22.756707
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 90,
+    "source_row_index": 5568,
+    "building_id": "fdc:sz:5568",
+    "building_name": "润晖府",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.955989,
+      22.740931
+    ],
+    "coordinates_bd09": [
+      113.955989,
+      22.740931
+    ],
+    "coordinates_wgs84": [
+      113.9445332535514,
+      22.738206702910208
+    ],
+    "coordinate_group_id": "bd09:1fb5fe0e956bdea45f48c528",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "润晖府",
+      "房屋总数": 818,
+      "建成年代": "2024",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.955989,
+          22.740931
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 91,
+    "source_row_index": 5579,
+    "building_id": "fdc:sz:5579",
+    "building_name": "星河天地华府",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.945646,
+      22.765978
+    ],
+    "coordinates_bd09": [
+      113.945646,
+      22.765978
+    ],
+    "coordinates_wgs84": [
+      113.93421343944286,
+      22.763308359785302
+    ],
+    "coordinate_group_id": "bd09:d1d449a4fe5f570048e1883d",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "星河天地华府",
+      "房屋总数": 644,
+      "建成年代": "2022",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.945646,
+          22.765978
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 92,
+    "source_row_index": 5580,
+    "building_id": "fdc:sz:5580",
+    "building_name": "金地峰境瑞府一期",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.941182,
+      22.7681
+    ],
+    "coordinates_bd09": [
+      113.941182,
+      22.7681
+    ],
+    "coordinates_wgs84": [
+      113.9297560925018,
+      22.765423021796494
+    ],
+    "coordinate_group_id": "bd09:ebd7f319a8b5c06e7c7ebaea",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "金地峰境瑞府一期",
+      "房屋总数": 632,
+      "建成年代": "2022",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.941182,
+          22.7681
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 93,
+    "source_row_index": 6743,
+    "building_id": "fdc:sz:6743",
+    "building_name": "远恒佳教师公寓",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.914791,
+      22.784733
+    ],
+    "coordinates_bd09": [
+      113.914791,
+      22.784733
+    ],
+    "coordinates_wgs84": [
+      113.90343540202244,
+      22.781708752035563
+    ],
+    "coordinate_group_id": "bd09:3017760cf36057835f1f10c5",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "远恒佳教师公寓",
+      "房屋总数": 190,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.914791,
+          22.784733
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 94,
+    "source_row_index": 6744,
+    "building_id": "fdc:sz:6744",
+    "building_name": "红花丽苑",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.904528,
+      22.779609
+    ],
+    "coordinates_bd09": [
+      113.904528,
+      22.779609
+    ],
+    "coordinates_wgs84": [
+      113.89319947240611,
+      22.77641537807284
+    ],
+    "coordinate_group_id": "bd09:f9598b5acd731807a2218541",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "红花丽苑",
+      "房屋总数": null,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.904528,
+          22.779609
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 95,
+    "source_row_index": 6745,
+    "building_id": "fdc:sz:6745",
+    "building_name": "天鸿大厦",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.898433,
+      22.786613
+    ],
+    "coordinates_bd09": [
+      113.898433,
+      22.786613
+    ],
+    "coordinates_wgs84": [
+      113.88710926050942,
+      22.783336835178936
+    ],
+    "coordinate_group_id": "bd09:8cab253d5fed9d8559ed93a0",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "天鸿大厦",
+      "房屋总数": 80,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.898433,
+          22.786613
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 96,
+    "source_row_index": 6746,
+    "building_id": "fdc:sz:6746",
+    "building_name": "吉祥名苑",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.911521,
+      22.754028
+    ],
+    "coordinates_bd09": [
+      113.911521,
+      22.754028
+    ],
+    "coordinates_wgs84": [
+      113.9001669327892,
+      22.750954200981006
+    ],
+    "coordinate_group_id": "bd09:401deb6dd6eca7c7dc0fd8b6",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "吉祥名苑",
+      "房屋总数": 262,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.911521,
+          22.754028
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 97,
+    "source_row_index": 6747,
+    "building_id": "fdc:sz:6747",
+    "building_name": "明景园",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.916863,
+      22.782859
+    ],
+    "coordinates_bd09": [
+      113.916863,
+      22.782859
+    ],
+    "coordinates_wgs84": [
+      113.90550208341958,
+      22.779872315973694
+    ],
+    "coordinate_group_id": "bd09:cb9a3b9e1bf2e0414e60de6d",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "明景园",
+      "房屋总数": 261,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.916863,
+          22.782859
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 98,
+    "source_row_index": 6748,
+    "building_id": "fdc:sz:6748",
+    "building_name": "伟业轩大厦",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.917811,
+      22.782536
+    ],
+    "coordinates_bd09": [
+      113.917811,
+      22.782536
+    ],
+    "coordinates_wgs84": [
+      113.90644731292717,
+      22.77956621434319
+    ],
+    "coordinate_group_id": "bd09:48709044f52380d98ad2819d",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "伟业轩大厦",
+      "房屋总数": 312,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.917811,
+          22.782536
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 99,
+    "source_row_index": 6749,
+    "building_id": "fdc:sz:6749",
+    "building_name": "富锦豪苑",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.888871,
+      22.785799
+    ],
+    "coordinates_bd09": [
+      113.888871,
+      22.785799
+    ],
+    "coordinates_wgs84": [
+      113.87754521695653,
+      22.782453668850437
+    ],
+    "coordinate_group_id": "bd09:61ad087040de87691282fac6",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "富锦豪苑",
+      "房屋总数": 99,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.888871,
+          22.785799
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 100,
+    "source_row_index": 6750,
+    "building_id": "fdc:sz:6750",
+    "building_name": "潤興樓",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.904779,
+      22.791652
+    ],
+    "coordinates_bd09": [
+      113.904779,
+      22.791652
+    ],
+    "coordinates_wgs84": [
+      113.89344338556975,
+      22.788456895912972
+    ],
+    "coordinate_group_id": "bd09:ba04cfde8b24bbaae93eabbc",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "潤興樓",
+      "房屋总数": 36,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.904779,
+          22.791652
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 101,
+    "source_row_index": 6751,
+    "building_id": "fdc:sz:6751",
+    "building_name": "御山公馆",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.911502,
+      22.787678
+    ],
+    "coordinates_bd09": [
+      113.911502,
+      22.787678
+    ],
+    "coordinates_wgs84": [
+      113.90015392648262,
+      22.7845945905729
+    ],
+    "coordinate_group_id": "bd09:ed3d804f5f373d8b834b6d47",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "御山公馆",
+      "房屋总数": null,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.911502,
+          22.787678
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 102,
+    "source_row_index": 6752,
+    "building_id": "fdc:sz:6752",
+    "building_name": "福庄花园",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.875109,
+      22.786871
+    ],
+    "coordinates_bd09": [
+      113.875109,
+      22.786871
+    ],
+    "coordinates_wgs84": [
+      113.8637439602823,
+      22.783565028057485
+    ],
+    "coordinate_group_id": "bd09:e826dba68951027721d38a95",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "福庄花园",
+      "房屋总数": null,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.875109,
+          22.786871
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 103,
+    "source_row_index": 6753,
+    "building_id": "fdc:sz:6753",
+    "building_name": "红花公馆",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.907828,
+      22.790576
+    ],
+    "coordinates_bd09": [
+      113.907828,
+      22.790576
+    ],
+    "coordinates_wgs84": [
+      113.89648696595862,
+      22.7874292137961
+    ],
+    "coordinate_group_id": "bd09:deec6b4625e226a9174768a4",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "红花公馆",
+      "房屋总数": null,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.907828,
+          22.790576
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 104,
+    "source_row_index": 6754,
+    "building_id": "fdc:sz:6754",
+    "building_name": "龙晟苑",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.912278,
+      22.744789
+    ],
+    "coordinates_bd09": [
+      113.912278,
+      22.744789
+    ],
+    "coordinates_wgs84": [
+      113.90091321394847,
+      22.74172935940102
+    ],
+    "coordinate_group_id": "bd09:633c0bf93be1987a4e7badfd",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "龙晟苑",
+      "房屋总数": 96,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.912278,
+          22.744789
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 105,
+    "source_row_index": 6755,
+    "building_id": "fdc:sz:6755",
+    "building_name": "德辉阁",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.90796,
+      22.780137
+    ],
+    "coordinates_bd09": [
+      113.90796,
+      22.780137
+    ],
+    "coordinates_wgs84": [
+      113.89662430450348,
+      22.776996874280734
+    ],
+    "coordinate_group_id": "bd09:78b7ade9c92a1a77ce6dfb98",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "德辉阁",
+      "房屋总数": null,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.90796,
+          22.780137
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 106,
+    "source_row_index": 6756,
+    "building_id": "fdc:sz:6756",
+    "building_name": "永盛大厦",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.907104,
+      22.791087
+    ],
+    "coordinates_bd09": [
+      113.907104,
+      22.791087
+    ],
+    "coordinates_wgs84": [
+      113.89576417176337,
+      22.7879282611109
+    ],
+    "coordinate_group_id": "bd09:3ace463d7aba0812489a8b02",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "永盛大厦",
+      "房屋总数": 144,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.907104,
+          22.791087
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 107,
+    "source_row_index": 6757,
+    "building_id": "fdc:sz:6757",
+    "building_name": "供销楼",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.893811,
+      22.791429
+    ],
+    "coordinates_bd09": [
+      113.893811,
+      22.791429
+    ],
+    "coordinates_wgs84": [
+      113.88248507095363,
+      22.7881075123006
+    ],
+    "coordinate_group_id": "bd09:6ee17165747c8be58d8a9371",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "供销楼",
+      "房屋总数": null,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.893811,
+          22.791429
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 108,
+    "source_row_index": 6758,
+    "building_id": "fdc:sz:6758",
+    "building_name": "中志智谷大厦",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.916628,
+      22.783078
+    ],
+    "coordinates_bd09": [
+      113.916628,
+      22.783078
+    ],
+    "coordinates_wgs84": [
+      113.90526770357096,
+      22.78008706000124
+    ],
+    "coordinate_group_id": "bd09:3e67a985a22be80d23dcabc2",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "中志智谷大厦",
+      "房屋总数": 1,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.916628,
+          22.783078
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 109,
+    "source_row_index": 6759,
+    "building_id": "fdc:sz:6759",
+    "building_name": "钟表基地公寓",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.895746,
+      22.771613
+    ],
+    "coordinates_bd09": [
+      113.895746,
+      22.771613
+    ],
+    "coordinates_wgs84": [
+      113.88442686160208,
+      22.768315210052197
+    ],
+    "coordinate_group_id": "bd09:1ed5b2ccd4547900ca1cdddf",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "钟表基地公寓",
+      "房屋总数": 942,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.895746,
+          22.771613
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 110,
+    "source_row_index": 6760,
+    "building_id": "fdc:sz:6760",
+    "building_name": "胜富楼",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.880767,
+      22.787889
+    ],
+    "coordinates_bd09": [
+      113.880767,
+      22.787889
+    ],
+    "coordinates_wgs84": [
+      113.86942206171733,
+      22.7845463766733
+    ],
+    "coordinate_group_id": "bd09:e248819f0027e411c1d6d618",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "胜富楼",
+      "房屋总数": 65,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.880767,
+          22.787889
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 111,
+    "source_row_index": 6761,
+    "building_id": "fdc:sz:6761",
+    "building_name": "海悦花园",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.886118,
+      22.787878
+    ],
+    "coordinates_bd09": [
+      113.886118,
+      22.787878
+    ],
+    "coordinates_wgs84": [
+      113.87478650387494,
+      22.78452636624042
+    ],
+    "coordinate_group_id": "bd09:a4d477f67b3dca8f0ef425ad",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "海悦花园",
+      "房屋总数": 114,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.886118,
+          22.787878
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 112,
+    "source_row_index": 6762,
+    "building_id": "fdc:sz:6762",
+    "building_name": "广雅花园",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.901365,
+      22.786231
+    ],
+    "coordinates_bd09": [
+      113.901365,
+      22.786231
+    ],
+    "coordinates_wgs84": [
+      113.89003853838159,
+      22.78299044913446
+    ],
+    "coordinate_group_id": "bd09:bf98353b2a5e32310ba7258e",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "广雅花园",
+      "房屋总数": 199,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.901365,
+          22.786231
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 113,
+    "source_row_index": 6763,
+    "building_id": "fdc:sz:6763",
+    "building_name": "怡景花园",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.882031,
+      22.775591
+    ],
+    "coordinates_bd09": [
+      113.882031,
+      22.775591
+    ],
+    "coordinates_wgs84": [
+      113.87069423277967,
+      22.772248789934775
+    ],
+    "coordinate_group_id": "bd09:936d690ff9e7f8f063834967",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "怡景花园",
+      "房屋总数": 0,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.882031,
+          22.775591
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 114,
+    "source_row_index": 6796,
+    "building_id": "fdc:sz:6796",
+    "building_name": "宏发万悦山二期",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.945392,
+      22.760767
+    ],
+    "coordinates_bd09": [
+      113.945392,
+      22.760767
+    ],
+    "coordinates_wgs84": [
+      113.93395676969136,
+      22.758098493579308
+    ],
+    "coordinate_group_id": "bd09:fc8ec062ac44eb86f7b73782",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "宏发万悦山二期",
+      "房屋总数": 708,
+      "建成年代": "2024",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.945392,
+          22.760767
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 115,
+    "source_row_index": 6797,
+    "building_id": "fdc:sz:6797",
+    "building_name": "龙光玖瑞府",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.955205,
+      22.735487
+    ],
+    "coordinates_bd09": [
+      113.955205,
+      22.735487
+    ],
+    "coordinates_wgs84": [
+      113.9437442125406,
+      22.732771166487566
+    ],
+    "coordinate_group_id": "bd09:3e819683c984ca80f6729bbc",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "龙光玖瑞府",
+      "房屋总数": 308,
+      "建成年代": "2023",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.955205,
+          22.735487
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 116,
+    "source_row_index": 6798,
+    "building_id": "fdc:sz:6798",
+    "building_name": "牛山路15号",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.948428,
+      22.759662
+    ],
+    "coordinates_bd09": [
+      113.948428,
+      22.759662
+    ],
+    "coordinates_wgs84": [
+      113.93698955103831,
+      22.756988001101544
+    ],
+    "coordinate_group_id": "bd09:e34b1db1bf702026769ceef2",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "牛山路15号",
+      "房屋总数": 126,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.948428,
+          22.759662
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 117,
+    "source_row_index": 6799,
+    "building_id": "fdc:sz:6799",
+    "building_name": "新围花园",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.950127,
+      22.75967
+    ],
+    "coordinates_bd09": [
+      113.950127,
+      22.75967
+    ],
+    "coordinates_wgs84": [
+      113.93868775111153,
+      22.75698890390467
+    ],
+    "coordinate_group_id": "bd09:3df3ee19b4a8c6b2dffdd8bb",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "新围花园",
+      "房屋总数": 128,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.950127,
+          22.75967
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 118,
+    "source_row_index": 6800,
+    "building_id": "fdc:sz:6800",
+    "building_name": "牛山路13号",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.947615,
+      22.759664
+    ],
+    "coordinates_bd09": [
+      113.947615,
+      22.759664
+    ],
+    "coordinates_wgs84": [
+      113.93617708239316,
+      22.75699240399937
+    ],
+    "coordinate_group_id": "bd09:a4ce74bef7c5ee5255e2af68",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "牛山路13号",
+      "房屋总数": 36,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.947615,
+          22.759664
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 119,
+    "source_row_index": 6801,
+    "building_id": "fdc:sz:6801",
+    "building_name": "光明街道清怡小区",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.952901,
+      22.764873
+    ],
+    "coordinates_bd09": [
+      113.952901,
+      22.764873
+    ],
+    "coordinates_wgs84": [
+      113.94146445639107,
+      22.762173431893228
+    ],
+    "coordinate_group_id": "bd09:68672b2ba85a81df2589ca1d",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "光明街道清怡小区",
+      "房屋总数": 245,
+      "建成年代": "1997",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.952901,
+          22.764873
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 120,
+    "source_row_index": 6802,
+    "building_id": "fdc:sz:6802",
+    "building_name": "宏发万悦山一期",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.945392,
+      22.760767
+    ],
+    "coordinates_bd09": [
+      113.945392,
+      22.760767
+    ],
+    "coordinates_wgs84": [
+      113.93395676969136,
+      22.758098493579308
+    ],
+    "coordinate_group_id": "bd09:fc8ec062ac44eb86f7b73782",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "宏发万悦山一期",
+      "房屋总数": 419,
+      "建成年代": "2021",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.945392,
+          22.760767
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 121,
+    "source_row_index": 6803,
+    "building_id": "fdc:sz:6803",
+    "building_name": "光明中心城",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.953804,
+      22.769114
+    ],
+    "coordinates_bd09": [
+      113.953804,
+      22.769114
+    ],
+    "coordinates_wgs84": [
+      113.94236922425395,
+      22.766406209204554
+    ],
+    "coordinate_group_id": "bd09:97b71449c85ff63afaff0b5c",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "光明中心城",
+      "房屋总数": 56,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.953804,
+          22.769114
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 122,
+    "source_row_index": 6804,
+    "building_id": "fdc:sz:6804",
+    "building_name": "国泰花园",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.944799,
+      22.762217
+    ],
+    "coordinates_bd09": [
+      113.944799,
+      22.762217
+    ],
+    "coordinates_wgs84": [
+      113.93336533024153,
+      22.75954829485339
+    ],
+    "coordinate_group_id": "bd09:a399b9ae692c8c289d5246fe",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "国泰花园",
+      "房屋总数": null,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.944799,
+          22.762217
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 123,
+    "source_row_index": 6805,
+    "building_id": "fdc:sz:6805",
+    "building_name": "华明苑",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.942762,
+      22.766569
+    ],
+    "coordinates_bd09": [
+      113.942762,
+      22.766569
+    ],
+    "coordinates_wgs84": [
+      113.93133313445277,
+      22.76389700003106
+    ],
+    "coordinate_group_id": "bd09:7551c62863706c1a5c17ea3c",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "华明苑",
+      "房屋总数": 105,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.942762,
+          22.766569
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 124,
+    "source_row_index": 6806,
+    "building_id": "fdc:sz:6806",
+    "building_name": "滨河苑小区",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.950758,
+      22.767281
+    ],
+    "coordinates_bd09": [
+      113.950758,
+      22.767281
+    ],
+    "coordinates_wgs84": [
+      113.93932277751692,
+      22.76459508087417
+    ],
+    "coordinate_group_id": "bd09:d55665a3a557c3fec9a55ec8",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "滨河苑小区",
+      "房屋总数": null,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.950758,
+          22.767281
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 125,
+    "source_row_index": 6807,
+    "building_id": "fdc:sz:6807",
+    "building_name": "裕民花园",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.997853,
+      22.742812
+    ],
+    "coordinates_bd09": [
+      113.997853,
+      22.742812
+    ],
+    "coordinates_wgs84": [
+      113.98643775045929,
+      22.739374800135696
+    ],
+    "coordinate_group_id": "bd09:74837d98f43b54f67078f754",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "裕民花园",
+      "房屋总数": 206,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.997853,
+          22.742812
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 126,
+    "source_row_index": 6808,
+    "building_id": "fdc:sz:6808",
+    "building_name": "侨新花园",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.955628,
+      22.760505
+    ],
+    "coordinates_bd09": [
+      113.955628,
+      22.760505
+    ],
+    "coordinates_wgs84": [
+      113.94418943569363,
+      22.757782095491745
+    ],
+    "coordinate_group_id": "bd09:91a4c1b64564ec254aa5aa6d",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "侨新花园",
+      "房屋总数": 14,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.955628,
+          22.760505
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 127,
+    "source_row_index": 6809,
+    "building_id": "fdc:sz:6809",
+    "building_name": "民鑫花园",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.999566,
+      22.746071
+    ],
+    "coordinates_bd09": [
+      113.999566,
+      22.746071
+    ],
+    "coordinates_wgs84": [
+      113.98815208038363,
+      22.742616240793552
+    ],
+    "coordinate_group_id": "bd09:db80d4a21ddef233ff83d4db",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "民鑫花园",
+      "房屋总数": 144,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.999566,
+          22.746071
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 128,
+    "source_row_index": 6810,
+    "building_id": "fdc:sz:6810",
+    "building_name": "民盛花园",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.997625,
+      22.745631
+    ],
+    "coordinates_bd09": [
+      113.997625,
+      22.745631
+    ],
+    "coordinates_wgs84": [
+      113.98621264832477,
+      22.74219600366954
+    ],
+    "coordinate_group_id": "bd09:dfac537a0831dd6e6fbf8f06",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "民盛花园",
+      "房屋总数": 103,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.997625,
+          22.745631
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 129,
+    "source_row_index": 6811,
+    "building_id": "fdc:sz:6811",
+    "building_name": "星悦居",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.930626,
+      22.741728
+    ],
+    "coordinates_bd09": [
+      113.930626,
+      22.741728
+    ],
+    "coordinates_wgs84": [
+      113.91920312208788,
+      22.738967172993856
+    ],
+    "coordinate_group_id": "bd09:18a1e1efa4e98055cc651cdc",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "星悦居",
+      "房屋总数": 752,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.930626,
+          22.741728
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 130,
+    "source_row_index": 6812,
+    "building_id": "fdc:sz:6812",
+    "building_name": "碧雅苑",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.956692,
+      22.760945
+    ],
+    "coordinates_bd09": [
+      113.956692,
+      22.760945
+    ],
+    "coordinates_wgs84": [
+      113.94525420327912,
+      22.75821081748208
+    ],
+    "coordinate_group_id": "bd09:ea389269c18e3c538821f0dd",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "碧雅苑",
+      "房屋总数": 68,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.956692,
+          22.760945
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 131,
+    "source_row_index": 6926,
+    "building_id": "fdc:sz:6926",
+    "building_name": "东宝华庭",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.892314,
+      22.799044
+    ],
+    "coordinates_bd09": [
+      113.892314,
+      22.799044
+    ],
+    "coordinates_wgs84": [
+      113.8809804613683,
+      22.795708327211518
+    ],
+    "coordinate_group_id": "bd09:f339a98c907309dfb8802d93",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "东宝华庭",
+      "房屋总数": 460,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.892314,
+          22.799044
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 132,
+    "source_row_index": 6927,
+    "building_id": "fdc:sz:6927",
+    "building_name": "中泰花园",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.897925,
+      22.784304
+    ],
+    "coordinates_bd09": [
+      113.897925,
+      22.784304
+    ],
+    "coordinates_wgs84": [
+      113.88660287541765,
+      22.78102330358712
+    ],
+    "coordinate_group_id": "bd09:b79a5344294bc4678afe88c0",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "中泰花园",
+      "房屋总数": 288,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.897925,
+          22.784304
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 133,
+    "source_row_index": 6928,
+    "building_id": "fdc:sz:6928",
+    "building_name": "美庭花园",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.896722,
+      22.796436
+    ],
+    "coordinates_bd09": [
+      113.896722,
+      22.796436
+    ],
+    "coordinates_wgs84": [
+      113.88539136195247,
+      22.79313715667728
+    ],
+    "coordinate_group_id": "bd09:bb18d97a1426838ed6aa22c2",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "美庭花园",
+      "房屋总数": 247,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.896722,
+          22.796436
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 134,
+    "source_row_index": 6929,
+    "building_id": "fdc:sz:6929",
+    "building_name": "明爱楼",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.886712,
+      22.785142
+    ],
+    "coordinates_bd09": [
+      113.886712,
+      22.785142
+    ],
+    "coordinates_wgs84": [
+      113.87538324251032,
+      22.781792164358308
+    ],
+    "coordinate_group_id": "bd09:40c1e975ab5ca723eb9ee8c2",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "明爱楼",
+      "房屋总数": 56,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.886712,
+          22.785142
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 135,
+    "source_row_index": 6930,
+    "building_id": "fdc:sz:6930",
+    "building_name": "雅庭居花园",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.898013,
+      22.794904
+    ],
+    "coordinates_bd09": [
+      113.898013,
+      22.794904
+    ],
+    "coordinates_wgs84": [
+      113.88668313525842,
+      22.791619241338015
+    ],
+    "coordinate_group_id": "bd09:aac2bbd42b27d701684b7d65",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "雅庭居花园",
+      "房屋总数": 128,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.898013,
+          22.794904
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 136,
+    "source_row_index": 6931,
+    "building_id": "fdc:sz:6931",
+    "building_name": "祺園",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.907731,
+      22.790692
+    ],
+    "coordinates_bd09": [
+      113.907731,
+      22.790692
+    ],
+    "coordinates_wgs84": [
+      113.89639009512469,
+      22.78754357798033
+    ],
+    "coordinate_group_id": "bd09:e9e0b3d5ffe6d59c357c5bf4",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "祺園",
+      "房屋总数": 77,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.907731,
+          22.790692
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 137,
+    "source_row_index": 6932,
+    "building_id": "fdc:sz:6932",
+    "building_name": "公明民政大厦",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.901583,
+      22.786934
+    ],
+    "coordinates_bd09": [
+      113.901583,
+      22.786934
+    ],
+    "coordinates_wgs84": [
+      113.8902558327626,
+      22.783695996934345
+    ],
+    "coordinate_group_id": "bd09:955aa0344e03f82846d7310b",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "公明民政大厦",
+      "房屋总数": null,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.901583,
+          22.786934
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 138,
+    "source_row_index": 6933,
+    "building_id": "fdc:sz:6933",
+    "building_name": "马田第一花园",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.884112,
+      22.785
+    ],
+    "coordinates_bd09": [
+      113.884112,
+      22.785
+    ],
+    "coordinates_wgs84": [
+      113.87277791780305,
+      22.78165003162123
+    ],
+    "coordinate_group_id": "bd09:3fd43dbd8b5e509f4b7d97a8",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "马田第一花园",
+      "房屋总数": 168,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.884112,
+          22.785
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 139,
+    "source_row_index": 6934,
+    "building_id": "fdc:sz:6934",
+    "building_name": "锦田湾",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.911427,
+      22.729775
+    ],
+    "coordinates_bd09": [
+      113.911427,
+      22.729775
+    ],
+    "coordinates_wgs84": [
+      113.90005195757182,
+      22.726702242579773
+    ],
+    "coordinate_group_id": "bd09:81cf203cf3b5b4d0cb635fb7",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "锦田湾",
+      "房屋总数": 129,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.911427,
+          22.729775
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 140,
+    "source_row_index": 6989,
+    "building_id": "fdc:sz:6989",
+    "building_name": "润曦府",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.929682,
+      22.729242
+    ],
+    "coordinates_bd09": [
+      113.929682,
+      22.729242
+    ],
+    "coordinates_wgs84": [
+      113.91825184799714,
+      22.72647063644151
+    ],
+    "coordinate_group_id": "bd09:99c838c25ea5b90a80bee5ab",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "润曦府",
+      "房屋总数": 824,
+      "建成年代": "2024",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.929682,
+          22.729242
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 141,
+    "source_row_index": 6990,
+    "building_id": "fdc:sz:6990",
+    "building_name": "富裕居花园",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.993343,
+      22.739326
+    ],
+    "coordinates_bd09": [
+      113.993343,
+      22.739326
+    ],
+    "coordinates_wgs84": [
+      113.98192676962483,
+      22.735945881652892
+    ],
+    "coordinate_group_id": "bd09:ee38997cc2d6e82c70924532",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "富裕居花园",
+      "房屋总数": 208,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.993343,
+          22.739326
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 142,
+    "source_row_index": 6991,
+    "building_id": "fdc:sz:6991",
+    "building_name": "星河天地二期",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.944213,
+      22.767088
+    ],
+    "coordinates_bd09": [
+      113.944213,
+      22.767088
+    ],
+    "coordinates_wgs84": [
+      113.93278247014183,
+      22.764418015100517
+    ],
+    "coordinate_group_id": "bd09:7598e42da2320d519f9de606",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "星河天地二期",
+      "房屋总数": 288,
+      "建成年代": "2021",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.944213,
+          22.767088
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 143,
+    "source_row_index": 6992,
+    "building_id": "fdc:sz:6992",
+    "building_name": "深房光明里",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.952513,
+      22.747144
+    ],
+    "coordinates_bd09": [
+      113.952513,
+      22.747144
+    ],
+    "coordinates_wgs84": [
+      113.94106244988058,
+      22.74444981828908
+    ],
+    "coordinate_group_id": "bd09:7136cf4ad0b568575ddea3dc",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "深房光明里",
+      "房屋总数": 420,
+      "建成年代": "2024",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.952513,
+          22.747144
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 144,
+    "source_row_index": 6993,
+    "building_id": "fdc:sz:6993",
+    "building_name": "深业颐瑞府",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.947192,
+      22.774728
+    ],
+    "coordinates_bd09": [
+      113.947192,
+      22.774728
+    ],
+    "coordinates_wgs84": [
+      113.93576008884445,
+      22.77205389546163
+    ],
+    "coordinate_group_id": "bd09:34741340755c42eb60dd1f1f",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "深业颐瑞府",
+      "房屋总数": 448,
+      "建成年代": "2024",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.947192,
+          22.774728
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 145,
+    "source_row_index": 6994,
+    "building_id": "fdc:sz:6994",
+    "building_name": "研祥智谷",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.932667,
+      22.763092
+    ],
+    "coordinates_bd09": [
+      113.932667,
+      22.763092
+    ],
+    "coordinates_wgs84": [
+      113.92125689651576,
+      22.760352449028186
+    ],
+    "coordinate_group_id": "bd09:5a2d87db2e0af04b4e16475f",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "研祥智谷",
+      "房屋总数": 80,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.932667,
+          22.763092
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 146,
+    "source_row_index": 7071,
+    "building_id": "fdc:sz:7071",
+    "building_name": "润曜府",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.957478,
+      22.740713
+    ],
+    "coordinates_bd09": [
+      113.957478,
+      22.740713
+    ],
+    "coordinates_wgs84": [
+      113.94602281674217,
+      22.7379723218039
+    ],
+    "coordinate_group_id": "bd09:f60fd76d0950480c06337b3a",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "润曜府",
+      "房屋总数": 1178,
+      "建成年代": "2024",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.957478,
+          22.740713
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 147,
+    "source_row_index": 7072,
+    "building_id": "fdc:sz:7072",
+    "building_name": "富森大厦",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.926918,
+      22.773664
+    ],
+    "coordinates_bd09": [
+      113.926918,
+      22.773664
+    ],
+    "coordinates_wgs84": [
+      113.91552757611977,
+      22.77084747988155
+    ],
+    "coordinate_group_id": "bd09:7243a7dab8f69b2983f72177",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "富森大厦",
+      "房屋总数": 30,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.926918,
+          22.773664
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 148,
+    "source_row_index": 7086,
+    "building_id": "fdc:sz:7086",
+    "building_name": "庭辉",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.914099,
+      22.747508
+    ],
+    "coordinates_bd09": [
+      113.914099,
+      22.747508
+    ],
+    "coordinates_wgs84": [
+      113.90273171314833,
+      22.74448017177289
+    ],
+    "coordinate_group_id": "bd09:c7ef5973931b0acbdbc2d8e8",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "庭辉",
+      "房屋总数": null,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.914099,
+          22.747508
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 149,
+    "source_row_index": 7087,
+    "building_id": "fdc:sz:7087",
+    "building_name": "嘉陽楼",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.887519,
+      22.784785
+    ],
+    "coordinates_bd09": [
+      113.887519,
+      22.784785
+    ],
+    "coordinates_wgs84": [
+      113.87619179955828,
+      22.781436617080196
+    ],
+    "coordinate_group_id": "bd09:ea13c63b19555d9a8d47eeab",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "嘉陽楼",
+      "房屋总数": 56,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.887519,
+          22.784785
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 150,
+    "source_row_index": 7088,
+    "building_id": "fdc:sz:7088",
+    "building_name": "富荣阁",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.924102,
+      22.766512
+    ],
+    "coordinates_bd09": [
+      113.924102,
+      22.766512
+    ],
+    "coordinates_wgs84": [
+      113.91271844167076,
+      22.763654050443577
+    ],
+    "coordinate_group_id": "bd09:96950184c6b2a3a75a4cc082",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "富荣阁",
+      "房屋总数": null,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.924102,
+          22.766512
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 151,
+    "source_row_index": 7089,
+    "building_id": "fdc:sz:7089",
+    "building_name": "幸福·花园里",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.885594,
+      22.785917
+    ],
+    "coordinates_bd09": [
+      113.885594,
+      22.785917
+    ],
+    "coordinates_wgs84": [
+      113.8742626761457,
+      22.782565997533215
+    ],
+    "coordinate_group_id": "bd09:ab56bea5d0e2f2e5fc824986",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "幸福·花园里",
+      "房屋总数": 202,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.885594,
+          22.785917
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 152,
+    "source_row_index": 7111,
+    "building_id": "fdc:sz:7111",
+    "building_name": "景湖壹号",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.901203,
+      22.755066
+    ],
+    "coordinates_bd09": [
+      113.901203,
+      22.755066
+    ],
+    "coordinates_wgs84": [
+      113.88987075420569,
+      22.75183183724771
+    ],
+    "coordinate_group_id": "bd09:ed669806206dbd16d502e4ea",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "景湖壹号",
+      "房屋总数": 932,
+      "建成年代": "2013",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.901203,
+          22.755066
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 153,
+    "source_row_index": 7238,
+    "building_id": "fdc:sz:7238",
+    "building_name": "满京华金硕华府",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.943138,
+      22.77475
+    ],
+    "coordinates_bd09": [
+      113.943138,
+      22.77475
+    ],
+    "coordinates_wgs84": [
+      113.93171037457373,
+      22.77207655526217
+    ],
+    "coordinate_group_id": "bd09:12c79ef14d8df0db7a6d54d9",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "满京华金硕华府",
+      "房屋总数": 1657,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.943138,
+          22.77475
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 154,
+    "source_row_index": 7239,
+    "building_id": "fdc:sz:7239",
+    "building_name": "联发悦尚居",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.933586,
+      22.775513
+    ],
+    "coordinates_bd09": [
+      113.933586,
+      22.775513
+    ],
+    "coordinates_wgs84": [
+      113.92217703864935,
+      22.772780077824923
+    ],
+    "coordinate_group_id": "bd09:b7fcc797ea42f2cac11f0e9e",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "联发悦尚居",
+      "房屋总数": 1096,
+      "建成年代": "2024",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.933586,
+          22.775513
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 155,
+    "source_row_index": 7255,
+    "building_id": "fdc:sz:7255",
+    "building_name": "花润里花园",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.999406,
+      22.738865
+    ],
+    "coordinates_bd09": [
+      113.999406,
+      22.738865
+    ],
+    "coordinates_wgs84": [
+      113.9879855002568,
+      22.735412467448267
+    ],
+    "coordinate_group_id": "bd09:06538b797b9843c230fb1913",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "花润里花园",
+      "房屋总数": 416,
+      "建成年代": "2024",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.999406,
+          22.738865
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 156,
+    "source_row_index": 7257,
+    "building_id": "fdc:sz:7257",
+    "building_name": "中海时光境花园",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.959323,
+      22.742582
+    ],
+    "coordinates_bd09": [
+      113.959323,
+      22.742582
+    ],
+    "coordinates_wgs84": [
+      113.94787086169903,
+      22.73981828511344
+    ],
+    "coordinate_group_id": "bd09:f0f8ac8a3af88c231dea4911",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "中海时光境花园",
+      "房屋总数": 1951,
+      "建成年代": "2024",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.959323,
+          22.742582
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 157,
+    "source_row_index": 7275,
+    "building_id": "fdc:sz:7275",
+    "building_name": "勤诚达正大城悦园",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.919937,
+      22.727217
+    ],
+    "coordinates_bd09": [
+      113.919937,
+      22.727217
+    ],
+    "coordinates_wgs84": [
+      113.90853543240404,
+      22.72429457281628
+    ],
+    "coordinate_group_id": "bd09:aed0256aa008b197ddee7eb2",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "勤诚达正大城悦园",
+      "房屋总数": 1859,
+      "建成年代": "2019",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.919937,
+          22.727217
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 158,
+    "source_row_index": 7276,
+    "building_id": "fdc:sz:7276",
+    "building_name": "勤诚达正大城和园",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.919989,
+      22.725803
+    ],
+    "coordinates_bd09": [
+      113.919989,
+      22.725803
+    ],
+    "coordinates_wgs84": [
+      113.90858660104803,
+      22.722881720722647
+    ],
+    "coordinate_group_id": "bd09:6efb8c06f1bc20ee2f9c89d6",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "勤诚达正大城和园",
+      "房屋总数": 1317,
+      "建成年代": "2019",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.919989,
+          22.725803
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 159,
+    "source_row_index": 7277,
+    "building_id": "fdc:sz:7277",
+    "building_name": "勤诚达正大城花园",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.922018,
+      22.726635
+    ],
+    "coordinates_bd09": [
+      113.922018,
+      22.726635
+    ],
+    "coordinates_wgs84": [
+      113.91060962881082,
+      22.72374815445029
+    ],
+    "coordinate_group_id": "bd09:6f6ee97016ee7492d5ecee72",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "勤诚达正大城花园",
+      "房屋总数": 1954,
+      "建成年代": "2018",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.922018,
+          22.726635
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 160,
+    "source_row_index": 7308,
+    "building_id": "fdc:sz:7308",
+    "building_name": "龙光玖龙台三期(公寓)",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.940541,
+      22.752237
+    ],
+    "coordinates_bd09": [
+      113.940541,
+      22.752237
+    ],
+    "coordinates_wgs84": [
+      113.92910554516193,
+      22.7495601456845
+    ],
+    "coordinate_group_id": "bd09:bc0d8f952de2da6d92bfca41",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "龙光玖龙台三期(公寓)",
+      "房屋总数": 2285,
+      "建成年代": "2019",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.940541,
+          22.752237
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 161,
+    "source_row_index": 7313,
+    "building_id": "fdc:sz:7313",
+    "building_name": "龙光玖龙台二期",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.941111,
+      22.751123
+    ],
+    "coordinates_bd09": [
+      113.941111,
+      22.751123
+    ],
+    "coordinates_wgs84": [
+      113.92967358369937,
+      22.748448557941355
+    ],
+    "coordinate_group_id": "bd09:75ae5a5af22514bfdd7be82b",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "龙光玖龙台二期",
+      "房屋总数": 837,
+      "建成年代": "2019",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.941111,
+          22.751123
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 162,
+    "source_row_index": 7318,
+    "building_id": "fdc:sz:7318",
+    "building_name": "羌下松园居",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.972403,
+      22.806448
+    ],
+    "coordinates_bd09": [
+      113.972403,
+      22.806448
+    ],
+    "coordinates_wgs84": [
+      113.96096693937758,
+      22.803440262569875
+    ],
+    "coordinate_group_id": "bd09:16a696ad193011b7945a380d",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "羌下松园居",
+      "房屋总数": 1513,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.972403,
+          22.806448
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 163,
+    "source_row_index": 7319,
+    "building_id": "fdc:sz:7319",
+    "building_name": "汇银绿城桂语兰庭",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.948,
+      22.772551
+    ],
+    "coordinates_bd09": [
+      113.948,
+      22.772551
+    ],
+    "coordinates_wgs84": [
+      113.93656738314509,
+      22.769875498561948
+    ],
+    "coordinate_group_id": "bd09:f96318f22be4840aa21a8571",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "汇银绿城桂语兰庭",
+      "房屋总数": 1906,
+      "建成年代": "2025",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.948,
+          22.772551
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 164,
+    "source_row_index": 7327,
+    "building_id": "fdc:sz:7327",
+    "building_name": "光明润宏城",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.915683,
+      22.748811
+    ],
+    "coordinates_bd09": [
+      113.915683,
+      22.748811
+    ],
+    "coordinates_wgs84": [
+      113.90431231423331,
+      22.745811151837945
+    ],
+    "coordinate_group_id": "bd09:dc04665315bfa447f59bd348",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "光明润宏城",
+      "房屋总数": 1195,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.915683,
+          22.748811
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 165,
+    "source_row_index": 7348,
+    "building_id": "fdc:sz:7348",
+    "building_name": "宏发悦见公园里",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.907639,
+      22.781794
+    ],
+    "coordinates_bd09": [
+      113.907639,
+      22.781794
+    ],
+    "coordinates_wgs84": [
+      113.89630348877728,
+      22.778648005773224
+    ],
+    "coordinate_group_id": "bd09:e7349a38bcde46a5e8ac4ed6",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "宏发悦见公园里",
+      "房屋总数": 1404,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.907639,
+          22.781794
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 166,
+    "source_row_index": 7349,
+    "building_id": "fdc:sz:7349",
+    "building_name": "金地峰境誉府",
+    "source_area_name": "光明区",
+    "source_block": "光明",
+    "coordinates_bd09_original": [
+      113.957652,
+      22.769528
+    ],
+    "coordinates_bd09": [
+      113.957652,
+      22.769528
+    ],
+    "coordinates_wgs84": [
+      113.94621884095285,
+      22.76678107254094
+    ],
+    "coordinate_group_id": "bd09:f6f1f5a318789b7d786e3a7c",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "光明",
+      "building_name": "金地峰境誉府",
+      "房屋总数": 534,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.957652,
+          22.769528
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 167,
+    "source_row_index": 7362,
+    "building_id": "fdc:sz:7362",
+    "building_name": "润雅园",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.918531,
+      22.754351
+    ],
+    "coordinates_bd09": [
+      113.918531,
+      22.754351
+    ],
+    "coordinates_wgs84": [
+      113.9071567148909,
+      22.751400923334167
+    ],
+    "coordinate_group_id": "bd09:8689c3e3719e65c29f36cd4b",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "润雅园",
+      "房屋总数": 230,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.918531,
+          22.754351
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  },
+  {
+    "row_index": 168,
+    "source_row_index": 7365,
+    "building_id": "fdc:sz:7365",
+    "building_name": "龙湖御湖境",
+    "source_area_name": "光明区",
+    "source_block": "公明",
+    "coordinates_bd09_original": [
+      113.875903,
+      22.785945
+    ],
+    "coordinates_bd09": [
+      113.875903,
+      22.785945
+    ],
+    "coordinates_wgs84": [
+      113.86454180185993,
+      22.78263281932555
+    ],
+    "coordinate_group_id": "bd09:d8f82a80f44e9b9d6a1c8374",
+    "coordinate_status": "available",
+    "coordinate_correction_source": null,
+    "source_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "source_sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "district_assignment_basis": "FDC来源区标签，非行政边界核定",
+    "raw_record": {
+      "area_name": "光明区",
+      "bk_板块": "公明",
+      "building_name": "龙湖御湖境",
+      "房屋总数": 1216,
+      "建成年代": "",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          113.875903,
+          22.785945
+        ]
+      },
+      "city_id": 4,
+      "city_name": "深圳"
+    }
+  }
+]

@@ -1,0 +1,1825 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "bd09:10f8dd3dd08c846335a15ceb",
+      "properties": {
+        "coordinate_group_id": "bd09:10f8dd3dd08c846335a15ceb",
+        "building_names": [
+          "六和城"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.33379934360767,
+          22.695671630525307
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:2e02a60cad8d10731f7f5a36",
+      "properties": {
+        "coordinate_group_id": "bd09:2e02a60cad8d10731f7f5a36",
+        "building_names": [
+          "财富城"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.33451000205613,
+          22.705617084211685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:5d5671e2b76c0305f376853a",
+      "properties": {
+        "coordinate_group_id": "bd09:5d5671e2b76c0305f376853a",
+        "building_names": [
+          "东方威尼斯花园"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.33406757540469,
+          22.688575960694333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:d5e61963ec77ad1ed84877a1",
+      "properties": {
+        "coordinate_group_id": "bd09:d5e61963ec77ad1ed84877a1",
+        "building_names": [
+          "深业东城上邸"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.33261471621104,
+          22.687039101587615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:a47610350eb25745b4821724",
+      "properties": {
+        "coordinate_group_id": "bd09:a47610350eb25745b4821724",
+        "building_names": [
+          "坪山招商花园城北区"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.33929516163353,
+          22.71091759612874
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:43c5f2cbac97b67e1417cf81",
+      "properties": {
+        "coordinate_group_id": "bd09:43c5f2cbac97b67e1417cf81",
+        "building_names": [
+          "京基御景印象一期"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3295201123245,
+          22.680464805161247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:628cc1e4d88c3431b0106edd",
+      "properties": {
+        "coordinate_group_id": "bd09:628cc1e4d88c3431b0106edd",
+        "building_names": [
+          "大东城二期"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.33226376843015,
+          22.7100344602011
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:43933320f281096fa3047a97",
+      "properties": {
+        "coordinate_group_id": "bd09:43933320f281096fa3047a97",
+        "building_names": [
+          "天峦湖"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.34733943644486,
+          22.669476741857885
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:d63773d615b66dd6811487f2",
+      "properties": {
+        "coordinate_group_id": "bd09:d63773d615b66dd6811487f2",
+        "building_names": [
+          "丹梓龙庭"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3900152920802,
+          22.744412517272032
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:a63293412402cfcad663c2f4",
+      "properties": {
+        "coordinate_group_id": "bd09:a63293412402cfcad663c2f4",
+        "building_names": [
+          "深业东城国际"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.323964990132,
+          22.683269989568032
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:f7dec7711451324d8efdc616",
+      "properties": {
+        "coordinate_group_id": "bd09:f7dec7711451324d8efdc616",
+        "building_names": [
+          "一品澜山"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.36852787639006,
+          22.734364976027774
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:5886a7c517258c2e17b0c98d",
+      "properties": {
+        "coordinate_group_id": "bd09:5886a7c517258c2e17b0c98d",
+        "building_names": [
+          "深业御园"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.39314510372108,
+          22.743892229885443
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:d0d6d4ab7e621e201c72cfd9",
+      "properties": {
+        "coordinate_group_id": "bd09:d0d6d4ab7e621e201c72cfd9",
+        "building_names": [
+          "万科金域缇香"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.33742885439389,
+          22.710741873211386
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:02313669ab86a0c50ea5c2ab",
+      "properties": {
+        "coordinate_group_id": "bd09:02313669ab86a0c50ea5c2ab",
+        "building_names": [
+          "万科金域东郡"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.33806210365447,
+          22.708761317916323
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:5bbd8cddb68c59d1a611710a",
+      "properties": {
+        "coordinate_group_id": "bd09:5bbd8cddb68c59d1a611710a",
+        "building_names": [
+          "龙光玖云著"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.32587395563385,
+          22.68225361845208
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:3fe1487b1fdbc87f9ee3d7ba",
+      "properties": {
+        "coordinate_group_id": "bd09:3fe1487b1fdbc87f9ee3d7ba",
+        "building_names": [
+          "京基御景印象四期"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.32657570105462,
+          22.677280991218712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:12ad33c089a1170e7e44eb70",
+      "properties": {
+        "coordinate_group_id": "bd09:12ad33c089a1170e7e44eb70",
+        "building_names": [
+          "金地朗悦"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.33489195177452,
+          22.68107780162278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:1df3657302346b5d0479a9bf",
+      "properties": {
+        "coordinate_group_id": "bd09:1df3657302346b5d0479a9bf",
+        "building_names": [
+          "京基御景印象二期"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.32986804092819,
+          22.679291616561937
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:b9429a8136e1f84956e24324",
+      "properties": {
+        "coordinate_group_id": "bd09:b9429a8136e1f84956e24324",
+        "building_names": [
+          "深城投中心公馆"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.33688420872396,
+          22.70660008155018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:fc6c0054a417d8676433cc19",
+      "properties": {
+        "coordinate_group_id": "bd09:fc6c0054a417d8676433cc19",
+        "building_names": [
+          "坪山招商花园城南区"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.33976694331746,
+          22.709523964273348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:05601d71ff867f9a4cf543d1",
+      "properties": {
+        "coordinate_group_id": "bd09:05601d71ff867f9a4cf543d1",
+        "building_names": [
+          "奥园翡翠东湾"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.38602215614823,
+          22.709873921265704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:242696d7b7bd8aa18eee89ad",
+      "properties": {
+        "coordinate_group_id": "bd09:242696d7b7bd8aa18eee89ad",
+        "building_names": [
+          "盈富家园"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.36385060275056,
+          22.706389989573978
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:70b5142a139ab72e37f192d6",
+      "properties": {
+        "coordinate_group_id": "bd09:70b5142a139ab72e37f192d6",
+        "building_names": [
+          "力高君御国际"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.32401627227087,
+          22.679412750878413
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:abdf3a69b4436996616d5109",
+      "properties": {
+        "coordinate_group_id": "bd09:abdf3a69b4436996616d5109",
+        "building_names": [
+          "豪方菁园"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.36172610145078,
+          22.70567732529886
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:beadcb5a3231e163be2c006e",
+      "properties": {
+        "coordinate_group_id": "bd09:beadcb5a3231e163be2c006e",
+        "building_names": [
+          "心海城"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.34117698228131,
+          22.682822615113828
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:0540beda9b4d3ae5a4fcc4f4",
+      "properties": {
+        "coordinate_group_id": "bd09:0540beda9b4d3ae5a4fcc4f4",
+        "building_names": [
+          "金田风华苑"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3697410878768,
+          22.748363523000574
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:90b22d92b9bd2b80014ec90b",
+      "properties": {
+        "coordinate_group_id": "bd09:90b22d92b9bd2b80014ec90b",
+        "building_names": [
+          "东津名座"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.33460072483224,
+          22.685472903720644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:afffb8a8ab471e30aa4990b2",
+      "properties": {
+        "coordinate_group_id": "bd09:afffb8a8ab471e30aa4990b2",
+        "building_names": [
+          "京基御景印象三期"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.32849239924049,
+          22.678334782644313
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:380836ddfc2728ee7159eea1",
+      "properties": {
+        "coordinate_group_id": "bd09:380836ddfc2728ee7159eea1",
+        "building_names": [
+          "万科金域缇香二期"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.33400332124246,
+          22.70791634397063
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:34792a4ac94a6ea2670982c7",
+      "properties": {
+        "coordinate_group_id": "bd09:34792a4ac94a6ea2670982c7",
+        "building_names": [
+          "坪山首座"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.31042165851035,
+          22.67058436606816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:f009b02b10a909a3336474b0",
+      "properties": {
+        "coordinate_group_id": "bd09:f009b02b10a909a3336474b0",
+        "building_names": [
+          "顺发大厦"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.34053372671045,
+          22.692077463500873
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:2ea4d7a3e14368bb7858ec70",
+      "properties": {
+        "coordinate_group_id": "bd09:2ea4d7a3e14368bb7858ec70",
+        "building_names": [
+          "果园贝鼎盛大厦"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.32979234517957,
+          22.68257456917212
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:de832f70c3406e8b2ac9894a",
+      "properties": {
+        "coordinate_group_id": "bd09:de832f70c3406e8b2ac9894a",
+        "building_names": [
+          "亨龙楼"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.36430525098493,
+          22.746944926392658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:40cd0606ae2029c836b4aece",
+      "properties": {
+        "coordinate_group_id": "bd09:40cd0606ae2029c836b4aece",
+        "building_names": [
+          "八克拉"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.36225434779882,
+          22.707043459020028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:5f844ea1e62bdec3a301eb08",
+      "properties": {
+        "coordinate_group_id": "bd09:5f844ea1e62bdec3a301eb08",
+        "building_names": [
+          "泰富华庭"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.34108527461127,
+          22.692051708793606
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:21fd008e8d40e81b88658dce",
+      "properties": {
+        "coordinate_group_id": "bd09:21fd008e8d40e81b88658dce",
+        "building_names": [
+          "泰富华悦都会"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.33628536088534,
+          22.682645111593835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:360782617e04921d86a78a9e",
+      "properties": {
+        "coordinate_group_id": "bd09:360782617e04921d86a78a9e",
+        "building_names": [
+          "天峦湖二期"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.347926790072,
+          22.669048821740784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:de4ff4a42d93d33dd27eda89",
+      "properties": {
+        "coordinate_group_id": "bd09:de4ff4a42d93d33dd27eda89",
+        "building_names": [
+          "方直谷仓府"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.35739360717842,
+          22.68877665120391
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:2cb3c2d0f5053bf2f226af8b",
+      "properties": {
+        "coordinate_group_id": "bd09:2cb3c2d0f5053bf2f226af8b",
+        "building_names": [
+          "启兴生活区"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3615757163574,
+          22.707687987849955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:00e19f7c4a5eedf524c1ac05",
+      "properties": {
+        "coordinate_group_id": "bd09:00e19f7c4a5eedf524c1ac05",
+        "building_names": [
+          "深城投中城花园"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.33876907861979,
+          22.69744738545816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:5d83052f5be4d16f288cf651",
+      "properties": {
+        "coordinate_group_id": "bd09:5d83052f5be4d16f288cf651",
+        "building_names": [
+          "祥祺滨河名苑"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.33190117571216,
+          22.688249815718308
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:ee19eea1e60006f705529da9",
+      "properties": {
+        "coordinate_group_id": "bd09:ee19eea1e60006f705529da9",
+        "building_names": [
+          "大东城一期"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.33558030772011,
+          22.71004098192296
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:8d0b66d7e2e22067f7164cd5",
+      "properties": {
+        "coordinate_group_id": "bd09:8d0b66d7e2e22067f7164cd5",
+        "building_names": [
+          "竹韵花园"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3953311906373,
+          22.706272424259712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:6779f779b245cc51620b6117",
+      "properties": {
+        "coordinate_group_id": "bd09:6779f779b245cc51620b6117",
+        "building_names": [
+          "凤凰公馆"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.30666182158014,
+          22.676082273075874
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:23cceb5a35b45a629fd12222",
+      "properties": {
+        "coordinate_group_id": "bd09:23cceb5a35b45a629fd12222",
+        "building_names": [
+          "富润·乐庭"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.36159157509078,
+          22.68961096580282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:f2afef4780edb2699ecc62a6",
+      "properties": {
+        "coordinate_group_id": "bd09:f2afef4780edb2699ecc62a6",
+        "building_names": [
+          "中海万锦熙岸华庭"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.38940967072529,
+          22.709278446190257
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:b25b7855fdc863286e125da6",
+      "properties": {
+        "coordinate_group_id": "bd09:b25b7855fdc863286e125da6",
+        "building_names": [
+          "澜湾花园"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.38768167254116,
+          22.71093933047453
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:a08bd7d9f1124a48b6b757f0",
+      "properties": {
+        "coordinate_group_id": "bd09:a08bd7d9f1124a48b6b757f0",
+        "building_names": [
+          "汤亨花园"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.30823721413003,
+          22.6718682713692
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:e3833fdb73df5062a42fc80e",
+      "properties": {
+        "coordinate_group_id": "bd09:e3833fdb73df5062a42fc80e",
+        "building_names": [
+          "东关珺府"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.35038191132033,
+          22.68221234378622
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:0dcc730030d9ef8b34ed127d",
+      "properties": {
+        "coordinate_group_id": "bd09:0dcc730030d9ef8b34ed127d",
+        "building_names": [
+          "碧湖春天"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.29553070435401,
+          22.675416578099977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:c0b7cdf62eaaf2c70de58c0d",
+      "properties": {
+        "coordinate_group_id": "bd09:c0b7cdf62eaaf2c70de58c0d",
+        "building_names": [
+          "梓兴花园"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.36755652184327,
+          22.739329715197385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:8f2da1ba30799927b5fb800c",
+      "properties": {
+        "coordinate_group_id": "bd09:8f2da1ba30799927b5fb800c",
+        "building_names": [
+          "润樾山"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.31243671200234,
+          22.675358488729323
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:ee32ad530ab8cd1f056c5610",
+      "properties": {
+        "coordinate_group_id": "bd09:ee32ad530ab8cd1f056c5610",
+        "building_names": [
+          "东部华侨城天麓七区",
+          "东部华侨城天麓"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.28944417137369,
+          22.632818591031633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:e81b38c95431281653956926",
+      "properties": {
+        "coordinate_group_id": "bd09:e81b38c95431281653956926",
+        "building_names": [
+          "燕子岭生活区"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.36424779603996,
+          22.705780858262916
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:0998e960cbda6ec6f83d36b7",
+      "properties": {
+        "coordinate_group_id": "bd09:0998e960cbda6ec6f83d36b7",
+        "building_names": [
+          "翠峰绿洲"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.28234861458402,
+          22.66502730120593
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:15b05d14bb75e2e81b8904ea",
+      "properties": {
+        "coordinate_group_id": "bd09:15b05d14bb75e2e81b8904ea",
+        "building_names": [
+          "深圳·泰禾广场"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.33412247624076,
+          22.694983126964413
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:2fc8c1df7d376f5e6ba1af5e",
+      "properties": {
+        "coordinate_group_id": "bd09:2fc8c1df7d376f5e6ba1af5e",
+        "building_names": [
+          "倚湖居"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.32360194569019,
+          22.67607344974103
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:670ddc57d5a3d45ce703bc87",
+      "properties": {
+        "coordinate_group_id": "bd09:670ddc57d5a3d45ce703bc87",
+        "building_names": [
+          "恒大成二期"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.33542793485952,
+          22.701004713835506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:50626f3d82c75e9d2ff8b5e1",
+      "properties": {
+        "coordinate_group_id": "bd09:50626f3d82c75e9d2ff8b5e1",
+        "building_names": [
+          "佳华领悦广场"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.33224438643816,
+          22.705036447254457
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:c4a9049efb4e45bd4a41fe8d",
+      "properties": {
+        "coordinate_group_id": "bd09:c4a9049efb4e45bd4a41fe8d",
+        "building_names": [
+          "信达泰禾金尊府"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.32442296370724,
+          22.678599064546358
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:93a2733cb11e4fd347bca741",
+      "properties": {
+        "coordinate_group_id": "bd09:93a2733cb11e4fd347bca741",
+        "building_names": [
+          "万樾府"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.33289795593971,
+          22.68447806629809
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:608db5493ca8ff8b234b4a8a",
+      "properties": {
+        "coordinate_group_id": "bd09:608db5493ca8ff8b234b4a8a",
+        "building_names": [
+          "花样年·旭辉·好时光"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3321604615951,
+          22.69037700421177
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:c934d6cc569edfd1c729354b",
+      "properties": {
+        "coordinate_group_id": "bd09:c934d6cc569edfd1c729354b",
+        "building_names": [
+          "和城里"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.33481324062308,
+          22.70400830299216
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:0a871e73d8228790fb0c45da",
+      "properties": {
+        "coordinate_group_id": "bd09:0a871e73d8228790fb0c45da",
+        "building_names": [
+          "豪方东园"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.36244751238422,
+          22.68585678700074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:c6ec769eca41336b6983ff70",
+      "properties": {
+        "coordinate_group_id": "bd09:c6ec769eca41336b6983ff70",
+        "building_names": [
+          "世茂广场"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.32469340685253,
+          22.685166676702377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:bf6b0b822517b692ecfbe238",
+      "properties": {
+        "coordinate_group_id": "bd09:bf6b0b822517b692ecfbe238",
+        "building_names": [
+          "深圳·国际影视文化城"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.30145108460158,
+          22.67603525125568
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:80d42808c15ab500482b9d87",
+      "properties": {
+        "coordinate_group_id": "bd09:80d42808c15ab500482b9d87",
+        "building_names": [
+          "玺悦台"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3555662598308,
+          22.728419346037352
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:ee68110112f89a6a16725b4e",
+      "properties": {
+        "coordinate_group_id": "bd09:ee68110112f89a6a16725b4e",
+        "building_names": [
+          "恒大成一期"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.33627932750453,
+          22.700825256312513
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:97eb29fc3fb1660fb3f48d05",
+      "properties": {
+        "coordinate_group_id": "bd09:97eb29fc3fb1660fb3f48d05",
+        "building_names": [
+          "保利明玥澜岸花园"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.31633227348168,
+          22.682459105363392
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:a41463072a5706a662638cb9",
+      "properties": {
+        "coordinate_group_id": "bd09:a41463072a5706a662638cb9",
+        "building_names": [
+          "怡瑞达云秀府"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.36653075639238,
+          22.73514172455098
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:6de7944bfb2cc4e8705c4775",
+      "properties": {
+        "coordinate_group_id": "bd09:6de7944bfb2cc4e8705c4775",
+        "building_names": [
+          "新城燕澜和鸣花园"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.37550104548565,
+          22.698278374493484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:d87993929d7e351a3d8f37dc",
+      "properties": {
+        "coordinate_group_id": "bd09:d87993929d7e351a3d8f37dc",
+        "building_names": [
+          "龙光玖誉雅筑"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.33622035383266,
+          22.676969782698375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:916bfcf19b2224764f502231",
+      "properties": {
+        "coordinate_group_id": "bd09:916bfcf19b2224764f502231",
+        "building_names": [
+          "深业山水东城"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.32565309315783,
+          22.669764469405692
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:4fe42fe7cb154032ece5fc8d",
+      "properties": {
+        "coordinate_group_id": "bd09:4fe42fe7cb154032ece5fc8d",
+        "building_names": [
+          "传承启元"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.38394081891907,
+          22.714534607087376
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:5e39d1cbb4f6cec1dd28df53",
+      "properties": {
+        "coordinate_group_id": "bd09:5e39d1cbb4f6cec1dd28df53",
+        "building_names": [
+          "君胜熙玥湾"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.32710319787591,
+          22.689006172827398
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:d026f2a6301dd7e5b0b3ec23",
+      "properties": {
+        "coordinate_group_id": "bd09:d026f2a6301dd7e5b0b3ec23",
+        "building_names": [
+          "震雄公寓"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.38592221072936,
+          22.750477407383517
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:d2ee4e2332917049ec233cb9",
+      "properties": {
+        "coordinate_group_id": "bd09:d2ee4e2332917049ec233cb9",
+        "building_names": [
+          "潮商广场"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.33079727071737,
+          22.685315022507243
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:2d115a8ffc84cf3edf69a220",
+      "properties": {
+        "coordinate_group_id": "bd09:2d115a8ffc84cf3edf69a220",
+        "building_names": [
+          "幸福时光"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.37766958083206,
+          22.750223820393682
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:1c3309d50b7f6bd682d817f2",
+      "properties": {
+        "coordinate_group_id": "bd09:1c3309d50b7f6bd682d817f2",
+        "building_names": [
+          "汤坑第一工业区"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.33747002883139,
+          22.696705236935898
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:7088aaf90b6864f82498c7f7",
+      "properties": {
+        "coordinate_group_id": "bd09:7088aaf90b6864f82498c7f7",
+        "building_names": [
+          "正山商业大厦"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.34088144535123,
+          22.703295988274185
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:aa5395d204c8a524c1c132a8",
+      "properties": {
+        "coordinate_group_id": "bd09:aa5395d204c8a524c1c132a8",
+        "building_names": [
+          "中集花园"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.33525026564604,
+          22.67564299029948
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:d9538023cfd2200a4cd358e2",
+      "properties": {
+        "coordinate_group_id": "bd09:d9538023cfd2200a4cd358e2",
+        "building_names": [
+          "香江花园"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.352565336814,
+          22.68607141870406
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:afe2c3ecb57eb32203780aa9",
+      "properties": {
+        "coordinate_group_id": "bd09:afe2c3ecb57eb32203780aa9",
+        "building_names": [
+          "禾场吓住宅区"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.37477465530088,
+          22.742676097493792
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:5ea2cff77d15e8e5f224ba67",
+      "properties": {
+        "coordinate_group_id": "bd09:5ea2cff77d15e8e5f224ba67",
+        "building_names": [
+          "聚龙花园二期"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.38332714234714,
+          22.724436927897685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:c6a5f52ea8862f58b41b8d2c",
+      "properties": {
+        "coordinate_group_id": "bd09:c6a5f52ea8862f58b41b8d2c",
+        "building_names": [
+          "聚龙花园一期"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.38655747851747,
+          22.724264832979788
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:1803a98aec54ee4472f01817",
+      "properties": {
+        "coordinate_group_id": "bd09:1803a98aec54ee4472f01817",
+        "building_names": [
+          "新湖居别墅"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.314509980359,
+          22.67615887226393
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:860898699a5de7d8a92f07f7",
+      "properties": {
+        "coordinate_group_id": "bd09:860898699a5de7d8a92f07f7",
+        "building_names": [
+          "溢丰楼"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.37737445565024,
+          22.74990824469278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:b2c4f6607a1d000c71cdda49",
+      "properties": {
+        "coordinate_group_id": "bd09:b2c4f6607a1d000c71cdda49",
+        "building_names": [
+          "光祖中学教师宿舍楼"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.36447071417375,
+          22.74370244180426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:0a1083fd943eb63e8d3a23fb",
+      "properties": {
+        "coordinate_group_id": "bd09:0a1083fd943eb63e8d3a23fb",
+        "building_names": [
+          "同德居"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.35947838536345,
+          22.704539617289953
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:9affd5a8dd9c74a136b304f8",
+      "properties": {
+        "coordinate_group_id": "bd09:9affd5a8dd9c74a136b304f8",
+        "building_names": [
+          "投资大厦"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.34162417064745,
+          22.698536588635978
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:5bd4d94e6d90cc87e53b6dca",
+      "properties": {
+        "coordinate_group_id": "bd09:5bd4d94e6d90cc87e53b6dca",
+        "building_names": [
+          "隨園公寓"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.35927124772724,
+          22.762354050357768
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:1ecab2ea8cf053ef73cc3225",
+      "properties": {
+        "coordinate_group_id": "bd09:1ecab2ea8cf053ef73cc3225",
+        "building_names": [
+          "亚迪三村"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3805984538721,
+          22.729844806462744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:e9f3c16d47de49d5442a03b9",
+      "properties": {
+        "coordinate_group_id": "bd09:e9f3c16d47de49d5442a03b9",
+        "building_names": [
+          "翰林苑"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.34565856258138,
+          22.683831755532747
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:ffdb2d3887891b51160873bd",
+      "properties": {
+        "coordinate_group_id": "bd09:ffdb2d3887891b51160873bd",
+        "building_names": [
+          "华瀚科技工业园生活区"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.35056547481003,
+          22.706526258761322
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:51b447509fe7a941d9283a42",
+      "properties": {
+        "coordinate_group_id": "bd09:51b447509fe7a941d9283a42",
+        "building_names": [
+          "万顺苑"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.33714500127128,
+          22.68783443788815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:19b0fb97a4970ecf2773e17d",
+      "properties": {
+        "coordinate_group_id": "bd09:19b0fb97a4970ecf2773e17d",
+        "building_names": [
+          "莹展花園"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.35974481024947,
+          22.759434855168887
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:022efa34388fdfc49e76e2aa",
+      "properties": {
+        "coordinate_group_id": "bd09:022efa34388fdfc49e76e2aa",
+        "building_names": [
+          "溢源楼"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.36997014497761,
+          22.749273003898633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:b0ff3746ae854bb571ee275d",
+      "properties": {
+        "coordinate_group_id": "bd09:b0ff3746ae854bb571ee275d",
+        "building_names": [
+          "坑梓秀山新村"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.36677450203972,
+          22.736764712728203
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:fff1df8616ee5039e876a6a0",
+      "properties": {
+        "coordinate_group_id": "bd09:fff1df8616ee5039e876a6a0",
+        "building_names": [
+          "科技楼"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.33676323920086,
+          22.692029841378428
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:cf4a5247168b9c50871e1435",
+      "properties": {
+        "coordinate_group_id": "bd09:cf4a5247168b9c50871e1435",
+        "building_names": [
+          "紫樾润府"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.37533178925524,
+          22.695684896547373
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:68ac0f83bd27fbcbdd3b9e7b",
+      "properties": {
+        "coordinate_group_id": "bd09:68ac0f83bd27fbcbdd3b9e7b",
+        "building_names": [
+          "卓越晟悦家园"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.29823155853357,
+          22.672437121871948
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:28e6e03ccd888f413062d52a",
+      "properties": {
+        "coordinate_group_id": "bd09:28e6e03ccd888f413062d52a",
+        "building_names": [
+          "财富城二期"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.33777723971488,
+          22.704666214465608
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:92bce31b3244b0260dbae199",
+      "properties": {
+        "coordinate_group_id": "bd09:92bce31b3244b0260dbae199",
+        "building_names": [
+          "蔚蓝左岸花园"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.30793867423787,
+          22.676239317992465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:c70d1701387f692b27e9263c",
+      "properties": {
+        "coordinate_group_id": "bd09:c70d1701387f692b27e9263c",
+        "building_names": [
+          "臻文府"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.33344492071777,
+          22.693242091452063
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:b0ecbbed06c6f4c911ceeb59",
+      "properties": {
+        "coordinate_group_id": "bd09:b0ecbbed06c6f4c911ceeb59",
+        "building_names": [
+          "天健和悦府"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.37808940021283,
+          22.69662073266627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:b9a2d4f91c8659c5d9edccf4",
+      "properties": {
+        "coordinate_group_id": "bd09:b9a2d4f91c8659c5d9edccf4",
+        "building_names": [
+          "坪山城投鸿鹄里"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.36906955347231,
+          22.70553480048229
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "bd09:4445447f4ae7095e99bf9226",
+      "properties": {
+        "coordinate_group_id": "bd09:4445447f4ae7095e99bf9226",
+        "building_names": [
+          "佳华沙湖广场"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.32081737032182,
+          22.68173945630617
+        ]
+      }
+    }
+  ]
+}

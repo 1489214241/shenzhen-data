@@ -1,0 +1,32 @@
+{
+  "schema": "shenzhen_source_package_v1",
+  "version": "20261115",
+  "districts": [
+    "光明区",
+    "坪山区"
+  ],
+  "polygon_admission": "at_least_3_distinct_noncollinear_vertices",
+  "geometry_repair": false,
+  "invalid_polygon_filter": false,
+  "all_original_paths_retained": true,
+  "repeated_school_paths": "user_authorized_single_selected_path_other_path_archived_only",
+  "selected_pingshan_source_school_id": "9c3d79a065d84861803bb201fbfb4742",
+  "archived_pingshan_source_school_id": "3b78a6bd342d48898983203c5335d0b5",
+  "official_policy_and_map_text_separate": true,
+  "policy_year": 2026,
+  "policy_eligibility_expansion": false,
+  "gold_generated": false,
+  "training_run": false,
+  "coordinate_crs": "BMap BD-09 convention; original coordinates unchanged",
+  "pingshan_query_override_status": "not_captured",
+  "full_spatial_policy_consistency_verified": false,
+  "identity_revision": "20261115_admission_ports_and_duplicate_site_review",
+  "pingshan_gold_basis_user_confirmed": true,
+  "pingshan_gold_basis": "2026-10-23_archived_original_MAPDATA",
+  "future_map_versions": "archive_separately_do_not_silently_replace",
+  "guangming_one_two_relation": "same_school_distinct_admission_ports_not_campuses",
+  "guangming_school_polygon_user_confirmed": true,
+  "guangming_school_polygon_source_id": "dfc2a4c1204f4a0ca4f1b7c7b8dd936b",
+  "guangming_additional_port_one_polygon_required": false,
+  "pingshan_double_path_relation": "same_school_same_site_supported_probable_historical_duplicate"
+}

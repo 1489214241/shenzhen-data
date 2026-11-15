@@ -1,0 +1,11 @@
+{
+  "buildings": "../小区数据/buildings.json",
+  "schools": "../schools.json",
+  "policy_source": "../政策文本/年度原表.json",
+  "school_identity_paths_for_audit_only": "../学校路径对应.json",
+  "polygons_are_evaluation_evidence_only": true,
+  "gold_generated": false,
+  "community_relations_ready": false,
+  "model_arrays_ready": false,
+  "source_package_ready": true
+}

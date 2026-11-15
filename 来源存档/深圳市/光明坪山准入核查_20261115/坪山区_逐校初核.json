@@ -1,0 +1,1384 @@
+{
+  "summary": {
+    "district": "坪山区",
+    "policy_entries": 31,
+    "map_school_records": 32,
+    "maps_with_noncollinear_area": 32,
+    "simple_valid_polygons": 30,
+    "invalid_but_area": 2,
+    "map_text_nonempty": 21,
+    "single_policy_row_linked_map_records": 32,
+    "policy_unmatched": [],
+    "map_unmatched": [],
+    "policy_with_community_word": 31,
+    "community_scopes": [
+      {
+        "school": "深圳市坪山实验教育集团坪山实验学校（小学部）",
+        "scope": "六和社区，新和社区"
+      },
+      {
+        "school": "东北师范大学深圳坪山实验 学校（小学部）",
+        "scope": "六和社区，新和社区，六联社区（不含金碧路以南、东纵路以西及锦龙大道以东片区）"
+      },
+      {
+        "school": "深圳市中山小学教育集团六联小学",
+        "scope": "六联社区（不含金碧路以南、东纵路以西及锦龙大道以东片区）"
+      },
+      {
+        "school": "坪山中心小学",
+        "scope": "坪山社区，和平社区，坪环社区比亚迪路以北片区，江岭社区比亚迪路以北片区"
+      },
+      {
+        "school": "深圳市坪山高级中学教育集团坪山区第二外国语学校（小学部）",
+        "scope": "坪山社区，和平社区，坪环社区比亚迪路以北片区，江岭社区比亚迪路以北片区"
+      },
+      {
+        "school": "树人实验学校（小学部）",
+        "scope": "坪山社区，和平社区，坪环社区比亚迪路以北片区，江岭社区比亚迪路以北片区"
+      },
+      {
+        "school": "坪山第二小学",
+        "scope": "金龟社区，沙壆社区东纵路以南片区，石井社区金田路以南片区，田头社区南坪快速路以南片区，田心社区头陂水库及田头山范围"
+      },
+      {
+        "school": "东纵小学",
+        "scope": "金龟社区，沙壆社区东纵路以南片区，石井社区金田路以南片区，田头社区南坪快速路以南片区，田心社区头陂水库及田头山范围"
+      },
+      {
+        "school": "马峦小学",
+        "scope": "江岭社区比亚迪路以南片区，坪环社区大山陂水库管理线以南、体育三路以东、比亚迪路以南片区，大山陂水库管理线马峦社区延伸段以南"
+      },
+      {
+        "school": "深圳市中山小学教育集团中山小学",
+        "scope": "六联社区金碧路以南、东纵路以西及锦龙大道以东片区，坪环社区比亚迪路以南、体育三路以西及大山陂水库管理线以北片区，沙湖社区坪盐通道以东、业通路（规划路）以北片区，大山陂水库管理线马峦社区延伸段以北片区"
+      },
+      {
+        "school": "深圳市坪山实验教育集团锦龙小学",
+        "scope": "六联社区金碧路以南、东纵路以西及锦龙大道以东片区，坪环社区比亚迪路以南、体育三路以西及大山陂水库管理线以北片区，沙湖社区坪盐通道以东、业通路（规划路）以北片区，大山陂水库管理线马峦社区延伸段以北片区"
+      },
+      {
+        "school": "新合实验学校（小学部）",
+        "scope": "六联社区金碧路以南、东纵路以西及锦龙大道以东片区，坪环社区比亚迪路以南、体育三路以西及大山陂水库管理线以北片区，沙湖社区坪盐通道以东、业通路（规划路）以北片区，大山陂水库管理线马峦社区延伸段以北片区"
+      },
+      {
+        "school": "深圳市中山小学教育集团日新小学",
+        "scope": "六联社区金碧路以南、东纵路以西及锦龙大道以东片区，坪环社区比亚迪路以南、体育三路以西及大山陂水库管理线以北片区，沙湖社区坪盐通道以东、业通路（规划路）以北片区，大山陂水库管理线马峦社区延伸段以北片区"
+      },
+      {
+        "school": "科源实验学校（小学部）",
+        "scope": "汤坑社区，沙湖社区【不含沙湖社区坪盐通道以东、业通路（规划路）以北片区】"
+      },
+      {
+        "school": "深圳市坪山实验教育集团科悦实验小学",
+        "scope": "汤坑社区，沙湖社区【不含沙湖社区坪盐通道以东、业通路（规划路）以北片区】"
+      },
+      {
+        "school": "深圳市坪山实验教育集团坪山区未来学校",
+        "scope": "汤坑社区，沙湖社区【不含沙湖社区坪盐通道以东、业通路（规划路）以北片区】"
+      },
+      {
+        "school": "碧岭实验学校（小学部）",
+        "scope": "碧岭社区"
+      },
+      {
+        "school": "深圳实验坪山学校（小学部）",
+        "scope": "碧岭社区"
+      },
+      {
+        "school": "深圳中学坪山创新学校（小学部）",
+        "scope": "沙壆社区东纵路以北片区，石井社区金田路以北不含兰景南路（规划路）以东片区，南布社区"
+      },
+      {
+        "school": "深圳外国语学校坪山学校（小学部）",
+        "scope": "沙壆社区东纵路以北片区，石井社区金田路以北不含兰景南路（规划路）以东片区，南布社区"
+      },
+      {
+        "school": "深圳技术大学附属坪山实验学校（小学部）",
+        "scope": "沙壆社区东纵路以北片区，石井社区金田路以北不含兰景南路（规划路）以东片区，南布社区"
+      },
+      {
+        "school": "深圳高级中学（集团）东校区（小学部）",
+        "scope": "①未来小学区招生范围：田头社区金田路以北片区，石井社区兰景南路（规划路）以东片区②2019年及地段调整过渡期招生范围：田头社区南坪快速路以北片区，石井社区兰景南路以东片区，田心社区内坪山河以南（不含头陂水库及田头山范围）片区"
+      },
+      {
+        "school": "深圳市坪山外国语教育集团坪山区外国语学校（小学部）",
+        "scope": "秀新社区厦深铁路以南片区，金沙社区厦深铁路以南片区，老坑社区，竹坑社区，田心社区内坪山河以北片区"
+      },
+      {
+        "school": "南方科技大学附属坪山学校（小学部）",
+        "scope": "秀新社区厦深铁路以南片区，金沙社区厦深铁路以南片区，老坑社区，竹坑社区，田心社区内坪山河以北片区"
+      },
+      {
+        "school": "深圳市聚龙科学中学教育集团外国语文源学校（小学部）",
+        "scope": "秀新社区厦深铁路以南片区，金沙社区厦深铁路以南片区，老坑社区，竹坑社区，田心社区内坪山河以北片区"
+      },
+      {
+        "school": "深圳市聚龙科学中学教育集团东部湾区实验学校（小学部）",
+        "scope": "秀新社区厦深铁路以南片区，金沙社区厦深铁路以南片区，老坑社区，竹坑社区，田心社区内坪山河以北片区"
+      },
+      {
+        "school": "锦绣实验学校（小学部）",
+        "scope": "坑梓社区，秀新社区，沙田社区，金沙社区，龙田社区，老坑社区，竹坑社区，田心社区内坪山河以北片区"
+      },
+      {
+        "school": "深圳市坪山外国语教育集团金田小学",
+        "scope": "沙田社区，金沙社区厦深铁路以北片区"
+      },
+      {
+        "school": "深圳技术大学附属坪山创新学校（小学部）",
+        "scope": "沙田社区，金沙社区厦深铁路以北片区"
+      },
+      {
+        "school": "坑梓中心小学",
+        "scope": "坑梓社区，秀新社区厦深铁路以北片区"
+      },
+      {
+        "school": "深圳市坪山外国语教育集团龙田小学",
+        "scope": "龙田社区"
+      }
+    ],
+    "fdc_records": 108,
+    "fdc_valid_coordinates": 108,
+    "fdc_distinct_coordinate_groups": 107,
+    "fdc_bounds": [
+      114.293718,
+      22.635663,
+      114.406839,
+      22.766015
+    ],
+    "map_groups_count": 36,
+    "all_original_paths_retained": true,
+    "geometry_repair": false,
+    "gold_generated": false,
+    "match_status_counts": {
+      "explicit_name_alias_review": 1,
+      "unique_name_normalization": 30,
+      "official_search_address_corroborated_alias": 1
+    },
+    "minimum_unique_vertices": 36,
+    "maximum_unique_vertices": 362,
+    "policy_with_multiple_map_records": [
+      {
+        "policy_row_index": 1,
+        "policy_name": "东北师范大学深圳坪山实验 学校（小学部）",
+        "map_names": [
+          "东北师范大学深圳坪山实验学校小学部",
+          "东北师范大学深圳坪山实验学校（小学部）"
+        ]
+      }
+    ],
+    "raw_boundary_override_field_captured": false,
+    "map_snapshot": "2026-10-23 historical browser snapshot; current site maintenance",
+    "all_archived_policy_names_present_in_live_text": true,
+    "all_archived_scope_texts_present_in_live_text": true,
+    "policy_entry_count_live_table": 31
+  },
+  "schools": [
+    {
+      "map_id": "1b973229fd3e48c3a364b673bbf5b7d1",
+      "map_name": "坪山高级中学教育集团坪山第二外国语学校（小学部）",
+      "vertex_count": 50,
+      "unique_vertices": 50,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        114.343848,
+        22.683702,
+        114.369108,
+        22.714101
+      ],
+      "map_text": "江岭江边村、江岭远香村、江岭石灰陂村、东关郡府；\r\n坪环禾学村、坪环禾场头村、坪环老围村、坪环大万村、坪环统建楼南小区、坪环统建楼北小区、坪环桃源小区、心海城、万顺苑；\r\n和平马东村、和平马西村、和平黄果坜村、和平中兴片区、泰富华庭、中兴西小区；\r\n坪山三洋湖村、坪山龙背村、坪山鹤湖浪、坪山中兴村、坪山立北、立南片区（老居委）、坪山东门片区（老居委）。",
+      "map_point": [
+        "114.352391",
+        "22.68892"
+      ],
+      "map_update": "2023-11-06 14:26:25",
+      "map_created": "2021-12-29 16:47:12",
+      "policy_matches": [
+        {
+          "row_index": 4,
+          "name": "深圳市坪山高级中学教育集团坪山区第二外国语学校（小学部）",
+          "scope": "坪山社区，和平社区，坪环社区比亚迪路以北片区，江岭社区比亚迪路以北片区",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html"
+        }
+      ],
+      "match_status": "explicit_name_alias_review",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "496FFFE16E7A5558E053BC09A8C0A5ED",
+      "map_name": "坪山区中山小学",
+      "vertex_count": 40,
+      "unique_vertices": 40,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        114.331735,
+        22.669019,
+        114.352607,
+        22.696353
+      ],
+      "map_text": "坪环黄沙坑村；\r\n六联洋母帐村、东晟时代花园、水岸明珠花园、东城上邸花园、祥祺滨河名苑花园；\r\n果园贝鼎盛大厦；\r\n京基·御景印象、信达金尊府、力高·君御国际、泰富华悦都会、金地朗悦花园。",
+      "map_point": [
+        "114.338984",
+        "22.68317"
+      ],
+      "map_update": "2022-05-25 21:08:12",
+      "map_created": "2021-12-29 11:57:35",
+      "policy_matches": [
+        {
+          "row_index": 9,
+          "name": "深圳市中山小学教育集团中山小学",
+          "scope": "六联社区金碧路以南、东纵路以西及锦龙大道以东片区，坪环社区比亚迪路以南、体育三路以西及大山陂水库管理线以北片区，沙湖社区坪盐通道以东、业通路（规划路）以北片区，大山陂水库管理线马峦社区延伸段以北片区",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "61251119035a4e3c9976cc02b70c2287",
+      "map_name": "坪山区马峦小学",
+      "vertex_count": 154,
+      "unique_vertices": 154,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        114.302667,
+        22.630113,
+        114.399441,
+        22.686793
+      ],
+      "map_text": "江岭三河、江岭长守、江岭竹园；\r\n坪环曾屋；\r\n马峦红花岭、马峦新民、马峦建和、马峦光背、马峦径子、马峦老围、天峦湖。",
+      "map_point": [
+        "114.359907",
+        "22.672538"
+      ],
+      "map_update": "2022-05-25 21:08:16",
+      "map_created": "2017-11-16 11:12:54",
+      "policy_matches": [
+        {
+          "row_index": 8,
+          "name": "马峦小学",
+          "scope": "江岭社区比亚迪路以南片区，坪环社区大山陂水库管理线以南、体育三路以东、比亚迪路以南片区，大山陂水库管理线马峦社区延伸段以南",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "3b78a6bd342d48898983203c5335d0b5",
+      "map_name": "东北师范大学深圳坪山实验学校小学部",
+      "vertex_count": 73,
+      "unique_vertices": 73,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        114.31391,
+        22.683065,
+        114.362284,
+        22.723482
+      ],
+      "map_text": null,
+      "map_point": [
+        "114.349815",
+        "22.703179"
+      ],
+      "map_update": "2022-06-01 12:18:28",
+      "map_created": "2022-06-01 12:09:56",
+      "policy_matches": [
+        {
+          "row_index": 1,
+          "name": "东北师范大学深圳坪山实验 学校（小学部）",
+          "scope": "六和社区，新和社区，六联社区（不含金碧路以南、东纵路以西及锦龙大道以东片区）",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "ff8dd74b3d2242f9991a90cc854d05b9",
+      "map_name": "深圳技术大学附属坪山实验学校（小学部）",
+      "vertex_count": 90,
+      "unique_vertices": 90,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        114.358139,
+        22.692574,
+        114.401779,
+        22.718795
+      ],
+      "map_text": null,
+      "map_point": [
+        "114.378746",
+        "22.708669"
+      ],
+      "map_update": "2025-06-05 11:08:23",
+      "map_created": "2025-06-05 09:28:12",
+      "policy_matches": [
+        {
+          "row_index": 20,
+          "name": "深圳技术大学附属坪山实验学校（小学部）",
+          "scope": "沙壆社区东纵路以北片区，石井社区金田路以北不含兰景南路（规划路）以东片区，南布社区",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "496FFFE16E6D5558E053BC09A8C0A5ED",
+      "map_name": "坪山区科源实验学校（小学部）",
+      "vertex_count": 119,
+      "unique_vertices": 119,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        114.301727,
+        22.651537,
+        114.342798,
+        22.689028
+      ],
+      "map_text": "汤坑赤子香、汤坑拔头吓、汤坑石楼围、汤坑汤星、汤坑老围、汤坑乌坭浪、汤坑对门岭、汤坑茜坑、汤坑油社、汤坑高另、汤坑楼角、汤坑张屋、汤坑新村、新城东方丽园、汤亨花园、碧湖春天、凤凰公馆；\r\n沙湖卢屋居民小组、沙湖新屋居民小组、沙湖谢屋居民小组、沙湖居民小组、沙湖上榨居民小组、沙湖吓榨居民小组、沙湖黄一居民小组、沙湖黄二居民小组、沙湖复兴居民小组、沙湖文新居民小组、沙湖新村、沙湖新湖居、倚湖居。\r\n",
+      "map_point": [
+        "114.320915",
+        "22.676257"
+      ],
+      "map_update": "2022-05-25 21:08:26",
+      "map_created": "2017-03-28 19:13:32",
+      "policy_matches": [
+        {
+          "row_index": 13,
+          "name": "科源实验学校（小学部）",
+          "scope": "汤坑社区，沙湖社区【不含沙湖社区坪盐通道以东、业通路（规划路）以北片区】",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "496FFFE16E745558E053BC09A8C0A5ED",
+      "map_name": "坪山区第二小学",
+      "vertex_count": 194,
+      "unique_vertices": 194,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        114.36645,
+        22.642248,
+        114.448215,
+        22.698974
+      ],
+      "map_text": "沙坣新村、沙坣谷仓吓、沙坣新村、豪方东园；\r\n石井太阳村、石井村、石井老屋村；\r\n金龟新塘村、金龟田作村、金龟坪头岭村、金龟半坝村、金龟金地村、金龟同石村、金龟金成村。\r\n",
+      "map_point": [
+        "114.382387",
+        "22.693456"
+      ],
+      "map_update": "2022-05-25 21:08:31",
+      "map_created": "2017-03-28 19:13:32",
+      "policy_matches": [
+        {
+          "row_index": 6,
+          "name": "坪山第二小学",
+          "scope": "金龟社区，沙壆社区东纵路以南片区，石井社区金田路以南片区，田头社区南坪快速路以南片区，田心社区头陂水库及田头山范围",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html"
+        }
+      ],
+      "match_status": "official_search_address_corroborated_alias",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "496FFFE16E755558E053BC09A8C0A5ED",
+      "map_name": "坪山外国语教育集团龙田小学",
+      "vertex_count": 167,
+      "unique_vertices": 167,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        114.344329,
+        22.73791,
+        114.387259,
+        22.775587
+      ],
+      "map_text": "龙田田段心、龙田石陂头、龙田牛湖、龙田牛背、龙田吓田、龙田大水湾、龙田新屋、龙田大窝居、龙田下陂、龙田大塘、龙田龙湖；         ",
+      "map_point": [
+        "114.366059",
+        "22.761674"
+      ],
+      "map_update": "2022-06-01 14:56:42",
+      "map_created": "2017-03-28 19:13:32",
+      "policy_matches": [
+        {
+          "row_index": 30,
+          "name": "深圳市坪山外国语教育集团龙田小学",
+          "scope": "龙田社区",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "531b4e6d159446c98be973740e0c8465",
+      "map_name": "坪山区锦绣实验学校（小学部）",
+      "vertex_count": 362,
+      "unique_vertices": 362,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        114.341925,
+        22.707493,
+        114.431198,
+        22.787318
+      ],
+      "map_text": null,
+      "map_point": [
+        "114.411175",
+        "22.739762"
+      ],
+      "map_update": "2023-11-08 15:54:05",
+      "map_created": "2022-06-01 10:40:02",
+      "policy_matches": [
+        {
+          "row_index": 26,
+          "name": "锦绣实验学校（小学部）",
+          "scope": "坑梓社区，秀新社区，沙田社区，金沙社区，龙田社区，老坑社区，竹坑社区，田心社区内坪山河以北片区",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "bfe72615f8ad45588e45e359125db03c",
+      "map_name": "深圳中学坪山创新学校（小学部）",
+      "vertex_count": 87,
+      "unique_vertices": 87,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        114.358105,
+        22.69256,
+        114.401753,
+        22.718832
+      ],
+      "map_text": "沙壆村、沙壆青草林村、沙壆陈屋村、沙壆彭屋村、沙壆新屋村、沙壆龙兴村、富润乐庭；\r\n南布村、豪方菁园、盈富家园；\r\n石井村（巷）、石井井子吓村、石井上屋村、石井下屋村、石井横塘村、石井石陂头村、石井李屋村、石井岭脚村、石井草埔村、石井望牛岗村。\r\n",
+      "map_point": [
+        "114.388054",
+        "22.703713"
+      ],
+      "map_update": "2022-05-25 21:08:40",
+      "map_created": "2021-12-31 16:36:06",
+      "policy_matches": [
+        {
+          "row_index": 18,
+          "name": "深圳中学坪山创新学校（小学部）",
+          "scope": "沙壆社区东纵路以北片区，石井社区金田路以北不含兰景南路（规划路）以东片区，南布社区",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "496FFFE16E6C5558E053BC09A8C0A5ED",
+      "map_name": "中山小学教育集团六联小学",
+      "vertex_count": 67,
+      "unique_vertices": 67,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        114.313861,
+        22.683157,
+        114.350179,
+        22.708963
+      ],
+      "map_text": "六联浪尾、六联珠洋坑村、六联坪山围村、六联澳子头村、六联横岭塘村、六联丰田村、六联福昌村、六合城。",
+      "map_point": [
+        "114.346137",
+        "22.698061"
+      ],
+      "map_update": "2023-11-08 16:16:24",
+      "map_created": "2021-12-29 14:59:43",
+      "policy_matches": [
+        {
+          "row_index": 2,
+          "name": "深圳市中山小学教育集团六联小学",
+          "scope": "六联社区（不含金碧路以南、东纵路以西及锦龙大道以东片区）",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "7908e65690774c5aaec7801410a059f5",
+      "map_name": "聚龙科学中学教育集团外国语文源学校（小学部）",
+      "vertex_count": 228,
+      "unique_vertices": 228,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        114.341898,
+        22.707747,
+        114.431208,
+        22.756909
+      ],
+      "map_text": "金沙东联村、金沙卢屋村、亚迪三村、深业御园；\r\n老坑井水龙村、老坑三角楼村、老坑松子坑村、老坑盘古石村、老坑东坑村、老坑西坑村、丹梓龙庭、锦绣华晟；\r\n竹坑石湖村、竹坑新开村、竹坑茜坑村、竹坑上坝村、竹坑老围村、竹坑河唇村、竹坑沙梨园村、竹坑黄泥园村、竹坑三栋村、竹坑村、竹坑罗庚丘村、聚龙花园一期、聚龙花园二期、奥园翡翠东湾一期、奥园翡翠东湾二期、澜湾花园、中海万锦熙岸、安居御龙苑、坪河雅苑；\r\n田心上洋村。",
+      "map_point": [
+        "114.406792",
+        "22.714148"
+      ],
+      "map_update": "2023-11-08 15:53:11",
+      "map_created": "2021-12-29 16:38:31",
+      "policy_matches": [
+        {
+          "row_index": 24,
+          "name": "深圳市聚龙科学中学教育集团外国语文源学校（小学部）",
+          "scope": "秀新社区厦深铁路以南片区，金沙社区厦深铁路以南片区，老坑社区，竹坑社区，田心社区内坪山河以北片区",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "838a2762dc154e7699ce607f53741597",
+      "map_name": "深圳外国语学校坪山学校（小学部）",
+      "vertex_count": 119,
+      "unique_vertices": 119,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        114.358153,
+        22.692636,
+        114.401753,
+        22.718853
+      ],
+      "map_text": null,
+      "map_point": [
+        "114.371848",
+        "22.703643"
+      ],
+      "map_update": "2024-05-30 18:04:22",
+      "map_created": "2024-05-30 17:43:49",
+      "policy_matches": [
+        {
+          "row_index": 19,
+          "name": "深圳外国语学校坪山学校（小学部）",
+          "scope": "沙壆社区东纵路以北片区，石井社区金田路以北不含兰景南路（规划路）以东片区，南布社区",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "b0b17aee8a784921b94e3128b36cce83",
+      "map_name": "坪山实验教育集团锦龙小学",
+      "vertex_count": 37,
+      "unique_vertices": 37,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        114.331623,
+        22.669017,
+        114.352598,
+        22.696336
+      ],
+      "map_text": "坪环黄沙坑村；\r\n六联洋母帐村、东晟时代花园、水岸明珠花园、东城上邸花园、祥祺滨河名苑花园；\r\n果园贝鼎盛大厦；\r\n京基·御景印象、信达金尊府、力高·君御国际、泰富华悦都会、金地朗悦花园。",
+      "map_point": [
+        "114.33858",
+        "22.672915"
+      ],
+      "map_update": "2022-05-25 21:08:58",
+      "map_created": "2021-12-29 15:33:55",
+      "policy_matches": [
+        {
+          "row_index": 10,
+          "name": "深圳市坪山实验教育集团锦龙小学",
+          "scope": "六联社区金碧路以南、东纵路以西及锦龙大道以东片区，坪环社区比亚迪路以南、体育三路以西及大山陂水库管理线以北片区，沙湖社区坪盐通道以东、业通路（规划路）以北片区，大山陂水库管理线马峦社区延伸段以北片区",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "d7358e1a08f749a0be67939342973f18",
+      "map_name": "中山小学教育集团日新小学",
+      "vertex_count": 39,
+      "unique_vertices": 39,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        114.331668,
+        22.669013,
+        114.352589,
+        22.696335
+      ],
+      "map_text": "坪环黄沙坑村；\r\n六联洋母帐村、东晟时代花园、水岸明珠花园、东城上邸花园、祥祺滨河名苑花园；\r\n果园贝鼎盛大厦；\r\n京基·御景印象、信达金尊府、力高·君御国际、泰富华悦都会、金地朗悦花园。",
+      "map_point": [
+        "114.341468",
+        "22.694185"
+      ],
+      "map_update": "2022-05-25 21:09:02",
+      "map_created": "2021-12-29 15:30:24",
+      "policy_matches": [
+        {
+          "row_index": 12,
+          "name": "深圳市中山小学教育集团日新小学",
+          "scope": "六联社区金碧路以南、东纵路以西及锦龙大道以东片区，坪环社区比亚迪路以南、体育三路以西及大山陂水库管理线以北片区，沙湖社区坪盐通道以东、业通路（规划路）以北片区，大山陂水库管理线马峦社区延伸段以北片区",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "12dd59fd255a47d29034f96510bdd89e",
+      "map_name": "聚龙科学中学教育集团东部湾区实验学校（小学部）",
+      "vertex_count": 225,
+      "unique_vertices": 225,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        114.341932,
+        22.707723,
+        114.431152,
+        22.756939
+      ],
+      "map_text": "金沙东联村、金沙卢屋村、亚迪三村、深业御园；\r\n老坑井水龙村、老坑三角楼村、老坑松子坑村、老坑盘古石村、老坑东坑村、老坑西坑村、丹梓龙庭、锦绣华晟；\r\n竹坑石湖村、竹坑新开村、竹坑茜坑村、竹坑上坝村、竹坑老围村、竹坑河唇村、竹坑沙梨园村、竹坑黄泥园村、竹坑三栋村、竹坑村、竹坑罗庚丘村、聚龙花园一期、聚龙花园二期、奥园翡翠东湾一期、奥园翡翠东湾二期、澜湾花园、中海万锦熙岸、安居御龙苑、坪河雅苑；\r\n田心上洋村。",
+      "map_point": [
+        "114.365198",
+        "22.728608"
+      ],
+      "map_update": "2023-11-08 14:50:57",
+      "map_created": "2021-12-29 17:40:36",
+      "policy_matches": [
+        {
+          "row_index": 25,
+          "name": "深圳市聚龙科学中学教育集团东部湾区实验学校（小学部）",
+          "scope": "秀新社区厦深铁路以南片区，金沙社区厦深铁路以南片区，老坑社区，竹坑社区，田心社区内坪山河以北片区",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "40aa6fdb95e849e288d66a7ae77af6e5",
+      "map_name": "坪山区树人实验学校（小学部）",
+      "vertex_count": 53,
+      "unique_vertices": 53,
+      "has_noncollinear_area": true,
+      "geometry_valid": false,
+      "geometry_reason": "Self-intersection[114.369069260592 22.6868089262913]",
+      "bounds": [
+        114.3439,
+        22.68361,
+        114.369106,
+        22.714142
+      ],
+      "map_text": null,
+      "map_point": [
+        "114.359378",
+        "22.684972"
+      ],
+      "map_update": null,
+      "map_created": "2023-05-19 11:29:42",
+      "policy_matches": [
+        {
+          "row_index": 5,
+          "name": "树人实验学校（小学部）",
+          "scope": "坪山社区，和平社区，坪环社区比亚迪路以北片区，江岭社区比亚迪路以北片区",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "5677e5a14f2d40a6863b7a8e633e7db2",
+      "map_name": "坪山区东纵小学",
+      "vertex_count": 158,
+      "unique_vertices": 158,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        114.366456,
+        22.642213,
+        114.448238,
+        22.698989
+      ],
+      "map_text": "沙坣新村、沙坣谷仓吓、沙坣新村、豪方东园；\r\n石井太阳村、石井村、石井老屋村；\r\n金龟新塘村、金龟田作村、金龟坪头岭村、金龟半坝村、金龟金地村、金龟同石村、金龟金成村。",
+      "map_point": [
+        "114.372223",
+        "22.69142"
+      ],
+      "map_update": "2022-02-16 10:48:05",
+      "map_created": "2021-12-30 16:42:46",
+      "policy_matches": [
+        {
+          "row_index": 7,
+          "name": "东纵小学",
+          "scope": "金龟社区，沙壆社区东纵路以南片区，石井社区金田路以南片区，田头社区南坪快速路以南片区，田心社区头陂水库及田头山范围",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "9c3d79a065d84861803bb201fbfb4742",
+      "map_name": "东北师范大学深圳坪山实验学校（小学部）",
+      "vertex_count": 122,
+      "unique_vertices": 122,
+      "has_noncollinear_area": true,
+      "geometry_valid": false,
+      "geometry_reason": "Self-intersection[114.314390769178 22.6909447323105]",
+      "bounds": [
+        114.313879,
+        22.683068,
+        114.362288,
+        22.723506
+      ],
+      "map_text": null,
+      "map_point": [
+        "114.349474",
+        "22.70307"
+      ],
+      "map_update": "2023-11-08 16:04:52",
+      "map_created": "2023-11-08 10:01:13",
+      "policy_matches": [
+        {
+          "row_index": 1,
+          "name": "东北师范大学深圳坪山实验 学校（小学部）",
+          "scope": "六和社区，新和社区，六联社区（不含金碧路以南、东纵路以西及锦龙大道以东片区）",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "02d68e2b37ac422387cd683a24d916f6",
+      "map_name": "坪山区南方科技大学附属坪山学校（小学部）",
+      "vertex_count": 158,
+      "unique_vertices": 158,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        114.341848,
+        22.707836,
+        114.431176,
+        22.756719
+      ],
+      "map_text": null,
+      "map_point": [
+        "114.391475",
+        "22.730421"
+      ],
+      "map_update": "2022-05-25 21:09:10",
+      "map_created": "2022-05-25 18:52:43",
+      "policy_matches": [
+        {
+          "row_index": 23,
+          "name": "南方科技大学附属坪山学校（小学部）",
+          "scope": "秀新社区厦深铁路以南片区，金沙社区厦深铁路以南片区，老坑社区，竹坑社区，田心社区内坪山河以北片区",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "30e32a742fb1465fa21031bea8def52d",
+      "map_name": "坪山实验教育集团科悦实验小学",
+      "vertex_count": 106,
+      "unique_vertices": 106,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        114.301723,
+        22.651597,
+        114.342901,
+        22.689056
+      ],
+      "map_text": null,
+      "map_point": [
+        "114.308469",
+        "22.671445"
+      ],
+      "map_update": null,
+      "map_created": "2022-05-25 18:35:56",
+      "policy_matches": [
+        {
+          "row_index": 14,
+          "name": "深圳市坪山实验教育集团科悦实验小学",
+          "scope": "汤坑社区，沙湖社区【不含沙湖社区坪盐通道以东、业通路（规划路）以北片区】",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "496FFFE16E6F5558E053BC09A8C0A5ED",
+      "map_name": "坪山区坪山中心小学",
+      "vertex_count": 53,
+      "unique_vertices": 53,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        114.343924,
+        22.683712,
+        114.369108,
+        22.714152
+      ],
+      "map_text": "江岭江边村、江岭远香村、江岭石灰陂村、东关郡府；\r\n坪环禾学村、坪环禾场头村、坪环老围村、坪环大万村、坪环统建楼南小区、坪环统建楼北小区、坪环桃源小区、心海城、万顺苑；\r\n和平马东村、和平马西村、和平黄果坜村、和平中兴片区、泰富华庭、中兴西小区；\r\n坪山三洋湖村、坪山龙背村、坪山鹤湖浪、坪山中兴村、坪山立北、立南片区（老居委）、坪山东门片区（老居委）。\r\n",
+      "map_point": [
+        "114.351645",
+        "22.692973"
+      ],
+      "map_update": "2022-05-25 21:09:16",
+      "map_created": "2021-12-29 16:15:06",
+      "policy_matches": [
+        {
+          "row_index": 3,
+          "name": "坪山中心小学",
+          "scope": "坪山社区，和平社区，坪环社区比亚迪路以北片区，江岭社区比亚迪路以北片区",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "b85c3917c0214eb793272b96e104ff1c",
+      "map_name": "深圳高级中学东校区（小学部）",
+      "vertex_count": 74,
+      "unique_vertices": 74,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        114.397072,
+        22.694633,
+        114.448914,
+        22.713695
+      ],
+      "map_text": "石井田头埔村；\r\n田头马安岭村、田头求水岭村、田头矮岭村、田头上村村、田头老围村、田头新曲村、竹韵花园、幸福裕璟花园；\r\n田心水祖坑村、田心散屋村、田心新屋地村、田心新联村、田心对面喊村、田心树山背村、田心罗谷村。",
+      "map_point": [
+        "114.408813",
+        "22.700193"
+      ],
+      "map_update": "2022-05-25 21:09:23",
+      "map_created": "2019-04-17 22:42:42",
+      "policy_matches": [
+        {
+          "row_index": 21,
+          "name": "深圳高级中学（集团）东校区（小学部）",
+          "scope": "①未来小学区招生范围：田头社区金田路以北片区，石井社区兰景南路（规划路）以东片区②2019年及地段调整过渡期招生范围：田头社区南坪快速路以北片区，石井社区兰景南路以东片区，田心社区内坪山河以南（不含头陂水库及田头山范围）片区",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "0d3be52a5c9a4f4285f3835946eae10c",
+      "map_name": "深圳技术大学附属坪山创新学校（小学部）",
+      "vertex_count": 144,
+      "unique_vertices": 144,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        114.391538,
+        22.745234,
+        114.429896,
+        22.787323
+      ],
+      "map_text": null,
+      "map_point": [
+        "114.413403",
+        "22.764564"
+      ],
+      "map_update": "2025-06-05 11:23:29",
+      "map_created": "2025-06-05 09:26:20",
+      "policy_matches": [
+        {
+          "row_index": 28,
+          "name": "深圳技术大学附属坪山创新学校（小学部）",
+          "scope": "沙田社区，金沙社区厦深铁路以北片区",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "496FFFE16E6E5558E053BC09A8C0A5ED",
+      "map_name": "坪山实验教育集团坪山实验学校（小学部）",
+      "vertex_count": 55,
+      "unique_vertices": 55,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        114.329932,
+        22.697601,
+        114.362079,
+        22.723288
+      ],
+      "map_text": "六和飞西、六和飞东、六和山吓、六和甲片、六和正坑、六和新和、六和第二工业区、第四工业区、六和高思特工业区、六和牛伴岭、六和一二坊；\r\n深城投中城花园、招商花园城南区、招商花园城北区、万科金域东郡、万科金域缇香一期、万科金域缇香二期、嘉宏湾花园一期、嘉宏湾花园二期、深城投·中心公馆、财富城。\r\n\r\n",
+      "map_point": [
+        "114.347782",
+        "22.711595"
+      ],
+      "map_update": "2023-11-08 16:12:17",
+      "map_created": "2017-03-28 19:13:32",
+      "policy_matches": [
+        {
+          "row_index": 0,
+          "name": "深圳市坪山实验教育集团坪山实验学校（小学部）",
+          "scope": "六和社区，新和社区",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "496FFFE16E765558E053BC09A8C0A5ED",
+      "map_name": "坪山区外国语学校（小学部）",
+      "vertex_count": 267,
+      "unique_vertices": 267,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        114.341868,
+        22.707783,
+        114.431232,
+        22.756958
+      ],
+      "map_text": "金沙东联村、金沙卢屋村、亚迪三村、深业御园；\r\n老坑井水龙村、老坑三角楼村、老坑松子坑村、老坑盘古石村、老坑东坑村、老坑西坑村、丹梓龙庭、锦绣华晟；\r\n竹坑石湖村、竹坑新开村、竹坑茜坑村、竹坑上坝村、竹坑老围村、竹坑河唇村、竹坑沙梨园村、竹坑黄泥园村、竹坑三栋村、竹坑村、竹坑罗庚丘村、聚龙花园一期、聚龙花园二期、奥园翡翠东湾一期、奥园翡翠东湾二期、澜湾花园、中海万锦熙岸、安居御龙苑、坪河雅苑；\r\n田心上洋村。\r\n",
+      "map_point": [
+        "114.39194",
+        "22.736677"
+      ],
+      "map_update": "2022-05-25 21:09:31",
+      "map_created": "2017-03-28 19:13:32",
+      "policy_matches": [
+        {
+          "row_index": 22,
+          "name": "深圳市坪山外国语教育集团坪山区外国语学校（小学部）",
+          "scope": "秀新社区厦深铁路以南片区，金沙社区厦深铁路以南片区，老坑社区，竹坑社区，田心社区内坪山河以北片区",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "496FFFE16E785558E053BC09A8C0A5ED",
+      "map_name": "坪山外国语教育集团金田小学",
+      "vertex_count": 154,
+      "unique_vertices": 154,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        114.391529,
+        22.745298,
+        114.429855,
+        22.787312
+      ],
+      "map_text": "沙田上廖村、沙田下廖村、沙田李中村、沙田昂俄村、沙田围角村、沙田田脚村。\r\n金沙长隆村、金沙青排村、金沙新横村、金沙薛屋村、金沙龙山村、金沙荣田新村、\r\n金沙红岭小区（城中村）、富士锦园。",
+      "map_point": [
+        "114.407591",
+        "22.758154"
+      ],
+      "map_update": "2022-05-25 21:09:37",
+      "map_created": "2017-03-28 19:13:32",
+      "policy_matches": [
+        {
+          "row_index": 27,
+          "name": "深圳市坪山外国语教育集团金田小学",
+          "scope": "沙田社区，金沙社区厦深铁路以北片区",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "e256936103f946ffafa6b60f82a47a6d",
+      "map_name": "深圳实验坪山学校（小学部）",
+      "vertex_count": 220,
+      "unique_vertices": 220,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        114.273504,
+        22.62388,
+        114.30994,
+        22.690416
+      ],
+      "map_text": null,
+      "map_point": [
+        "114.300184",
+        "22.668708"
+      ],
+      "map_update": null,
+      "map_created": "2024-05-30 16:37:43",
+      "policy_matches": [
+        {
+          "row_index": 17,
+          "name": "深圳实验坪山学校（小学部）",
+          "scope": "碧岭社区",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "febdebcde7af42ab8b92351a8d3e12f3",
+      "map_name": "坪山区未来学校（小学部）",
+      "vertex_count": 119,
+      "unique_vertices": 119,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        114.301754,
+        22.651572,
+        114.342816,
+        22.68901
+      ],
+      "map_text": null,
+      "map_point": [
+        "114.315597",
+        "22.673667"
+      ],
+      "map_update": null,
+      "map_created": "2024-05-30 18:29:33",
+      "policy_matches": [
+        {
+          "row_index": 15,
+          "name": "深圳市坪山实验教育集团坪山区未来学校",
+          "scope": "汤坑社区，沙湖社区【不含沙湖社区坪盐通道以东、业通路（规划路）以北片区】",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "496FFFE16E705558E053BC09A8C0A5ED",
+      "map_name": "坪山区碧岭实验学校（小学部）",
+      "vertex_count": 185,
+      "unique_vertices": 185,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        114.273509,
+        22.623882,
+        114.309949,
+        22.690401
+      ],
+      "map_text": "碧岭社区,翠峰绿洲。",
+      "map_point": [
+        "114.29369",
+        "22.670044"
+      ],
+      "map_update": "2022-05-25 21:09:42",
+      "map_created": "2017-03-28 19:13:32",
+      "policy_matches": [
+        {
+          "row_index": 16,
+          "name": "碧岭实验学校（小学部）",
+          "scope": "碧岭社区",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "496FFFE16E7B5558E053BC09A8C0A5ED",
+      "map_name": "坪山区坑梓中心小学",
+      "vertex_count": 135,
+      "unique_vertices": 135,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        114.363665,
+        22.73839,
+        114.395263,
+        22.766731
+      ],
+      "map_text": "秀新沙梨园村、秀新禾场吓村、秀新城外村、秀新城内村、秀新东一居村、秀新东二村、秀新新乔围村、秀新新村、秀新草堆岭村；\r\n坑梓裕民新村、坑梓文化新村、坑梓利民新村、坑梓湖心新村、金田风华苑。\t\t\t\t                    \r\n\t\t\t\t                    ",
+      "map_point": [
+        "114.375299",
+        "22.742081"
+      ],
+      "map_update": "2023-11-08 16:32:18",
+      "map_created": "2017-03-28 19:13:32",
+      "policy_matches": [
+        {
+          "row_index": 29,
+          "name": "坑梓中心小学",
+          "scope": "坑梓社区，秀新社区厦深铁路以北片区",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "77ce5a6248924f5d8a24dac29b41540b",
+      "map_name": "坪山区新合实验学校（小学部）",
+      "vertex_count": 36,
+      "unique_vertices": 36,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        114.331687,
+        22.669013,
+        114.352604,
+        22.696335
+      ],
+      "map_text": "坪环黄沙坑村；\r\n六联洋母帐村、东晟时代花园、水岸明珠花园、东城上邸花园、祥祺滨河名苑花园；\r\n果园贝鼎盛大厦；\r\n京基·御景印象、信达金尊府、力高·君御国际、泰富华悦都会、金地朗悦花园。",
+      "map_point": [
+        "114.345494",
+        "22.683377"
+      ],
+      "map_update": "2022-05-25 21:09:54",
+      "map_created": "2021-12-29 16:06:20",
+      "policy_matches": [
+        {
+          "row_index": 11,
+          "name": "新合实验学校（小学部）",
+          "scope": "六联社区金碧路以南、东纵路以西及锦龙大道以东片区，坪环社区比亚迪路以南、体育三路以西及大山陂水库管理线以北片区，沙湖社区坪盐通道以东、业通路（规划路）以北片区，大山陂水库管理线马峦社区延伸段以北片区",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    }
+  ],
+  "raw_groups": [
+    {
+      "XXID": "496FFFE16E7B5558E053BC09A8C0A5ED,20856f6633db4c78956e26af5751319a",
+      "DXQ_ID": "39563653D02EBC6DE063024C10AC55AA",
+      "DXQ_MC": "锦绣坑梓中心片区"
+    },
+    {
+      "XXID": "6972b52527fa4207b872f49bf2a3a0ee,496FFFE16E6C5558E053BC09A8C0A5ED",
+      "DXQ_ID": "394DF6CF56009996E063024C10AC86E4",
+      "DXQ_MC": "东北师范六联片区"
+    },
+    {
+      "XXID": "822cfc1a37994111921660b686ebf774,496FFFE16E735558E053BC09A8C0A5ED,8f44e99acc954441bd2efc67d0f1d008",
+      "DXQ_ID": "C2BF97C4A9345B16E053024C10AC8C30",
+      "DXQ_MC": "树人实验坪山中学坪山二外片区"
+    },
+    {
+      "XXID": "ff8dd74b3d2242f9991a90cc854d05b9,838a2762dc154e7699ce607f53741597,bfe72615f8ad45588e45e359125db03c",
+      "DXQ_ID": "3952A447CCCB9A63E063024C10AC3C47",
+      "DXQ_MC": "深中创新深圳外国语坪山深技大实验学校片区"
+    },
+    {
+      "XXID": "30e32a742fb1465fa21031bea8def52d,febdebcde7af42ab8b92351a8d3e12f3,496FFFE16E6D5558E053BC09A8C0A5ED",
+      "DXQ_ID": "191844AD848C518CE063014C10AC6E83",
+      "DXQ_MC": "未来学校科源学校科悦实验片区"
+    },
+    {
+      "XXID": "7521ce1567564a6ea17f3cbcafa10eb0,496FFFE16E6E5558E053BC09A8C0A5ED",
+      "DXQ_ID": "394DF6CF55FF9996E063024C10AC86E4",
+      "DXQ_MC": "东北师范坪山实验片区"
+    },
+    {
+      "XXID": "14f3a8c965374c5a8caf1b56928bb7c6,496FFFE16E765558E053BC09A8C0A5ED,12dd59fd255a47d29034f96510bdd89e,02d68e2b37ac422387cd683a24d916f6,7908e65690774c5aaec7801410a059f5",
+      "DXQ_ID": "3952A447CCC89A63E063024C10AC3C47",
+      "DXQ_MC": "锦绣同心文源东部湾区南科大片区"
+    },
+    {
+      "XXID": "7c7010d6dc7b4b498a0680682523e87c,496FFFE16E755558E053BC09A8C0A5ED",
+      "DXQ_ID": "DFD80F8A9FBC4D26E053024C10ACF7A6",
+      "DXQ_MC": "龙田小学锦绣实验片区"
+    },
+    {
+      "XXID": "12dd59fd255a47d29034f96510bdd89e,496FFFE16E765558E053BC09A8C0A5ED,7908e65690774c5aaec7801410a059f5,02d68e2b37ac422387cd683a24d916f6,14f3a8c965374c5a8caf1b56928bb7c6",
+      "DXQ_ID": "DFE0C3A6CDE39708E053014C10AC626B",
+      "DXQ_MC": "锦绣同心文源东部湾区南科大片区"
+    },
+    {
+      "XXID": "496FFFE16E725558E053BC09A8C0A5ED,432a24af7a274bf382d76f0ce1867de6",
+      "DXQ_ID": "39562F8F93E25121E063024C10ACBE5F",
+      "DXQ_MC": "东北师范坪山实验初中片区"
+    },
+    {
+      "XXID": "496FFFE16E795558E053BC09A8C0A5ED,f53612beacf74db593c8c4dcc9085701,9194d14b5fe74a15a634e1d74026f799,87f13f0dc31345a8a2173a78f73d9410,4c442c4122084830a1508080118cb81f,59e308c6a1d0400c85d648072f0bb456",
+      "DXQ_ID": "19183F1A273D4E2BE063014C10AC793A",
+      "DXQ_MC": "深圳实验中山中学新合实验科源实验未来学校片区"
+    },
+    {
+      "XXID": "496FFFE16E715558E053BC09A8C0A5ED,a7a03f5df9f047f28ff8d71c1aa30a17,dc321e0236514367936e9a83e2e27d9f",
+      "DXQ_ID": "DFE0C3A6CDE99708E053014C10AC626B",
+      "DXQ_MC": "深技大附属创新学校光祖中学锦绣实验片区"
+    },
+    {
+      "XXID": "afb5ec7aa6ad4143b1d7414fd1645b1b,132bb746138745a49b5c44f857e795fb,4a33d1374b5949e8b9c7dcef3ad77d30",
+      "DXQ_ID": "3952A447CCCE9A63E063024C10AC3C47",
+      "DXQ_MC": "南布荔景深中创新深外坪山学校片区"
+    },
+    {
+      "XXID": "5677e5a14f2d40a6863b7a8e633e7db2,496FFFE16E745558E053BC09A8C0A5ED",
+      "DXQ_ID": "39562F8F93E05121E063024C10ACBE5F",
+      "DXQ_MC": "坪山二小东纵小学片区"
+    },
+    {
+      "XXID": "bfe72615f8ad45588e45e359125db03c,838a2762dc154e7699ce607f53741597,ff8dd74b3d2242f9991a90cc854d05b9",
+      "DXQ_ID": "33546D761C9D512CE063024C10AC98B8",
+      "DXQ_MC": "深技大附属实验学校深中坪山创新学校深外坪山学校片区"
+    },
+    {
+      "XXID": "496FFFE16E755558E053BC09A8C0A5ED,7c7010d6dc7b4b498a0680682523e87c",
+      "DXQ_ID": "39562F8F93E15121E063024C10ACBE5F",
+      "DXQ_MC": "龙田小学锦绣实验片区"
+    },
+    {
+      "XXID": "496FFFE16E6E5558E053BC09A8C0A5ED,7521ce1567564a6ea17f3cbcafa10eb0",
+      "DXQ_ID": "C2BF97C4A9265B16E053024C10AC8C30",
+      "DXQ_MC": "东北师范坪山实验片区"
+    },
+    {
+      "XXID": "822cfc1a37994111921660b686ebf774,496FFFE16E735558E053BC09A8C0A5ED,8f44e99acc954441bd2efc67d0f1d008",
+      "DXQ_ID": "3952A447CCCC9A63E063024C10AC3C47",
+      "DXQ_MC": "树人实验坪山中学坪山二外片区"
+    },
+    {
+      "XXID": "d7358e1a08f749a0be67939342973f18,b0b17aee8a784921b94e3128b36cce83,77ce5a6248924f5d8a24dac29b41540b,496FFFE16E7A5558E053BC09A8C0A5ED",
+      "DXQ_ID": "3952A447CCC79A63E063024C10AC3C47",
+      "DXQ_MC": "中山锦龙新合日新片区"
+    },
+    {
+      "XXID": "496FFFE16E6D5558E053BC09A8C0A5ED,febdebcde7af42ab8b92351a8d3e12f3,30e32a742fb1465fa21031bea8def52d",
+      "DXQ_ID": "3952A447CCCA9A63E063024C10AC3C47",
+      "DXQ_MC": "未来学校科源学校科悦实验片区"
+    },
+    {
+      "XXID": "496FFFE16E745558E053BC09A8C0A5ED,5677e5a14f2d40a6863b7a8e633e7db2",
+      "DXQ_ID": "C2BF97C4A92A5B16E053024C10AC8C30",
+      "DXQ_MC": "坪山二小东纵小学片区"
+    },
+    {
+      "XXID": "496FFFE16E705558E053BC09A8C0A5ED,e256936103f946ffafa6b60f82a47a6d",
+      "DXQ_ID": "3952A447CCC99A63E063024C10AC3C47",
+      "DXQ_MC": "深圳实验坪山学校、碧岭实验学校"
+    },
+    {
+      "XXID": "496FFFE16E775558E053BC09A8C0A5ED,ca9948e471d24be38656d918046cfc11,6c0a6273c8d14e45a99bfd659069b3a1,7bbe2038b1d74eb682c60d00002a3223,ebba3d9978864102945d73d0ae3ab745",
+      "DXQ_ID": "DFE0C3A6CDEB9708E053014C10AC626B",
+      "DXQ_MC": "锦绣同心文源东部湾区南科大片区"
+    },
+    {
+      "XXID": "0d3be52a5c9a4f4285f3835946eae10c,496FFFE16E785558E053BC09A8C0A5ED,a4b2d1e04df043b3b01a933679399fa8",
+      "DXQ_ID": "39563653D02DBC6DE063024C10AC55AA",
+      "DXQ_MC": "金田小学、深技大创新、锦绣实验片区"
+    },
+    {
+      "XXID": "496FFFE16E6C5558E053BC09A8C0A5ED,6972b52527fa4207b872f49bf2a3a0ee",
+      "DXQ_ID": "C2BF97C4A9275B16E053024C10AC8C30",
+      "DXQ_MC": "东北师范六联片区"
+    },
+    {
+      "XXID": "496FFFE16E7B5558E053BC09A8C0A5ED,20856f6633db4c78956e26af5751319a",
+      "DXQ_ID": "DFE0C3A6CDE29708E053014C10AC626B",
+      "DXQ_MC": "锦绣坑梓中心片区"
+    },
+    {
+      "XXID": "e256936103f946ffafa6b60f82a47a6d,496FFFE16E705558E053BC09A8C0A5ED",
+      "DXQ_ID": "36B4230275019261E063014C10AC20D2",
+      "DXQ_MC": "深圳实验坪山学校、碧岭实验学校"
+    },
+    {
+      "XXID": "496FFFE16E7A5558E053BC09A8C0A5ED,77ce5a6248924f5d8a24dac29b41540b,b0b17aee8a784921b94e3128b36cce83,d7358e1a08f749a0be67939342973f18",
+      "DXQ_ID": "C2BF97C4A92B5B16E053024C10AC8C30",
+      "DXQ_MC": "中山锦龙新合日新片区"
+    },
+    {
+      "XXID": "ebba3d9978864102945d73d0ae3ab745,7bbe2038b1d74eb682c60d00002a3223,6c0a6273c8d14e45a99bfd659069b3a1,ca9948e471d24be38656d918046cfc11,496FFFE16E775558E053BC09A8C0A5ED",
+      "DXQ_ID": "395643230DE9FA4CE063014C10AC8F5D",
+      "DXQ_MC": "锦绣同心文源东部湾区南科大初中片区"
+    },
+    {
+      "XXID": "432a24af7a274bf382d76f0ce1867de6,496FFFE16E725558E053BC09A8C0A5ED",
+      "DXQ_ID": "C2BF97C4A9335B16E053024C10AC8C30",
+      "DXQ_MC": "东北师范坪山实验片区"
+    },
+    {
+      "XXID": "496FFFE16E785558E053BC09A8C0A5ED,0d3be52a5c9a4f4285f3835946eae10c,a4b2d1e04df043b3b01a933679399fa8",
+      "DXQ_ID": "DFE0C3A6CDDF9708E053014C10AC626B",
+      "DXQ_MC": "深技大附属创新学校金田小学锦绣实验片区"
+    },
+    {
+      "XXID": "40aa6fdb95e849e288d66a7ae77af6e5,496FFFE16E6F5558E053BC09A8C0A5ED,1b973229fd3e48c3a364b673bbf5b7d1",
+      "DXQ_ID": "39562C7E96DD373BE063024C10AC7F80",
+      "DXQ_MC": "树人实验坪山中心坪山二外片区"
+    },
+    {
+      "XXID": "132bb746138745a49b5c44f857e795fb,4a33d1374b5949e8b9c7dcef3ad77d30,afb5ec7aa6ad4143b1d7414fd1645b1b",
+      "DXQ_ID": "33546D761C9C512CE063024C10AC98B8",
+      "DXQ_MC": "深技大附属实验学校深中坪山创新学校深外坪山学校片区"
+    },
+    {
+      "XXID": "496FFFE16E715558E053BC09A8C0A5ED,a7a03f5df9f047f28ff8d71c1aa30a17,dc321e0236514367936e9a83e2e27d9f",
+      "DXQ_ID": "3952A447CCCD9A63E063024C10AC3C47",
+      "DXQ_MC": "秀沙学校光祖中学锦绣实验片区"
+    },
+    {
+      "XXID": "59e308c6a1d0400c85d648072f0bb456,87f13f0dc31345a8a2173a78f73d9410,f53612beacf74db593c8c4dcc9085701,4c442c4122084830a1508080118cb81f,496FFFE16E795558E053BC09A8C0A5ED,9194d14b5fe74a15a634e1d74026f799",
+      "DXQ_ID": "39562F8F93E35121E063024C10ACBE5F",
+      "DXQ_MC": "深圳实验中山中学新合实验科源实验未来学校片区"
+    },
+    {
+      "XXID": "1b973229fd3e48c3a364b673bbf5b7d1,496FFFE16E6F5558E053BC09A8C0A5ED,40aa6fdb95e849e288d66a7ae77af6e5",
+      "DXQ_ID": "C2BF97C4A9285B16E053024C10AC8C30",
+      "DXQ_MC": "树人实验坪山中心坪山二外片区"
+    }
+  ]
+}

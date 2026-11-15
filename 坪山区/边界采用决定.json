@@ -1,0 +1,17 @@
+{
+  "district": "坪山区",
+  "school_id": "sz:pingshan:school:sz_2026_primary_scope_0172",
+  "school_name": "东北师范大学深圳坪山实验 学校（小学部）",
+  "zone_ids": [
+    "sz:pingshan:zone:3b78a6bd342d48898983203c5335d0b5",
+    "sz:pingshan:zone:9c3d79a065d84861803bb201fbfb4742"
+  ],
+  "issue": "same_school_multiple_original_paths",
+  "handling": "用户授权二选一：采用2023年记录9c3d79a065d84861803bb201fbfb4742；2022年记录只存档，不参与计算。",
+  "campus_review": "官网仅列和飞路11号；标记点约37米，边界交并比约99.21%，支持同校同址重复绘图，未证实两个校区。",
+  "status": "resolved_user_authorized_selection",
+  "selected_source_school_id": "9c3d79a065d84861803bb201fbfb4742",
+  "archived_source_school_id": "3b78a6bd342d48898983203c5335d0b5",
+  "reason": "用户允许任选一条；选择录入较晚且地址电话完整者，不依据几何有效性排除。",
+  "source_metadata_date_not_policy_year": true
+}

@@ -1,0 +1,219 @@
+[
+  {
+    "school_id": "sz:pingshan:school:sz_2026_primary_scope_0175",
+    "school_name": "深圳市坪山高级中学教育集团坪山区第二外国语学校（小学部）",
+    "zone_ids": [
+      "sz:pingshan:zone:1b973229fd3e48c3a364b673bbf5b7d1"
+    ]
+  },
+  {
+    "school_id": "sz:pingshan:school:sz_2026_primary_scope_0180",
+    "school_name": "深圳市中山小学教育集团中山小学",
+    "zone_ids": [
+      "sz:pingshan:zone:496FFFE16E7A5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "school_id": "sz:pingshan:school:sz_2026_primary_scope_0179",
+    "school_name": "马峦小学",
+    "zone_ids": [
+      "sz:pingshan:zone:61251119035a4e3c9976cc02b70c2287"
+    ]
+  },
+  {
+    "school_id": "sz:pingshan:school:sz_2026_primary_scope_0172",
+    "school_name": "东北师范大学深圳坪山实验 学校（小学部）",
+    "zone_ids": [
+      "sz:pingshan:zone:9c3d79a065d84861803bb201fbfb4742"
+    ]
+  },
+  {
+    "school_id": "sz:pingshan:school:sz_2026_primary_scope_0191",
+    "school_name": "深圳技术大学附属坪山实验学校（小学部）",
+    "zone_ids": [
+      "sz:pingshan:zone:ff8dd74b3d2242f9991a90cc854d05b9"
+    ]
+  },
+  {
+    "school_id": "sz:pingshan:school:sz_2026_primary_scope_0184",
+    "school_name": "科源实验学校（小学部）",
+    "zone_ids": [
+      "sz:pingshan:zone:496FFFE16E6D5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "school_id": "sz:pingshan:school:sz_2026_primary_scope_0177",
+    "school_name": "坪山第二小学",
+    "zone_ids": [
+      "sz:pingshan:zone:496FFFE16E745558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "school_id": "sz:pingshan:school:sz_2026_primary_scope_0201",
+    "school_name": "深圳市坪山外国语教育集团龙田小学",
+    "zone_ids": [
+      "sz:pingshan:zone:496FFFE16E755558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "school_id": "sz:pingshan:school:sz_2026_primary_scope_0197",
+    "school_name": "锦绣实验学校（小学部）",
+    "zone_ids": [
+      "sz:pingshan:zone:531b4e6d159446c98be973740e0c8465"
+    ]
+  },
+  {
+    "school_id": "sz:pingshan:school:sz_2026_primary_scope_0189",
+    "school_name": "深圳中学坪山创新学校（小学部）",
+    "zone_ids": [
+      "sz:pingshan:zone:bfe72615f8ad45588e45e359125db03c"
+    ]
+  },
+  {
+    "school_id": "sz:pingshan:school:sz_2026_primary_scope_0173",
+    "school_name": "深圳市中山小学教育集团六联小学",
+    "zone_ids": [
+      "sz:pingshan:zone:496FFFE16E6C5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "school_id": "sz:pingshan:school:sz_2026_primary_scope_0195",
+    "school_name": "深圳市聚龙科学中学教育集团外国语文源学校（小学部）",
+    "zone_ids": [
+      "sz:pingshan:zone:7908e65690774c5aaec7801410a059f5"
+    ]
+  },
+  {
+    "school_id": "sz:pingshan:school:sz_2026_primary_scope_0190",
+    "school_name": "深圳外国语学校坪山学校（小学部）",
+    "zone_ids": [
+      "sz:pingshan:zone:838a2762dc154e7699ce607f53741597"
+    ]
+  },
+  {
+    "school_id": "sz:pingshan:school:sz_2026_primary_scope_0181",
+    "school_name": "深圳市坪山实验教育集团锦龙小学",
+    "zone_ids": [
+      "sz:pingshan:zone:b0b17aee8a784921b94e3128b36cce83"
+    ]
+  },
+  {
+    "school_id": "sz:pingshan:school:sz_2026_primary_scope_0183",
+    "school_name": "深圳市中山小学教育集团日新小学",
+    "zone_ids": [
+      "sz:pingshan:zone:d7358e1a08f749a0be67939342973f18"
+    ]
+  },
+  {
+    "school_id": "sz:pingshan:school:sz_2026_primary_scope_0196",
+    "school_name": "深圳市聚龙科学中学教育集团东部湾区实验学校（小学部）",
+    "zone_ids": [
+      "sz:pingshan:zone:12dd59fd255a47d29034f96510bdd89e"
+    ]
+  },
+  {
+    "school_id": "sz:pingshan:school:sz_2026_primary_scope_0176",
+    "school_name": "树人实验学校（小学部）",
+    "zone_ids": [
+      "sz:pingshan:zone:40aa6fdb95e849e288d66a7ae77af6e5"
+    ]
+  },
+  {
+    "school_id": "sz:pingshan:school:sz_2026_primary_scope_0178",
+    "school_name": "东纵小学",
+    "zone_ids": [
+      "sz:pingshan:zone:5677e5a14f2d40a6863b7a8e633e7db2"
+    ]
+  },
+  {
+    "school_id": "sz:pingshan:school:sz_2026_primary_scope_0194",
+    "school_name": "南方科技大学附属坪山学校（小学部）",
+    "zone_ids": [
+      "sz:pingshan:zone:02d68e2b37ac422387cd683a24d916f6"
+    ]
+  },
+  {
+    "school_id": "sz:pingshan:school:sz_2026_primary_scope_0185",
+    "school_name": "深圳市坪山实验教育集团科悦实验小学",
+    "zone_ids": [
+      "sz:pingshan:zone:30e32a742fb1465fa21031bea8def52d"
+    ]
+  },
+  {
+    "school_id": "sz:pingshan:school:sz_2026_primary_scope_0174",
+    "school_name": "坪山中心小学",
+    "zone_ids": [
+      "sz:pingshan:zone:496FFFE16E6F5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "school_id": "sz:pingshan:school:sz_2026_primary_scope_0192",
+    "school_name": "深圳高级中学（集团）东校区（小学部）",
+    "zone_ids": [
+      "sz:pingshan:zone:b85c3917c0214eb793272b96e104ff1c"
+    ]
+  },
+  {
+    "school_id": "sz:pingshan:school:sz_2026_primary_scope_0199",
+    "school_name": "深圳技术大学附属坪山创新学校（小学部）",
+    "zone_ids": [
+      "sz:pingshan:zone:0d3be52a5c9a4f4285f3835946eae10c"
+    ]
+  },
+  {
+    "school_id": "sz:pingshan:school:sz_2026_primary_scope_0171",
+    "school_name": "深圳市坪山实验教育集团坪山实验学校（小学部）",
+    "zone_ids": [
+      "sz:pingshan:zone:496FFFE16E6E5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "school_id": "sz:pingshan:school:sz_2026_primary_scope_0193",
+    "school_name": "深圳市坪山外国语教育集团坪山区外国语学校（小学部）",
+    "zone_ids": [
+      "sz:pingshan:zone:496FFFE16E765558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "school_id": "sz:pingshan:school:sz_2026_primary_scope_0198",
+    "school_name": "深圳市坪山外国语教育集团金田小学",
+    "zone_ids": [
+      "sz:pingshan:zone:496FFFE16E785558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "school_id": "sz:pingshan:school:sz_2026_primary_scope_0188",
+    "school_name": "深圳实验坪山学校（小学部）",
+    "zone_ids": [
+      "sz:pingshan:zone:e256936103f946ffafa6b60f82a47a6d"
+    ]
+  },
+  {
+    "school_id": "sz:pingshan:school:sz_2026_primary_scope_0186",
+    "school_name": "深圳市坪山实验教育集团坪山区未来学校",
+    "zone_ids": [
+      "sz:pingshan:zone:febdebcde7af42ab8b92351a8d3e12f3"
+    ]
+  },
+  {
+    "school_id": "sz:pingshan:school:sz_2026_primary_scope_0187",
+    "school_name": "碧岭实验学校（小学部）",
+    "zone_ids": [
+      "sz:pingshan:zone:496FFFE16E705558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "school_id": "sz:pingshan:school:sz_2026_primary_scope_0200",
+    "school_name": "坑梓中心小学",
+    "zone_ids": [
+      "sz:pingshan:zone:496FFFE16E7B5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "school_id": "sz:pingshan:school:sz_2026_primary_scope_0182",
+    "school_name": "新合实验学校（小学部）",
+    "zone_ids": [
+      "sz:pingshan:zone:77ce5a6248924f5d8a24dac29b41540b"
+    ]
+  }
+]

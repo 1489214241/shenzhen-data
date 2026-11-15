@@ -1,0 +1,1338 @@
+[
+  {
+    "school_id": "sz:pingshan:school:sz_2026_primary_scope_0175",
+    "zone_id": "sz:pingshan:zone:1b973229fd3e48c3a364b673bbf5b7d1",
+    "district": "坪山区",
+    "school_name": "深圳市坪山高级中学教育集团坪山区第二外国语学校（小学部）",
+    "map_school_name": "坪山高级中学教育集团坪山第二外国语学校（小学部）",
+    "map_scope_text": "江岭江边村、江岭远香村、江岭石灰陂村、东关郡府；\r\n坪环禾学村、坪环禾场头村、坪环老围村、坪环大万村、坪环统建楼南小区、坪环统建楼北小区、坪环桃源小区、心海城、万顺苑；\r\n和平马东村、和平马西村、和平黄果坜村、和平中兴片区、泰富华庭、中兴西小区；\r\n坪山三洋湖村、坪山龙背村、坪山鹤湖浪、坪山中兴村、坪山立北、立南片区（老居委）、坪山东门片区（老居委）。",
+    "independent_texts": [
+      {
+        "scope_text": "坪山社区，和平社区，坪环社区比亚迪路以北片区，江岭社区比亚迪路以北片区",
+        "school_name_raw": "深圳市坪山高级中学教育集团坪山区第二外国语学校（小学部）",
+        "year": 2026,
+        "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+        "source_position": "公办小学招生范围及联系方式 第6行",
+        "identity_status": "explicit_name_alias_review",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0175",
+        "original_scope_text": "坪山社区，和平社区，坪环社区比亚迪路以北片区，江岭社区比亚迪路以北片区",
+        "original_record": {
+          "district": "坪山区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "深圳市坪山高级中学教育集团坪山区第二外国语学校（小学部）",
+          "scope_text": "坪山社区，和平社区，坪环社区比亚迪路以北片区，江岭社区比亚迪路以北片区",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+          "source_file": "原始资料\\招生政策\\深圳市坪山区2026年小一初一学位申请指南_afd09913dd.html",
+          "source_section": "公办小学招生范围及联系方式",
+          "source_row": 6,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "source_table_index": 2,
+          "record_id": "sz_2026_primary_scope_0175"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/pingshan_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。",
+      "地图采用2026-10-23存档；本轮入口维护，实际查询覆盖层未取得。"
+    ]
+  },
+  {
+    "school_id": "sz:pingshan:school:sz_2026_primary_scope_0180",
+    "zone_id": "sz:pingshan:zone:496FFFE16E7A5558E053BC09A8C0A5ED",
+    "district": "坪山区",
+    "school_name": "深圳市中山小学教育集团中山小学",
+    "map_school_name": "坪山区中山小学",
+    "map_scope_text": "坪环黄沙坑村；\r\n六联洋母帐村、东晟时代花园、水岸明珠花园、东城上邸花园、祥祺滨河名苑花园；\r\n果园贝鼎盛大厦；\r\n京基·御景印象、信达金尊府、力高·君御国际、泰富华悦都会、金地朗悦花园。",
+    "independent_texts": [
+      {
+        "scope_text": "六联社区金碧路以南、东纵路以西及锦龙大道以东片区，坪环社区比亚迪路以南、体育三路以西及大山陂水库管理线以北片区，沙湖社区坪盐通道以东、业通路（规划路）以北片区，大山陂水库管理线马峦社区延伸段以北片区",
+        "school_name_raw": "深圳市中山小学教育集团中山小学",
+        "year": 2026,
+        "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+        "source_position": "公办小学招生范围及联系方式 第11行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0180",
+        "original_scope_text": "六联社区金碧路以南、东纵路以西及锦龙大道以东片区，坪环社区比亚迪路以南、体育三路以西及大山陂水库管理线以北片区，沙湖社区坪盐通道以东、业通路（规划路）以北片区，大山陂水库管理线马峦社区延伸段以北片区",
+        "original_record": {
+          "district": "坪山区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "深圳市中山小学教育集团中山小学",
+          "scope_text": "六联社区金碧路以南、东纵路以西及锦龙大道以东片区，坪环社区比亚迪路以南、体育三路以西及大山陂水库管理线以北片区，沙湖社区坪盐通道以东、业通路（规划路）以北片区，大山陂水库管理线马峦社区延伸段以北片区",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+          "source_file": "原始资料\\招生政策\\深圳市坪山区2026年小一初一学位申请指南_afd09913dd.html",
+          "source_section": "公办小学招生范围及联系方式",
+          "source_row": 11,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "source_table_index": 2,
+          "record_id": "sz_2026_primary_scope_0180"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/pingshan_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。",
+      "地图采用2026-10-23存档；本轮入口维护，实际查询覆盖层未取得。"
+    ]
+  },
+  {
+    "school_id": "sz:pingshan:school:sz_2026_primary_scope_0179",
+    "zone_id": "sz:pingshan:zone:61251119035a4e3c9976cc02b70c2287",
+    "district": "坪山区",
+    "school_name": "马峦小学",
+    "map_school_name": "坪山区马峦小学",
+    "map_scope_text": "江岭三河、江岭长守、江岭竹园；\r\n坪环曾屋；\r\n马峦红花岭、马峦新民、马峦建和、马峦光背、马峦径子、马峦老围、天峦湖。",
+    "independent_texts": [
+      {
+        "scope_text": "江岭社区比亚迪路以南片区，坪环社区大山陂水库管理线以南、体育三路以东、比亚迪路以南片区，大山陂水库管理线马峦社区延伸段以南",
+        "school_name_raw": "马峦小学",
+        "year": 2026,
+        "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+        "source_position": "公办小学招生范围及联系方式 第10行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0179",
+        "original_scope_text": "江岭社区比亚迪路以南片区，坪环社区大山陂水库管理线以南、体育三路以东、比亚迪路以南片区，大山陂水库管理线马峦社区延伸段以南",
+        "original_record": {
+          "district": "坪山区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "马峦小学",
+          "scope_text": "江岭社区比亚迪路以南片区，坪环社区大山陂水库管理线以南、体育三路以东、比亚迪路以南片区，大山陂水库管理线马峦社区延伸段以南",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+          "source_file": "原始资料\\招生政策\\深圳市坪山区2026年小一初一学位申请指南_afd09913dd.html",
+          "source_section": "公办小学招生范围及联系方式",
+          "source_row": 10,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "source_table_index": 2,
+          "record_id": "sz_2026_primary_scope_0179"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/pingshan_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。",
+      "地图采用2026-10-23存档；本轮入口维护，实际查询覆盖层未取得。"
+    ]
+  },
+  {
+    "school_id": "sz:pingshan:school:sz_2026_primary_scope_0191",
+    "zone_id": "sz:pingshan:zone:ff8dd74b3d2242f9991a90cc854d05b9",
+    "district": "坪山区",
+    "school_name": "深圳技术大学附属坪山实验学校（小学部）",
+    "map_school_name": "深圳技术大学附属坪山实验学校（小学部）",
+    "map_scope_text": null,
+    "independent_texts": [
+      {
+        "scope_text": "沙壆社区东纵路以北片区，石井社区金田路以北不含兰景南路（规划路）以东片区，南布社区",
+        "school_name_raw": "深圳技术大学附属坪山实验学校（小学部）",
+        "year": 2026,
+        "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+        "source_position": "公办小学招生范围及联系方式 第22行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0191",
+        "original_scope_text": "沙壆社区东纵路以北片区，石井社区金田路以北不含兰景南路（规划路）以东片区，南布社区",
+        "original_record": {
+          "district": "坪山区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "深圳技术大学附属坪山实验学校（小学部）",
+          "scope_text": "沙壆社区东纵路以北片区，石井社区金田路以北不含兰景南路（规划路）以东片区，南布社区",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+          "source_file": "原始资料\\招生政策\\深圳市坪山区2026年小一初一学位申请指南_afd09913dd.html",
+          "source_section": "公办小学招生范围及联系方式",
+          "source_row": 22,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "source_table_index": 2,
+          "record_id": "sz_2026_primary_scope_0191"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/pingshan_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。",
+      "地图采用2026-10-23存档；本轮入口维护，实际查询覆盖层未取得。"
+    ]
+  },
+  {
+    "school_id": "sz:pingshan:school:sz_2026_primary_scope_0184",
+    "zone_id": "sz:pingshan:zone:496FFFE16E6D5558E053BC09A8C0A5ED",
+    "district": "坪山区",
+    "school_name": "科源实验学校（小学部）",
+    "map_school_name": "坪山区科源实验学校（小学部）",
+    "map_scope_text": "汤坑赤子香、汤坑拔头吓、汤坑石楼围、汤坑汤星、汤坑老围、汤坑乌坭浪、汤坑对门岭、汤坑茜坑、汤坑油社、汤坑高另、汤坑楼角、汤坑张屋、汤坑新村、新城东方丽园、汤亨花园、碧湖春天、凤凰公馆；\r\n沙湖卢屋居民小组、沙湖新屋居民小组、沙湖谢屋居民小组、沙湖居民小组、沙湖上榨居民小组、沙湖吓榨居民小组、沙湖黄一居民小组、沙湖黄二居民小组、沙湖复兴居民小组、沙湖文新居民小组、沙湖新村、沙湖新湖居、倚湖居。\r\n",
+    "independent_texts": [
+      {
+        "scope_text": "汤坑社区，沙湖社区【不含沙湖社区坪盐通道以东、业通路（规划路）以北片区】",
+        "school_name_raw": "科源实验学校（小学部）",
+        "year": 2026,
+        "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+        "source_position": "公办小学招生范围及联系方式 第15行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0184",
+        "original_scope_text": "汤坑社区，沙湖社区【不含沙湖社区坪盐通道以东、业通路（规划路）以北片区】",
+        "original_record": {
+          "district": "坪山区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "科源实验学校（小学部）",
+          "scope_text": "汤坑社区，沙湖社区【不含沙湖社区坪盐通道以东、业通路（规划路）以北片区】",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+          "source_file": "原始资料\\招生政策\\深圳市坪山区2026年小一初一学位申请指南_afd09913dd.html",
+          "source_section": "公办小学招生范围及联系方式",
+          "source_row": 15,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "source_table_index": 2,
+          "record_id": "sz_2026_primary_scope_0184"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/pingshan_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。",
+      "地图采用2026-10-23存档；本轮入口维护，实际查询覆盖层未取得。"
+    ]
+  },
+  {
+    "school_id": "sz:pingshan:school:sz_2026_primary_scope_0177",
+    "zone_id": "sz:pingshan:zone:496FFFE16E745558E053BC09A8C0A5ED",
+    "district": "坪山区",
+    "school_name": "坪山第二小学",
+    "map_school_name": "坪山区第二小学",
+    "map_scope_text": "沙坣新村、沙坣谷仓吓、沙坣新村、豪方东园；\r\n石井太阳村、石井村、石井老屋村；\r\n金龟新塘村、金龟田作村、金龟坪头岭村、金龟半坝村、金龟金地村、金龟同石村、金龟金成村。\r\n",
+    "independent_texts": [
+      {
+        "scope_text": "金龟社区，沙壆社区东纵路以南片区，石井社区金田路以南片区，田头社区南坪快速路以南片区，田心社区头陂水库及田头山范围",
+        "school_name_raw": "坪山第二小学",
+        "year": 2026,
+        "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+        "source_position": "公办小学招生范围及联系方式 第8行",
+        "identity_status": "official_search_address_corroborated_alias",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0177",
+        "original_scope_text": "金龟社区，沙壆社区东纵路以南片区，石井社区金田路以南片区，田头社区南坪快速路以南片区，田心社区头陂水库及田头山范围",
+        "original_record": {
+          "district": "坪山区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "坪山第二小学",
+          "scope_text": "金龟社区，沙壆社区东纵路以南片区，石井社区金田路以南片区，田头社区南坪快速路以南片区，田心社区头陂水库及田头山范围",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+          "source_file": "原始资料\\招生政策\\深圳市坪山区2026年小一初一学位申请指南_afd09913dd.html",
+          "source_section": "公办小学招生范围及联系方式",
+          "source_row": 8,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "source_table_index": 2,
+          "record_id": "sz_2026_primary_scope_0177"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/pingshan_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。",
+      "地图采用2026-10-23存档；本轮入口维护，实际查询覆盖层未取得。",
+      "坪山第二小学别名依据同址与官方检索摘录；学校目录正文未读取。"
+    ]
+  },
+  {
+    "school_id": "sz:pingshan:school:sz_2026_primary_scope_0201",
+    "zone_id": "sz:pingshan:zone:496FFFE16E755558E053BC09A8C0A5ED",
+    "district": "坪山区",
+    "school_name": "深圳市坪山外国语教育集团龙田小学",
+    "map_school_name": "坪山外国语教育集团龙田小学",
+    "map_scope_text": "龙田田段心、龙田石陂头、龙田牛湖、龙田牛背、龙田吓田、龙田大水湾、龙田新屋、龙田大窝居、龙田下陂、龙田大塘、龙田龙湖；         ",
+    "independent_texts": [
+      {
+        "scope_text": "龙田社区",
+        "school_name_raw": "深圳市坪山外国语教育集团龙田小学",
+        "year": 2026,
+        "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+        "source_position": "公办小学招生范围及联系方式 第32行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0201",
+        "original_scope_text": "龙田社区",
+        "original_record": {
+          "district": "坪山区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "深圳市坪山外国语教育集团龙田小学",
+          "scope_text": "龙田社区",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+          "source_file": "原始资料\\招生政策\\深圳市坪山区2026年小一初一学位申请指南_afd09913dd.html",
+          "source_section": "公办小学招生范围及联系方式",
+          "source_row": 32,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "source_table_index": 2,
+          "record_id": "sz_2026_primary_scope_0201"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/pingshan_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。",
+      "地图采用2026-10-23存档；本轮入口维护，实际查询覆盖层未取得。"
+    ]
+  },
+  {
+    "school_id": "sz:pingshan:school:sz_2026_primary_scope_0197",
+    "zone_id": "sz:pingshan:zone:531b4e6d159446c98be973740e0c8465",
+    "district": "坪山区",
+    "school_name": "锦绣实验学校（小学部）",
+    "map_school_name": "坪山区锦绣实验学校（小学部）",
+    "map_scope_text": null,
+    "independent_texts": [
+      {
+        "scope_text": "坑梓社区，秀新社区，沙田社区，金沙社区，龙田社区，老坑社区，竹坑社区，田心社区内坪山河以北片区",
+        "school_name_raw": "锦绣实验学校（小学部）",
+        "year": 2026,
+        "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+        "source_position": "公办小学招生范围及联系方式 第28行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0197",
+        "original_scope_text": "坑梓社区，秀新社区，沙田社区，金沙社区，龙田社区，老坑社区，竹坑社区，田心社区内坪山河以北片区",
+        "original_record": {
+          "district": "坪山区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "锦绣实验学校（小学部）",
+          "scope_text": "坑梓社区，秀新社区，沙田社区，金沙社区，龙田社区，老坑社区，竹坑社区，田心社区内坪山河以北片区",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+          "source_file": "原始资料\\招生政策\\深圳市坪山区2026年小一初一学位申请指南_afd09913dd.html",
+          "source_section": "公办小学招生范围及联系方式",
+          "source_row": 28,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "source_table_index": 2,
+          "record_id": "sz_2026_primary_scope_0197"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/pingshan_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。",
+      "地图采用2026-10-23存档；本轮入口维护，实际查询覆盖层未取得。"
+    ]
+  },
+  {
+    "school_id": "sz:pingshan:school:sz_2026_primary_scope_0189",
+    "zone_id": "sz:pingshan:zone:bfe72615f8ad45588e45e359125db03c",
+    "district": "坪山区",
+    "school_name": "深圳中学坪山创新学校（小学部）",
+    "map_school_name": "深圳中学坪山创新学校（小学部）",
+    "map_scope_text": "沙壆村、沙壆青草林村、沙壆陈屋村、沙壆彭屋村、沙壆新屋村、沙壆龙兴村、富润乐庭；\r\n南布村、豪方菁园、盈富家园；\r\n石井村（巷）、石井井子吓村、石井上屋村、石井下屋村、石井横塘村、石井石陂头村、石井李屋村、石井岭脚村、石井草埔村、石井望牛岗村。\r\n",
+    "independent_texts": [
+      {
+        "scope_text": "沙壆社区东纵路以北片区，石井社区金田路以北不含兰景南路（规划路）以东片区，南布社区",
+        "school_name_raw": "深圳中学坪山创新学校（小学部）",
+        "year": 2026,
+        "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+        "source_position": "公办小学招生范围及联系方式 第20行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0189",
+        "original_scope_text": "沙壆社区东纵路以北片区，石井社区金田路以北不含兰景南路（规划路）以东片区，南布社区",
+        "original_record": {
+          "district": "坪山区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "深圳中学坪山创新学校（小学部）",
+          "scope_text": "沙壆社区东纵路以北片区，石井社区金田路以北不含兰景南路（规划路）以东片区，南布社区",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+          "source_file": "原始资料\\招生政策\\深圳市坪山区2026年小一初一学位申请指南_afd09913dd.html",
+          "source_section": "公办小学招生范围及联系方式",
+          "source_row": 20,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "source_table_index": 2,
+          "record_id": "sz_2026_primary_scope_0189"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/pingshan_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。",
+      "地图采用2026-10-23存档；本轮入口维护，实际查询覆盖层未取得。"
+    ]
+  },
+  {
+    "school_id": "sz:pingshan:school:sz_2026_primary_scope_0173",
+    "zone_id": "sz:pingshan:zone:496FFFE16E6C5558E053BC09A8C0A5ED",
+    "district": "坪山区",
+    "school_name": "深圳市中山小学教育集团六联小学",
+    "map_school_name": "中山小学教育集团六联小学",
+    "map_scope_text": "六联浪尾、六联珠洋坑村、六联坪山围村、六联澳子头村、六联横岭塘村、六联丰田村、六联福昌村、六合城。",
+    "independent_texts": [
+      {
+        "scope_text": "六联社区（不含金碧路以南、东纵路以西及锦龙大道以东片区）",
+        "school_name_raw": "深圳市中山小学教育集团六联小学",
+        "year": 2026,
+        "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+        "source_position": "公办小学招生范围及联系方式 第4行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0173",
+        "original_scope_text": "六联社区（不含金碧路以南、东纵路以西及锦龙大道以东片区）",
+        "original_record": {
+          "district": "坪山区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "深圳市中山小学教育集团六联小学",
+          "scope_text": "六联社区（不含金碧路以南、东纵路以西及锦龙大道以东片区）",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+          "source_file": "原始资料\\招生政策\\深圳市坪山区2026年小一初一学位申请指南_afd09913dd.html",
+          "source_section": "公办小学招生范围及联系方式",
+          "source_row": 4,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "source_table_index": 2,
+          "record_id": "sz_2026_primary_scope_0173"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/pingshan_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。",
+      "地图采用2026-10-23存档；本轮入口维护，实际查询覆盖层未取得。"
+    ]
+  },
+  {
+    "school_id": "sz:pingshan:school:sz_2026_primary_scope_0195",
+    "zone_id": "sz:pingshan:zone:7908e65690774c5aaec7801410a059f5",
+    "district": "坪山区",
+    "school_name": "深圳市聚龙科学中学教育集团外国语文源学校（小学部）",
+    "map_school_name": "聚龙科学中学教育集团外国语文源学校（小学部）",
+    "map_scope_text": "金沙东联村、金沙卢屋村、亚迪三村、深业御园；\r\n老坑井水龙村、老坑三角楼村、老坑松子坑村、老坑盘古石村、老坑东坑村、老坑西坑村、丹梓龙庭、锦绣华晟；\r\n竹坑石湖村、竹坑新开村、竹坑茜坑村、竹坑上坝村、竹坑老围村、竹坑河唇村、竹坑沙梨园村、竹坑黄泥园村、竹坑三栋村、竹坑村、竹坑罗庚丘村、聚龙花园一期、聚龙花园二期、奥园翡翠东湾一期、奥园翡翠东湾二期、澜湾花园、中海万锦熙岸、安居御龙苑、坪河雅苑；\r\n田心上洋村。",
+    "independent_texts": [
+      {
+        "scope_text": "秀新社区厦深铁路以南片区，金沙社区厦深铁路以南片区，老坑社区，竹坑社区，田心社区内坪山河以北片区",
+        "school_name_raw": "深圳市聚龙科学中学教育集团外国语文源学校（小学部）",
+        "year": 2026,
+        "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+        "source_position": "公办小学招生范围及联系方式 第26行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0195",
+        "original_scope_text": "秀新社区厦深铁路以南片区，金沙社区厦深铁路以南片区，老坑社区，竹坑社区，田心社区内坪山河以北片区",
+        "original_record": {
+          "district": "坪山区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "深圳市聚龙科学中学教育集团外国语文源学校（小学部）",
+          "scope_text": "秀新社区厦深铁路以南片区，金沙社区厦深铁路以南片区，老坑社区，竹坑社区，田心社区内坪山河以北片区",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+          "source_file": "原始资料\\招生政策\\深圳市坪山区2026年小一初一学位申请指南_afd09913dd.html",
+          "source_section": "公办小学招生范围及联系方式",
+          "source_row": 26,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "source_table_index": 2,
+          "record_id": "sz_2026_primary_scope_0195"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/pingshan_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。",
+      "地图采用2026-10-23存档；本轮入口维护，实际查询覆盖层未取得。"
+    ]
+  },
+  {
+    "school_id": "sz:pingshan:school:sz_2026_primary_scope_0190",
+    "zone_id": "sz:pingshan:zone:838a2762dc154e7699ce607f53741597",
+    "district": "坪山区",
+    "school_name": "深圳外国语学校坪山学校（小学部）",
+    "map_school_name": "深圳外国语学校坪山学校（小学部）",
+    "map_scope_text": null,
+    "independent_texts": [
+      {
+        "scope_text": "沙壆社区东纵路以北片区，石井社区金田路以北不含兰景南路（规划路）以东片区，南布社区",
+        "school_name_raw": "深圳外国语学校坪山学校（小学部）",
+        "year": 2026,
+        "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+        "source_position": "公办小学招生范围及联系方式 第21行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0190",
+        "original_scope_text": "沙壆社区东纵路以北片区，石井社区金田路以北不含兰景南路（规划路）以东片区，南布社区",
+        "original_record": {
+          "district": "坪山区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "深圳外国语学校坪山学校（小学部）",
+          "scope_text": "沙壆社区东纵路以北片区，石井社区金田路以北不含兰景南路（规划路）以东片区，南布社区",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+          "source_file": "原始资料\\招生政策\\深圳市坪山区2026年小一初一学位申请指南_afd09913dd.html",
+          "source_section": "公办小学招生范围及联系方式",
+          "source_row": 21,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "source_table_index": 2,
+          "record_id": "sz_2026_primary_scope_0190"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/pingshan_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。",
+      "地图采用2026-10-23存档；本轮入口维护，实际查询覆盖层未取得。"
+    ]
+  },
+  {
+    "school_id": "sz:pingshan:school:sz_2026_primary_scope_0181",
+    "zone_id": "sz:pingshan:zone:b0b17aee8a784921b94e3128b36cce83",
+    "district": "坪山区",
+    "school_name": "深圳市坪山实验教育集团锦龙小学",
+    "map_school_name": "坪山实验教育集团锦龙小学",
+    "map_scope_text": "坪环黄沙坑村；\r\n六联洋母帐村、东晟时代花园、水岸明珠花园、东城上邸花园、祥祺滨河名苑花园；\r\n果园贝鼎盛大厦；\r\n京基·御景印象、信达金尊府、力高·君御国际、泰富华悦都会、金地朗悦花园。",
+    "independent_texts": [
+      {
+        "scope_text": "六联社区金碧路以南、东纵路以西及锦龙大道以东片区，坪环社区比亚迪路以南、体育三路以西及大山陂水库管理线以北片区，沙湖社区坪盐通道以东、业通路（规划路）以北片区，大山陂水库管理线马峦社区延伸段以北片区",
+        "school_name_raw": "深圳市坪山实验教育集团锦龙小学",
+        "year": 2026,
+        "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+        "source_position": "公办小学招生范围及联系方式 第12行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0181",
+        "original_scope_text": "六联社区金碧路以南、东纵路以西及锦龙大道以东片区，坪环社区比亚迪路以南、体育三路以西及大山陂水库管理线以北片区，沙湖社区坪盐通道以东、业通路（规划路）以北片区，大山陂水库管理线马峦社区延伸段以北片区",
+        "original_record": {
+          "district": "坪山区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "深圳市坪山实验教育集团锦龙小学",
+          "scope_text": "六联社区金碧路以南、东纵路以西及锦龙大道以东片区，坪环社区比亚迪路以南、体育三路以西及大山陂水库管理线以北片区，沙湖社区坪盐通道以东、业通路（规划路）以北片区，大山陂水库管理线马峦社区延伸段以北片区",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+          "source_file": "原始资料\\招生政策\\深圳市坪山区2026年小一初一学位申请指南_afd09913dd.html",
+          "source_section": "公办小学招生范围及联系方式",
+          "source_row": 12,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "source_table_index": 2,
+          "record_id": "sz_2026_primary_scope_0181"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/pingshan_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。",
+      "地图采用2026-10-23存档；本轮入口维护，实际查询覆盖层未取得。"
+    ]
+  },
+  {
+    "school_id": "sz:pingshan:school:sz_2026_primary_scope_0183",
+    "zone_id": "sz:pingshan:zone:d7358e1a08f749a0be67939342973f18",
+    "district": "坪山区",
+    "school_name": "深圳市中山小学教育集团日新小学",
+    "map_school_name": "中山小学教育集团日新小学",
+    "map_scope_text": "坪环黄沙坑村；\r\n六联洋母帐村、东晟时代花园、水岸明珠花园、东城上邸花园、祥祺滨河名苑花园；\r\n果园贝鼎盛大厦；\r\n京基·御景印象、信达金尊府、力高·君御国际、泰富华悦都会、金地朗悦花园。",
+    "independent_texts": [
+      {
+        "scope_text": "六联社区金碧路以南、东纵路以西及锦龙大道以东片区，坪环社区比亚迪路以南、体育三路以西及大山陂水库管理线以北片区，沙湖社区坪盐通道以东、业通路（规划路）以北片区，大山陂水库管理线马峦社区延伸段以北片区",
+        "school_name_raw": "深圳市中山小学教育集团日新小学",
+        "year": 2026,
+        "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+        "source_position": "公办小学招生范围及联系方式 第14行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0183",
+        "original_scope_text": "六联社区金碧路以南、东纵路以西及锦龙大道以东片区，坪环社区比亚迪路以南、体育三路以西及大山陂水库管理线以北片区，沙湖社区坪盐通道以东、业通路（规划路）以北片区，大山陂水库管理线马峦社区延伸段以北片区",
+        "original_record": {
+          "district": "坪山区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "深圳市中山小学教育集团日新小学",
+          "scope_text": "六联社区金碧路以南、东纵路以西及锦龙大道以东片区，坪环社区比亚迪路以南、体育三路以西及大山陂水库管理线以北片区，沙湖社区坪盐通道以东、业通路（规划路）以北片区，大山陂水库管理线马峦社区延伸段以北片区",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+          "source_file": "原始资料\\招生政策\\深圳市坪山区2026年小一初一学位申请指南_afd09913dd.html",
+          "source_section": "公办小学招生范围及联系方式",
+          "source_row": 14,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "source_table_index": 2,
+          "record_id": "sz_2026_primary_scope_0183"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/pingshan_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。",
+      "地图采用2026-10-23存档；本轮入口维护，实际查询覆盖层未取得。"
+    ]
+  },
+  {
+    "school_id": "sz:pingshan:school:sz_2026_primary_scope_0196",
+    "zone_id": "sz:pingshan:zone:12dd59fd255a47d29034f96510bdd89e",
+    "district": "坪山区",
+    "school_name": "深圳市聚龙科学中学教育集团东部湾区实验学校（小学部）",
+    "map_school_name": "聚龙科学中学教育集团东部湾区实验学校（小学部）",
+    "map_scope_text": "金沙东联村、金沙卢屋村、亚迪三村、深业御园；\r\n老坑井水龙村、老坑三角楼村、老坑松子坑村、老坑盘古石村、老坑东坑村、老坑西坑村、丹梓龙庭、锦绣华晟；\r\n竹坑石湖村、竹坑新开村、竹坑茜坑村、竹坑上坝村、竹坑老围村、竹坑河唇村、竹坑沙梨园村、竹坑黄泥园村、竹坑三栋村、竹坑村、竹坑罗庚丘村、聚龙花园一期、聚龙花园二期、奥园翡翠东湾一期、奥园翡翠东湾二期、澜湾花园、中海万锦熙岸、安居御龙苑、坪河雅苑；\r\n田心上洋村。",
+    "independent_texts": [
+      {
+        "scope_text": "秀新社区厦深铁路以南片区，金沙社区厦深铁路以南片区，老坑社区，竹坑社区，田心社区内坪山河以北片区",
+        "school_name_raw": "深圳市聚龙科学中学教育集团东部湾区实验学校（小学部）",
+        "year": 2026,
+        "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+        "source_position": "公办小学招生范围及联系方式 第27行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0196",
+        "original_scope_text": "秀新社区厦深铁路以南片区，金沙社区厦深铁路以南片区，老坑社区，竹坑社区，田心社区内坪山河以北片区",
+        "original_record": {
+          "district": "坪山区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "深圳市聚龙科学中学教育集团东部湾区实验学校（小学部）",
+          "scope_text": "秀新社区厦深铁路以南片区，金沙社区厦深铁路以南片区，老坑社区，竹坑社区，田心社区内坪山河以北片区",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+          "source_file": "原始资料\\招生政策\\深圳市坪山区2026年小一初一学位申请指南_afd09913dd.html",
+          "source_section": "公办小学招生范围及联系方式",
+          "source_row": 27,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "source_table_index": 2,
+          "record_id": "sz_2026_primary_scope_0196"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/pingshan_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。",
+      "地图采用2026-10-23存档；本轮入口维护，实际查询覆盖层未取得。"
+    ]
+  },
+  {
+    "school_id": "sz:pingshan:school:sz_2026_primary_scope_0176",
+    "zone_id": "sz:pingshan:zone:40aa6fdb95e849e288d66a7ae77af6e5",
+    "district": "坪山区",
+    "school_name": "树人实验学校（小学部）",
+    "map_school_name": "坪山区树人实验学校（小学部）",
+    "map_scope_text": null,
+    "independent_texts": [
+      {
+        "scope_text": "坪山社区，和平社区，坪环社区比亚迪路以北片区，江岭社区比亚迪路以北片区",
+        "school_name_raw": "树人实验学校（小学部）",
+        "year": 2026,
+        "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+        "source_position": "公办小学招生范围及联系方式 第7行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0176",
+        "original_scope_text": "坪山社区，和平社区，坪环社区比亚迪路以北片区，江岭社区比亚迪路以北片区",
+        "original_record": {
+          "district": "坪山区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "树人实验学校（小学部）",
+          "scope_text": "坪山社区，和平社区，坪环社区比亚迪路以北片区，江岭社区比亚迪路以北片区",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+          "source_file": "原始资料\\招生政策\\深圳市坪山区2026年小一初一学位申请指南_afd09913dd.html",
+          "source_section": "公办小学招生范围及联系方式",
+          "source_row": 7,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "source_table_index": 2,
+          "record_id": "sz_2026_primary_scope_0176"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/pingshan_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。",
+      "地图采用2026-10-23存档；本轮入口维护，实际查询覆盖层未取得。"
+    ]
+  },
+  {
+    "school_id": "sz:pingshan:school:sz_2026_primary_scope_0178",
+    "zone_id": "sz:pingshan:zone:5677e5a14f2d40a6863b7a8e633e7db2",
+    "district": "坪山区",
+    "school_name": "东纵小学",
+    "map_school_name": "坪山区东纵小学",
+    "map_scope_text": "沙坣新村、沙坣谷仓吓、沙坣新村、豪方东园；\r\n石井太阳村、石井村、石井老屋村；\r\n金龟新塘村、金龟田作村、金龟坪头岭村、金龟半坝村、金龟金地村、金龟同石村、金龟金成村。",
+    "independent_texts": [
+      {
+        "scope_text": "金龟社区，沙壆社区东纵路以南片区，石井社区金田路以南片区，田头社区南坪快速路以南片区，田心社区头陂水库及田头山范围",
+        "school_name_raw": "东纵小学",
+        "year": 2026,
+        "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+        "source_position": "公办小学招生范围及联系方式 第9行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0178",
+        "original_scope_text": "金龟社区，沙壆社区东纵路以南片区，石井社区金田路以南片区，田头社区南坪快速路以南片区，田心社区头陂水库及田头山范围",
+        "original_record": {
+          "district": "坪山区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "东纵小学",
+          "scope_text": "金龟社区，沙壆社区东纵路以南片区，石井社区金田路以南片区，田头社区南坪快速路以南片区，田心社区头陂水库及田头山范围",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+          "source_file": "原始资料\\招生政策\\深圳市坪山区2026年小一初一学位申请指南_afd09913dd.html",
+          "source_section": "公办小学招生范围及联系方式",
+          "source_row": 9,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "source_table_index": 2,
+          "record_id": "sz_2026_primary_scope_0178"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/pingshan_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。",
+      "地图采用2026-10-23存档；本轮入口维护，实际查询覆盖层未取得。"
+    ]
+  },
+  {
+    "school_id": "sz:pingshan:school:sz_2026_primary_scope_0172",
+    "zone_id": "sz:pingshan:zone:9c3d79a065d84861803bb201fbfb4742",
+    "district": "坪山区",
+    "school_name": "东北师范大学深圳坪山实验 学校（小学部）",
+    "map_school_name": "东北师范大学深圳坪山实验学校（小学部）",
+    "map_scope_text": null,
+    "independent_texts": [
+      {
+        "scope_text": "六和社区，新和社区，六联社区（不含金碧路以南、东纵路以西及锦龙大道以东片区）",
+        "school_name_raw": "东北师范大学深圳坪山实验 学校（小学部）",
+        "year": 2026,
+        "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+        "source_position": "公办小学招生范围及联系方式 第3行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0172",
+        "original_scope_text": "六和社区，新和社区，六联社区（不含金碧路以南、东纵路以西及锦龙大道以东片区）",
+        "original_record": {
+          "district": "坪山区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "东北师范大学深圳坪山实验 学校（小学部）",
+          "scope_text": "六和社区，新和社区，六联社区（不含金碧路以南、东纵路以西及锦龙大道以东片区）",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+          "source_file": "原始资料\\招生政策\\深圳市坪山区2026年小一初一学位申请指南_afd09913dd.html",
+          "source_section": "公办小学招生范围及联系方式",
+          "source_row": 3,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "source_table_index": 2,
+          "record_id": "sz_2026_primary_scope_0172"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/pingshan_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。",
+      "地图采用2026-10-23存档；本轮入口维护，实际查询覆盖层未取得。",
+      "用户授权二选一：采用2023年记录9c3d79a065d84861803bb201fbfb4742；2022年记录只存档，不参与计算。",
+      "官网仅列和飞路11号；标记点约37米，边界交并比约99.21%，支持同校同址重复绘图，未证实两个校区。"
+    ]
+  },
+  {
+    "school_id": "sz:pingshan:school:sz_2026_primary_scope_0194",
+    "zone_id": "sz:pingshan:zone:02d68e2b37ac422387cd683a24d916f6",
+    "district": "坪山区",
+    "school_name": "南方科技大学附属坪山学校（小学部）",
+    "map_school_name": "坪山区南方科技大学附属坪山学校（小学部）",
+    "map_scope_text": null,
+    "independent_texts": [
+      {
+        "scope_text": "秀新社区厦深铁路以南片区，金沙社区厦深铁路以南片区，老坑社区，竹坑社区，田心社区内坪山河以北片区",
+        "school_name_raw": "南方科技大学附属坪山学校（小学部）",
+        "year": 2026,
+        "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+        "source_position": "公办小学招生范围及联系方式 第25行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0194",
+        "original_scope_text": "秀新社区厦深铁路以南片区，金沙社区厦深铁路以南片区，老坑社区，竹坑社区，田心社区内坪山河以北片区",
+        "original_record": {
+          "district": "坪山区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "南方科技大学附属坪山学校（小学部）",
+          "scope_text": "秀新社区厦深铁路以南片区，金沙社区厦深铁路以南片区，老坑社区，竹坑社区，田心社区内坪山河以北片区",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+          "source_file": "原始资料\\招生政策\\深圳市坪山区2026年小一初一学位申请指南_afd09913dd.html",
+          "source_section": "公办小学招生范围及联系方式",
+          "source_row": 25,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "source_table_index": 2,
+          "record_id": "sz_2026_primary_scope_0194"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/pingshan_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。",
+      "地图采用2026-10-23存档；本轮入口维护，实际查询覆盖层未取得。"
+    ]
+  },
+  {
+    "school_id": "sz:pingshan:school:sz_2026_primary_scope_0185",
+    "zone_id": "sz:pingshan:zone:30e32a742fb1465fa21031bea8def52d",
+    "district": "坪山区",
+    "school_name": "深圳市坪山实验教育集团科悦实验小学",
+    "map_school_name": "坪山实验教育集团科悦实验小学",
+    "map_scope_text": null,
+    "independent_texts": [
+      {
+        "scope_text": "汤坑社区，沙湖社区【不含沙湖社区坪盐通道以东、业通路（规划路）以北片区】",
+        "school_name_raw": "深圳市坪山实验教育集团科悦实验小学",
+        "year": 2026,
+        "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+        "source_position": "公办小学招生范围及联系方式 第16行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0185",
+        "original_scope_text": "汤坑社区，沙湖社区【不含沙湖社区坪盐通道以东、业通路（规划路）以北片区】",
+        "original_record": {
+          "district": "坪山区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "深圳市坪山实验教育集团科悦实验小学",
+          "scope_text": "汤坑社区，沙湖社区【不含沙湖社区坪盐通道以东、业通路（规划路）以北片区】",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+          "source_file": "原始资料\\招生政策\\深圳市坪山区2026年小一初一学位申请指南_afd09913dd.html",
+          "source_section": "公办小学招生范围及联系方式",
+          "source_row": 16,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "source_table_index": 2,
+          "record_id": "sz_2026_primary_scope_0185"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/pingshan_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。",
+      "地图采用2026-10-23存档；本轮入口维护，实际查询覆盖层未取得。"
+    ]
+  },
+  {
+    "school_id": "sz:pingshan:school:sz_2026_primary_scope_0174",
+    "zone_id": "sz:pingshan:zone:496FFFE16E6F5558E053BC09A8C0A5ED",
+    "district": "坪山区",
+    "school_name": "坪山中心小学",
+    "map_school_name": "坪山区坪山中心小学",
+    "map_scope_text": "江岭江边村、江岭远香村、江岭石灰陂村、东关郡府；\r\n坪环禾学村、坪环禾场头村、坪环老围村、坪环大万村、坪环统建楼南小区、坪环统建楼北小区、坪环桃源小区、心海城、万顺苑；\r\n和平马东村、和平马西村、和平黄果坜村、和平中兴片区、泰富华庭、中兴西小区；\r\n坪山三洋湖村、坪山龙背村、坪山鹤湖浪、坪山中兴村、坪山立北、立南片区（老居委）、坪山东门片区（老居委）。\r\n",
+    "independent_texts": [
+      {
+        "scope_text": "坪山社区，和平社区，坪环社区比亚迪路以北片区，江岭社区比亚迪路以北片区",
+        "school_name_raw": "坪山中心小学",
+        "year": 2026,
+        "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+        "source_position": "公办小学招生范围及联系方式 第5行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0174",
+        "original_scope_text": "坪山社区，和平社区，坪环社区比亚迪路以北片区，江岭社区比亚迪路以北片区",
+        "original_record": {
+          "district": "坪山区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "坪山中心小学",
+          "scope_text": "坪山社区，和平社区，坪环社区比亚迪路以北片区，江岭社区比亚迪路以北片区",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+          "source_file": "原始资料\\招生政策\\深圳市坪山区2026年小一初一学位申请指南_afd09913dd.html",
+          "source_section": "公办小学招生范围及联系方式",
+          "source_row": 5,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "source_table_index": 2,
+          "record_id": "sz_2026_primary_scope_0174"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/pingshan_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。",
+      "地图采用2026-10-23存档；本轮入口维护，实际查询覆盖层未取得。"
+    ]
+  },
+  {
+    "school_id": "sz:pingshan:school:sz_2026_primary_scope_0192",
+    "zone_id": "sz:pingshan:zone:b85c3917c0214eb793272b96e104ff1c",
+    "district": "坪山区",
+    "school_name": "深圳高级中学（集团）东校区（小学部）",
+    "map_school_name": "深圳高级中学东校区（小学部）",
+    "map_scope_text": "石井田头埔村；\r\n田头马安岭村、田头求水岭村、田头矮岭村、田头上村村、田头老围村、田头新曲村、竹韵花园、幸福裕璟花园；\r\n田心水祖坑村、田心散屋村、田心新屋地村、田心新联村、田心对面喊村、田心树山背村、田心罗谷村。",
+    "independent_texts": [
+      {
+        "scope_text": "①未来小学区招生范围：田头社区金田路以北片区，石井社区兰景南路（规划路）以东片区②2019年及地段调整过渡期招生范围：田头社区南坪快速路以北片区，石井社区兰景南路以东片区，田心社区内坪山河以南（不含头陂水库及田头山范围）片区",
+        "school_name_raw": "深圳高级中学（集团）东校区（小学部）",
+        "year": 2026,
+        "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+        "source_position": "公办小学招生范围及联系方式 第23行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0192",
+        "original_scope_text": "①未来小学区招生范围：田头社区金田路以北片区，石井社区兰景南路（规划路）以东片区②2019年及地段调整过渡期招生范围：田头社区南坪快速路以北片区，石井社区兰景南路以东片区，田心社区内坪山河以南（不含头陂水库及田头山范围）片区",
+        "original_record": {
+          "district": "坪山区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "深圳高级中学（集团）东校区（小学部）",
+          "scope_text": "①未来小学区招生范围：田头社区金田路以北片区，石井社区兰景南路（规划路）以东片区②2019年及地段调整过渡期招生范围：田头社区南坪快速路以北片区，石井社区兰景南路以东片区，田心社区内坪山河以南（不含头陂水库及田头山范围）片区",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+          "source_file": "原始资料\\招生政策\\深圳市坪山区2026年小一初一学位申请指南_afd09913dd.html",
+          "source_section": "公办小学招生范围及联系方式",
+          "source_row": 23,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "source_table_index": 2,
+          "record_id": "sz_2026_primary_scope_0192"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/pingshan_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。",
+      "地图采用2026-10-23存档；本轮入口维护，实际查询覆盖层未取得。"
+    ]
+  },
+  {
+    "school_id": "sz:pingshan:school:sz_2026_primary_scope_0199",
+    "zone_id": "sz:pingshan:zone:0d3be52a5c9a4f4285f3835946eae10c",
+    "district": "坪山区",
+    "school_name": "深圳技术大学附属坪山创新学校（小学部）",
+    "map_school_name": "深圳技术大学附属坪山创新学校（小学部）",
+    "map_scope_text": null,
+    "independent_texts": [
+      {
+        "scope_text": "沙田社区，金沙社区厦深铁路以北片区",
+        "school_name_raw": "深圳技术大学附属坪山创新学校（小学部）",
+        "year": 2026,
+        "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+        "source_position": "公办小学招生范围及联系方式 第30行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0199",
+        "original_scope_text": "沙田社区，金沙社区厦深铁路以北片区",
+        "original_record": {
+          "district": "坪山区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "深圳技术大学附属坪山创新学校（小学部）",
+          "scope_text": "沙田社区，金沙社区厦深铁路以北片区",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+          "source_file": "原始资料\\招生政策\\深圳市坪山区2026年小一初一学位申请指南_afd09913dd.html",
+          "source_section": "公办小学招生范围及联系方式",
+          "source_row": 30,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "source_table_index": 2,
+          "record_id": "sz_2026_primary_scope_0199"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/pingshan_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。",
+      "地图采用2026-10-23存档；本轮入口维护，实际查询覆盖层未取得。"
+    ]
+  },
+  {
+    "school_id": "sz:pingshan:school:sz_2026_primary_scope_0171",
+    "zone_id": "sz:pingshan:zone:496FFFE16E6E5558E053BC09A8C0A5ED",
+    "district": "坪山区",
+    "school_name": "深圳市坪山实验教育集团坪山实验学校（小学部）",
+    "map_school_name": "坪山实验教育集团坪山实验学校（小学部）",
+    "map_scope_text": "六和飞西、六和飞东、六和山吓、六和甲片、六和正坑、六和新和、六和第二工业区、第四工业区、六和高思特工业区、六和牛伴岭、六和一二坊；\r\n深城投中城花园、招商花园城南区、招商花园城北区、万科金域东郡、万科金域缇香一期、万科金域缇香二期、嘉宏湾花园一期、嘉宏湾花园二期、深城投·中心公馆、财富城。\r\n\r\n",
+    "independent_texts": [
+      {
+        "scope_text": "六和社区，新和社区",
+        "school_name_raw": "深圳市坪山实验教育集团坪山实验学校（小学部）",
+        "year": 2026,
+        "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+        "source_position": "公办小学招生范围及联系方式 第2行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0171",
+        "original_scope_text": "六和社区，新和社区",
+        "original_record": {
+          "district": "坪山区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "深圳市坪山实验教育集团坪山实验学校（小学部）",
+          "scope_text": "六和社区，新和社区",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+          "source_file": "原始资料\\招生政策\\深圳市坪山区2026年小一初一学位申请指南_afd09913dd.html",
+          "source_section": "公办小学招生范围及联系方式",
+          "source_row": 2,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "source_table_index": 2,
+          "record_id": "sz_2026_primary_scope_0171"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/pingshan_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。",
+      "地图采用2026-10-23存档；本轮入口维护，实际查询覆盖层未取得。"
+    ]
+  },
+  {
+    "school_id": "sz:pingshan:school:sz_2026_primary_scope_0193",
+    "zone_id": "sz:pingshan:zone:496FFFE16E765558E053BC09A8C0A5ED",
+    "district": "坪山区",
+    "school_name": "深圳市坪山外国语教育集团坪山区外国语学校（小学部）",
+    "map_school_name": "坪山区外国语学校（小学部）",
+    "map_scope_text": "金沙东联村、金沙卢屋村、亚迪三村、深业御园；\r\n老坑井水龙村、老坑三角楼村、老坑松子坑村、老坑盘古石村、老坑东坑村、老坑西坑村、丹梓龙庭、锦绣华晟；\r\n竹坑石湖村、竹坑新开村、竹坑茜坑村、竹坑上坝村、竹坑老围村、竹坑河唇村、竹坑沙梨园村、竹坑黄泥园村、竹坑三栋村、竹坑村、竹坑罗庚丘村、聚龙花园一期、聚龙花园二期、奥园翡翠东湾一期、奥园翡翠东湾二期、澜湾花园、中海万锦熙岸、安居御龙苑、坪河雅苑；\r\n田心上洋村。\r\n",
+    "independent_texts": [
+      {
+        "scope_text": "秀新社区厦深铁路以南片区，金沙社区厦深铁路以南片区，老坑社区，竹坑社区，田心社区内坪山河以北片区",
+        "school_name_raw": "深圳市坪山外国语教育集团坪山区外国语学校（小学部）",
+        "year": 2026,
+        "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+        "source_position": "公办小学招生范围及联系方式 第24行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0193",
+        "original_scope_text": "秀新社区厦深铁路以南片区，金沙社区厦深铁路以南片区，老坑社区，竹坑社区，田心社区内坪山河以北片区",
+        "original_record": {
+          "district": "坪山区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "深圳市坪山外国语教育集团坪山区外国语学校（小学部）",
+          "scope_text": "秀新社区厦深铁路以南片区，金沙社区厦深铁路以南片区，老坑社区，竹坑社区，田心社区内坪山河以北片区",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+          "source_file": "原始资料\\招生政策\\深圳市坪山区2026年小一初一学位申请指南_afd09913dd.html",
+          "source_section": "公办小学招生范围及联系方式",
+          "source_row": 24,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "source_table_index": 2,
+          "record_id": "sz_2026_primary_scope_0193"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/pingshan_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。",
+      "地图采用2026-10-23存档；本轮入口维护，实际查询覆盖层未取得。"
+    ]
+  },
+  {
+    "school_id": "sz:pingshan:school:sz_2026_primary_scope_0198",
+    "zone_id": "sz:pingshan:zone:496FFFE16E785558E053BC09A8C0A5ED",
+    "district": "坪山区",
+    "school_name": "深圳市坪山外国语教育集团金田小学",
+    "map_school_name": "坪山外国语教育集团金田小学",
+    "map_scope_text": "沙田上廖村、沙田下廖村、沙田李中村、沙田昂俄村、沙田围角村、沙田田脚村。\r\n金沙长隆村、金沙青排村、金沙新横村、金沙薛屋村、金沙龙山村、金沙荣田新村、\r\n金沙红岭小区（城中村）、富士锦园。",
+    "independent_texts": [
+      {
+        "scope_text": "沙田社区，金沙社区厦深铁路以北片区",
+        "school_name_raw": "深圳市坪山外国语教育集团金田小学",
+        "year": 2026,
+        "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+        "source_position": "公办小学招生范围及联系方式 第29行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0198",
+        "original_scope_text": "沙田社区，金沙社区厦深铁路以北片区",
+        "original_record": {
+          "district": "坪山区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "深圳市坪山外国语教育集团金田小学",
+          "scope_text": "沙田社区，金沙社区厦深铁路以北片区",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+          "source_file": "原始资料\\招生政策\\深圳市坪山区2026年小一初一学位申请指南_afd09913dd.html",
+          "source_section": "公办小学招生范围及联系方式",
+          "source_row": 29,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "source_table_index": 2,
+          "record_id": "sz_2026_primary_scope_0198"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/pingshan_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。",
+      "地图采用2026-10-23存档；本轮入口维护，实际查询覆盖层未取得。"
+    ]
+  },
+  {
+    "school_id": "sz:pingshan:school:sz_2026_primary_scope_0188",
+    "zone_id": "sz:pingshan:zone:e256936103f946ffafa6b60f82a47a6d",
+    "district": "坪山区",
+    "school_name": "深圳实验坪山学校（小学部）",
+    "map_school_name": "深圳实验坪山学校（小学部）",
+    "map_scope_text": null,
+    "independent_texts": [
+      {
+        "scope_text": "碧岭社区",
+        "school_name_raw": "深圳实验坪山学校（小学部）",
+        "year": 2026,
+        "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+        "source_position": "公办小学招生范围及联系方式 第19行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0188",
+        "original_scope_text": "碧岭社区",
+        "original_record": {
+          "district": "坪山区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "深圳实验坪山学校（小学部）",
+          "scope_text": "碧岭社区",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+          "source_file": "原始资料\\招生政策\\深圳市坪山区2026年小一初一学位申请指南_afd09913dd.html",
+          "source_section": "公办小学招生范围及联系方式",
+          "source_row": 19,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "source_table_index": 2,
+          "record_id": "sz_2026_primary_scope_0188"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/pingshan_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。",
+      "地图采用2026-10-23存档；本轮入口维护，实际查询覆盖层未取得。"
+    ]
+  },
+  {
+    "school_id": "sz:pingshan:school:sz_2026_primary_scope_0186",
+    "zone_id": "sz:pingshan:zone:febdebcde7af42ab8b92351a8d3e12f3",
+    "district": "坪山区",
+    "school_name": "深圳市坪山实验教育集团坪山区未来学校",
+    "map_school_name": "坪山区未来学校（小学部）",
+    "map_scope_text": null,
+    "independent_texts": [
+      {
+        "scope_text": "汤坑社区，沙湖社区【不含沙湖社区坪盐通道以东、业通路（规划路）以北片区】",
+        "school_name_raw": "深圳市坪山实验教育集团坪山区未来学校",
+        "year": 2026,
+        "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+        "source_position": "公办小学招生范围及联系方式 第17行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0186",
+        "original_scope_text": "汤坑社区，沙湖社区【不含沙湖社区坪盐通道以东、业通路（规划路）以北片区】",
+        "original_record": {
+          "district": "坪山区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "深圳市坪山实验教育集团坪山区未来学校",
+          "scope_text": "汤坑社区，沙湖社区【不含沙湖社区坪盐通道以东、业通路（规划路）以北片区】",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+          "source_file": "原始资料\\招生政策\\深圳市坪山区2026年小一初一学位申请指南_afd09913dd.html",
+          "source_section": "公办小学招生范围及联系方式",
+          "source_row": 17,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "source_table_index": 2,
+          "record_id": "sz_2026_primary_scope_0186"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/pingshan_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。",
+      "地图采用2026-10-23存档；本轮入口维护，实际查询覆盖层未取得。"
+    ]
+  },
+  {
+    "school_id": "sz:pingshan:school:sz_2026_primary_scope_0187",
+    "zone_id": "sz:pingshan:zone:496FFFE16E705558E053BC09A8C0A5ED",
+    "district": "坪山区",
+    "school_name": "碧岭实验学校（小学部）",
+    "map_school_name": "坪山区碧岭实验学校（小学部）",
+    "map_scope_text": "碧岭社区,翠峰绿洲。",
+    "independent_texts": [
+      {
+        "scope_text": "碧岭社区",
+        "school_name_raw": "碧岭实验学校（小学部）",
+        "year": 2026,
+        "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+        "source_position": "公办小学招生范围及联系方式 第18行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0187",
+        "original_scope_text": "碧岭社区",
+        "original_record": {
+          "district": "坪山区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "碧岭实验学校（小学部）",
+          "scope_text": "碧岭社区",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+          "source_file": "原始资料\\招生政策\\深圳市坪山区2026年小一初一学位申请指南_afd09913dd.html",
+          "source_section": "公办小学招生范围及联系方式",
+          "source_row": 18,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "source_table_index": 2,
+          "record_id": "sz_2026_primary_scope_0187"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/pingshan_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。",
+      "地图采用2026-10-23存档；本轮入口维护，实际查询覆盖层未取得。"
+    ]
+  },
+  {
+    "school_id": "sz:pingshan:school:sz_2026_primary_scope_0200",
+    "zone_id": "sz:pingshan:zone:496FFFE16E7B5558E053BC09A8C0A5ED",
+    "district": "坪山区",
+    "school_name": "坑梓中心小学",
+    "map_school_name": "坪山区坑梓中心小学",
+    "map_scope_text": "秀新沙梨园村、秀新禾场吓村、秀新城外村、秀新城内村、秀新东一居村、秀新东二村、秀新新乔围村、秀新新村、秀新草堆岭村；\r\n坑梓裕民新村、坑梓文化新村、坑梓利民新村、坑梓湖心新村、金田风华苑。\t\t\t\t                    \r\n\t\t\t\t                    ",
+    "independent_texts": [
+      {
+        "scope_text": "坑梓社区，秀新社区厦深铁路以北片区",
+        "school_name_raw": "坑梓中心小学",
+        "year": 2026,
+        "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+        "source_position": "公办小学招生范围及联系方式 第31行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0200",
+        "original_scope_text": "坑梓社区，秀新社区厦深铁路以北片区",
+        "original_record": {
+          "district": "坪山区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "坑梓中心小学",
+          "scope_text": "坑梓社区，秀新社区厦深铁路以北片区",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+          "source_file": "原始资料\\招生政策\\深圳市坪山区2026年小一初一学位申请指南_afd09913dd.html",
+          "source_section": "公办小学招生范围及联系方式",
+          "source_row": 31,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "source_table_index": 2,
+          "record_id": "sz_2026_primary_scope_0200"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/pingshan_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。",
+      "地图采用2026-10-23存档；本轮入口维护，实际查询覆盖层未取得。"
+    ]
+  },
+  {
+    "school_id": "sz:pingshan:school:sz_2026_primary_scope_0182",
+    "zone_id": "sz:pingshan:zone:77ce5a6248924f5d8a24dac29b41540b",
+    "district": "坪山区",
+    "school_name": "新合实验学校（小学部）",
+    "map_school_name": "坪山区新合实验学校（小学部）",
+    "map_scope_text": "坪环黄沙坑村；\r\n六联洋母帐村、东晟时代花园、水岸明珠花园、东城上邸花园、祥祺滨河名苑花园；\r\n果园贝鼎盛大厦；\r\n京基·御景印象、信达金尊府、力高·君御国际、泰富华悦都会、金地朗悦花园。",
+    "independent_texts": [
+      {
+        "scope_text": "六联社区金碧路以南、东纵路以西及锦龙大道以东片区，坪环社区比亚迪路以南、体育三路以西及大山陂水库管理线以北片区，沙湖社区坪盐通道以东、业通路（规划路）以北片区，大山陂水库管理线马峦社区延伸段以北片区",
+        "school_name_raw": "新合实验学校（小学部）",
+        "year": 2026,
+        "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+        "source_position": "公办小学招生范围及联系方式 第13行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0182",
+        "original_scope_text": "六联社区金碧路以南、东纵路以西及锦龙大道以东片区，坪环社区比亚迪路以南、体育三路以西及大山陂水库管理线以北片区，沙湖社区坪盐通道以东、业通路（规划路）以北片区，大山陂水库管理线马峦社区延伸段以北片区",
+        "original_record": {
+          "district": "坪山区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "新合实验学校（小学部）",
+          "scope_text": "六联社区金碧路以南、东纵路以西及锦龙大道以东片区，坪环社区比亚迪路以南、体育三路以西及大山陂水库管理线以北片区，沙湖社区坪盐通道以东、业通路（规划路）以北片区，大山陂水库管理线马峦社区延伸段以北片区",
+          "source_url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+          "source_file": "原始资料\\招生政策\\深圳市坪山区2026年小一初一学位申请指南_afd09913dd.html",
+          "source_section": "公办小学招生范围及联系方式",
+          "source_row": 13,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "source_table_index": 2,
+          "record_id": "sz_2026_primary_scope_0182"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/pingshan_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。",
+      "地图采用2026-10-23存档；本轮入口维护，实际查询覆盖层未取得。"
+    ]
+  }
+]

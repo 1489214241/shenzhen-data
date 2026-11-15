@@ -1,0 +1,68 @@
+{
+  "records": [
+    {
+      "id": "3b78a6bd342d48898983203c5335d0b5",
+      "name": "东北师范大学深圳坪山实验学校小学部",
+      "created": "2022-06-01 12:09:56",
+      "updated": "2022-06-01 12:18:28",
+      "address": null,
+      "phone": null,
+      "point": [
+        114.349815,
+        22.703179
+      ],
+      "vertex_count": 73,
+      "bounds": [
+        114.31391,
+        22.683065,
+        114.362284,
+        22.723482
+      ]
+    },
+    {
+      "id": "9c3d79a065d84861803bb201fbfb4742",
+      "name": "东北师范大学深圳坪山实验学校（小学部）",
+      "created": "2023-11-08 10:01:13",
+      "updated": "2023-11-08 16:04:52",
+      "address": "广东省深圳市坪山区坪山街道和飞路11号",
+      "phone": "89662004",
+      "point": [
+        114.349474,
+        22.70307
+      ],
+      "vertex_count": 122,
+      "bounds": [
+        114.313879,
+        22.683068,
+        114.362288,
+        22.723506
+      ]
+    }
+  ],
+  "marker_separation_approx_m": 37.061484946428,
+  "sampled_evenodd_overlap": [
+    {
+      "grid": 600,
+      "intersection_over_union": 0.9921377346101697,
+      "first_covered_by_second": 0.9970691324803538,
+      "second_covered_by_first": 0.9950396401173381,
+      "first_only_samples": 342,
+      "second_only_samples": 580
+    },
+    {
+      "grid": 1200,
+      "intersection_over_union": 0.9920827115753571,
+      "first_covered_by_second": 0.9970434864578825,
+      "second_covered_by_first": 0.9950098349439835,
+      "first_only_samples": 1380,
+      "second_only_samples": 2334
+    }
+  ],
+  "candidate_groups": 107,
+  "candidate_hits": [
+    21,
+    21
+  ],
+  "candidate_membership_differences": [],
+  "calculation_note": "诊断使用原始路径的奇偶规则；无几何修复。网格面积比为近似，不用来生成Gold或证明官网录取资格。"
+}

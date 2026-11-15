@@ -1,0 +1,18 @@
+{
+  "district": "光明区",
+  "schools": 48,
+  "map_paths": 48,
+  "source_map_paths": 48,
+  "archived_duplicate_paths": 0,
+  "mapped_school_identities": 48,
+  "total_school_identities_including_policy_only": 48,
+  "policy_entries": 48,
+  "policy_only_branches": 1,
+  "map_text_missing": 0,
+  "with_independent_text": 48,
+  "admitted_polygons": 48,
+  "self_intersections": 3,
+  "buildings": 169,
+  "coordinate_groups": 167,
+  "map_snapshot": "2026-11-15"
+}

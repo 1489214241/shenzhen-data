@@ -1,0 +1,15 @@
+[
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0135",
+    "school_name": "深圳中学光明科学城学校",
+    "admission_port_id": "sz:guangming:port:sz_2026_primary_scope_0135:one",
+    "admission_port_name": "深圳中学光明科学城学校一",
+    "policy_record_id": "sz_2026_primary_scope_0135",
+    "scope_text": "深圳中学光明科学城学校一：长圳保障性住房一期（凤凰英荟城）、二期（安居鸣鹿苑）",
+    "original_scope_text": "深圳中学光明科学城学校一：长圳保障性住房一期（凤凰英荟城）、二期（安居鸣鹿苑）；深圳中学光明科学城学校二：甲子塘、塘尾、塘家三个社区（除凤凰英荟城、安居鸣鹿苑外）。",
+    "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+    "reason": "来源备注：官网未单列端口一地图。按用户确认，以该校现有polygon作为学校polygon，不再将此项作为缺面待办。",
+    "additional_polygon_required": false,
+    "status": "source_note_not_blocker"
+  }
+]

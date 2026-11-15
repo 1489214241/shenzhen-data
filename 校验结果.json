@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "map_paths": 79,
+  "source_map_paths": 80,
+  "archived_duplicate_paths": 1,
+  "all_source_paths_and_map_text_exact_match": true,
+  "all_polygons_admitted": true,
+  "self_intersections_retained": 5,
+  "policies": 79,
+  "buildings": 277,
+  "coordinate_groups": 274,
+  "same_school_duplicate_paths_preserved": true,
+  "policy_only_branch_preserved": true,
+  "source_files": 24,
+  "full_spatial_policy_consistency_verified": false,
+  "gold_generated": false
+}

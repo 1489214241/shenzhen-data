@@ -1,0 +1,338 @@
+[
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0145",
+    "school_name": "深圳市光明区实验学校同心小学",
+    "zone_ids": [
+      "sz:guangming:zone:42dd760f045d4e9ba217c419ed70db36"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0127",
+    "school_name": "深圳市光明区教育科学研究院附属楼村小学",
+    "zone_ids": [
+      "sz:guangming:zone:496FFFE16D3E5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0122",
+    "school_name": "深圳市光明区李松蓢学校",
+    "zone_ids": [
+      "sz:guangming:zone:496FFFE16D415558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0125",
+    "school_name": "深圳理工大学附属光明实验小学（原宝滨小学）",
+    "zone_ids": [
+      "sz:guangming:zone:16305bba770f45e9b95398348fa8b511"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0152",
+    "school_name": "深圳市光明区理创实验学校",
+    "zone_ids": [
+      "sz:guangming:zone:55cecf8543c04839bda1b6b776f2455b"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0123",
+    "school_name": "深圳外国语学校光明学校",
+    "zone_ids": [
+      "sz:guangming:zone:597909e64a6440db93873303ecdbe876"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0131",
+    "school_name": "深圳小学光明学校狮山校区",
+    "zone_ids": [
+      "sz:guangming:zone:7a0800d7e8474f7d82b1836f9b271807"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0157",
+    "school_name": "深圳外国语光明星耀学校（原薯田埔第二学校）",
+    "zone_ids": [
+      "sz:guangming:zone:e902ae2509a5483d9347fae271e9d0d5"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0147",
+    "school_name": "深圳市光明区长育学校",
+    "zone_ids": [
+      "sz:guangming:zone:1f8f691710af4cd4a4fe4fc80accc7f3"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0114",
+    "school_name": "华南师范大学附属光明星河小学",
+    "zone_ids": [
+      "sz:guangming:zone:24b3ddd862444e7480ffa8c70222175c"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0158",
+    "school_name": "深圳市光明区龙豪小学",
+    "zone_ids": [
+      "sz:guangming:zone:79f162dbbef94bd8a14669d2d5392a88"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0135",
+    "school_name": "深圳中学光明科学城学校",
+    "zone_ids": [
+      "sz:guangming:zone:dfc2a4c1204f4a0ca4f1b7c7b8dd936b"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0116",
+    "school_name": "深圳小学光明学校曙光校区",
+    "zone_ids": [
+      "sz:guangming:zone:359d844212c1402aae424c8b618c5719"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0126",
+    "school_name": "深圳市光明区东宝纪念小学",
+    "zone_ids": [
+      "sz:guangming:zone:496FFFE16D575558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0150",
+    "school_name": "深圳市光明区红花山小学",
+    "zone_ids": [
+      "sz:guangming:zone:496FFFE16D5A5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0151",
+    "school_name": "深圳理工大学附属光明知行学校（原合水口实验学校）",
+    "zone_ids": [
+      "sz:guangming:zone:4eac5755291c44ce8a41f2f7d61219be"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0134",
+    "school_name": "深圳实验光明科林学校",
+    "zone_ids": [
+      "sz:guangming:zone:c963ffd16c04406789daf6f35fcdd566"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0133",
+    "school_name": "深圳市光明区外国语学校",
+    "zone_ids": [
+      "sz:guangming:zone:10a8d068bb97459aa06cffecdcebb128"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0120",
+    "school_name": "深圳市光明区公明中学",
+    "zone_ids": [
+      "sz:guangming:zone:1213384ab81e4158bebe66e8b038e6f3"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0149",
+    "school_name": "深圳市光明区公明第一小学",
+    "zone_ids": [
+      "sz:guangming:zone:496FFFE16D3D5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0141",
+    "school_name": "深圳市光明区玉律学校",
+    "zone_ids": [
+      "sz:guangming:zone:496FFFE16D405558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0148",
+    "school_name": "深圳大学附属光明学校",
+    "zone_ids": [
+      "sz:guangming:zone:4eb3730bd8e042938c9996ec1d5aa287"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0144",
+    "school_name": "深圳中学光明科学城学校西校区",
+    "zone_ids": [
+      "sz:guangming:zone:6926b60700c448b485f0781de948020a"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0128",
+    "school_name": "深圳市教育科学研究院实验学校（光明）",
+    "zone_ids": [
+      "sz:guangming:zone:02491b84ec864c6caa698926afdcfc3e"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0143",
+    "school_name": "深圳市光明区长圳学校",
+    "zone_ids": [
+      "sz:guangming:zone:496FFFE16D3C5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0117",
+    "school_name": "南方科技大学附属光明凤凰学校",
+    "zone_ids": [
+      "sz:guangming:zone:496FFFE16D545558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0146",
+    "school_name": "深圳市光明区尚美小学",
+    "zone_ids": [
+      "sz:guangming:zone:579cb23ceebf4925a32c989d7b1ce5e0"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0138",
+    "school_name": "深圳实验光明明湖学校",
+    "zone_ids": [
+      "sz:guangming:zone:81541dd3dc4d4ed28dcd4f72402ff217"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0154",
+    "school_name": "深圳市教育科学研究院实验小学（光明）",
+    "zone_ids": [
+      "sz:guangming:zone:b828cf69ee7b4b1ea595a3ee361349d6"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0111",
+    "school_name": "深圳市光明区百花实验学校",
+    "zone_ids": [
+      "sz:guangming:zone:f1faf1f8e99047b586f6a80bd866aff3"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0129",
+    "school_name": "深圳理工大学附属光明实验学校（原楼村第二学校）",
+    "zone_ids": [
+      "sz:guangming:zone:1d278fb3f5dd45e29a5f72e427c6b631"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0124",
+    "school_name": "深圳市光明区公明第二小学",
+    "zone_ids": [
+      "sz:guangming:zone:496FFFE16D3F5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0130",
+    "school_name": "中山大学深圳附属学校",
+    "zone_ids": [
+      "sz:guangming:zone:496FFFE16D425558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0155",
+    "school_name": "深圳市光明区马田小学",
+    "zone_ids": [
+      "sz:guangming:zone:496FFFE16D435558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0140",
+    "school_name": "深圳市光明区田寮小学",
+    "zone_ids": [
+      "sz:guangming:zone:496FFFE16D535558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0137",
+    "school_name": "深圳市光明区实验学校",
+    "zone_ids": [
+      "sz:guangming:zone:496FFFE16D565558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0132",
+    "school_name": "楼村第四学校（暂定名）",
+    "zone_ids": [
+      "sz:guangming:zone:53b43505340d4bf3b6b2dec51f6720ba"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0121",
+    "school_name": "深圳市光明区明达小学",
+    "zone_ids": [
+      "sz:guangming:zone:a536081fb96b4af794fee5275fdaebf0"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0119",
+    "school_name": "深圳实验光明学校",
+    "zone_ids": [
+      "sz:guangming:zone:ac390d208d844e5184ad767b9ada08eb"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0115",
+    "school_name": "深圳市光明区修远小学",
+    "zone_ids": [
+      "sz:guangming:zone:04a69b145e0a425a839072b1f921c084"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0156",
+    "school_name": "深圳市光明区科育学校",
+    "zone_ids": [
+      "sz:guangming:zone:25f63baf8ecf48708b09c1e05198f334"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0139",
+    "school_name": "塘尾第二学校（暂定名）",
+    "zone_ids": [
+      "sz:guangming:zone:43f4bb886b024369b587a77c62ff8ed2"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0113",
+    "school_name": "深圳市光明区东周小学",
+    "zone_ids": [
+      "sz:guangming:zone:496FFFE16D395558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0118",
+    "school_name": "深圳市光明区光明小学",
+    "zone_ids": [
+      "sz:guangming:zone:496FFFE16D3B5558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0153",
+    "school_name": "深圳市光明区秋硕小学",
+    "zone_ids": [
+      "sz:guangming:zone:496FFFE16D595558E053BC09A8C0A5ED"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0142",
+    "school_name": "玉成小学（暂定名）",
+    "zone_ids": [
+      "sz:guangming:zone:82bef441a09e4502b9cb3b83f154204f"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0136",
+    "school_name": "深圳北理莫斯科大学附属光明凤凰城实验学校",
+    "zone_ids": [
+      "sz:guangming:zone:9476cd61274244139274ef4952a9e03c"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0112",
+    "school_name": "南方科技大学附属光明荔园学校",
+    "zone_ids": [
+      "sz:guangming:zone:fffaecb27e8b45baa19bf639d0afbf02"
+    ]
+  }
+]

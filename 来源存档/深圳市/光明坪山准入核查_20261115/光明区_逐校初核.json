@@ -1,0 +1,1775 @@
+{
+  "summary": {
+    "district": "光明区",
+    "policy_entries": 48,
+    "map_school_records": 48,
+    "maps_with_noncollinear_area": 48,
+    "simple_valid_polygons": 45,
+    "invalid_but_area": 3,
+    "map_text_nonempty": 48,
+    "single_policy_row_linked_map_records": 48,
+    "policy_unmatched": [],
+    "map_unmatched": [],
+    "policy_with_community_word": 48,
+    "community_scopes": [
+      {
+        "school": "深圳市光明区百花实验学校",
+        "scope": "白花社区、碧眼社区、凤凰社区"
+      },
+      {
+        "school": "南方科技大学附属光明荔园学校",
+        "scope": "翠湖社区、东周社区、光明社区、碧眼社区、迳口社区、科韵社区、荔湖社区、楼村社区"
+      },
+      {
+        "school": "深圳市光明区东周小学",
+        "scope": "东周社区、光明社区、翠湖社区、楼村社区、荔湖社区、科韵社区"
+      },
+      {
+        "school": "华南师范大学附属光明星河小学",
+        "scope": "东周社区、光明社区、翠湖社区、楼村社区、荔湖社区、科韵社区"
+      },
+      {
+        "school": "深圳市光明区修远小学",
+        "scope": "东周社区、光明社区、翠湖社区、楼村社区、荔湖社区、科韵社区"
+      },
+      {
+        "school": "深圳小学光明学校曙光校区",
+        "scope": "东周社区、光明社区、翠湖社区、楼村社区、荔湖社区、科韵社区"
+      },
+      {
+        "school": "南方科技大学附属光明凤凰学校",
+        "scope": "凤凰社区、光明社区、东周社区、碧眼社区、迳口社区、翠湖社区、东坑社区"
+      },
+      {
+        "school": "深圳市光明区光明小学",
+        "scope": "光明社区、碧眼社区、翠湖社区、迳口社区、东周社区"
+      },
+      {
+        "school": "深圳实验光明学校",
+        "scope": "光明社区、东周社区、东坑社区"
+      },
+      {
+        "school": "深圳市光明区公明中学",
+        "scope": "合水口社区、禾湾社区、上村社区、楼村社区、荔湖社区、科韵社区、下村社区、西田社区、薯田埔社区、马山头社区、根竹园社区、公明社区、李松蓢社区"
+      },
+      {
+        "school": "深圳市光明区明达小学",
+        "scope": "公明社区、上村社区、下村社区、合水口社区、禾湾社区、南庄社区、新庄社区"
+      },
+      {
+        "school": "深圳市光明区李松蓢学校",
+        "scope": "上村社区、下村社区、李松蓢社区、西田社区"
+      },
+      {
+        "school": "深圳外国语学校光明学校",
+        "scope": "李松蓢社区、西田社区、上村社区、下村社区"
+      },
+      {
+        "school": "深圳市光明区公明第二小学",
+        "scope": "上村社区、下村社区、李松蓢社区、西田社区、公明社区"
+      },
+      {
+        "school": "深圳理工大学附属光明实验小学（原宝滨小学）",
+        "scope": "上村社区、下村社区、李松蓢社区、西田社区、公明社区"
+      },
+      {
+        "school": "深圳市光明区东宝纪念小学",
+        "scope": "上村社区、下村社区、李松蓢社区、西田社区、公明社区"
+      },
+      {
+        "school": "深圳市光明区教育科学研究院附属楼村小学",
+        "scope": "楼村社区、荔湖社区、科韵社区、新羌社区、圳美社区、云谷社区"
+      },
+      {
+        "school": "深圳市教育科学研究院实验学校（光明）",
+        "scope": "楼村社区、荔湖社区、科韵社区、上村社区、新庄社区、南庄社区"
+      },
+      {
+        "school": "深圳理工大学附属光明实验学校（原楼村第二学校）",
+        "scope": "楼村社区、科韵社区、荔湖社区、上村社区、南庄社区、新庄社区、东周社区"
+      },
+      {
+        "school": "中山大学深圳附属学校",
+        "scope": "圳美社区、云谷社区、新羌社区、楼村社区、荔湖社区、科韵社区、翠湖社区、迳口社区"
+      },
+      {
+        "school": "深圳小学光明学校狮山校区",
+        "scope": "科韵社区、翠湖社区、东周社区、楼村社区、荔湖社区、圳美社区、云谷社区、迳口社区"
+      },
+      {
+        "school": "楼村第四学校（暂定名）",
+        "scope": "科韵社区、东周社区、楼村社区、荔湖社区、圳美社区、云谷社区、迳口社区、翠湖社区"
+      },
+      {
+        "school": "深圳市光明区外国语学校",
+        "scope": "塘家社区、凤凰社区、白花社区、碧眼社区、塘尾社区、光明社区"
+      },
+      {
+        "school": "深圳实验光明科林学校",
+        "scope": "凤凰社区、塘家社区、白花社区、碧眼社区、光明社区"
+      },
+      {
+        "school": "深圳中学光明科学城学校",
+        "scope": "深圳中学光明科学城学校一：长圳保障性住房一期（凤凰英荟城）、二期（安居鸣鹿苑）；深圳中学光明科学城学校二：甲子塘、塘尾、塘家三个社区（除凤凰英荟城、安居鸣鹿苑外）。"
+      },
+      {
+        "school": "深圳北理莫斯科大学附属光明凤凰城实验学校",
+        "scope": "塘家社区、甲子塘社区、塘尾社区、东坑社区、凤凰社区"
+      },
+      {
+        "school": "深圳市光明区实验学校",
+        "scope": "塘尾社区、东坑社区、将围社区、新庄社区、南庄社区、石家社区、石围社区。"
+      },
+      {
+        "school": "深圳实验光明明湖学校",
+        "scope": "塘尾社区、东坑社区、塘家社区、甲子塘社区、玉塘社区、田寮社区、石围社区、将围社区、新庄社区、南庄社区"
+      },
+      {
+        "school": "塘尾第二学校（暂定名）",
+        "scope": "塘尾社区、石围社区、将围社区、新庄社区、东坑社区、塘家社区、甲子塘社区、玉塘社区、田寮社区、南庄社区"
+      },
+      {
+        "school": "深圳市光明区田寮小学",
+        "scope": "田寮社区"
+      },
+      {
+        "school": "深圳市光明区玉律学校",
+        "scope": "玉律社区、红星社区、田寮社区、长圳社区、玉塘社区"
+      },
+      {
+        "school": "玉成小学（暂定名）",
+        "scope": "玉律社区、田寮社区、长圳社区、红星社区"
+      },
+      {
+        "school": "深圳市光明区长圳学校",
+        "scope": "长圳社区、玉塘社区、田寮社区、红星社区、玉律社区"
+      },
+      {
+        "school": "深圳中学光明科学城学校西校区",
+        "scope": "长圳社区、玉塘社区、田寮社区、玉律社区、红星社区"
+      },
+      {
+        "school": "深圳市光明区实验学校同心小学",
+        "scope": "长圳社区、玉塘社区、甲子塘社区、塘家社区"
+      },
+      {
+        "school": "深圳市光明区尚美小学",
+        "scope": "长圳社区、玉塘社区、甲子塘社区、塘家社区"
+      },
+      {
+        "school": "深圳市光明区长育学校",
+        "scope": "长圳社区、玉塘社区、甲子塘社区、塘家社区"
+      },
+      {
+        "school": "深圳大学附属光明学校",
+        "scope": "玉塘社区、长圳社区、甲子塘社区、塘尾社区、田寮社区"
+      },
+      {
+        "school": "深圳市光明区公明第一小学",
+        "scope": "合水口社区、禾湾社区、公明社区"
+      },
+      {
+        "school": "深圳市光明区红花山小学",
+        "scope": "薯田埔社区、马山头社区、根竹园社区、合水口社区、禾湾社区"
+      },
+      {
+        "school": "深圳理工大学附属光明知行学校（原合水口实验学校）",
+        "scope": "合水口社区、薯田埔社区、马山头社区、禾湾社区、公明社区、下村社区"
+      },
+      {
+        "school": "深圳市光明区理创实验学校",
+        "scope": "薯田埔社区、马山头社区、根竹园社区、合水口社区、禾湾社区"
+      },
+      {
+        "school": "深圳市光明区秋硕小学",
+        "scope": "将围社区、新庄社区、南庄社区、石家社区、石围社区"
+      },
+      {
+        "school": "深圳市教育科学研究院实验小学（光明）",
+        "scope": "将围社区、新庄社区、南庄社区、石家社区、石围社区、合水口社区、禾湾社区、公明社区"
+      },
+      {
+        "school": "深圳市光明区马田小学",
+        "scope": "薯田埔社区、马山头社区、根竹园社区、合水口社区、禾湾社区。"
+      },
+      {
+        "school": "深圳市光明区科育学校",
+        "scope": "薯田埔社区、马山头社区、根竹园社区、合水口社区、禾湾社区"
+      },
+      {
+        "school": "深圳外国语光明星耀学校（原薯田埔第二学校）",
+        "scope": "薯田埔社区、合水口社区、马山头社区、根竹园社区、禾湾社区"
+      },
+      {
+        "school": "深圳市光明区龙豪小学",
+        "scope": "将围社区、新庄社区、南庄社区、石家社区、石围社区、塘尾社区"
+      }
+    ],
+    "fdc_records": 169,
+    "fdc_valid_coordinates": 169,
+    "fdc_distinct_coordinate_groups": 167,
+    "fdc_bounds": [
+      113.871286,
+      22.713144,
+      113.999566,
+      22.806448
+    ],
+    "map_groups_count": 0,
+    "all_original_paths_retained": true,
+    "geometry_repair": false,
+    "gold_generated": false,
+    "match_status_counts": {
+      "unique_name_normalization": 47,
+      "explicit_named_subscope_two_only": 1
+    },
+    "minimum_unique_vertices": 63,
+    "maximum_unique_vertices": 211,
+    "policy_with_multiple_map_records": [],
+    "raw_boundary_override_field_captured": true,
+    "map_snapshot": "2026-11-15 current browser read",
+    "all_archived_policy_names_present_in_live_text": true,
+    "all_archived_scope_texts_present_in_live_text": true,
+    "policy_entry_count_live_table": 48,
+    "map_unchanged_since_20261027": true,
+    "missing_separately_mapped_policy_branch": "深圳中学光明科学城学校一：凤凰英荟城、安居鸣鹿苑；未发现独立地图记录，不能将学校二的排除范围当作一的地图。"
+  },
+  "schools": [
+    {
+      "map_id": "42dd760f045d4e9ba217c419ed70db36",
+      "map_name": "光明区实验学校同心小学",
+      "vertex_count": 109,
+      "unique_vertices": 109,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        113.914464,
+        22.710728,
+        113.955625,
+        22.748303
+      ],
+      "map_text": "长圳社区、玉塘社区、甲子塘社区、塘家社区",
+      "map_point": [
+        "113.931083",
+        "22.732854"
+      ],
+      "map_update": null,
+      "map_created": "2023-05-15 14:28:55",
+      "policy_matches": [
+        {
+          "row_index": 34,
+          "name": "深圳市光明区实验学校同心小学",
+          "scope": "长圳社区、玉塘社区、甲子塘社区、塘家社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "496FFFE16D3E5558E053BC09A8C0A5ED",
+      "map_name": "光明区教育科学研究院附属楼村小学",
+      "vertex_count": 96,
+      "unique_vertices": 96,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        113.918211,
+        22.766056,
+        113.998444,
+        22.834696
+      ],
+      "map_text": "楼村社区、荔湖社区、科韵社区、新羌社区、圳美社区、云谷社区",
+      "map_point": [
+        "113.937368",
+        "22.786916"
+      ],
+      "map_update": "2026-06-12 16:15:49",
+      "map_created": "2017-03-28 19:13:32",
+      "policy_matches": [
+        {
+          "row_index": 16,
+          "name": "深圳市光明区教育科学研究院附属楼村小学",
+          "scope": "楼村社区、荔湖社区、科韵社区、新羌社区、圳美社区、云谷社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "496FFFE16D415558E053BC09A8C0A5ED",
+      "map_name": "光明区李松蓢学校（小学部）",
+      "vertex_count": 122,
+      "unique_vertices": 122,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        113.883116,
+        22.77686,
+        113.947924,
+        22.836585
+      ],
+      "map_text": "李松蓢社区、西田社区、上村社区、下村社区",
+      "map_point": [
+        "113.901971",
+        "22.791571"
+      ],
+      "map_update": "2024-06-07 13:20:04",
+      "map_created": "2017-03-28 19:13:32",
+      "policy_matches": [
+        {
+          "row_index": 11,
+          "name": "深圳市光明区李松蓢学校",
+          "scope": "上村社区、下村社区、李松蓢社区、西田社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "16305bba770f45e9b95398348fa8b511",
+      "map_name": "深圳理工大学附属光明实验小学",
+      "vertex_count": 89,
+      "unique_vertices": 89,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        113.883108,
+        22.776571,
+        113.947714,
+        22.836554
+      ],
+      "map_text": "上村社区、下村社区、李松蓢社区、西田社区、公明社区",
+      "map_point": [
+        "113.908369",
+        "22.794688"
+      ],
+      "map_update": null,
+      "map_created": "2023-05-16 10:58:49",
+      "policy_matches": [
+        {
+          "row_index": 14,
+          "name": "深圳理工大学附属光明实验小学（原宝滨小学）",
+          "scope": "上村社区、下村社区、李松蓢社区、西田社区、公明社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "55cecf8543c04839bda1b6b776f2455b",
+      "map_name": "光明区理创实验学校（小学部）",
+      "vertex_count": 124,
+      "unique_vertices": 124,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        113.865536,
+        22.761772,
+        113.908305,
+        22.800883
+      ],
+      "map_text": "薯田埔社区、马山头社区、根竹园社区、合水口社区、禾湾社区",
+      "map_point": [
+        "113.882932",
+        "22.782595"
+      ],
+      "map_update": "2020-10-17 18:25:26",
+      "map_created": "2020-10-17 18:16:45",
+      "policy_matches": [
+        {
+          "row_index": 41,
+          "name": "深圳市光明区理创实验学校",
+          "scope": "薯田埔社区、马山头社区、根竹园社区、合水口社区、禾湾社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "597909e64a6440db93873303ecdbe876",
+      "map_name": "深圳外国语学校光明学校（小学部）",
+      "vertex_count": 100,
+      "unique_vertices": 100,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        113.883151,
+        22.777533,
+        113.947892,
+        22.836604
+      ],
+      "map_text": "李松蓢社区、西田社区、上村社区、下村社区",
+      "map_point": [
+        "113.897771",
+        "22.808689"
+      ],
+      "map_update": "2024-06-04 15:04:17",
+      "map_created": "2023-05-16 15:37:02",
+      "policy_matches": [
+        {
+          "row_index": 12,
+          "name": "深圳外国语学校光明学校",
+          "scope": "李松蓢社区、西田社区、上村社区、下村社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "7a0800d7e8474f7d82b1836f9b271807",
+      "map_name": "深圳小学光明学校狮山校区",
+      "vertex_count": 96,
+      "unique_vertices": 96,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        113.918206,
+        22.754315,
+        114.00067,
+        22.818156
+      ],
+      "map_text": "科韵社区、翠湖社区、东周社区、楼村社区、荔湖社区、圳美社区、云谷社区、迳口社区",
+      "map_point": [
+        "113.945191",
+        "22.774577"
+      ],
+      "map_update": null,
+      "map_created": "2025-05-30 14:37:12",
+      "policy_matches": [
+        {
+          "row_index": 20,
+          "name": "深圳小学光明学校狮山校区",
+          "scope": "科韵社区、翠湖社区、东周社区、楼村社区、荔湖社区、圳美社区、云谷社区、迳口社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "e902ae2509a5483d9347fae271e9d0d5",
+      "map_name": "深圳外国语光明星耀学校（小学部）",
+      "vertex_count": 94,
+      "unique_vertices": 94,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        113.865538,
+        22.761882,
+        113.908181,
+        22.800976
+      ],
+      "map_text": "薯田埔社区、合水口社区、马山头社区、根竹园社区、禾湾社区",
+      "map_point": [
+        "113.876075",
+        "22.789439"
+      ],
+      "map_update": "2025-05-30 18:22:20",
+      "map_created": "2025-05-30 16:06:10",
+      "policy_matches": [
+        {
+          "row_index": 46,
+          "name": "深圳外国语光明星耀学校（原薯田埔第二学校）",
+          "scope": "薯田埔社区、合水口社区、马山头社区、根竹园社区、禾湾社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "1f8f691710af4cd4a4fe4fc80accc7f3",
+      "map_name": "光明区长育学校（小学部）",
+      "vertex_count": 86,
+      "unique_vertices": 86,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        113.914375,
+        22.710767,
+        113.955589,
+        22.748368
+      ],
+      "map_text": "长圳社区、玉塘社区、甲子塘社区、塘家社区",
+      "map_point": [
+        "113.925164",
+        "22.728127"
+      ],
+      "map_update": null,
+      "map_created": "2025-06-23 11:00:45",
+      "policy_matches": [
+        {
+          "row_index": 36,
+          "name": "深圳市光明区长育学校",
+          "scope": "长圳社区、玉塘社区、甲子塘社区、塘家社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "24b3ddd862444e7480ffa8c70222175c",
+      "map_name": "华南师范大学附属光明星河小学",
+      "vertex_count": 132,
+      "unique_vertices": 132,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        113.918279,
+        22.744159,
+        113.998273,
+        22.812452
+      ],
+      "map_text": "东周社区、光明社区、翠湖社区、楼村社区、荔湖社区、科韵社区",
+      "map_point": [
+        "113.947213",
+        "22.765047"
+      ],
+      "map_update": "2023-05-29 17:53:27",
+      "map_created": "2021-05-22 16:47:04",
+      "policy_matches": [
+        {
+          "row_index": 3,
+          "name": "华南师范大学附属光明星河小学",
+          "scope": "东周社区、光明社区、翠湖社区、楼村社区、荔湖社区、科韵社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "79f162dbbef94bd8a14669d2d5392a88",
+      "map_name": "光明区龙豪小学",
+      "vertex_count": 142,
+      "unique_vertices": 142,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        113.88393,
+        22.737976,
+        113.93729,
+        22.783591
+      ],
+      "map_text": "石家社区、石围社区、将围社区、新庄社区、南庄社区、塘尾社区",
+      "map_point": [
+        "113.91264",
+        "22.767838"
+      ],
+      "map_update": "2022-05-17 11:00:42",
+      "map_created": "2022-05-10 17:12:53",
+      "policy_matches": [
+        {
+          "row_index": 47,
+          "name": "深圳市光明区龙豪小学",
+          "scope": "将围社区、新庄社区、南庄社区、石家社区、石围社区、塘尾社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "dfc2a4c1204f4a0ca4f1b7c7b8dd936b",
+      "map_name": "深圳中学光明科学城学校二（小学部）",
+      "vertex_count": 156,
+      "unique_vertices": 156,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        113.897733,
+        22.72929,
+        113.955637,
+        22.764402
+      ],
+      "map_text": "甲子塘、塘尾、塘家三个社区（除凤凰英荟城、安居鸣鹿苑外）",
+      "map_point": [
+        "113.931886",
+        "22.736156"
+      ],
+      "map_update": null,
+      "map_created": "2023-05-15 16:01:15",
+      "policy_matches": [
+        {
+          "row_index": 24,
+          "name": "深圳中学光明科学城学校",
+          "scope": "深圳中学光明科学城学校一：长圳保障性住房一期（凤凰英荟城）、二期（安居鸣鹿苑）；深圳中学光明科学城学校二：甲子塘、塘尾、塘家三个社区（除凤凰英荟城、安居鸣鹿苑外）。",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html"
+        }
+      ],
+      "match_status": "explicit_named_subscope_two_only",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "359d844212c1402aae424c8b618c5719",
+      "map_name": "深圳小学光明学校曙光校区",
+      "vertex_count": 90,
+      "unique_vertices": 90,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        113.918249,
+        22.744266,
+        113.998305,
+        22.812442
+      ],
+      "map_text": "东周社区、光明社区、翠湖社区、楼村社区、荔湖社区、科韵社区",
+      "map_point": [
+        "113.947668",
+        "22.768541"
+      ],
+      "map_update": "2023-05-29 17:55:54",
+      "map_created": "2023-05-16 15:13:09",
+      "policy_matches": [
+        {
+          "row_index": 5,
+          "name": "深圳小学光明学校曙光校区",
+          "scope": "东周社区、光明社区、翠湖社区、楼村社区、荔湖社区、科韵社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "496FFFE16D575558E053BC09A8C0A5ED",
+      "map_name": "光明区东宝纪念小学",
+      "vertex_count": 120,
+      "unique_vertices": 120,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        113.883183,
+        22.776985,
+        113.947915,
+        22.836477
+      ],
+      "map_text": "上村社区、下村社区、李松蓢社区、西田社区、公明社区",
+      "map_point": [
+        "113.893352",
+        "22.795569"
+      ],
+      "map_update": "2020-10-17 21:17:01",
+      "map_created": "2017-03-28 19:13:32",
+      "policy_matches": [
+        {
+          "row_index": 15,
+          "name": "深圳市光明区东宝纪念小学",
+          "scope": "上村社区、下村社区、李松蓢社区、西田社区、公明社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "496FFFE16D5A5558E053BC09A8C0A5ED",
+      "map_name": "光明区红花山小学",
+      "vertex_count": 127,
+      "unique_vertices": 127,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        113.865535,
+        22.761766,
+        113.908277,
+        22.800885
+      ],
+      "map_text": "薯田埔社区、马山头社区、根竹园社区、合水口社区、禾湾社区",
+      "map_point": [
+        "113.891119",
+        "22.783993"
+      ],
+      "map_update": "2020-10-17 19:17:39",
+      "map_created": "2017-03-28 19:13:32",
+      "policy_matches": [
+        {
+          "row_index": 39,
+          "name": "深圳市光明区红花山小学",
+          "scope": "薯田埔社区、马山头社区、根竹园社区、合水口社区、禾湾社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "4eac5755291c44ce8a41f2f7d61219be",
+      "map_name": "深圳理工大学附属光明知行学校（小学部）",
+      "vertex_count": 110,
+      "unique_vertices": 110,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        113.865563,
+        22.761855,
+        113.914502,
+        22.805772
+      ],
+      "map_text": "合水口社区、薯田埔社区、马山头社区、禾湾社区、公明社区、下村社区",
+      "map_point": [
+        "113.882882",
+        "22.793861"
+      ],
+      "map_update": null,
+      "map_created": "2024-06-03 19:38:07",
+      "policy_matches": [
+        {
+          "row_index": 40,
+          "name": "深圳理工大学附属光明知行学校（原合水口实验学校）",
+          "scope": "合水口社区、薯田埔社区、马山头社区、禾湾社区、公明社区、下村社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "c963ffd16c04406789daf6f35fcdd566",
+      "map_name": "深圳实验光明科林学校（小学部）",
+      "vertex_count": 142,
+      "unique_vertices": 142,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        113.934071,
+        22.715737,
+        114.015245,
+        22.7674
+      ],
+      "map_text": "凤凰社区、塘家社区、白花社区、碧眼社区、光明社区",
+      "map_point": [
+        "113.957391",
+        "22.742196"
+      ],
+      "map_update": "2024-06-01 17:12:27",
+      "map_created": "2024-06-01 16:50:19",
+      "policy_matches": [
+        {
+          "row_index": 23,
+          "name": "深圳实验光明科林学校",
+          "scope": "凤凰社区、塘家社区、白花社区、碧眼社区、光明社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "10a8d068bb97459aa06cffecdcebb128",
+      "map_name": "光明区外国语学校（小学部）",
+      "vertex_count": 211,
+      "unique_vertices": 211,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        113.8977,
+        22.715583,
+        114.015221,
+        22.767446
+      ],
+      "map_text": "塘家社区、凤凰社区、白花社区、碧眼社区、塘尾社区、光明社区",
+      "map_point": [
+        "113.964718",
+        "22.735501"
+      ],
+      "map_update": "2023-11-08 16:57:03",
+      "map_created": "2017-04-06 17:42:40",
+      "policy_matches": [
+        {
+          "row_index": 22,
+          "name": "深圳市光明区外国语学校",
+          "scope": "塘家社区、凤凰社区、白花社区、碧眼社区、塘尾社区、光明社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "1213384ab81e4158bebe66e8b038e6f3",
+      "map_name": "光明区公明中学（小学部）",
+      "vertex_count": 146,
+      "unique_vertices": 146,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        113.865284,
+        22.76196,
+        113.99862,
+        22.836394
+      ],
+      "map_text": "合水口社区、禾湾社区、上村社区、楼村社区、荔湖社区、科韵社区、下村社区、西田社区、薯田埔社区、马山头社区、根竹园社区、公明社区、李松蓢社区",
+      "map_point": [
+        "113.905061",
+        "22.786502"
+      ],
+      "map_update": null,
+      "map_created": "2025-06-23 11:35:07",
+      "policy_matches": [
+        {
+          "row_index": 9,
+          "name": "深圳市光明区公明中学",
+          "scope": "合水口社区、禾湾社区、上村社区、楼村社区、荔湖社区、科韵社区、下村社区、西田社区、薯田埔社区、马山头社区、根竹园社区、公明社区、李松蓢社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "496FFFE16D3D5558E053BC09A8C0A5ED",
+      "map_name": "光明区公明第一小学",
+      "vertex_count": 142,
+      "unique_vertices": 142,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        113.875167,
+        22.770805,
+        113.914616,
+        22.800893
+      ],
+      "map_text": "合水口社区、禾湾社区、公明社区",
+      "map_point": [
+        "113.893178",
+        "22.788091"
+      ],
+      "map_update": "2020-10-17 20:10:09",
+      "map_created": "2017-03-28 19:13:32",
+      "policy_matches": [
+        {
+          "row_index": 38,
+          "name": "深圳市光明区公明第一小学",
+          "scope": "合水口社区、禾湾社区、公明社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "496FFFE16D405558E053BC09A8C0A5ED",
+      "map_name": "光明区玉律学校（小学部）",
+      "vertex_count": 114,
+      "unique_vertices": 114,
+      "has_noncollinear_area": true,
+      "geometry_valid": false,
+      "geometry_reason": "Self-intersection[113.938935097304 22.7297486478722]",
+      "bounds": [
+        113.883636,
+        22.693955,
+        113.948098,
+        22.742776
+      ],
+      "map_text": "玉律社区、红星社区、田寮社区、长圳社区、玉塘社区",
+      "map_point": [
+        "113.899805",
+        "22.72506"
+      ],
+      "map_update": "2020-10-17 11:36:29",
+      "map_created": "2017-03-28 19:13:32",
+      "policy_matches": [
+        {
+          "row_index": 30,
+          "name": "深圳市光明区玉律学校",
+          "scope": "玉律社区、红星社区、田寮社区、长圳社区、玉塘社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "4eb3730bd8e042938c9996ec1d5aa287",
+      "map_name": "深圳大学附属光明学校（小学部）",
+      "vertex_count": 142,
+      "unique_vertices": 142,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        113.88824,
+        22.710711,
+        113.948247,
+        22.764408
+      ],
+      "map_text": "翠湖社区、东周社区、光明社区、碧眼社区、迳口社区、科韵社区、荔湖社区、楼村社区",
+      "map_point": [
+        "113.931071",
+        "22.728279"
+      ],
+      "map_update": null,
+      "map_created": "2024-06-05 17:22:00",
+      "policy_matches": [
+        {
+          "row_index": 37,
+          "name": "深圳大学附属光明学校",
+          "scope": "玉塘社区、长圳社区、甲子塘社区、塘尾社区、田寮社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "6926b60700c448b485f0781de948020a",
+      "map_name": "深圳中学光明科学城学校西校区（小学部）",
+      "vertex_count": 122,
+      "unique_vertices": 122,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        113.883658,
+        22.693887,
+        113.948066,
+        22.742792
+      ],
+      "map_text": "长圳社区、玉塘社区、田寮社区、玉律社区、红星社区",
+      "map_point": [
+        "113.9241",
+        "22.726592"
+      ],
+      "map_update": "2023-05-15 11:29:57",
+      "map_created": "2020-10-17 11:52:08",
+      "policy_matches": [
+        {
+          "row_index": 33,
+          "name": "深圳中学光明科学城学校西校区",
+          "scope": "长圳社区、玉塘社区、田寮社区、玉律社区、红星社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "02491b84ec864c6caa698926afdcfc3e",
+      "map_name": "教育科学研究院实验学校（光明）（小学部）",
+      "vertex_count": 204,
+      "unique_vertices": 204,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        113.894239,
+        22.76492,
+        113.998424,
+        22.816135
+      ],
+      "map_text": "将围社区、新庄社区、南庄社区、石家社区、石围社区、合水口社区、禾湾社区、公明社区",
+      "map_point": [
+        "113.926751",
+        "22.786583"
+      ],
+      "map_update": "2021-05-21 09:22:42",
+      "map_created": "2020-10-19 12:17:02",
+      "policy_matches": [
+        {
+          "row_index": 17,
+          "name": "深圳市教育科学研究院实验学校（光明）",
+          "scope": "楼村社区、荔湖社区、科韵社区、上村社区、新庄社区、南庄社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "496FFFE16D3C5558E053BC09A8C0A5ED",
+      "map_name": "光明区长圳学校（小学部）",
+      "vertex_count": 118,
+      "unique_vertices": 118,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        113.883604,
+        22.693851,
+        113.948066,
+        22.742772
+      ],
+      "map_text": "长圳社区、玉塘社区、田寮社区、红星社区、玉律社区",
+      "map_point": [
+        "113.925447",
+        "22.724481"
+      ],
+      "map_update": "2020-10-17 10:54:30",
+      "map_created": "2017-03-28 19:13:32",
+      "policy_matches": [
+        {
+          "row_index": 32,
+          "name": "深圳市光明区长圳学校",
+          "scope": "长圳社区、玉塘社区、田寮社区、红星社区、玉律社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "496FFFE16D545558E053BC09A8C0A5ED",
+      "map_name": "南方科技大学附属光明凤凰学校（小学部）",
+      "vertex_count": 189,
+      "unique_vertices": 189,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        113.919453,
+        22.715604,
+        114.000647,
+        22.777963
+      ],
+      "map_text": "凤凰社区、光明社区、东周社区、碧眼社区、迳口社区、翠湖社区、东坑社区",
+      "map_point": [
+        "113.953791",
+        "22.745354"
+      ],
+      "map_update": "2020-10-21 09:40:23",
+      "map_created": "2017-03-28 19:13:32",
+      "policy_matches": [
+        {
+          "row_index": 6,
+          "name": "南方科技大学附属光明凤凰学校",
+          "scope": "凤凰社区、光明社区、东周社区、碧眼社区、迳口社区、翠湖社区、东坑社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "579cb23ceebf4925a32c989d7b1ce5e0",
+      "map_name": "光明区尚美小学",
+      "vertex_count": 113,
+      "unique_vertices": 113,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        113.914367,
+        22.710651,
+        113.955473,
+        22.748485
+      ],
+      "map_text": "长圳社区、玉塘社区、甲子塘社区、塘家社区",
+      "map_point": [
+        "113.935989",
+        "22.723344"
+      ],
+      "map_update": "2023-05-15 14:57:54",
+      "map_created": "2023-05-15 14:54:57",
+      "policy_matches": [
+        {
+          "row_index": 35,
+          "name": "深圳市光明区尚美小学",
+          "scope": "长圳社区、玉塘社区、甲子塘社区、塘家社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "81541dd3dc4d4ed28dcd4f72402ff217",
+      "map_name": "深圳实验光明明湖学校（小学部）",
+      "vertex_count": 111,
+      "unique_vertices": 111,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        113.88398,
+        22.72316,
+        113.955549,
+        22.78355
+      ],
+      "map_text": "塘尾社区、东坑社区、塘家社区、甲子塘社区、玉塘社区、田寮社区、石围社区、将围社区、新庄社区、南庄社区",
+      "map_point": [
+        "113.918161",
+        "22.756891"
+      ],
+      "map_update": "2025-05-30 16:34:05",
+      "map_created": "2025-05-30 15:30:47",
+      "policy_matches": [
+        {
+          "row_index": 27,
+          "name": "深圳实验光明明湖学校",
+          "scope": "塘尾社区、东坑社区、塘家社区、甲子塘社区、玉塘社区、田寮社区、石围社区、将围社区、新庄社区、南庄社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "b828cf69ee7b4b1ea595a3ee361349d6",
+      "map_name": "教育科学研究院实验小学（光明）",
+      "vertex_count": 203,
+      "unique_vertices": 203,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        113.875154,
+        22.740521,
+        113.924475,
+        22.800821
+      ],
+      "map_text": "将围社区、新庄社区、南庄社区、石家社区、石围社区、合水口社区、禾湾社区、公明社区",
+      "map_point": [
+        "113.898577",
+        "22.773224"
+      ],
+      "map_update": null,
+      "map_created": "2020-10-19 09:49:19",
+      "policy_matches": [
+        {
+          "row_index": 43,
+          "name": "深圳市教育科学研究院实验小学（光明）",
+          "scope": "将围社区、新庄社区、南庄社区、石家社区、石围社区、合水口社区、禾湾社区、公明社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "f1faf1f8e99047b586f6a80bd866aff3",
+      "map_name": "光明区百花实验学校（小学部）",
+      "vertex_count": 71,
+      "unique_vertices": 71,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        113.938836,
+        22.715504,
+        114.015227,
+        22.765918
+      ],
+      "map_text": "白花社区、碧眼社区、凤凰社区",
+      "map_point": [
+        "114.000782",
+        "22.743137"
+      ],
+      "map_update": "2023-11-08 11:00:16",
+      "map_created": "2020-04-28 10:28:47",
+      "policy_matches": [
+        {
+          "row_index": 0,
+          "name": "深圳市光明区百花实验学校",
+          "scope": "白花社区、碧眼社区、凤凰社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "1d278fb3f5dd45e29a5f72e427c6b631",
+      "map_name": "深圳理工大学附属光明实验学校（小学部）",
+      "vertex_count": 129,
+      "unique_vertices": 129,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        113.894337,
+        22.753477,
+        113.998181,
+        22.816252
+      ],
+      "map_text": "楼村社区、科韵社区、荔湖社区、上村社区、南庄社区、新庄社区、东周社区",
+      "map_point": [
+        "113.938534",
+        "22.773539"
+      ],
+      "map_update": "2024-06-03 20:04:34",
+      "map_created": "2024-06-03 20:03:31",
+      "policy_matches": [
+        {
+          "row_index": 18,
+          "name": "深圳理工大学附属光明实验学校（原楼村第二学校）",
+          "scope": "楼村社区、科韵社区、荔湖社区、上村社区、南庄社区、新庄社区、东周社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "496FFFE16D3F5558E053BC09A8C0A5ED",
+      "map_name": "光明区公明第二小学",
+      "vertex_count": 108,
+      "unique_vertices": 108,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        113.883089,
+        22.776437,
+        113.947938,
+        22.836587
+      ],
+      "map_text": "上村社区、下村社区、李松蓢社区、西田社区、公明社区",
+      "map_point": [
+        "113.90004",
+        "22.794746"
+      ],
+      "map_update": "2020-10-17 20:39:03",
+      "map_created": "2017-03-28 19:13:32",
+      "policy_matches": [
+        {
+          "row_index": 13,
+          "name": "深圳市光明区公明第二小学",
+          "scope": "上村社区、下村社区、李松蓢社区、西田社区、公明社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "496FFFE16D425558E053BC09A8C0A5ED",
+      "map_name": "中山大学深圳附属学校（小学部）",
+      "vertex_count": 163,
+      "unique_vertices": 163,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        113.918348,
+        22.757338,
+        114.000525,
+        22.834626
+      ],
+      "map_text": "圳美社区、云谷社区、新羌社区、楼村社区、荔湖社区、科韵社区、翠湖社区、迳口社区",
+      "map_point": [
+        "113.965725",
+        "22.797949"
+      ],
+      "map_update": "2020-10-19 16:25:00",
+      "map_created": "2017-03-28 19:13:32",
+      "policy_matches": [
+        {
+          "row_index": 19,
+          "name": "中山大学深圳附属学校",
+          "scope": "圳美社区、云谷社区、新羌社区、楼村社区、荔湖社区、科韵社区、翠湖社区、迳口社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "496FFFE16D435558E053BC09A8C0A5ED",
+      "map_name": "光明区马田小学",
+      "vertex_count": 135,
+      "unique_vertices": 135,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        113.865515,
+        22.761801,
+        113.908248,
+        22.800887
+      ],
+      "map_text": "薯田埔社区、马山头社区、根竹园社区、合水口社区、禾湾社区",
+      "map_point": [
+        "113.884209",
+        "22.787343"
+      ],
+      "map_update": "2020-10-17 18:02:00",
+      "map_created": "2017-03-28 19:13:32",
+      "policy_matches": [
+        {
+          "row_index": 44,
+          "name": "深圳市光明区马田小学",
+          "scope": "薯田埔社区、马山头社区、根竹园社区、合水口社区、禾湾社区。",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "496FFFE16D535558E053BC09A8C0A5ED",
+      "map_name": "光明区田寮小学",
+      "vertex_count": 86,
+      "unique_vertices": 86,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        113.888442,
+        22.723123,
+        113.926,
+        22.742773
+      ],
+      "map_text": "田寮社区",
+      "map_point": [
+        "113.907414",
+        "22.734482"
+      ],
+      "map_update": "2020-10-17 11:23:15",
+      "map_created": "2017-03-28 19:13:32",
+      "policy_matches": [
+        {
+          "row_index": 29,
+          "name": "深圳市光明区田寮小学",
+          "scope": "田寮社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "496FFFE16D565558E053BC09A8C0A5ED",
+      "map_name": "光明区实验学校（小学部）",
+      "vertex_count": 177,
+      "unique_vertices": 177,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        113.883922,
+        22.737966,
+        113.945402,
+        22.783631
+      ],
+      "map_text": "塘尾社区、东坑社区、将围社区、新庄社区、南庄社区、石家社区、石围社区。",
+      "map_point": [
+        "113.91689",
+        "22.761871"
+      ],
+      "map_update": "2020-10-16 18:16:58",
+      "map_created": "2017-03-28 19:13:32",
+      "policy_matches": [
+        {
+          "row_index": 26,
+          "name": "深圳市光明区实验学校",
+          "scope": "塘尾社区、东坑社区、将围社区、新庄社区、南庄社区、石家社区、石围社区。",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "53b43505340d4bf3b6b2dec51f6720ba",
+      "map_name": "楼村第四学校（小学部）暂定名",
+      "vertex_count": 63,
+      "unique_vertices": 63,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        113.918314,
+        22.754682,
+        114.000527,
+        22.818289
+      ],
+      "map_text": "科韵社区、东周社区、楼村社区、荔湖社区、圳美社区、云谷社区、迳口社区、翠湖社区",
+      "map_point": [
+        "113.942173",
+        "22.77421"
+      ],
+      "map_update": "2026-06-05 11:28:26",
+      "map_created": "2026-06-04 18:02:41",
+      "policy_matches": [
+        {
+          "row_index": 21,
+          "name": "楼村第四学校（暂定名）",
+          "scope": "科韵社区、东周社区、楼村社区、荔湖社区、圳美社区、云谷社区、迳口社区、翠湖社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "a536081fb96b4af794fee5275fdaebf0",
+      "map_name": "光明区明达小学",
+      "vertex_count": 142,
+      "unique_vertices": 142,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        113.875271,
+        22.764897,
+        113.935943,
+        22.816142
+      ],
+      "map_text": "公明社区、上村社区、下村社区、合水口社区、禾湾社区、南庄社区、新庄社区",
+      "map_point": [
+        "113.906604",
+        "22.782292"
+      ],
+      "map_update": "2024-06-03 14:48:01",
+      "map_created": "2024-06-03 10:41:51",
+      "policy_matches": [
+        {
+          "row_index": 10,
+          "name": "深圳市光明区明达小学",
+          "scope": "公明社区、上村社区、下村社区、合水口社区、禾湾社区、南庄社区、新庄社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "ac390d208d844e5184ad767b9ada08eb",
+      "map_name": "深圳实验光明学校（小学部）",
+      "vertex_count": 87,
+      "unique_vertices": 87,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        113.919471,
+        22.743621,
+        113.957398,
+        22.777443
+      ],
+      "map_text": "光明社区、东周社区、东坑社区",
+      "map_point": [
+        "113.944323",
+        "22.755482"
+      ],
+      "map_update": "2020-10-22 14:07:48",
+      "map_created": "2020-10-16 15:54:09",
+      "policy_matches": [
+        {
+          "row_index": 8,
+          "name": "深圳实验光明学校",
+          "scope": "光明社区、东周社区、东坑社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "04a69b145e0a425a839072b1f921c084",
+      "map_name": "光明区修远小学",
+      "vertex_count": 98,
+      "unique_vertices": 98,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        113.918314,
+        22.744117,
+        113.998335,
+        22.812377
+      ],
+      "map_text": "东周社区、光明社区、翠湖社区、楼村社区、荔湖社区、科韵社区",
+      "map_point": [
+        "113.946575",
+        "22.768929"
+      ],
+      "map_update": "2022-05-11 14:30:58",
+      "map_created": "2022-05-10 17:30:53",
+      "policy_matches": [
+        {
+          "row_index": 4,
+          "name": "深圳市光明区修远小学",
+          "scope": "东周社区、光明社区、翠湖社区、楼村社区、荔湖社区、科韵社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "25f63baf8ecf48708b09c1e05198f334",
+      "map_name": "光明区科育学校（小学部）",
+      "vertex_count": 119,
+      "unique_vertices": 119,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        113.865557,
+        22.761745,
+        113.908227,
+        22.80098
+      ],
+      "map_text": "薯田埔社区、马山头社区、根竹园社区、合水口社区、禾湾社区",
+      "map_point": [
+        "113.87551",
+        "22.791518"
+      ],
+      "map_update": null,
+      "map_created": "2023-05-16 11:13:56",
+      "policy_matches": [
+        {
+          "row_index": 45,
+          "name": "深圳市光明区科育学校",
+          "scope": "薯田埔社区、马山头社区、根竹园社区、合水口社区、禾湾社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "43f4bb886b024369b587a77c62ff8ed2",
+      "map_name": "塘尾第二学校（小学部）暂定名",
+      "vertex_count": 137,
+      "unique_vertices": 137,
+      "has_noncollinear_area": true,
+      "geometry_valid": false,
+      "geometry_reason": "Self-intersection[113.892655754174 22.7676653151609]",
+      "bounds": [
+        113.883718,
+        22.723255,
+        113.955708,
+        22.783845
+      ],
+      "map_text": "塘尾社区、东坑社区、塘家社区、甲子塘社区、玉塘社区、田寮社区、石围社区、将围社区、新庄社区、南庄社区",
+      "map_point": [
+        "113.915554",
+        "22.75547"
+      ],
+      "map_update": "2026-06-04 17:47:59",
+      "map_created": "2026-06-04 17:28:35",
+      "policy_matches": [
+        {
+          "row_index": 28,
+          "name": "塘尾第二学校（暂定名）",
+          "scope": "塘尾社区、石围社区、将围社区、新庄社区、东坑社区、塘家社区、甲子塘社区、玉塘社区、田寮社区、南庄社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "496FFFE16D395558E053BC09A8C0A5ED",
+      "map_name": "光明区东周小学",
+      "vertex_count": 97,
+      "unique_vertices": 97,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        113.918298,
+        22.744205,
+        113.998337,
+        22.812398
+      ],
+      "map_text": "东周社区、光明社区、翠湖社区、楼村社区、荔湖社区、科韵社区",
+      "map_point": [
+        "113.945256",
+        "22.76436"
+      ],
+      "map_update": "2023-11-08 10:37:16",
+      "map_created": "2017-03-28 19:13:32",
+      "policy_matches": [
+        {
+          "row_index": 2,
+          "name": "深圳市光明区东周小学",
+          "scope": "东周社区、光明社区、翠湖社区、楼村社区、荔湖社区、科韵社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "496FFFE16D3B5558E053BC09A8C0A5ED",
+      "map_name": "光明区光明小学",
+      "vertex_count": 76,
+      "unique_vertices": 76,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        113.920328,
+        22.73806,
+        114.000709,
+        22.778019
+      ],
+      "map_text": "光明社区、碧眼社区、翠湖社区、迳口社区、东周社区",
+      "map_point": [
+        "113.954194",
+        "22.76127"
+      ],
+      "map_update": "2020-10-22 14:06:45",
+      "map_created": "2020-10-16 10:10:03",
+      "policy_matches": [
+        {
+          "row_index": 7,
+          "name": "深圳市光明区光明小学",
+          "scope": "光明社区、碧眼社区、翠湖社区、迳口社区、东周社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "496FFFE16D595558E053BC09A8C0A5ED",
+      "map_name": "光明区秋硕小学",
+      "vertex_count": 131,
+      "unique_vertices": 131,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        113.883947,
+        22.740495,
+        113.924452,
+        22.783585
+      ],
+      "map_text": "将围社区、新庄社区、石家社区、石围社区",
+      "map_point": [
+        "113.906086",
+        "22.769624"
+      ],
+      "map_update": null,
+      "map_created": "2020-10-17 17:05:33",
+      "policy_matches": [
+        {
+          "row_index": 42,
+          "name": "深圳市光明区秋硕小学",
+          "scope": "将围社区、新庄社区、南庄社区、石家社区、石围社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "82bef441a09e4502b9cb3b83f154204f",
+      "map_name": "玉成小学（暂定名）",
+      "vertex_count": 87,
+      "unique_vertices": 87,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        113.883783,
+        22.693616,
+        113.948173,
+        22.742871
+      ],
+      "map_text": "玉律社区、田寮社区、长圳社区、红星社区",
+      "map_point": [
+        "113.899233",
+        "22.719988"
+      ],
+      "map_update": "2026-06-10 14:33:54",
+      "map_created": "2026-06-04 17:20:12",
+      "policy_matches": [
+        {
+          "row_index": 31,
+          "name": "玉成小学（暂定名）",
+          "scope": "玉律社区、田寮社区、长圳社区、红星社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "9476cd61274244139274ef4952a9e03c",
+      "map_name": "深圳北理莫斯科大学附属光明凤凰城实验学校（小学部）",
+      "vertex_count": 158,
+      "unique_vertices": 158,
+      "has_noncollinear_area": true,
+      "geometry_valid": false,
+      "geometry_reason": "Self-intersection[113.940259434211 22.7541181434211]",
+      "bounds": [
+        113.897721,
+        22.715561,
+        113.988558,
+        22.767295
+      ],
+      "map_text": "塘家社区、甲子塘社区、塘尾社区、东坑社区、凤凰社区",
+      "map_point": [
+        "113.943764",
+        "22.741245"
+      ],
+      "map_update": "2020-10-16 16:30:42",
+      "map_created": "2020-04-24 16:55:26",
+      "policy_matches": [
+        {
+          "row_index": 25,
+          "name": "深圳北理莫斯科大学附属光明凤凰城实验学校",
+          "scope": "塘家社区、甲子塘社区、塘尾社区、东坑社区、凤凰社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    },
+    {
+      "map_id": "fffaecb27e8b45baa19bf639d0afbf02",
+      "map_name": "南方科技大学附属光明荔园学校（小学部）",
+      "vertex_count": 100,
+      "unique_vertices": 100,
+      "has_noncollinear_area": true,
+      "geometry_valid": true,
+      "geometry_reason": "Valid Geometry",
+      "bounds": [
+        113.918264,
+        22.738018,
+        114.000575,
+        22.812527
+      ],
+      "map_text": "翠湖社区、东周社区、光明社区、碧眼社区、迳口社区、科韵社区、荔湖社区、楼村社区",
+      "map_point": [
+        "113.948357",
+        "22.773028"
+      ],
+      "map_update": "2024-06-03 14:41:46",
+      "map_created": "2024-06-03 10:34:37",
+      "policy_matches": [
+        {
+          "row_index": 1,
+          "name": "南方科技大学附属光明荔园学校",
+          "scope": "翠湖社区、东周社区、光明社区、碧眼社区、迳口社区、科韵社区、荔湖社区、楼村社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html"
+        }
+      ],
+      "match_status": "unique_name_normalization",
+      "name_suggestions_not_matches": []
+    }
+  ],
+  "raw_groups": []
+}

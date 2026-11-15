@@ -1,0 +1,12 @@
+[
+  {
+    "district": "坪山区",
+    "issue": "query_boundary_layer_not_captured",
+    "handling": "收录全部原始绘图面；当前维护公告及历史版本记录随包保存。"
+  },
+  {
+    "district": "两区",
+    "issue": "community_input_relations_missing",
+    "handling": "保留官网社区文字；不以评价polygon反推小区社区输入。"
+  }
+]

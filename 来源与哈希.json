@@ -1,0 +1,146 @@
+[
+  {
+    "original_workspace_path": "深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "package_path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "bytes": 2481041
+  },
+  {
+    "original_workspace_path": "深圳市/四区数据集_20261103_v1/构建工具/coordinates.py",
+    "package_path": "来源存档/深圳市/四区数据集_20261103_v1/构建工具/coordinates.py",
+    "sha256": "4b031eeedb890d66decac365528f876aef97475a40c1c49a1b4e1fb8a02ee820",
+    "bytes": 1553
+  },
+  {
+    "original_workspace_path": "深圳市/光明坪山准入核查_20261115/核查结论.txt",
+    "package_path": "来源存档/深圳市/光明坪山准入核查_20261115/核查结论.txt",
+    "sha256": "47d1ac2b0be90cbfa72451e2a1d138d89af189b1f8ca77a66fef18213fd9b9eb",
+    "bytes": 8240
+  },
+  {
+    "original_workspace_path": "深圳市/光明坪山准入核查_20261115/browser_receipt.json",
+    "package_path": "来源存档/深圳市/光明坪山准入核查_20261115/browser_receipt.json",
+    "sha256": "683046513f88f4f170097ed18d1b014ca3dd500862e3116f66cc0fb1554317e0",
+    "bytes": 1476
+  },
+  {
+    "original_workspace_path": "深圳市/光明坪山准入核查_20261115/current_sources_receipt.json",
+    "package_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources_receipt.json",
+    "sha256": "c2902169ecc8bc1de9e39a14ff602d5ad5032ab479456cc662f39897883625cd",
+    "bytes": 2355
+  },
+  {
+    "original_workspace_path": "深圳市/光明坪山准入核查_20261115/初核汇总.json",
+    "package_path": "来源存档/深圳市/光明坪山准入核查_20261115/初核汇总.json",
+    "sha256": "150d8a3e95e56effe0c912a3b064ab807e6ed6d01e390086e276cd7d50ece832",
+    "bytes": 19817
+  },
+  {
+    "original_workspace_path": "深圳市/光明坪山准入核查_20261115/current_sources/guangming_policy_browser.json",
+    "package_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/guangming_policy_browser.json",
+    "sha256": "65267fccf850421471a4ba319e4923c9bc0c37248fc9c7171c8509c0f238205e",
+    "bytes": 31469
+  },
+  {
+    "original_workspace_path": "深圳市/光明坪山准入核查_20261115/current_sources/pingshan_policy_browser.json",
+    "package_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/pingshan_policy_browser.json",
+    "sha256": "bc36aee9e7b0f81a702a83a7079a1329e03d2779f03fb3ee750f9debee3560a0",
+    "bytes": 111942
+  },
+  {
+    "original_workspace_path": "深圳市/光明坪山准入核查_20261115/current_sources/pingshan_map_status.html",
+    "package_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/pingshan_map_status.html",
+    "sha256": "6f39bfc7e91c6fa8a784f7d561050d50436a1e10b12afe75c4c0b958a7607ddd",
+    "bytes": 1223
+  },
+  {
+    "original_workspace_path": "深圳市/光明坪山准入核查_20261115/current_sources/pingshan_map_status.txt",
+    "package_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/pingshan_map_status.txt",
+    "sha256": "4e921c7b2b7b410514d98e061904030859b0c0f330b61b83dcf80f508c6768e6",
+    "bytes": 204
+  },
+  {
+    "original_workspace_path": "科研推进/六区准入网络核验_20261023/深圳/pingshan_map_landing.html",
+    "package_path": "来源存档/科研推进/六区准入网络核验_20261023/深圳/pingshan_map_landing.html",
+    "sha256": "38afd53a52a082a28f94d9bd8e16dd79df03d19758f3ff502d89035d739da902",
+    "bytes": 22886
+  },
+  {
+    "original_workspace_path": "深圳市/光明坪山身份复核_20261115/guangming_admission_ports.json",
+    "package_path": "来源存档/深圳市/光明坪山身份复核_20261115/guangming_admission_ports.json",
+    "sha256": "26e9d7931ccba906b3460f83608f363c10a543540eba0459cdb836abb445f303",
+    "bytes": 1633
+  },
+  {
+    "original_workspace_path": "深圳市/光明坪山身份复核_20261115/guangming_group_campuses.json",
+    "package_path": "来源存档/深圳市/光明坪山身份复核_20261115/guangming_group_campuses.json",
+    "sha256": "d4cd26d6987cdabf4d74525610de278f3050f540ea473d7f1f9a0d45460a21b1",
+    "bytes": 22279
+  },
+  {
+    "original_workspace_path": "深圳市/光明坪山身份复核_20261115/pingshan_school_directory.json",
+    "package_path": "来源存档/深圳市/光明坪山身份复核_20261115/pingshan_school_directory.json",
+    "sha256": "6db765c9f7840e428c1adf7185fe73bb838d2e1873325a7493c0ec528ac595a1",
+    "bytes": 3964
+  },
+  {
+    "original_workspace_path": "深圳市/光明坪山身份复核_20261115/pingshan_city_directory.json",
+    "package_path": "来源存档/深圳市/光明坪山身份复核_20261115/pingshan_city_directory.json",
+    "sha256": "b653de821e6271e6ee9714dc8903afd41ecd492edfbd305d65a3934573fc9137",
+    "bytes": 5889
+  },
+  {
+    "original_workspace_path": "深圳市/光明坪山身份复核_20261115/坪山双路径比较.json",
+    "package_path": "来源存档/深圳市/光明坪山身份复核_20261115/坪山双路径比较.json",
+    "sha256": "adf6c3115d23692a3215b30c6462491a258107a4a1ea17d3163272507293a823",
+    "bytes": 1920
+  },
+  {
+    "original_workspace_path": "深圳市/光明坪山身份复核_20261115/复核结论.txt",
+    "package_path": "来源存档/深圳市/光明坪山身份复核_20261115/复核结论.txt",
+    "sha256": "82c39568f6c8e1499df2a65285e63ed303d9e2e60a2d8f89f1cde1a46d80a994",
+    "bytes": 3412
+  },
+  {
+    "original_workspace_path": "深圳市/光明坪山准入核查_20261115/current_sources/guangming_map_browser.json",
+    "package_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/guangming_map_browser.json",
+    "sha256": "4fcf8aab0ba3a1f67fbf552dc9b62d0f80bf024a958bd4d11f90edb6f77644be",
+    "bytes": 283190
+  },
+  {
+    "original_workspace_path": "深圳龙华_历史基线/深圳区/政策文本/光明区_2026_小学招生范围.json",
+    "package_path": "来源存档/深圳龙华_历史基线/深圳区/政策文本/光明区_2026_小学招生范围.json",
+    "sha256": "a6ae88cc6161452105d5899cd395d50937ca75e791f785d9fd22a913d156f1f6",
+    "bytes": 42705
+  },
+  {
+    "original_workspace_path": "深圳市/光明坪山准入核查_20261115/光明区_逐校初核.json",
+    "package_path": "来源存档/深圳市/光明坪山准入核查_20261115/光明区_逐校初核.json",
+    "sha256": "23ba16838baf4fcda6b877a8c926800744a5511af280fe10ace94b6a383d66d1",
+    "bytes": 66369
+  },
+  {
+    "original_workspace_path": "科研推进/六区准入网络核验_20261023/深圳/pingshan_public_map_data.json",
+    "package_path": "来源存档/科研推进/六区准入网络核验_20261023/深圳/pingshan_public_map_data.json",
+    "sha256": "333dae89adec92da8a14c9b4f618c38dd1b7ac7d905d72e7c953f712425ee24f",
+    "bytes": 236191
+  },
+  {
+    "original_workspace_path": "深圳龙华_历史基线/深圳区/政策文本/坪山区_2026_小学招生范围.json",
+    "package_path": "来源存档/深圳龙华_历史基线/深圳区/政策文本/坪山区_2026_小学招生范围.json",
+    "sha256": "31b3f30a26e87ba784dd2de1d5e17b6fae0b93202450d74ce78bc882bcc07ee0",
+    "bytes": 24839
+  },
+  {
+    "original_workspace_path": "深圳市/光明坪山准入核查_20261115/坪山区_逐校初核.json",
+    "package_path": "来源存档/深圳市/光明坪山准入核查_20261115/坪山区_逐校初核.json",
+    "sha256": "c69841370dc6b8da7c79cdfc99bcccab406a187b2816b3aefc7994a01d031094",
+    "bytes": 61007
+  },
+  {
+    "original_workspace_path": "深圳市/polygon与文字整理_20261110/viewer_template.html",
+    "package_path": "来源存档/深圳市/polygon与文字整理_20261110/viewer_template.html",
+    "sha256": "3680980c28da1cea8476f4c1706eea42ccd9a87b4a6f05e473d5182d18b5adc5",
+    "bytes": 14786
+  }
+]

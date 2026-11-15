@@ -1,0 +1,612 @@
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<style type="text/css">
+body, html, #allmap {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	margin: 0;
+	font-family: "微软雅黑";
+	font-size: 14px;
+}
+
+.kwbar {
+	padding: 6px;
+	overflow: hidden;
+	background: #F1F1F1;
+	border: 1px solid #d7d7d7;
+}
+
+.dt_right{float:right;margin-right: 6%;}
+.dt_main_green{float: left;margin-left: 20px;border: 1px solid #fff;color: #fff;padding: 2px;background: green;cursor: pointer;}
+.dt_main_none{float: left;margin-left: 20px;border: 1px solid #fff;color: #fff;padding: 2px;background: none;cursor: pointer;}
+ 
+</style>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/kwz.zslogin.js"></script>
+<script src="js/jquery.md5.js"></script>
+<script src="js/jquery.loadJSON.js"></script>
+<script src="js/zui.min.js"></script>
+<script src="js/arttemplate.js"></script>
+<script src="js/plugins/validation/dist/jquery.validate.js"></script>
+<script src="js/plugins/validation/localization/messages_zh.js"></script>
+<script src="js/kwz.validate.js"></script>
+<script src="js/kwz.encrypt.js"></script>
+<script src="js/kwz.core.js"></script>
+<script src="js/kwz.ajax.js"></script>
+<script src="js/kwz.page.js"></script>
+<script src="js/kwz.permission.js"></script>
+<script src="js/sfz_validate.js"></script>
+<script src="js/kwz.datetime.js"></script>
+<script src="js/public.js"></script>
+<script type="text/javascript" src="https://pass-api.ibtmap.com/b/_BMapJsApi30/api?key=529U1I8y2rrI8kyXufIvOe4"></script>
+<script type="text/javascript" src="https://api.map.baidu.com/library/GeoUtils/1.2/src/GeoUtils_min.js"></script>
+<title>学区地图</title>
+</head>
+<body>
+  <div style="background-color:#278df2;overflow:hidden;" class="kwbar col-md-12 in" id="jcorg_condition">
+    <span id="xxlx_span" style="font-size: large;color: white;"><font id="xxlx_font"></font></span> 
+          &nbsp;&nbsp;请选择查询方式：
+    <select id="TYPE" name="TYPE" class="form-control">
+      <option value="0">学校名称</option>
+      <option value="1">楼盘名称</option>
+      <option value="2">房屋编码</option>
+    </select>
+    <INPUT TYPE="TEXT" ID="str" NAME="str" class="form-control" />
+    <button class="btn btn-default" type="button" id="" onclick="search_school()">搜索</button>
+    <div class="dt_right">
+      <div style="float: left;    margin-left: 20px;    padding: 2px;    background: none;    cursor: pointer;">地图审图号：GS（2022）460号</div>
+    </div>
+    <div class="pull-left mtr4" id="s_result"></div>
+  </div>
+  <div id="allmap"></div>
+<div id='background' class='background'></div>
+<div id='progressBar' class='progressBar'>数据加载中，请稍等...</div>
+<div class="hidden" id="modal_div"></div>
+</body>
+<script type="text/javascript">
+var indexData = {};
+var loginData = {};
+KWZ.jc_isencode = 'Y'||'N';
+KWZ.jc_isencrypt ='Y'|| 'N';
+KWZ.jc_responsebody_isencrypt = 'Y'|| 'N';
+KWZ.WXTS ='';
+KWZ.token ='6fe7bb361bed45b699668c5dd750eb26';
+KWZ.enPV ='03412c983e0929c1cb16f913da0dbd3e02a47237e4f7b8737d9f485823efb923b8';
+KWZ._set.debug ='false';
+KWZ.version='2'||KWZ.version;
+KWZ.ctx = '';
+var cacct = "";
+var sacct = "";
+
+var switchRegFlag = null
+var switchMsgFlag = null
+var zcxy = 'null';
+var findpwd = 'null';
+var switchLoginFlag = 0
+var url = top.location.href;
+$(document).ready(function() {
+	var url = window.location.href;
+	if(url.indexOf("cy") >= 0){
+		$("#div_cz").removeClass("dt_main_none");
+		$("#div_cz").addClass("dt_main_green");
+	}else{
+		$("#div_xx").removeClass("dt_main_none");
+		$("#div_xx").addClass("dt_main_green")
+	}
+	//dt_main_green   
+	KWZ.init({
+		loginUrl:"login_dialog.html", loginTitle:"登录",	// 弹出登录对话框
+		loginUrl:"login.html",	// 跳到登录页面
+		statusCode:{ok:200, error:300, timeout:301}, //【可选】
+		keys: {statusCode:"statusCode", message:"msg"}
+	}); 
+	var ajaxbg = $("#background,#progressBar");
+	ajaxbg.hide();
+	$(document).ajaxStart(function(){
+		ajaxbg.show();
+	}).ajaxStop(function(){
+		ajaxbg.hide();
+	});
+	document.onkeypress = KWZ.forbidBackSpace;
+	document.onkeydown = KWZ.forbidBackSpace;
+	if(KWZ.WXTS){		
+		setTimeout(function(){alert(KWZ.WXTS)},2000);
+	}
+	//$.ajaxUrl({"url":"tpl_index.html","into":"body","callback":Login.LoginInit});
+}); 
+
+	var map = new Object();
+	var otherxx = {};
+	var orgmap = "";
+	var borderpoints = {};
+	var searchdata;
+	var POINTX;
+	var POINTY;
+	var Dxqlist;
+	var sjbjxxname = ",";
+	var w = -1, x = -2;var num = -1;
+	var ply_temp = null, lab_temp = null; //存放带颜色的polygon覆盖物以及随鼠标移动的label标签
+	$(function() {
+		 $.ajaxUrl({
+			url : "zs_xqdt/open/getxqdt",
+			/* data : {
+				"ORG_DJ" : "50"
+			}, */
+			callback : function(data) {
+				borderpoints = {};
+				otherxx = {};
+				if (data.datas.data) {
+					borderpoints = eval(data.datas.data.MAPDATA);
+					POINTX = data.datas.data.POINTX;
+					POINTY = data.datas.data.POINTY;
+					Dxqlist = data.datas.Dxqlist;					
+				}
+				if (data.datas.data1) {
+					$("#xxlx_font").html("学区地图");
+					document.title="学区地图"; 					
+				}
+				if (data.datas.data2) {
+					otherxx = data.datas.data2;
+					for (var i=0;i<otherxx.length;i++){
+						if(otherxx[i].ORG_ID=="496FFFE16E0B5558E053BC09A8C0A5ED"){
+							var obj=new Object();
+							obj.DXQ_ID="99999999999999999999999999999999";
+							obj.DXQ_MC="";
+							obj.XXID="496FFFE16E0B5558E053BC09A8C0A5ED,7dd8ad1a1b6d46e8a3ff1aee904a69d2";
+							Dxqlist.push(obj);
+						}							
+					}					
+				}
+			}
+		}) 
+		$.ajaxUrl({
+			url : "zs_xqdt/open/getxqdtSjbj",
+			callback : function(data) {
+				sjbjxx = data.datas.data;
+				for (var k = 0; k < sjbjxx.length; k++) {
+					sjbjxxname=sjbjxxname+sjbjxx[k].ORG_ID+",";
+				}
+			}
+		}) 
+		// 百度地图API功能
+		map = new BMap.Map("allmap", {
+			enableMapClick : false
+		});
+		setMapEvent();
+		addMapControl();
+		if (POINTX != null && POINTY != null) {
+			var point = new BMap.Point(POINTX, POINTY);
+		} else {
+			var point = new BMap.Point(114.025973657, 22.5460535462);
+		}
+		map.centerAndZoom(point, 14);
+		map.setMinZoom(11); //设置地图最小缩放级别
+		getBoundary();
+		otherotherxx();				
+	});
+
+	/*启用事件函数*/
+	function setMapEvent() {
+		map.enableScrollWheelZoom(); /*启用地图滚轮放大缩小*/
+		map.enableKeyboard(); /*启用键盘上下左右键移动地图*/
+	}
+
+	/*地图控件添加函数：*/
+	function addMapControl() {
+		map.addControl(new BMap.NavigationControl()); /*添加左上方的地图平移缩放控件*/
+		map.addControl(new BMap.ScaleControl()); /*添加左下方的比例尺控件*/
+		map.addControl(new BMap.MapTypeControl({
+			mapTypes : [ BMAP_NORMAL_MAP, BMAP_SATELLITE_MAP ]
+		})); /*添加右上方的地图类型控件*/
+		
+		map.addEventListener("click",function(e){	
+			w=num;
+		    if(undefined!=otherxx[w]){
+				var Dxqxxlist,WZ="";
+				var MsgDxqMc="";MsgMc="";var MsgDz="";var MsgDh="";var MsgXq="";var MsgWz="";
+    			for (var i=0;i<Dxqlist.length;i++){				
+    				if(Dxqlist[i].XXID.indexOf(otherxx[w].ORG_ID)>-1){
+    					Dxqxxlist=Dxqlist[i].XXID;
+    					MsgDxqMc+=Dxqlist[i].DXQ_MC+":";
+    				}
+    		    }
+    			if(undefined!=Dxqxxlist){ 
+    				var message='';var size=0;
+    				for (var i=0;i<otherxx.length;i++){
+    					var xxstr = ""
+    					if(Dxqxxlist.indexOf(otherxx[i].ORG_ID)>-1){
+    						MsgDxqMc+=MsgDxqMc==""?otherxx[i].MC:"|"+otherxx[i].MC;
+    						MsgWz="";
+    						if(otherxx[i].MC){MsgMC=otherxx[i].MC||""};  
+    	    				if(otherxx[i].DZ){MsgDz=otherxx[i].DZ||""};  
+    	    				if(otherxx[i].DH){MsgDh=otherxx[i].DH||""}; 
+    	    				if(otherxx[i].XQ){MsgXq=otherxx[i].XQ||""};    
+    	    				if(otherxx[i].WZ){MsgWz=otherxx[i].WZ||""}; 
+    	    				if(MsgWz){
+    	        	    		var WZ2=MsgWz;
+    	        	    		if(WZ2.indexOf("http://")<0){
+    	        	    			WZ2 = "http://"+WZ2;
+    	        	    		}
+    	        	    		WZ="网址：<a href='"+WZ2+"' target='_blank'>"+MsgWz+"</a>"+"<br/>";
+    	        	    	}
+    						var MC="",DZ="",DH="",XQ="";
+    						if(MsgMC){MC="学校名称："+MsgMC+"<br/>";}
+        	    	    	if(MsgDz){DZ="地址："+MsgDz+"<br/>";}
+        	    	    	if(MsgDh){DH="电话："+MsgDh+"<br/>";}
+        	    	    	if(size==(Dxqxxlist.split(',').length-1)){
+        	    	    		if(MsgXq){XQ="-----------------------------------------------------<br/>学区："+MsgXq+"<br/>";}   
+            	    	    	if(otherxx[i].BY28){
+            						XQ=XQ+"温馨提示："+otherxx[i].BY28+"<br/>";				
+            					}	
+        	    	    	}else{
+                              if(MsgXq){XQ="-----------------------------------------------------<br/>学区："+MsgXq+"<br/>";}
+                            }
+                          var HH = "-----------------------------------------------------<br/>";
+    						xxstr=HH+MC+DZ+DH+WZ+XQ;
+    						size++;
+    	        	    }       						    	
+    	    		  	message += xxstr;
+    				}       
+    				var opts = {
+    	    	    		width : 0,     // 信息窗口宽度
+    	    	  			height: 0,     // 信息窗口高度
+    	    	  			title : "<font size='3' color='#FF4500'><strong style='white-space: normal'>"+MsgDxqMc+"</strong></font>", // 信息窗口标题
+    	    	  			enableMessage:false//设置不允许信息窗发送短息
+    	    	  			//message:obj.message
+    	    	  		}    	    	    			  	
+    	    		  	var infoWindow = new BMap.InfoWindow(message,opts);  // 创建信息窗口对象 
+    	    		  	var point = new BMap.Point(otherxx[w].POINTX,otherxx[w].POINTY);        
+    	    		  	map.openInfoWindow(infoWindow,point); 				 //开启信息窗口
+    			}else{
+    				MsgMc=otherxx[w].MC;MsgWz="";
+    				if(otherxx[w].DZ){MsgDz=otherxx[w].DZ||""};  
+    				if(otherxx[w].DH){MsgDh=otherxx[w].DH||""}; 
+    				if(otherxx[w].XQ){MsgXq=otherxx[w].XQ||""};    
+    				if(otherxx[w].WZ){MsgWz=otherxx[w].WZ||""}; 
+    				if(MsgWz){
+        	    		var WZ2=MsgWz;
+        	    		if(WZ2.indexOf("http://")<0){
+        	    			WZ2 = "http://"+WZ2;
+        	    			//console.info(WZ2);
+        	    		}
+        	    		WZ="网址：<a href='"+WZ2+"' target='_blank'>"+MsgWz+"</a>"+"<br/>";
+        	    	}
+    				var opts = {
+    	    	    		width : 0,     // 信息窗口宽度
+    	    	  			height: 0,     // 信息窗口高度
+    	    	  			title : "<font size='3' color='#FF4500'><strong style='white-space: normal'>"+MsgMc+"</strong></font>", // 信息窗口标题
+    	    	  			enableMessage:false//设置不允许信息窗发送短息
+    	    	  			//message:obj.message
+    	    	  		}
+    	    	    	var DZ="",DH="",XQ="";	    	
+    	    	    	if(MsgDz){DZ="地址："+MsgDz+"<br/>";}
+    	    	    	if(MsgDh){DH="电话："+MsgDh+"<br/>";}
+    	    	    	if(MsgXq){XQ="学区："+MsgXq+"<br/>";}  
+    	    	    	if(otherxx[w].BY28){
+    						XQ=XQ+"温馨提示："+otherxx[num].BY28+"<br/>";				
+    					}	
+    	    	    	//var xxmc1=otherxx[w].MC;
+    	    		  	var message=DZ+DH+WZ+XQ;		  	
+    	    		  	var infoWindow = new BMap.InfoWindow(message,opts);  // 创建信息窗口对象 
+    	    		  	var point = new BMap.Point(otherxx[w].POINTX,otherxx[w].POINTY);        
+    	    		  	map.openInfoWindow(infoWindow,point); 				 //开启信息窗口
+    			}    	    	
+			}
+	    });
+		
+		map.addEventListener("mousemove", function(e) {//取消鼠标移动事件，防止不同学校划了同一地段时导致某一个学校的地段会被覆盖
+			var point1 = new BMap.Point(e.point.lng, e.point.lat);
+			for (var j=0;j<otherxx.length;j++){				
+					var pointtemp = eval(otherxx[j].MAPDATA);
+					if(sjbjxxname.indexOf(otherxx[j].ORG_ID)>-1){//是否在实际边界有数值
+						for (var k = 0; k < sjbjxx.length; k++) {
+							if(sjbjxx[k].ORG_ID==otherxx[j].ORG_ID){
+								var pointtemp = eval(sjbjxx[k].MAPDATA);
+							}
+						}
+					}					
+					var ps = [];
+					for (var i=0;i<pointtemp.length;i++){
+						var point = new BMap.Point(pointtemp[i].x, pointtemp[i].y);
+						ps.push(point);
+					}
+					var plylatlng = new BMap.Polygon(ps);
+					var result = BMapLib.GeoUtils.isPointInPolygon(point1, plylatlng);  
+				    if(result){
+				    	num=j;
+				    	x=j;
+				    	break;
+				    }
+			}
+          map.removeOverlay(ply_temp);
+          map.removeOverlay(lab_temp);
+          /*if(num>-1){
+              map.removeOverlay(ply_temp);
+              map.removeOverlay(lab_temp);
+              var ps = [];
+              var borderpointstemp = eval(otherxx[num].MAPDATA);
+              for (var j = 0; j < borderpointstemp.length; j++) {
+                  var point = new BMap.Point(borderpointstemp[j].x, borderpointstemp[j].y);
+                  ps.push(point);
+              }
+              var ply_move = new BMap.Polygon(ps, {
+                  strokeColor : "",
+                  strokeWeight : 1.3,
+                  strokeOpacity : 1,
+                  fillColor : "#FFFF00",
+                  fillOpacity : 0.3,
+                  strokeStyle : "dashed"
+              });
+              map.addOverlay(ply_move);
+              ply_temp = ply_move;
+          }else{
+              map.removeOverlay(ply_temp);
+              map.removeOverlay(lab_temp);
+          }
+          //随鼠标移动的标签
+          if (w > -1) {
+              map.removeOverlay(lab_temp);
+              var Dxqxxlist;
+              var MsgMc="";var MsgXh="";var MsgDz="";var MsgDh="";var MsgXq="";var MsgWz="";
+              for (var i=0;i<Dxqlist.length;i++){
+                  if(Dxqlist[i].XXID.indexOf(otherxx[num].ORG_ID)>-1){
+                      Dxqxxlist=Dxqlist[i].XXID;
+                  }
+              }
+              if(undefined!=Dxqxxlist){
+                  for (var i=0;i<otherxx.length;i++){
+                      if(Dxqxxlist.indexOf(otherxx[i].ORG_ID)>-1){
+                          MsgMc+=MsgMc==""?otherxx[i].MC:"|"+otherxx[i].MC;
+                          if(otherxx[i].DZ){MsgDz+=MsgDz==""?otherxx[i].DZ:"|"+otherxx[i].DZ};
+                          if(otherxx[i].DH){MsgDh+=MsgDh==""?otherxx[i].DH:"|"+otherxx[i].DH};
+                          if(otherxx[i].XQ){MsgXq+=MsgXq==""?otherxx[i].XQ:"|"+otherxx[i].XQ};
+                          if(otherxx[i].WZ){MsgWz+=MsgWz==""?otherxx[i].WZ:"|"+otherxx[i].WZ};
+                      }
+                  }
+              }else{
+                  MsgMc=otherxx[num].MC||"";
+                  MsgDz=otherxx[num].DZ||"";
+                  MsgDh=otherxx[num].DH||"";
+                  MsgXq=otherxx[num].XQ||"";
+                  MsgWz=otherxx[num].WZ||"";
+              }
+              //console.log("e.point.lng:"+e.point.lng);
+              //console.log("we.point.lat:"+e.point.lat);
+              var labeltext ="";
+              var bhmctext ="";
+              if(otherxx[num].XH){
+                  bhmctext = "<font color=''>地段编号：" + (otherxx[num].XH||"未编号") + "<br/>";
+              }
+              var xxmctext = "学校名称：" + MsgMc + "<br/>";
+              var xxdhtext = "招生电话：" + MsgDh + "</font><br/>";
+              labeltext = labeltext + bhmctext + xxmctext + xxdhtext;
+              var lab_move = new BMap.Label(labeltext, {
+                  //offset : new BMap.Size(-60, 20)
+              });
+              lab_move.setPosition(new BMap.Point(e.point.lng, e.point.lat));
+              map.addOverlay(lab_move);
+              lab_temp = lab_move;
+
+          } else {
+              map.removeOverlay(lab_temp);
+          }*/
+		})
+	}
+	function getBoundary() {
+		if (borderpoints != undefined && borderpoints.length > 0) {
+			var ps = [];
+			var cen = map.getCenter();
+			var ps_up = [];
+			var ps_down = [];
+			var point1 = new BMap.Point(110.461876,20.611113);
+			ps_up.push(point1);			
+			var point2 = new BMap.Point(110.461876,24.0182);
+			ps_up.push(point2);			
+			var point3 = new BMap.Point(116.786481,24.175636);
+			ps_up.push(point3);			
+			var point4 = new BMap.Point(116.786481,20.611113);
+			ps_up.push(point4);			
+			var point5 = new BMap.Point(110.461876,20.611113);
+			ps_up.push(point5);			
+			for (var i = 0; i < borderpoints.length; i++) {
+				var point = new BMap.Point(borderpoints[i].x, borderpoints[i].y);
+				var point1 = new BMap.Point(borderpoints[borderpoints.length-i-1].x, borderpoints[borderpoints.length-i-1].y);
+				ps.push(point);
+				ps_up.push(point);
+				if(i < 1 ||i > borderpoints.length-2)	{
+					ps_down.push(point);
+				}										
+			}
+			ps_down.push(point5);
+			spolygon = new BMap.Polygon(ps, {
+				strokeColor : "red",
+				strokeWeight : 5,
+				strokeOpacity : 1,
+				fillColor : "white",
+				fillOpacity : 0.001
+			});
+			map.addOverlay(spolygon);
+			var spolygon1 = new BMap.Polygon(ps_up,{ strokeColor: "none", fillColor: "rgb(246,246,246)", strokeOpacity:1,fillOpacity:1}); //建立多边形覆盖物
+			map.addOverlay(spolygon1);
+			var spolygon2 = new BMap.Polygon(ps_down,{ strokeColor: "none", fillColor: "rgb(246,246,246)", strokeOpacity:1,fillOpacity:1}); //建立多边形覆盖物
+			map.addOverlay(spolygon2);			
+			//上113.461876,23.0182 114.786481,23.175636 下 113.312398,22.148997 114.956656,22.211113
+		}
+	}
+	function otherotherxx() {
+		for (var i = 0; i < otherxx.length; i++) {
+			var label = new BMap.Label((otherxx[i].XH||"")+(otherxx[i].MC||""), {offset: new BMap.Size( 10, 25)});			//创建气球下方名称标签
+		    label.setStyle({borderColor: "gray",color: "green"});		    
+			var spointtemp = new BMap.Point(otherxx[i].POINTX, otherxx[i].POINTY);
+			var smarkertemp = new BMap.Marker(spointtemp);
+			smarkertemp.setLabel(label);
+			map.addOverlay(smarkertemp);
+			var ps = [];
+			var borderpointstemp = eval(otherxx[i].MAPDATA);
+			for (var j = 0; j < borderpointstemp.length; j++) {
+				var point = new BMap.Point(borderpointstemp[j].x, borderpointstemp[j].y);
+				ps.push(point);
+			}
+			var plyname = "polygon" + i;
+			ply_event(plyname, ps, i);
+		}
+	}
+	function ply_event(plyname, zps, i) {		
+	    plyname = new BMap.Polygon(zps, {
+			strokeColor : "red",
+			strokeWeight : 3.3,
+			strokeOpacity : 1,
+			fillColor : "white",
+			fillOpacity : 0.001,
+			strokeStyle : "dashed"
+		});
+		map.addOverlay(plyname);
+		plyname.addEventListener("mouseover", function() {
+			w = i;
+		});
+		plyname.addEventListener("mousemove", function() {
+			w = i;
+		});
+		plyname.addEventListener("mouseout", function() {
+			w = -1;
+		});
+	}
+
+	//搜索学校
+	function search_school() {
+		var text = "";
+		var searchxx = ",";
+		var str = $("#str").val();
+		var TYPE = $("#TYPE").val();
+		var s_result = $("#s_result");
+		if (str.length < 2) {
+			$("#s_result").html("<font size='3' color='red'>至少输入二个字！</font>");
+			return false;
+		}
+		var len = 0;
+		var first = -1;
+		var searchxx;
+		if (TYPE == 0) {
+			for (var i = 0; i < otherxx.length; i++) {
+				if (len < 5 && otherxx[i].MC && otherxx[i].MC.indexOf(str) >= 0) {
+					text += "<a href='javascript:void(0);' onclick='add_ply_find(\"" + otherxx[i].ORG_ID + "\")'><font size='3' color='red'>" + otherxx[i].MC + "</font></a>&nbsp;&nbsp;";
+					len++;
+					if (first == -1) {
+						first = otherxx[i].ORG_ID;
+					}
+				}
+			}
+		} else if(TYPE == 2){
+				$.ajaxUrl({
+					url : "zs_xqfdzfwhf/open/doWxyhfList",
+					data : {
+						"FWBM" : str
+					},
+					callback : function(data) {
+						searchdata = (data.datas == undefined || data.datas == "" || data.datas == null) ? "." : data;
+						if (searchdata != ".") {
+							for (var i = 0; i < otherxx.length; i++) {									
+								for (var j = 0; j < searchdata.datas.length; j++) {									
+									if (otherxx[i].ORG_ID == searchdata.datas[j].XXID) {
+										console.log(otherxx[i].ORG_ID);
+										text += "<a href='javascript:void(0);' onclick='add_ply_find(\"" + otherxx[i].ORG_ID + "\")'><font size='3' color='red'>" + otherxx[i].MC + "</font></a>&nbsp;&nbsp;";
+										len++;
+										if (first == -1) {
+											first = otherxx[i].ORG_ID;
+										}
+									}
+								}
+							}
+						}
+					}	
+			})			
+		}else if (TYPE == 1){			
+			var type = 0;
+			for (var i = 0; i < otherxx.length; i++) {
+				if (len < 5 && otherxx[i].XQ && otherxx[i].XQ.indexOf(str) >= 0) {
+					var arr_search = otherxx[i].XQ.split(";");
+					for (var j = 0; j < arr_search.length; j++) {
+						if (arr_search[j].indexOf(str) >= 0) {
+							text += "<a href='javascript:void(0);' onclick='add_ply_find(\"" + otherxx[i].ORG_ID + "\")'><font size='3' color='red'>" + otherxx[i].MC + "</font></a>&nbsp;&nbsp;";
+							len++;
+							//searchxx += otherxx[i].ORG_ID + ",";
+							if (first == -1) {
+								first = otherxx[i].ORG_ID;
+							}
+						}
+					}
+				}
+			}
+		}
+		if (len == 0) {
+			text += "<font size='3' color='red'>未搜索到相关结果！</font>";
+		} else if (len >= 5) {
+			text += "<font size='3' color='red'>(搜索结果过多,请输入准确名称)</font>";
+		}
+		s_result.html(text);
+		if (len != 0) {
+			add_ply_find(first);
+		}
+	}
+     
+	//给搜索到的学校区域添加ply_find覆盖物并移至视界中心
+	function add_ply_find(ORG_ID) {
+		var num = -1;
+		map.removeOverlay(ply_temp);
+		map.removeOverlay(lab_temp);
+		for (var i = 0; i < otherxx.length; i++) {
+			if (ORG_ID == otherxx[i].ORG_ID) {
+				num = i
+			}
+		}
+		if (num != -1) {
+			var ps = [];
+			var borderpointstemp = eval(otherxx[num].MAPDATA);
+			for (var j = 0; j < borderpointstemp.length; j++) {
+				var point = new BMap.Point(borderpointstemp[j].x, borderpointstemp[j].y);
+				ps.push(point);
+			}
+			var ply_move = new BMap.Polygon(ps, {
+				strokeColor : "",
+				strokeWeight : 1.3,
+				strokeOpacity : 1,
+				fillColor : "#FFFF00",
+				fillOpacity : 0.3,
+				strokeStyle : "dashed"
+			});
+			map.addOverlay(ply_move);
+			ply_temp = ply_move;
+			//x=num;		
+			map.removeOverlay(lab_temp);
+			var xqbh = "";
+			if (otherxx[num].XM) {
+				xqbh = "<font size='7' color='orange'>" + otherxx[num].XM + "</font><br/>";
+			}
+			var labeltext = xqbh + otherxx[num].MC;
+			var lab_move = new BMap.Label(labeltext, {
+				//offset : new BMap.Size(-60, 20)
+			});
+			var center_find = new BMap.Point(otherxx[num].POINTX, otherxx[num].POINTY);
+			lab_move.setPosition(center_find);
+			map.addOverlay(lab_move);
+			lab_temp = lab_move;
+			map.centerAndZoom(center_find, 15);
+		}
+	}
+</script>
+</html>

@@ -1,0 +1,2115 @@
+[
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0145",
+    "zone_id": "sz:guangming:zone:42dd760f045d4e9ba217c419ed70db36",
+    "district": "光明区",
+    "school_name": "深圳市光明区实验学校同心小学",
+    "map_school_name": "光明区实验学校同心小学",
+    "map_scope_text": "长圳社区、玉塘社区、甲子塘社区、塘家社区",
+    "independent_texts": [
+      {
+        "scope_text": "长圳社区、玉塘社区、甲子塘社区、塘家社区",
+        "school_name_raw": "深圳市光明区实验学校同心小学",
+        "year": 2026,
+        "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+        "source_position": "公办小学学区及咨询电话 第36行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0145",
+        "original_scope_text": "长圳社区、玉塘社区、甲子塘社区、塘家社区",
+        "original_record": {
+          "district": "光明区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "深圳市光明区实验学校同心小学",
+          "scope_text": "长圳社区、玉塘社区、甲子塘社区、塘家社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+          "source_file": "原始资料\\招生政策\\光明区政府_学区划分_4b08287e45.html",
+          "source_section": "公办小学学区及咨询电话",
+          "source_row": 36,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "school_address": "玉塘街道玉塘社区，东长路与光侨路交汇处西北侧",
+          "education_group": "深圳市光明区实验学校（集团）",
+          "source_table_index": 0,
+          "record_id": "sz_2026_primary_scope_0145"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/guangming_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0127",
+    "zone_id": "sz:guangming:zone:496FFFE16D3E5558E053BC09A8C0A5ED",
+    "district": "光明区",
+    "school_name": "深圳市光明区教育科学研究院附属楼村小学",
+    "map_school_name": "光明区教育科学研究院附属楼村小学",
+    "map_scope_text": "楼村社区、荔湖社区、科韵社区、新羌社区、圳美社区、云谷社区",
+    "independent_texts": [
+      {
+        "scope_text": "楼村社区、荔湖社区、科韵社区、新羌社区、圳美社区、云谷社区",
+        "school_name_raw": "深圳市光明区教育科学研究院附属楼村小学",
+        "year": 2026,
+        "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+        "source_position": "公办小学学区及咨询电话 第18行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0127",
+        "original_scope_text": "楼村社区、荔湖社区、科韵社区、新羌社区、圳美社区、云谷社区",
+        "original_record": {
+          "district": "光明区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "深圳市光明区教育科学研究院附属楼村小学",
+          "scope_text": "楼村社区、荔湖社区、科韵社区、新羌社区、圳美社区、云谷社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+          "source_file": "原始资料\\招生政策\\光明区政府_学区划分_4b08287e45.html",
+          "source_section": "公办小学学区及咨询电话",
+          "source_row": 18,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "school_address": "新湖街道楼村社区公常路853号",
+          "education_group": "深圳市光明区教育科学研究院附属教育集团",
+          "source_table_index": 0,
+          "record_id": "sz_2026_primary_scope_0127"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/guangming_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0122",
+    "zone_id": "sz:guangming:zone:496FFFE16D415558E053BC09A8C0A5ED",
+    "district": "光明区",
+    "school_name": "深圳市光明区李松蓢学校",
+    "map_school_name": "光明区李松蓢学校（小学部）",
+    "map_scope_text": "李松蓢社区、西田社区、上村社区、下村社区",
+    "independent_texts": [
+      {
+        "scope_text": "上村社区、下村社区、李松蓢社区、西田社区",
+        "school_name_raw": "深圳市光明区李松蓢学校",
+        "year": 2026,
+        "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+        "source_position": "公办小学学区及咨询电话 第13行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0122",
+        "original_scope_text": "上村社区、下村社区、李松蓢社区、西田社区",
+        "original_record": {
+          "district": "光明区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "深圳市光明区李松蓢学校",
+          "scope_text": "上村社区、下村社区、李松蓢社区、西田社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+          "source_file": "原始资料\\招生政策\\光明区政府_学区划分_4b08287e45.html",
+          "source_section": "公办小学学区及咨询电话",
+          "source_row": 13,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "school_address": "公明街道李松蓢社区志康路90号",
+          "education_group": "深圳市光明区高级中学（集团）",
+          "source_table_index": 0,
+          "record_id": "sz_2026_primary_scope_0122"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/guangming_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0125",
+    "zone_id": "sz:guangming:zone:16305bba770f45e9b95398348fa8b511",
+    "district": "光明区",
+    "school_name": "深圳理工大学附属光明实验小学（原宝滨小学）",
+    "map_school_name": "深圳理工大学附属光明实验小学",
+    "map_scope_text": "上村社区、下村社区、李松蓢社区、西田社区、公明社区",
+    "independent_texts": [
+      {
+        "scope_text": "上村社区、下村社区、李松蓢社区、西田社区、公明社区",
+        "school_name_raw": "深圳理工大学附属光明实验小学（原宝滨小学）",
+        "year": 2026,
+        "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+        "source_position": "公办小学学区及咨询电话 第16行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0125",
+        "original_scope_text": "上村社区、下村社区、李松蓢社区、西田社区、公明社区",
+        "original_record": {
+          "district": "光明区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "深圳理工大学附属光明实验小学（原宝滨小学）",
+          "scope_text": "上村社区、下村社区、李松蓢社区、西田社区、公明社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+          "source_file": "原始资料\\招生政策\\光明区政府_学区划分_4b08287e45.html",
+          "source_section": "公办小学学区及咨询电话",
+          "source_row": 16,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "school_address": "公明街道上村社区波光二路88号",
+          "education_group": "深圳理工大学附属光明教育集团",
+          "source_table_index": 0,
+          "record_id": "sz_2026_primary_scope_0125"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/guangming_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0152",
+    "zone_id": "sz:guangming:zone:55cecf8543c04839bda1b6b776f2455b",
+    "district": "光明区",
+    "school_name": "深圳市光明区理创实验学校",
+    "map_school_name": "光明区理创实验学校（小学部）",
+    "map_scope_text": "薯田埔社区、马山头社区、根竹园社区、合水口社区、禾湾社区",
+    "independent_texts": [
+      {
+        "scope_text": "薯田埔社区、马山头社区、根竹园社区、合水口社区、禾湾社区",
+        "school_name_raw": "深圳市光明区理创实验学校",
+        "year": 2026,
+        "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+        "source_position": "公办小学学区及咨询电话 第43行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0152",
+        "original_scope_text": "薯田埔社区、马山头社区、根竹园社区、合水口社区、禾湾社区",
+        "original_record": {
+          "district": "光明区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "深圳市光明区理创实验学校",
+          "scope_text": "薯田埔社区、马山头社区、根竹园社区、合水口社区、禾湾社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+          "source_file": "原始资料\\招生政策\\光明区政府_学区划分_4b08287e45.html",
+          "source_section": "公办小学学区及咨询电话",
+          "source_row": 43,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "school_address": "马田街道马山头社区龟岗东路120号",
+          "education_group": "深圳市光明区高级中学（集团）",
+          "source_table_index": 0,
+          "record_id": "sz_2026_primary_scope_0152"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/guangming_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0123",
+    "zone_id": "sz:guangming:zone:597909e64a6440db93873303ecdbe876",
+    "district": "光明区",
+    "school_name": "深圳外国语学校光明学校",
+    "map_school_name": "深圳外国语学校光明学校（小学部）",
+    "map_scope_text": "李松蓢社区、西田社区、上村社区、下村社区",
+    "independent_texts": [
+      {
+        "scope_text": "李松蓢社区、西田社区、上村社区、下村社区",
+        "school_name_raw": "深圳外国语学校光明学校",
+        "year": 2026,
+        "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+        "source_position": "公办小学学区及咨询电话 第14行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0123",
+        "original_scope_text": "李松蓢社区、西田社区、上村社区、下村社区",
+        "original_record": {
+          "district": "光明区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "深圳外国语学校光明学校",
+          "scope_text": "李松蓢社区、西田社区、上村社区、下村社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+          "source_file": "原始资料\\招生政策\\光明区政府_学区划分_4b08287e45.html",
+          "source_section": "公办小学学区及咨询电话",
+          "source_row": 14,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "school_address": "公明街道李松蓢社区志康路318号",
+          "education_group": "深圳外国语学校光明学校（集团）",
+          "source_table_index": 0,
+          "record_id": "sz_2026_primary_scope_0123"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/guangming_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0131",
+    "zone_id": "sz:guangming:zone:7a0800d7e8474f7d82b1836f9b271807",
+    "district": "光明区",
+    "school_name": "深圳小学光明学校狮山校区",
+    "map_school_name": "深圳小学光明学校狮山校区",
+    "map_scope_text": "科韵社区、翠湖社区、东周社区、楼村社区、荔湖社区、圳美社区、云谷社区、迳口社区",
+    "independent_texts": [
+      {
+        "scope_text": "科韵社区、翠湖社区、东周社区、楼村社区、荔湖社区、圳美社区、云谷社区、迳口社区",
+        "school_name_raw": "深圳小学光明学校狮山校区",
+        "year": 2026,
+        "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+        "source_position": "公办小学学区及咨询电话 第22行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0131",
+        "original_scope_text": "科韵社区、翠湖社区、东周社区、楼村社区、荔湖社区、圳美社区、云谷社区、迳口社区",
+        "original_record": {
+          "district": "光明区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "深圳小学光明学校狮山校区",
+          "scope_text": "科韵社区、翠湖社区、东周社区、楼村社区、荔湖社区、圳美社区、云谷社区、迳口社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+          "source_file": "原始资料\\招生政策\\光明区政府_学区划分_4b08287e45.html",
+          "source_section": "公办小学学区及咨询电话",
+          "source_row": 22,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "school_address": "新湖街道科韵社区狮山三街与翠辉路交汇处东北侧",
+          "education_group": "深圳小学光明学校（集团）",
+          "source_table_index": 0,
+          "record_id": "sz_2026_primary_scope_0131"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/guangming_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0157",
+    "zone_id": "sz:guangming:zone:e902ae2509a5483d9347fae271e9d0d5",
+    "district": "光明区",
+    "school_name": "深圳外国语光明星耀学校（原薯田埔第二学校）",
+    "map_school_name": "深圳外国语光明星耀学校（小学部）",
+    "map_scope_text": "薯田埔社区、合水口社区、马山头社区、根竹园社区、禾湾社区",
+    "independent_texts": [
+      {
+        "scope_text": "薯田埔社区、合水口社区、马山头社区、根竹园社区、禾湾社区",
+        "school_name_raw": "深圳外国语光明星耀学校（原薯田埔第二学校）",
+        "year": 2026,
+        "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+        "source_position": "公办小学学区及咨询电话 第48行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0157",
+        "original_scope_text": "薯田埔社区、合水口社区、马山头社区、根竹园社区、禾湾社区",
+        "original_record": {
+          "district": "光明区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "深圳外国语光明星耀学校（原薯田埔第二学校）",
+          "scope_text": "薯田埔社区、合水口社区、马山头社区、根竹园社区、禾湾社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+          "source_file": "原始资料\\招生政策\\光明区政府_学区划分_4b08287e45.html",
+          "source_section": "公办小学学区及咨询电话",
+          "source_row": 48,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "school_address": "马田街道薯田埔社区健兴路与福康路交会处西北角",
+          "education_group": "深圳外国语学校光明学校（集团）",
+          "source_table_index": 0,
+          "record_id": "sz_2026_primary_scope_0157"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/guangming_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0147",
+    "zone_id": "sz:guangming:zone:1f8f691710af4cd4a4fe4fc80accc7f3",
+    "district": "光明区",
+    "school_name": "深圳市光明区长育学校",
+    "map_school_name": "光明区长育学校（小学部）",
+    "map_scope_text": "长圳社区、玉塘社区、甲子塘社区、塘家社区",
+    "independent_texts": [
+      {
+        "scope_text": "长圳社区、玉塘社区、甲子塘社区、塘家社区",
+        "school_name_raw": "深圳市光明区长育学校",
+        "year": 2026,
+        "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+        "source_position": "公办小学学区及咨询电话 第38行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0147",
+        "original_scope_text": "长圳社区、玉塘社区、甲子塘社区、塘家社区",
+        "original_record": {
+          "district": "光明区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "深圳市光明区长育学校",
+          "scope_text": "长圳社区、玉塘社区、甲子塘社区、塘家社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+          "source_file": "原始资料\\招生政策\\光明区政府_学区划分_4b08287e45.html",
+          "source_section": "公办小学学区及咨询电话",
+          "source_row": 38,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "school_address": "玉塘街道玉塘社区光侨路（主干道）与长祥路（次干道）交汇处西南角",
+          "education_group": "深圳市光明区高级中学（集团）",
+          "source_table_index": 0,
+          "record_id": "sz_2026_primary_scope_0147"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/guangming_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0114",
+    "zone_id": "sz:guangming:zone:24b3ddd862444e7480ffa8c70222175c",
+    "district": "光明区",
+    "school_name": "华南师范大学附属光明星河小学",
+    "map_school_name": "华南师范大学附属光明星河小学",
+    "map_scope_text": "东周社区、光明社区、翠湖社区、楼村社区、荔湖社区、科韵社区",
+    "independent_texts": [
+      {
+        "scope_text": "东周社区、光明社区、翠湖社区、楼村社区、荔湖社区、科韵社区",
+        "school_name_raw": "华南师范大学附属光明星河小学",
+        "year": 2026,
+        "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+        "source_position": "公办小学学区及咨询电话 第5行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0114",
+        "original_scope_text": "东周社区、光明社区、翠湖社区、楼村社区、荔湖社区、科韵社区",
+        "original_record": {
+          "district": "光明区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "华南师范大学附属光明星河小学",
+          "scope_text": "东周社区、光明社区、翠湖社区、楼村社区、荔湖社区、科韵社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+          "source_file": "原始资料\\招生政策\\光明区政府_学区划分_4b08287e45.html",
+          "source_section": "公办小学学区及咨询电话",
+          "source_row": 5,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "school_address": "光明街道东周社区东周一街208号",
+          "education_group": "华南师范大学教育集团",
+          "source_table_index": 0,
+          "record_id": "sz_2026_primary_scope_0114"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/guangming_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0158",
+    "zone_id": "sz:guangming:zone:79f162dbbef94bd8a14669d2d5392a88",
+    "district": "光明区",
+    "school_name": "深圳市光明区龙豪小学",
+    "map_school_name": "光明区龙豪小学",
+    "map_scope_text": "石家社区、石围社区、将围社区、新庄社区、南庄社区、塘尾社区",
+    "independent_texts": [
+      {
+        "scope_text": "将围社区、新庄社区、南庄社区、石家社区、石围社区、塘尾社区",
+        "school_name_raw": "深圳市光明区龙豪小学",
+        "year": 2026,
+        "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+        "source_position": "公办小学学区及咨询电话 第49行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0158",
+        "original_scope_text": "将围社区、新庄社区、南庄社区、石家社区、石围社区、塘尾社区",
+        "original_record": {
+          "district": "光明区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "深圳市光明区龙豪小学",
+          "scope_text": "将围社区、新庄社区、南庄社区、石家社区、石围社区、塘尾社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+          "source_file": "原始资料\\招生政策\\光明区政府_学区划分_4b08287e45.html",
+          "source_section": "公办小学学区及咨询电话",
+          "source_row": 49,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "school_address": "马田街道新庄社区合建一路（规划路）与将石工业区路交叉口西北侧",
+          "education_group": "深圳市光明区高级中学（集团）",
+          "source_table_index": 0,
+          "record_id": "sz_2026_primary_scope_0158"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/guangming_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0135",
+    "zone_id": "sz:guangming:zone:dfc2a4c1204f4a0ca4f1b7c7b8dd936b",
+    "district": "光明区",
+    "school_name": "深圳中学光明科学城学校",
+    "map_school_name": "深圳中学光明科学城学校二（小学部）",
+    "map_scope_text": "甲子塘、塘尾、塘家三个社区（除凤凰英荟城、安居鸣鹿苑外）",
+    "independent_texts": [
+      {
+        "scope_text": "深圳中学光明科学城学校一：长圳保障性住房一期（凤凰英荟城）、二期（安居鸣鹿苑）；深圳中学光明科学城学校二：甲子塘、塘尾、塘家三个社区（除凤凰英荟城、安居鸣鹿苑外）。",
+        "school_name_raw": "深圳中学光明科学城学校",
+        "year": 2026,
+        "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+        "source_position": "公办小学学区及咨询电话 第26行",
+        "identity_status": "explicit_named_subscope_two_only",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0135",
+        "original_scope_text": "深圳中学光明科学城学校一：长圳保障性住房一期（凤凰英荟城）、二期（安居鸣鹿苑）；深圳中学光明科学城学校二：甲子塘、塘尾、塘家三个社区（除凤凰英荟城、安居鸣鹿苑外）。",
+        "original_record": {
+          "district": "光明区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "深圳中学光明科学城学校",
+          "scope_text": "深圳中学光明科学城学校一：长圳保障性住房一期（凤凰英荟城）、二期（安居鸣鹿苑）；深圳中学光明科学城学校二：甲子塘、塘尾、塘家三个社区（除凤凰英荟城、安居鸣鹿苑外）。",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+          "source_file": "原始资料\\招生政策\\光明区政府_学区划分_4b08287e45.html",
+          "source_section": "公办小学学区及咨询电话",
+          "source_row": 26,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "school_address": "凤凰街道甲子塘社区东长路958号深圳中学光明科学城学校（南校区）",
+          "education_group": "深圳中学光明科学城学校（集团）",
+          "source_table_index": 0,
+          "record_id": "sz_2026_primary_scope_0135"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/guangming_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": "two"
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。",
+      "按用户确认口径，本条现有polygon直接作为深圳中学光明科学城学校的polygon；一、二仅保留为官方报名条件，不拆学校，不要求另补端口一polygon。地图原名与原始路径保留。"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0116",
+    "zone_id": "sz:guangming:zone:359d844212c1402aae424c8b618c5719",
+    "district": "光明区",
+    "school_name": "深圳小学光明学校曙光校区",
+    "map_school_name": "深圳小学光明学校曙光校区",
+    "map_scope_text": "东周社区、光明社区、翠湖社区、楼村社区、荔湖社区、科韵社区",
+    "independent_texts": [
+      {
+        "scope_text": "东周社区、光明社区、翠湖社区、楼村社区、荔湖社区、科韵社区",
+        "school_name_raw": "深圳小学光明学校曙光校区",
+        "year": 2026,
+        "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+        "source_position": "公办小学学区及咨询电话 第7行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0116",
+        "original_scope_text": "东周社区、光明社区、翠湖社区、楼村社区、荔湖社区、科韵社区",
+        "original_record": {
+          "district": "光明区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "深圳小学光明学校曙光校区",
+          "scope_text": "东周社区、光明社区、翠湖社区、楼村社区、荔湖社区、科韵社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+          "source_file": "原始资料\\招生政策\\光明区政府_学区划分_4b08287e45.html",
+          "source_section": "公办小学学区及咨询电话",
+          "source_row": 7,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "school_address": "光明街道东周社区东周公园路深圳小学光明学校曙光校区",
+          "education_group": "深圳小学光明学校（集团）",
+          "source_table_index": 0,
+          "record_id": "sz_2026_primary_scope_0116"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/guangming_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0126",
+    "zone_id": "sz:guangming:zone:496FFFE16D575558E053BC09A8C0A5ED",
+    "district": "光明区",
+    "school_name": "深圳市光明区东宝纪念小学",
+    "map_school_name": "光明区东宝纪念小学",
+    "map_scope_text": "上村社区、下村社区、李松蓢社区、西田社区、公明社区",
+    "independent_texts": [
+      {
+        "scope_text": "上村社区、下村社区、李松蓢社区、西田社区、公明社区",
+        "school_name_raw": "深圳市光明区东宝纪念小学",
+        "year": 2026,
+        "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+        "source_position": "公办小学学区及咨询电话 第17行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0126",
+        "original_scope_text": "上村社区、下村社区、李松蓢社区、西田社区、公明社区",
+        "original_record": {
+          "district": "光明区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "深圳市光明区东宝纪念小学",
+          "scope_text": "上村社区、下村社区、李松蓢社区、西田社区、公明社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+          "source_file": "原始资料\\招生政策\\光明区政府_学区划分_4b08287e45.html",
+          "source_section": "公办小学学区及咨询电话",
+          "source_row": 17,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "school_address": "公明街道下村社区下村路40号",
+          "education_group": "深圳市光明区公明中学（集团）",
+          "source_table_index": 0,
+          "record_id": "sz_2026_primary_scope_0126"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/guangming_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0150",
+    "zone_id": "sz:guangming:zone:496FFFE16D5A5558E053BC09A8C0A5ED",
+    "district": "光明区",
+    "school_name": "深圳市光明区红花山小学",
+    "map_school_name": "光明区红花山小学",
+    "map_scope_text": "薯田埔社区、马山头社区、根竹园社区、合水口社区、禾湾社区",
+    "independent_texts": [
+      {
+        "scope_text": "薯田埔社区、马山头社区、根竹园社区、合水口社区、禾湾社区",
+        "school_name_raw": "深圳市光明区红花山小学",
+        "year": 2026,
+        "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+        "source_position": "公办小学学区及咨询电话 第41行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0150",
+        "original_scope_text": "薯田埔社区、马山头社区、根竹园社区、合水口社区、禾湾社区",
+        "original_record": {
+          "district": "光明区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "深圳市光明区红花山小学",
+          "scope_text": "薯田埔社区、马山头社区、根竹园社区、合水口社区、禾湾社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+          "source_file": "原始资料\\招生政策\\光明区政府_学区划分_4b08287e45.html",
+          "source_section": "公办小学学区及咨询电话",
+          "source_row": 41,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "school_address": "马田街道禾湾社区金安东一路200号",
+          "education_group": "深圳市光明区教育科学研究院附属教育集团",
+          "source_table_index": 0,
+          "record_id": "sz_2026_primary_scope_0150"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/guangming_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0151",
+    "zone_id": "sz:guangming:zone:4eac5755291c44ce8a41f2f7d61219be",
+    "district": "光明区",
+    "school_name": "深圳理工大学附属光明知行学校（原合水口实验学校）",
+    "map_school_name": "深圳理工大学附属光明知行学校（小学部）",
+    "map_scope_text": "合水口社区、薯田埔社区、马山头社区、禾湾社区、公明社区、下村社区",
+    "independent_texts": [
+      {
+        "scope_text": "合水口社区、薯田埔社区、马山头社区、禾湾社区、公明社区、下村社区",
+        "school_name_raw": "深圳理工大学附属光明知行学校（原合水口实验学校）",
+        "year": 2026,
+        "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+        "source_position": "公办小学学区及咨询电话 第42行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0151",
+        "original_scope_text": "合水口社区、薯田埔社区、马山头社区、禾湾社区、公明社区、下村社区",
+        "original_record": {
+          "district": "光明区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "深圳理工大学附属光明知行学校（原合水口实验学校）",
+          "scope_text": "合水口社区、薯田埔社区、马山头社区、禾湾社区、公明社区、下村社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+          "source_file": "原始资料\\招生政策\\光明区政府_学区划分_4b08287e45.html",
+          "source_section": "公办小学学区及咨询电话",
+          "source_row": 42,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "school_address": "马田街道合水口社区泥围新村文阁路9号",
+          "education_group": "深圳理工大学附属光明教育集团",
+          "source_table_index": 0,
+          "record_id": "sz_2026_primary_scope_0151"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/guangming_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0134",
+    "zone_id": "sz:guangming:zone:c963ffd16c04406789daf6f35fcdd566",
+    "district": "光明区",
+    "school_name": "深圳实验光明科林学校",
+    "map_school_name": "深圳实验光明科林学校（小学部）",
+    "map_scope_text": "凤凰社区、塘家社区、白花社区、碧眼社区、光明社区",
+    "independent_texts": [
+      {
+        "scope_text": "凤凰社区、塘家社区、白花社区、碧眼社区、光明社区",
+        "school_name_raw": "深圳实验光明科林学校",
+        "year": 2026,
+        "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+        "source_position": "公办小学学区及咨询电话 第25行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0134",
+        "original_scope_text": "凤凰社区、塘家社区、白花社区、碧眼社区、光明社区",
+        "original_record": {
+          "district": "光明区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "深圳实验光明科林学校",
+          "scope_text": "凤凰社区、塘家社区、白花社区、碧眼社区、光明社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+          "source_file": "原始资料\\招生政策\\光明区政府_学区划分_4b08287e45.html",
+          "source_section": "公办小学学区及咨询电话",
+          "source_row": 25,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "school_address": "凤凰街道凤凰社区，观光路与科林路交汇处西南角",
+          "education_group": "深圳实验光明学校（集团）",
+          "source_table_index": 0,
+          "record_id": "sz_2026_primary_scope_0134"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/guangming_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0133",
+    "zone_id": "sz:guangming:zone:10a8d068bb97459aa06cffecdcebb128",
+    "district": "光明区",
+    "school_name": "深圳市光明区外国语学校",
+    "map_school_name": "光明区外国语学校（小学部）",
+    "map_scope_text": "塘家社区、凤凰社区、白花社区、碧眼社区、塘尾社区、光明社区",
+    "independent_texts": [
+      {
+        "scope_text": "塘家社区、凤凰社区、白花社区、碧眼社区、塘尾社区、光明社区",
+        "school_name_raw": "深圳市光明区外国语学校",
+        "year": 2026,
+        "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+        "source_position": "公办小学学区及咨询电话 第24行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0133",
+        "original_scope_text": "塘家社区、凤凰社区、白花社区、碧眼社区、塘尾社区、光明社区",
+        "original_record": {
+          "district": "光明区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "深圳市光明区外国语学校",
+          "scope_text": "塘家社区、凤凰社区、白花社区、碧眼社区、塘尾社区、光明社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+          "source_file": "原始资料\\招生政策\\光明区政府_学区划分_4b08287e45.html",
+          "source_section": "公办小学学区及咨询电话",
+          "source_row": 24,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "school_address": "凤凰街道凤凰社区丰成路16号",
+          "education_group": "深圳市光明区外国语学校（集团）",
+          "source_table_index": 0,
+          "record_id": "sz_2026_primary_scope_0133"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/guangming_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0120",
+    "zone_id": "sz:guangming:zone:1213384ab81e4158bebe66e8b038e6f3",
+    "district": "光明区",
+    "school_name": "深圳市光明区公明中学",
+    "map_school_name": "光明区公明中学（小学部）",
+    "map_scope_text": "合水口社区、禾湾社区、上村社区、楼村社区、荔湖社区、科韵社区、下村社区、西田社区、薯田埔社区、马山头社区、根竹园社区、公明社区、李松蓢社区",
+    "independent_texts": [
+      {
+        "scope_text": "合水口社区、禾湾社区、上村社区、楼村社区、荔湖社区、科韵社区、下村社区、西田社区、薯田埔社区、马山头社区、根竹园社区、公明社区、李松蓢社区",
+        "school_name_raw": "深圳市光明区公明中学",
+        "year": 2026,
+        "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+        "source_position": "公办小学学区及咨询电话 第11行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0120",
+        "original_scope_text": "合水口社区、禾湾社区、上村社区、楼村社区、荔湖社区、科韵社区、下村社区、西田社区、薯田埔社区、马山头社区、根竹园社区、公明社区、李松蓢社区",
+        "original_record": {
+          "district": "光明区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "深圳市光明区公明中学",
+          "scope_text": "合水口社区、禾湾社区、上村社区、楼村社区、荔湖社区、科韵社区、下村社区、西田社区、薯田埔社区、马山头社区、根竹园社区、公明社区、李松蓢社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+          "source_file": "原始资料\\招生政策\\光明区政府_学区划分_4b08287e45.html",
+          "source_section": "公办小学学区及咨询电话",
+          "source_row": 11,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "school_address": "公明街道公明社区振明路60号",
+          "education_group": "深圳市光明区公明中学（集团）",
+          "source_table_index": 0,
+          "record_id": "sz_2026_primary_scope_0120"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/guangming_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0149",
+    "zone_id": "sz:guangming:zone:496FFFE16D3D5558E053BC09A8C0A5ED",
+    "district": "光明区",
+    "school_name": "深圳市光明区公明第一小学",
+    "map_school_name": "光明区公明第一小学",
+    "map_scope_text": "合水口社区、禾湾社区、公明社区",
+    "independent_texts": [
+      {
+        "scope_text": "合水口社区、禾湾社区、公明社区",
+        "school_name_raw": "深圳市光明区公明第一小学",
+        "year": 2026,
+        "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+        "source_position": "公办小学学区及咨询电话 第40行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0149",
+        "original_scope_text": "合水口社区、禾湾社区、公明社区",
+        "original_record": {
+          "district": "光明区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "深圳市光明区公明第一小学",
+          "scope_text": "合水口社区、禾湾社区、公明社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+          "source_file": "原始资料\\招生政策\\光明区政府_学区划分_4b08287e45.html",
+          "source_section": "公办小学学区及咨询电话",
+          "source_row": 40,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "school_address": "马田街道合水口社区柏溪路60号",
+          "education_group": "深圳市光明区公明中学（集团）",
+          "source_table_index": 0,
+          "record_id": "sz_2026_primary_scope_0149"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/guangming_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0141",
+    "zone_id": "sz:guangming:zone:496FFFE16D405558E053BC09A8C0A5ED",
+    "district": "光明区",
+    "school_name": "深圳市光明区玉律学校",
+    "map_school_name": "光明区玉律学校（小学部）",
+    "map_scope_text": "玉律社区、红星社区、田寮社区、长圳社区、玉塘社区",
+    "independent_texts": [
+      {
+        "scope_text": "玉律社区、红星社区、田寮社区、长圳社区、玉塘社区",
+        "school_name_raw": "深圳市光明区玉律学校",
+        "year": 2026,
+        "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+        "source_position": "公办小学学区及咨询电话 第32行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0141",
+        "original_scope_text": "玉律社区、红星社区、田寮社区、长圳社区、玉塘社区",
+        "original_record": {
+          "district": "光明区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "深圳市光明区玉律学校",
+          "scope_text": "玉律社区、红星社区、田寮社区、长圳社区、玉塘社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+          "source_file": "原始资料\\招生政策\\光明区政府_学区划分_4b08287e45.html",
+          "source_section": "公办小学学区及咨询电话",
+          "source_row": 32,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "school_address": "玉塘街道玉律社区三区168号",
+          "education_group": "深圳大学附属光明学校（集团）",
+          "source_table_index": 0,
+          "record_id": "sz_2026_primary_scope_0141"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/guangming_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0148",
+    "zone_id": "sz:guangming:zone:4eb3730bd8e042938c9996ec1d5aa287",
+    "district": "光明区",
+    "school_name": "深圳大学附属光明学校",
+    "map_school_name": "深圳大学附属光明学校（小学部）",
+    "map_scope_text": "翠湖社区、东周社区、光明社区、碧眼社区、迳口社区、科韵社区、荔湖社区、楼村社区",
+    "independent_texts": [
+      {
+        "scope_text": "玉塘社区、长圳社区、甲子塘社区、塘尾社区、田寮社区",
+        "school_name_raw": "深圳大学附属光明学校",
+        "year": 2026,
+        "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+        "source_position": "公办小学学区及咨询电话 第39行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0148",
+        "original_scope_text": "玉塘社区、长圳社区、甲子塘社区、塘尾社区、田寮社区",
+        "original_record": {
+          "district": "光明区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "深圳大学附属光明学校",
+          "scope_text": "玉塘社区、长圳社区、甲子塘社区、塘尾社区、田寮社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+          "source_file": "原始资料\\招生政策\\光明区政府_学区划分_4b08287e45.html",
+          "source_section": "公办小学学区及咨询电话",
+          "source_row": 39,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "school_address": "玉塘街道玉塘社区悦群路（支路）与长松路（支路）交汇处东北角",
+          "education_group": "深圳大学附属光明学校（集团）",
+          "source_table_index": 0,
+          "record_id": "sz_2026_primary_scope_0148"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/guangming_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0144",
+    "zone_id": "sz:guangming:zone:6926b60700c448b485f0781de948020a",
+    "district": "光明区",
+    "school_name": "深圳中学光明科学城学校西校区",
+    "map_school_name": "深圳中学光明科学城学校西校区（小学部）",
+    "map_scope_text": "长圳社区、玉塘社区、田寮社区、玉律社区、红星社区",
+    "independent_texts": [
+      {
+        "scope_text": "长圳社区、玉塘社区、田寮社区、玉律社区、红星社区",
+        "school_name_raw": "深圳中学光明科学城学校西校区",
+        "year": 2026,
+        "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+        "source_position": "公办小学学区及咨询电话 第35行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0144",
+        "original_scope_text": "长圳社区、玉塘社区、田寮社区、玉律社区、红星社区",
+        "original_record": {
+          "district": "光明区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "深圳中学光明科学城学校西校区",
+          "scope_text": "长圳社区、玉塘社区、田寮社区、玉律社区、红星社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+          "source_file": "原始资料\\招生政策\\光明区政府_学区划分_4b08287e45.html",
+          "source_section": "公办小学学区及咨询电话",
+          "source_row": 35,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "school_address": "玉塘街道玉塘社区长松路520号",
+          "education_group": "深圳中学光明科学城学校（集团）",
+          "source_table_index": 0,
+          "record_id": "sz_2026_primary_scope_0144"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/guangming_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0128",
+    "zone_id": "sz:guangming:zone:02491b84ec864c6caa698926afdcfc3e",
+    "district": "光明区",
+    "school_name": "深圳市教育科学研究院实验学校（光明）",
+    "map_school_name": "教育科学研究院实验学校（光明）（小学部）",
+    "map_scope_text": "将围社区、新庄社区、南庄社区、石家社区、石围社区、合水口社区、禾湾社区、公明社区",
+    "independent_texts": [
+      {
+        "scope_text": "楼村社区、荔湖社区、科韵社区、上村社区、新庄社区、南庄社区",
+        "school_name_raw": "深圳市教育科学研究院实验学校（光明）",
+        "year": 2026,
+        "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+        "source_position": "公办小学学区及咨询电话 第19行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0128",
+        "original_scope_text": "楼村社区、荔湖社区、科韵社区、上村社区、新庄社区、南庄社区",
+        "original_record": {
+          "district": "光明区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "深圳市教育科学研究院实验学校（光明）",
+          "scope_text": "楼村社区、荔湖社区、科韵社区、上村社区、新庄社区、南庄社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+          "source_file": "原始资料\\招生政策\\光明区政府_学区划分_4b08287e45.html",
+          "source_section": "公办小学学区及咨询电话",
+          "source_row": 19,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "school_address": "新湖街道楼村社区三月风广场对面、公常公路南侧",
+          "education_group": "深圳市光明区教育科学研究院附属教育集团",
+          "source_table_index": 0,
+          "record_id": "sz_2026_primary_scope_0128"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/guangming_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0143",
+    "zone_id": "sz:guangming:zone:496FFFE16D3C5558E053BC09A8C0A5ED",
+    "district": "光明区",
+    "school_name": "深圳市光明区长圳学校",
+    "map_school_name": "光明区长圳学校（小学部）",
+    "map_scope_text": "长圳社区、玉塘社区、田寮社区、红星社区、玉律社区",
+    "independent_texts": [
+      {
+        "scope_text": "长圳社区、玉塘社区、田寮社区、红星社区、玉律社区",
+        "school_name_raw": "深圳市光明区长圳学校",
+        "year": 2026,
+        "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+        "source_position": "公办小学学区及咨询电话 第34行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0143",
+        "original_scope_text": "长圳社区、玉塘社区、田寮社区、红星社区、玉律社区",
+        "original_record": {
+          "district": "光明区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "深圳市光明区长圳学校",
+          "scope_text": "长圳社区、玉塘社区、田寮社区、红星社区、玉律社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+          "source_file": "原始资料\\招生政策\\光明区政府_学区划分_4b08287e45.html",
+          "source_section": "公办小学学区及咨询电话",
+          "source_row": 34,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "school_address": "玉塘街道长圳社区长圳路42号",
+          "education_group": "深圳大学附属光明学校（集团）",
+          "source_table_index": 0,
+          "record_id": "sz_2026_primary_scope_0143"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/guangming_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0117",
+    "zone_id": "sz:guangming:zone:496FFFE16D545558E053BC09A8C0A5ED",
+    "district": "光明区",
+    "school_name": "南方科技大学附属光明凤凰学校",
+    "map_school_name": "南方科技大学附属光明凤凰学校（小学部）",
+    "map_scope_text": "凤凰社区、光明社区、东周社区、碧眼社区、迳口社区、翠湖社区、东坑社区",
+    "independent_texts": [
+      {
+        "scope_text": "凤凰社区、光明社区、东周社区、碧眼社区、迳口社区、翠湖社区、东坑社区",
+        "school_name_raw": "南方科技大学附属光明凤凰学校",
+        "year": 2026,
+        "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+        "source_position": "公办小学学区及咨询电话 第8行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0117",
+        "original_scope_text": "凤凰社区、光明社区、东周社区、碧眼社区、迳口社区、翠湖社区、东坑社区",
+        "original_record": {
+          "district": "光明区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "南方科技大学附属光明凤凰学校",
+          "scope_text": "凤凰社区、光明社区、东周社区、碧眼社区、迳口社区、翠湖社区、东坑社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+          "source_file": "原始资料\\招生政策\\光明区政府_学区划分_4b08287e45.html",
+          "source_section": "公办小学学区及咨询电话",
+          "source_row": 8,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "school_address": "光明街道光明社区光侨大道2591号",
+          "education_group": "南方科技大学附属光明学校（集团）",
+          "source_table_index": 0,
+          "record_id": "sz_2026_primary_scope_0117"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/guangming_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0146",
+    "zone_id": "sz:guangming:zone:579cb23ceebf4925a32c989d7b1ce5e0",
+    "district": "光明区",
+    "school_name": "深圳市光明区尚美小学",
+    "map_school_name": "光明区尚美小学",
+    "map_scope_text": "长圳社区、玉塘社区、甲子塘社区、塘家社区",
+    "independent_texts": [
+      {
+        "scope_text": "长圳社区、玉塘社区、甲子塘社区、塘家社区",
+        "school_name_raw": "深圳市光明区尚美小学",
+        "year": 2026,
+        "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+        "source_position": "公办小学学区及咨询电话 第37行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0146",
+        "original_scope_text": "长圳社区、玉塘社区、甲子塘社区、塘家社区",
+        "original_record": {
+          "district": "光明区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "深圳市光明区尚美小学",
+          "scope_text": "长圳社区、玉塘社区、甲子塘社区、塘家社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+          "source_file": "原始资料\\招生政策\\光明区政府_学区划分_4b08287e45.html",
+          "source_section": "公办小学学区及咨询电话",
+          "source_row": 37,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "school_address": "玉塘街道长圳社区，东长路与长圳路交汇处东南侧",
+          "education_group": "深圳大学附属光明学校（集团）",
+          "source_table_index": 0,
+          "record_id": "sz_2026_primary_scope_0146"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/guangming_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0138",
+    "zone_id": "sz:guangming:zone:81541dd3dc4d4ed28dcd4f72402ff217",
+    "district": "光明区",
+    "school_name": "深圳实验光明明湖学校",
+    "map_school_name": "深圳实验光明明湖学校（小学部）",
+    "map_scope_text": "塘尾社区、东坑社区、塘家社区、甲子塘社区、玉塘社区、田寮社区、石围社区、将围社区、新庄社区、南庄社区",
+    "independent_texts": [
+      {
+        "scope_text": "塘尾社区、东坑社区、塘家社区、甲子塘社区、玉塘社区、田寮社区、石围社区、将围社区、新庄社区、南庄社区",
+        "school_name_raw": "深圳实验光明明湖学校",
+        "year": 2026,
+        "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+        "source_position": "公办小学学区及咨询电话 第29行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0138",
+        "original_scope_text": "塘尾社区、东坑社区、塘家社区、甲子塘社区、玉塘社区、田寮社区、石围社区、将围社区、新庄社区、南庄社区",
+        "original_record": {
+          "district": "光明区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "深圳实验光明明湖学校",
+          "scope_text": "塘尾社区、东坑社区、塘家社区、甲子塘社区、玉塘社区、田寮社区、石围社区、将围社区、新庄社区、南庄社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+          "source_file": "原始资料\\招生政策\\光明区政府_学区划分_4b08287e45.html",
+          "source_section": "公办小学学区及咨询电话",
+          "source_row": 29,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "school_address": "凤凰街道塘尾社区月亮路与碧塘路交会处西南角",
+          "education_group": "深圳实验光明学校（集团）",
+          "source_table_index": 0,
+          "record_id": "sz_2026_primary_scope_0138"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/guangming_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0154",
+    "zone_id": "sz:guangming:zone:b828cf69ee7b4b1ea595a3ee361349d6",
+    "district": "光明区",
+    "school_name": "深圳市教育科学研究院实验小学（光明）",
+    "map_school_name": "教育科学研究院实验小学（光明）",
+    "map_scope_text": "将围社区、新庄社区、南庄社区、石家社区、石围社区、合水口社区、禾湾社区、公明社区",
+    "independent_texts": [
+      {
+        "scope_text": "将围社区、新庄社区、南庄社区、石家社区、石围社区、合水口社区、禾湾社区、公明社区",
+        "school_name_raw": "深圳市教育科学研究院实验小学（光明）",
+        "year": 2026,
+        "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+        "source_position": "公办小学学区及咨询电话 第45行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0154",
+        "original_scope_text": "将围社区、新庄社区、南庄社区、石家社区、石围社区、合水口社区、禾湾社区、公明社区",
+        "original_record": {
+          "district": "光明区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "深圳市教育科学研究院实验小学（光明）",
+          "scope_text": "将围社区、新庄社区、南庄社区、石家社区、石围社区、合水口社区、禾湾社区、公明社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+          "source_file": "原始资料\\招生政策\\光明区政府_学区划分_4b08287e45.html",
+          "source_section": "公办小学学区及咨询电话",
+          "source_row": 45,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "school_address": "马田街道石家社区芳园路198号",
+          "education_group": "深圳市光明区教育科学研究院附属教育集团",
+          "source_table_index": 0,
+          "record_id": "sz_2026_primary_scope_0154"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/guangming_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0111",
+    "zone_id": "sz:guangming:zone:f1faf1f8e99047b586f6a80bd866aff3",
+    "district": "光明区",
+    "school_name": "深圳市光明区百花实验学校",
+    "map_school_name": "光明区百花实验学校（小学部）",
+    "map_scope_text": "白花社区、碧眼社区、凤凰社区",
+    "independent_texts": [
+      {
+        "scope_text": "白花社区、碧眼社区、凤凰社区",
+        "school_name_raw": "深圳市光明区百花实验学校",
+        "year": 2026,
+        "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+        "source_position": "公办小学学区及咨询电话 第2行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0111",
+        "original_scope_text": "白花社区、碧眼社区、凤凰社区",
+        "original_record": {
+          "district": "光明区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "深圳市光明区百花实验学校",
+          "scope_text": "白花社区、碧眼社区、凤凰社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+          "source_file": "原始资料\\招生政策\\光明区政府_学区划分_4b08287e45.html",
+          "source_section": "公办小学学区及咨询电话",
+          "source_row": 2,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "school_address": "光明街道白花社区白花一路100号",
+          "education_group": "深圳市光明区百花实验学校（集团）",
+          "source_table_index": 0,
+          "record_id": "sz_2026_primary_scope_0111"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/guangming_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0129",
+    "zone_id": "sz:guangming:zone:1d278fb3f5dd45e29a5f72e427c6b631",
+    "district": "光明区",
+    "school_name": "深圳理工大学附属光明实验学校（原楼村第二学校）",
+    "map_school_name": "深圳理工大学附属光明实验学校（小学部）",
+    "map_scope_text": "楼村社区、科韵社区、荔湖社区、上村社区、南庄社区、新庄社区、东周社区",
+    "independent_texts": [
+      {
+        "scope_text": "楼村社区、科韵社区、荔湖社区、上村社区、南庄社区、新庄社区、东周社区",
+        "school_name_raw": "深圳理工大学附属光明实验学校（原楼村第二学校）",
+        "year": 2026,
+        "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+        "source_position": "公办小学学区及咨询电话 第20行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0129",
+        "original_scope_text": "楼村社区、科韵社区、荔湖社区、上村社区、南庄社区、新庄社区、东周社区",
+        "original_record": {
+          "district": "光明区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "深圳理工大学附属光明实验学校（原楼村第二学校）",
+          "scope_text": "楼村社区、科韵社区、荔湖社区、上村社区、南庄社区、新庄社区、东周社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+          "source_file": "原始资料\\招生政策\\光明区政府_学区划分_4b08287e45.html",
+          "source_section": "公办小学学区及咨询电话",
+          "source_row": 20,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "school_address": "新湖街道楼村社区木墩路2号",
+          "education_group": "深圳理工大学附属光明教育集团",
+          "source_table_index": 0,
+          "record_id": "sz_2026_primary_scope_0129"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/guangming_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0124",
+    "zone_id": "sz:guangming:zone:496FFFE16D3F5558E053BC09A8C0A5ED",
+    "district": "光明区",
+    "school_name": "深圳市光明区公明第二小学",
+    "map_school_name": "光明区公明第二小学",
+    "map_scope_text": "上村社区、下村社区、李松蓢社区、西田社区、公明社区",
+    "independent_texts": [
+      {
+        "scope_text": "上村社区、下村社区、李松蓢社区、西田社区、公明社区",
+        "school_name_raw": "深圳市光明区公明第二小学",
+        "year": 2026,
+        "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+        "source_position": "公办小学学区及咨询电话 第15行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0124",
+        "original_scope_text": "上村社区、下村社区、李松蓢社区、西田社区、公明社区",
+        "original_record": {
+          "district": "光明区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "深圳市光明区公明第二小学",
+          "scope_text": "上村社区、下村社区、李松蓢社区、西田社区、公明社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+          "source_file": "原始资料\\招生政策\\光明区政府_学区划分_4b08287e45.html",
+          "source_section": "公办小学学区及咨询电话",
+          "source_row": 15,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "school_address": "公明街道上村社区思远路502号",
+          "education_group": "深圳市光明区公明中学（集团）",
+          "source_table_index": 0,
+          "record_id": "sz_2026_primary_scope_0124"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/guangming_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0130",
+    "zone_id": "sz:guangming:zone:496FFFE16D425558E053BC09A8C0A5ED",
+    "district": "光明区",
+    "school_name": "中山大学深圳附属学校",
+    "map_school_name": "中山大学深圳附属学校（小学部）",
+    "map_scope_text": "圳美社区、云谷社区、新羌社区、楼村社区、荔湖社区、科韵社区、翠湖社区、迳口社区",
+    "independent_texts": [
+      {
+        "scope_text": "圳美社区、云谷社区、新羌社区、楼村社区、荔湖社区、科韵社区、翠湖社区、迳口社区",
+        "school_name_raw": "中山大学深圳附属学校",
+        "year": 2026,
+        "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+        "source_position": "公办小学学区及咨询电话 第21行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0130",
+        "original_scope_text": "圳美社区、云谷社区、新羌社区、楼村社区、荔湖社区、科韵社区、翠湖社区、迳口社区",
+        "original_record": {
+          "district": "光明区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "中山大学深圳附属学校",
+          "scope_text": "圳美社区、云谷社区、新羌社区、楼村社区、荔湖社区、科韵社区、翠湖社区、迳口社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+          "source_file": "原始资料\\招生政策\\光明区政府_学区划分_4b08287e45.html",
+          "source_section": "公办小学学区及咨询电话",
+          "source_row": 21,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "school_address": "新湖街道云谷社区圳美大道666号",
+          "education_group": "中山大学深圳附属学校（集团）",
+          "source_table_index": 0,
+          "record_id": "sz_2026_primary_scope_0130"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/guangming_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0155",
+    "zone_id": "sz:guangming:zone:496FFFE16D435558E053BC09A8C0A5ED",
+    "district": "光明区",
+    "school_name": "深圳市光明区马田小学",
+    "map_school_name": "光明区马田小学",
+    "map_scope_text": "薯田埔社区、马山头社区、根竹园社区、合水口社区、禾湾社区",
+    "independent_texts": [
+      {
+        "scope_text": "薯田埔社区、马山头社区、根竹园社区、合水口社区、禾湾社区。",
+        "school_name_raw": "深圳市光明区马田小学",
+        "year": 2026,
+        "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+        "source_position": "公办小学学区及咨询电话 第46行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0155",
+        "original_scope_text": "薯田埔社区、马山头社区、根竹园社区、合水口社区、禾湾社区。",
+        "original_record": {
+          "district": "光明区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "深圳市光明区马田小学",
+          "scope_text": "薯田埔社区、马山头社区、根竹园社区、合水口社区、禾湾社区。",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+          "source_file": "原始资料\\招生政策\\光明区政府_学区划分_4b08287e45.html",
+          "source_section": "公办小学学区及咨询电话",
+          "source_row": 46,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "school_address": "马田街道薯田埔社区福前路128号",
+          "education_group": "深圳市光明区教育科学研究院附属教育集团",
+          "source_table_index": 0,
+          "record_id": "sz_2026_primary_scope_0155"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/guangming_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0140",
+    "zone_id": "sz:guangming:zone:496FFFE16D535558E053BC09A8C0A5ED",
+    "district": "光明区",
+    "school_name": "深圳市光明区田寮小学",
+    "map_school_name": "光明区田寮小学",
+    "map_scope_text": "田寮社区",
+    "independent_texts": [
+      {
+        "scope_text": "田寮社区",
+        "school_name_raw": "深圳市光明区田寮小学",
+        "year": 2026,
+        "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+        "source_position": "公办小学学区及咨询电话 第31行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0140",
+        "original_scope_text": "田寮社区",
+        "original_record": {
+          "district": "光明区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "深圳市光明区田寮小学",
+          "scope_text": "田寮社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+          "source_file": "原始资料\\招生政策\\光明区政府_学区划分_4b08287e45.html",
+          "source_section": "公办小学学区及咨询电话",
+          "source_row": 31,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "school_address": "玉塘街道田寮社区文明路66号",
+          "education_group": "深圳市光明区东周小学（集团）",
+          "source_table_index": 0,
+          "record_id": "sz_2026_primary_scope_0140"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/guangming_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0137",
+    "zone_id": "sz:guangming:zone:496FFFE16D565558E053BC09A8C0A5ED",
+    "district": "光明区",
+    "school_name": "深圳市光明区实验学校",
+    "map_school_name": "光明区实验学校（小学部）",
+    "map_scope_text": "塘尾社区、东坑社区、将围社区、新庄社区、南庄社区、石家社区、石围社区。",
+    "independent_texts": [
+      {
+        "scope_text": "塘尾社区、东坑社区、将围社区、新庄社区、南庄社区、石家社区、石围社区。",
+        "school_name_raw": "深圳市光明区实验学校",
+        "year": 2026,
+        "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+        "source_position": "公办小学学区及咨询电话 第28行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0137",
+        "original_scope_text": "塘尾社区、东坑社区、将围社区、新庄社区、南庄社区、石家社区、石围社区。",
+        "original_record": {
+          "district": "光明区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "深圳市光明区实验学校",
+          "scope_text": "塘尾社区、东坑社区、将围社区、新庄社区、南庄社区、石家社区、石围社区。",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+          "source_file": "原始资料\\招生政策\\光明区政府_学区划分_4b08287e45.html",
+          "source_section": "公办小学学区及咨询电话",
+          "source_row": 28,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "school_address": "凤凰街道塘尾社区东升路90-92号",
+          "education_group": "深圳市光明区实验学校（集团）",
+          "source_table_index": 0,
+          "record_id": "sz_2026_primary_scope_0137"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/guangming_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0132",
+    "zone_id": "sz:guangming:zone:53b43505340d4bf3b6b2dec51f6720ba",
+    "district": "光明区",
+    "school_name": "楼村第四学校（暂定名）",
+    "map_school_name": "楼村第四学校（小学部）暂定名",
+    "map_scope_text": "科韵社区、东周社区、楼村社区、荔湖社区、圳美社区、云谷社区、迳口社区、翠湖社区",
+    "independent_texts": [
+      {
+        "scope_text": "科韵社区、东周社区、楼村社区、荔湖社区、圳美社区、云谷社区、迳口社区、翠湖社区",
+        "school_name_raw": "楼村第四学校（暂定名）",
+        "year": 2026,
+        "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+        "source_position": "公办小学学区及咨询电话 第23行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0132",
+        "original_scope_text": "科韵社区、东周社区、楼村社区、荔湖社区、圳美社区、云谷社区、迳口社区、翠湖社区",
+        "original_record": {
+          "district": "光明区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "楼村第四学校（暂定名）",
+          "scope_text": "科韵社区、东周社区、楼村社区、荔湖社区、圳美社区、云谷社区、迳口社区、翠湖社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+          "source_file": "原始资料\\招生政策\\光明区政府_学区划分_4b08287e45.html",
+          "source_section": "公办小学学区及咨询电话",
+          "source_row": 23,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "school_address": "新湖街道科韵社区光明大街与楼辉路交会处西北角",
+          "education_group": "",
+          "source_table_index": 0,
+          "record_id": "sz_2026_primary_scope_0132"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/guangming_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0121",
+    "zone_id": "sz:guangming:zone:a536081fb96b4af794fee5275fdaebf0",
+    "district": "光明区",
+    "school_name": "深圳市光明区明达小学",
+    "map_school_name": "光明区明达小学",
+    "map_scope_text": "公明社区、上村社区、下村社区、合水口社区、禾湾社区、南庄社区、新庄社区",
+    "independent_texts": [
+      {
+        "scope_text": "公明社区、上村社区、下村社区、合水口社区、禾湾社区、南庄社区、新庄社区",
+        "school_name_raw": "深圳市光明区明达小学",
+        "year": 2026,
+        "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+        "source_position": "公办小学学区及咨询电话 第12行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0121",
+        "original_scope_text": "公明社区、上村社区、下村社区、合水口社区、禾湾社区、南庄社区、新庄社区",
+        "original_record": {
+          "district": "光明区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "深圳市光明区明达小学",
+          "scope_text": "公明社区、上村社区、下村社区、合水口社区、禾湾社区、南庄社区、新庄社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+          "source_file": "原始资料\\招生政策\\光明区政府_学区划分_4b08287e45.html",
+          "source_section": "公办小学学区及咨询电话",
+          "source_row": 12,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "school_address": "公明街道公明社区红花中路与金辉路交汇处西北角，西邻宝来路，北邻振明路",
+          "education_group": "深圳市光明区公明中学（集团）",
+          "source_table_index": 0,
+          "record_id": "sz_2026_primary_scope_0121"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/guangming_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0119",
+    "zone_id": "sz:guangming:zone:ac390d208d844e5184ad767b9ada08eb",
+    "district": "光明区",
+    "school_name": "深圳实验光明学校",
+    "map_school_name": "深圳实验光明学校（小学部）",
+    "map_scope_text": "光明社区、东周社区、东坑社区",
+    "independent_texts": [
+      {
+        "scope_text": "光明社区、东周社区、东坑社区",
+        "school_name_raw": "深圳实验光明学校",
+        "year": 2026,
+        "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+        "source_position": "公办小学学区及咨询电话 第10行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0119",
+        "original_scope_text": "光明社区、东周社区、东坑社区",
+        "original_record": {
+          "district": "光明区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "深圳实验光明学校",
+          "scope_text": "光明社区、东周社区、东坑社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+          "source_file": "原始资料\\招生政策\\光明区政府_学区划分_4b08287e45.html",
+          "source_section": "公办小学学区及咨询电话",
+          "source_row": 10,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "school_address": "光明街道光明社区博闻路2号",
+          "education_group": "深圳实验光明学校（集团）",
+          "source_table_index": 0,
+          "record_id": "sz_2026_primary_scope_0119"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/guangming_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0115",
+    "zone_id": "sz:guangming:zone:04a69b145e0a425a839072b1f921c084",
+    "district": "光明区",
+    "school_name": "深圳市光明区修远小学",
+    "map_school_name": "光明区修远小学",
+    "map_scope_text": "东周社区、光明社区、翠湖社区、楼村社区、荔湖社区、科韵社区",
+    "independent_texts": [
+      {
+        "scope_text": "东周社区、光明社区、翠湖社区、楼村社区、荔湖社区、科韵社区",
+        "school_name_raw": "深圳市光明区修远小学",
+        "year": 2026,
+        "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+        "source_position": "公办小学学区及咨询电话 第6行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0115",
+        "original_scope_text": "东周社区、光明社区、翠湖社区、楼村社区、荔湖社区、科韵社区",
+        "original_record": {
+          "district": "光明区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "深圳市光明区修远小学",
+          "scope_text": "东周社区、光明社区、翠湖社区、楼村社区、荔湖社区、科韵社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+          "source_file": "原始资料\\招生政策\\光明区政府_学区划分_4b08287e45.html",
+          "source_section": "公办小学学区及咨询电话",
+          "source_row": 6,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "school_address": "光明街道东周社区甘饴路410号",
+          "education_group": "深圳市光明区东周小学（集团）",
+          "source_table_index": 0,
+          "record_id": "sz_2026_primary_scope_0115"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/guangming_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0156",
+    "zone_id": "sz:guangming:zone:25f63baf8ecf48708b09c1e05198f334",
+    "district": "光明区",
+    "school_name": "深圳市光明区科育学校",
+    "map_school_name": "光明区科育学校（小学部）",
+    "map_scope_text": "薯田埔社区、马山头社区、根竹园社区、合水口社区、禾湾社区",
+    "independent_texts": [
+      {
+        "scope_text": "薯田埔社区、马山头社区、根竹园社区、合水口社区、禾湾社区",
+        "school_name_raw": "深圳市光明区科育学校",
+        "year": 2026,
+        "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+        "source_position": "公办小学学区及咨询电话 第47行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0156",
+        "original_scope_text": "薯田埔社区、马山头社区、根竹园社区、合水口社区、禾湾社区",
+        "original_record": {
+          "district": "光明区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "深圳市光明区科育学校",
+          "scope_text": "薯田埔社区、马山头社区、根竹园社区、合水口社区、禾湾社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+          "source_file": "原始资料\\招生政策\\光明区政府_学区划分_4b08287e45.html",
+          "source_section": "公办小学学区及咨询电话",
+          "source_row": 47,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "school_address": "马田街道薯田埔社区光育路50号",
+          "education_group": "深圳市光明区高级中学（集团）",
+          "source_table_index": 0,
+          "record_id": "sz_2026_primary_scope_0156"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/guangming_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0139",
+    "zone_id": "sz:guangming:zone:43f4bb886b024369b587a77c62ff8ed2",
+    "district": "光明区",
+    "school_name": "塘尾第二学校（暂定名）",
+    "map_school_name": "塘尾第二学校（小学部）暂定名",
+    "map_scope_text": "塘尾社区、东坑社区、塘家社区、甲子塘社区、玉塘社区、田寮社区、石围社区、将围社区、新庄社区、南庄社区",
+    "independent_texts": [
+      {
+        "scope_text": "塘尾社区、石围社区、将围社区、新庄社区、东坑社区、塘家社区、甲子塘社区、玉塘社区、田寮社区、南庄社区",
+        "school_name_raw": "塘尾第二学校（暂定名）",
+        "year": 2026,
+        "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+        "source_position": "公办小学学区及咨询电话 第30行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0139",
+        "original_scope_text": "塘尾社区、石围社区、将围社区、新庄社区、东坑社区、塘家社区、甲子塘社区、玉塘社区、田寮社区、南庄社区",
+        "original_record": {
+          "district": "光明区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "塘尾第二学校（暂定名）",
+          "scope_text": "塘尾社区、石围社区、将围社区、新庄社区、东坑社区、塘家社区、甲子塘社区、玉塘社区、田寮社区、南庄社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+          "source_file": "原始资料\\招生政策\\光明区政府_学区划分_4b08287e45.html",
+          "source_section": "公办小学学区及咨询电话",
+          "source_row": 30,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "school_address": "凤凰街道塘尾社区振发路与高墩南路交汇处东南角",
+          "education_group": "",
+          "source_table_index": 0,
+          "record_id": "sz_2026_primary_scope_0139"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/guangming_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0113",
+    "zone_id": "sz:guangming:zone:496FFFE16D395558E053BC09A8C0A5ED",
+    "district": "光明区",
+    "school_name": "深圳市光明区东周小学",
+    "map_school_name": "光明区东周小学",
+    "map_scope_text": "东周社区、光明社区、翠湖社区、楼村社区、荔湖社区、科韵社区",
+    "independent_texts": [
+      {
+        "scope_text": "东周社区、光明社区、翠湖社区、楼村社区、荔湖社区、科韵社区",
+        "school_name_raw": "深圳市光明区东周小学",
+        "year": 2026,
+        "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+        "source_position": "公办小学学区及咨询电话 第4行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0113",
+        "original_scope_text": "东周社区、光明社区、翠湖社区、楼村社区、荔湖社区、科韵社区",
+        "original_record": {
+          "district": "光明区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "深圳市光明区东周小学",
+          "scope_text": "东周社区、光明社区、翠湖社区、楼村社区、荔湖社区、科韵社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+          "source_file": "原始资料\\招生政策\\光明区政府_学区划分_4b08287e45.html",
+          "source_section": "公办小学学区及咨询电话",
+          "source_row": 4,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "school_address": "光明街道东周社区华夏路52号",
+          "education_group": "深圳市光明区东周小学（集团）",
+          "source_table_index": 0,
+          "record_id": "sz_2026_primary_scope_0113"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/guangming_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0118",
+    "zone_id": "sz:guangming:zone:496FFFE16D3B5558E053BC09A8C0A5ED",
+    "district": "光明区",
+    "school_name": "深圳市光明区光明小学",
+    "map_school_name": "光明区光明小学",
+    "map_scope_text": "光明社区、碧眼社区、翠湖社区、迳口社区、东周社区",
+    "independent_texts": [
+      {
+        "scope_text": "光明社区、碧眼社区、翠湖社区、迳口社区、东周社区",
+        "school_name_raw": "深圳市光明区光明小学",
+        "year": 2026,
+        "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+        "source_position": "公办小学学区及咨询电话 第9行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0118",
+        "original_scope_text": "光明社区、碧眼社区、翠湖社区、迳口社区、东周社区",
+        "original_record": {
+          "district": "光明区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "深圳市光明区光明小学",
+          "scope_text": "光明社区、碧眼社区、翠湖社区、迳口社区、东周社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+          "source_file": "原始资料\\招生政策\\光明区政府_学区划分_4b08287e45.html",
+          "source_section": "公办小学学区及咨询电话",
+          "source_row": 9,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "school_address": "光明街道光明社区光明教育路315号（原碧园路4号）",
+          "education_group": "深圳市光明区光明中学（集团）",
+          "source_table_index": 0,
+          "record_id": "sz_2026_primary_scope_0118"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/guangming_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0153",
+    "zone_id": "sz:guangming:zone:496FFFE16D595558E053BC09A8C0A5ED",
+    "district": "光明区",
+    "school_name": "深圳市光明区秋硕小学",
+    "map_school_name": "光明区秋硕小学",
+    "map_scope_text": "将围社区、新庄社区、石家社区、石围社区",
+    "independent_texts": [
+      {
+        "scope_text": "将围社区、新庄社区、南庄社区、石家社区、石围社区",
+        "school_name_raw": "深圳市光明区秋硕小学",
+        "year": 2026,
+        "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+        "source_position": "公办小学学区及咨询电话 第44行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0153",
+        "original_scope_text": "将围社区、新庄社区、南庄社区、石家社区、石围社区",
+        "original_record": {
+          "district": "光明区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "深圳市光明区秋硕小学",
+          "scope_text": "将围社区、新庄社区、南庄社区、石家社区、石围社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+          "source_file": "原始资料\\招生政策\\光明区政府_学区划分_4b08287e45.html",
+          "source_section": "公办小学学区及咨询电话",
+          "source_row": 44,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "school_address": "马田街道石家社区振兴路北侧",
+          "education_group": "深圳市光明区实验学校（集团）",
+          "source_table_index": 0,
+          "record_id": "sz_2026_primary_scope_0153"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/guangming_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0142",
+    "zone_id": "sz:guangming:zone:82bef441a09e4502b9cb3b83f154204f",
+    "district": "光明区",
+    "school_name": "玉成小学（暂定名）",
+    "map_school_name": "玉成小学（暂定名）",
+    "map_scope_text": "玉律社区、田寮社区、长圳社区、红星社区",
+    "independent_texts": [
+      {
+        "scope_text": "玉律社区、田寮社区、长圳社区、红星社区",
+        "school_name_raw": "玉成小学（暂定名）",
+        "year": 2026,
+        "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+        "source_position": "公办小学学区及咨询电话 第33行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0142",
+        "original_scope_text": "玉律社区、田寮社区、长圳社区、红星社区",
+        "original_record": {
+          "district": "光明区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "玉成小学（暂定名）",
+          "scope_text": "玉律社区、田寮社区、长圳社区、红星社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+          "source_file": "原始资料\\招生政策\\光明区政府_学区划分_4b08287e45.html",
+          "source_section": "公办小学学区及咨询电话",
+          "source_row": 33,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "school_address": "玉塘街道玉律社区学成路与玉律三路交汇处南侧",
+          "education_group": "",
+          "source_table_index": 0,
+          "record_id": "sz_2026_primary_scope_0142"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/guangming_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0136",
+    "zone_id": "sz:guangming:zone:9476cd61274244139274ef4952a9e03c",
+    "district": "光明区",
+    "school_name": "深圳北理莫斯科大学附属光明凤凰城实验学校",
+    "map_school_name": "深圳北理莫斯科大学附属光明凤凰城实验学校（小学部）",
+    "map_scope_text": "塘家社区、甲子塘社区、塘尾社区、东坑社区、凤凰社区",
+    "independent_texts": [
+      {
+        "scope_text": "塘家社区、甲子塘社区、塘尾社区、东坑社区、凤凰社区",
+        "school_name_raw": "深圳北理莫斯科大学附属光明凤凰城实验学校",
+        "year": 2026,
+        "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+        "source_position": "公办小学学区及咨询电话 第27行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0136",
+        "original_scope_text": "塘家社区、甲子塘社区、塘尾社区、东坑社区、凤凰社区",
+        "original_record": {
+          "district": "光明区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "深圳北理莫斯科大学附属光明凤凰城实验学校",
+          "scope_text": "塘家社区、甲子塘社区、塘尾社区、东坑社区、凤凰社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+          "source_file": "原始资料\\招生政策\\光明区政府_学区划分_4b08287e45.html",
+          "source_section": "公办小学学区及咨询电话",
+          "source_row": 27,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "school_address": "凤凰街道塘家社区冠元路151号",
+          "education_group": "深圳北理莫斯科大学基础教育集团",
+          "source_table_index": 0,
+          "record_id": "sz_2026_primary_scope_0136"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/guangming_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。"
+    ]
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0112",
+    "zone_id": "sz:guangming:zone:fffaecb27e8b45baa19bf639d0afbf02",
+    "district": "光明区",
+    "school_name": "南方科技大学附属光明荔园学校",
+    "map_school_name": "南方科技大学附属光明荔园学校（小学部）",
+    "map_scope_text": "翠湖社区、东周社区、光明社区、碧眼社区、迳口社区、科韵社区、荔湖社区、楼村社区",
+    "independent_texts": [
+      {
+        "scope_text": "翠湖社区、东周社区、光明社区、碧眼社区、迳口社区、科韵社区、荔湖社区、楼村社区",
+        "school_name_raw": "南方科技大学附属光明荔园学校",
+        "year": 2026,
+        "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+        "source_position": "公办小学学区及咨询电话 第3行",
+        "identity_status": "unique_name_normalization",
+        "applicability": "2026正式文字；空间一致性未全面核验",
+        "policy_record_id": "sz_2026_primary_scope_0112",
+        "original_scope_text": "翠湖社区、东周社区、光明社区、碧眼社区、迳口社区、科韵社区、荔湖社区、楼村社区",
+        "original_record": {
+          "district": "光明区",
+          "year": 2026,
+          "stage": "小学",
+          "school_name_raw": "南方科技大学附属光明荔园学校",
+          "scope_text": "翠湖社区、东周社区、光明社区、碧眼社区、迳口社区、科韵社区、荔湖社区、楼村社区",
+          "source_url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+          "source_file": "原始资料\\招生政策\\光明区政府_学区划分_4b08287e45.html",
+          "source_section": "公办小学学区及咨询电话",
+          "source_row": 3,
+          "snapshot_date": "2026-09-18",
+          "label_status": "policy_evidence_not_building_school_gold_label",
+          "school_address": "光明街道翠湖社区安民路100号",
+          "education_group": "南方科技大学附属光明学校（集团）",
+          "source_table_index": 0,
+          "record_id": "sz_2026_primary_scope_0112"
+        },
+        "document_local_path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/guangming_policy_browser.json",
+        "branch": null,
+        "map_source_admission_port": null
+      }
+    ],
+    "notes": [
+      "只要形成面即收录；自交不删除、不修复，原始路径及顶点顺序保留。"
+    ]
+  }
+]

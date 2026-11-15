@@ -1,0 +1,367 @@
+[
+  {
+    "path": "build.py",
+    "sha256": "20a545f82b5244d4dc80ea8fe94b569891051b9debb3e975104dd88b6ccd0014",
+    "bytes": 30412
+  },
+  {
+    "path": "index.html",
+    "sha256": "b48076227f30dea808cc9a2ae45dc859bf834a75b3c2978912988291a0f852da",
+    "bytes": 950970
+  },
+  {
+    "path": "verify.py",
+    "sha256": "4f1f5f39be136b6c4ba149d9d574870243e4230e239a717593832d7fbfd2c4aa",
+    "bytes": 5383
+  },
+  {
+    "path": "verify_view.py",
+    "sha256": "43d47f17d02e25419d7a4b126c1de61297824d6425a61c3f04b0b3ad3c7b325d",
+    "bytes": 2619
+  },
+  {
+    "path": "两区_polygon与文字.json",
+    "sha256": "81e6f3486941741fa3af031ba4fb69a72ef0afa0736fbc8e7a52513c3a98a22f",
+    "bytes": 1313338
+  },
+  {
+    "path": "使用说明.txt",
+    "sha256": "3a09cc2eca75ad1d4c3acc5275a48776d020871a257facc20e494ae130f9b1c3",
+    "bytes": 3466
+  },
+  {
+    "path": "光明区/manifest.json",
+    "sha256": "88fbdfbfab14008644659f5324c8fbfd0f3acd481f5cba96a8e02e34820c7363",
+    "bytes": 475
+  },
+  {
+    "path": "光明区/polygons.json",
+    "sha256": "d5f41a9f3bc29ea500d02b0fcf615b63dd8b889f1fe94f5d0ca8ab1c76caf20a",
+    "bytes": 781448
+  },
+  {
+    "path": "光明区/polygon与文字.json",
+    "sha256": "d5f41a9f3bc29ea500d02b0fcf615b63dd8b889f1fe94f5d0ca8ab1c76caf20a",
+    "bytes": 781448
+  },
+  {
+    "path": "光明区/schools.json",
+    "sha256": "bdb59af338c26c049c65289109e92dbea733b66b8fcd4be0b6fb04a64dc62023",
+    "bytes": 46561
+  },
+  {
+    "path": "光明区/texts.json",
+    "sha256": "c03b4b37171da480b2e1e68ff01912c11a6578ad6db3aaf79b9b3f9f427c4731",
+    "bytes": 122231
+  },
+  {
+    "path": "光明区/使用说明.txt",
+    "sha256": "993c12923570a897c0d508ef7bf62e5957cf0e0c3cb07c6ebb7942ce0fb7a9db",
+    "bytes": 561
+  },
+  {
+    "path": "光明区/历史记录/未采用重复路径.json",
+    "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+    "bytes": 4
+  },
+  {
+    "path": "光明区/原始地图分组.json",
+    "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+    "bytes": 4
+  },
+  {
+    "path": "光明区/原始边界_BD09_非RFC7946.geojson",
+    "sha256": "580b22a9f69f882b997c3de07dc9fbec17a15f7f3b018a52f74c5970fcff85da",
+    "bytes": 528588
+  },
+  {
+    "path": "光明区/地理数据/小区代表点_WGS84.geojson",
+    "sha256": "2f1c9e1daa53e964cb2171cb108cc00bff259ad2c3736c44efed404fd252ec30",
+    "bytes": 68136
+  },
+  {
+    "path": "光明区/学校路径对应.json",
+    "sha256": "217aad3b80dcffe0175ea1332bbdb43930f1cc60dfd043434d875bbe69bbde14",
+    "bytes": 10883
+  },
+  {
+    "path": "光明区/官网实际边界覆盖层.json",
+    "sha256": "733759842f90384e7bfee548629321caee3af73d97ef13407bcf42e1995395ad",
+    "bytes": 96
+  },
+  {
+    "path": "光明区/实验输入/输入清单.json",
+    "sha256": "67b37326c7fd918edabd48d43225c8cabe7a9a9fc2f92b77e36ac06230838dce",
+    "bytes": 400
+  },
+  {
+    "path": "光明区/小区数据/buildings.json",
+    "sha256": "97e6d631246674eaa3d6ed854945b450a380e425323d6e8769a5af84780a5344",
+    "bytes": 212018
+  },
+  {
+    "path": "光明区/小区数据/坐标组.json",
+    "sha256": "67fd30027e434b3d92dbff049f6cd3a727ad1e9f85eae2f4b22c3545ead10d36",
+    "bytes": 78250
+  },
+  {
+    "path": "光明区/政策文本/官方文字有而地图未单列.json",
+    "sha256": "f060743bdace703655f55a4af432f78c7e8386b8307a74860f10bb6fab668122",
+    "bytes": 1126
+  },
+  {
+    "path": "光明区/政策文本/年度原表.json",
+    "sha256": "a6ae88cc6161452105d5899cd395d50937ca75e791f785d9fd22a913d156f1f6",
+    "bytes": 42705
+  },
+  {
+    "path": "光明区/逐校文字.txt",
+    "sha256": "984d1dd5dc0e2eb100957aa8075c5f2493b97a1007b2277a5b55fc05bcf3be1b",
+    "bytes": 42998
+  },
+  {
+    "path": "坪山区/manifest.json",
+    "sha256": "2b5cadf3705b9e796be30d1bd9c4719f54366cbd7bb4c1fc33c4e3552dfed625",
+    "bytes": 476
+  },
+  {
+    "path": "坪山区/polygons.json",
+    "sha256": "cf5bcb6c33cdd361e0eb89f3ba726d8ca27456e23dd5f6c9bdaf12a91a606f9e",
+    "bytes": 531895
+  },
+  {
+    "path": "坪山区/polygon与文字.json",
+    "sha256": "cf5bcb6c33cdd361e0eb89f3ba726d8ca27456e23dd5f6c9bdaf12a91a606f9e",
+    "bytes": 531895
+  },
+  {
+    "path": "坪山区/schools.json",
+    "sha256": "b9f62ad3b30c2c9f8f683bd8c0bd75238fdcaeb2b51d4bf2cb7ddf210a14aa82",
+    "bytes": 31708
+  },
+  {
+    "path": "坪山区/texts.json",
+    "sha256": "cbc2fc32505d2641ac63f7859e9158fae992df8cd8ba29d21080d14de00cebee",
+    "bytes": 86429
+  },
+  {
+    "path": "坪山区/使用说明.txt",
+    "sha256": "8937759ac662376093127d594e479daacba11a7503cdb8d01ccdd3d4abf4555e",
+    "bytes": 561
+  },
+  {
+    "path": "坪山区/历史记录/未采用重复路径.json",
+    "sha256": "d94f8cf77903b1b1522670c3a2526433146c147b58c725bada0a0855b94e0273",
+    "bytes": 11512
+  },
+  {
+    "path": "坪山区/原始地图分组.json",
+    "sha256": "4b5616ba07ee7efd93e003812e6802d80d4c26885b6d318c76d0ac6d779285c3",
+    "bytes": 8618
+  },
+  {
+    "path": "坪山区/原始边界_BD09_非RFC7946.geojson",
+    "sha256": "cb2a7af41e89bb789240ceb1977debb509e639ab7402eff742d97a396f37ca1b",
+    "bytes": 357919
+  },
+  {
+    "path": "坪山区/地理数据/小区代表点_WGS84.geojson",
+    "sha256": "e4cddea7cf94af12651b88edfd142cb21aa781a9d16eda784920850ac6c65c16",
+    "bytes": 43770
+  },
+  {
+    "path": "坪山区/学校路径对应.json",
+    "sha256": "870457c5dfc69bc5272b3d53bc66f89b8392876a0df902587e5765222dc8ed55",
+    "bytes": 7213
+  },
+  {
+    "path": "坪山区/官网实际边界覆盖层.json",
+    "sha256": "20d4f38a5de748b3257fd7e5430dde15d5ec80dbf554a3f20a67e3ded8cb25d0",
+    "bytes": 99
+  },
+  {
+    "path": "坪山区/实验输入/输入清单.json",
+    "sha256": "67b37326c7fd918edabd48d43225c8cabe7a9a9fc2f92b77e36ac06230838dce",
+    "bytes": 400
+  },
+  {
+    "path": "坪山区/小区数据/buildings.json",
+    "sha256": "9f819692250bffa6da83e6ba8f4255c8f80560f5ea8a4bbcc0c1f3cf8d443473",
+    "bytes": 135688
+  },
+  {
+    "path": "坪山区/小区数据/坐标组.json",
+    "sha256": "f84be0dc54d9a6a3e04df69ef4563c9ec21f4233aaa655aab79f3fe42bdd0983",
+    "bytes": 50306
+  },
+  {
+    "path": "坪山区/政策文本/官方文字有而地图未单列.json",
+    "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+    "bytes": 4
+  },
+  {
+    "path": "坪山区/政策文本/年度原表.json",
+    "sha256": "31b3f30a26e87ba784dd2de1d5e17b6fae0b93202450d74ce78bc882bcc07ee0",
+    "bytes": 24839
+  },
+  {
+    "path": "坪山区/边界采用决定.json",
+    "sha256": "2b85900ad7bff6765d22e8c9e2cbfd0b2b334fc62d0897f17cab037d8c3a5917",
+    "bytes": 1022
+  },
+  {
+    "path": "坪山区/逐校文字.txt",
+    "sha256": "20b1ca40c074ac30e6a56f7879e4c6119beec90aa997d75a93c2fdbb988a0862",
+    "bytes": 37470
+  },
+  {
+    "path": "待核事项.json",
+    "sha256": "342c70a0649d483b6806253028ccc1529a652929a1cfe25a72c5f6324d76dad5",
+    "bytes": 383
+  },
+  {
+    "path": "整理汇总.json",
+    "sha256": "968a85be04c1bc838e512d42b7013ff48d534332bf5287def2b6622af7d43c60",
+    "bytes": 1267
+  },
+  {
+    "path": "来源与哈希.json",
+    "sha256": "86ee42d57f1dae7df32815812b25c8e63435a19910aac4e8e065f8019766ce96",
+    "bytes": 8094
+  },
+  {
+    "path": "来源存档/深圳市/polygon与文字整理_20261110/viewer_template.html",
+    "sha256": "3680980c28da1cea8476f4c1706eea42ccd9a87b4a6f05e473d5182d18b5adc5",
+    "bytes": 14786
+  },
+  {
+    "path": "来源存档/深圳市/光明坪山准入核查_20261115/browser_receipt.json",
+    "sha256": "683046513f88f4f170097ed18d1b014ca3dd500862e3116f66cc0fb1554317e0",
+    "bytes": 1476
+  },
+  {
+    "path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/guangming_map_browser.json",
+    "sha256": "4fcf8aab0ba3a1f67fbf552dc9b62d0f80bf024a958bd4d11f90edb6f77644be",
+    "bytes": 283190
+  },
+  {
+    "path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/guangming_policy_browser.json",
+    "sha256": "65267fccf850421471a4ba319e4923c9bc0c37248fc9c7171c8509c0f238205e",
+    "bytes": 31469
+  },
+  {
+    "path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/pingshan_map_status.html",
+    "sha256": "6f39bfc7e91c6fa8a784f7d561050d50436a1e10b12afe75c4c0b958a7607ddd",
+    "bytes": 1223
+  },
+  {
+    "path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/pingshan_map_status.txt",
+    "sha256": "4e921c7b2b7b410514d98e061904030859b0c0f330b61b83dcf80f508c6768e6",
+    "bytes": 204
+  },
+  {
+    "path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources/pingshan_policy_browser.json",
+    "sha256": "bc36aee9e7b0f81a702a83a7079a1329e03d2779f03fb3ee750f9debee3560a0",
+    "bytes": 111942
+  },
+  {
+    "path": "来源存档/深圳市/光明坪山准入核查_20261115/current_sources_receipt.json",
+    "sha256": "c2902169ecc8bc1de9e39a14ff602d5ad5032ab479456cc662f39897883625cd",
+    "bytes": 2355
+  },
+  {
+    "path": "来源存档/深圳市/光明坪山准入核查_20261115/光明区_逐校初核.json",
+    "sha256": "23ba16838baf4fcda6b877a8c926800744a5511af280fe10ace94b6a383d66d1",
+    "bytes": 66369
+  },
+  {
+    "path": "来源存档/深圳市/光明坪山准入核查_20261115/初核汇总.json",
+    "sha256": "150d8a3e95e56effe0c912a3b064ab807e6ed6d01e390086e276cd7d50ece832",
+    "bytes": 19817
+  },
+  {
+    "path": "来源存档/深圳市/光明坪山准入核查_20261115/坪山区_逐校初核.json",
+    "sha256": "c69841370dc6b8da7c79cdfc99bcccab406a187b2816b3aefc7994a01d031094",
+    "bytes": 61007
+  },
+  {
+    "path": "来源存档/深圳市/光明坪山准入核查_20261115/核查结论.txt",
+    "sha256": "47d1ac2b0be90cbfa72451e2a1d138d89af189b1f8ca77a66fef18213fd9b9eb",
+    "bytes": 8240
+  },
+  {
+    "path": "来源存档/深圳市/光明坪山身份复核_20261115/guangming_admission_ports.json",
+    "sha256": "26e9d7931ccba906b3460f83608f363c10a543540eba0459cdb836abb445f303",
+    "bytes": 1633
+  },
+  {
+    "path": "来源存档/深圳市/光明坪山身份复核_20261115/guangming_group_campuses.json",
+    "sha256": "d4cd26d6987cdabf4d74525610de278f3050f540ea473d7f1f9a0d45460a21b1",
+    "bytes": 22279
+  },
+  {
+    "path": "来源存档/深圳市/光明坪山身份复核_20261115/pingshan_city_directory.json",
+    "sha256": "b653de821e6271e6ee9714dc8903afd41ecd492edfbd305d65a3934573fc9137",
+    "bytes": 5889
+  },
+  {
+    "path": "来源存档/深圳市/光明坪山身份复核_20261115/pingshan_school_directory.json",
+    "sha256": "6db765c9f7840e428c1adf7185fe73bb838d2e1873325a7493c0ec528ac595a1",
+    "bytes": 3964
+  },
+  {
+    "path": "来源存档/深圳市/光明坪山身份复核_20261115/坪山双路径比较.json",
+    "sha256": "adf6c3115d23692a3215b30c6462491a258107a4a1ea17d3163272507293a823",
+    "bytes": 1920
+  },
+  {
+    "path": "来源存档/深圳市/光明坪山身份复核_20261115/复核结论.txt",
+    "sha256": "82c39568f6c8e1499df2a65285e63ed303d9e2e60a2d8f89f1cde1a46d80a994",
+    "bytes": 3412
+  },
+  {
+    "path": "来源存档/深圳市/四区数据集_20261103_v1/构建工具/coordinates.py",
+    "sha256": "4b031eeedb890d66decac365528f876aef97475a40c1c49a1b4e1fb8a02ee820",
+    "bytes": 1553
+  },
+  {
+    "path": "来源存档/深圳龙华_历史基线/深圳区/fdc-data.secondhand_buildings.深圳.json",
+    "sha256": "b48b7bada017431052fe42d3af3d5c78d3c7f4b7acce240d316c7c3df320afd8",
+    "bytes": 2481041
+  },
+  {
+    "path": "来源存档/深圳龙华_历史基线/深圳区/政策文本/光明区_2026_小学招生范围.json",
+    "sha256": "a6ae88cc6161452105d5899cd395d50937ca75e791f785d9fd22a913d156f1f6",
+    "bytes": 42705
+  },
+  {
+    "path": "来源存档/深圳龙华_历史基线/深圳区/政策文本/坪山区_2026_小学招生范围.json",
+    "sha256": "31b3f30a26e87ba784dd2de1d5e17b6fae0b93202450d74ce78bc882bcc07ee0",
+    "bytes": 24839
+  },
+  {
+    "path": "来源存档/科研推进/六区准入网络核验_20261023/深圳/pingshan_map_landing.html",
+    "sha256": "38afd53a52a082a28f94d9bd8e16dd79df03d19758f3ff502d89035d739da902",
+    "bytes": 22886
+  },
+  {
+    "path": "来源存档/科研推进/六区准入网络核验_20261023/深圳/pingshan_public_map_data.json",
+    "sha256": "333dae89adec92da8a14c9b4f618c38dd1b7ac7d905d72e7c953f712425ee24f",
+    "bytes": 236191
+  },
+  {
+    "path": "构建协议.json",
+    "sha256": "1cd7cabd7f067ffb70a2ce5ce05ce4b0f64718f8bb92c1c42254fee8c96a620a",
+    "bytes": 1548
+  },
+  {
+    "path": "校验结果.json",
+    "sha256": "bb414333165ea22fdc17c788d32e0850c67e0c04dc3f0281f7bd814962dfb69e",
+    "bytes": 495
+  },
+  {
+    "path": "身份修订记录.json",
+    "sha256": "937bffcd2c7201e59d1e32a357b3a06e14bcc0574afaff64a4b5bc182a2f0ce8",
+    "bytes": 935
+  }
+]

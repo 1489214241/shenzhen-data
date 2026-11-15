@@ -1,0 +1,1607 @@
+[
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0145",
+    "school_name": "深圳市光明区实验学校同心小学",
+    "district": "光明区",
+    "stage": "小学",
+    "policy_record_ids": [
+      "sz_2026_primary_scope_0145"
+    ],
+    "zone_ids": [
+      "sz:guangming:zone:42dd760f045d4e9ba217c419ed70db36"
+    ],
+    "source_school_ids": [
+      "42dd760f045d4e9ba217c419ed70db36"
+    ],
+    "map_markers": [
+      {
+        "source_school_id": "42dd760f045d4e9ba217c419ed70db36",
+        "coordinates_bd09": [
+          113.931083,
+          22.732854
+        ],
+        "coordinates_wgs84": [
+          113.91965134266472,
+          22.730099779240867
+        ],
+        "address": null,
+        "point_role": "官方地图标记点，不是学区polygon"
+      }
+    ],
+    "geometry_status": "has_area",
+    "identity_status": "unique_name_normalization",
+    "archived_zone_ids": []
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0127",
+    "school_name": "深圳市光明区教育科学研究院附属楼村小学",
+    "district": "光明区",
+    "stage": "小学",
+    "policy_record_ids": [
+      "sz_2026_primary_scope_0127"
+    ],
+    "zone_ids": [
+      "sz:guangming:zone:496FFFE16D3E5558E053BC09A8C0A5ED"
+    ],
+    "source_school_ids": [
+      "496FFFE16D3E5558E053BC09A8C0A5ED"
+    ],
+    "map_markers": [
+      {
+        "source_school_id": "496FFFE16D3E5558E053BC09A8C0A5ED",
+        "coordinates_bd09": [
+          113.937368,
+          22.786916
+        ],
+        "coordinates_wgs84": [
+          113.92594645378325,
+          22.784211779459625
+        ],
+        "address": null,
+        "point_role": "官方地图标记点，不是学区polygon"
+      }
+    ],
+    "geometry_status": "has_area",
+    "identity_status": "unique_name_normalization",
+    "archived_zone_ids": []
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0122",
+    "school_name": "深圳市光明区李松蓢学校",
+    "district": "光明区",
+    "stage": "小学",
+    "policy_record_ids": [
+      "sz_2026_primary_scope_0122"
+    ],
+    "zone_ids": [
+      "sz:guangming:zone:496FFFE16D415558E053BC09A8C0A5ED"
+    ],
+    "source_school_ids": [
+      "496FFFE16D415558E053BC09A8C0A5ED"
+    ],
+    "map_markers": [
+      {
+        "source_school_id": "496FFFE16D415558E053BC09A8C0A5ED",
+        "coordinates_bd09": [
+          113.901971,
+          22.791571
+        ],
+        "coordinates_wgs84": [
+          113.89063998245618,
+          22.78833597937482
+        ],
+        "address": null,
+        "point_role": "官方地图标记点，不是学区polygon"
+      }
+    ],
+    "geometry_status": "has_area",
+    "identity_status": "unique_name_normalization",
+    "archived_zone_ids": []
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0125",
+    "school_name": "深圳理工大学附属光明实验小学（原宝滨小学）",
+    "district": "光明区",
+    "stage": "小学",
+    "policy_record_ids": [
+      "sz_2026_primary_scope_0125"
+    ],
+    "zone_ids": [
+      "sz:guangming:zone:16305bba770f45e9b95398348fa8b511"
+    ],
+    "source_school_ids": [
+      "16305bba770f45e9b95398348fa8b511"
+    ],
+    "map_markers": [
+      {
+        "source_school_id": "16305bba770f45e9b95398348fa8b511",
+        "coordinates_bd09": [
+          113.908369,
+          22.794688
+        ],
+        "coordinates_wgs84": [
+          113.89702323855873,
+          22.791548035412784
+        ],
+        "address": null,
+        "point_role": "官方地图标记点，不是学区polygon"
+      }
+    ],
+    "geometry_status": "has_area",
+    "identity_status": "unique_name_normalization",
+    "archived_zone_ids": []
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0152",
+    "school_name": "深圳市光明区理创实验学校",
+    "district": "光明区",
+    "stage": "小学",
+    "policy_record_ids": [
+      "sz_2026_primary_scope_0152"
+    ],
+    "zone_ids": [
+      "sz:guangming:zone:55cecf8543c04839bda1b6b776f2455b"
+    ],
+    "source_school_ids": [
+      "55cecf8543c04839bda1b6b776f2455b"
+    ],
+    "map_markers": [
+      {
+        "source_school_id": "55cecf8543c04839bda1b6b776f2455b",
+        "coordinates_bd09": [
+          113.882932,
+          22.782595
+        ],
+        "coordinates_wgs84": [
+          113.87159610188017,
+          22.77924794766626
+        ],
+        "address": null,
+        "point_role": "官方地图标记点，不是学区polygon"
+      }
+    ],
+    "geometry_status": "has_area",
+    "identity_status": "unique_name_normalization",
+    "archived_zone_ids": []
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0123",
+    "school_name": "深圳外国语学校光明学校",
+    "district": "光明区",
+    "stage": "小学",
+    "policy_record_ids": [
+      "sz_2026_primary_scope_0123"
+    ],
+    "zone_ids": [
+      "sz:guangming:zone:597909e64a6440db93873303ecdbe876"
+    ],
+    "source_school_ids": [
+      "597909e64a6440db93873303ecdbe876"
+    ],
+    "map_markers": [
+      {
+        "source_school_id": "597909e64a6440db93873303ecdbe876",
+        "coordinates_bd09": [
+          113.897771,
+          22.808689
+        ],
+        "coordinates_wgs84": [
+          113.88642690514881,
+          22.80539412846093
+        ],
+        "address": null,
+        "point_role": "官方地图标记点，不是学区polygon"
+      }
+    ],
+    "geometry_status": "has_area",
+    "identity_status": "unique_name_normalization",
+    "archived_zone_ids": []
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0131",
+    "school_name": "深圳小学光明学校狮山校区",
+    "district": "光明区",
+    "stage": "小学",
+    "policy_record_ids": [
+      "sz_2026_primary_scope_0131"
+    ],
+    "zone_ids": [
+      "sz:guangming:zone:7a0800d7e8474f7d82b1836f9b271807"
+    ],
+    "source_school_ids": [
+      "7a0800d7e8474f7d82b1836f9b271807"
+    ],
+    "map_markers": [
+      {
+        "source_school_id": "7a0800d7e8474f7d82b1836f9b271807",
+        "coordinates_bd09": [
+          113.945191,
+          22.774577
+        ],
+        "coordinates_wgs84": [
+          113.93376091332081,
+          22.771905277014454
+        ],
+        "address": null,
+        "point_role": "官方地图标记点，不是学区polygon"
+      }
+    ],
+    "geometry_status": "has_area",
+    "identity_status": "unique_name_normalization",
+    "archived_zone_ids": []
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0157",
+    "school_name": "深圳外国语光明星耀学校（原薯田埔第二学校）",
+    "district": "光明区",
+    "stage": "小学",
+    "policy_record_ids": [
+      "sz_2026_primary_scope_0157"
+    ],
+    "zone_ids": [
+      "sz:guangming:zone:e902ae2509a5483d9347fae271e9d0d5"
+    ],
+    "source_school_ids": [
+      "e902ae2509a5483d9347fae271e9d0d5"
+    ],
+    "map_markers": [
+      {
+        "source_school_id": "e902ae2509a5483d9347fae271e9d0d5",
+        "coordinates_bd09": [
+          113.876075,
+          22.789439
+        ],
+        "coordinates_wgs84": [
+          113.86471222025652,
+          22.786123853393192
+        ],
+        "address": null,
+        "point_role": "官方地图标记点，不是学区polygon"
+      }
+    ],
+    "geometry_status": "has_area",
+    "identity_status": "unique_name_normalization",
+    "archived_zone_ids": []
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0147",
+    "school_name": "深圳市光明区长育学校",
+    "district": "光明区",
+    "stage": "小学",
+    "policy_record_ids": [
+      "sz_2026_primary_scope_0147"
+    ],
+    "zone_ids": [
+      "sz:guangming:zone:1f8f691710af4cd4a4fe4fc80accc7f3"
+    ],
+    "source_school_ids": [
+      "1f8f691710af4cd4a4fe4fc80accc7f3"
+    ],
+    "map_markers": [
+      {
+        "source_school_id": "1f8f691710af4cd4a4fe4fc80accc7f3",
+        "coordinates_bd09": [
+          113.925164,
+          22.728127
+        ],
+        "coordinates_wgs84": [
+          113.9137466108012,
+          22.725290849463253
+        ],
+        "address": null,
+        "point_role": "官方地图标记点，不是学区polygon"
+      }
+    ],
+    "geometry_status": "has_area",
+    "identity_status": "unique_name_normalization",
+    "archived_zone_ids": []
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0114",
+    "school_name": "华南师范大学附属光明星河小学",
+    "district": "光明区",
+    "stage": "小学",
+    "policy_record_ids": [
+      "sz_2026_primary_scope_0114"
+    ],
+    "zone_ids": [
+      "sz:guangming:zone:24b3ddd862444e7480ffa8c70222175c"
+    ],
+    "source_school_ids": [
+      "24b3ddd862444e7480ffa8c70222175c"
+    ],
+    "map_markers": [
+      {
+        "source_school_id": "24b3ddd862444e7480ffa8c70222175c",
+        "coordinates_bd09": [
+          113.947213,
+          22.765047
+        ],
+        "coordinates_wgs84": [
+          113.93577862678234,
+          22.762375365332435
+        ],
+        "address": null,
+        "point_role": "官方地图标记点，不是学区polygon"
+      }
+    ],
+    "geometry_status": "has_area",
+    "identity_status": "unique_name_normalization",
+    "archived_zone_ids": []
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0158",
+    "school_name": "深圳市光明区龙豪小学",
+    "district": "光明区",
+    "stage": "小学",
+    "policy_record_ids": [
+      "sz_2026_primary_scope_0158"
+    ],
+    "zone_ids": [
+      "sz:guangming:zone:79f162dbbef94bd8a14669d2d5392a88"
+    ],
+    "source_school_ids": [
+      "79f162dbbef94bd8a14669d2d5392a88"
+    ],
+    "map_markers": [
+      {
+        "source_school_id": "79f162dbbef94bd8a14669d2d5392a88",
+        "coordinates_bd09": [
+          113.91264,
+          22.767838
+        ],
+        "coordinates_wgs84": [
+          113.90129186849886,
+          22.764781352310482
+        ],
+        "address": null,
+        "point_role": "官方地图标记点，不是学区polygon"
+      }
+    ],
+    "geometry_status": "has_area",
+    "identity_status": "unique_name_normalization",
+    "archived_zone_ids": []
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0135",
+    "school_name": "深圳中学光明科学城学校",
+    "district": "光明区",
+    "stage": "小学",
+    "policy_record_ids": [
+      "sz_2026_primary_scope_0135"
+    ],
+    "zone_ids": [
+      "sz:guangming:zone:dfc2a4c1204f4a0ca4f1b7c7b8dd936b"
+    ],
+    "source_school_ids": [
+      "dfc2a4c1204f4a0ca4f1b7c7b8dd936b"
+    ],
+    "map_markers": [
+      {
+        "source_school_id": "dfc2a4c1204f4a0ca4f1b7c7b8dd936b",
+        "coordinates_bd09": [
+          113.931886,
+          22.736156
+        ],
+        "coordinates_wgs84": [
+          113.92045475551218,
+          22.733410889194424
+        ],
+        "address": null,
+        "point_role": "官方地图标记点，不是学区polygon"
+      }
+    ],
+    "geometry_status": "has_area",
+    "identity_status": "same_school_two_admission_ports_not_two_schools",
+    "admission_ports": [
+      {
+        "admission_port_id": "sz:guangming:port:sz_2026_primary_scope_0135:one",
+        "name": "深圳中学光明科学城学校一",
+        "zone_ids": [],
+        "geometry_status": "missing_not_inferred",
+        "eligibility_text": "监护人非凤凰英荟城、安居鸣鹿苑承租人不能申请。"
+      },
+      {
+        "admission_port_id": "sz:guangming:port:sz_2026_primary_scope_0135:two",
+        "name": "深圳中学光明科学城学校二",
+        "zone_ids": [
+          "sz:guangming:zone:dfc2a4c1204f4a0ca4f1b7c7b8dd936b"
+        ],
+        "geometry_status": "has_area",
+        "eligibility_text": "凤凰英荟城、安居鸣鹿苑承租人不能申请。"
+      }
+    ],
+    "identity_evidence": "来源存档/深圳市/光明坪山身份复核_20261115/guangming_admission_ports.json",
+    "polygon_status": "existing_polygon_accepted_for_school_by_user",
+    "additional_port_polygon_required": false,
+    "archived_zone_ids": []
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0116",
+    "school_name": "深圳小学光明学校曙光校区",
+    "district": "光明区",
+    "stage": "小学",
+    "policy_record_ids": [
+      "sz_2026_primary_scope_0116"
+    ],
+    "zone_ids": [
+      "sz:guangming:zone:359d844212c1402aae424c8b618c5719"
+    ],
+    "source_school_ids": [
+      "359d844212c1402aae424c8b618c5719"
+    ],
+    "map_markers": [
+      {
+        "source_school_id": "359d844212c1402aae424c8b618c5719",
+        "coordinates_bd09": [
+          113.947668,
+          22.768541
+        ],
+        "coordinates_wgs84": [
+          113.93623471905784,
+          22.765867487984465
+        ],
+        "address": null,
+        "point_role": "官方地图标记点，不是学区polygon"
+      }
+    ],
+    "geometry_status": "has_area",
+    "identity_status": "unique_name_normalization",
+    "archived_zone_ids": []
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0126",
+    "school_name": "深圳市光明区东宝纪念小学",
+    "district": "光明区",
+    "stage": "小学",
+    "policy_record_ids": [
+      "sz_2026_primary_scope_0126"
+    ],
+    "zone_ids": [
+      "sz:guangming:zone:496FFFE16D575558E053BC09A8C0A5ED"
+    ],
+    "source_school_ids": [
+      "496FFFE16D575558E053BC09A8C0A5ED"
+    ],
+    "map_markers": [
+      {
+        "source_school_id": "496FFFE16D575558E053BC09A8C0A5ED",
+        "coordinates_bd09": [
+          113.893352,
+          22.795569
+        ],
+        "coordinates_wgs84": [
+          113.88202232410077,
+          22.792242075439223
+        ],
+        "address": null,
+        "point_role": "官方地图标记点，不是学区polygon"
+      }
+    ],
+    "geometry_status": "has_area",
+    "identity_status": "unique_name_normalization",
+    "archived_zone_ids": []
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0150",
+    "school_name": "深圳市光明区红花山小学",
+    "district": "光明区",
+    "stage": "小学",
+    "policy_record_ids": [
+      "sz_2026_primary_scope_0150"
+    ],
+    "zone_ids": [
+      "sz:guangming:zone:496FFFE16D5A5558E053BC09A8C0A5ED"
+    ],
+    "source_school_ids": [
+      "496FFFE16D5A5558E053BC09A8C0A5ED"
+    ],
+    "map_markers": [
+      {
+        "source_school_id": "496FFFE16D5A5558E053BC09A8C0A5ED",
+        "coordinates_bd09": [
+          113.891119,
+          22.783993
+        ],
+        "coordinates_wgs84": [
+          113.87979652850856,
+          22.780657851117663
+        ],
+        "address": null,
+        "point_role": "官方地图标记点，不是学区polygon"
+      }
+    ],
+    "geometry_status": "has_area",
+    "identity_status": "unique_name_normalization",
+    "archived_zone_ids": []
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0151",
+    "school_name": "深圳理工大学附属光明知行学校（原合水口实验学校）",
+    "district": "光明区",
+    "stage": "小学",
+    "policy_record_ids": [
+      "sz_2026_primary_scope_0151"
+    ],
+    "zone_ids": [
+      "sz:guangming:zone:4eac5755291c44ce8a41f2f7d61219be"
+    ],
+    "source_school_ids": [
+      "4eac5755291c44ce8a41f2f7d61219be"
+    ],
+    "map_markers": [
+      {
+        "source_school_id": "4eac5755291c44ce8a41f2f7d61219be",
+        "coordinates_bd09": [
+          113.882882,
+          22.793861
+        ],
+        "coordinates_wgs84": [
+          113.87153845666859,
+          22.790508874684193
+        ],
+        "address": null,
+        "point_role": "官方地图标记点，不是学区polygon"
+      }
+    ],
+    "geometry_status": "has_area",
+    "identity_status": "unique_name_normalization",
+    "archived_zone_ids": []
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0134",
+    "school_name": "深圳实验光明科林学校",
+    "district": "光明区",
+    "stage": "小学",
+    "policy_record_ids": [
+      "sz_2026_primary_scope_0134"
+    ],
+    "zone_ids": [
+      "sz:guangming:zone:c963ffd16c04406789daf6f35fcdd566"
+    ],
+    "source_school_ids": [
+      "c963ffd16c04406789daf6f35fcdd566"
+    ],
+    "map_markers": [
+      {
+        "source_school_id": "c963ffd16c04406789daf6f35fcdd566",
+        "coordinates_bd09": [
+          113.957391,
+          22.742196
+        ],
+        "coordinates_wgs84": [
+          113.94593714440454,
+          22.739456182980714
+        ],
+        "address": null,
+        "point_role": "官方地图标记点，不是学区polygon"
+      }
+    ],
+    "geometry_status": "has_area",
+    "identity_status": "unique_name_normalization",
+    "archived_zone_ids": []
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0133",
+    "school_name": "深圳市光明区外国语学校",
+    "district": "光明区",
+    "stage": "小学",
+    "policy_record_ids": [
+      "sz_2026_primary_scope_0133"
+    ],
+    "zone_ids": [
+      "sz:guangming:zone:10a8d068bb97459aa06cffecdcebb128"
+    ],
+    "source_school_ids": [
+      "10a8d068bb97459aa06cffecdcebb128"
+    ],
+    "map_markers": [
+      {
+        "source_school_id": "10a8d068bb97459aa06cffecdcebb128",
+        "coordinates_bd09": [
+          113.964718,
+          22.735501
+        ],
+        "coordinates_wgs84": [
+          113.95326532559774,
+          22.73265694934709
+        ],
+        "address": null,
+        "point_role": "官方地图标记点，不是学区polygon"
+      }
+    ],
+    "geometry_status": "has_area",
+    "identity_status": "unique_name_normalization",
+    "archived_zone_ids": []
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0120",
+    "school_name": "深圳市光明区公明中学",
+    "district": "光明区",
+    "stage": "小学",
+    "policy_record_ids": [
+      "sz_2026_primary_scope_0120"
+    ],
+    "zone_ids": [
+      "sz:guangming:zone:1213384ab81e4158bebe66e8b038e6f3"
+    ],
+    "source_school_ids": [
+      "1213384ab81e4158bebe66e8b038e6f3"
+    ],
+    "map_markers": [
+      {
+        "source_school_id": "1213384ab81e4158bebe66e8b038e6f3",
+        "coordinates_bd09": [
+          113.905061,
+          22.786502
+        ],
+        "coordinates_wgs84": [
+          113.89372851946045,
+          22.783313554350652
+        ],
+        "address": null,
+        "point_role": "官方地图标记点，不是学区polygon"
+      }
+    ],
+    "geometry_status": "has_area",
+    "identity_status": "unique_name_normalization",
+    "archived_zone_ids": []
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0149",
+    "school_name": "深圳市光明区公明第一小学",
+    "district": "光明区",
+    "stage": "小学",
+    "policy_record_ids": [
+      "sz_2026_primary_scope_0149"
+    ],
+    "zone_ids": [
+      "sz:guangming:zone:496FFFE16D3D5558E053BC09A8C0A5ED"
+    ],
+    "source_school_ids": [
+      "496FFFE16D3D5558E053BC09A8C0A5ED"
+    ],
+    "map_markers": [
+      {
+        "source_school_id": "496FFFE16D3D5558E053BC09A8C0A5ED",
+        "coordinates_bd09": [
+          113.893178,
+          22.788091
+        ],
+        "coordinates_wgs84": [
+          113.88185435640281,
+          22.784766536070546
+        ],
+        "address": null,
+        "point_role": "官方地图标记点，不是学区polygon"
+      }
+    ],
+    "geometry_status": "has_area",
+    "identity_status": "unique_name_normalization",
+    "archived_zone_ids": []
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0141",
+    "school_name": "深圳市光明区玉律学校",
+    "district": "光明区",
+    "stage": "小学",
+    "policy_record_ids": [
+      "sz_2026_primary_scope_0141"
+    ],
+    "zone_ids": [
+      "sz:guangming:zone:496FFFE16D405558E053BC09A8C0A5ED"
+    ],
+    "source_school_ids": [
+      "496FFFE16D405558E053BC09A8C0A5ED"
+    ],
+    "map_markers": [
+      {
+        "source_school_id": "496FFFE16D405558E053BC09A8C0A5ED",
+        "coordinates_bd09": [
+          113.899805,
+          22.72506
+        ],
+        "coordinates_wgs84": [
+          113.8884497115724,
+          22.72181193758414
+        ],
+        "address": null,
+        "point_role": "官方地图标记点，不是学区polygon"
+      }
+    ],
+    "geometry_status": "has_area",
+    "identity_status": "unique_name_normalization",
+    "archived_zone_ids": []
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0148",
+    "school_name": "深圳大学附属光明学校",
+    "district": "光明区",
+    "stage": "小学",
+    "policy_record_ids": [
+      "sz_2026_primary_scope_0148"
+    ],
+    "zone_ids": [
+      "sz:guangming:zone:4eb3730bd8e042938c9996ec1d5aa287"
+    ],
+    "source_school_ids": [
+      "4eb3730bd8e042938c9996ec1d5aa287"
+    ],
+    "map_markers": [
+      {
+        "source_school_id": "4eb3730bd8e042938c9996ec1d5aa287",
+        "coordinates_bd09": [
+          113.931071,
+          22.728279
+        ],
+        "coordinates_wgs84": [
+          113.919636437711,
+          22.725525301962833
+        ],
+        "address": null,
+        "point_role": "官方地图标记点，不是学区polygon"
+      }
+    ],
+    "geometry_status": "has_area",
+    "identity_status": "unique_name_normalization",
+    "archived_zone_ids": []
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0144",
+    "school_name": "深圳中学光明科学城学校西校区",
+    "district": "光明区",
+    "stage": "小学",
+    "policy_record_ids": [
+      "sz_2026_primary_scope_0144"
+    ],
+    "zone_ids": [
+      "sz:guangming:zone:6926b60700c448b485f0781de948020a"
+    ],
+    "source_school_ids": [
+      "6926b60700c448b485f0781de948020a"
+    ],
+    "map_markers": [
+      {
+        "source_school_id": "6926b60700c448b485f0781de948020a",
+        "coordinates_bd09": [
+          113.9241,
+          22.726592
+        ],
+        "coordinates_wgs84": [
+          113.91268511145928,
+          22.72373931239536
+        ],
+        "address": null,
+        "point_role": "官方地图标记点，不是学区polygon"
+      }
+    ],
+    "geometry_status": "has_area",
+    "identity_status": "unique_name_normalization",
+    "archived_zone_ids": []
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0128",
+    "school_name": "深圳市教育科学研究院实验学校（光明）",
+    "district": "光明区",
+    "stage": "小学",
+    "policy_record_ids": [
+      "sz_2026_primary_scope_0128"
+    ],
+    "zone_ids": [
+      "sz:guangming:zone:02491b84ec864c6caa698926afdcfc3e"
+    ],
+    "source_school_ids": [
+      "02491b84ec864c6caa698926afdcfc3e"
+    ],
+    "map_markers": [
+      {
+        "source_school_id": "02491b84ec864c6caa698926afdcfc3e",
+        "coordinates_bd09": [
+          113.926751,
+          22.786583
+        ],
+        "coordinates_wgs84": [
+          113.91535744771627,
+          22.783759176966928
+        ],
+        "address": null,
+        "point_role": "官方地图标记点，不是学区polygon"
+      }
+    ],
+    "geometry_status": "has_area",
+    "identity_status": "unique_name_normalization",
+    "archived_zone_ids": []
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0143",
+    "school_name": "深圳市光明区长圳学校",
+    "district": "光明区",
+    "stage": "小学",
+    "policy_record_ids": [
+      "sz_2026_primary_scope_0143"
+    ],
+    "zone_ids": [
+      "sz:guangming:zone:496FFFE16D3C5558E053BC09A8C0A5ED"
+    ],
+    "source_school_ids": [
+      "496FFFE16D3C5558E053BC09A8C0A5ED"
+    ],
+    "map_markers": [
+      {
+        "source_school_id": "496FFFE16D3C5558E053BC09A8C0A5ED",
+        "coordinates_bd09": [
+          113.925447,
+          22.724481
+        ],
+        "coordinates_wgs84": [
+          113.91402705887222,
+          22.72164988008017
+        ],
+        "address": null,
+        "point_role": "官方地图标记点，不是学区polygon"
+      }
+    ],
+    "geometry_status": "has_area",
+    "identity_status": "unique_name_normalization",
+    "archived_zone_ids": []
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0117",
+    "school_name": "南方科技大学附属光明凤凰学校",
+    "district": "光明区",
+    "stage": "小学",
+    "policy_record_ids": [
+      "sz_2026_primary_scope_0117"
+    ],
+    "zone_ids": [
+      "sz:guangming:zone:496FFFE16D545558E053BC09A8C0A5ED"
+    ],
+    "source_school_ids": [
+      "496FFFE16D545558E053BC09A8C0A5ED"
+    ],
+    "map_markers": [
+      {
+        "source_school_id": "496FFFE16D545558E053BC09A8C0A5ED",
+        "coordinates_bd09": [
+          113.953791,
+          22.745354
+        ],
+        "coordinates_wgs84": [
+          113.94233880927823,
+          22.74264996558154
+        ],
+        "address": null,
+        "point_role": "官方地图标记点，不是学区polygon"
+      }
+    ],
+    "geometry_status": "has_area",
+    "identity_status": "unique_name_normalization",
+    "archived_zone_ids": []
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0146",
+    "school_name": "深圳市光明区尚美小学",
+    "district": "光明区",
+    "stage": "小学",
+    "policy_record_ids": [
+      "sz_2026_primary_scope_0146"
+    ],
+    "zone_ids": [
+      "sz:guangming:zone:579cb23ceebf4925a32c989d7b1ce5e0"
+    ],
+    "source_school_ids": [
+      "579cb23ceebf4925a32c989d7b1ce5e0"
+    ],
+    "map_markers": [
+      {
+        "source_school_id": "579cb23ceebf4925a32c989d7b1ce5e0",
+        "coordinates_bd09": [
+          113.935989,
+          22.723344
+        ],
+        "coordinates_wgs84": [
+          113.92453999395407,
+          22.720641878358077
+        ],
+        "address": null,
+        "point_role": "官方地图标记点，不是学区polygon"
+      }
+    ],
+    "geometry_status": "has_area",
+    "identity_status": "unique_name_normalization",
+    "archived_zone_ids": []
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0138",
+    "school_name": "深圳实验光明明湖学校",
+    "district": "光明区",
+    "stage": "小学",
+    "policy_record_ids": [
+      "sz_2026_primary_scope_0138"
+    ],
+    "zone_ids": [
+      "sz:guangming:zone:81541dd3dc4d4ed28dcd4f72402ff217"
+    ],
+    "source_school_ids": [
+      "81541dd3dc4d4ed28dcd4f72402ff217"
+    ],
+    "map_markers": [
+      {
+        "source_school_id": "81541dd3dc4d4ed28dcd4f72402ff217",
+        "coordinates_bd09": [
+          113.918161,
+          22.756891
+        ],
+        "coordinates_wgs84": [
+          113.90678998125466,
+          22.753934086277194
+        ],
+        "address": null,
+        "point_role": "官方地图标记点，不是学区polygon"
+      }
+    ],
+    "geometry_status": "has_area",
+    "identity_status": "unique_name_normalization",
+    "archived_zone_ids": []
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0154",
+    "school_name": "深圳市教育科学研究院实验小学（光明）",
+    "district": "光明区",
+    "stage": "小学",
+    "policy_record_ids": [
+      "sz_2026_primary_scope_0154"
+    ],
+    "zone_ids": [
+      "sz:guangming:zone:b828cf69ee7b4b1ea595a3ee361349d6"
+    ],
+    "source_school_ids": [
+      "b828cf69ee7b4b1ea595a3ee361349d6"
+    ],
+    "map_markers": [
+      {
+        "source_school_id": "b828cf69ee7b4b1ea595a3ee361349d6",
+        "coordinates_bd09": [
+          113.898577,
+          22.773224
+        ],
+        "coordinates_wgs84": [
+          113.88725672431833,
+          22.769954424701986
+        ],
+        "address": null,
+        "point_role": "官方地图标记点，不是学区polygon"
+      }
+    ],
+    "geometry_status": "has_area",
+    "identity_status": "unique_name_normalization",
+    "archived_zone_ids": []
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0111",
+    "school_name": "深圳市光明区百花实验学校",
+    "district": "光明区",
+    "stage": "小学",
+    "policy_record_ids": [
+      "sz_2026_primary_scope_0111"
+    ],
+    "zone_ids": [
+      "sz:guangming:zone:f1faf1f8e99047b586f6a80bd866aff3"
+    ],
+    "source_school_ids": [
+      "f1faf1f8e99047b586f6a80bd866aff3"
+    ],
+    "map_markers": [
+      {
+        "source_school_id": "f1faf1f8e99047b586f6a80bd866aff3",
+        "coordinates_bd09": [
+          114.000782,
+          22.743137
+        ],
+        "coordinates_wgs84": [
+          113.98936366477068,
+          22.7396718299987
+        ],
+        "address": null,
+        "point_role": "官方地图标记点，不是学区polygon"
+      }
+    ],
+    "geometry_status": "has_area",
+    "identity_status": "unique_name_normalization",
+    "archived_zone_ids": []
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0129",
+    "school_name": "深圳理工大学附属光明实验学校（原楼村第二学校）",
+    "district": "光明区",
+    "stage": "小学",
+    "policy_record_ids": [
+      "sz_2026_primary_scope_0129"
+    ],
+    "zone_ids": [
+      "sz:guangming:zone:1d278fb3f5dd45e29a5f72e427c6b631"
+    ],
+    "source_school_ids": [
+      "1d278fb3f5dd45e29a5f72e427c6b631"
+    ],
+    "map_markers": [
+      {
+        "source_school_id": "1d278fb3f5dd45e29a5f72e427c6b631",
+        "coordinates_bd09": [
+          113.938534,
+          22.773539
+        ],
+        "coordinates_wgs84": [
+          113.92711393738368,
+          22.77084755455354
+        ],
+        "address": null,
+        "point_role": "官方地图标记点，不是学区polygon"
+      }
+    ],
+    "geometry_status": "has_area",
+    "identity_status": "unique_name_normalization",
+    "archived_zone_ids": []
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0124",
+    "school_name": "深圳市光明区公明第二小学",
+    "district": "光明区",
+    "stage": "小学",
+    "policy_record_ids": [
+      "sz_2026_primary_scope_0124"
+    ],
+    "zone_ids": [
+      "sz:guangming:zone:496FFFE16D3F5558E053BC09A8C0A5ED"
+    ],
+    "source_school_ids": [
+      "496FFFE16D3F5558E053BC09A8C0A5ED"
+    ],
+    "map_markers": [
+      {
+        "source_school_id": "496FFFE16D3F5558E053BC09A8C0A5ED",
+        "coordinates_bd09": [
+          113.90004,
+          22.794746
+        ],
+        "coordinates_wgs84": [
+          113.88870857125413,
+          22.79148462107024
+        ],
+        "address": null,
+        "point_role": "官方地图标记点，不是学区polygon"
+      }
+    ],
+    "geometry_status": "has_area",
+    "identity_status": "unique_name_normalization",
+    "archived_zone_ids": []
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0130",
+    "school_name": "中山大学深圳附属学校",
+    "district": "光明区",
+    "stage": "小学",
+    "policy_record_ids": [
+      "sz_2026_primary_scope_0130"
+    ],
+    "zone_ids": [
+      "sz:guangming:zone:496FFFE16D425558E053BC09A8C0A5ED"
+    ],
+    "source_school_ids": [
+      "496FFFE16D425558E053BC09A8C0A5ED"
+    ],
+    "map_markers": [
+      {
+        "source_school_id": "496FFFE16D425558E053BC09A8C0A5ED",
+        "coordinates_bd09": [
+          113.965725,
+          22.797949
+        ],
+        "coordinates_wgs84": [
+          113.95428781716082,
+          22.79507140715974
+        ],
+        "address": null,
+        "point_role": "官方地图标记点，不是学区polygon"
+      }
+    ],
+    "geometry_status": "has_area",
+    "identity_status": "unique_name_normalization",
+    "archived_zone_ids": []
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0155",
+    "school_name": "深圳市光明区马田小学",
+    "district": "光明区",
+    "stage": "小学",
+    "policy_record_ids": [
+      "sz_2026_primary_scope_0155"
+    ],
+    "zone_ids": [
+      "sz:guangming:zone:496FFFE16D435558E053BC09A8C0A5ED"
+    ],
+    "source_school_ids": [
+      "496FFFE16D435558E053BC09A8C0A5ED"
+    ],
+    "map_markers": [
+      {
+        "source_school_id": "496FFFE16D435558E053BC09A8C0A5ED",
+        "coordinates_bd09": [
+          113.884209,
+          22.787343
+        ],
+        "coordinates_wgs84": [
+          113.87287377986448,
+          22.78399189545401
+        ],
+        "address": null,
+        "point_role": "官方地图标记点，不是学区polygon"
+      }
+    ],
+    "geometry_status": "has_area",
+    "identity_status": "unique_name_normalization",
+    "archived_zone_ids": []
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0140",
+    "school_name": "深圳市光明区田寮小学",
+    "district": "光明区",
+    "stage": "小学",
+    "policy_record_ids": [
+      "sz_2026_primary_scope_0140"
+    ],
+    "zone_ids": [
+      "sz:guangming:zone:496FFFE16D535558E053BC09A8C0A5ED"
+    ],
+    "source_school_ids": [
+      "496FFFE16D535558E053BC09A8C0A5ED"
+    ],
+    "map_markers": [
+      {
+        "source_school_id": "496FFFE16D535558E053BC09A8C0A5ED",
+        "coordinates_bd09": [
+          113.907414,
+          22.734482
+        ],
+        "coordinates_wgs84": [
+          113.89605206997405,
+          22.731341165562768
+        ],
+        "address": null,
+        "point_role": "官方地图标记点，不是学区polygon"
+      }
+    ],
+    "geometry_status": "has_area",
+    "identity_status": "unique_name_normalization",
+    "archived_zone_ids": []
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0137",
+    "school_name": "深圳市光明区实验学校",
+    "district": "光明区",
+    "stage": "小学",
+    "policy_record_ids": [
+      "sz_2026_primary_scope_0137"
+    ],
+    "zone_ids": [
+      "sz:guangming:zone:496FFFE16D565558E053BC09A8C0A5ED"
+    ],
+    "source_school_ids": [
+      "496FFFE16D565558E053BC09A8C0A5ED"
+    ],
+    "map_markers": [
+      {
+        "source_school_id": "496FFFE16D565558E053BC09A8C0A5ED",
+        "coordinates_bd09": [
+          113.91689,
+          22.761871
+        ],
+        "coordinates_wgs84": [
+          113.90552646245857,
+          22.75889084383428
+        ],
+        "address": null,
+        "point_role": "官方地图标记点，不是学区polygon"
+      }
+    ],
+    "geometry_status": "has_area",
+    "identity_status": "unique_name_normalization",
+    "archived_zone_ids": []
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0132",
+    "school_name": "楼村第四学校（暂定名）",
+    "district": "光明区",
+    "stage": "小学",
+    "policy_record_ids": [
+      "sz_2026_primary_scope_0132"
+    ],
+    "zone_ids": [
+      "sz:guangming:zone:53b43505340d4bf3b6b2dec51f6720ba"
+    ],
+    "source_school_ids": [
+      "53b43505340d4bf3b6b2dec51f6720ba"
+    ],
+    "map_markers": [
+      {
+        "source_school_id": "53b43505340d4bf3b6b2dec51f6720ba",
+        "coordinates_bd09": [
+          113.942173,
+          22.77421
+        ],
+        "coordinates_wgs84": [
+          113.93074672535096,
+          22.77153453015742
+        ],
+        "address": null,
+        "point_role": "官方地图标记点，不是学区polygon"
+      }
+    ],
+    "geometry_status": "has_area",
+    "identity_status": "unique_name_normalization",
+    "archived_zone_ids": []
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0121",
+    "school_name": "深圳市光明区明达小学",
+    "district": "光明区",
+    "stage": "小学",
+    "policy_record_ids": [
+      "sz_2026_primary_scope_0121"
+    ],
+    "zone_ids": [
+      "sz:guangming:zone:a536081fb96b4af794fee5275fdaebf0"
+    ],
+    "source_school_ids": [
+      "a536081fb96b4af794fee5275fdaebf0"
+    ],
+    "map_markers": [
+      {
+        "source_school_id": "a536081fb96b4af794fee5275fdaebf0",
+        "coordinates_bd09": [
+          113.906604,
+          22.782292
+        ],
+        "coordinates_wgs84": [
+          113.89527054576605,
+          22.779129215887224
+        ],
+        "address": null,
+        "point_role": "官方地图标记点，不是学区polygon"
+      }
+    ],
+    "geometry_status": "has_area",
+    "identity_status": "unique_name_normalization",
+    "archived_zone_ids": []
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0119",
+    "school_name": "深圳实验光明学校",
+    "district": "光明区",
+    "stage": "小学",
+    "policy_record_ids": [
+      "sz_2026_primary_scope_0119"
+    ],
+    "zone_ids": [
+      "sz:guangming:zone:ac390d208d844e5184ad767b9ada08eb"
+    ],
+    "source_school_ids": [
+      "ac390d208d844e5184ad767b9ada08eb"
+    ],
+    "map_markers": [
+      {
+        "source_school_id": "ac390d208d844e5184ad767b9ada08eb",
+        "coordinates_bd09": [
+          113.944323,
+          22.755482
+        ],
+        "coordinates_wgs84": [
+          113.9328849458554,
+          22.752814135131448
+        ],
+        "address": null,
+        "point_role": "官方地图标记点，不是学区polygon"
+      }
+    ],
+    "geometry_status": "has_area",
+    "identity_status": "unique_name_normalization",
+    "archived_zone_ids": []
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0115",
+    "school_name": "深圳市光明区修远小学",
+    "district": "光明区",
+    "stage": "小学",
+    "policy_record_ids": [
+      "sz_2026_primary_scope_0115"
+    ],
+    "zone_ids": [
+      "sz:guangming:zone:04a69b145e0a425a839072b1f921c084"
+    ],
+    "source_school_ids": [
+      "04a69b145e0a425a839072b1f921c084"
+    ],
+    "map_markers": [
+      {
+        "source_school_id": "04a69b145e0a425a839072b1f921c084",
+        "coordinates_bd09": [
+          113.946575,
+          22.768929
+        ],
+        "coordinates_wgs84": [
+          113.935142693469,
+          22.766257662154153
+        ],
+        "address": null,
+        "point_role": "官方地图标记点，不是学区polygon"
+      }
+    ],
+    "geometry_status": "has_area",
+    "identity_status": "unique_name_normalization",
+    "archived_zone_ids": []
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0156",
+    "school_name": "深圳市光明区科育学校",
+    "district": "光明区",
+    "stage": "小学",
+    "policy_record_ids": [
+      "sz_2026_primary_scope_0156"
+    ],
+    "zone_ids": [
+      "sz:guangming:zone:25f63baf8ecf48708b09c1e05198f334"
+    ],
+    "source_school_ids": [
+      "25f63baf8ecf48708b09c1e05198f334"
+    ],
+    "map_markers": [
+      {
+        "source_school_id": "25f63baf8ecf48708b09c1e05198f334",
+        "coordinates_bd09": [
+          113.87551,
+          22.791518
+        ],
+        "coordinates_wgs84": [
+          113.86414331029644,
+          22.788206438173173
+        ],
+        "address": null,
+        "point_role": "官方地图标记点，不是学区polygon"
+      }
+    ],
+    "geometry_status": "has_area",
+    "identity_status": "unique_name_normalization",
+    "archived_zone_ids": []
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0139",
+    "school_name": "塘尾第二学校（暂定名）",
+    "district": "光明区",
+    "stage": "小学",
+    "policy_record_ids": [
+      "sz_2026_primary_scope_0139"
+    ],
+    "zone_ids": [
+      "sz:guangming:zone:43f4bb886b024369b587a77c62ff8ed2"
+    ],
+    "source_school_ids": [
+      "43f4bb886b024369b587a77c62ff8ed2"
+    ],
+    "map_markers": [
+      {
+        "source_school_id": "43f4bb886b024369b587a77c62ff8ed2",
+        "coordinates_bd09": [
+          113.915554,
+          22.75547
+        ],
+        "coordinates_wgs84": [
+          113.90418973426688,
+          22.75246710388408
+        ],
+        "address": null,
+        "point_role": "官方地图标记点，不是学区polygon"
+      }
+    ],
+    "geometry_status": "has_area",
+    "identity_status": "unique_name_normalization",
+    "archived_zone_ids": []
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0113",
+    "school_name": "深圳市光明区东周小学",
+    "district": "光明区",
+    "stage": "小学",
+    "policy_record_ids": [
+      "sz_2026_primary_scope_0113"
+    ],
+    "zone_ids": [
+      "sz:guangming:zone:496FFFE16D395558E053BC09A8C0A5ED"
+    ],
+    "source_school_ids": [
+      "496FFFE16D395558E053BC09A8C0A5ED"
+    ],
+    "map_markers": [
+      {
+        "source_school_id": "496FFFE16D395558E053BC09A8C0A5ED",
+        "coordinates_bd09": [
+          113.945256,
+          22.76436
+        ],
+        "coordinates_wgs84": [
+          113.93382305240249,
+          22.7616908713361
+        ],
+        "address": null,
+        "point_role": "官方地图标记点，不是学区polygon"
+      }
+    ],
+    "geometry_status": "has_area",
+    "identity_status": "unique_name_normalization",
+    "archived_zone_ids": []
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0118",
+    "school_name": "深圳市光明区光明小学",
+    "district": "光明区",
+    "stage": "小学",
+    "policy_record_ids": [
+      "sz_2026_primary_scope_0118"
+    ],
+    "zone_ids": [
+      "sz:guangming:zone:496FFFE16D3B5558E053BC09A8C0A5ED"
+    ],
+    "source_school_ids": [
+      "496FFFE16D3B5558E053BC09A8C0A5ED"
+    ],
+    "map_markers": [
+      {
+        "source_school_id": "496FFFE16D3B5558E053BC09A8C0A5ED",
+        "coordinates_bd09": [
+          113.954194,
+          22.76127
+        ],
+        "coordinates_wgs84": [
+          113.94275552908084,
+          22.758560499727807
+        ],
+        "address": null,
+        "point_role": "官方地图标记点，不是学区polygon"
+      }
+    ],
+    "geometry_status": "has_area",
+    "identity_status": "unique_name_normalization",
+    "archived_zone_ids": []
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0153",
+    "school_name": "深圳市光明区秋硕小学",
+    "district": "光明区",
+    "stage": "小学",
+    "policy_record_ids": [
+      "sz_2026_primary_scope_0153"
+    ],
+    "zone_ids": [
+      "sz:guangming:zone:496FFFE16D595558E053BC09A8C0A5ED"
+    ],
+    "source_school_ids": [
+      "496FFFE16D595558E053BC09A8C0A5ED"
+    ],
+    "map_markers": [
+      {
+        "source_school_id": "496FFFE16D595558E053BC09A8C0A5ED",
+        "coordinates_bd09": [
+          113.906086,
+          22.769624
+        ],
+        "coordinates_wgs84": [
+          113.89475437615323,
+          22.766457228966086
+        ],
+        "address": null,
+        "point_role": "官方地图标记点，不是学区polygon"
+      }
+    ],
+    "geometry_status": "has_area",
+    "identity_status": "unique_name_normalization",
+    "archived_zone_ids": []
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0142",
+    "school_name": "玉成小学（暂定名）",
+    "district": "光明区",
+    "stage": "小学",
+    "policy_record_ids": [
+      "sz_2026_primary_scope_0142"
+    ],
+    "zone_ids": [
+      "sz:guangming:zone:82bef441a09e4502b9cb3b83f154204f"
+    ],
+    "source_school_ids": [
+      "82bef441a09e4502b9cb3b83f154204f"
+    ],
+    "map_markers": [
+      {
+        "source_school_id": "82bef441a09e4502b9cb3b83f154204f",
+        "coordinates_bd09": [
+          113.899233,
+          22.719988
+        ],
+        "coordinates_wgs84": [
+          113.88787681259751,
+          22.716734226628326
+        ],
+        "address": null,
+        "point_role": "官方地图标记点，不是学区polygon"
+      }
+    ],
+    "geometry_status": "has_area",
+    "identity_status": "unique_name_normalization",
+    "archived_zone_ids": []
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0136",
+    "school_name": "深圳北理莫斯科大学附属光明凤凰城实验学校",
+    "district": "光明区",
+    "stage": "小学",
+    "policy_record_ids": [
+      "sz_2026_primary_scope_0136"
+    ],
+    "zone_ids": [
+      "sz:guangming:zone:9476cd61274244139274ef4952a9e03c"
+    ],
+    "source_school_ids": [
+      "9476cd61274244139274ef4952a9e03c"
+    ],
+    "map_markers": [
+      {
+        "source_school_id": "9476cd61274244139274ef4952a9e03c",
+        "coordinates_bd09": [
+          113.943764,
+          22.741245
+        ],
+        "coordinates_wgs84": [
+          113.93231340818795,
+          22.7385781294905
+        ],
+        "address": null,
+        "point_role": "官方地图标记点，不是学区polygon"
+      }
+    ],
+    "geometry_status": "has_area",
+    "identity_status": "unique_name_normalization",
+    "archived_zone_ids": []
+  },
+  {
+    "school_id": "sz:guangming:school:sz_2026_primary_scope_0112",
+    "school_name": "南方科技大学附属光明荔园学校",
+    "district": "光明区",
+    "stage": "小学",
+    "policy_record_ids": [
+      "sz_2026_primary_scope_0112"
+    ],
+    "zone_ids": [
+      "sz:guangming:zone:fffaecb27e8b45baa19bf639d0afbf02"
+    ],
+    "source_school_ids": [
+      "fffaecb27e8b45baa19bf639d0afbf02"
+    ],
+    "map_markers": [
+      {
+        "source_school_id": "fffaecb27e8b45baa19bf639d0afbf02",
+        "coordinates_bd09": [
+          113.948357,
+          22.773028
+        ],
+        "coordinates_wgs84": [
+          113.93692420840208,
+          22.770351249387595
+        ],
+        "address": null,
+        "point_role": "官方地图标记点，不是学区polygon"
+      }
+    ],
+    "geometry_status": "has_area",
+    "identity_status": "unique_name_normalization",
+    "archived_zone_ids": []
+  }
+]

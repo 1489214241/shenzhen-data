@@ -1,0 +1,21 @@
+{
+  "reason": "官方问答确认光明一/二为同校报名端口",
+  "old_school_identity_count": 80,
+  "new_school_identity_count": 79,
+  "source_map_path_count": 80,
+  "active_map_path_count": 79,
+  "migrations": [
+    {
+      "old_school_id": "sz:guangming:school:sz_2026_primary_scope_0135:one",
+      "school_id": "sz:guangming:school:sz_2026_primary_scope_0135",
+      "admission_port_id": "sz:guangming:port:sz_2026_primary_scope_0135:one"
+    },
+    {
+      "old_school_id": "sz:guangming:school:sz_2026_primary_scope_0135:two",
+      "school_id": "sz:guangming:school:sz_2026_primary_scope_0135",
+      "admission_port_id": "sz:guangming:port:sz_2026_primary_scope_0135:two"
+    }
+  ],
+  "pingshan_same_school_relation": "同一school_id只采用2023年路径；2022年路径仅存档，不参与计算",
+  "review_report": "来源存档/深圳市/光明坪山身份复核_20261115/复核结论.txt"
+}

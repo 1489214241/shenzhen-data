@@ -1,0 +1,38 @@
+[
+  {
+    "name": "guangming_policy",
+    "url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+    "retrieved_utc": "2026-11-14T17:48:49.341779+00:00",
+    "error": "HTTPSConnectionPool(host='www.szgm.gov.cn', port=443): Max retries exceeded with url: /szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)')))"
+  },
+  {
+    "name": "guangming_guide",
+    "url": "https://www.szgm.gov.cn/gmwtjy/gkmlpt/content/12/12836/post_12836039.html",
+    "retrieved_utc": "2026-11-14T17:48:49.341779+00:00",
+    "error": "HTTPSConnectionPool(host='www.szgm.gov.cn', port=443): Max retries exceeded with url: /gmwtjy/gkmlpt/content/12/12836/post_12836039.html (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)')))"
+  },
+  {
+    "name": "pingshan_policy",
+    "url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+    "retrieved_utc": "2026-11-14T17:48:49.341779+00:00",
+    "error": "HTTPSConnectionPool(host='www.szpsq.gov.cn', port=443): Max retries exceeded with url: /psjyjjcjyk/tzgg/content/post_12833167.html (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)')))"
+  },
+  {
+    "name": "pingshan_city_mirror",
+    "url": "https://www.sz.gov.cn/school/tzgg/content/post_12833206.html",
+    "retrieved_utc": "2026-11-14T17:48:49.341779+00:00",
+    "error": "HTTPSConnectionPool(host='www.sz.gov.cn', port=443): Max retries exceeded with url: /school/tzgg/content/post_12833206.html (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)')))"
+  },
+  {
+    "name": "pingshan_map_status",
+    "url": "https://zsbm.szpsq.org.cn/visitpsgbxyxqdt",
+    "retrieved_utc": "2026-11-14T17:48:49.343213+00:00",
+    "status": 200,
+    "final_url": "https://zsbm.szpsq.org.cn/visitpsgbxyxqdt",
+    "bytes": 1223,
+    "sha256": "6f39bfc7e91c6fa8a784f7d561050d50436a1e10b12afe75c4c0b958a7607ddd",
+    "title": "温馨提示",
+    "path": "current_sources\\pingshan_map_status.html",
+    "table_rows": []
+  }
+]

@@ -1,0 +1,45 @@
+[
+  {
+    "name": "guangming_policy",
+    "url": "https://www.szgm.gov.cn/szgm/132104/jyfw/fwxshjz/ywjy/132306/152800/content/post_12839482.html",
+    "retrieved_utc": "2026-11-14T17:50:38.872535+00:00",
+    "status": 200,
+    "title": "光明区公办小学学区及咨询电话",
+    "path": "current_sources\\guangming_policy_browser.json",
+    "sha256": "65267fccf850421471a4ba319e4923c9bc0c37248fc9c7171c8509c0f238205e",
+    "school_count": 0,
+    "table_rows": [
+      49
+    ]
+  },
+  {
+    "name": "pingshan_policy",
+    "url": "https://www.szpsq.gov.cn/psjyjjcjyk/tzgg/content/post_12833167.html",
+    "retrieved_utc": "2026-11-14T17:50:38.931428+00:00",
+    "status": 200,
+    "title": "深圳市坪山区2026年小一、初一学位申请指南-坪山区人民政府",
+    "path": "current_sources\\pingshan_policy_browser.json",
+    "sha256": "bc36aee9e7b0f81a702a83a7079a1329e03d2779f03fb3ee750f9debee3560a0",
+    "school_count": 0,
+    "table_rows": [
+      8,
+      9,
+      32,
+      23,
+      14,
+      11,
+      46
+    ]
+  },
+  {
+    "name": "guangming_map",
+    "url": "https://zsxt.szgm.gov.cn:8443/visitgmgbxyxqdt",
+    "retrieved_utc": "2026-11-14T17:50:38.974009+00:00",
+    "status": 200,
+    "title": "学区地图",
+    "path": "current_sources\\guangming_map_browser.json",
+    "sha256": "4fcf8aab0ba3a1f67fbf552dc9b62d0f80bf024a958bd4d11f90edb6f77644be",
+    "school_count": 48,
+    "table_rows": []
+  }
+]

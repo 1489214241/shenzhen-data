@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "source_hashes": 24,
+  "map_paths": 79,
+  "original_paths_and_text_exact": true,
+  "school_zone_referential_integrity": true,
+  "candidate_population_and_coordinates_exact": true,
+  "coordinate_group_partition_exact": true,
+  "school_one_branch_preserved": true,
+  "duplicate_path_archived_not_active": true
+}
