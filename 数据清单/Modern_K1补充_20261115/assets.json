@@ -1,0 +1,17 @@
+{
+  "assets": [
+    {
+      "name": "modern-k1-missing-47.zip",
+      "bytes": 16058124,
+      "sha256": "11041ecd83c8340e731112460e7d272b0d84e780639a7f6e9f4e2c27a1558d27",
+      "files": 47
+    },
+    {
+      "name": "modern-source-eight-16.zip",
+      "bytes": 52326260,
+      "sha256": "3afdd85a869acac79305ceae8f5b2a3f99ea71401a85d787083609fa5f5a838a",
+      "files": 16
+    }
+  ],
+  "target_gold_included": false
+}

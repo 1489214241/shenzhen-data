@@ -1,0 +1,38 @@
+Modern K1原权重与运行依赖补充包（2026-11-15）
+
+下载：https://github.com/1489214241/shenzhen-data/releases/tag/modern-k1-artifacts-20261115
+主包：modern-k1-missing-47.zip，47项，约15.3 MiB。
+可选来源训练包：modern-source-eight-16.zip，16项，约49.9 MiB。
+两个包只包含已存在且匹配冻结哈希的文件，未重新训练、重建特征或替换近似材料；不含目标区评价Gold。
+
+一、47项的确切含义
+依据modern_school_gap_reference_20261114/inputs_sha256.json的53项：原教师权重3、二进制输入7、政策/证据JSON及HTML37项组成47项补充包，另6项已在仓库常规位置发布。
+按内容哈希核对，目前53项中实际有9项已发布：除上述6项外，两区政策规则包和审核summary也有异路径的相同内容。为对应原47项路径清单，主包仍保留这3项副本；不是声称47项内容都从未公开。
+contract.json逐项列出原路径、可迁移相对路径、SHA256、字节数和已发布副本位置；original_inputs_sha256.json原样保存原53项清单。
+
+二、恢复到一个新的独立目录
+先克隆或更新本仓库，并下载Release中的zip到仓库根目录。在仓库根目录运行：
+python -X utf8 构建工具/modern_artifacts.py restore --root restored-modern modern-k1-missing-47.zip
+python -X utf8 构建工具/modern_artifacts.py verify --root restored-modern
+
+恢复工具从主包恢复47项，并从公开仓库自动复制另外6项到原相对路径，总计验证53项。恢复前检查包内每项哈希和路径，不覆盖已有不同内容。
+如还需要来源八区缓存，可一起恢复：
+python -X utf8 构建工具/modern_artifacts.py restore --root restored-modern modern-k1-missing-47.zip modern-source-eight-16.zip
+python -X utf8 构建工具/modern_artifacts.py verify --root restored-modern --with-sources
+这时总计69项。可选包16项为八区各自的原特征pkl和训练/验证标签npz，均匹配原低参照实验input_hashes.json。
+
+三、实际执行原权重及完整政策推断
+python -X utf8 构建工具/replay_modern_artifacts.py --root restored-modern --out replay-output
+
+依赖原模型的Python环境，实测Python 3.12、PyTorch 2.6.0+cu118、NumPy 1.26.4，另需scipy、shapely等已公开模型模块依赖。严格概率哈希可能受不同设备/数值库影响，脚本记录环境并在不一致时失败，不把近似结果标成逐值一致。
+运行器使用公开模型与政策核心代码，对冻结补充证据执行等价处理，并与原完整输出记录进行哈希对比。冻结JSON中的F盘绝对溯源路径不改写，运行器显式映射到恢复根目录，避免依赖原F盘。不是将所有旧实验脚本自动改造成跨平台入口。
+本地隔离目录实测通过：6组概率数组逐值一致，龙华628、龙岗1174共1802条完整政策输出记录一致；不读取旧工作区或评价Gold。见isolated_replay_report.json。
+恢复的是categorical原教师＋原完整政策，对应历史898/1761=50.99%；不是后来额外训练条件补校模块的912/1761版本，也不是K1新增核验后微调权重。K1的既有1095题评分仍由原公开评分脚本核验，不混换分母。
+
+四、可选训练包的边界
+16项补齐来源八区原特征和标签缓存。重新运行来源低参照训练还需原脚本引用的基础arrays/extra_evidence、道路文件、配置及已公开K1释放记录；它们没有被重新打进本包。本次验证了这16项冻结哈希，没有声称已从空目录重训整轮低参照实验。
+source训练/验证标签属于原来源监督，不是新增深圳评价Gold。历史训练含跨城来源和开发监督，不能直接用作最终同城留一区主实验。
+
+五、在原电脑重新导出
+python -X utf8 构建工具/modern_artifacts.py export --root "F:\学区划片描述\学区归属模型_代码库" --out modern-export --with-sources
+不加--with-sources只导出47项主包。工具先核对全部需用的原文件；缺失或哈希不一致时写export_check.json并停止，不制作替代数据。不会自动上传，不改原始文件。

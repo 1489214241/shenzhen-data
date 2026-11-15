@@ -1,0 +1,30 @@
+{
+  "device": "cuda",
+  "torch": "2.6.0+cu118",
+  "numpy": "1.26.4",
+  "gold_read": false,
+  "training_performed": false,
+  "districts": {
+    "龙华区": {
+      "rows": 628,
+      "probability_seeds_bitwise_equal": {
+        "20261231": true,
+        "20261232": true,
+        "20261233": true
+      },
+      "full_records_equal": true,
+      "school_sets_equal": true
+    },
+    "龙岗区": {
+      "rows": 1174,
+      "probability_seeds_bitwise_equal": {
+        "20261231": true,
+        "20261232": true,
+        "20261233": true
+      },
+      "full_records_equal": true,
+      "school_sets_equal": true
+    }
+  },
+  "passed": true
+}

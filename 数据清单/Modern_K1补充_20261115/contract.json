@@ -1,0 +1,719 @@
+{
+  "original_root": "F:\\学区划片描述\\学区归属模型_代码库",
+  "frozen_k1_manifest_sha256": "55654bf88ea71fe334f5e65a94ad2172bcb4976f3efe74f869aee049be323d7f",
+  "frozen_source_manifest_sha256": "e65503449d3904f4cd2a883d69a1cafc9e1d59f4bd61611b6ddae40745f51f04",
+  "k1_count": 53,
+  "k1_package_count": 47,
+  "source_optional_count": 16,
+  "note": "47 requested paths; 3 also have published identical bytes at other paths. 6 canonical public files are restored from the clone.",
+  "files": [
+    {
+      "group": "k1",
+      "path": "data/深圳市/修复实验输入_20261112/龙华区/district.pkl",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\data\\深圳市\\修复实验输入_20261112\\龙华区\\district.pkl",
+      "sha256": "b001eb4afa3318a8abd377800cf0a9f5587ada52ed48438e3e61575ab94999c6",
+      "bytes": 1611068,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": []
+    },
+    {
+      "group": "k1",
+      "path": "data/深圳市/修复实验输入_20261112/龙华区/rules.pkl",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\data\\深圳市\\修复实验输入_20261112\\龙华区\\rules.pkl",
+      "sha256": "a9d7897aab91f9fab0e4b82298b83495ab6af4abd3fce6b2ca675b3390759aa5",
+      "bytes": 223743,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": []
+    },
+    {
+      "group": "k1",
+      "path": "outputs/shenzhen_resolution_20261112/community_methods_20261113/inputs/current/龙华区.pkl",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\community_methods_20261113\\inputs\\current\\龙华区.pkl",
+      "sha256": "d9115329fe54801309b91b3607b771289122bf714e1809bbc2567afba475ffdf",
+      "bytes": 10627913,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": []
+    },
+    {
+      "group": "k1",
+      "path": "outputs/shenzhen_resolution_20261112/community_methods_20261113/metadata/龙华区.json",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\community_methods_20261113\\metadata\\龙华区.json",
+      "sha256": "17fef01d9819d33f8a1a78c8322eea6618f08f09ddd0f081ace4cb782abcce42",
+      "bytes": 387449,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": []
+    },
+    {
+      "group": "k1",
+      "path": "data/深圳市/全链路输入_v2_20261113/龙华区/evidence_ledger.json",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\data\\深圳市\\全链路输入_v2_20261113\\龙华区\\evidence_ledger.json",
+      "sha256": "11bf6ff755e1a1dadd542833ff72ef84a2942f770319eb56dee2a4a56951759e",
+      "bytes": 454236,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": []
+    },
+    {
+      "group": "k1",
+      "path": "data/深圳市/修复实验输入_20261112/龙岗区/district.pkl",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\data\\深圳市\\修复实验输入_20261112\\龙岗区\\district.pkl",
+      "sha256": "e6b279b4ce181cae8212959b81773e1d451b16527b872457d9c46a722d6d1b5a",
+      "bytes": 5264421,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": []
+    },
+    {
+      "group": "k1",
+      "path": "data/深圳市/修复实验输入_20261112/龙岗区/rules.pkl",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\data\\深圳市\\修复实验输入_20261112\\龙岗区\\rules.pkl",
+      "sha256": "29ea59edc31061ab1529c95d768af9c630736e9b7e3ddbb23c05cecef1905dda",
+      "bytes": 774311,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": []
+    },
+    {
+      "group": "k1",
+      "path": "outputs/shenzhen_resolution_20261112/community_methods_20261113/inputs/current/龙岗区.pkl",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\community_methods_20261113\\inputs\\current\\龙岗区.pkl",
+      "sha256": "bd9b8b69739026e27502286a4b7f9ad8d83dccfe9a1cd253f02c6a3b810378fe",
+      "bytes": 101512879,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": []
+    },
+    {
+      "group": "k1",
+      "path": "outputs/shenzhen_resolution_20261112/community_methods_20261113/metadata/龙岗区.json",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\community_methods_20261113\\metadata\\龙岗区.json",
+      "sha256": "335f33b866c832f16c9e82a69fd510f86d4370a98a95d2d87e2bcc366bf0f88f",
+      "bytes": 731879,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": []
+    },
+    {
+      "group": "k1",
+      "path": "data/深圳市/全链路输入_v2_20261113/龙岗区/evidence_ledger.json",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\data\\深圳市\\全链路输入_v2_20261113\\龙岗区\\evidence_ledger.json",
+      "sha256": "cefcd82652724627da8a3e8d24db372fc100072fad852dd670801d7aaed3d6e3",
+      "bytes": 1423471,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": []
+    },
+    {
+      "group": "k1",
+      "path": "outputs/shenzhen_resolution_20261112/round08_reference_retraining/policies/龙华区.json",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round08_reference_retraining\\policies\\龙华区.json",
+      "sha256": "feaf25aa86b7983160485c41f43190b9a0e89be5b8f33b1ce1a5de661bfcd884",
+      "bytes": 139040,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": [
+        "龙华区/政策规则/规则包.json"
+      ]
+    },
+    {
+      "group": "k1",
+      "path": "outputs/shenzhen_resolution_20261112/round03_partial_labels/source_graphs/龙华区.json",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round03_partial_labels\\source_graphs\\龙华区.json",
+      "sha256": "c4a5366a7df45d19651e427ed80cc947a8a1901ee393e9383a7db68603157c30",
+      "bytes": 205536,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": []
+    },
+    {
+      "group": "k1",
+      "path": "outputs/shenzhen_resolution_20261112/round08_reference_retraining/facts/龙华区.json",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round08_reference_retraining\\facts\\龙华区.json",
+      "sha256": "0e18355be154c371f0abe7f9bfeaa75ee22f4baab3486e4c4749ddc74eec30aa",
+      "bytes": 366744,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": []
+    },
+    {
+      "group": "k1",
+      "path": "outputs/shenzhen_resolution_20261112/road_corridor_scope_estimates/龙华区/estimates.json",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\road_corridor_scope_estimates\\龙华区\\estimates.json",
+      "sha256": "f65a8f536c4cc844a954dd48f256f6fb530e3ac7334f7ec9afa0dbad2030a955",
+      "bytes": 115,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": []
+    },
+    {
+      "group": "k1",
+      "path": "outputs/shenzhen_resolution_20261112/round20_residential_membership/facts/龙华区.json",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round20_residential_membership\\facts\\龙华区.json",
+      "sha256": "6988021edd4cf23a03fc50360a81dbe3abd79190526d694d916087eef65d3404",
+      "bytes": 24468,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": []
+    },
+    {
+      "group": "k1",
+      "path": "outputs/shenzhen_resolution_20261112/round25_joint_geography/facts/龙华区.json",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round25_joint_geography\\facts\\龙华区.json",
+      "sha256": "04a2a44f8690520819fa96c59c4b116498b066739a8d95611f234fab5f798228",
+      "bytes": 4992,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": []
+    },
+    {
+      "group": "k1",
+      "path": "outputs/shenzhen_resolution_20261112/named_region_facts_v1/龙华区/facts.json",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\named_region_facts_v1\\龙华区\\facts.json",
+      "sha256": "55a54e30b1a876491249d1a65d036aec9fd2f9e955a21d096d7d53d445a2309c",
+      "bytes": 63062,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": []
+    },
+    {
+      "group": "k1",
+      "path": "outputs/shenzhen_resolution_20261112/round27_scope_graph_refresh/graphs/龙华区.json",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round27_scope_graph_refresh\\graphs\\龙华区.json",
+      "sha256": "c4a5366a7df45d19651e427ed80cc947a8a1901ee393e9383a7db68603157c30",
+      "bytes": 205536,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": []
+    },
+    {
+      "group": "k1",
+      "path": "outputs/shenzhen_resolution_20261112/explicit_scope_facts_v1/龙华区/facts.json",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\explicit_scope_facts_v1\\龙华区\\facts.json",
+      "sha256": "b8e73738bbfda362f04965698125c8f0784824371d0c30115c579b7d034933f3",
+      "bytes": 210794,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": []
+    },
+    {
+      "group": "k1",
+      "path": "outputs/shenzhen_resolution_20261112/administrative_identity_review_v1/manifest.json",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\administrative_identity_review_v1\\manifest.json",
+      "sha256": "4a26d5621635e37d9812cb2b130e00be142889253fca328670ff3c2937651ecb",
+      "bytes": 3457,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": []
+    },
+    {
+      "group": "k1",
+      "path": "outputs/shenzhen_resolution_20261112/administrative_identity_review_v1/identities.json",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\administrative_identity_review_v1\\identities.json",
+      "sha256": "fe4170f9abd361a749732b42577f74e4179330668f8cbb4cafc621ccb189bae0",
+      "bytes": 80343,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": []
+    },
+    {
+      "group": "k1",
+      "path": "outputs/shenzhen_resolution_20261112/administrative_identity_review_v1/membership_facts.json",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\administrative_identity_review_v1\\membership_facts.json",
+      "sha256": "93118d0b7ed9b022330d9b3d4ceedd2f86cab33c70d58a803af439802071d54a",
+      "bytes": 906416,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": []
+    },
+    {
+      "group": "k1",
+      "path": "outputs/shenzhen_resolution_20261112/administrative_identity_review_v1/summary.json",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\administrative_identity_review_v1\\summary.json",
+      "sha256": "7e96e2c2fb4a80a854b2491e76aa2a0c95eef10875a36f270926bb945b7c49bb",
+      "bytes": 454,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": [
+        "experiments/shenzhen_resolution_20261112/administrative_identity_review_v1/summary.json"
+      ]
+    },
+    {
+      "group": "k1",
+      "path": "outputs/shenzhen_resolution_20261112/administrative_identity_review_v1/school_facts/龙华区.json",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\administrative_identity_review_v1\\school_facts\\龙华区.json",
+      "sha256": "dc869a1784e22957c9d89fe5d2c7f8d10954b62e9a0b691a19fc3dab5243fb77",
+      "bytes": 693414,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": []
+    },
+    {
+      "group": "k1",
+      "path": "outputs/shenzhen_resolution_20261112/administrative_identity_review_v1/school_facts/龙岗区.json",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\administrative_identity_review_v1\\school_facts\\龙岗区.json",
+      "sha256": "1fcfaec42c27bd2fdbc0797323cbb328c75cbed18691ee824d113922f2112ced",
+      "bytes": 827424,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": []
+    },
+    {
+      "group": "k1",
+      "path": "scripts/review_shenzhen_administrative_identities.py",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\scripts\\review_shenzhen_administrative_identities.py",
+      "sha256": "9d73175d76ceb64b0bfb5906832285c35db25813c915118e895df985c578cc4c",
+      "bytes": 7949,
+      "package_required": false,
+      "public_path": "models/school-zone/scripts/review_shenzhen_administrative_identities.py",
+      "already_published_same_hash": [
+        "models/school-zone/scripts/review_shenzhen_administrative_identities.py"
+      ]
+    },
+    {
+      "group": "k1",
+      "path": "outputs/shenzhen_resolution_20261112/community_membership_sources/profile_inventory.json",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\community_membership_sources\\profile_inventory.json",
+      "sha256": "f7b41899ea7ae1ab154fbc1bd74f241f407b230b48a3b3702fe8eb836e607765",
+      "bytes": 481806,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": []
+    },
+    {
+      "group": "k1",
+      "path": "outputs/shenzhen_resolution_20261112/community_identity_version_audit/report.json",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\community_identity_version_audit\\report.json",
+      "sha256": "9f81dc4955e391b0b9c12140cbdbc77e223c170b03c6248f8e6d5b1c17fb1d5a",
+      "bytes": 73322,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": []
+    },
+    {
+      "group": "k1",
+      "path": "scripts/shenzhen_administrative_identity.py",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\scripts\\shenzhen_administrative_identity.py",
+      "sha256": "6865e1043b916cdf4660f63ffce2ecc563ca50e18fd6ecd4d26e252cacb25e75",
+      "bytes": 3484,
+      "package_required": false,
+      "public_path": "models/school-zone/scripts/shenzhen_administrative_identity.py",
+      "already_published_same_hash": [
+        "models/school-zone/scripts/shenzhen_administrative_identity.py"
+      ]
+    },
+    {
+      "group": "k1",
+      "path": "scripts/shenzhen_community_facts.py",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\scripts\\shenzhen_community_facts.py",
+      "sha256": "69e69cba8c29640b3fb208558c929d1675cba8a08e6da9af1ac2147840db10a2",
+      "bytes": 3415,
+      "package_required": false,
+      "public_path": "models/school-zone/scripts/shenzhen_community_facts.py",
+      "already_published_same_hash": [
+        "models/school-zone/scripts/shenzhen_community_facts.py"
+      ]
+    },
+    {
+      "group": "k1",
+      "path": "scripts/shenzhen_boundary_conjunction_v2.py",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\scripts\\shenzhen_boundary_conjunction_v2.py",
+      "sha256": "e3e9e87cbb198de7a90ee32358d6eee4d9b49b5202a520e93818d005e1de9ac5",
+      "bytes": 1584,
+      "package_required": false,
+      "public_path": "models/school-zone/scripts/shenzhen_boundary_conjunction_v2.py",
+      "already_published_same_hash": [
+        "models/school-zone/scripts/shenzhen_boundary_conjunction_v2.py"
+      ]
+    },
+    {
+      "group": "k1",
+      "path": "scripts/build_shenzhen_aligned_inputs.py",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\scripts\\build_shenzhen_aligned_inputs.py",
+      "sha256": "083f84d17f86e195c374abb970969d874b335f5c8d04ef61e88710088112f291",
+      "bytes": 17907,
+      "package_required": false,
+      "public_path": "models/school-zone/scripts/build_shenzhen_aligned_inputs.py",
+      "already_published_same_hash": [
+        "models/school-zone/scripts/build_shenzhen_aligned_inputs.py"
+      ]
+    },
+    {
+      "group": "k1",
+      "path": "outputs/shenzhen_resolution_20261112/community_membership_sources/raw/dae1e7c3c8b1bee69e75.html",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\community_membership_sources\\raw\\dae1e7c3c8b1bee69e75.html",
+      "sha256": "5ca6cab61dd7011a95eb504aec0105c9c939d0641720b54bc1d6aaa77a641b1d",
+      "bytes": 33005,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": []
+    },
+    {
+      "group": "k1",
+      "path": "outputs/shenzhen_resolution_20261112/community_membership_sources/raw/30ac87ebcf20911ab37b.html",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\community_membership_sources\\raw\\30ac87ebcf20911ab37b.html",
+      "sha256": "9a970aa4efa3924e974261dd26f599ac92ba6f2900062ac2f30f66d7e78bd195",
+      "bytes": 31471,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": []
+    },
+    {
+      "group": "k1",
+      "path": "outputs/shenzhen_resolution_20261112/community_identity_version_sources/dalang_adjustment_20230524.html",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\community_identity_version_sources\\dalang_adjustment_20230524.html",
+      "sha256": "ade1f528919725edbfd5e1ce105bb1aeb7711da99f9f781a149e018b1fc24160",
+      "bytes": 63870,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": []
+    },
+    {
+      "group": "k1",
+      "path": "outputs/shenzhen_resolution_20261112/community_membership_sources/review_v1/membership_facts.json",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\community_membership_sources\\review_v1\\membership_facts.json",
+      "sha256": "33237f5d9ee4e0bb2fb280d05b399b9634bea31d25a338ec179e35a4008bbcdf",
+      "bytes": 1081644,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": []
+    },
+    {
+      "group": "k1",
+      "path": "outputs/shenzhen_resolution_20261112/municipal_residential_membership_sources/review_v1/membership_facts.json",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\municipal_residential_membership_sources\\review_v1\\membership_facts.json",
+      "sha256": "e99493e76ecd5c315220bf40a5d866e437b911a6000c023d031ce7806fae2d1c",
+      "bytes": 37651,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": []
+    },
+    {
+      "group": "k1",
+      "path": "data/深圳市/边界合取单项修复输入_20261112/龙华区/reviewed_policy.json",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\data\\深圳市\\边界合取单项修复输入_20261112\\龙华区\\reviewed_policy.json",
+      "sha256": "74019c04a022cd71cf278adc368a7c0239f28ac71f55f37fd10ba131a31d3e97",
+      "bytes": 139360,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": []
+    },
+    {
+      "group": "k1",
+      "path": "data/深圳市/边界合取单项修复输入_20261112/龙岗区/reviewed_policy.json",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\data\\深圳市\\边界合取单项修复输入_20261112\\龙岗区\\reviewed_policy.json",
+      "sha256": "f0b238ef6ab5d32a112add7b9c963085665f0b2358820a996ba147bc96231feb",
+      "bytes": 241311,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": []
+    },
+    {
+      "group": "k1",
+      "path": "outputs/shenzhen_resolution_20261112/round08_reference_retraining/policies/龙岗区.json",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round08_reference_retraining\\policies\\龙岗区.json",
+      "sha256": "f4243f1cc6698ecd8a05360847c7775a81959574d4622b2752592a3bbe13a15f",
+      "bytes": 241043,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": [
+        "龙岗区/政策规则/规则包.json"
+      ]
+    },
+    {
+      "group": "k1",
+      "path": "outputs/shenzhen_resolution_20261112/round03_partial_labels/source_graphs/龙岗区.json",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round03_partial_labels\\source_graphs\\龙岗区.json",
+      "sha256": "86dd58cd3876bd90688ec7f61e7290f7a40d448a2c48c3fd16342dee44a0cb89",
+      "bytes": 217272,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": []
+    },
+    {
+      "group": "k1",
+      "path": "outputs/shenzhen_resolution_20261112/round08_reference_retraining/facts/龙岗区.json",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round08_reference_retraining\\facts\\龙岗区.json",
+      "sha256": "827ba58b2c5bf6b258ee86a4d447923b1a2b402e35af50e3754b01d061db167f",
+      "bytes": 526279,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": []
+    },
+    {
+      "group": "k1",
+      "path": "outputs/shenzhen_resolution_20261112/road_corridor_scope_estimates/龙岗区/estimates.json",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\road_corridor_scope_estimates\\龙岗区\\estimates.json",
+      "sha256": "bc86d04448be67c1f47cab34242b2567c91c955a57c556807cce32fdf780944a",
+      "bytes": 68945,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": []
+    },
+    {
+      "group": "k1",
+      "path": "outputs/shenzhen_resolution_20261112/round20_residential_membership/facts/龙岗区.json",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round20_residential_membership\\facts\\龙岗区.json",
+      "sha256": "c8dee430b37ec41e12d0e90342f998f8074dbf2be70a1acf0b79aeee2ae1bcc3",
+      "bytes": 17239,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": []
+    },
+    {
+      "group": "k1",
+      "path": "outputs/shenzhen_resolution_20261112/round25_joint_geography/facts/龙岗区.json",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round25_joint_geography\\facts\\龙岗区.json",
+      "sha256": "783f0c4505d6fb1be8bb1abc1d67be1cf211e540a941c956314fdea3f588ab4a",
+      "bytes": 54,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": []
+    },
+    {
+      "group": "k1",
+      "path": "outputs/shenzhen_resolution_20261112/named_region_facts_v1/龙岗区/facts.json",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\named_region_facts_v1\\龙岗区\\facts.json",
+      "sha256": "4940f854e4f90e019c41c29f8f4b40390b3f3ea2cc5cdc569702a214c4ca7002",
+      "bytes": 446591,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": []
+    },
+    {
+      "group": "k1",
+      "path": "outputs/shenzhen_resolution_20261112/round27_scope_graph_refresh/graphs/龙岗区.json",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round27_scope_graph_refresh\\graphs\\龙岗区.json",
+      "sha256": "bc12e5840580aa3f57f4a1ff241dcfa0db8f094d680013280b42a77148a4aa63",
+      "bytes": 220315,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": []
+    },
+    {
+      "group": "k1",
+      "path": "outputs/shenzhen_resolution_20261112/explicit_scope_facts_v1/龙岗区/facts.json",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\explicit_scope_facts_v1\\龙岗区\\facts.json",
+      "sha256": "1ddff183e2df3a6297fe55577b89c08c7e04f7e5b82f81498f33829473170681",
+      "bytes": 3787401,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": []
+    },
+    {
+      "group": "k1",
+      "path": "outputs/modernnca_shenzhen_multilabel_20261113/weights/categorical/20261231.pt",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\modernnca_shenzhen_multilabel_20261113\\weights\\categorical\\20261231.pt",
+      "sha256": "bf0e36a9e5b4f61506dcafa627cbfc944a3b2acdac924c4cba1cfeb44146354c",
+      "bytes": 44454,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": []
+    },
+    {
+      "group": "k1",
+      "path": "outputs/modernnca_shenzhen_multilabel_20261113/weights/categorical/20261232.pt",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\modernnca_shenzhen_multilabel_20261113\\weights\\categorical\\20261232.pt",
+      "sha256": "d4adc0cd51479166cd385c80d3244dcaa077781d97ba0c75e447f0401a1835fd",
+      "bytes": 44454,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": []
+    },
+    {
+      "group": "k1",
+      "path": "outputs/modernnca_shenzhen_multilabel_20261113/weights/categorical/20261233.pt",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\modernnca_shenzhen_multilabel_20261113\\weights\\categorical\\20261233.pt",
+      "sha256": "6de3769c35420307b8fe13aaddf8004595a938cd7d25bb88e4e58a42daeb5301",
+      "bytes": 44454,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": []
+    },
+    {
+      "group": "k1",
+      "path": "data/lines/深圳_完整输入_20261111.pkl",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\data\\lines\\深圳_完整输入_20261111.pkl",
+      "sha256": "474a56d1a838bce06395c8b2224a7279202aab052e7d5016daee894da77d2330",
+      "bytes": 6490885,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": []
+    },
+    {
+      "group": "k1",
+      "path": "outputs/modern_complete_reference_20261114/public_plan.json",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\modern_complete_reference_20261114\\public_plan.json",
+      "sha256": "3ed91d70be9e9981a367ce3222fcf26487038185ac1654e3e76e51c68e8ea2c4",
+      "bytes": 556461,
+      "package_required": false,
+      "public_path": "experiments/modern_complete_reference_20261114/public_plan.json",
+      "already_published_same_hash": [
+        "experiments/modern_complete_reference_20261114/public_plan.json"
+      ]
+    },
+    {
+      "group": "sources",
+      "path": "outputs/shenzhen_resolution_20261112/round03_partial_labels/inputs/天心区.pkl",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round03_partial_labels\\inputs\\天心区.pkl",
+      "sha256": "cebb33ecfabc26a5f2d9bcdcce246f0797eb3e7b70a943873180ecd194113e08",
+      "bytes": 49289132,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": []
+    },
+    {
+      "group": "sources",
+      "path": "outputs/shenzhen_resolution_20261112/round03_partial_labels/inputs/天心区_labels.npz",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round03_partial_labels\\inputs\\天心区_labels.npz",
+      "sha256": "9eebc50b565cb11e4bcbf00815e03a0f7b372aa44e747d3bff3d93b3e35729f1",
+      "bytes": 5304,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": []
+    },
+    {
+      "group": "sources",
+      "path": "outputs/shenzhen_resolution_20261112/round03_partial_labels/inputs/芙蓉区.pkl",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round03_partial_labels\\inputs\\芙蓉区.pkl",
+      "sha256": "62de459d10339d917cd0879f588d2de40e5844dfeed4d99a82e63e83f08a108e",
+      "bytes": 71632568,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": []
+    },
+    {
+      "group": "sources",
+      "path": "outputs/shenzhen_resolution_20261112/round03_partial_labels/inputs/芙蓉区_labels.npz",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round03_partial_labels\\inputs\\芙蓉区_labels.npz",
+      "sha256": "71b1cccf9272a0ec9b183355a52ecd2e7d3cb72a4baf6fbc35bc8b695e5ccb60",
+      "bytes": 5509,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": []
+    },
+    {
+      "group": "sources",
+      "path": "outputs/shenzhen_resolution_20261112/round03_partial_labels/inputs/雨花区.pkl",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round03_partial_labels\\inputs\\雨花区.pkl",
+      "sha256": "edd21a1ade0e043d4b5b510bd566c6efbd09c0f9b699e8020d74673b20a1e798",
+      "bytes": 98677194,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": []
+    },
+    {
+      "group": "sources",
+      "path": "outputs/shenzhen_resolution_20261112/round03_partial_labels/inputs/雨花区_labels.npz",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round03_partial_labels\\inputs\\雨花区_labels.npz",
+      "sha256": "7320718f09c88b0b122209b66926eb3b3108db24d4b89da0d64b6960abe2c845",
+      "bytes": 8423,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": []
+    },
+    {
+      "group": "sources",
+      "path": "outputs/shenzhen_resolution_20261112/round03_partial_labels/inputs/开福区.pkl",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round03_partial_labels\\inputs\\开福区.pkl",
+      "sha256": "dda0a3a688328732d441bdffb804be1ac137dfc22aadd3c2e3a5e3a1d952b573",
+      "bytes": 44610328,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": []
+    },
+    {
+      "group": "sources",
+      "path": "outputs/shenzhen_resolution_20261112/round03_partial_labels/inputs/开福区_labels.npz",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round03_partial_labels\\inputs\\开福区_labels.npz",
+      "sha256": "d08449d13a99dd68af395bda81a6c0eb6bb9a0dc3aef970e8ac1e983e54e490b",
+      "bytes": 6364,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": []
+    },
+    {
+      "group": "sources",
+      "path": "outputs/shenzhen_resolution_20261112/round03_partial_labels/inputs/拱墅区.pkl",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round03_partial_labels\\inputs\\拱墅区.pkl",
+      "sha256": "a2065767a718b06516c2994a9cdbac523ac87b4deb4a10ccfc048923c79378cd",
+      "bytes": 62468269,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": []
+    },
+    {
+      "group": "sources",
+      "path": "outputs/shenzhen_resolution_20261112/round03_partial_labels/inputs/拱墅区_labels.npz",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round03_partial_labels\\inputs\\拱墅区_labels.npz",
+      "sha256": "97291c94aede92d2a1bf506091840dfaeafcc5d8aa8ecfedc26cc9789c43618e",
+      "bytes": 6016,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": []
+    },
+    {
+      "group": "sources",
+      "path": "outputs/shenzhen_resolution_20261112/round03_partial_labels/inputs/萧山区.pkl",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round03_partial_labels\\inputs\\萧山区.pkl",
+      "sha256": "6df35036e17c68bcc1abbf9b82fdeda1460d2a20f147141f94994baf1ea27dd7",
+      "bytes": 41363669,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": []
+    },
+    {
+      "group": "sources",
+      "path": "outputs/shenzhen_resolution_20261112/round03_partial_labels/inputs/萧山区_labels.npz",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round03_partial_labels\\inputs\\萧山区_labels.npz",
+      "sha256": "056bd45e630d2689a92ed366f82bc60ed08c9f68e95d5ef727980419b826f0c2",
+      "bytes": 5430,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": []
+    },
+    {
+      "group": "sources",
+      "path": "outputs/shenzhen_resolution_20261112/round03_partial_labels/inputs/富阳区.pkl",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round03_partial_labels\\inputs\\富阳区.pkl",
+      "sha256": "5be8cf0156abf047c5890683e2977a63a05b116d7fd04637f2672bccef108a3b",
+      "bytes": 3000179,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": []
+    },
+    {
+      "group": "sources",
+      "path": "outputs/shenzhen_resolution_20261112/round03_partial_labels/inputs/富阳区_labels.npz",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round03_partial_labels\\inputs\\富阳区_labels.npz",
+      "sha256": "eca745f58c21bb35bc53d36ef9a328c8fdd098b15b7d9aa90511d77fdb89cf58",
+      "bytes": 3016,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": []
+    },
+    {
+      "group": "sources",
+      "path": "outputs/shenzhen_resolution_20261112/round03_partial_labels/inputs/临安区.pkl",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round03_partial_labels\\inputs\\临安区.pkl",
+      "sha256": "70be90087ac6c0d725c809220d331031d09ff1c8c8f215b9f3a61faccc6d5a9e",
+      "bytes": 4520963,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": []
+    },
+    {
+      "group": "sources",
+      "path": "outputs/shenzhen_resolution_20261112/round03_partial_labels/inputs/临安区_labels.npz",
+      "original_path": "F:\\学区划片描述\\学区归属模型_代码库\\outputs\\shenzhen_resolution_20261112\\round03_partial_labels\\inputs\\临安区_labels.npz",
+      "sha256": "c62b72b9a5e25307c6ed46be47823a5856a0da7b291514a30d10fa94e0ff05c8",
+      "bytes": 3325,
+      "package_required": true,
+      "public_path": null,
+      "already_published_same_hash": []
+    }
+  ]
+}

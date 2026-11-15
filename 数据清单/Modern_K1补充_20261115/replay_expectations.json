@@ -1,0 +1,23 @@
+{
+  "baseline": "categorical_policy ensemble; historical 898/1761, distinct from later 912/1761 hybrid",
+  "districts": {
+    "龙华区": {
+      "probabilities": {
+        "20261231": "8134f8b854e90d87b850377b0ce2cf12cd3f7f500bc14907ca731cafb6d56a4c",
+        "20261232": "2621a047fc291d1383a3fe9393b032b46a0af9f89e2d771696e1b3527bfc4997",
+        "20261233": "4b800ec34dfb19cd79a77c38336ae602978ea8710f4064c63bc0b76c5692fc66"
+      },
+      "complete_prediction_records_sha256": "1d46162e110ba82c088c9c9e8e8feb5cafc36abbb62920c6f37c9bac0d108dfb",
+      "school_sets_sha256": "5f52ec0e0189ff376570d3a2a4c2af3087d3f7a2954c495aa374d3588a666b30"
+    },
+    "龙岗区": {
+      "probabilities": {
+        "20261231": "72b1fae5dd671ebac12352588354308250efd7dc9f8e9a31547bd73f0750be42",
+        "20261232": "4daf54503bde1e1c2c71e4a2a724588b5a715d734ecb48249ac8ac1e1a76b82b",
+        "20261233": "fb2225241b8f6d82eaefa544db9b16f7c41dbe186f47a6230ddfd0a54a1786ab"
+      },
+      "complete_prediction_records_sha256": "e386d45adfb3ccd04296975e8678a34593dddae0a14104ffa346dffe6fae103d",
+      "school_sets_sha256": "0593b62353e6967884fa54f8e266cebe024103e59cb570c4bdf89cc447ab9e63"
+    }
+  }
+}
