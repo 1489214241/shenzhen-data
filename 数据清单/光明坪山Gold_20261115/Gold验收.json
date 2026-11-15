@@ -1,0 +1,40 @@
+{
+  "districts": {
+    "光明区": {
+      "candidate_coordinate_groups": 167,
+      "schools": 48,
+      "gold_coordinate_groups": 167,
+      "single_school": 0,
+      "multiple_school": 167,
+      "outside_selected_map": 0,
+      "max_school_count": 12,
+      "raw_invalid_paths_preserved": 3,
+      "independent_even_odd_pairs": 8016,
+      "independent_valid_geos_pairs": 7515,
+      "boundary_groups": 0,
+      "feature_row_order_aligned": true,
+      "geometry_repair": false
+    },
+    "坪山区": {
+      "candidate_coordinate_groups": 107,
+      "schools": 31,
+      "gold_coordinate_groups": 107,
+      "single_school": 3,
+      "multiple_school": 104,
+      "outside_selected_map": 0,
+      "max_school_count": 5,
+      "raw_invalid_paths_preserved": 2,
+      "independent_even_odd_pairs": 3317,
+      "independent_valid_geos_pairs": 3103,
+      "boundary_groups": 0,
+      "feature_row_order_aligned": true,
+      "geometry_repair": false
+    }
+  },
+  "feature_hashes_unchanged_after_gold": true,
+  "point_kernel_source": "数据/深圳/光明坪山/来源存档/深圳市/光明坪山准入核查_20261115/current_sources/guangming_map_browser.json::point_predicate",
+  "point_kernel_sha256": "7627121faf1e63e23886b307d0502b73adb0f754e5a220d637b48eb6e1bf1e09",
+  "pingshan_kernel_basis": "archived page calls BMapLib.GeoUtils1.2; same kernel, raw authorized 2026-10-23 paths, live query overrides not obtained",
+  "no_training": true,
+  "old_read_attempts": []
+}

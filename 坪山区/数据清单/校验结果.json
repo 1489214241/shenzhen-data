@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "candidate_coordinate_groups": 107,
+  "schools": 31,
+  "gold_coordinate_groups": 107,
+  "single_school": 3,
+  "multiple_school": 104,
+  "outside_selected_map": 0,
+  "max_school_count": 5,
+  "raw_invalid_paths_preserved": 2,
+  "independent_even_odd_pairs": 3317,
+  "independent_valid_geos_pairs": 3103,
+  "boundary_groups": 0,
+  "feature_row_order_aligned": true,
+  "geometry_repair": false
+}
