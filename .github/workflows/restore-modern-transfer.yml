@@ -1,0 +1,40 @@
+name: Frozen Modern artifact transfer
+on:
+  push:
+    branches: ['chatgpt/restored-modern-20261115']
+    paths: ['.github/workflows/restore-modern-transfer.yml']
+permissions:
+  contents: read
+jobs:
+  transfer:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: cde72693beeabf05275305c76adce1eebfbf74f5
+          persist-credentials: false
+      - name: Download exact public Release and check digests
+        run: |
+          mkdir -p transfer
+          python3 - <<'PY'
+          import urllib.request,pathlib,hashlib,json
+          out=pathlib.Path('transfer')
+          expected={'modern-k1-missing-47.zip':'11041ecd83c8340e731112460e7d272b0d84e780639a7f6e9f4e2c27a1558d27','modern-source-eight-16.zip':'3afdd85a869acac79305ceae8f5b2a3f99ea71401a85d787083609fa5f5a838a'}
+          receipt={}
+          for name,h in expected.items():
+              url='https://github.com/1489214241/shenzhen-data/releases/download/modern-k1-artifacts-20261115/'+name
+              with urllib.request.urlopen(url,timeout=120) as r: raw=r.read()
+              assert hashlib.sha256(raw).hexdigest()==h, name
+              (out/name).write_bytes(raw)
+              receipt[name]={'bytes':len(raw),'sha256':h,'verified':True}
+          (out/'receipt.json').write_text(json.dumps(receipt,indent=2))
+          print(json.dumps(receipt,indent=2))
+          PY
+          git archive --format=zip --output=transfer/source_cde7269.zip HEAD
+      - uses: actions/upload-artifact@v4
+        with:
+          name: frozen-modern-release-transfer
+          path: transfer/
+          retention-days: 7
+          if-no-files-found: error
